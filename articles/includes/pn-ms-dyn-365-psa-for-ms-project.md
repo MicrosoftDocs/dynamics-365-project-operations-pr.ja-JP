@@ -1,0 +1,1 @@
+Microsoft Project 用 Dynamics 365 Project Service Automation アドイン
