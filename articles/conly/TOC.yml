@@ -1,0 +1,440 @@
+- name: Dynamics 365 Project Operations (モード 2)
+  items:
+    - name: Dynamics 365 Project Operations (モード 2) ホーム ページ
+      href: project-operations-mode-2-home-page.md
+    - name: 該当するシナリオ
+      href: applicable-scenarios.md
+    - name: 新機能
+      href: whats-new-mode-2-project-operations.md
+    - name: 環境の設定
+      href: set-up-environment-mode-2.md
+    - name: サンプル データ
+      href: sample-data-mode-2.md
+    - name: 営業プロセス
+      items:
+        - name: 営業プロセスの概要
+          href: ../project-operations/sales/sales-overview.md
+        - name: 主な相違点
+          href: ../project-operations/sales/key-differences.md
+        - name: 設定
+          items:
+            - name: 製品
+              href: ../project-operations/sales/sales-products.md
+            - name: 出荷単位および出荷単位一覧
+              href: ../project-operations/sales/sales-units-unit-groups.md
+            - name: 通貨
+              href: ../project-operations/sales/sales-currency.md
+        - name: リードの管理
+          href: ../project-operations/sales/managing-leads.md
+        - name: 営業案件の管理
+          items:
+            - name: 営業案件ヘッダー
+              href: ../project-operations/sales/opportunity-header.md
+            - name: 製品ベースの明細行
+              href: ../project-operations/sales/product-based-lines.md
+            - name: プロジェクトベースの明細行
+              href: ../project-operations/sales/project-based-lines.md
+            - name: 見積もりと営業案件の関連付け
+              href: ../project-operations/sales/link-quotes-opportunities.md
+            - name: 営業案件のクローズ
+              href: ../project-operations/sales/close-opportunity.md
+        - name: 見積もりの管理
+          items:
+            - name: 重要な概念
+              href: ../project-operations/sales/quotes-key-concepts.md
+            - name: 見積もり値、顧客予算、および上限の管理
+              href: ../project-operations/sales/quote-values-budget-limits.md
+            - name: 見積もりの複数の顧客の管理
+              href: ../project-operations/sales/manage-multiple-customers-quote.md
+            - name: 製品ベースの見積依頼明細行
+              items:
+                - name: 製品原価計算ベースの見積依頼明細行
+                  href: ../project-operations/sales/costing-product-based-quote-lines.md
+                - name: 製品ベースの見積依頼明細行の複雑な出荷単位の管理
+                  href: ../project-operations/sales/managing-complex-units-product-based-quote-lines.md
+            - name: プロジェクトベースの見積依頼明細行
+              items:
+                - name: プロジェクト価格表の管理
+                  href: ../project-operations/sales/manage-project-price-lists.md
+                - name: 見積依頼明細行の複数の顧客の管理
+                  href: ../project-operations/sales/manage-multiple-customers-quote-line.md
+                - name: 見積依頼明細行へのプロジェクトとタスクのマップ
+                  href: ../project-operations/sales/mapping-projects-tasks-quote-line.md
+                - name: 見積依頼明細行の見積もりの作成
+                  href: ../project-operations/sales/create-estimate-quote-line.md
+                - name: プロジェクトから見積依頼明細行への見積もりのインポート
+                  href: ../project-operations/sales/import-estimate-project-quote-line.md
+                - name: 見積もり値、顧客予算、および上限の管理
+                  href: ../project-operations/sales/manage-quoted-values-budget-limites-quote-line.md
+                - name: 見積依頼明細行の請求スケジュール
+                  href: ../project-operations/sales/invoice-schedule-quote-line.md
+            - name: 見積もりの獲得
+              href: ../project-operations/sales/win-quote.md
+            - name: 見積もりの破棄
+              href: ../project-operations/sales/lose-quote.md
+        - name: 契約の管理
+          items:
+            - name: 重要な概念
+              href: ../project-operations/sales/contracts-key-concepts.md
+            - name: 契約値、顧客予算、および上限の管理
+              href: ../project-operations/sales/contract-quote-values-budgets-limits.md
+            - name: 契約の複数の顧客の管理
+              href: ../project-operations/sales/manage-multiple-customers-contract.md
+            - name: 製品ベースの契約品目
+              items:
+                - name: 製品原価計算ベースの契約品目
+                  href: ../project-operations/sales/cost-product-based-contract-lines.md
+                - name: 製品ベースの契約品目の複雑な出荷単位の管理
+                  href: ../project-operations/sales/manage-complex-units-product-based-contract-lines.md
+            - name: プロジェクトベースの契約品目
+              items:
+                - name: プロジェクト価格表の管理
+                  href: ../project-operations/sales/manage-project-price-lists.md
+                - name: 契約品目の複数の顧客の管理
+                  href: ../project-operations/sales/manage-multiple-customers-contract-line.md
+                - name: 契約品目へのプロジェクトとタスクのマップ
+                  href: ../project-operations/sales/mapping-projects-tasks-contract-line.md
+                - name: プロジェクトから契約品目への見積もりの作成
+                  href: ../project-operations/sales/create-estimate-project-contract-line.md
+                - name: プロジェクトから契約品目への見積もりのインポート
+                  href: ../project-operations/sales/import-estimate-project-contract-line.md
+                - name: 契約品目の契約値、顧客予算、および上限の管理
+                  href: ../project-operations/sales/manage-contract-values-project-based.md
+                - name: 見積依頼明細行の請求スケジュール
+                  href: ../project-operations/sales/invoice-schedules-quote-line.md
+            - name: 契約の確認
+              href: ../project-operations/sales/confirm-contract.md
+            - name: 作業完了として契約をクローズする
+              href: ../project-operations/sales/close-contract-work-completed.md
+            - name: キャンセル済みとして契約をクローズする
+              href: ../project-operations/sales/close-contract-canceled.md
+    - name: 価格設定と原価計算
+      items:
+        - name: 製品価格表
+          href: ../project-operations/pricing-costing/product-price-lists.md
+        - name: プロジェクト価格表
+          items:
+            - name: 原価価格表
+              items:
+                - name: 原価価格表の設定
+                  href: ../project-operations/pricing-costing/cost-price-list-setup.md
+                - name: 価格表の既定値
+                  href: ../project-operations/pricing-costing/cost-price-list-default.md
+                - name: 既定値の上書き
+                  href: ../project-operations/pricing-costing/cost-override-default.md
+            - name: 営業用価格表の設定
+              items:
+                - name: 営業価格表の設定
+                  href: ../project-operations/pricing-costing/sales-price-list-setup.md
+                - name: 営業価格表の既定値
+                  href: ../project-operations/pricing-costing/sales-price-list-default.md
+                - name: 既定値の上書き
+                  href: ../project-operations/pricing-costing/sales-override-default.md
+        - name: 価格ディメンション
+          items:
+            - name: 価格ディメンションの概要
+              href: ../project-operations/pricing-costing/pricing-dimension-overview.md
+            - name: Project Operations 内の既存のフィールドを価格ディメンションとして使用する
+              href: ../project-operations/pricing-costing/use-existing-field-pricing-dimension.md
+            - name: 価格ディメンションとしてのカスタム フィールド
+              items:
+                - name: 価格ディメンションとしてカスタム フィールドとエンティティを作成する
+                  href: ../project-operations/pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: カスタム フィールドを価格設定およびトランザクション エンティティに追加する
+                  href: ../project-operations/pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: 価格ディメンションとしてカスタム フィールドを設定する
+                  href: ../project-operations/pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: 価格設定ディメンションをオフにする
+              href: ../project-operations/pricing-costing/turn-off-pricing-dimension.md
+    - name: プロジェクト管理
+      items:
+        - name: プロジェクト管理の概要
+          href: ../project-operations/project-management/project-management-overview.md
+        - name: プロジェクト ステージ
+          href: ../project-operations/project-management/project-stages.md
+        - name: UI のナビゲーション
+          href: ../project-operations/project-management/navigate-ui.md
+        - name: プロジェクトの状態について
+          href: ../project-operations/project-management/understand-project-status.md
+        - name: プロジェクト カレンダーの定義
+          href: ../project-operations/project-management/define-project-calendars.md
+        - name: プロジェクトの作成
+          items:
+            - name: 初期見積もりの作成
+              href: ../project-operations/project-management/create-initial-estimates.md
+            - name: プロジェクト カレンダーの設定
+              href: ../project-operations/project-management/set-project-calendar.md
+            - name: プロジェクト通貨の設定
+              href: ../project-operations/project-management/set-project-currency.md
+            - name: 顧客の定義
+              href: ../project-operations/project-management/set-customer.md
+            - name: グループの追加
+              href: ../project-operations/project-management/add-group.md
+        - name: プロジェクトの更新
+          href: ../project-operations/project-management/update-project.md
+        - name: プロジェクトのコピー
+          href: ../project-operations/project-management/copy-project.md
+        - name: WBS (作業分解構造) の計画
+          items:
+            - name: WBS (作業分解構造) の作成
+              items:
+                - name: タスクの作成
+                  href: ../project-operations/project-management/wbs-create-tasks.md
+                - name: 切り取り、コピー、および貼り付けタスク
+                  href: ../project-operations/project-management/cut-copy-paste-tasks.md
+                - name: 元に戻すおよび再実行タスク
+                  href: ../project-operations/project-management/undo-redo-tasks-wbs.md
+                - name: WBS (作業分解構造) 階層
+                  href: ../project-operations/project-management/work-breakdown-structure-hierarchy.md
+                - name: タスクの一括更新
+                  href: ../project-operations/project-management/bulk-task-updates.md
+                - name: タスクの詳細の編集
+                  href: ../project-operations/project-management/edit-task-details.md
+            - name: 割り当ての作成
+              items:
+                - name: 既存のリソースの追加
+                  href: ../project-operations/project-management/add-existing-resources.md
+                - name: 汎用リソースの追加
+                  href: ../project-operations/project-management/add-generic-resources.md
+                - name: タスクの工数、期間、終了日に対する割り当ての影響について
+                  href: ../project-operations/project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: 割り当ての配分型の表示
+                  href: ../project-operations/project-management/view-assignment-contours.md
+            - name: タスク管理エクスペリエンスのナビゲーション
+              items:
+                - name: 列の管理
+                  href: ../project-operations/project-management/column-management.md
+                - name: ビュー
+                  href: ../project-operations/project-management/task-management-views.md
+                - name: バケット
+                  href: ../project-operations/project-management/task management-buckets.md
+        - name: プロジェクトの見積もり
+          items:
+            - name: プロジェクトの見積もりの概要
+              href: ../project-operations/project-management/estimate-projects-overview.md
+            - name: リソースの見積もり
+              items:
+                - name: プロジェクト計画の変更を反映するためのプロジェクトの見積もりの更新
+                  href: ../project-operations/project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: プロジェクトの見積もりの価格と原価率の更新
+                  href: ../project-operations/project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: リソースの原価価格と原価通貨の既定値
+                  href: ../project-operations/project-management/resource-default-cost-price-cost-currency.md
+                - name: リソースの請求レートと販売通貨の既定値
+                  href: ../project-operations/project-management/resource-default-bill-rate-sales-currency.md
+            - name: 経費の見積もりの作成
+              items:
+                - name: 経費の原価価格と原価通貨の既定値
+                  href: ../project-operations/project-management/expense-default-cost-price-cost-currency.md
+                - name: 経費の請求レートと販売通貨の既定値
+                  href: ../project-operations/project-management/expense-default-bill-rate-sales-currency.md
+        - name: 見積もりと契約の作成
+          items:
+            - name: 見積もりへの WBS (作業分解構造) のインポート
+              href: ../project-operations/project-management/import-wbs-structure-quotes.md
+            - name: 契約への WBS (作業分解構造) のインポート
+              href: ../project-operations/project-management/import-wbs-structure-contracts.md
+        - name: プロジェクトの追跡
+          items:
+            - name: プロジェクトの追跡ホームページ
+              href: ../project-operations/project-management/cost-vs-effort-overview.md
+            - name: 列の定義
+              items:
+                - name: 工数
+                  href: ../project-operations/project-management/effort.md
+                - name: 原価
+                  href: ../project-operations/project-management/cost.md
+                - name: 営業
+                  href: ../project-operations/project-management/sales.md
+            - name: 完了時予測の更新
+              href: ../project-operations/project-management/update-completed-estimate.md
+        - name: プロジェクト チーム メンバー
+          items:
+            - name: プロジェクト チーム メンバーの概要
+              href: ../project-operations/project-management/project-team-members-overview.md
+            - name: チーム メンバーの維持管理
+              items:
+                - name: チーム メンバーの追加
+                  href: ../project-operations/project-management/add-team-members.md
+                - name: プロジェクト チーム メンバーの更新
+                  href: ../project-operations/project-management/update-project-team-members.md
+                - name: チーム メンバーの削除
+                  href: ../project-operations/project-management/delete-team-members.md
+                - name: 予約の維持管理
+                  href: ../project-operations/project-management/maintain-bookings.md
+                - name: プロジェクト承認者
+                  href: ../project-operations/project-management/project-approvers.md
+        - name: 営業
+          items:
+            - name: '[営業] タブの概要'
+              href: ../project-operations/project-management/sales-tab-overview.md
+        - name: コラボレーション
+          items:
+            - name: グループ
+              href: ../project-operations/project-management/groups.md
+        - name: プロジェクト計画のよくあるご質問
+          href: ../project-operations/project-management/project-planning-faq.md
+    - name: リソース管理
+      items:
+        - name: リソース管理の概要
+          href: ../project-operations/resource-management/resource-management-overview.md
+        - name: 重要な概念
+          href: ../project-operations/resource-management/resource-management-key-concepts.md
+        - name: 予約と割り当て
+          href: ../project-operations/resource-management/booking-vs-assignment.md
+        - name: リソース管理モード
+          items:
+            - name: リソース管理モードの概要
+              href: ../project-operations/resource-management/resource-management-mode-overview.md
+            - name: ハイブリッド
+              href: ../project-operations/resource-management/resource-management-mode-hybrid.md
+            - name: セントラル
+              href: ../project-operations/resource-management/resource-management-mode-central.md
+        - name: 一元管理予約
+          items:
+            - name: 一元管理予約の概要
+              href: ../project-operations/resource-management/centralized-booking-overview.md
+            - name: タスクへの汎用チーム メンバーの追加
+              href: ../project-operations/resource-management/add-generic-team-members-tasks.md
+            - name: リソース要件の定義
+              href: ../project-operations/resource-management/define-resource-requirements.md
+            - name: 要件の配分型の定義
+              href: ../project-operations/resource-management/define-resource-requirement-contours.md
+            - name: リソース要件の更新
+              href: ../project-operations/resource-management/update-resource-requirements.md
+            - name: リソース要件の送信
+              href: ../project-operations/resource-management/submit-resource-requirements.md
+            - name: リソース要求
+              items:
+                - name: リソース要求の概要
+                  href: ../project-operations/resource-management/resource-requests-overview.md
+                - name: フィールドとアクションの確認
+                  href: ../project-operations/resource-management/review-fields-actions.md
+                - name: リソースの検索
+                  href: ../project-operations/resource-management/find-resources.md
+                - name: 提案されたリソースの確認
+                  href: ../project-operations/resource-management/review-proposed-resources.md
+        - name: 分散型リソース予約
+          items:
+            - name: 分散型リソース予約の概要
+              href: ../project-operations/resource-management/decentralized-resource-booking-overview.md
+            - name: 直接予約のオプション
+              href: ../project-operations/resource-management/options-book-directly.md
+            - name: 汎用リソース要件の対応
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: リソースの管理
+          items:
+            - name: リソースの作成
+              href: ../project-operations/resource-management/create-resources.md
+            - name: スキルと能力の定義
+              href: ../project-operations/resource-management/define-skills-proficiencies.md
+            - name: ロールの定義
+              href: ../project-operations/resource-management/define-roles.md
+            - name: リソース カレンダーの定義
+              href: ../project-operations/resource-management/define-resource-calendars.md
+            - name: 組織単位とのリソースの関連付け
+              href: ../project-operations/resource-management/associate-resources-organizational-units.md
+            - name: 会社とのリソースの関連付け
+              href: ../project-operations/resource-management/associate-resources-companies.md
+        - name: 予約割り当ての方法
+          href: ../project-operations/resource-management/booking-allocation-methods.md
+        - name: 予約状態
+          href: resource-management/booking-status.md
+        - name: スキルおよび実力モデル
+          href: ../project-operations/resource-management/skills-proficiency-models.md
+        - name: リソースの調整
+          items:
+            - name: リソースの調整の概要
+              href: ../project-operations/resource-management/resource-reconciliation-overview.md
+            - name: 重要な概念
+              href: ../project-operations/resource-management/resource-reconciliation-key-concepts.md
+            - name: ナビゲーション
+              href: ../project-operations/resource-management/resource-reconciliation-navigation.md
+            - name: 予約の延長
+              href: ../project-operations/resource-management/extend-bookings.md
+            - name: 複数のタイム ゾーンの管理
+              href: ../project-operations/resource-management/manage-multiple-time-zones.md
+        - name: リソース稼働率
+          items:
+            - name: リソース稼働率の概要
+              href: ../project-operations/resource-management/resource-utilization-overview.md
+            - name: 検索、設定、およびナビゲーション
+              href: ../project-operations/resource-management/search-settings-navigation.md
+        - name: スケジュール ボード
+          items:
+            - name: ナビゲーションおよび主要な設定
+              href: ../project-operations/resource-management/navigation-key-settings-urs.md
+            - name: 個人用設定
+              href: ../project-operations/resource-management/personalization-urs.md
+            - name: 検索
+              href: ../project-operations/resource-management/search-urs.md
+            - name: 予約アクション
+              href: ../project-operations/resource-management/booking-actions-urs.md
+            - name: 予約
+              items:
+                - name: プロジェクトの予約
+                  href: ../project-operations/resource-management/book-project.md
+                - name: オープンな要件の予約
+                  href: ../project-operations/resource-management/book-open-requirements.md
+                - name: リソースの代替
+                  href: ../project-operations/resource-management/substitute-resources.md
+                - name: 既存の予約の編集
+                  href: ../project-operations/resource-management/edit-existing-bookings.md
+        - name: リソース管理に関するよくあるご質問
+          href: ../project-operations/resource-management/resource-management-faq.md
+    - name: 時間
+      items:
+        - name: 時間エントリの概要
+          href: ../project-operations/time/time-entry-overview.md
+        - name: 時間エントリの作成
+          items:
+            - name: 予約、割り当て、およびカレンダー エントリのインポート
+              href: ../project-operations/time/import-bookings-assignments-calendar-entries.md
+            - name: UI の動作
+              href: ../project-operations/time/ui-behavior.md
+        - name: 時間エントリの送信
+          href: ../project-operations/time/submit-time-entries.md
+        - name: 時間エントリの取り消し
+          items:
+            - name: 承認前
+              href: ../project-operations/time/recall-time-entries-before-approval.md
+            - name: 承認後
+              href: ../project-operations/time/recall-time-entries-after-approval.md
+        - name: 時間エントリの承認
+          href: ../project-operations/time/approvals.md
+        - name: 開発者用メモ
+          items:
+            - name: 時間エントリの延長
+              href: ../project-operations/time/extending-time-entries.md
+            - name: 週単位の時間エントリ グリッドのカスタマイズ
+              href: ../project-operations/time/customize-weekly-time-entry-grid.md
+            - name: セキュリティに関する考慮事項
+              href: ../project-operations/time/security-considerations.md
+    - name: 経費
+      items:
+        - name: 経費ホーム ページ
+          href: ../project-operations/expense/expense-overview.md
+        - name: 経費エントリ
+          href: expense-entry.md
+    - name: 承認
+      items:
+        - name: 概要
+          href: ../project-operarations/approvals/approvals-overview.md
+        - name: 時間エントリの承認
+          href: approvals/approving-time-entries.md
+        - name: 経費エントリの承認
+          href: approve-expense-entries.md
+    - name: 見積もり請求
+      items:
+        - name: 請求スケジュールの作成
+          href: ../project-operarations/proforma-invoicing/create-invoice-schedules.md
+        - name: 手動見積もり請求の作成
+          href: ../project-operarations/proforma-invoicing/create-manual-proforma-invoice.md
+        - name: 見積もり請求の管理
+          href: ../project-operarations/proforma-invoicing/manage-proforma-invoice.md
+        - name: 見積もり請求の確認
+          href: ../project-operarations/proforma-invoicing/confirm-proforma-invoice.md
+        - name: 訂正請求書
+          href: ../project-operarations/proforma-invoicing/corrective-invoices.md
+        - name: 請求書自動作成の構成
+          href: ../project-operarations/proforma-invoicing/configure-automated-invoice-creation.md

@@ -1,0 +1,1 @@
+<span data-ttu-id="41f37-101">Dynamics 365 (online) バージョン 9.x の Project Service アプリ バージョン 2.4.4.30 に適用</span><span class="sxs-lookup"><span data-stu-id="41f37-101">Applies to Project Service app version 2.4.4.30 or earlier on Dynamics 365 (online) version 9.x</span></span>

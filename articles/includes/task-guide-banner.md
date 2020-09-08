@@ -1,0 +1,3 @@
+> [!IMPORTANT]
+> <span data-ttu-id="3056a-101">Dynamics 365 for Finance and Operations は、特定のビジネス機能の管理に役立つ目的別アプリケーションへと進化しました。</span><span class="sxs-lookup"><span data-stu-id="3056a-101">Dynamics 365 for Finance and Operations has evolved into purpose-built applications to help you manage specific business functions.</span></span> <span data-ttu-id="3056a-102">これらの変更の詳細については、[Dynamics 365 ライセンス ガイド](https://mbs.microsoft.com/Files/public/365/Dynamics365LicensingGuide.pdf) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="3056a-102">For more information about these changes, see [Dynamics 365 Licensing Guide](https://mbs.microsoft.com/Files/public/365/Dynamics365LicensingGuide.pdf).</span></span>
+ 

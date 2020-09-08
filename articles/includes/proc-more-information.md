@@ -1,0 +1,1 @@
+<span data-ttu-id="39a1c-101">詳細:</span><span class="sxs-lookup"><span data-stu-id="39a1c-101">More information:</span></span>
