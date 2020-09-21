@@ -1,0 +1,68 @@
+---
+title: リソースの仮予約
+description: このトピックでは、プロジェクトチームメンバーの暫定的なスケジュールを作成したり、チームメンバーを仮予約する方法についての情報を示します。
+author: ruhercul
+manager: kfend
+ms.service: business-applications
+ms.custom:
+- dyn365-projectservice
+ms.date: 9/25/2019
+ms.topic: article
+ms.prod: Applies to Project Service version 3.x
+ms.technology: ''
+ms.assetid: 04e02ff7-1024-4b65-a281-6f149921b63d
+ms.author: ruhercul
+audience: Admin
+ms.openlocfilehash: 07e768d756732e31df82a9865b957dae09c60821
+ms.sourcegitcommit: 8c786230ef2a497280885b827162561776e2eb00
+ms.translationtype: HT
+ms.contentlocale: ja-JP
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3752822"
+---
+# <a name="soft-book-a-resource"></a><span data-ttu-id="2b64c-103">リソースの仮予約</span><span class="sxs-lookup"><span data-stu-id="2b64c-103">Soft book a resource</span></span>
+
+[!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+
+<span data-ttu-id="2b64c-104">プロジェクトにリソースを割り当てる予定であることを示すため、リソースをプロジェクト チームに一時的にスケジュールつまり "仮予約" することができます。</span><span class="sxs-lookup"><span data-stu-id="2b64c-104">You can tentatively schedule or "soft book" a resource onto a project team to show that you plan to assign the resource to the project.</span></span> <span data-ttu-id="2b64c-105">仮予約では、リソースの空きキャパシティは消費されず、仮予約されたチーム メンバーをプロジェクト タスクに割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="2b64c-105">Soft bookings don’t consume a resource’s available capacity, and you can assign soft-booked team members to project tasks.</span></span> <span data-ttu-id="2b64c-106">ただし、仮予約してもリソースのキャパシティが消費されないため、期間内の他のタスク作業用のリソースもできます。</span><span class="sxs-lookup"><span data-stu-id="2b64c-106">However, because soft booking doesn’t consume a resource’s capacity, you can still "hard book" the resource for other tasks within the same period.</span></span> <span data-ttu-id="2b64c-107">汎用リソースを仮予約したり、仮予約で汎用リソースを実行することはできません。</span><span class="sxs-lookup"><span data-stu-id="2b64c-107">Generic resources can’t be soft booked, nor can a soft booking fulfill a request for a generic resource.</span></span>
+
+<span data-ttu-id="2b64c-108">仮予約されたプロジェクトチームメンバーは **プロジェクト** ページの **チーム** タブに一覧表示され、仮予約された時間は **名前付きチームメンバー** ビューの **仮予約時間** 列に表示されます。</span><span class="sxs-lookup"><span data-stu-id="2b64c-108">Soft-booked project team members are listed on the **Team** tab of the **Project** page, with their soft-booked hours shown in the **Soft Booked Hours** column in the **Named Team Members** view.</span></span> <span data-ttu-id="2b64c-109">仮予約されたチーム メンバーもスケジュール ボードに表示されます。</span><span class="sxs-lookup"><span data-stu-id="2b64c-109">Soft-booked team members are also listed on the Schedule board.</span></span> <span data-ttu-id="2b64c-110">仮予約されているため、スケジュール ボードにはこれらのリソースのキャパシティの使用量については表示されません。</span><span class="sxs-lookup"><span data-stu-id="2b64c-110">Because they are soft booked, the Schedule board doesn't show any consumption of capacity for these resources.</span></span> <span data-ttu-id="2b64c-111">仮予約された時間は、 **調整** タブにも表示されず、スケジュールボードの **調整** タブの **予約の延長** フィールドにも表示されません。</span><span class="sxs-lookup"><span data-stu-id="2b64c-111">Soft-booked time doesn’t show up on the **Reconciliation** tab, nor is it shown in the **Extend Bookings** field in the **Reconciliation** tab of the Schedule board.</span></span> 
+
+<span data-ttu-id="2b64c-112">プロジェクトにチーム メンバーを仮予約する方法は 2 つあります。スケジュール ボードから直接行う方法と、 **チーム** タブでチーム メンバーを追加する方法です。</span><span class="sxs-lookup"><span data-stu-id="2b64c-112">There are two ways to soft book a team member onto a project: directly from the Schedule board, or by adding the team member on the **Team** tab.</span></span> 
+
+## <a name="soft-book-from-the-schedule-board"></a><span data-ttu-id="2b64c-113">スケジュール ボードから仮予約をする</span><span class="sxs-lookup"><span data-stu-id="2b64c-113">Soft book from the Schedule board</span></span>
+<span data-ttu-id="2b64c-114">スケジュール ボードの新しいリソース要件から予約を行うには、以下の手順を完了してください。</span><span class="sxs-lookup"><span data-stu-id="2b64c-114">Complete the following steps to soft book a resource from the Schedule board.</span></span> 
+
+1. <span data-ttu-id="2b64c-115">スケジュール ボードを開き、 **予約要件** パネルにて、 **プロジェクト** タブを選択します。</span><span class="sxs-lookup"><span data-stu-id="2b64c-115">Open the Schedule board, and then in the **Booking Requirements** panel, select the **Project** tab.</span></span>
+2. <span data-ttu-id="2b64c-116">リソースを仮予約するプロジェクトを検索します。</span><span class="sxs-lookup"><span data-stu-id="2b64c-116">Find the project for which you want to soft book a resource.</span></span> <span data-ttu-id="2b64c-117">一覧に多数のプロジェクトがある場合は、 **プロジェクト** の列見出しを選択し、フィルタを使用して1つまたは複数のプロジェクトを検索します。</span><span class="sxs-lookup"><span data-stu-id="2b64c-117">If there are a large number of projects in the list, select the **Project** column header, and then use the filter to search for one or more projects.</span></span>
+3. <span data-ttu-id="2b64c-118">プロジェクトを選択し、リソースの時間グリッドにドラッグ アンド ドロップします。</span><span class="sxs-lookup"><span data-stu-id="2b64c-118">Select the project, and then drag-and-drop it on the resource’s time grid.</span></span>
+5. <span data-ttu-id="2b64c-119">**リソースの予約を作成する** パネルにて、開始日と終了日を調整して、 **予約の状態**を **仮予約** に設定し、時間を設定します。</span><span class="sxs-lookup"><span data-stu-id="2b64c-119">In the **Create Resource Booking** panel, adjust the start and end date, set the **Booking Status** to **Soft**, and then set the hours.</span></span> 
+6. <span data-ttu-id="2b64c-120">**予約** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="2b64c-120">Click **Book**.</span></span> <span data-ttu-id="2b64c-121">リソースがプロジェクトのリソースとして **チーム** タブに表示されます。</span><span class="sxs-lookup"><span data-stu-id="2b64c-121">The resource now shows on the **Team** tab as a resource for the project.</span></span> <span data-ttu-id="2b64c-122">**名前付きチームメンバー** ビューの **仮予約時間** 列に仮予約の時間が表示されます。</span><span class="sxs-lookup"><span data-stu-id="2b64c-122">On the **Named Team Member** view you’ll see the soft-booked hours in the **Soft Booked Hours** column.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="2b64c-123">**スケジュール** タブでタスクに仮予約をすることができます。 **調整** タブでは本予約のみが考慮されるため、 **調整** タブでは、リソースはタスク割り当てに関連する予約で不足しているものが示されます。</span><span class="sxs-lookup"><span data-stu-id="2b64c-123">You can now assign the soft booked to tasks on the **Schedule** tab. On the **Reconciliation** tab, the resource shows a booking deficit relative to the task assignment as the **Reconciliation** tab only considers hard-bookings.</span></span> <span data-ttu-id="2b64c-124">**予約の延長** 機能を使用してリソースを本予約をし、リソース割り当てに対する本予約の不足を解消することができます。</span><span class="sxs-lookup"><span data-stu-id="2b64c-124">You can use the **Extend Bookings** feature to hard-book the resource to eliminate the deficit of hard-bookings against the resources assignments.</span></span> <span data-ttu-id="2b64c-125">リソースの仮予約は、 **予約の管理** 使用して手動でキャンセルする必要があります。</span><span class="sxs-lookup"><span data-stu-id="2b64c-125">You’ll have to manually cancel the soft booking for the resource by using **Maintain Bookings**.</span></span>
+
+## <a name="soft-book-on-the-team-tab"></a><span data-ttu-id="2b64c-126">チーム タブでの仮予約</span><span class="sxs-lookup"><span data-stu-id="2b64c-126">Soft book on the Team tab</span></span>
+
+<span data-ttu-id="2b64c-127">**チーム** タブ直接チームメンバーを追加して、 **予約の管理** でチームメンバーの登録ステータスを **本予約** から **仮予約** に変更することができます。</span><span class="sxs-lookup"><span data-stu-id="2b64c-127">You can add team members directly on the **Team** tab, and then change their booking status from **Hard** to **Soft** with **Maintain Bookings**.</span></span> <span data-ttu-id="2b64c-128">この方法でチームメンバーを追加すると、割り当て方法として **なし** を選択しない限り、常に本予約となります。</span><span class="sxs-lookup"><span data-stu-id="2b64c-128">When you add a team member this way, it will always result in a hard-booking unless you select the allocation method as **None**.</span></span>
+
+<span data-ttu-id="2b64c-129">この方法を使用するには、以下のステップを実行します。</span><span class="sxs-lookup"><span data-stu-id="2b64c-129">To use this method, complete the following steps.</span></span>
+
+1. <span data-ttu-id="2b64c-130">**プロジェクト** ページの **チーム** タブで **新規** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="2b64c-130">On the **Project** page, on the **Team** tab, click **New**.</span></span>
+2. <span data-ttu-id="2b64c-131">予約可能リソース、ロール、開始日、終了日を選択します。</span><span class="sxs-lookup"><span data-stu-id="2b64c-131">Select the bookable resource, the role, and the from and to dates.</span></span>
+3. <span data-ttu-id="2b64c-132">**なし**以外の割り当て方法を選択します。</span><span class="sxs-lookup"><span data-stu-id="2b64c-132">Select an allocation method other than **None**.</span></span>
+4. <span data-ttu-id="2b64c-133">**保存**を選択します。</span><span class="sxs-lookup"><span data-stu-id="2b64c-133">Select **Save**.</span></span> <span data-ttu-id="2b64c-134">グリッド上のリソースとその時間が **本予約された時間** に表示されます。</span><span class="sxs-lookup"><span data-stu-id="2b64c-134">You’ll see the resource on the grid and their hours in the **Hard Booked Hours** column.</span></span>
+5. <span data-ttu-id="2b64c-135">**予約の管理**を選択し、リソースの予約を管理します。</span><span class="sxs-lookup"><span data-stu-id="2b64c-135">Maintain the resource’s bookings by selecting **Maintain Bookings**.</span></span>
+6. <span data-ttu-id="2b64c-136">スケジュール ボードが開いた状態で、リソースを展開すると予約が表示されます。</span><span class="sxs-lookup"><span data-stu-id="2b64c-136">When the Schedule board opens, expand the resource to show their bookings.</span></span> <span data-ttu-id="2b64c-137">予約が **本**として表示されます。</span><span class="sxs-lookup"><span data-stu-id="2b64c-137">You will see the booking shown as **Hard**.</span></span>
+7. <span data-ttu-id="2b64c-138">予約を右クリックすると、 **状態の変更**で 、 **仮予約** \> **仮**の順に選択します。</span><span class="sxs-lookup"><span data-stu-id="2b64c-138">Right-click the booking, and under **Change Status**, select **Soft Book** \> **Soft**.</span></span> <span data-ttu-id="2b64c-139">予約の状態が **仮** になります。</span><span class="sxs-lookup"><span data-stu-id="2b64c-139">The booking status is now **Soft**.</span></span>
+8. <span data-ttu-id="2b64c-140">スケジュール ボードを閉じて、 **チーム** タブの **名前付きチーム メンバー** ビューを確認すると、リソースの時間が **本予約時間** 列から **仮予約時間** に移動したことがわかります。</span><span class="sxs-lookup"><span data-stu-id="2b64c-140">After you close the Schedule board, you’ll see that the hours for the resource have moved from the **Hard Booked Hours** column to the **Soft Booked Hours** on the **Team** tab grid, when looking at the **Named Team Members** view.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="2b64c-141">**予約の管理** を使用して状態を **本** から **仮**に変更した場合で、リソースをチームに本予約してからそのリソースにタスクを割り当てると、そのリソースに割当てられたタスクは維持されます。</span><span class="sxs-lookup"><span data-stu-id="2b64c-141">When you use **Maintain Bookings** to change the status from **Hard** to **Soft**, if you hard-book a resource onto the team and then assign tasks to the resource, the task assignments for the resource are retained.</span></span> <span data-ttu-id="2b64c-142">ただし、 **調整タブ** では、予約と割り当ての調整をする際には本予約のみが考慮されるため、リソースの予約が不足することになります。</span><span class="sxs-lookup"><span data-stu-id="2b64c-142">However, on the **Reconciliation** tab, the resource will have a booking deficiency because only hard-bookings are considered when reconciling bookings versus assignments.</span></span> <span data-ttu-id="2b64c-143">**調整** タブで **予約の延長** 機能を使用することで、 リソースの割り当てに対する本予約の不足を解消することができます。</span><span class="sxs-lookup"><span data-stu-id="2b64c-143">You can use the **Extend Bookings** feature on the **Reconciliation** tab to hard-book the resource to eliminate the deficit of hard bookings against the resources assignments.</span></span> <span data-ttu-id="2b64c-144">**予約の管理**を使用して、リソースの仮予約をキャンセルする必要があります。</span><span class="sxs-lookup"><span data-stu-id="2b64c-144">You’ll have to cancel the soft booking for the resource by using **Maintain Bookings**.</span></span>
+
+<span data-ttu-id="2b64c-145">本予約されたチーム メンバーに仮予約されたチーム メンバーのリソースを変更する準備ができたら、次の手順を実行します。</span><span class="sxs-lookup"><span data-stu-id="2b64c-145">When you’re ready to change a soft-booked team member resource to a hard-booked team member, do the following:</span></span>
+
+1. <span data-ttu-id="2b64c-146">スケジュール ボードで、リソースを展開すると予約が表示されます。</span><span class="sxs-lookup"><span data-stu-id="2b64c-146">On the Schedule board, expand the resource to show their bookings.</span></span> <span data-ttu-id="2b64c-147">予約が **仮** として表示されます。</span><span class="sxs-lookup"><span data-stu-id="2b64c-147">You’ll see the booking shown as **Soft**.</span></span>
+2. <span data-ttu-id="2b64c-148">予約を右クリックし、 **状態の変更** で **本予約** \> **本**の順に選択します。</span><span class="sxs-lookup"><span data-stu-id="2b64c-148">Right-click the booking, and under **Change Status**, select **Hard Book** \> **Hard**.</span></span> <span data-ttu-id="2b64c-149">予約の状態が **本**になります。</span><span class="sxs-lookup"><span data-stu-id="2b64c-149">The booking status is now **Hard**.</span></span>
+3. <span data-ttu-id="2b64c-150">スケジュール ボードを閉じてプロジェクトに戻り、 **チーム** タブを開くと、 **名前付きチーム メンバー** ビューの **チーム** タブで、リソースの時間が **仮予約時間** 列から **本予約時間** に移動したことがわかります。</span><span class="sxs-lookup"><span data-stu-id="2b64c-150">After you close the Schedule board, return to the project, and open the **Team** tab, you’ll see that the hours for the resource have moved from the **Soft Booked Hours** column to the **Hard Booked Hours** column on the **Team** tab when in the **Named Team Members** view.</span></span> <span data-ttu-id="2b64c-151">リソースがタスクに割り当てられた場合は、予約が本予約とになっているため、 **調整** タブに予約の不足が表示されなくなります。</span><span class="sxs-lookup"><span data-stu-id="2b64c-151">If the resource was assigned to tasks, they’ll no longer show a booking deficit on the **Reconciliation** tab as their bookings are now hard.</span></span>
+
