@@ -1,0 +1,448 @@
+- name: Dynamics 365 Project Operations
+  href: index.md
+- name: 開始する
+  items:
+    - name: 展開の種類を決定する
+      href: environment/determine-deployment-type.md
+- name: リソース/非在庫ベースのシナリオ向け Project Operations
+  items:
+    - name: 開始する
+      items:
+        - name: プレビュー サブスクリプションにサインアップする (リソース/非在庫ベース)
+          href: environment/resource-sign-up-preview-subscription.md
+        - name: 前提条件を構成する
+          items:
+            - name: 新しい LCS プロジェクトを開始する
+              href: environment/create-lcs-project.md
+            - name: LCS プロジェクトに Azure サブスクリプションを追加する
+              href: environment/resource-add-azure-subscription-lcs-project.md
+        - name: デモ データを適用する
+          items:
+            - name: Project Operations のデモ データを Finance クラウド ホスト環境に適用する
+              href: environment/resource-apply-finance-demo-data.md
+            - name: Common Data Service の構成データを Project Operations に適用する
+              href: environment/resource-apply-pro-setup-config-data.md
+        - name: 環境の展開
+          items:
+            - name: 新しい環境をプロビジョニングする
+              href: environment/resource-provision-new-environment.md
+            - name: セキュリティ モデル
+              href: environment/security-model.md
+    - name: 営業プロセス
+      items:
+        - name: 営業の概要
+          href: sales/sales-overview.md
+        - name: 設定
+          items:
+            - name: 製品
+              href: sales/sales-products.md
+            - name: 出荷単位および出荷単位一覧
+              href: sales/sales-units-unit-groups.md
+            - name: 通貨
+              href: sales/sales-currency.md
+        - name: リードの管理
+          href: sales/manage-leads.md
+        - name: 営業案件の管理
+          items:
+            - name: 営業案件ヘッダー
+              href: sales/opportunity-header.md
+            - name: プロジェクトベースの明細行
+              href: sales/project-based-lines.md
+            - name: 営業案件からプロジェクト見積依頼を作成する
+              href: sales/link-quotes-opportunities.md
+            - name: 営業案件のクローズ
+              href: sales/close-opportunity.md
+        - name: 見積もりの管理
+          items:
+            - name: 重要な概念
+              href: sales/quotes-key-concepts.md
+            - name: 見積もりの複数の顧客の管理
+              href: sales/manage-multiple-customers-quote.md
+            - name: 製品ベースの見積依頼明細行
+              item:
+                - name: 製品原価計算ベースの見積依頼明細行
+                  href: sales/costing-product-based-quote-lines.md
+                - name: 製品ベースの見積依頼明細行の複雑な出荷単位の管理
+                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: プロジェクトベースの見積依頼明細行
+              items:
+                - name: プロジェクト価格表の管理
+                  href: sales/managing-project-price-lists.md
+                - name: 見積依頼明細行の見積もりの作成
+                  href: sales/create-estimate-quote-line.md
+                - name: 見積もり値、顧客予算、および上限の管理
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+            - name: プロジェクトベースの見積もりのコピー
+              href: sales/lose-quote.md
+            - name: 見積もりのクローズ
+              href: sales/win-quote.md
+    - name: 価格設定と原価計算
+      items:
+        - name: 製品価格表
+          href: pricing-costing/product-price-list.md
+        - name: プロジェクト価格表
+          items:
+            - name: 営業用の価格表の設定
+              items:
+                - name: 営業価格表の設定
+                  href: pricing-costing/sales-price-list-setup.md
+        - name: 価格ディメンション
+          items:
+            - name: 価格ディメンションの概要
+              href: pricing-costing/pricing-dimensions-overview.md
+            - name: 既存のフィールドを価格ディメンションとして使用する
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: 価格ディメンションとしてのカスタム フィールド
+              items:
+                - name: 価格ディメンションとしてカスタム フィールドとエンティティを作成する
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: カスタム フィールドを価格設定およびトランザクション エンティティに追加する
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: 価格ディメンションとしてカスタム フィールドを設定する
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: 価格設定ディメンションをオフにする
+              href: pricing-costing/turning-off-pricing-dimension.md
+    - name: プロジェクト管理
+      items:
+        - name: プロジェクト管理の概要
+          href: project-management/project-management-overview.md
+        - name: プロジェクト ステージ
+          href: project-management/project-stages.md
+        - name: UI のナビゲーション
+          href: project-management/navigate-ui.md
+        - name: プロジェクトの状態について
+          href: project-management/understand-project-status.md
+        - name: プロジェクト カレンダーの定義
+          href: project-management/define-project-calendars.md
+        - name: プロジェクトの更新
+          href: project-management/update-project.md
+        - name: プロジェクトのコピー
+          href: project-management/copy-project.md
+        - name: WBS (作業分解構造) の計画
+          items:
+            - name: 割り当ての作成
+              href: project-management/create-assignments.md
+        - name: プロジェクトの見積もり
+          items:
+            - name: プロジェクトの見積もりの概要
+              href: project-management/estimating-projects-overview.md
+            - name: リソースの見積もり
+              href: project-management/resource-estimates.md
+            - name: 経費の見積もりの作成
+              href: project-management/create-expense-estimates.md
+        - name: プロジェクトの追跡
+          items:
+            - name: プロジェクトの追跡の概要
+              href: project-management/project-tracking-overview.md
+            - name: 完了時予測の更新
+              href: project-management/update-completed-estimate.md
+        - name: プロジェクト チーム メンバー
+          items:
+            - name: プロジェクト チーム メンバーの概要
+              href: project-management/project-team-members-overview.md
+            - name: チーム メンバーの維持管理
+              href: project-management/maintain-team-members.md
+        - name: コラボレーション
+          items:
+            - name: Office グループでのコラボレーション
+              href: project-management/collaboration-groups.md
+    - name: リソース管理
+      items:
+        - name: 重要な概念
+          href: resource-management/resource-management-key-concepts.md
+        - name: 予約と割り当て
+          href: resource-management/booking-vs-assignment.md
+        - name: リソース管理モードの概要
+          href: resource-management/resource-management-mode-overview.md
+        - name: スケジュール アシスタントの概要
+          href: resource-management/schedule-assistant-overview.md
+        - name: 一元管理リソース予約
+          items:
+            - name: リソース要件の定義
+              href: resource-management/define-resource-requirements.md
+            - name: リソース要件の更新
+              href: resource-management/update-resource-requirements.md
+        - name: 分散型リソース予約 (ハイブリッド)
+          items:
+            - name: チーム メンバー グリッドからチーム メンバーを追加する
+              href: resource-management/add-team-members-grid.md
+        - name: 予約割り当ての方法
+          href: resource-management/booking-allocation-methods.md
+        - name: スキルおよび能力モデル
+          href: resource-management/skills-proficiency-models.md
+        - name: リソースの調整
+          items:
+            - name: リソースの調整の概要
+              href: resource-management/resource-reconciliation-overview.md
+    - name: 時間
+      items:
+        - name: 開発者用メモ
+          items:
+            - name: 週単位の時間エントリ グリッドのカスタマイズ
+              href: time/customize-weekly-time-entry-grid.md
+    - name: 経費
+      items:
+        - name: 経費の概要
+          href: expense/expense-overview.md
+        - name: プロジェクトの経費管理エクスペリエンス
+          items:
+            - name: 構成と設定
+              items:
+                - name: ポリシーの設定
+                  href: expense/set-up-policies.md
+                - name: ワークフローの設定
+                  href: expense/set-up-workflows.md
+                - name: 委任の管理
+                  href: expense/manage-delegation.md
+                - name: 経費管理パラメーターの構成
+                  href: expense/configure-expense-management-parameters.md
+                - name: クレジット カードの統合の設定
+                  href: expense/set-up-credit-card-integration.md
+                - name: 経費カテゴリの設定
+                  href: expense/set-up-expense-categories.md
+            - name: 経費精算書の作成
+              items:
+                - name: 経費精算書の配布
+                  href: expense/distributions-expense-report.md
+            - name: 経費精算書の承認
+              items:
+                - name: 経費精算書と複数の承認者
+                  href: expense/expense-reports-multiple-approvers.md
+            - name: 経費精算書の転記
+              href: expense/posting-expense-reports.md
+            - name: 出張費要求
+              href: expense/travel-requisition.md
+            - name: 現金前払い
+              href: expense/cash-advance.md
+            - name: 日当
+              href: expense/per-diems.md
+            - name: 財務管理
+              items:
+                - name: VAT 過誤納税の還付
+                  href: expense/vat-recovery.md
+            - name: 新しい経費エクスペリエンス
+              items:
+                - name: 刷新された経費報告書
+                  href: expense/expense-reports-reimagined.md
+                - name: OCR を使用した領収書と経費の照合
+                  href: expense/match-receipt-expense-ocr.md
+            - name: モバイル経費管理
+              href: expense/expense-using-mobile.md
+    - name: 承認
+      items:
+        - name: 承認の概要
+          href: approvals/approvals-overview.md
+    - name: 実績
+      items:
+        - name: 実績の概要
+          href: actuals/actuals-overview.md
+        - name: 訂正仕訳帳
+          items:
+            - name: 訂正仕訳帳の作成と確認
+              href: actuals/create-confirm-correction-journals.md
+    - name: 見積もり請求
+      items:
+        - name: 手動見積もり請求の作成
+          href: proforma-invoicing/create-manual-proforma-invoice.md
+        - name: 修正済請求書
+          href: proforma-invoicing/corrective-invoices.md
+        - name: 請求書自動作成の構成
+          href: proforma-invoicing/configure-automated-invoice-creation.md
+    - name: プロジェクト会計
+      items:
+        - name: プロジェクト カテゴリの構成
+          href: project-accounting/configure-project-categories.md
+        - name: 課金プロジェクトの会計の構成
+          href: project-accounting/configure-accounting-billable-projects.md
+- name: ライト展開 - 見積もり請求の取引
+  items:
+    - name: 開始する
+      items:
+        - name: プレビュー サブスクリプション (ライト) にサインアップする
+          href: environment/lite-preview-subscription-sign-up.md
+        - name: Project Operations Lite 展開をデプロイする - 見積もり請求の取引
+          href: environment/lite-deployment.md
+        - name: デモのセットアップと構成データを適用する
+          href: environment/lite-apply-demo-setup-config-data.md
+        - name: セキュリティ モデル
+          href: environment/security-model.md
+    - name: 営業プロセス
+      items:
+        - name: 設定
+          items:
+            - name: 製品
+              href: sales/sales-products.md
+            - name: 出荷単位および出荷単位一覧
+              href: sales/sales-units-unit-groups.md
+            - name: 通貨
+              href: sales/sales-currency.md
+        - name: リードの管理
+          href: pro/sales/managing-leads-sales.md
+        - name: 営業案件の管理
+          items:
+            - name: 営業案件ヘッダー
+              href: pro/sales/opportunity-header-sales.md
+            - name: プロジェクトベースの明細行
+              href: pro/sales/project-based-lines-sales.md
+            - name: 営業案件からプロジェクト見積依頼を作成する
+              href: sales/link-quotes-opportunities.md
+            - name: 製品ベースの営業案件明細行
+              href: pro/sales/product-based-lines-sales.md
+            - name: 営業案件のクローズ
+              href: sales/close-opportunity.md
+        - name: 見積もりの管理
+          items:
+            - name: プロジェクト見積依頼の重要な概念
+              href: pro/sales/quotes-key-concepts-sales.md
+            - name: プロジェクト見積依頼の概要情報 (営業)
+              href: pro/sales/quote-values-budget-limits-contract-sales.md
+            - name: プロジェクト見積依頼の複数の顧客を管理する
+              href: pro/sales/manage-multiple-customers-quote-sales.md
+            - name: 製品ベースの見積依頼明細行
+              items:
+                - name: 製品原価計算ベースの見積依頼明細行
+                  href: pro/sales/costing-product-based-quote-lines-sales.md
+                - name: 製品ベースの見積依頼明細行に対してユーザーごと、月ごとなどの複雑な出荷単位を管理する
+                  href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
+            - name: プロジェクトベースの見積依頼明細行
+              items:
+                - name: プロジェクト見積依頼のプロジェクト価格表を管理する
+                  href: pro/sales/manage-project-price-lists-sales.md
+                - name: プロジェクトベースの見積依頼明細行の複数の顧客を管理する
+                  href: pro/sales/manage-multiple-customers-quote-line-sales.md
+                - name: プロジェクトとタスクをプロジェクトベースの見積依頼明細行にマップする
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: プロジェクトベースの見積依頼明細行を見積もる
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: プロジェクトベースの見積依頼明細行 (営業)
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+        - name: プロジェクトベースの見積もりのコピー
+          href: sales/lose-quote.md
+        - name: 見積もりのクローズ
+          href: pro/sales/win-quote-sales.md
+    - name: 価格設定と原価計算
+      items:
+        - name: プロジェクト価格表
+          items:
+            - name: 営業用の価格表の設定
+              items:
+                - name: 営業価格表の設定
+                  href: pricing-costing/sales-price-list-setup.md
+        - name: 価格ディメンション
+          items:
+            - name: 既存のフィールドを価格ディメンションとして使用する
+              href: pricing-costing/use-existing-field-pricing-dimension.md
+            - name: 価格ディメンションとしてのカスタム フィールド
+              items:
+                - name: 価格ディメンションとしてカスタム フィールドとエンティティを作成する
+                  href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: カスタム フィールドを価格設定およびトランザクション エンティティに追加する
+                  href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: 価格ディメンションとしてカスタム フィールドを設定する
+                  href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: 価格設定ディメンションをオフにする
+              href: pricing-costing/turning-off-pricing-dimension.md
+    - name: プロジェクト管理
+      items:
+        - name: プロジェクト管理の概要
+          href: project-management/project-management-overview.md
+        - name: プロジェクト ステージ
+          href: project-management/project-stages.md
+        - name: ユーザー インターフェイスのナビゲーション
+          href: project-management/navigate-ui.md
+        - name: プロジェクトの状態について
+          href: project-management/understand-project-status.md
+        - name: プロジェクト カレンダーの定義
+          href: project-management/define-project-calendars.md
+        - name: プロジェクトの更新
+          href: project-management/update-project.md
+        - name: プロジェクトのコピー
+          href: project-management/copy-project.md
+        - name: WBS (作業分解構造) の計画
+          items:
+            - name: 割り当ての作成
+              href: project-management/create-assignments.md
+        - name: プロジェクトの見積もり
+          items:
+            - name: プロジェクトの見積もりの概要
+              href: project-management/estimating-projects-overview.md
+            - name: リソースの見積もり
+              href: project-management/resource-estimates.md
+            - name: 経費の見積もりの作成
+              href: project-management/create-expense-estimates.md
+        - name: プロジェクトの追跡
+          items:
+            - name: プロジェクトの追跡の概要
+              href: project-management/project-tracking-overview.md
+            - name: 完了時予測の更新
+              href: project-management/update-completed-estimate.md
+        - name: プロジェクト チーム メンバー
+          items:
+            - name: プロジェクト チーム メンバーの概要
+              href: project-management/project-team-members-overview.md
+            - name: チーム メンバーの維持管理
+              href: project-management/maintain-team-members.md
+        - name: コラボレーション
+          items:
+            - name: Office グループでのコラボレーション
+              href: project-management/collaboration-groups.md
+    - name: リソース管理
+      items:
+        - name: 重要な概念
+          href: resource-management/resource-management-key-concepts.md
+        - name: 予約と割り当て
+          href: resource-management/booking-vs-assignment.md
+        - name: リソース管理モードの概要
+          href: resource-management/resource-management-mode-overview.md
+        - name: スケジュール アシスタントの概要
+          href: resource-management/schedule-assistant-overview.md
+        - name: 一元管理リソース予約
+          items:
+            - name: リソース要件の定義
+              href: resource-management/define-resource-requirements.md
+            - name: リソース要件の更新
+              href: resource-management/update-resource-requirements.md
+        - name: 分散型リソース予約 (ハイブリッド)
+          items:
+            - name: チーム メンバー グリッドからチーム メンバーを追加する
+              href: resource-management/add-team-members-grid.md
+        - name: 予約割り当ての方法
+          href: resource-management/booking-allocation-methods.md
+        - name: スキルおよび能力モデル
+          href: resource-management/skills-proficiency-models.md
+        - name: リソースの調整
+          items:
+            - name: リソースの調整の概要
+              href: resource-management/resource-reconciliation-overview.md
+    - name: 時間
+      items:
+        - name: 開発者用メモ
+          items:
+            - name: 週単位の時間エントリ グリッドのカスタマイズ
+              href: time/customize-weekly-time-entry-grid.md
+    - name: 経費
+      items:
+        - name: 経費の概要
+          href: expense/expense-overview.md
+        - name: 経費エントリ (ライト)
+          href: expense/basic-expense.md
+    - name: 承認
+      items:
+        - name: 承認の概要
+          href: approvals/approvals-overview.md
+    - name: 実績
+      items:
+        - name: 実績の概要
+          href: actuals/actuals-overview.md
+        - name: 訂正仕訳帳
+          items:
+            - name: 訂正仕訳帳の作成と確認
+              href: actuals/create-confirm-correction-journals.md
+        - name: 見積もり請求
+          items:
+            - name: 手動見積もり請求の作成
+              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: 修正済請求書
+              href: proforma-invoicing/corrective-invoices.md
+            - name: 請求書自動作成の構成
+              href: proforma-invoicing/configure-automated-invoice-creation.md
