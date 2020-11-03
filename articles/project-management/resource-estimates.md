@@ -9,17 +9,17 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 2ebde2b3c5bcfb5faa02ee476065ac34b1953432
-ms.sourcegitcommit: f255b2cbf290973ce62fe2c1c121bd1df15a7392
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3928580"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079188"
 ---
 # <a name="resource-estimates"></a>リソースの見積もり
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-リソースの見積もりは、適用可能な価格設定のディメンションとともに、作業分解構造で定義された時間フェーズの作業から得られます。 通常、計算は**各ロールのレート/時間 x 時間**です。 各リソースの時間フェーズの作業は、リソース割り当てレコードに保存されます。 価格設定は、事前定義された価格表に保存されます。 単位換算は、該当する価格表に基づいて適用されます。
+リソースの見積もりは、適用可能な価格設定のディメンションとともに、作業分解構造で定義された時間フェーズの作業から得られます。 通常、計算は **各ロールのレート/時間 x 時間** です。 各リソースの時間フェーズの作業は、リソース割り当てレコードに保存されます。 価格設定は、事前定義された価格表に保存されます。 単位換算は、該当する価格表に基づいて適用されます。
 
 ![リソースの見積もり](./media/navigation12.png)
 

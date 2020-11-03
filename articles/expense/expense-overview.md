@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 0874b3d89e1dc0e65a51cedb82bf8f80831ca0bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967372"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079148"
 ---
 # <a name="expense-home-page"></a>経費ホーム ページ
 
@@ -24,8 +24,8 @@ Dynamics 365 Project Operations は、経費を処理する機能をサポート
 
 Project Operations では、経費に対して 2 つのサポートされている展開モデルがあります。 
 
-- **完全**: 完全展開は、**リソース/非在庫ベースのシナリオ向け Project Operations** および**製造オーダーに基づくシナリオ向け Project Operations** 用に利用できます。
-- **基本**: 基本展開は**リソース/非在庫ベースのシナリオ向け Project Operations** および**ライト展開 – 見積もり請求の取引**用に利用できます。
+- **完全** : 完全展開は、 **リソース/非在庫ベースのシナリオ向け Project Operations** および **製造オーダーに基づくシナリオ向け Project Operations** 用に利用できます。
+- **基本** : 基本展開は **リソース/非在庫ベースのシナリオ向け Project Operations** および **ライト展開 – 見積もり請求の取引** 用に利用できます。
 
 ## <a name="full"></a>すべて 
 完全経費の展開は、次のような、ポリシーを作成する機能を含む完全なポリシーの実施を提供します。

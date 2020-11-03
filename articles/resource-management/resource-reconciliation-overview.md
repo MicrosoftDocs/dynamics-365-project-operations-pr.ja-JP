@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1b60ed9d15f51ff01f27bcc231f5db27513a838f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e2b16a6e1c48769ed4d903e546804ba1c4e1c4fa
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897457"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079210"
 ---
 # <a name="resource-reconciliation-overview"></a>リソースの調整の概要
 
@@ -31,11 +30,11 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 チーム メンバーの場合、予約と割り当ては緩く結び付けられます。 つまり、リソースに割り当てはあっても予約はないか、リソースに予約はあっても割り当てはありません。 理想としてはリソースがタスク割り当てを実行するキャパシティを持つように、予約と割り当てを調整する必要があります。 ただし、予約は空き時間に基づいて行われ、プロジェクトの続行に応じてタスクのタイミングが変更される場合があります。 したがって、予約と割り当ての緩い結合は柔軟性を提供します。
 
-**プロジェクト**フォームの**調整** タブを使用すると、プロジェクト マネージャーはプロジェクト チームへのチーム メンバーの予約や割り当てを調整することができます。
+**プロジェクト** フォームの **調整** タブを使用すると、プロジェクト マネージャーはプロジェクト チームへのチーム メンバーの予約や割り当てを調整することができます。
 
 **調整** タブには、チームメンバーごとの個別タスク割り当てのレベルまで予約と割り当てが表示されています。 時間は、月から日までの期間を表すセルに表示されます。
 
-タブには、**合計** 列とともにプロジェクトの全体的な合計額も表示されます。
+タブには、 **合計** 列とともにプロジェクトの全体的な合計額も表示されます。
 
 リソースごとに、タブはチーム メンバーの予約とチーム メンバーのタスクの割り当てのロールアップの差を計算します。 理想としては、この差は 0 (ゼロ) でなければなりません。 つまり、予約と割り当てに差はありません。 差は、 2 つの条件に注意を引くために色分けと影つけされます:
 

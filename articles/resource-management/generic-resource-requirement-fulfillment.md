@@ -1,29 +1,19 @@
 ---
 title: 汎用リソース要件への対応
-description: このトピックでは、汎用的なリソース要件における、名前付きリソースの予約について説明します。
+description: このトピックでは、汎用的なリソース要件における、名前付きリソースを予約する方法について説明します。
 author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
 ms.author: ruhercul
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 76dd47fa2451b5cb61298ff332d77bae646a288a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897592"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079213"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>汎用リソース要件への対応
 
@@ -31,9 +21,9 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 名前付きリソースを予約して、リソース要件のある汎用的なリソースを置き換えることができます。
 
-1. **プロジェクト** ページで、**チーム**タブを選択します。
-2. リストからリソース要件を保持している汎用的なリソースを選択し、 **予約する**を選択します。 または、リソース要件を開き、 **予約する**を選択します。
-3. **スケジュール アシスタント** ページで、プロジェクトチームに登録をする名前付きリソースを選択して、 **予約する**を選択します。
+1. **プロジェクト** ページで、 **チーム** タブを選択します。
+2. リストからリソース要件を保持している汎用的なリソースを選択し、 **予約する** を選択します。 または、リソース要件を開き、 **予約する** を選択します。
+3. **スケジュール アシスタント** ページで、プロジェクトチームに登録をする名前付きリソースを選択して、 **予約する** を選択します。
 
 予約が完了し、名前付きリソースが実行されると、汎用リソースがチームから削除され、名前付きリソースに置き換えられます。
 

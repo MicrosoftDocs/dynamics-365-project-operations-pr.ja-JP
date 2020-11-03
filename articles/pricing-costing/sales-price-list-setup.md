@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2a66802adfcadab7b4d34149b146ca3cb27c903e
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 1d2c797b72666123eb0a18d2d0c1df9fe3d207f7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896467"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079323"
 ---
 # <a name="sales-price-list-setup"></a>営業価格表の設定
 
@@ -47,7 +46,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 プロジェクト価格表が営業エンティティに添付されると、次の情報を検証します :
 
-- 価格表が**営業**のコンテキストを保有している。 
+- 価格表が **営業** のコンテキストを保有している。 
 - 価格表の通貨が顧客の通貨と一致している。 
 
 プロジェクト契約では、次の優先順位を使用して、関連するプロジェクト価格表を自動的に設定します。
@@ -57,6 +56,6 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 3. 顧客 
 4. グローバル設定 
 
-既定のプロジェクト価格表が入力されると、システムは通貨が顧客の通貨と一致すること、および入力された既定の価格表が**営業**コンテキストを保有していることを検証します。
+既定のプロジェクト価格表が入力されると、システムは通貨が顧客の通貨と一致すること、および入力された既定の価格表が **営業** コンテキストを保有していることを検証します。
 
 顧客、営業案件、見積もり、およびプロジェクト契約の営業エンティティには、複数のプロジェクト価格表を関連付けることができます。 この機能は、長期にわたるプロジェクト契約の日付固有の既定の価格をサポートします。この場合、インフレによって発生する価格更新に対応するため、アカウントに複数の価格表が必要になる場合があります。 ただし、顧客、営業案件、見積もり、またはプロジェクト契約のエンティティに関連付けられている価格表の日付の有効性が重複していると、既定の価格が正しくない場合があります。 そのため、日付の有効性が重複しているプロジェクト価格表がそれらのエンティティに関連付けられていないことを確認する必要があります。

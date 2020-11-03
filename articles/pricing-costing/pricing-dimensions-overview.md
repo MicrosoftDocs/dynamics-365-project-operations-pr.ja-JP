@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fe2ab3a1b12c00e346e27709d66b5a0cb81a3b56
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 6b1ebdc97ec4704ba256acb521c0f2e7c474940b
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898222"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079375"
 ---
 # <a name="pricing-dimensions-overview"></a>価格ディメンションの概要
 
@@ -48,7 +47,7 @@ Dynamics 365 プロジェクト オペレーションには、価格設定ディ
 ## <a name="pricing-human-resource-time"></a>人的リソース時間の価格設定
 組織が人的リソース時間をどのように価格設定するかは、多くの場合、組織の収益性に直接影響する重要な戦略的考慮事項です。 組織が人的リソース時間の請求レートとコスト レートの設定方法を決定する準備ができたら、財務チームおよび実務担当者と連携します。
 
-価格設定に関する他の検討事項には、現在価格ディメンションではないが組織の価格ディメンションとして適用されるフィールドまたはエンティティを再利用するかどうかがあります。 **トランザクション カテゴリ** (**msdyn_transactioncategory**) と **予約可能リソース** (**bookableresource**) のようなフィールドが候補のディメンションの例です。 
+価格設定に関する他の検討事項には、現在価格ディメンションではないが組織の価格ディメンションとして適用されるフィールドまたはエンティティを再利用するかどうかがあります。 **トランザクション カテゴリ** ( **msdyn_transactioncategory** ) と **予約可能リソース** ( **bookableresource** ) のようなフィールドが候補のディメンションの例です。 
 
 価格ディメンションをテーブルにするかオプション セットにするかを検討する必要があります。 10または12を超えるディメンション値の変更が予測され、これらの値の追加の属性が必要な場合は、オプション セットではなくエンティティを作成できます。 ほとんどのユーザーは、テーブルに新しい行を追加できますが、値の追加または削除などのオプション セットを管理するには、管理者または開発者が必要です。
 

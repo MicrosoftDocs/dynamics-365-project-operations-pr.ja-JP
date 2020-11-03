@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908288"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079124"
 ---
 # <a name="schedule-assistant-overview"></a>スケジュール アシスタントの概要
 
@@ -42,7 +42,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 ## <a name="launch-the-schedule-assistant"></a>スケジュール アシスタントを起動します
 
-スケジュール アシスタントを起動する方法は 2 つあります。 ハイブリッド モードを使用している場合、チーム メンバー グリッドで、未対応のリソース要件がチーム メンバーを選択してから、**予約**を選択します。 セントラル モードを使用している場合、リソース管理者はリソースを検索および選択します。
+スケジュール アシスタントを起動する方法は 2 つあります。 ハイブリッド モードを使用している場合、チーム メンバー グリッドで、未対応のリソース要件がチーム メンバーを選択してから、 **予約** を選択します。 セントラル モードを使用している場合、リソース管理者はリソースを検索および選択します。
 
 ## <a name="schedule-assistant-filters"></a>スケジュール アシスタント フィルター
 

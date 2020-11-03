@@ -3,23 +3,23 @@ title: プロジェクトのコピー
 description: このトピックでは、Dynamics 365 Project Operations でのプロジェクトのコピーについて説明します。
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908297"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079209"
 ---
 # <a name="copy-a-project"></a>プロジェクトのコピー
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-Dynamics 365 Project Operations を使用すると、**プロジェクト** フォームの**プロジェクトのコピー**操作を使用して新しいプロジェクトをすばやく構築できます。 プロジェクトをコピーするには、プロジェクトを選択してから、**コピー**を選択します。 操作は以下をコピーします:
+Dynamics 365 Project Operations を使用すると、 **プロジェクト** フォームの **プロジェクトのコピー** を選択して新しいプロジェクトをすばやく構築できます。 プロジェクトをコピーするには、コピーするプロジェクトを開き、 **プロジェクトのコピー** を選択します。 操作は以下をコピーします:
 
 - プロジェクト プロパティ
 - WBS(作業分解構造)
@@ -58,4 +58,6 @@ Dynamics 365 Project Operations を使用すると、**プロジェクト** フ�
 
 ## <a name="estimates"></a>見積もり
 
-プロジェクトがコピーされると、リソースおよび経費見積品目の両方がソース プロジェクトからコピーされます。
+プロジェクトがコピーされると、リソースおよび経費見積品目の両方がソース プロジェクトからコピーされます。 
+
+コピー プロジェクトにプログラムでアクセスする方法については、[コピー プロジェクトでプロジェクト テンプレートを開発する](dev-copy-project.md)を参照してください。

@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1ad85262482f782391eca85f46ca0e63a887c89f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 203b8a057d8ef3b699b20c4303061e622d2a3acd
+ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896112"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4079498"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>手動で見積もり請求書を作成する
 
-_**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
+_**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
 請求書を作成することで、プロジェクト マネージャーは、顧客に向けた請求書を作成する前に、2段階の承認を作成することができます。 プロジェクト チーム メンバーが送信する時間と経費のエントリが承認されると、第 1 レベルの承認が完了します。
 
@@ -69,7 +68,7 @@ Dynamics 365 プロジェクト オペレーションでは、次の理由によ
 
 請求書の自動化を実行するには、次の手順に従います。
 
-1. **設定** \> **バッチ ジョブ**に移動します。
+1. **設定** \> **バッチ ジョブ** に移動します。
 2. バッチ ジョブを作成し、 **プロジェクト オペレーション請求書の作成** と名前をつけます。 バッチ ジョブの名前に、「請求書の作成」という語句を含める必要があります。
 3. **ジョブの種類** フィールドで、 **なし** を選択します。 既定で、 **頻度 毎日** および **アクティブ** オプションは **はい** に設定されています。
 4. **ワークフローの実行** を選択します。 **レコードの検索** ダイアログ ボックスで、 3 つのワークフローが表示されます:
