@@ -4,12 +4,18 @@
   items:
     - name: 展開の種類を決定する
       href: environment/determine-deployment-type.md
+    - name: Project Operations の更新プログラム
+      href: whats-new/project-operations-updates.md
 - name: リソース/非在庫ベースのシナリオ向け Project Operations
   items:
     - name: 開始する
       items:
-        - name: プレビュー サブスクリプションにサインアップする (リソース/非在庫ベース)
+        - name: リソース/非在庫ベースのシナリオ向け Project Operations 展開の概要
+          href: environment/project-operations-integrated-deployment-overview.md
+        - name: プレビュー サブスクリプションにサインアップする
           href: environment/resource-sign-up-preview-subscription.md
+        - name: Project Operations をナビゲートする
+          href: environment/navigate-project-operations.md
         - name: 前提条件を構成する
           items:
             - name: 新しい LCS プロジェクトを開始する
@@ -18,11 +24,11 @@
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: デモ データを適用する
           items:
-            - name: Project Operations のデモ データを Finance クラウド ホスト環境に適用する
+            - name: デモ データを Finance クラウド ホスト環境に適用する
               href: environment/resource-apply-finance-demo-data.md
-            - name: Common Data Service の構成データを Project Operations に適用する
+            - name: 構成データを Common Data Service に適用する
               href: environment/resource-apply-pro-setup-config-data.md
-        - name: 環境の展開
+        - name: 環境を展開する
           items:
             - name: 新しい環境をプロビジョニングする
               href: environment/resource-provision-new-environment.md
@@ -30,9 +36,13 @@
               href: environment/security-model.md
             - name: 法人ごとに Project Operations 統合を構成する
               href: environment/resource-configure-integration-per-legal-entity.md
-    - name: 営業プロセス
+    - name: 新機能
       items:
-        - name: 営業の概要
+        - name: 2020 年 11 月 - リソース/非在庫ベースのシナリオ向け Project Operations
+          href: whats-new/whats-new-nov-2020-resource-based.md
+    - name: プロジェクトの営業プロセス
+      items:
+        - name: プロジェクトの営業プロセスの概要
           href: sales/sales-overview.md
         - name: 設定
           items:
@@ -42,94 +52,104 @@
               href: sales/sales-units-unit-groups.md
             - name: 通貨
               href: sales/sales-currency.md
-        - name: リードの管理
+        - name: プロジェクト リードの管理
           href: sales/manage-leads.md
-        - name: 営業案件の管理
+        - name: プロジェクトの営業案件の管理
           items:
-            - name: プロジェクトベースの営業案件の管理
+            - name: プロジェクトの営業案件の概要の管理
               href: sales/manage-project-based-opportunities.md
-            - name: 営業案件ヘッダー
+            - name: プロジェクトベースの営業案件の設定
               href: sales/opportunity-header.md
-            - name: プロジェクトベースの明細行
+            - name: プロジェクトベースの営業案件明細行
               href: sales/project-based-lines.md
-            - name: プロジェクトベースの営業案件をコピーする
-              href: sales/copy-project-based-opportunity.md
             - name: 営業案件からプロジェクト見積もりを作成する
               href: sales/link-quotes-opportunities.md
-            - name: 営業案件のクローズ
+            - name: プロジェクトベースの営業案件をコピーする
+              href: sales/copy-project-based-opportunity.md
+            - name: プロジェクト営業案件のクローズ
               href: sales/close-opportunity.md
-        - name: 見積もりの管理
+        - name: プロジェクト見積もりの管理
           items:
-            - name: 重要な概念
+            - name: プロジェクト見積もりの概要の管理
+              href: pro/sales/manage-quotes-sales.md
+            - name: プロジェクト見積もりの概念
               href: sales/quotes-key-concepts.md
-            - name: プロジェクト見積もりの概要情報
+            - name: プロジェクト見積もりの設定
               href: sales/quote-values-budget-limits-contract.md
-            - name: 見積もりの複数の顧客の管理
+            - name: プロジェクト見積もりの複数の顧客を管理する
               href: sales/manage-multiple-customers-quote.md
-            - name: 製品ベースの見積依頼明細行
-              item:
-                - name: 製品原価計算ベースの見積依頼明細行
-                  href: sales/costing-product-based-quote-lines.md
-                - name: 製品ベースの見積依頼明細行の複雑な出荷単位の管理
-                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: 見積もりのプロジェクト価格表を管理する
+              href: sales/managing-project-price-lists.md
             - name: プロジェクトベースの見積依頼明細行
               items:
-                - name: プロジェクト価格表の管理
-                  href: sales/managing-project-price-lists.md
+                - name: プロジェクトベースの見積依頼明細行の概要
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
                 - name: プロジェクトベースの見積依頼明細行の複数の顧客を管理する
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: プロジェクト見積依頼明細行の請求可能コンポーネントを構成する
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: 見積依頼明細行の見積もりの作成
                   href: sales/create-estimate-quote-line.md
                 - name: プロジェクトの見積もりをプロジェクトベースの見積依頼明細行にインポートする
                   href: sales/import-estimate-quote-line.md
-                - name: 見積もり値、顧客予算、および上限の管理
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
                 - name: プロジェクトベースの見積依頼明細行の請求スケジュール
                   href: sales/invoice-schedule-quote-line.md
-            - name: プロジェクトベースの見積もりのコピー
+            - name: プロジェクトの見積もりのコピー
               href: sales/lose-quote.md
-            - name: 見積もりのクローズ
+            - name: プロジェクト見積もりのクローズ
               href: sales/win-quote.md
-        - name: 契約の管理
+        - name: プロジェクト契約の管理
           items:
-            - name: 重要な概念 - プロジェクト契約
+            - name: プロジェクト契約の概要の管理
+              href: pro/sales/manage-contracts-sales.md
+            - name: プロジェクト契約の概念
               href: sales/contracts-key-concepts.md
             - name: プロジェクト契約の設定
               href: sales/project-contract-settings.md
+            - name: プロジェクト契約のプロジェクト価格表を管理する
+              href: sales/contracts-manage-project-price-lists.md
+            - name: プロジェクト契約の複数の顧客を管理する
+              href: sales/contracts-manage-project-price-lists.md
             - name: プロジェクトベースの契約品目
               items:
+                - name: プロジェクトベースの契約品目の概要
+                  href: sales/manage-contract-values-project-based.md
+                - name: プロジェクトベースの契約品目の複数の顧客を管理する
+                  href: sales/manage-multiple-customers-contract-line.md
                 - name: プロジェクトベースの契約品目の請求可能コンポーネントを構成する
                   href: sales/configure-chargeable-contract-line.md
-                - name: 見積もりをプロジェクトベース契約品目にインポートする
+                - name: プロジェクトベースの契約品目を見積もる
+                  href: sales/create-estimate-contract-line.md
+                - name: プロジェクトの見積もりをプロジェクトベースの契約品目にインポートする
                   href: sales/import-estimate-project-contract-line.md
-                - name: プロジェクトベースの契約品目の請求スケジュールを生成する
+                - name: プロジェクトベースの契約品目の請求スケジュールを作成する
                   href: sales/invoice-schedules-contract-line.md
             - name: プロジェクト契約の確認
               href: pro/sales/confirm-contract-sales.md
+            - name: プロジェクト契約のコピー
+              href: pro/sales/copy-project-contracts-sales.md
     - name: 価格設定と原価計算
       items:
         - name: 価格表の設定
-          href: pricing-costing/price-list-setup.md
-        - name: 製品価格表
-          href: pricing-costing/product-price-list.md
-        - name: プロジェクト価格表
           items:
-            - name: 営業用の価格表の設定
-              items:
-                - name: 営業価格表の設定
-                  href: pricing-costing/sales-price-list-setup.md
-                - name: 労務の請求レートを設定する
-                  href: pricing-costing/set-up-labor-bill-rate.md
-                - name: 労務の原価率を設定する
-                  href: pricing-costing/set-up-labor-cost-rate.md
-                - name: 経費の原価率と販売率を設定する
-                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
-                - name: 既定の価格表
-                  href: pricing-costing/default-project-sales-price-lists.md
-                - name: 見積もりと実績の原価価格を解決する
-                  href: pricing-costing/cost-price-resolution.md
+            - name: 価格表の設定
+              href: pricing-costing/price-list-setup.md
+            - name: 製品価格表
+              href: pricing-costing/product-price-list.md
+            - name: 労務の請求レートを設定する
+              href: pricing-costing/set-up-labor-bill-rate.md
+            - name: 労務の原価率を設定する
+              href: pricing-costing/set-up-labor-cost-rate.md
+            - name: 経費の原価率と販売率を設定する
+              href: pricing-costing/set-up-cost-sales-rates-expenses.md
         - name: 既定値と上書き
           items:
+            - name: 既定の価格表
+              href: pricing-costing/default-project-sales-price-lists.md
+            - name: プロジェクトの営業価格表を上書きする
+              href: pricing-costing/override-project-sales-price-list-default.md
+            - name: 見積もりと実績の原価価格を解決する
+              href: pricing-costing/cost-price-resolution.md
             - name: 見積もりと実績の販売価格を解決する
               href: pricing-costing/sales-price-resolution.md
             - name: 価格表のコピー
@@ -139,7 +159,9 @@
             - name: 価格ディメンションの概要
               href: pricing-costing/pricing-dimensions-overview.md
             - name: 既存のフィールドを価格ディメンションとして使用する
-              href: pricing-costing/use-existing-field-pricing-dimension.md
+              items:
+                - name: 価格設定のディメンションとしての Project Operations フィールド
+                  href: pricing-costing/use-existing-field-pricing-dimension.md
             - name: 価格ディメンションとしてのカスタム フィールド
               items:
                 - name: 価格ディメンションとしてカスタム フィールドとエンティティを作成する
@@ -156,7 +178,7 @@
           href: project-management/project-management-overview.md
         - name: プロジェクト ステージ
           href: project-management/project-stages.md
-        - name: UI のナビゲーション
+        - name: ユーザー インターフェイスのナビゲート
           href: project-management/navigate-ui.md
         - name: プロジェクトの状態について
           href: project-management/understand-project-status.md
@@ -242,13 +264,17 @@
               href: resource-management/resource-reconciliation-overview.md
             - name: タイム ゾーンの管理
               href: resource-management/manage-multiple-time-zones.md
+        - name: リソース稼働率
+          items:
+            - name: リソース稼働率の概要
+              href: resource-management/resource-utilization-overview.md
     - name: 時間
       items:
         - name: 時間の概要
           href: time/time-entry-overview.md
         - name: 時間エントリの作成
           items:
-            - name: 時間入力ユーザー インターフェイスの動作
+            - name: 時間入力ユーザー インターフェイス
               href: time/ui-behavior-time.md
         - name: 開発者用メモ
           items:
@@ -306,6 +332,10 @@
       items:
         - name: 承認の概要
           href: approvals/approvals-overview.md
+        - name: 開発者用メモ
+          items:
+            - name: 承認のための開発者用メモ
+              href: approvals/dev-notes-approvals.md
     - name: 実績
       items:
         - name: 実績の概要
@@ -316,38 +346,52 @@
               href: actuals/create-confirm-correction-journals.md
     - name: 見積もり請求
       items:
-        - name: 請求バックログの管理
+        - name: プロジェクトの請求バックログの管理
           href: proforma-invoicing/manage-billing-backlog.md
-        - name: 手動見積もり請求の作成
+        - name: 上限と検証の管理
+          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+        - name: 手動でプロジェクトの見積もり請求を作成
           href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: 見積もり請求の確認
+        - name: プロジェクトの見積もり請求の管理
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: プロジェクトの見積もり請求の確認
           href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: 修正済請求書
-          href: proforma-invoicing/corrective-invoices.md
-        - name: 請求書自動作成の構成
+        - name: プロジェクト請求書の自動化の構成
           href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: プロジェクト会計
       items:
+        - name: 財務分析コードの既定値
+          href: project-accounting/financial-dimension-defaults.md
         - name: プロジェクト カテゴリの構成
           href: project-accounting/configure-project-categories.md
         - name: 内部プロジェクトの会計の構成
           href: project-accounting/configure-accounting-internal-projects.md
         - name: 課金プロジェクトの会計の構成
           href: project-accounting/configure-accounting-billable-projects.md
+        - name: Project Operations の統合仕訳帳
+          href: project-accounting/project-operations-integration-journal.md
 - name: ライト展開 - 見積もり請求の取引
   items:
     - name: 開始する
       items:
-        - name: プレビュー サブスクリプション (ライト) にサインアップする
+        - name: ライト展開の概要
+          href: pro/project-operations-overview-lite.md
+        - name: プレビュー サブスクリプションにサインアップする (ライト)
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Project Operations Lite 展開をデプロイする - 見積もり請求の取引
+        - name: Project Operations の展開 (ライト)
           href: environment/lite-deployment.md
-        - name: デモのセットアップと構成データを適用する
+        - name: デモのセットアップと構成データを適用する (ライト)
           href: environment/lite-apply-demo-setup-config-data.md
         - name: セキュリティ モデル
           href: environment/security-model.md
-    - name: 営業プロセス
+    - name: 新機能
       items:
+        - name: 2020 年 11 月の新機能 - ライト展開 - 見積もり請求の取引
+          href: pro/whats-new/whats-new-nov-2020-lite.md
+    - name: プロジェクトの営業プロセス
+      items:
+        - name: プロジェクトの営業プロセスの概要
+          href: sales/sales-overview.md
         - name: 設定
           items:
             - name: 製品
@@ -356,118 +400,148 @@
               href: sales/sales-units-unit-groups.md
             - name: 通貨
               href: sales/sales-currency.md
-        - name: リードの管理
+        - name: プロジェクト リードの管理
           href: pro/sales/managing-leads-sales.md
-        - name: 営業案件の管理
+        - name: プロジェクトの営業案件の管理
           items:
-            - name: プロジェクトベースの営業案件の管理
+            - name: プロジェクトの営業案件の概要
               href: sales/manage-project-based-opportunities.md
-            - name: 営業案件ヘッダー
+            - name: プロジェクトの営業案件の設定
               href: pro/sales/opportunity-header-sales.md
-            - name: プロジェクトベースの明細行
+            - name: 製品ベースの営業案件明細行の管理
+              href: pro/sales/product-based-lines-sales.md
+            - name: プロジェクトベースの営業案件明細行の管理
               href: pro/sales/project-based-lines-sales.md
+            - name: プロジェクト営業案件から見積もりを作成する
+              href: sales/link-quotes-opportunities.md
             - name: プロジェクトベースの営業案件をコピーする
               href: sales/copy-project-based-opportunity.md
-            - name: 営業案件からプロジェクト見積もりを作成する
-              href: sales/link-quotes-opportunities.md
-            - name: 製品ベースの営業案件明細行
-              href: pro/sales/product-based-lines-sales.md
-            - name: 営業案件のクローズ
+            - name: プロジェクト営業案件のクローズ
               href: sales/close-opportunity.md
-        - name: 見積もりの管理
+        - name: プロジェクトベースの見積もりの管理
           items:
-            - name: プロジェクト見積依頼の重要な概念
+            - name: プロジェクトベースの見積もりの概要
+              href: pro/sales/manage-quotes-sales.md
+            - name: プロジェクト見積依頼の概念
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: プロジェクト見積依頼の概要情報 (営業)
+            - name: プロジェクト見積もりの設定
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: プロジェクト見積依頼の複数の顧客を管理する
+            - name: プロジェクト見積依頼の複数の顧客
               href: pro/sales/manage-multiple-customers-quote-sales.md
+            - name: プロジェクト見積依頼のプロジェクト価格表
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: 製品ベースの見積依頼明細行
               items:
+                - name: 製品ベースの見積依頼明細行の概要
+                  href: pro/sales/product-based-quote-lines-sales.md
                 - name: 製品原価計算ベースの見積依頼明細行
                   href: pro/sales/costing-product-based-quote-lines-sales.md
-                - name: 製品ベースの見積依頼明細行に対してユーザーごと、月ごとなどの複雑な出荷単位を管理する
+                - name: 製品ベースの見積依頼明細行の複雑な出荷単位の管理
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
             - name: プロジェクトベースの見積依頼明細行
               items:
-                - name: プロジェクト見積依頼のプロジェクト価格表を管理する
-                  href: pro/sales/manage-project-price-lists-sales.md
-                - name: プロジェクトベースの見積依頼明細行の複数の顧客を管理する
+                - name: プロジェクトベースの見積依頼明細行の概要
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+                - name: 複数の顧客の管理
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: プロジェクトとタスクをプロジェクトベースの見積依頼明細行にマップする
+                - name: プロジェクトとタスクのマップ
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: 請求可能コンポーネントの構成
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: プロジェクトベースの見積依頼明細行を見積もる
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: プロジェクトベースの見積依頼明細行 (営業)
-                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: プロジェクトの見積もりをプロジェクトベースの見積依頼明細行にインポートする
+                - name: プロジェクトから見積もりをインポート
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: プロジェクトベースの見積依頼明細行の請求スケジュール
+                - name: 請求スケジュールの管理
                   href: sales/invoice-schedule-quote-line.md
-                - name: 見積依頼明細行の請求可能コンポーネントを構成する
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
-        - name: プロジェクトベースの見積もりのコピー
-          href: sales/lose-quote.md
-        - name: 見積もりのクローズ
-          href: pro/sales/win-quote-sales.md
-    - name: 契約の管理
-      items:
-        - name: プロジェクト契約の重要な概念
-          href: pro/sales/contracts-key-concepts-sales.md
-        - name: プロジェクト契約フィールドと情報
-          href: pro/sales/project-contract-settings-sales.md
-        - name: 製品ベースの契約品目
+            - name: プロジェクトベースの見積もりのコピー
+              href: sales/lose-quote.md
+            - name: プロジェクトベースの見積もりのクローズ
+              href: pro/sales/win-quote-sales.md
+        - name: プロジェクトベースの契約の管理
           items:
-            - name: 製品ベースの契約品目の概要
-              href: pro/sales/product-based-contract-lines-overview-sales.md
-            - name: 製品原価計算ベースの契約品目
-              href: pro/sales/cost-product-based-contract-lines-sales.md
-        - name: プロジェクトベースの契約品目
-          items:
-            - name: プロジェクトベースの契約品目の請求可能コンポーネントを構成する
-              href: pro/sales/configure-chargeable-components-contract-line.md
-            - name: 見積もりをプロジェクトベース契約品目にインポートする
-              href: pro/sales/import-estimate-project-contract-line-sales.md
-            - name: プロジェクトベースの契約品目の請求スケジュールを生成する
-              href: pro/sales/invoice-schedules-contract-line-sales.md
-        - name: プロジェクト契約のコピー
-          href: pro/sales/copy-project-contracts-sales.md
-        - name: プロジェクト契約の確認
-          href: pro/sales/confirm-contract-sales.md
-        - name: 前払いおよび着手金ベースの契約
-          href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+            - name: プロジェクトベースの契約の概要
+              href: pro/sales/manage-contracts-sales.md
+            - name: プロジェクト契約の概念
+              href: pro/sales/contracts-key-concepts-sales.md
+            - name: プロジェクト契約の設定
+              href: pro/sales/project-contract-settings-sales.md
+            - name: プロジェクト契約の複数の顧客
+              href: pro/sales/manage-multiple-customers-contract-sales.md
+            - name: プロジェクト契約のプロジェクト価格表
+              href: sales/contracts-manage-project-price-lists.md
+            - name: 製品ベースの契約品目
+              items:
+                - name: 製品ベースの契約品目の概要
+                  href: pro/sales/product-based-contract-lines-overview-sales.md
+                - name: 製品原価計算ベースの契約品目
+                  href: pro/sales/cost-product-based-contract-lines-sales.md
+                - name: 製品ベースの契約品目の複雑な出荷単位の管理
+                  href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
+            - name: プロジェクトベースの契約品目
+              items:
+                - name: プロジェクトベースの契約品目の概要
+                  href: pro/sales/manage-contract-values-project-based-sales.md
+                - name: 複数の契約の顧客の管理
+                  href: pro/sales/manage-multiple-customers-contract-line-sales.md
+                - name: プロジェクト契約品目へのプロジェクトとタスクのマップ
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: プロジェクトの契約品目の請求可能コンポーネントを構成する
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: プロジェクトベースの契約品目を見積もる
+                  href: pro/sales/create-estimate-project-contract-line-sales.md
+                - name: プロジェクトからプロジェクト契約品目への見積もりのインポート
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: プロジェクト契約品目の請求スケジュールの管理
+                  href: pro/sales/invoice-schedules-contract-line-sales.md
+            - name: プロジェクト契約のコピー
+              href: pro/sales/copy-project-contracts-sales.md
+            - name: プロジェクト契約の確認
+              href: pro/sales/confirm-contract-sales.md
+            - name: 前払金と着手金
+              items:
+                - name: 前払いおよび着手金ベースの契約 (ライト)
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: 着手金のスケジュールを設定する (ライト)
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: 契約のアドホック前払いを作成する (ライト)
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: 価格設定と原価計算
       items:
         - name: 価格表の設定
-          href: pricing-costing/price-list-setup.md
-        - name: プロジェクト価格表
           items:
-            - name: 営業用の価格表の設定
-              items:
-                - name: 営業価格表の設定
-                  href: pricing-costing/sales-price-list-setup.md
-                - name: 労務の請求レートを設定する
-                  href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-                - name: 労務の原価率を設定する
-                  href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-                - name: カタログ製品の原価率と販売率を設定する
-                  href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
-                - name: 経費の原価率と販売率を設定する
-                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
-                - name: 既定の価格表
-                  href: pricing-costing/default-project-sales-price-lists.md
-                - name: 見積もりと実績の原価価格を解決する
-                  href: pro/pricing-costing/cost-price-resolution-sales.md
+            - name: 価格表の設定
+              href: pricing-costing/price-list-setup.md
+            - name: 営業価格表の設定
+              href: pricing-costing/sales-price-list-setup.md
+            - name: 労務の請求レートを設定する (ライト)
+              href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
+            - name: 労務の原価率を設定する (ライト)
+              href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
+            - name: カタログ製品の原価率と販売率を設定する (ライト)
+              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
+            - name: 経費の原価率と販売率を設定する
+              href: pricing-costing/set-up-cost-sales-rates-expenses.md
         - name: 既定値と上書き
           items:
-            - name: 見積もりと実績の販売価格を解決する
+            - name: 既定の価格表
+              href: pricing-costing/default-project-sales-price-lists.md
+            - name: プロジェクトの営業価格表を上書きする
+              href: pricing-costing/override-project-sales-price-list-default.md
+            - name: 見積もりと実績の原価価格を解決する (ライト)
+              href: pro/pricing-costing/cost-price-resolution-sales.md
+            - name: 見積もりと実績の販売価格を解決する (ライト)
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: 価格表のコピー
               href: pricing-costing/copy-price-lists.md
         - name: 価格ディメンション
           items:
+            - name: 価格ディメンションの概要
+              href: pricing-costing/pricing-dimensions-overview.md
             - name: 既存のフィールドを価格ディメンションとして使用する
-              href: pricing-costing/use-existing-field-pricing-dimension.md
+              items:
+                - name: 既存のフィールドを価格ディメンションとして使用する
+                  href: pricing-costing/use-existing-field-pricing-dimension.md
             - name: 価格ディメンションとしてのカスタム フィールド
               items:
                 - name: 価格ディメンションとしてカスタム フィールドとエンティティを作成する
@@ -566,13 +640,17 @@
               href: resource-management/resource-reconciliation-overview.md
             - name: タイム ゾーンの管理
               href: resource-management/manage-multiple-time-zones.md
+        - name: リソース稼働率
+          items:
+            - name: リソース稼働率の概要
+              href: resource-management/resource-utilization-overview.md
     - name: 時間
       items:
         - name: 時間の概要
           href: time/time-entry-overview.md
         - name: 時間エントリの作成
           items:
-            - name: 時間入力ユーザー インターフェイスの動作
+            - name: 時間入力ユーザー インターフェイス
               href: time/ui-behavior-time.md
         - name: 開発者用メモ
           items:
@@ -588,6 +666,10 @@
       items:
         - name: 承認の概要
           href: approvals/approvals-overview.md
+        - name: 開発者用メモ
+          items:
+            - name: 承認のための開発者用メモ
+              href: approvals/dev-notes-approvals.md
     - name: 実績
       items:
         - name: 実績の概要
@@ -596,20 +678,32 @@
           items:
             - name: 訂正仕訳帳の作成と確認
               href: actuals/create-confirm-correction-journals.md
-        - name: 見積もり請求
-          items:
-            - name: 請求バックログの管理
-              href: proforma-invoicing/manage-billing-backlog.md
-            - name: 手動見積もり請求の作成
-              href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
-            - name: 前払いまたは着手金の請求
-              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: 修正済請求書
-              href: proforma-invoicing/corrective-invoices.md
-            - name: 請求書自動作成の構成
-              href: proforma-invoicing/configure-automated-invoice-creation.md
+    - name: 見積もり請求
+      items:
+        - name: プロジェクトの請求バックログの管理
+          href: pro/proforma-invoicing/manage-billing-backlog-sales.md
+        - name: 上限と検証の管理
+          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+        - name: 手動でプロジェクトの見積もり請求を作成
+          href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
+        - name: プロジェクトの見積もり請求の管理
+          href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
+        - name: 前払いまたは着手金の請求
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+        - name: プロジェクトの見積もり請求の確認
+          href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
+        - name: プロジェクトの訂正請求書の作成
+          href: pro/proforma-invoicing/corrective-invoices-sales.md
+        - name: プロジェクト請求書の自動化の構成
+          href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: 在庫/製造ベースのシナリオ向け Project Operations
   items:
+    - name: 新機能
+      items:
+        - name: 2020 年 11 月の新機能 - 在庫/製造ベースのシナリオ向け Project Operations
+          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+    - name: 在庫/製造ベースのシナリオ向け Project Operations 展開の概要
+      href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: プロジェクト管理および会計の概要
       href: prod-pma/overview-project-management-accounting.md
     - name: 会社間請求
@@ -734,12 +828,14 @@
       href: prod-exp/personal-expenses.md
 - name: Dynamics 365 Project Service Automation
   items:
-    - name: Project Service Automation の概要
+    - name: Project Service Automation
       href: psa/overview.md
-    - name: 最新情報
+    - name: 新機能
       items:
         - name: Project Service 3.x の更新プログラム リリース スケジュール
           href: psa/version-history-ps.md
+        - name: 更新プログラム リリース 25、V3 の最新情報または変更事項
+          href: psa/whats-new-ur-25.md
         - name: 更新プログラム リリース 24、V3 の最新情報または変更事項
           href: psa/whats-new-ur-24.md
         - name: 更新プログラム リリース 23、V3 の最新情報または変更事項
@@ -770,76 +866,88 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Project Service Automation V3 の最新情報または変更事項
           href: psa/whats-new-changed-v3.md
-    - name: Project Service Automation 3.x の実装
+    - name: 実装の計画 (アプリ バージョン 3.x)
       items:
-        - name: 実装の概要
+        - name: サンプル データのインストール
           href: psa/install-sample-data-3-x.md
-    - name: アップグレード
+        - name: プロジェクト計画および追跡ガイド
+          href: psa/implementation-guides/project-planning-tracking.md
+        - name: 基本的な見積もり、価格設定、および請求ガイド。
+          href: psa/implementation-guides/begin-quoting-pricing-billing.md
+        - name: 高度な見積もり、価格設定、および請求ガイド
+          href: psa/implementation-guides/adv-quoting-pricing-billing.md
+        - name: リソース管理ガイド
+          href: psa/implementation-guides/resource-management-guide.md
+        - name: レポート ガイド
+          href: psa/implementation-guides/reporting-guide.md
+    - name: Project Service Automation アップグレード (アプリ バージョン 3.x)
       items:
-        - name: Project Service Automation アップグレード (3.x)
+        - name: Project Service Automation アップグレード
           href: psa/upgrade-psa-home-page.md
         - name: アップグレードに関する考慮事項 - バージョン 2.x または 1.x からバージョン 3 へのアップグレード
           href: psa/upgrade-v3.md
         - name: 開発 (3.x)
-          href: psa/developer-guides/overview-dev-notes-v3.x.md
-        - name: エンティティの変更
-          href: psa/developer-guides/entity-changes-v3.x.md
-        - name: 時間と経費
-          href: psa/developer-guides/time-expense-changes-v3.x.md
-        - name: リソース管理
-          href: psa/developer-guides/resource-management-changes-v3.x.md
-        - name: Project Service Automation v3.x で非推奨の Web リソース
-          href: psa/developer-guides/web-resources-deprecated-v3.x.md
-    - name: プロジェクト計画
-      items:
-        - name: プロジェクト計画の概要
-          href: psa/project-planning.md
-        - name: プロジェクト スケジュール
-          href: psa/project-creating.md
-        - name: プロジェクト コストと売上
-          href: psa/project-estimating.md
-        - name: 売上予測とプロジェクト
-          href: psa/project-leveraging.md
-        - name: プロジェクトの進捗状況とコストの使用
-          href: psa/project-tracking.md
-        - name: プロジェクト テンプレート
-          href: psa/project-templates.md
-        - name: プロジェクト ステージ
-          href: psa/project-stages.md
-        - name: プロジェクト設定
-          href: psa/project-settings.md
-    - name: 価格ディメンションとコスト ディメンション
-      items:
-        - name: 価格ディメンションとコスト ディメンションの概要
-          href: psa/pricing-costing-dimensions.md
-        - name: カスタム価格ディメンションのソリューションを作成する
-          href: psa/custompricingdimensionssolution.md
-        - name: カスタム フィールドとエンティティの作成
-          href: psa/create-custom-fields-entities.md
-        - name: カスタム フィールドを価格設定およびトランザクション エンティティに追加する
-          href: psa/field-references.md
-        - name: 価格ディメンションとしてカスタム フィールドを設定する
-          href: psa/set-up-pricing-dimensions.md
-        - name: プラグイン属性を更新して新しい価格ディメンションを含める
-          href: psa/update-plug-in-attributes.md
-        - name: 価格ディメンションとして要素を再利用する
           items:
-            - name: Project Service 内の既存のフィールドを価格ディメンションとして使用する
-              href: psa/use-existing-field.md
-            - name: 価格ディメンションとして予約可能リソースを使用する
-              href: psa/bookable-resource-pricing-dimension.md
-            - name: 価格ディメンションとしてトランザクション カテゴリを使用する
-              href: psa/transaction-category-pricing-dimension.md
-        - name: プロジェクトで複数のロール持つ予約可能リソース
-          href: psa/bookable-resource-multiple-roles.md
-        - name: 価格ディメンションをオフにする
-          href: psa/turn-off-pricing-dimension.md
-    - name: 見積もり、価格設定、および請求
+            - name: 開発 (アプリ バージョン 3.x)
+              href: psa/developer-guides/overview-dev-notes-v3.x.md
+            - name: エンティティの変更
+              href: psa/developer-guides/entity-changes-v3.x.md
+            - name: 時間と経費
+              href: psa/developer-guides/time-expense-changes-v3.x.md
+            - name: リソース管理
+              href: psa/developer-guides/resource-management-changes-v3.x.md
+            - name: Project Service Automation v3.x で非推奨の Web リソース
+              href: psa/developer-guides/web-resources-deprecated-v3.x.md
+    - name: Project Service Automation (3.x)
       items:
-        - name: 見積もり、価格設定、および請求の概要
-          href: psa/quote-bill-price.md
-        - name: 見積もり
+        - name: プロジェクト計画
           items:
+            - name: プロジェクト計画のホームページ
+              href: psa/project-planning.md
+            - name: プロジェクト スケジュール
+              href: psa/project-creating.md
+            - name: プロジェクト コストと売上
+              href: psa/project-estimating.md
+            - name: 売上予測とプロジェクト
+              href: psa/project-leveraging.md
+            - name: プロジェクトの進捗状況とコストの使用
+              href: psa/project-tracking.md
+            - name: プロジェクト テンプレート
+              href: psa/project-templates.md
+            - name: プロジェクト ステージ
+              href: psa/project-stages.md
+            - name: プロジェクト設定
+              href: psa/project-settings.md
+        - name: 価格ディメンションとコスト ディメンション
+          items:
+            - name: 価格ディメンションとコスト ディメンションのホーム ページ
+              href: psa/pricing-costing-dimensions.md
+            - name: カスタム価格ディメンションのソリューションを作成する
+              href: psa/custompricingdimensionssolution.md
+            - name: カスタム フィールドとエンティティの作成
+              href: psa/create-custom-fields-entities.md
+            - name: カスタム フィールドを価格設定およびトランザクション エンティティに追加する
+              href: psa/field-references.md
+            - name: 価格ディメンションとしてカスタム フィールドを設定する
+              href: psa/set-up-pricing-dimensions.md
+            - name: プラグイン属性を更新して新しい価格ディメンションを含める
+              href: psa/update-plug-in-attributes.md
+            - name: 既存のフィールドを価格ディメンションとして使用する
+              items:
+                - name: Project Service 内の既存のフィールドを価格ディメンションとして使用する
+                  href: psa/use-existing-field.md
+                - name: 価格ディメンションとして予約可能リソースを使用する
+                  href: psa/bookable-resource-pricing-dimension.md
+                - name: 価格ディメンションとしてトランザクション カテゴリを使用する
+                  href: psa/transaction-category-pricing-dimension.md
+            - name: プロジェクトで複数のロール持つ予約可能リソース
+              href: psa/bookable-resource-multiple-roles.md
+            - name: 価格ディメンションをオフにする
+              href: psa/turn-off-pricing-dimension.md
+        - name: 見積もり、価格設定、および請求
+          items:
+            - name: 見積もり、価格設定、および請求のホーム ページ
+              href: psa/quote-bill-price.md
             - name: 営業プロセス
               href: psa/basic-sales-process.md
             - name: 出荷単位一覧および出荷単位
@@ -850,20 +958,14 @@
               href: psa/basic-quote-lines.md
             - name: 製品ベースの見積依頼明細行
               href: psa/product-based-quote-lines.md
-            - name: プロジェクト見積もりの分析
-              href: psa/basic-analyzing-quotes.md
-        - name: 価格設定
-          items:
             - name: プロジェクトの価格設定
               href: psa/basic-pricing.md
             - name: 製品カタログの価格設定
-              hreF: psa/product-catalog-pricing.md
+              href: psa/product-catalog-pricing.md
             - name: ビジネス トランザクション
               href: psa/basic-business-transactions.md
             - name: 見積もり
               href: psa/estimates.md
-        - name: 請求
-          items:
             - name: プロジェクト見積もりの分析
               href: psa/basic-analyzing-quotes.md
             - name: 以前に承認された時間または経費エントリの取り消し
@@ -880,71 +982,71 @@
               href: psa/invoicing.md
             - name: 複数通貨のシナリオ
               href: psa/advanced-currency.md
-    - name: プロジェクト リソース割り当て
-      items:
-        - name: プロジェクト リソース割り当ての概要
-          href: psa/resource-management.md
-        - name: 予約可能な汎用リソースをタスクに割り当て、リソース要件を生成する
-          href: psa/assign-generic-bookable-resource.md
-        - name: 名前付き予約可能リソースをプロジェクト チームに予約して、タスクを割り当てる
-          href: psa/assign-named-bookable-resource.md
-        - name: リソースをタスクに割り当てる
-          href: psa/FAQ-assign-resources-to-tasks.md
-        - name: リソース要件から名前付きリソースを予約する
-          href: psa/book-named-resource.md
-        - name: リソースの予約とタスク割り当てとの関連性
-          href: psa/FAQ-bookings-and-assignments.md
-        - name: リソース要求の送信
-          href: psa/submit-resource-request.md
-        - name: 提案されたリソースの承認または拒否
-          href: psa/accept-reject-proposed-resource.md
-        - name: リソースの請求稼働率の表示
-          href: psa/FAQ-utilization-view.md
+        - name: プロジェクト リソース割り当て
+          items:
+            - name: プロジェクトのリソース ホームページ
+              href: psa/resource-management.md
+            - name: 予約可能な汎用リソースをタスクに割り当て、リソース要件を生成する
+              href: psa/assign-generic-bookable-resource.md
+            - name: 名前付き予約可能リソースをプロジェクト チームに予約して、タスクを割り当てる
+              href: psa/assign-named-bookable-resource.md
+            - name: リソースをタスクに割り当てる
+              href: psa/FAQ-assign-resources-to-tasks.md
+            - name: リソース要件から名前付きリソースを予約する
+              href: psa/book-named-resource.md
+            - name: リソースの予約とタスク割り当てとの関連性
+              href: psa/FAQ-bookings-and-assignments.md
+            - name: リソース要求の送信
+              href: psa/submit-resource-request.md
+            - name: 提案されたリソースの承認または拒否
+              href: psa/accept-reject-proposed-resource.md
+            - name: リソースの請求稼働率の表示
+              href: psa/FAQ-utilization-view.md
         - name: 予約と割り当ての調整
           href: psa/reconcile-booking-assignment.md
-    - name: リソース管理
-      items:
-        - name: リソース管理ホーム ページ
-          href: psa/resource-management-home-page.md
-        - name: リソースの管理
-          href: psa/manage-resources.md
-        - name: 重要な概念
-          href: psa/reports-key-concepts.md
-        - name: リソース要求の履行
-          href: psa/resource-management-fulfill-requests.md
-        - name: リソースの提案
-          href: psa/resource-management-propose-resources.md
-        - name: リソースの予約
-          href: psa/resource-management-book-resources-scheduleboard.md
-        - name: 予約割り当ての方法
-          href: psa/FAQ-allocation-methods.md
-        - name: 仮予約の要件
-          href: psa/resource-management-softbook-requirements.md
-        - name: リソース仮予約
-          href: psa/FAQ-soft-book.md
-        - name: スケジュール ボードからのプロジェクトの予約を作成する
-          href: psa/FAQ-project-booking-schedule-board.md
-        - name: スキルおよび能力モデル
-          href: psa/resource-management-skills-proficiency.md
-        - name: リソース管理に関するよくあるご質問
-          href: psa/resource-management-faq.md
-    - name: レポート作成
-      items:
-        - name: レポート作成の概要
-          href: psa/reports-reporting-dynamics-365-project-service.md
-        - name: ダッシュボード
-          href: psa/reports-dashboards.md
-        - name: Project Service Automation データ モデルでの作業
-          href: psa/reports-working-project-service-data-model.md
-    - name: 時間エントリ
-      items:
-        - name: 時間エントリの作成
-          href: psa/time-entries.md
-        - name: 時間エントリ カレンダー
-          href: psa/time-entry-calendar.md
-        - name: 週単位の時間エントリをカスタマイズする
-          href: psa/time-entry-extensibility-v3.md
-    - name: よくあるご質問とトラブルシューティング
+        - name: リソース管理
+          items:
+            - name: リソース管理ホーム ページ
+              href: psa/resource-management-home-page.md
+            - name: リソースの管理
+              href: psa/manage-resources.md
+            - name: 重要な概念
+              href: psa/reports-key-concepts.md
+            - name: リソース要求の履行
+              href: psa/resource-management-fulfill-requests.md
+            - name: リソースの提案
+              href: psa/resource-management-propose-resources.md
+            - name: リソースの予約
+              href: psa/resource-management-book-resources-scheduleboard.md
+            - name: 予約割り当ての方法
+              href: psa/FAQ-allocation-methods.md
+            - name: 仮予約の要件
+              href: psa/resource-management-softbook-requirements.md
+            - name: リソース仮予約
+              href: psa/FAQ-soft-book.md
+            - name: スケジュール ボードからのプロジェクトの予約を作成する
+              href: psa/FAQ-project-booking-schedule-board.md
+            - name: スキルおよび能力モデル
+              href: psa/resource-management-skills-proficiency.md
+            - name: リソース管理に関するよくあるご質問
+              href: psa/resource-management-faq.md
+        - name: レポート作成
+          items:
+            - name: ホーム ページのレポート作成
+              href: psa/reports-reporting-dynamics-365-project-service.md
+            - name: ダッシュボード
+              href: psa/reports-dashboards.md
+            - name: Project Service Automation データ モデル
+              href: psa/reports-working-project-service-data-model.md
+        - name: 時間エントリ
+          items:
+            - name: 時間エントリの作成
+              href: psa/time-entries.md
+            - name: 時間エントリ カレンダー
+              href: psa/time-entry-calendar.md
+            - name: 週単位の時間エントリをカスタマイズする
+              href: psa/time-entry-extensibility-v3.md
+    - name: よくあるご質問とトラブルシューティング (3.x)
       items:
         - name: 経費実績で価格が既定でゼロになっている理由を教えてください。
           href: psa/FAQ-zero-price-expense-cost-actuals.md
@@ -971,60 +1073,62 @@
         - name: ホワイト ペーパー
           href: psa/white-papers.md
         - name: 管理者ガイド
-          href: psa/admin-guide.md
-        - name: インストールおよびカスタマイズ
-          href: psa/install-customize.md
-        - name: デモ データの使用
-          href: psa/use-demo-data.md
-        - name: Project Service Automation の構成
           items:
-            - name: Project Service Automation アプリケーションの構成
-              href: psa/configure.md
-            - name: 時間単位の設定
-              href: psa/set-up-time-units.md
-            - name: 通貨と為替レートの設定
-              href: psa/set-up-currencies-exchange-rates.md
-            - name: 組織単位の作成
-              href: psa/create-organizational-units.md
-            - name: 請求頻度の設定
-              href: psa/set-up-invoice-frequencies.md
-            - name: トランザクション カテゴリの構成
-              href: psa/configure-transaction-categories.md
-            - name: 経費カテゴリの構成
-              href: psa/configure-expense-categories.md
-            - name: 製品カタログ品目の作成
-              href: psa/create-product-catalog-items.md
-            - name: 価格表を作成する
-              href: psa/create-price-list.md
-        - name: リソース
-          items:
+            - name: 管理者ガイド (Project Service)
+              href: psa/admin-guide.md
+            - name: インストールおよびカスタマイズ
+              href: psa/install-customize.md
+            - name: デモ データの使用
+              href: psa/use-demo-data.md
+            - name: Project Service アプリの構成
+              items:
+                - name: Project Service の構成
+                  href: psa/configure.md
+                - name: 時間単位の設定
+                  href: psa/set-up-time-units.md
+                - name: 通貨と為替レートの設定
+                  href: psa/set-up-currencies-exchange-rates.md
+                - name: 組織単位の作成
+                  href: psa/create-organizational-units.md
+                - name: 請求頻度の設定
+                  href: psa/set-up-invoice-frequencies.md
+                - name: トランザクション カテゴリの構成
+                  href: psa/configure-transaction-categories.md
+                - name: 経費カテゴリの構成
+                  href: psa/configure-expense-categories.md
+                - name: 製品カタログ品目の作成
+                  href: psa/create-product-catalog-items.md
+                - name: 価格表を作成する
+                  href: psa/create-price-list.md
             - name: リソースの設定
-              href: psa/set-up-resources.md
-            - name: リソースの追加
-              href: psa/add-resources.md
-            - name: リソースのスキルの追加
-              href: psa/add-resource-skills.md
-            - name: 能力モデルの設定
-              href: psa/set-up-proficiency-models.md
-            - name: リソース ロールの追加
-              href: psa/add-resource-roles.md
-            - name: リソース ロールの構成
-              href: psa/configure-resource-roles.md
-            - name: リソースとのスキルの関連付け
-              href: psa/associate-skills-with-resources.md
-            - name: リソース ロールとのスキルの関連付け
-              href: psa/associate-skills-with-resource-roles.md
-            - name: 作業時間テンプレートの作成
-              href: psa/create-work-hours-template.md
-            - name: リソースへのカレンダーの適用
-              href: psa/apply-calendar-resource.md
-            - name: 追加の設定の構成
-              href: psa/configure-additional-parameters-settings.md
-            - name: Project Finder Mobile を有効にする
-              href: psa/enable-project-finder-mobile-app-features.md
-        - name: リソース管理
+              items:
+                - name: リソースの設定 (Project Service)
+                  href: psa/set-up-resources.md
+                - name: リソースの追加
+                  href: psa/add-resources.md
+                - name: リソースのスキルの追加
+                  href: psa/add-resource-skills.md
+                - name: 能力モデルの設定
+                  href: psa/set-up-proficiency-models.md
+                - name: リソース ロールの追加
+                  href: psa/add-resource-roles.md
+                - name: リソース ロールの構成
+                  href: psa/configure-resource-roles.md
+                - name: リソースとのスキルの関連付け
+                  href: psa/associate-skills-with-resources.md
+                - name: リソース ロールとのスキルの関連付け
+                  href: psa/associate-skills-with-resource-roles.md
+                - name: 作業時間テンプレートの作成
+                  href: psa/create-work-hours-template.md
+                - name: リソースへのカレンダーの適用
+                  href: psa/apply-calendar-resource.md
+                - name: 追加の設定の構成
+                  href: psa/configure-additional-parameters-settings.md
+                - name: Project Finder Mobile を有効にする
+                  href: psa/enable-project-finder-mobile-app-features.md
+        - name: リソース管理者ガイド
           items:
-            - name: リソース管理者ガイド
+            - name: リソース マネージャー ガイド (Project Service)
               href: psa/resource-manager-guide.md
             - name: リソース要求の管理
               href: psa/manage-resource-requests.md
@@ -1036,9 +1140,9 @@
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
               href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
-        - name: プロジェクト管理
+        - name: プロジェクト管理者ガイド
           items:
-            - name: プロジェクト管理者ガイド
+            - name: プロジェクト マネージャー ガイド (Project Service)
               href: psa/project-manager-guide.md
             - name: 作業見積もりの提供
               href: psa/provide-estimates-project-during-sales-process.md
@@ -1074,9 +1178,9 @@
               href: psa/view-dashboards-reports.md
             - name: Microsoft Project で作業を計画するためのアドインの使用
               href: psa/add-plan-work-microsoft-project.md
-        - name: 取引先企業管理
+        - name: 取引先企業管理者ガイド
           items:
-            - name: 取引先企業管理者ガイド
+            - name: 取引先企業管理者ガイド (Project Service)
               href: psa/account-manager-guide.md
             - name: 顧客取引先企業の作成
               href: psa/create-customer-account.md
@@ -1086,9 +1190,9 @@
               href: psa/create-project-quote.md
             - name: プロジェクト契約の作成
               href: psa/create-project-contract.md
-        - name: 時間と経費
+        - name: 時間、経費、およびコラボレーション
           items:
-            - name: 時間、経費、およびコラボレーション
+            - name: 時間、経費、およびコラボレーション ガイド (Project Service)
               href: psa/time-expense-collaboration-guide.md
             - name: アプリの入手
               href: psa/get-apps.md
@@ -1102,16 +1206,17 @@
               href: psa/enter-time.md
             - name: 経費入力
               href: psa/enter-expenses.md
-            - name: 時間または経費エントリの委任
+            - name: 時間または経費エントリのデリゲート
               href: psa/allow-someone-else-enter-time-entry-expense.md
             - name: 休暇のスケジュール
               href: psa/schedule-time-off.md
-            - name: 'Office 365 グループを使用したコラボレーション](collaborate-project-team-members-office-365-groups.md'
+            - name: Office 365 グループを使用したコラボレーション
+              href: psa/collaborate-project-team-members-office-365-groups.md
             - name: Project Finder Mobile でのプロジェクトの検索
               href: psa/find-next-project-finder-mobile-app.md
             - name: プロジェクト リソース ハブ ガイド
               href: psa/project-resource-hub-users-guide.md
-        - name: 開発者用メモ
+        - name: 開発者向けノート (アプリ バージョン 2.x)
           items:
             - name: エンティティ用のカスタム フォームの追加
               href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
