@@ -1,21 +1,21 @@
 ---
-title: プロジェクトベースの営業案件明細行 (メリット)
-description: このトピックでは、プロジェクトベースの営業案件明細行について説明します。 (メリット)
+title: プロジェクトベースの営業案件品目 - Lite
+description: このトピックでは、プロジェクトベースの営業案件明細行について説明します。 (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079193"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181011"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>プロジェクトベースの営業案件明細行 (メリット)
+# <a name="project-based-opportunity-lines---lite"></a>プロジェクトベースの営業案件品目 - Lite
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
@@ -25,7 +25,7 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 以下は、プロジェクトベースの営業案件品目のフィールドです。
 
-| **フィールド** | **場所** | **関連性、目的、およびガイダンス** | **下位への影響** |
+| **フィールド** | **場所** | **説明** | **下流への影響** |
 | --- | --- | --- | --- |
 | 製品の種類 | 全般タブ (非表示) | 次のいずれかのオプションを選択できます。</br>- プロジェクトベース サービス (Dynamics 365 Project Operations がインストールされている場合にのみ使用可能)</br>- 製品 (Project Operations および Dynamics 365 Sales がインストールされている場合にのみ使用可能) | 営業案件のプロジェクトベースの明細行グリッドからプロジェクトベースの営業案件明細行を作成すると、このフィールドの値は **プロジェクトベース サービス** に設定されます。 <br> この値を変更または上書きすると、プロジェクトベースの品目でプロジェクト機能が有効になりません。 |
 | 営業案件​​ | [全般] タブ | このフィールドは読み取り専用であり、この品目が属する親営業案件レコードを参照します。 | このフィールドから下位への影響はありません。 |

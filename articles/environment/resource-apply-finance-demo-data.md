@@ -1,34 +1,34 @@
 ---
-title: Project Operations のデモ データを Finance クラウド ホスト環境に適用する
+title: デモ データを Finance クラウド ホスト環境に適用する
 description: このトピックは、Project Operations からのデモ データを Dynamics 365 Finance のクラウド ホスト環境に適用する方法を説明しています。
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096628"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365244"
 ---
-# <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>Project Operations のデモ データを Finance クラウド ホスト環境に適用する
+# <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>デモ データを Finance クラウド ホスト環境に適用する
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
 > [!IMPORTANT]
 > このトピックは Microsoft Dynamics 365 Finance バージョン 10.0.13 にのみ適用され、クラウド ホスト型環境でのみ実行できます。 環境に品質更新を適用する **前** に、このトピックの手順を完了します。
 
-1. LCS プロジェクトで、 **環境の詳細** ページを開きます。 リモート デスクトップ プロトコル (RDP) を使用して環境に接続するために必要な詳細が含まれていることに注意してください。
+1. LCS プロジェクトで、**環境の詳細** ページを開きます。 リモート デスクトップ プロトコル (RDP) を使用して環境に接続するために必要な詳細が含まれていることに注意してください。
 
 ![ 環境の詳細](./media/1EnvironmentDetails.png)
 
 強調表示された資格情報の最初のセットはローカル アカウントの資格情報であり、リモート デスクトップ接続へのハイパーリンクが含まれています。 資格情報には、環境管理者のユーザー名とパスワードが含まれます。 2 番目の資格情報のセットは、この環境で SQL Server にログインするために使用されます。
 
-2. **ローカル アカウント** のハイパーリンクで環境にリモート接続し、 **ローカルアカウントの資格情報** を使用して認証します。
+2. **ローカル アカウント** のハイパーリンクで環境にリモート接続し、**ローカルアカウントの資格情報** を使用して認証します。
 3. **インターネット インフォメーション サービス** > **アプリケーション プール** > **AOSService** に移動し、サービスを停止します。 この時点でサービスを停止しているので、SQL データベースの置き換えを続行できます。
 
 ![AOS の停止](./media/2StopAOS.png)
@@ -44,9 +44,9 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ![SQL Server Management Studio](./media/4SSMS.png)
 
-6. オブジェクト エクスプローラーで、 **データベース** を選択し、 **AXDB** を見つけます。 データベースを、[ダウンロード センター](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip) にある新しいデータベースに置き換えます。 
+6. オブジェクト エクスプローラーで、**データベース** を選択し、**AXDB** を見つけます。 データベースを、[ダウンロード センター](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip) にある新しいデータベースに置き換えます。 
 7. リモート先の VM に zip ファイルをコピーし、zip コンテンツを抽出します。
-8. SQL Server Management Studio で、 **AxDB** を右クリックし、次に **タスク** > **復元** > **データベース** を選択します。
+8. SQL Server Management Studio で、**AxDB** を右クリックし、次に **タスク** > **復元** > **データベース** を選択します。
 
 ![データベースの復元](./media/5RestoreDatabase.png)
 

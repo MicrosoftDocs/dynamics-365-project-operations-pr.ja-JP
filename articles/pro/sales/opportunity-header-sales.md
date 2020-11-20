@@ -1,21 +1,21 @@
 ---
-title: 営業案件ヘッダー
-description: このトピックでは、プロジェクトベースの取引とプロジェクトベースの営業案件ラインに関する全体的な情報について説明します。
+title: 営業案件の設定- Lite
+description: このトピックでは、プロジェクトベースの取引とプロジェクトベースの営業案件明細行について説明します。
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2f08de54767f49c308d0ccc7f2e1c6ef880b7f99
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079196"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181050"
 ---
-# <a name="opportunity-header"></a>営業案件ヘッダー
+# <a name="opportunity-header---lite"></a>営業案件ヘッダー- Lite
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
@@ -25,7 +25,7 @@ Dynamics 365 Project Operations のプロジェクトベースの営業案件は
 
 次の表には、Project Operations に固有の、または Sales の営業案件からの動作にいくつかの重要な変更がある、プロジェクトベースの営業案件のフィールドが含まれています。
 
-| **フィールド** | **場所** | **関連性、目的、およびガイダンス** | **下流への影響** |
+| **フィールド** | **場所** | **説明** | **下流への影響** |
 | --- | --- | --- | --- |
 | 型 | 全般タブ (非表示) | このオプション セット フィールドには次のオプションがあります。</br>- 作業ベース (Project Operations でのみ使用可能)</br>- 品目ベース (プロジェクト オペレーションおよび営業がインストールされている場合にのみ使用可能)</br>- サービス メンテナンス ベース (Field Service がインストールされている場合に使用可能) | Project Operations を使用すると、このフィールド値は自動的に **作業ベース** と設定され、営業案件がプロジェクトベースとして分類されます。 この取引の下位営業プロセスですべてのプロジェクト固有の拡張機能と機能を有効にするためには、営業案件をプロジェクトベースにする必要があります。 |
 | 連絡先 | [全般] タブ | この取引に関する顧客の取引先責任者への参照。 | |

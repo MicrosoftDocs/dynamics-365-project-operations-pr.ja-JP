@@ -1,27 +1,27 @@
 ---
-title: クレジットと修正された請求書
+title: 修正済みの請求書 (ライト)
 description: このトピックでは、Project Operations における修正された請求書について説明します
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079379"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176437"
 ---
-# <a name="credits-and-corrected-invoices"></a>クレジットと修正された請求書
+# <a name="corrected-invoices---lite"></a>修正済みの請求書 (ライト)
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 確認済みのプロジェクト請求書は、顧客およびプロジェクト マネージャーとの交渉に従って変更、またはクレジットを処理するように修正できます。
 
-確定した請求書を編集するには、確定した請求書を開き、 **この請求書を修正する** を選択します。 
+確定した請求書を編集するには、確定した請求書を開き、**この請求書を修正する** を選択します。 
 
 > [!NOTE]
 > この選択は、プロジェクトの請求書が確定していない場合は利用できません。
@@ -35,7 +35,7 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 - 留保金や立替金の調整については、以前に確認された請求書の料金との調整に誤った金額が使用されていた場合に修正することができます。
 
 > [!IMPORTANT]
-> 既に請求された他の料金の訂正である請求明細の詳細は、 **訂正** フィールドが **はい** に設定されています。 請求書明細の詳細を修正した請求書には、 **訂正あり** というフィールドがあり、ここも **はい** に設定されています。
+> 既に請求された他の料金の訂正である請求明細の詳細は、**訂正** フィールドが **はい** に設定されています。 請求書明細の詳細を修正した請求書には、**訂正あり** というフィールドがあり、ここも **はい** に設定されています。
 
 ## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>修正請求書の確認時に作成された実績：
 

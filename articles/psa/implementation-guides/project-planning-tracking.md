@@ -3,7 +3,7 @@ title: プロジェクト計画および追跡
 description: このトピックでは、Project Service Automation での計画と追跡についての情報へのリンクを提供します。
 author: kfend
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0dfd05f7f22d0f339bd2437bbd47009e92ebb72a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2aaa1b523099e7346053245473cc6ec849245f92
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079369"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132610"
 ---
 # <a name="project-planning-and-tracking"></a>プロジェクト計画および追跡
 

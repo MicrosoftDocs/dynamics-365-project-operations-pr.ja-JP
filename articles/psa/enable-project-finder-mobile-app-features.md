@@ -3,7 +3,7 @@ title: Project Finder Mobile アプリ機能 (プロジェクトサービス) �
 description: Project Service の Project Finder Mobile アプリ機能を有効化する方法
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 749c5682dc2e639843a0a8a085fe8af65502d433
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079275"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132969"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Project Finder Mobile アプリ機能 (Project Service) を有効化する
 
@@ -42,7 +42,7 @@ ms.locfileid: "4079275"
   
 2. Project Finder Mobile アプリケーション機能を許可するために使用するパラメーター設定をクリックします。  
   
-3. **全般** 領域で、 **リソースに表示されるリソース要件** を **はい** に設定します。  
+3. **全般** 領域で、**リソースに表示されるリソース要件** を **はい** に設定します。  
   
 4. **リソースによるスキルの更新を許可** を **はい** に設定します。  
   

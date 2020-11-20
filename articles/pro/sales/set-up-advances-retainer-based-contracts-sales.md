@@ -1,21 +1,21 @@
 ---
-title: 前払い契約と着手金ベースの契約
+title: 前払いおよび着手金ベースの契約 - Lite
 description: このトピックは、Project Operations で着手金ベースの契約モデルと前払についての情報を説明します。
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087979"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180873"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>前払い契約と着手金ベースの契約 
+# <a name="advances-and-retainer-based-contracts---lite"></a>前払いおよび着手金ベースの契約 - Lite
 
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
@@ -33,7 +33,7 @@ Project Operations における着手金ベースの契約モデルと固定価�
 
 Project Operations の着手金は、顧客に請求されるまで使用できません。 これは、前払いと着手金のサブグリッドで次のフィールドで示されます。
 
-| フィールド | 関連性、目的、およびガイダンス | 下位への影響 |
+| フィールド | 内容 | 下位への影響 |
 | --- | --- | --- |
 | 使用可能な金額 | 着手金または前払いレコードで使用できる金額。 | 前払金または保持者に請求が行われるまで、使用することはできません。つまり、使用可能な金額はゼロになります。 |
 | 使用した金額 | 着手金または前払いレコードですでに使用されている金額。 | 前払金または着手金は、請求書と実際のコストを部分的に照合できます。実際のコストには、一部がすでに使用済みまたは消費済みとしてマークされます。 前払金または着手金の残りの金額は、将来の請求書と実際の費用を照合するために使用できます。 |

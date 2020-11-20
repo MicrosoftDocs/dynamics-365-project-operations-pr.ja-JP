@@ -3,7 +3,7 @@ title: 請求頻度のセットアップ
 description: Project Service での請求頻度のセットアップ方法
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18fb4e6968612adb1c946650c829174286c5f3cd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2739db966b332db35e383589e06e023ff156ed45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079484"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132042"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>請求頻度のセットアップ (Project Service)
 
@@ -35,13 +35,13 @@ ms.locfileid: "4079484"
   
 2.  **新規** をクリックします。  
   
-3.  **全般** 領域で、 **名前** に請求頻度の名前を入力します。  
+3.  **全般** 領域で、**名前** に請求頻度の名前を入力します。  
   
-4.  **期間** で、 **月単位** 、 **隔週** 、または **週単位** を選択します。  
+4.  **期間** で、**月単位**、**隔週**、または **週単位** を選択します。  
   
-5.  期間に月単位または隔週を指定する場合、 **実行日** で、期間の指定日に請求する **期間の日** を選択 (平日または週末)、または期間の平日に請求する **期間の平日** を選択します。  
+5.  期間に月単位または隔週を指定する場合、**実行日** で、期間の指定日に請求する **期間の日** を選択 (平日または週末)、または期間の平日に請求する **期間の平日** を選択します。  
   
-6.  月単位の期間を指定する場合、 **月ごとに実行** で、請求を実行する月ごとの回数を選択します。  
+6.  月単位の期間を指定する場合、**月ごとに実行** で、請求を実行する月ごとの回数を選択します。  
   
 7.  **請求頻度の詳細** 領域で、必要に応じて日または平日の詳細を変更して、指定した期間の適切な日または平日に請求が実行されるようにします。  
   

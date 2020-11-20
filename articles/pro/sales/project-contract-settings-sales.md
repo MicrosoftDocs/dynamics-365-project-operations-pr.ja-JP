@@ -1,21 +1,21 @@
 ---
-title: プロジェクト契約のフィールドと情報
+title: プロジェクト契約の設定 - Lite
 description: このトピックでは、契約品目に影響を与えるフィールドと、すべての品目にわたって要約される契約に関する情報について説明します。
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 082292c54682022933a4b46b856f9241078a9067
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087981"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180919"
 ---
-# <a name="project-contract-fields-and-information"></a>プロジェクト契約のフィールドと情報 
+# <a name="project-contract-settings---lite"></a>プロジェクト契約の設定 - Lite
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
@@ -23,7 +23,7 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 次の表に、Dynamics 365 Project Operations に固有のフィールド、または Dynamics 365 Sales の受注からの動作にいくつかの重要な変更があるプロジェクト契約のフィールドを表示します。
 
-| フィールド | 場所 | 関連性、目的、およびガイダンス | 下位への影響 |
+| フィールド | 場所 | 内容 | 下位への影響 |
 | --- | --- | --- | --- |
 | 型 | **概要** タブ (非表示) | これは、次のオプションを持つオプション セット フィールドです:</br>- **作業ベース** (Project Operations がインストールされている場合にのみ使用可能)</br>- **品目ベース** (Project Operations および Sales がインストールされている場合にのみ使用可能)</br>- **サービス管理ベース** (Dynamics 365 Field Service がインストールされている場合に使用可能) | Project Operations では、このフィールドの値は既定で **作業ベース** になり、契約をプロジェクトベースの契約として分類します。 すべてのプロジェクト固有の拡張機能と機能を有効にするには、契約をプロジェクトベースにする必要があります。 |
 | 見込み顧客 | **概要** タブ | 顧客の会社または取引先企業レコードへの参照。 見積もりから契約が作成されると、このフィールドは見積もりレコードの対応するフィールドからコピーされます。 | プロジェクト契約の通貨は、顧客の通貨に基づいて既定設定されます。 これは契約の保存前に変更できます。 |
@@ -36,7 +36,7 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 次の KPI は、プロジェクト契約の **契約履行** タブで利用できます。
 
-| フィールド | 場所 | 関連性、目的、およびガイダンス |
+| フィールド | 場所 | 内容 |
 | --- | --- | --- |
 | 契約価値 | 契約全体 | プロジェクト契約の総額。 |
 | 請求金額 | 契約全体 | この契約に対するすべての請求書の合計金額。 |

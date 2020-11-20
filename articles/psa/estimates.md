@@ -3,7 +3,7 @@ title: 見積もり
 description: このトピックでは、 Dynamics 365 Project Service Automation での見積もりに関する情報を提供します。
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e21511f78d92ff672e462f63f0dd0d098578516a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 95f739f0c724ff93c4d588776f9e49687bac2035
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079470"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132737"
 ---
 # <a name="estimates"></a>見積もり
 
@@ -90,7 +90,7 @@ PSAでは、契約またはプロジェクトの受注変更に対応してい�
 
     ![プラグインのステップを選択する](media/basic-guide-20.png)
 
-5. **既存の手順の更新** ダイアログ ボックスで、 **属性をフィルタする** フィールドの省略記号(...)ボタン ( **...** ) を選択します:
+5. **既存の手順の更新** ダイアログ ボックスで、 **属性をフィルタする** フィールドの省略記号(...)ボタン (**...**) を選択します:
  
     ![既存の手順の更新 ダイアログボックス](media/basic-guide-21.png)
 

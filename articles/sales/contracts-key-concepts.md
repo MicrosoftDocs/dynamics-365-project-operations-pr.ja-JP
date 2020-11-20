@@ -1,21 +1,21 @@
 ---
-title: 主要な概念 - プロジェクト契約
+title: プロジェクト契約 - 重要な概念
 description: このトピックでは、Dynamics Project Operations における主要な概念について解説します。
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4ab43a9de6b27f0f0e9b8cbe6ea8b613ce81e08d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079204"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175537"
 ---
-# <a name="key-concepts---project-contracts"></a>主要な概念 - プロジェクト契約
+# <a name="project-contracts---key-concepts"></a>プロジェクト契約 - 重要な概念
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
@@ -39,7 +39,7 @@ Common Data Service (CDS) プラット フォームの為替レートは日付�
 
 Project Operations の販売通貨は、推定および販売実績額が記録および表示される通貨です。 また、販売通貨は、取引の際に顧客に請求される通貨でもあります。 プロジェクト契約では、販売通貨は顧客または取引先企業レコードから既定で設定され、契約作成時に変更することができます。 落札された見積もりをクローズすることで契約が作成されると、契約の通貨は見積もりの通貨から既定に設定されます。
 
-プロジェクト契約を最初から作成する場合、 **販売通貨** フィールドは編集できません。 既定では、製品およびプロジェクトの価格リストは、契約上のこの通貨に基づいています。
+プロジェクト契約を最初から作成する場合、**販売通貨** フィールドは編集できません。 既定では、製品およびプロジェクトの価格リストは、契約上のこの通貨に基づいています。
 
 原価とは異なり、販売額は販売通貨でのみ記録可能となっています。
 

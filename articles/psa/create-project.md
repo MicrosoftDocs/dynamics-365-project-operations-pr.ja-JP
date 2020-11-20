@@ -3,7 +3,7 @@ title: プロジェクトの作成
 description: Project Service でのプロジェクトの作成方法
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/13/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1a229641d0694311ecb7019e3915d0e8e6783c3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: de26bb4c3fa0ee8abf6edf5494968d1d0403266a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079280"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133104"
 ---
 # <a name="create-a-project-project-service"></a>プロジェクトの作成 (Project Service)
 
@@ -42,7 +42,7 @@ ms.locfileid: "4079280"
 次に、プロジェクトの仕事明細構造を作成して、プロジェクトに必要なタスク、時期、およびリソースのロールを定義します。  
 
 > [!NOTE]
-> スケジュール時に、Project Service Automation は適用された **作業時間** テンプレートのタイム ゾーンを尊重します。 ただし、スケジュール タスクを表示すると、タスクの開始日と終了日がユーザーのタイム ゾーンに表示されます。 これは、 **プロジェクト** フォームの他の時間フェーズ ビューに適用されます。 ユーザーのタイム ゾーンがプロジェクトに適用されている作業時間テンプレートのタイム ゾーンと一致しない場合、違いを説明する警告が表示されます。 
+> スケジュール時に、Project Service Automation は適用された **作業時間** テンプレートのタイム ゾーンを尊重します。 ただし、スケジュール タスクを表示すると、タスクの開始日と終了日がユーザーのタイム ゾーンに表示されます。 これは、**プロジェクト** フォームの他の時間フェーズ ビューに適用されます。 ユーザーのタイム ゾーンがプロジェクトに適用されている作業時間テンプレートのタイム ゾーンと一致しない場合、違いを説明する警告が表示されます。 
   
 ### <a name="see-also"></a>関連項目  
  [プロジェクト管理者ガイド](../psa/project-manager-guide.md)

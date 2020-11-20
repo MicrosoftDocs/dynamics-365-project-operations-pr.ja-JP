@@ -1,21 +1,21 @@
 ---
-title: 製品ベースの見積依頼明細行のユーザーごと、月ごとなどの複雑な出荷単位を管理する
+title: 製品ベースの見積依頼明細行に対してユーザーごと、月ごとなどの複雑な出荷単位を管理する (ライト)
 description: このトピックは、製品ベースの見積依頼明細行の複雑な出荷単位の管理について説明します。
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ee46da2f663ef4f5f8fc7f9f89b6fcfd09a1798
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079200"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175582"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>製品ベースの見積依頼明細行のユーザーごと、月ごとなどの複雑な出荷単位を管理する
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>製品ベースの見積依頼明細行に対してユーザーごと、月ごとなどの複雑な出荷単位を管理する (ライト)
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
@@ -25,7 +25,7 @@ Dynamics 365 Project Operations は、数量係数を使用して、サブスク
 
 この種類の営業をサポートするために、Project Operations は数量係数の概念を導入しました。 数量係数は、Dynamics 365の製品属性に依存します。 製品の特定のプロパティを設定すると、Project Operations では、サブセットまたはすべてのプロパティに数量係数としてフラグを立てることができます。
 
-数値データ型を持つ数値プロパティ、または製品プロパティのみが、数量係数としてフラグが立てられていることが Project Operations によって検証されます。 数量係数のある製品を見積依頼明細行に追加すると、 **数量** フィールドは読み取り専用になります。 数量係数である製品プロパティの値を入力すると、Project Operations は見積依頼明細行の数量を計算します。
+数値データ型を持つ数値プロパティ、または製品プロパティのみが、数量係数としてフラグが立てられていることが Project Operations によって検証されます。 数量係数のある製品を見積依頼明細行に追加すると、**数量** フィールドは読み取り専用になります。 数量係数である製品プロパティの値を入力すると、Project Operations は見積依頼明細行の数量を計算します。
 
 たとえば、Dynamics 365 Sales には、次のプロパティがあります。
 
@@ -33,14 +33,14 @@ Dynamics 365 Project Operations は、数量係数を使用して、サブスク
 - **月数** : サブスクリプションの月数
 - **製品 SKU**
 
-製品品目のプロパティを編集することにより、 **ユーザー数** と **月数** プロパティに数量係数としてフラグを立てることができます。
+製品品目のプロパティを編集することにより、**ユーザー数** と **月数** プロパティに数量係数としてフラグを立てることができます。
 
 製品プロパティから数量係数を作成するには、次の手順に従います。
 
-1. Project Operations の左側のナビゲーション ウィンドウで、 **営業** > **製品** の順に移動します。
+1. Project Operations の左側のナビゲーション ウィンドウで、**営業** > **製品** の順に移動します。
 2. 数量係数を構成する必要がある製品を開きます。 製品にプロパティがすでに構成されていることを確認してください。
-3. 製品の **プロジェクト情報** ページで、 **数量係数** タブを選択します。
-4. サブグリッドで、 **+ 新しいフィールド計算** を選択します。
+3. 製品の **プロジェクト情報** ページで、**数量係数** タブを選択します。
+4. サブグリッドで、**+ 新しいフィールド計算** を選択します。
 5. 数量係数の名前を入力し、フィールド計算にマップするプロパティ値を選択します。
 6. フォームを保存して閉じます。 製品ベースの見積依頼明細行の数量を計算するために使用するすべてのプロパティについて、これらの手順を繰り返します。
 

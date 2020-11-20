@@ -3,7 +3,7 @@ title: 作業時間テンプレートの作成
 description: Project Service での作業時間テンプレートの作成方法
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c34634817fc8e4c993261024a8b19d45052bf5e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a0fce327587940e557e0214c8c0897116ac91901
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079278"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133059"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>作業時間テンプレートの作成 (Project Service)
 
@@ -45,9 +45,9 @@ ms.locfileid: "4079278"
   
 2.  作業時間に基づかせるリソースを選択します。  
   
-3.  **カレンダーに名前を付けて保存** をクリックして、作業時間テンプレートに名前を入力してから、 **保存** をクリックします。  
+3.  **カレンダーに名前を付けて保存** をクリックして、作業時間テンプレートに名前を入力してから、**保存** をクリックします。  
   
-4.  オプションの変更を終了したら、 **保存して閉じる** をクリックします。  
+4.  オプションの変更を終了したら、**保存して閉じる** をクリックします。  
   
 5.  画面の右下隅の **保存** ボタンをクリックします。  
   
@@ -59,7 +59,7 @@ ms.locfileid: "4079278"
   
 3.  作業時間テンプレートに名前を付けます。  
   
-4.  作業時間を基づかせるするリソースを選択してから、 **保存** をクリックします。  
+4.  作業時間を基づかせるするリソースを選択してから、**保存** をクリックします。  
   
 ### <a name="see-also"></a>関連項目  
  [リソースの設定](../psa/set-up-resources.md)

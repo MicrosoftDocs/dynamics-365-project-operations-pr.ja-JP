@@ -1,21 +1,21 @@
 ---
-title: Deploy Project Operations Lite 展開 – 見積もり請求の取引
+title: Project Operations の展開 (ライト)
 description: このトピックでは、Project Operations ライト デプロイメントのインストール方法に関する情報を提供します - 見積もり請求の取引を行います。
 author: stsporen
 manager: Annbe
 ms.date: 10/02/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e938876d459b3f6dfedd90e57e3042cda96bffb7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0633585fcef91d9218d6140764addb7cf96ab31d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079132"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175672"
 ---
-# <a name="deploy-project-operations-lite-deployment--deal-to-proforma-invoicing"></a>Deploy Project Operations Lite 展開 – 見積もり請求の取引
+# <a name="deploy-project-operations---lite"></a>Project Operations の展開 (ライト)
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
@@ -23,7 +23,7 @@ Project Operations は、複数の展開モデルをサポートしています�
 
 
 > [!IMPORTANT]
-> この展開、ライト展開 – 見積もり請求に対処すると、 **Common Data Service - Project Operations の展開のみ** となります。
+> この展開、ライト展開 – 見積もり請求に対処すると、**Common Data Service - Project Operations の展開のみ** となります。
 
 - [Project Operations を新しい CDS 環境にインストールする](#new)
 - [既存の CDS 環境にインストールする](#existing)
@@ -32,13 +32,13 @@ Project Operations は、複数の展開モデルをサポートしています�
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Project Operations を新しい CDS 環境にインストールする
 
-1. Project Operations ライセンスの[グローバルまたは Power Platform 管理者](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) として、[ PowerPlatform 管理センター](https://admin.powerplatform.com) で新しい CDS 環境を作成します。 **CDS データベース** および **Dynamics 365 アプリ** は、有効であることを確認します。 詳細については、[Power Platform 管理センターで環境を作成および管理する](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center) を参照してください。
-2. Dynamics 365 アプリの展開リストから、 **Microsoft Dynamics 365 プロジェクトの営業案件** を選択します。
+1. Project Operations ライセンスの[グローバルまたは Power Platform 管理者](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) として、[PowerPlatform 管理センター](https://admin.powerplatform.com) で新しい CDS 環境を作成します。 **CDS データベース** および **Dynamics 365 アプリ** は、有効であることを確認します。 詳細については、[Power Platform 管理センターで環境を作成および管理する](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center) を参照してください。
+2. Dynamics 365 アプリの展開リストから、**Microsoft Dynamics 365 プロジェクトの営業案件** を選択します。
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Project Operations を既存の CDS 環境にインストールする
 
 1. Project Operations ライセンスの[グローバルまたは Power Platform 管理者](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) として、Project Operations をインストールする [PowerPlatform 管理センター](https://admin.powerplatform.com) で環境を見つけます。
-2. Dynamics 365 アプリの展開リストから、 **Microsoft Dynamics 365 プロジェクトの営業案件** をインストールします。 詳細については、[Dynamics 365 アプリを管理する](https://docs.microsoft.com/power-platform/admin/manage-apps) 参照してください。
+2. Dynamics 365 アプリの展開リストから、**Microsoft Dynamics 365 プロジェクトの営業案件** をインストールします。 詳細については、[Dynamics 365 アプリを管理する](https://docs.microsoft.com/power-platform/admin/manage-apps) 参照してください。
 
 

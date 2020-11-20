@@ -1,21 +1,21 @@
 ---
-title: LCS で新しいプロジェクトを開始する
+title: 新しい LCS プロジェクトを開始する
 description: このトピックでは、新しい Project Operations 環境で新しい LCS プロジェクトを作成する方法について説明します。
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c0b756068f7eec5e3abd326957ee07cb0d00331f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 595fda369fe19a69604fc4ab694cb844f45076b5
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079125"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175627"
 ---
-# <a name="start-a-new-project-in-lcs"></a>LCS で新しいプロジェクトを開始する
+# <a name="start-a-new-lcs-project"></a>新しい LCS プロジェクトを開始する
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
@@ -24,7 +24,7 @@ Lifecycle Services (LCS) を使用して、Dynamics 365 Project Operations 環�
 1. [LCS](https://lcs.dynamics.com/Logon/Index) に移動し、登録に使用したアカウントを使用して **サインイン** を選択します。
 2. メッセージが表示されたら、法的およびプライバシー条項に同意します。
 3. プラス記号 ( **+** ) を選択して、新しいプロジェクトを作成します。
-4. プレビューの目的で、 **移行、ソリューションの作成、および学習** プロジェクトの種類を選択します。
+4. プレビューの目的で、**移行、ソリューションの作成、および学習** プロジェクトの種類を選択します。
 
   ![LCS プロジェクトの種類を選択](./media/create-lcs-1.png)
 

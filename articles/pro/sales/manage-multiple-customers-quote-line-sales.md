@@ -1,21 +1,21 @@
 ---
-title: プロジェクトベースの見積依頼明細行の複数の顧客を管理する
+title: プロジェクトベースの見積依頼明細行の複数の顧客を管理する (ライト)
 description: このトピックでは、プロジェクトベースの見積依頼明細行で複数の顧客を管理する方法について説明します。
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079169"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176482"
 ---
-# <a name="managing-multiple-customers-on-project-based-quote-lines"></a>プロジェクトベースの見積依頼明細行の複数の顧客を管理する
+# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>プロジェクトベースの見積依頼明細行の複数の顧客を管理する (ライト)
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
