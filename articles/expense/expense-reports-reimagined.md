@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 47c1bce0c886897b295a3c1a355f4db843c4b73a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079334"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122800"
 ---
 # <a name="expense-reports-reimagined"></a>刷新された経費報告書
 
@@ -34,7 +34,7 @@ ms.locfileid: "4079334"
 - 必須フィールド、オプション フィールド、および含めるべきではないフィールドを指定するための新しいページ。 このページは、設定する必要のあるフィールドの数を削減するのに役立ちます。
 - 経費報告書の新しいルック アンド フィールにより、報告書は会計ペルソナ用に設計されたかのようには見えなくなります。
 
-新しいエクスペリエンスを有効にするには、 **機能管理** ワークスペースを使用して、 **刷新された経費報告書** 機能を有効にします。 この機能を有効にすると、次のアクションが発生します。
+新しいエクスペリエンスを有効にするには、**機能管理** ワークスペースを使用して、**刷新された経費報告書** 機能を有効にします。 この機能を有効にすると、次のアクションが発生します。
 
 - 既存の経費ワークスペースは、新しいワークスペースに置き換えられます。
 - 経費フィールドの表示に使用する新たなメニュー項目が追加されました。

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079296"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122934"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>見積依頼明細行の見積もりの作成
 
@@ -83,7 +83,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 2. **検索** を選択し、更新するプラグインを検索します。
 3. プラグインを選択し、メイン ページで **選択する** を選択します。
 4. 更新をするプラグインのステップを選んで右クリックし、 **更新** を選択します。
-5. **既存の手順の更新** ダイアログ ボックスで、 **属性をフィルタする** フィールドの省略記号(...)ボタン ( **...** ) を選択します:
+5. **既存の手順の更新** ダイアログ ボックスで、 **属性をフィルタする** フィールドの省略記号(...)ボタン (**...**) を選択します:
 6. **属性の選択** ダイアログ ボックスで、カスタム属性のチェックボックスを選択します。
 7. **OK** を選択してダイアログボックスを閉じ、 **手順の更新** を選択します。
 8. さらにプラグインを更新するには、手順1 から 7を繰り返します。

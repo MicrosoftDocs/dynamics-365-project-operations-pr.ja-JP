@@ -2,7 +2,7 @@
 title: WBS (作業分解構造) のアップグレードに関する考慮事項
 description: このトピックでは、「Project Service Automation 2.x から 3.x. へ」 の WBS (作業分解構造) をアップグレードする方法に関して説明します。
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 169dc24f0d1ae151ea5927123fb738221de88250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079350"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121809"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>WBS (作業分解構造) のアップグレードに関する考慮事項
 このトピックでは、「Project Service Automation 2.x から 3.x. へ」 の WBS (作業分解構造) をアップグレードする方法に関して説明します。 このトピックでは、アップグレードを完了するのに必要な Project Service Automation (PSA) のプロジェクトについて、正常な条件を定義します。 ここには、アップグレードが失敗する一般的なブロック条件についての詳細が含まれます。 プロジェクト スケジュールのプロジェクト タスクおよび機能の定義に関する詳細は、[プロジェクト スケジュール](project-creating.md) を参照してください。
@@ -65,7 +65,7 @@ WBS (作業分解構造) がロードされたリソースを定義するには�
 - すべてのタスクは、開始日を 2000/01/01 より後に設定されている必要があります。*
 - すべてのタスクは、現在の日付の 18 年以上前である必要があります。*
 - すべてのタスクは、完了日かそれよりも前に開始日を持つ必要があります。
-- 分類上のすべてのトランザクションの種類 (経費、資料、税、および時間) には、 **既定の単位** および **出荷単位** の値が必要です。
+- 分類上のすべてのトランザクションの種類 (経費、資料、税、および時間) には、**既定の単位** および **出荷単位** の値が必要です。
 - 日付の書式に文字を使用することは避けてください。
 
 ### <a name="potential-mitigation-steps"></a>潜在的緩和措置

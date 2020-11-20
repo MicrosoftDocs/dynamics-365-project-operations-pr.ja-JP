@@ -5,15 +5,15 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 746d5d9ff56222e7d6b9b6e264db75d5814365c7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079152"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121089"
 ---
 # <a name="expense-entry-lite"></a>経費の入力 (ライト)
 
@@ -27,8 +27,8 @@ Dynamics 365 Project Operations の経費の機能の詳細については、[�
 
 経費を取り込んで、承認者に送信することができます。
 
-1. **経費** に移動し、 **新規** を選択します。
-2. **新規経費** ページで必要な経費情報を入力し、 **保存** をクリックします。
+1. **経費** に移動し、**新規** を選択します。
+2. **新規経費** ページで必要な経費情報を入力し、**保存** をクリックします。
 
 ## <a name="submit-a-basic-expense"></a>基本経費を送信する
 

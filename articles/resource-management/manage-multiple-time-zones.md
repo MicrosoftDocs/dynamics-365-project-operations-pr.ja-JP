@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079206"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119829"
 ---
 # <a name="manage-time-zones"></a>タイム ゾーンの管理
 
@@ -22,7 +22,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 ## <a name="projects"></a>プロジェクト
 
-プロジェクトが作成されると、タイム ゾーンは、適用された作業時間テンプレートで定義されたタイム ゾーンに基づきます。 **プロジェクト** の場合、日付は常に、 **タスク** タブを除き、各タブにログインしているユーザーのタイム ゾーンを基準にしています。WBS (作業分解構造) を表示すると、日付は常にプロジェクトのタイム ゾーンで表示されます。
+プロジェクトが作成されると、タイム ゾーンは、適用された作業時間テンプレートで定義されたタイム ゾーンに基づきます。 **プロジェクト** の場合、日付は常に、**タスク** タブを除き、各タブにログインしているユーザーのタイム ゾーンを基準にしています。WBS (作業分解構造) を表示すると、日付は常にプロジェクトのタイム ゾーンで表示されます。
 
 ## <a name="tasks"></a>タスク
 

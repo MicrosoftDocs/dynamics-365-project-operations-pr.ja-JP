@@ -3,7 +3,7 @@ title: 能力モデルの設定
 description: Project Service での能力モデルの設定方法
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 653b7eef12c57203fbc6853e97d3be43bdb85b9d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2d13d5bbfd43ef88ec2f285357ee26a2a87db870
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079485"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122979"
 ---
 # <a name="set-up-proficiency-models-project-service"></a>能力モデルの設定 (Project Service)
 
@@ -35,7 +35,7 @@ ms.locfileid: "4079485"
   
 2.  既定の能力モデルを表示または編集するには **既定の評価モデル** をクリックし、新しい実力モデルを作成するには **新規** をクリックします。  
   
-3.  新しい能力モデルを作成する場合は、 **概要** 領域のフィールドに入力してから、 **保存** をクリックしてレコードを作成し、その編集を続けられるようにします。 独自の能力モデルを作成するときは、番号が大きいほど優れていることに留意します。  
+3.  新しい能力モデルを作成する場合は、**概要** 領域のフィールドに入力してから、**保存** をクリックしてレコードを作成し、その編集を続けられるようにします。 独自の能力モデルを作成するときは、番号が大きいほど優れていることに留意します。  
   
      たとえば、既定の評価モデルを表示または編集する場合、下記の能力レベルが **評価の値** に表示されます。  
   

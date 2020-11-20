@@ -5,15 +5,15 @@ author: suvaidya
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 0261405abb9305d7f6abcde9cb90d9b184868580
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46a678ac4486c99f11d74dbac07dedd08364cb2f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079137"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123744"
 ---
 # <a name="travel-requisitions"></a>出張申請書
 
@@ -31,12 +31,12 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ## <a name="create-and-submit-a-travel-requisition"></a>出張申請書の作成および送信
 
-1. **自分の経費: 出張申請書** に移動し、 **新しい出張申請書** を選択します。
+1. **自分の経費: 出張申請書** に移動し、**新しい出張申請書** を選択します。
 2. 申請書に目的と出張先を入力します。
 3. **出張の説明** フィールドに、追加情報を入力します。 
 4. フライト、食事、レンタカーなどの各予定経費について、経費明細行品目を作成します。 各経費について、予定日、見積もり金額、および通貨を含めます。 
-5. 予想される経費の追加が完了したら、 **保存** を選択します。
-6. 出張申請書を送信する準備ができたら、 **ワークフロー** > **送信** を選択します。
+5. 予想される経費の追加が完了したら、**保存** を選択します。
+6. 出張申請書を送信する準備ができたら、**ワークフロー** > **送信** を選択します。
 
 **自分の経費: 出張申請書** の下で承認された出張申請書を確認できます。 
 
@@ -46,7 +46,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ## <a name="approve-travel-requisitions"></a>承認された出張申請書
 
-承認する出張申請書を選択し、 **ワークフロー** > **承認** を選択します。  
+承認する出張申請書を選択し、**ワークフロー** > **承認** を選択します。  
 
 ## <a name="submit-an-expense-report-using-your-approved-travel-requisition"></a>承認された出張申請書を使用して経費報告書を送信する
 

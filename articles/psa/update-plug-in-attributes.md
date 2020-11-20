@@ -6,7 +6,7 @@ manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f215555dd7b29444e00499c0e731624e51057250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079351"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121854"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>プラグインの属性を更新して新しい価格ディメンションを含める
 
@@ -34,8 +34,8 @@ ms.locfileid: "4079351"
 
 数量への変更を行うとき、またはコスト側のフィールドを変更するとき、変更が営業側に伝播されます。 これは、可能です。次のプラグインでは、価格ディメンションに対する変更を行った後、再登録する必要があるためです。
 
-- PreOperationContractLineDetailUpdate - 更新 **msdyn_orderlinetransaction** 。
-- PreOperationQuoteLineDetailUpdate - 更新 **msdyn_quotelinetransaction** 。
+- PreOperationContractLineDetailUpdate - 更新 **msdyn_orderlinetransaction**。
+- PreOperationQuoteLineDetailUpdate - 更新 **msdyn_quotelinetransaction**。
 
 次の手順では、プラグインの登録に関して説明します。
 
@@ -44,13 +44,13 @@ ms.locfileid: "4079351"
 
  ![検索ツリーのスクリーンショット](media/PRT-1.png)
 
-3. プラグインが見つかったらそれを選択し、 **メイン フォームの選択** をクリックします。
+3. プラグインが見つかったらそれを選択し、**メイン フォームの選択** をクリックします。
 
-4. 更新すべきプラグインのステップを選んで右クリックし、 **更新** を選択します。
+4. 更新すべきプラグインのステップを選んで右クリックし、**更新** を選択します。
 
  ![更新するプラグインのスクリーンショット](media/PRT-2.png)
  
-5. [更新] ウィンドウで、フィルター属性の省略記号 ( **...** ) をクリックします。
+5. [更新] ウィンドウで、フィルター属性の省略記号 (**...**) をクリックします。
 
  ![既存のステップ構成情報を更新するときのスクリーンショット](media/PRT-3.png)
  

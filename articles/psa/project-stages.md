@@ -3,7 +3,7 @@ title: プロジェクト ステージのタイプ
 description: このトピックでは、プロジェクト ステージについて説明します。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 521bf4b3090473a603626a99fded53906b644a7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: aa423979a794b07a8bd27440f47a29480b74b518
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079319"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123067"
 ---
 # <a name="project-stage-types"></a>プロジェクト ステージのタイプ 
 
@@ -46,11 +46,11 @@ ms.locfileid: "4079319"
 
 ## <a name="quote"></a>見積もり
 
-プロジェクトを見積もりに関連付けたり、見積もりからプロジェクトを作成する場合、このプロジェクト ステージは **見積もり** に設定され、予想される開始日と終了日も更新されます。 プロジェクトが **見積もり** ステージの場合、 **プロジェクト エンティティ** ページにある **営業** タブは見積もりの詳細を表示します。
+プロジェクトを見積もりに関連付けたり、見積もりからプロジェクトを作成する場合、このプロジェクト ステージは **見積もり** に設定され、予想される開始日と終了日も更新されます。 プロジェクトが **見積もり** ステージの場合、**プロジェクト エンティティ** ページにある **営業** タブは見積もりの詳細を表示します。
 
 ## <a name="plan"></a>計画
 
-プロジェクトに関連付けられた見積もりが達成された場合、プロジェクトは **契約** フェーズに移動され、プロジェクト ステージは **計画** へと更新されます。 プロジェクトが **計画** ステージの場合、 **プロジェクト エンティティ** ページは契約の詳細を表示します。
+プロジェクトに関連付けられた見積もりが達成された場合、プロジェクトは **契約** フェーズに移動され、プロジェクト ステージは **計画** へと更新されます。 プロジェクトが **計画** ステージの場合、**プロジェクト エンティティ** ページは契約の詳細を表示します。
 
 ## <a name="deliver"></a>実行
 

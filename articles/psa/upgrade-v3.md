@@ -2,7 +2,7 @@
 title: Microsoft Dynamics 365 Project Service Automation バージョン 2.x または 1.x からバージョン 3.x へのアップグレードに関する考慮事項
 description: このトピックでは、Project Service Automation の バージョン 2.x または 1.x から バージョン 3 へアップグレードする際に必要な考慮事項について説明します。
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079348"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121719"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>PSA バージョン 2.x または 1.x からバージョン 3.x へのアップグレードに関する考慮事項
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -31,11 +31,11 @@ ms.locfileid: "4079348"
 Dynamics 365 Project Service Automation と Dynamics 365 Field Service のどちらも、リソース スケジュールには Universal Resourcing Scheduling（URS）ソリューションを使用します。 ご利用のインスタンスに Project Service Automation と Field Service の両方が存在する場合、両方のソリューションを最新バージョン（Project Service Automation のバージョン 3.x、Field Service のバージョン 8.x）へとアップグレードすることを考慮してください。 Project Service Automation または Field Service をアップグレードすると、最新バージョンの URS がインストールされます。これはまた、同じインスタンス内に存在する Project Service Automation と Field Service の両方が最新バージョンにアップグレードされていない場合に、一貫性のない動作が発生する可能性があることを意味します。
 
 ## <a name="resource-assignments"></a>リソース割り当て
-Project Service Automation の バージョン 2 およびバージョン 1 では、タスクの割り当ては子のタスク (または行タスクとも呼ばれます) として **タスク エンティティ** に保存され、 **リソースの割り当て** エンティティと間接的に連動していました。 行タスクは、作業分解構造 (WBS) の割り当てのポップアップ ウィンドウに表示されます。
+Project Service Automation の バージョン 2 およびバージョン 1 では、タスクの割り当ては子のタスク (または行タスクとも呼ばれます) として **タスク エンティティ** に保存され、**リソースの割り当て** エンティティと間接的に連動していました。 行タスクは、作業分解構造 (WBS) の割り当てのポップアップ ウィンドウに表示されます。
 
 ![Project Service Automation バージョン2 と バージョン1 における WBS 上の行タスク](media/upgrade-line-task-01.png)
 
-Project Service Automation のバージョン 3 では、予約可能なリソースをタスクに割り当てる際に基礎となるスキーマが変更されています。 行タスクは非推奨となり、 **タスク エンティティ** のタスクと **リソースの割り当て** エンティティのチーム メンバーとの間で 1 : 1 で直接関連付けられます。 プロジェクト チーム メンバーに対する割り当てタスクは、現在、リソース割り当てエンティティに直接保存されるようになりました。  
+Project Service Automation のバージョン 3 では、予約可能なリソースをタスクに割り当てる際に基礎となるスキーマが変更されています。 行タスクは非推奨となり、**タスク エンティティ** のタスクと **リソースの割り当て** エンティティのチーム メンバーとの間で 1 : 1 で直接関連付けられます。 プロジェクト チーム メンバーに対する割り当てタスクは、現在、リソース割り当てエンティティに直接保存されるようになりました。  
 
 これらの変更は既存のプロジェクトのアップグレードの際に影響を与えます。既存のプロジェクトは、プロジェクト チームに、名前付き予約可能リソースおよび汎用リソースを含みます。 このトピックでは、バージョン 3 にアップグレードする場合、プロジェクトとして考慮する必要のある事柄について説明します。 
 
@@ -56,7 +56,7 @@ Project Service Automation のバージョン 3 では、予約可能なリソ�
 
 ![リソース割り当て](media/resource-assignment-v2-05.png)
 
-見積がリソースに対して既定のロールを持っているため、営業およびコスト見積りは変わる場合があります。 注意: 次のグラフィックでは、ロールが予約可能リソースの既定ロールから取得されるようになったため、 **開発者** ロールは表示されません。
+見積がリソースに対して既定のロールを持っているため、営業およびコスト見積りは変わる場合があります。 注意: 次のグラフィックでは、ロールが予約可能リソースの既定ロールから取得されるようになったため、**開発者** ロールは表示されません。
 
 ![規定ロールに対するコスト見積り](media/resource-assignment-cost-estimate-06.png)
 ![規定ロールに対する営業見積り](media/resource-assignment-sales-estimate-07.png)
@@ -68,7 +68,7 @@ Project Service Automation のバージョン 3 では、予約可能なリソ�
 これは、リソースの組織単位を既定から別の組織単位に変更する際に名前付きリソースに割り当てた行タスクにも該当します。 バージョン 3 のアップグレードの完了後、割り当てには、行タスクに設定済みのものではなく、リソース既定の組織単位が使用されます。
 
 ### <a name="tasks-assigned-to-generic-resources"></a>汎用リソースに割り当てられたタスク
-バージョン 2 およびバージョン 1 では、タスクにロールや組織単位を設定して、 **チームの生成** 機能を使用して、タスクに設定されている属性を持つ汎用リソースを生成できます。 バージョン 3では、ロールや組織単位に汎用チーム メンバーを作成し、チーム メンバーにタスクを割り当てます。
+バージョン 2 およびバージョン 1 では、タスクにロールや組織単位を設定して、**チームの生成** 機能を使用して、タスクに設定されている属性を持つ汎用リソースを生成できます。 バージョン 3では、ロールや組織単位に汎用チーム メンバーを作成し、チーム メンバーにタスクを割り当てます。
 
 バージョン 2 およびバージョン 1 では、汎用リソースを含むプロジェクトは二つに別れた状態か、またはタスクレベルで両者が融合した状態になっている可能性があります。 たとえば、次のシナリオを使用できます。
 

@@ -3,7 +3,7 @@ title: リソース要件の履行
 description: このトピックでは、リソース要件の履行方法について説明します。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 626828b96e110de4dcb6cad4a191994972ec26c3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7156e1beb0df033331d91abf9ca7f6ddc18df796
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079491"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124419"
 ---
 # <a name="fulfilling-resource-requests"></a>リソース要求の履行
 
@@ -31,15 +31,15 @@ ms.locfileid: "4079491"
 
 リソース要件は、リソース要求として、これらの要求を履行する責任があるリソース マネージャーに送信できます。
 
-リソース要求は、 **アクティブなリソース要求** ビューで一覧表示されます。
+リソース要求は、**アクティブなリソース要求** ビューで一覧表示されます。
 
 > ![リソース要求のリスト](media/Resource-Management-image59.png)
 
-要求を履行するには、それをリストで選択して、 **リソースの検索** を選択します。 または、行をダブルクリックして要求を開きます。 次に **リソース要件** タブを選択すると、その要求の要件を表示できます。 要求の履行を始めるには、 **リソースの検索** を選択します。
+要求を履行するには、それをリストで選択して、**リソースの検索** を選択します。 または、行をダブルクリックして要求を開きます。 次に **リソース要件** タブを選択すると、その要求の要件を表示できます。 要求の履行を始めるには、**リソースの検索** を選択します。
 
 > ![リソース要件の詳細](media/Resource-Management-image60.png)
 
-スケジュール アシスタントが表示され、要件別にフィルター処理されます。 リソースを選び、 **予約** を選びます。
+スケジュール アシスタントが表示され、要件別にフィルター処理されます。 リソースを選び、**予約** を選びます。
 
 > ![選択したリソース](media/Resource-Management-image61.png)
 

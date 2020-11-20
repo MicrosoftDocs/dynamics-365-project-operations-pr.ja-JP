@@ -3,7 +3,7 @@ title: 時間単位のセットアップ
 description: Project Service での時間単位の設定方法
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d071549e6493258aeea187d70ee35054d2e8ea60
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c007f59f542618860af21125313abd066e17cf45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079363"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120099"
 ---
 # <a name="set-up-time-units-project-service"></a>時間単位の設定 (Project Service)
 
@@ -37,7 +37,7 @@ ms.locfileid: "4079363"
   
 3. **時間** 単位グループをクリックします ([!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] のインストール時に作成)。  
   
-4. タブ **単位** で、 **新しい単位の追加** をクリックしてからに必要に応じて、値を変更します。 必要な数だけの単位を追加します。 たとえば、次の単位を作成できる可能性があります:  
+4. タブ **単位** で、**新しい単位の追加** をクリックしてからに必要に応じて、値を変更します。 必要な数だけの単位を追加します。 たとえば、次の単位を作成できる可能性があります:  
   
    - **基本出荷単位** を含む **日** = **時間** と **数量** = 8  
   

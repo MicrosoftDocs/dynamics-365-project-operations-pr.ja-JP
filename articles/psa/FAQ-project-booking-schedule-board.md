@@ -3,7 +3,7 @@ title: スケジュール ボードからプロジェクトの予約を作成す
 description: このトピックでは、スケジュールボードからプロジェクトの予約を作成する方法についての情報を提供します。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ccbfedec82b2d9035b51cf1b283ae5c441f1cbcc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079285"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122304"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>スケジュール ボードからプロジェクトの予約を作成する
 
@@ -33,7 +33,7 @@ ms.locfileid: "4079285"
 
 - **生成されたリソース要件から予約する:** 汎用リソースを作成し、プロジェクト内でタスクを割り当てた後に、リソース要件を生成することができます。
 
-- **主要要件から予約する:** 主要な要件は、 **プロジェクト** タブのスケジュールボードに表示されます。 
+- **主要要件から予約する:** 主要な要件は、**プロジェクト** タブのスケジュールボードに表示されます。 
 
 - **新規リソース要件から予約する:** リソース要件を最初から作成し、プロジェクトに関連付けることができます。 スケジュール ボードで、リソース要件は **オープンな要件** タブに表示されます。
 

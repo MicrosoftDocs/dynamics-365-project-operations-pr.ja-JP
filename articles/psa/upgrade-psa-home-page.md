@@ -2,7 +2,7 @@
 title: ホーム ページのアップグレード
 description: このトピックでは、Dynamics 365 Project Service Automation の新しい、変更された機能に関する重要な情報の見つけ方、および最新バージョンへのアップグレードの手順を説明します。
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 29e7b519b61e8709c025e9906d04aed0156f65eb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079349"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121764"
 ---
 # <a name="upgrade-home-page"></a>ホーム ページのアップグレード
 
@@ -61,4 +61,4 @@ ms.locfileid: "4079349"
 2020 年 3 月 1 日以降、Dynamics PSA のユーザーは、PSA の古いバージョン（PSA バージョン 2.x 以下など）で新しい環境を作成できなくなります。 新しい環境では、PSA のバージョン 3.x のみを取得することになります。
 
 > [!NOTE]
-> 旧バージョンの Field Service および PSA アプリケーションを使用する場合の一番のエクスペリエンスとしては **システム設定** ページに移動し、フィールドの場合は **新しい統一インターフェイスのみ (推奨) を使用する** フィールドに移動して、 **いいえ** を選択します。これらのバージョンが UCI で現在ロードできるように設計されていないためです。 UCI を停止後に、古い Web クライアントを使用することによって、Field Service や PSA のバージョンを開いて実行できます。 
+> 旧バージョンの Field Service および PSA アプリケーションを使用する場合の一番のエクスペリエンスとしては **システム設定** ページに移動し、フィールドの場合は **新しい統一インターフェイスのみ (推奨) を使用する** フィールドに移動して、**いいえ** を選択します。これらのバージョンが UCI で現在ロードできるように設計されていないためです。 UCI を停止後に、古い Web クライアントを使用することによって、Field Service や PSA のバージョンを開いて実行できます。 

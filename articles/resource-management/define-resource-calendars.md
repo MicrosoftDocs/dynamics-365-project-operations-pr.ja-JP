@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ab39d7e5dc2d8c01ed49ca0f1a4d1691aaf15637
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079116"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123924"
 ---
 # <a name="define-resource-calendars"></a>リソース カレンダーの定義
 
@@ -26,9 +26,9 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 ## <a name="define-a-resources-working-hours"></a>リソースの作業時間を定義する
 
-1. **リソース** メニューで、 **リソース** を選択します。
+1. **リソース** メニューで、**リソース** を選択します。
 2. グリッド ビューから、該当する **予約可能なリソース** を選択します。
-3. **リソース詳細** ページで、 **作業時間** タブを選択します。既定では、予約可能なリソース カレンダーは、組織に対して定義されている既定の作業時間テンプレートの作業時間に設定されます。
+3. **リソース詳細** ページで、**作業時間** タブを選択します。既定では、予約可能なリソース カレンダーは、組織に対して定義されている既定の作業時間テンプレートの作業時間に設定されます。
 4. 作業時間を更新するには、定義する提案されたカレンダー ルールの開始日を右クリックします。 カレンダー ルールのメニューを使用して、特定の日、系列の残りの部分、またはカレンダー全体のカレンダー ルールを定義します。
 5. オプションを選択した後、次の項目を定義できます。
 
@@ -39,7 +39,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 ## <a name="applying-a-calendar-template-to-a-resource"></a>リソースへのカレンダー テンプレートの適用
 
-1. **リソース** メニューで、 **リソース** を選択します。
+1. **リソース** メニューで、**リソース** を選択します。
 2. グリッド ビューから、最大 25 の **予約可能リソース** を選択して更新します。
 3. **カレンダーの設定** を選択すると、ダイアログでは使用できる作業時間テンプレートのリストが表示されます。
-4. 使用するテンプレートを選択し、 **適用** を選択します。
+4. 使用するテンプレートを選択し、**適用** を選択します。

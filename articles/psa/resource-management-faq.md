@@ -3,7 +3,7 @@ title: リソース管理に関するよくある質問
 description: このトピックでは、リソース管理についてのよくある質問への回答を提供します。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 395aa57d73e5d4a0c9c827c79bf4e7ef229c3981
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38d9509768323a5a1d78683a2e65ade241adc65f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079479"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120144"
 ---
 # <a name="resource-management-faq"></a>リソース管理に関するよくある質問
 
@@ -43,11 +43,11 @@ ms.locfileid: "4079479"
 
 ## <a name="how-do-i-change-the-required-hours-and-the-start-and-end-dates-for-a-resource-generic-or-named-that-i-booked"></a>予約したリソースに対して、必要な時間を変更し、1 日の開始および終了はどのようにおこないますか。
 
-リソースを予約した後、 **予約の維持** を選択して、必要な変更をおこないます。
+リソースを予約した後、**予約の維持** を選択して、必要な変更をおこないます。
 
 ## <a name="what-resources-types-does-project-service-automation-support"></a>Project Service Automation ではどのような種類のリソースをサポートしますか？
 
-**ユーザー** および **取引先担当者** が Dynamics 365 Project Service Automation でサポートされている唯一のリソースの種類です。 その他の種類 ( **備品** 、 **グループ** など) のリソースも作成可能ですが、これはエンド ツー エンドでの使用はサポートされていません。
+**ユーザー** および **取引先担当者** が Dynamics 365 Project Service Automation でサポートされている唯一のリソースの種類です。 その他の種類 (**備品**、**グループ** など) のリソースも作成可能ですが、これはエンド ツー エンドでの使用はサポートされていません。
 
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>割り当てと予約の違いは何ですか。
 

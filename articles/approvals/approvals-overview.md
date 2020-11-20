@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 14c6914cf9b5fb52e7554e51604e79f0920064df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079128"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123834"
 ---
 # <a name="approvals-overview"></a>承認の概要
 
@@ -27,7 +27,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 ## <a name="approve-an-entry"></a>エントリを承認する
 **承認** フォームを使用すると、さまざまなビューを切り替えて、さまざまなタイプの承認を表示できます。
   
-1. **承認** フォームに移動し、 **経費** 、 **時間** 、または **取り消し** を選択します。
+1. **承認** フォームに移動し、**経費**、**時間**、または **取り消し** を選択します。
 2. 各承認を確認し、承認する承認を選択します。
 3. **承認** を選択し、選択したエントリを承認します。
 システムはこれらのエントリを処理し、実績または予約を作成します。
@@ -55,7 +55,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 ## <a name="configure-the-users-manager"></a>ユーザーのマネージャーを構成する
 
 1. **設定** > **セキュリティ** >  **ユーザー** の順に移動します。
-2. マネージャーを割り当てるユーザーを選択し、 **組織情報** エリアで、リストからマネージャーを選択します。 
+2. マネージャーを割り当てるユーザーを選択し、**組織情報** エリアで、リストからマネージャーを選択します。 
 3. **保存** を選択します。
 
 

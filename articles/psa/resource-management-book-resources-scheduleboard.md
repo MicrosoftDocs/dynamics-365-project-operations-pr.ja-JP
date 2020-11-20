@@ -3,7 +3,7 @@ title: スケジュール ボードを使用してプロジェクト リソー�
 description: このトピックでは、リソースの予約方法について説明します。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa7e34b12f3767e89cc13ddde930e5c9f8ebc565
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ac3438da6bae45683d9eb2dee3544dff862e3ddd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079490"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120234"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>スケジュール ボードを使用してプロジェクト リソースを予約する
 
@@ -32,13 +32,13 @@ ms.locfileid: "4079490"
 スケジュール ボードから予約する前に、リソース要件を作成するか、生成する必要があります。 スケジュール ボードからリソース要件を作成するには、次の手順を実行します。
 
 1. ページ下部にある **予約の要件** ウィンドウが畳まれている場合は、拡張コントロールを選択して拡張します。
-2. **予約の要件** ウィンドウで、 **プロジェクト** タブで、予約する要件を選択します。
+2. **予約の要件** ウィンドウで、**プロジェクト** タブで、予約する要件を選択します。
 
     ![プロジェクト タブで選択された要件](media/Resource-Management-image73.png)
 
-3. 予約可能リソースをフィルター処理し、使用可能なリソースを表示するには、 **使用可能性の検索** を選択します。 
+3. 予約可能リソースをフィルター処理し、使用可能なリソースを表示するには、**使用可能性の検索** を選択します。 
 4. スケジュール ボードから 1 つまたは複数のリソースを選択します。 
-5. ページの右側の **リソース予約の作成** ウィンドウで、予約情報を入力し、 **予約して終了** を選択します。
+5. ページの右側の **リソース予約の作成** ウィンドウで、予約情報を入力し、**予約して終了** を選択します。
 
     ![選択した予約可能リソースのリソース予約ウィンドウの作成](media/Resource-Management-image74.png)
 
