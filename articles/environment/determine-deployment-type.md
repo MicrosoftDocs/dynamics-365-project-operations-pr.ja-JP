@@ -3,17 +3,17 @@ title: 展開の種類を決定する
 description: このトピックでは、会社のプロジェクト オペレーションの正しい展開の種類を決定するのに役立つ情報を提供します。
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 564f2878553fe3904a7c47c7e80a3b57c763a3b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079272"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401224"
 ---
 # <a name="determine-your-deployment-type"></a>展開の種類を決定する
 
@@ -25,11 +25,11 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Dynamics 365 Project Service Automation を使用する Dynamics の既存の顧客
-Project Operations には、Project Service Automation に付属する機能が含まれています。 将来、これらの顧客に対してアップグレード パスがリリースされる予定です。
+Project Operations には、Project Service Automation に付属する機能が含まれています。 これらのお客様向けに、2021 年のリリースサイクル 1 でアップグレード パスがリリースされます。
 
 ## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>プロジェクト管理および会計を使用する Dynamics 365 Finance の既存の顧客 
 
-プロジェクト管理および会計機能を使用する財務の既存の顧客は、これをそのままの状態で引き続き使用できます。 [在庫/製造オーダー シナリオ向け Project Operations](#pma) を参照してください。
+プロジェクト管理および会計機能を使用する財務の既存のお客様は、そのままご利用いただけます。 [在庫/製造オーダー シナリオ向け Project Operations](#pma) を参照してください。
 
 
 ## <a name="deployment-types"></a>展開の種類
@@ -47,12 +47,13 @@ Project Operations は、法人エンティティ レベルの構成を通じて
 
 ライト展開には、次の機能が含まれています。
 
+- Dynamics 365 Sales アプリケーションのエクスペリエンスを拡張するプロジェクトの営業プロセス
 - Web 向けの Microsoft Project を使用したプロジェクト計画
 - 多次元の価格
-- 統一リソース管理
+- 統一リソースの管理
 - 時間のトラッキング
-- 基本経費
-- 請求書の提案
+- 基本の経費
+- 見積送り状と顧客向けの請求書 
 
 #### <a name="deployment-steps"></a>展開の手順
 [展開アンケート](https://aka.ms/provisionprojectoperations) を使用して Project Operations の最適な展開モデルを決定します。
@@ -62,16 +63,17 @@ Project Operations は、法人エンティティ レベルの構成を通じて
 
 ### <a name="project-operations-for-resourcenon-stocked-scenarios"></a><a name="integrated"></a>リソース/非在庫のシナリオ向け Project Operations
 リソース/非在庫のシナリオ向け Project Operations には、次の機能が含まれています。
-  
+ 
+- Dynamics 365 Sales アプリケーションのエクスペリエンスを拡張するプロジェクトの営業プロセス
 - Web 向けの Microsoft Project を使用したプロジェクト計画
-- 多次元の価格設定
-- 統一リソース管理
+- 多次元の価格
+- 統一リソースの管理
 - 時間のトラッキング
-- 基本経費
+- 基本の経費
 - フル経費
 - レシート OCR
-- フル請求
-- 売上認識
+- 見積送り状と顧客向けの請求書 
+- プロジェクトに対する売上の認識
 
 #### <a name="deployment-steps"></a>展開の手順
 [展開アンケート](https://aka.ms/provisionprojectoperations) を使用して Project Operations の最適な展開モデルを決定します。

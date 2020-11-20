@@ -1,46 +1,56 @@
 ---
-title: Project Operations の Common Data Service で構成データを設定し適用する
+title: Common Data Service で構成データの設定と適用
 description: このトピックでは、Project Operations の構成データの設定と適用に関する情報を提供します。
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079141"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401134"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Project Operations の Common Data Service で構成データを設定し適用する
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Common Data Service で構成データの設定と適用 
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
+
+## <a name="prerequisites"></a>前提条件
+
+Common Data Service (CDS) でデータの構成を開始する前に、次の前提条件が満たされている必要があります:
+
+1.  Project Operations 用の CDS 環境と Dynamics 365 Finance 環境をプロビジョニングします。
+2.  Dynamics 365 Finance からの法人情報は、CDS 環境で共有されます。 つまり、CDS の **会社** エンティティには、次の会社レコードがあります:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>設定および構成データをインストールする
 
 1. [設定および構成データ パッケージ](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip) をダウンロード、ブロック解除および解凍します。
 2. 解凍したフォルダに移動し、実行可能ファイル *DataMigrationUtility* を実行します。
-3. Common Data Service 構成の移行 (CMT) ウィザードの 1 ページで、 **データのインポート** を選び、 **続行** を選択します。
+3. Common Data Service 構成の移行 (CMT) ウィザードの 1 ページで、**データのインポート** を選び、**続行** を選択します。
 
 ![構成の移行](./media/1ConfigurationMigration.png)
 
-4. CMT Wizard の 2 ページで、 **展開の種類** として **Microsoft 365** を選択します。
+4. CMT Wizard の 2 ページで、**展開の種類** として **Microsoft 365** を選択します。
 5. **利用可能な組織のリストを表示する** および **詳細の表示** チェック ボックスを選択します。
-6. テナントの地域を選択し、資格情報を入力してから、 **ログイン** を選択します。
+6. テナントの地域を選択し、資格情報を入力してから、**ログイン** を選択します。
 
 ![構成サイン イン](./media/2ConfigurationSignin.png)
 
-7. 3 ページで、テナントの組織リストから、デモ データをインポートする組織を選び、 **ログイン** を選択します。
+7. 3 ページで、テナントの組織リストから、デモ データをインポートする組織を選び、**ログイン** を選択します。
 8. 4 ページで、解凍されたフォルダから、zip ファイル *SampleSetupAndConfigData* を選択します。
 
 ![Zip ファイルの選択](./media/3ZipFile.png)
 
 ![ファイルの選択](./media/4SelectAFile.png)
 
-9. zip ファイルを選択したら、 **データのインポート** を選択します。
+9. zip ファイルを選択したら、**データのインポート** を選択します。
 
 ![データの​​インポート](./media/5ImportData.png)
 
@@ -71,7 +81,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ## <a name="update-project-operations-configurations"></a>Project Operations 構成の更新
 
-1. CE 環境に移動します。 [Power Platform 管理センター](https://admin.powerplatform.microsoft.com/environments) を開き、環境を選択してから、 **環境を開く** を選択すると、見つかります。 
+1. CE 環境に移動します。 [Power Platform 管理センター](https://admin.powerplatform.microsoft.com/environments) を開き、環境を選択してから、**環境を開く** を選択すると、見つかります。 
 
 ![環境を開く](./media/7OpenEnvironment.png)
 
@@ -83,7 +93,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ![新規予約可能リソース](./media/9NewBookableResource.png)
 
-4. **スケジュール設定** タブの、 **会社** フィールドで、 **USPM** 会社を選び、 **保存** を選択します。 
+4. **スケジュール設定** タブの、**会社** フィールドで、**USPM** 会社を選び、**保存** を選択します。 
 
 ![スケジュール タブ](./media/10SchedulingTab.png)
 
@@ -91,7 +101,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ![作業時間](./media/11WorkHours.png)
 
-6. カレンダーの任意の値をダブルクリックして、 **編集** > **シリーズのすべてのイベント** を選択します。 
+6. カレンダーの任意の値をダブルクリックして、**編集** > **シリーズのすべてのイベント** を選択します。 
 
 ![作業カレンダー](./media/12WorkCalendar.png)
 
@@ -100,11 +110,11 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ![カレンダーの更新](./media/13UpdateCalendar.png)
 
-9. **設定** > **カレンダー テンプレート** に移動し、 **新規** を選択します。
+9. **設定** > **カレンダー テンプレート** に移動し、**新規** を選択します。
  
  ![カレンダー テンプレート](./media/14CalendarTemplates.png)
  
- 10. 名前を入力し、作成したテンプレート リソースを選択してから、 **保存** を選択します。 
+ 10. 名前を入力し、作成したテンプレート リソースを選択してから、**保存** を選択します。 
  
  ![カレンダー テンプレートの保存](./media/15SaveCalendarTemplate.png)
  
@@ -114,10 +124,10 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
  
 12. 次のフィールドを更新します。
 
- - **既定の会社** : USPM
- - **既定のの組織単位** : Contoso Robotics Global
- - **請求書の頻度** : 7日目と最終日
- - **作業時間テンプレート** : 作成したテンプレートに変更します。
+ - **既定の会社**: USPM
+ - **既定のの組織単位**: Contoso Robotics Global
+ - **請求書の頻度**: 7日目と最終日
+ - **作業時間テンプレート**: 作成したテンプレートに変更します。
 
 13. **保存** を選択します。 
 
