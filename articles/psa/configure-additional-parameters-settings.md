@@ -3,7 +3,7 @@ title: 追加パラメーターの設定を構成する
 description: Project Service での追加パラメーター設定の構成方法
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24a4fe83471da916fb91cfe20e739279c08d8e5e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5ce7ffd635b10689c8295d9349966450f11282d1
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079268"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129369"
 ---
 # <a name="configure-additional-parameter-settings-project-service"></a>追加パラメーター設定の構成 (Project Service)
 
@@ -43,20 +43,20 @@ ms.locfileid: "4079268"
  
 このステップでは、必要とするリソース割り当てのタイプの指定も行います。  
   
-- **中央** 。 リソース管理者のみがプロジェクトにリソースを割り当てできます。  
+- **中央**。 リソース管理者のみがプロジェクトにリソースを割り当てできます。  
   
-- **ハイブリッド** 。 リソース管理者、プロジェクト管理者、アカウント管理者がプロジェクトにリソースを割り当てできます。  
+- **ハイブリッド**。 リソース管理者、プロジェクト管理者、アカウント管理者がプロジェクトにリソースを割り当てできます。  
   
  
 プロジェクト パラメーターの設定方法:  
   
 1. **Project Service > パラメーター** に移動します。  
   
-2. 構成するパラメーター設定 ([!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] を最初にインストールしたときに作成したもの) をクリックするか、 **新規** をクリックして新規作成します。  
+2. 構成するパラメーター設定 ([!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] を最初にインストールしたときに作成したもの) をクリックするか、**新規** をクリックして新規作成します。  
   
 3. **全般** 領域で、プロジェクト パラメーターで使用するすべてのオプションを設定します。  
   
-4. **価格表** 領域で、 **+** をクリックして価格表を追加して、 **プロジェクト パラメーター価格表** ドロップダウン リストで価格表を選択し、 **保存** をクリックします。  
+4. **価格表** 領域で、**+** をクリックして価格表を追加して、**プロジェクト パラメーター価格表** ドロップダウン リストで価格表を選択し、**保存** をクリックします。  
   
 5. 画面の右下隅にある **保存** ボタンをクリックします。  
 

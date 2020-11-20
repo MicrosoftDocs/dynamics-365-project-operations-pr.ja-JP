@@ -2,7 +2,7 @@
 title: 2020年 リリース予定 第1群 Project Service Automation バージョン 3.x の最新情報または変更事項
 description: このトピックでは、Project Service Automation バージョン 3、2020年 リリース予定 第1群の新機能と変更点について説明します。
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 16b51995f863d9ee54172625dacbf081c51c8556
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2308f83e09c25059b6a36599b04b5b00f66c704f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079214"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126489"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>2020年 リリース予定 第1群 Project Service Automation バージョン 3 の最新情報または変更事項
 トピックは、2020年 リリース予定 第1群 Project Service Automation（PSA）バージョン3.x の最新リリースに移行する際の、アップグレードに関する重要な考慮事項を説明します。

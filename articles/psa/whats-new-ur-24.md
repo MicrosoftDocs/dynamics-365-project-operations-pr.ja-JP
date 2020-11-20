@@ -3,7 +3,7 @@ title: Project Service Automation 更新プログラム リリース 24、V3 の
 description: このトピックには、Project Service Automation 更新プログラム リリース 24、V3 で利用可能な機能と修正をリスト化しています。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6c8348e65307f63a251f97bf1ea17578e7026da8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3a37e71be2cce259d8aed0621d13393b6bbe4199
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079220"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126579"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Project Service Automation 更新プログラム リリース 24、V3
 
@@ -49,7 +49,7 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 
 以下の問題が修正されました:
 
-- **時間エントリ グリッド** は、 **日付のみ** の時間動作をサポートしていません。
+- **時間エントリ グリッド** は、**日付のみ** の時間動作をサポートしていません。
 - **時間エントリ** は自動的に更新されません。 手動で更新する必要があります。
 - リソースの割り当てにブレーク (0 時間) がある場合、割り当てから時間エントリをインポートできません。
 - 時間エントリを作成するときは、開始を **msdyn_date** と同じに設定します。
@@ -67,10 +67,10 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 
 以下の問題が修正されました:
 
-- **プロジェクト スケジュール** で、 **手動** から **自動** に変更すると、自動保存が完了しません。
-- 経費コストは、 **プロジェクト追跡グリッド** の差異に対して計算すべきではありません。
+- **プロジェクト スケジュール** で、**手動** から **自動** に変更すると、自動保存が完了しません。
+- 経費コストは、**プロジェクト追跡グリッド** の差異に対して計算すべきではありません。
 - 読み込み中と **時間フェーズ** タイプの変更中の **見積もりタグ** 列の動作に一貫性がありません。
-- プロジェクトの実際のコストは、 **実績** からの合計を反映していない可能性があります。
+- プロジェクトの実際のコストは、**実績** からの合計を反映していない可能性があります。
 - **概要** タブの **終了予定日** が **WBS スケジュール** に一致しません。
 - インデント解除時の **実績時間の更新** が正しく機能しません。
 - ルート **BU** 外のプロジェクト マネージャーがプロジェクトを作成できません。

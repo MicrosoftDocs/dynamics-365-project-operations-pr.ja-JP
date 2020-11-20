@@ -3,7 +3,7 @@ title: 名前付き予約可能リソースをプロジェクト チームに予
 description: このトピックでは、プロジェクト チームに名前付きリソースを予約し、タスクに割り当てる方法を説明します。
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0300c494a3294b26e2de6bbfa1dd50a76bb72651
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079387"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130179"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>名前付き予約可能リソースをプロジェクト チームに予約して、タスクを割り当てる 
 
@@ -36,7 +36,7 @@ ms.locfileid: "4079387"
 
 ![チームタブからチーム メンバーを追加する](media/RM-how-to-1.png)
 
-3. **プロジェクト チーム メンバーの簡易作成** ダイアログ ボックスで、予約可能リソースを選択します。 リソースのデフォルトの役割が割り当てられている場合、 **役割** フィールドにその役割が入力されます。 必要に応じて役割を変更できます。 
+3. **プロジェクト チーム メンバーの簡易作成** ダイアログ ボックスで、予約可能リソースを選択します。 リソースのデフォルトの役割が割り当てられている場合、**役割** フィールドにその役割が入力されます。 必要に応じて役割を変更できます。 
 4. リソースが必要な開始日と終了日を選択し、リソースの容量の割り当て方法を選択します。 
 5. チーム メンバーをプロジェクト承認者にしたい場合は **プロジェクト承認者** フィールドで **はい** を選択します。 これで、そのチーム メンバーがこのプロジェクトに提出された時間と費用のエントリを承認できるようになります。 
 6. **保存** をクリックします。

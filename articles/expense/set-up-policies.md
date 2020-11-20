@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 30b3a0e1547ca7043b1433da2b4ebf02f2b473a1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079338"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128424"
 ---
 # <a name="define-expense-policies"></a>経費のポリシーを定義する
 
@@ -48,7 +48,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 - ポリシーは、日付の影響を受けます。つまり、経費が発生した日以降の日付でポリシーが作成された場合には有効とならないことを意味します。 たとえば、本日付で新たなポリシーを作成し、食事の経費を最大 $50 に定めます。 この前日に入力された経費は、このポリシーとは照合されません。
 - 項目化できる経費カテゴリのポリシーを作成する際には、経費明細タイプの条件を追加することを検討してください。 領収書を要求するなどの一部のポリシーは、項目化された行には有効とならない場合があります。 この状況では、ポリシーはヘッダー行または項目化されていない行にのみ適用されます。 
-- 経費管理ポリシーは、既定ソース エンティティに対して評価されます。 会社間のシナリオでは、代わりに宛先エンティティ (借用エンティティ) に対して評価されるポリシーを設定できます。 宛先エンティティに対してポリシーを実行するには、 **機能管理** ワークスペース内の **借用法人に対する経費方針を評価する** 機能を有効化してください。
+- 経費管理ポリシーは、既定ソース エンティティに対して評価されます。 会社間のシナリオでは、代わりに宛先エンティティ (借用エンティティ) に対して評価されるポリシーを設定できます。 宛先エンティティに対してポリシーを実行するには、**機能管理** ワークスペース内の **借用法人に対する経費方針を評価する** 機能を有効化してください。
 
 ## <a name="when-to-evaluate-policies"></a>ポリシーを評価するタイミング
 

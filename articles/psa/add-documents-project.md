@@ -3,7 +3,7 @@ title: プロジェクトへのドキュメントの追加
 description: Project Service のプロジェクトにドキュメントを追加するステップ
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/30/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8702222207301c530476bf2aafc6ce78d3475550
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 07453337fa0493d6be5dc10fe92984685a0a38da
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079261"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129729"
 ---
 # <a name="add-documents-to-a-project-project-service"></a>プロジェクトへのドキュメントの追加 (Project Service)
 
@@ -35,7 +35,7 @@ ms.locfileid: "4079261"
   
 2. 作業対象のプロジェクトをクリックします。  
   
-3. 画面上部のバーで、プロジェクト名の隣の下矢印を選択してから、 **ドキュメント** をクリックします。  
+3. 画面上部のバーで、プロジェクト名の隣の下矢印を選択してから、**ドキュメント** をクリックします。  
   
 4. **名前** でドキュメントの名前を入力してから、ドキュメントの [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] の場所から **ドキュメントの場所** に URL をコピーします。  
   

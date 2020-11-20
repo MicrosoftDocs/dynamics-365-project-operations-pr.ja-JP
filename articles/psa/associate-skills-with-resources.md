@@ -3,7 +3,7 @@ title: リソースの関連スキル
 description: Project Service でスキルを特定のリソースに関連付ける方法
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9b025f9856b60e97facf15b6f2edcc8a1e59874b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e322f331b37132fa0478d190c10f3bf67c22fda3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079386"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130453"
 ---
 # <a name="associate-skills-with-resources-project-service"></a>リソースの関連スキル (Project Service)
 
@@ -35,7 +35,7 @@ ms.locfileid: "4079386"
   
 2.  スキルを追加するリソースをダブルクリックします。  
   
-3.  **スキル** 領域で、 **+** をクリックしてスキルを追加します。  
+3.  **スキル** 領域で、**+** をクリックしてスキルを追加します。  
   
 4.  ポップアップした画面で、必要に応じてフィールドに入力してから、画面の右下隅の **保存** ボタンをクリックします。  
   

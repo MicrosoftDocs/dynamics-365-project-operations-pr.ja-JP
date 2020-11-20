@@ -3,7 +3,7 @@ title: Project Service Automation 更新プログラム リリース 17、V3 の
 description: このトピックには、Project Service Automation 更新プログラム リリース 17、V3 で利用可能な機能と修正をリスト化しています。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ba685568692dafe117de42a71bb14d391cd7cc4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bb93208217972639f91b39b7b6705d9897373ef7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079224"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126804"
 ---
 # <a name="project-service-automation-update-release-17-v3"></a>Project Service Automation 更新プログラム リリース 17、V3
 
@@ -46,12 +46,12 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 **プロジェクト管理**
 
 - 修正済み：チーム メンバーの役職名に null 値のチェックが追加されました。
-- 修正済み： **msdyn_resourceassignment** エンティティの **msdyn_userresourceid** フィールドは廃止されました。
+- 修正済み：**msdyn_resourceassignment** エンティティの **msdyn_userresourceid** フィールドは廃止されました。
 - 修正済み：2.x から 3.x へのアップグレードでは、タスク割り当てで空のコンターが処理されるようになりました。
 
 **営業**
 
-- 修正済み： **Invoice.PreValidateInvoiceUpdate** では、レコード所有者の再割り当てのシナリオを適切に処理できるようになっています。
-- 修正済み：トランザクション クラスが **時間** 、 **UnitGroup** の場合、 **QuoteLineDetails** 、 **JournalLine** 、 **InvoiceLineDetail** 、 **ContractLineDetails** を含むすべてのエンティティで編集できません。 しかし、 **JournalLine** と **InvoiceLineDetails** の **単位** が編集できません。
+- 修正済み：**Invoice.PreValidateInvoiceUpdate** では、レコード所有者の再割り当てのシナリオを適切に処理できるようになっています。
+- 修正済み：トランザクション クラスが **時間**、**UnitGroup** の場合、**QuoteLineDetails**、**JournalLine**、**InvoiceLineDetail**、**ContractLineDetails** を含むすべてのエンティティで編集できません。 しかし、**JournalLine** と **InvoiceLineDetails** の **単位** が編集できません。
 
 

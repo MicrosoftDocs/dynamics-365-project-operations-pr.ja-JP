@@ -5,15 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079213"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130314"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>汎用リソース要件への対応
 
@@ -21,7 +21,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 名前付きリソースを予約して、リソース要件のある汎用的なリソースを置き換えることができます。
 
-1. **プロジェクト** ページで、 **チーム** タブを選択します。
+1. **プロジェクト** ページで、**チーム** タブを選択します。
 2. リストからリソース要件を保持している汎用的なリソースを選択し、 **予約する** を選択します。 または、リソース要件を開き、 **予約する** を選択します。
 3. **スケジュール アシスタント** ページで、プロジェクトチームに登録をする名前付きリソースを選択して、 **予約する** を選択します。
 

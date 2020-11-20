@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 275ef9b9706d212a6da0dc7c060081c3226572f3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079147"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130944"
 ---
 # <a name="default-price-lists"></a>既定の価格表
 
@@ -46,7 +46,7 @@ Dynamics 365 Project Operations のすべてのプロジェクト見積もりと
 原価価格表は、Project Operations のどのエンティティにも既定とはなりません。 プロジェクトコストに使用する原価価格表の決定は、常にその瞬間に行われます。 システムは、プロジェクトコストの既定の価格表を決定するにあたって、以下のプロセスを完了します。
 
 1. システムは最初に、プロジェクトの契約組織単位に添付されている価格表を調べます。
-2. 次に、入庫見積もりの日付や実際の明細と一致する価格表の日付効果を見ていきます。 この状況では、 *見積もりライン* とは、プロジェクト・オペレーションにおける見積もりの 3 つのコンテクストのすべてを指します :
+2. 次に、入庫見積もりの日付や実際の明細と一致する価格表の日付効果を見ていきます。 この状況では、*見積もりライン* とは、プロジェクト・オペレーションにおける見積もりの 3 つのコンテクストのすべてを指します :
 
     - プロジェクト見積もり明細
     - 見積依頼明細行の詳細

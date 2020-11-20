@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 554ad63bc44cbe5a1fe91eb47fedbb74bbedd4b6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: aa3d692a46165b01eafbd7619578cead8dd912d6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079395"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127479"
 ---
 # <a name="project-stages"></a>プロジェクト ステージ
 
@@ -45,11 +45,11 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 ## <a name="quote"></a>見積もり
 
-プロジェクトを見積もりに関連付けたり、見積もりからプロジェクトを作成する場合、このプロジェクト ステージは **見積もり** に設定され、予想される開始日と終了日も更新されます。 プロジェクトが **見積もり** ステージの場合、 **プロジェクト エンティティ** ページにある **営業** タブは見積もりの詳細を表示します。
+プロジェクトを見積もりに関連付けたり、見積もりからプロジェクトを作成する場合、このプロジェクト ステージは **見積もり** に設定され、予想される開始日と終了日も更新されます。 プロジェクトが **見積もり** ステージの場合、**プロジェクト エンティティ** ページにある **営業** タブは見積もりの詳細を表示します。
 
 ## <a name="plan"></a>計画
 
-プロジェクトに関連付けられた見積もりが達成された場合、プロジェクトは **契約** フェーズに移動され、プロジェクト ステージは **計画** へと更新されます。 プロジェクトが **計画** ステージの場合、 **プロジェクト エンティティ** ページは契約の詳細を表示します。
+プロジェクトに関連付けられた見積もりが達成された場合、プロジェクトは **契約** フェーズに移動され、プロジェクト ステージは **計画** へと更新されます。 プロジェクトが **計画** ステージの場合、**プロジェクト エンティティ** ページは契約の詳細を表示します。
 
 ## <a name="deliver"></a>実行
 

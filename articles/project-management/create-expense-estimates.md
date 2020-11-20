@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 2afe4ff2f84fc5426c409e6314da73b11a4de281
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079190"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131709"
 ---
 # <a name="expense-estimates"></a>経費の見積もり
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
@@ -28,13 +28,13 @@ Dynamics 365 Project Operations を使用すると、リソースベースの見
 
 1. **プロジェクト** に移動し、作業するプロジェクトを選択します。
 2. **プロジェクトの見積もり** タブを選択して、プロジェクト経費のリストを表示します。
-3. **新規経費** を選択して、経費を追加します。 または、削除する経費を選択してから、 **経費の削除** を選択します。
+3. **新規経費** を選択して、経費を追加します。 または、削除する経費を選択してから、**経費の削除** を選択します。
 
 次の属性は、経費明細行品目ごとに定義されています:
 
-- **カテゴリ** : プロジェクトで発生するすべての経費を説明するために使用される一般的なグループ化。
-- **開始日** : 経費が発生すると予測される日付。
-- **数量** : 特定のカテゴリの経費項目の予測値。
-- **単位原価価格** : 経費のコストの計算に使用される単価。
-- **単位販売価格** : 経費の販売価格の計算に使用される単価。
+- **カテゴリ**: プロジェクトで発生するすべての経費を説明するために使用される一般的なグループ化。
+- **開始日**: 経費が発生すると予測される日付。
+- **数量**: 特定のカテゴリの経費項目の予測値。
+- **単位原価価格**: 経費のコストの計算に使用される単価。
+- **単位販売価格**: 経費の販売価格の計算に使用される単価。
 

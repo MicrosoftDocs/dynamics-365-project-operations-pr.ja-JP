@@ -3,7 +3,7 @@ title: リソースのロールの追加
 description: Project Service のリソースにロールを割り当てる方法
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 47bb6bc5e52553db77d6fe0eda2181069ddcbc2b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 378c43e206f9295d445b1323b1c67f9d573df713
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079464"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129594"
 ---
 # <a name="add-resource-roles-project-service"></a>リソースのロールの追加 (Project Service)
 
@@ -31,7 +31,7 @@ ms.locfileid: "4079464"
 
 各ロールの対象稼働率を設定します。 プロジェクトの担当者を配置して実績を分析するとき、これらの設定によってリソースの可用性と稼働率が決まります。  
   
-1.  稼働率の構成の対象となるリソースのロールにアクセスします ( **Project Service > リソースのロール** )。  
+1.  稼働率の構成の対象となるリソースのロールにアクセスします (**Project Service > リソースのロール**)。  
   
 2.  画面の上部にある、リソースのロールの隣の下矢印をクリックします。  
   

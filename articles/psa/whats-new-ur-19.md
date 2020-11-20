@@ -3,7 +3,7 @@ title: Project Service Automation 更新プログラム リリース 19、V3 の
 description: このトピックには、Project Service Automation 更新プログラム リリース 19、V3 で利用可能な機能と修正をリスト化しています。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ecc923cccfad21985025ab9d8006aaff16afc25f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e116bcbb8e9d184b7b894709c893aaf1dadefc2f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079221"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126848"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Project Service Automation 更新プログラム リリース 19、V3
 
@@ -54,7 +54,7 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 
 - **再計算** アクションは、経費契約品目の詳細または見積依頼明細行の詳細では機能しません。
 - **価格の更新** が、経費の見積もりに欠けています。
--  顧客は、 **プロジェクト契約** ページからカスタム契約の状態の理由を選択できません。
+-  顧客は、**プロジェクト契約** ページからカスタム契約の状態の理由を選択できません。
 - 見積もりからカスタム価格表を作成すると、パフォーマンスが低下します。
 - **見積依頼明細行の詳細** ページと **契約品目の詳細** ページで **単位** の既定値に不整合が発生します。
 - 請求不可トランザクション カテゴリ項目を請求可能な契約品目に追加しても、トランザクション カテゴリの **請求不可** の請求タイプは考慮されません。

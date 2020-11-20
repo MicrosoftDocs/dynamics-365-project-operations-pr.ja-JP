@@ -2,7 +2,7 @@
 title: リソース要求を送信する
 description: このトピックでは、プロジェクト リソースの要求を送信する方法について説明します。
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bcea3d640d7e9ee2b071c55bff9ade3268edb319
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50f076b89c5ac7fee4866534cbd47d81f92f3ab3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079361"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131279"
 ---
 # <a name="submitting-a-resource-request"></a>リソース要求を送信する
 
@@ -32,7 +32,7 @@ ms.locfileid: "4079361"
 リソース要求として生成されたリソース要件を送信できます。 要求は、実行する場合はリソース マネージャーに送信されます。
 
 1. Project Service Automation (PSA) の **プロジェクト** ページで、 **チーム** タブをクリックして一覧の予約可能リソースを表示します。 
-2. 一覧からリソース要件を持つ汎用リソースを選択して、 **要求を送信する** をクリックします。
+2. 一覧からリソース要件を持つ汎用リソースを選択して、**要求を送信する** をクリックします。
 
 ![リソース要求を送信する](media/RM-how-to-18.png)
 

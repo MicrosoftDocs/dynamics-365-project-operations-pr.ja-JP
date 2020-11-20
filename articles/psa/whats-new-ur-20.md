@@ -3,7 +3,7 @@ title: Project Service Automation 更新プログラム リリース 20、V3 の
 description: このトピックには、Project Service Automation 更新プログラム リリース 20、V3 で利用可能な機能と修正をリスト化しています
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12edae76dbc6de63d3e2d36058c4092f80ede77d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ef24c20f3fa520b25a14773a15363a0f04f98d36
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079217"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126759"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation 更新プログラム リリース 20、V3
 
@@ -40,23 +40,23 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 
 - 時間を必要とする割り当て方法でプロジェクト チーム メンバーをインポートすると、指定した時間がゼロの場合に不明確なエラー メッセージが表示されます。
 - プロジェクトタスクの **説明** フィールドに最大文字数を入力すると、ユーザーは誤ったエラーを受け取ります。
-- ユーザーの言語設定が日本語に設定されている場合、 **Microsoft Dynamics 365 Project Service Automation アドインのダウンロード** ページは英語のダウンロード ページにリダイレクトされます。
-- サーバー エラーが発生すると、 **プロジェクト** フォームの **スケジュール** タブに同期ラベルが残ることがあります。
+- ユーザーの言語設定が日本語に設定されている場合、**Microsoft Dynamics 365 Project Service Automation アドインのダウンロード** ページは英語のダウンロード ページにリダイレクトされます。
+- サーバー エラーが発生すると、**プロジェクト** フォームの **スケジュール** タブに同期ラベルが残ることがあります。
 - タスクが変更されると、冗長なタスク更新がサーバーに送信されます。
 
 **営業**
 
 以下の問題が修正されました:
 
-- **契約** フォームで、 **請求書の作成** をダブルクリックすると、1 つの実績レコードに対して 2 つの請求書が作成されます。
+- **契約** フォームで、**請求書の作成** をダブルクリックすると、1 つの実績レコードに対して 2 つの請求書が作成されます。
 - Internet Explorer 11 では、ユーザーは経費エントリを作成できません。
 - 原価の取消と未請求売上実績の取消はリンクされていません。
-- **プロジェクト** フォームの **実績の更新** ボタンは、 **タスクの実時間数** を更新しません。
-- **PreValidateProjectTeamMemberCreate** プラグインは、属性 **msdyn_isgenericresourceprojectscoped** が　 **False** に設定されている場合、重複する予約可能な汎用リソースを作成できます。
+- **プロジェクト** フォームの **実績の更新** ボタンは、**タスクの実時間数** を更新しません。
+- **PreValidateProjectTeamMemberCreate** プラグインは、属性 **msdyn_isgenericresourceprojectscoped** が　**False** に設定されている場合、重複する予約可能な汎用リソースを作成できます。
 - **再計算** は、製品ベースの見積依頼明細行の詳細と契約品目の詳細の請求可能コストをクリアします。
-- 特定のシナリオでは、 **PostEstimateLineUpdate** プラグインが Null 参照の例外エラーを表示します。
+- 特定のシナリオでは、**PostEstimateLineUpdate** プラグインが Null 参照の例外エラーを表示します。
 - **収益性分析チャート** の時間フェーズ期間は、見積の固定価格見積依頼明細行の詳細のコストの期間と一致しません。
-- 出荷単位および出荷単位一覧の値は、 **契約品目の詳細** と **見積依頼明細行の詳細** フォームの経費カテゴリで正しく既定値設定されません。
+- 出荷単位および出荷単位一覧の値は、**契約品目の詳細** と **見積依頼明細行の詳細** フォームの経費カテゴリで正しく既定値設定されません。
 - **組織単位原価価格** 一覧には、日付の有効性の重複が許可されています。
 - 受注タイプが作業ベースではない場合、null 参照例外エラーが発生するため、ユーザーは **OrgUnit** を変更できません。
-- **見積依頼明細行の詳細** フォームから **見積もり** タブに戻って移動しようとすると、フォームが更新され、 **概要** タブが表示されます。
+- **見積依頼明細行の詳細** フォームから **見積もり** タブに戻って移動しようとすると、フォームが更新され、**概要** タブが表示されます。

@@ -3,7 +3,7 @@ title: リソース ロールの構成
 description: Project Service でのリソース ロールの構成方法
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f899d17980df16602c964bab4bbab1e976b3ebf
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b573bec395217e105cc8d9c669343e37ff6662e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079266"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129144"
 ---
 # <a name="configure-resource-roles-project-service"></a>リソース ロールの構成 (Project Service)
 
@@ -45,15 +45,15 @@ ms.locfileid: "4079266"
   
 4.  **保存** をクリックしてレコードを作成します。これにより、そのレコードの編集を継続できます。  
   
-5.  **スキル** 領域で、 **+** をクリックしてスキルを追加します。  
+5.  **スキル** 領域で、**+** をクリックしてスキルを追加します。  
   
-6.  **ロールのコンピテンシー要件** ウィンドウで、 **スキル** フィールドをクリックし、 **検索** ボタンをクリックしてから、スキルを選択します。  
+6.  **ロールのコンピテンシー要件** ウィンドウで、**スキル** フィールドをクリックし、**検索** ボタンをクリックしてから、スキルを選択します。  
   
-7.  このスキルの能力を選択し、 **保存** をクリックします。  
+7.  このスキルの能力を選択し、**保存** をクリックします。  
   
 8.  必要に応じて、スキルの追加を続けます。 完了したら、画面の右下隅の **保存** をクリックします。  
   
-9. このリソース ロールを使用するプロジェクトが使用可能にするためには、 **アクティブ化** をクリックします。  
+9. このリソース ロールを使用するプロジェクトが使用可能にするためには、**アクティブ化** をクリックします。  
   
 ### <a name="see-also"></a>関連項目  
  [リソースの設定](../psa/set-up-resources.md)

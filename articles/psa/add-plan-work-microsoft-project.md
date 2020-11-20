@@ -3,7 +3,7 @@ title: Microsoft Project で作業を計画するための Project Service ア�
 description: このトピックは、Microsoft Project Service の Microsoft Project アドインを追加、構成、使用する方法について説明します。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079398"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129684"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Microsoft Project で作業を計画するための Project Service Automation アドインの使用
 
@@ -44,7 +44,7 @@ ms.locfileid: "4079398"
 
 2.  ダウンロード リンクをクリックします。  
 
-3.  ダウンロードが完了したら、 **はい** をクリックしてアドインをインストールします。  
+3.  ダウンロードが完了したら、**はい** をクリックしてアドインをインストールします。  
 
 ## <a name="configure-the-add-in"></a>アドインの構成  
 
@@ -52,27 +52,27 @@ ms.locfileid: "4079398"
 
 2. **接続** をクリックします。  
 
-3. サインイン情報を入力して、 **サインイン** をクリックします。  
+3. サインイン情報を入力して、**サインイン** をクリックします。  
 
    これで、アドインを使用できるようになります。  
 
 ## <a name="read-from-a-template"></a>テンプレートからの読み取り  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] で作成して [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] にコピーしたテンプレートから読み取り、プロジェクト計画を開始します。 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [プロジェクトのテンプレートの作成 (Project Service Automation)](../psa/create-project-template.md)  
 
-1.  **Project Service** タブから、 **読み取り** > **Project Service Automation プロジェクト テンプレート** の順にクリックします。  
+1.  **Project Service** タブから、**読み取り** > **Project Service Automation プロジェクト テンプレート** の順にクリックします。  
 
-2.  リストからプロジェクト テンプレートを選択して、 **開く** をクリックします。  
+2.  リストからプロジェクト テンプレートを選択して、**開く** をクリックします。  
 
     > [!NOTE]
     >  既定では、テンプレートからプロジェクトにコピーされるタスクは、手動で予定するように設定されます。  
 
 ## <a name="assign-pn_project_service_auto-roles-to-project-resources"></a>プロジェクトのリソースに [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] のロールを割り当てる  
 
-1.  プロジェクトを開いて、 **タスク** リボンをクリックします。  
+1.  プロジェクトを開いて、**タスク** リボンをクリックします。  
 
-2.  **ガント チャート** メニューをクリックして、 **リソース シート** を選択します。  
+2.  **ガント チャート** メニューをクリックして、**リソース シート** を選択します。  
 
-3.  リソース シートで、 **Project Service のリソース ロール** ドロップダウン メニューをクリックして、Project Service Automation のロールを選択します。  
+3.  リソース シートで、**Project Service のリソース ロール** ドロップダウン メニューをクリックして、Project Service Automation のロールを選択します。  
 
 ## <a name="staff-your-project-with-resources"></a>プロジェクトへのリソースの設定  
 
@@ -80,7 +80,7 @@ ms.locfileid: "4079398"
 
 2.  **リソースの予約** 画面で、プロジェクトに使用したいリソースを選択します。  
 
-3.  **予約** をクリックし、 **OK** をクリックします。  
+3.  **予約** をクリックし、**OK** をクリックします。  
 
 ## <a name="publish-your-project"></a>プロジェクトの公開  
 プロジェクト計画が完了した場合、次のステップはプロジェクトを [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] にインポートして公開することです。  
@@ -95,11 +95,11 @@ ms.locfileid: "4079398"
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **使用状況を使用**    |    [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **プロジェクト見積** 画面にインポートします。     |
 
 **プロジェクトをインポートして公開する**  
-1. **Project Service** タブから、 **公開** > **新しい Project Service Automation プロジェクト** の順にクリックします。  
+1. **Project Service** タブから、**公開** > **新しい Project Service Automation プロジェクト** の順にクリックします。  
 
-2. **Project Service の新しいプロジェクトへの公開** ダイアログ ボックスで、 **プロジェクト名** を入力して **顧客** を選択します。  
+2. **Project Service の新しいプロジェクトへの公開** ダイアログ ボックスで、**プロジェクト名** を入力して **顧客** を選択します。  
 
-3. オプションで、 **プロジェクト計画を Project Service Automation にリンクする** を選択すると、Project Service Automation に計画プロジェクト ファイルをリンクできます。  
+3. オプションで、**プロジェクト計画を Project Service Automation にリンクする** を選択すると、Project Service Automation に計画プロジェクト ファイルをリンクできます。  
 
 4. **発行** をクリックします。  
 
@@ -114,7 +114,7 @@ ms.locfileid: "4079398"
 
 ### <a name="edit-in-pn_microsoft_project"></a>[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] で編集する  
 
-1. メイン メニューから、 **Project Service** > **プロジェクト** の順にクリックします。  
+1. メイン メニューから、**Project Service** > **プロジェクト** の順にクリックします。  
 
 2. プロジェクトのリストから、[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] で作成したものをオープンします。  
 
@@ -122,7 +122,7 @@ ms.locfileid: "4079398"
 
 ### <a name="unlink-a-file-and-edit-in-pn_microsoft_project-service"></a>ファイルのリンクを切り、[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] サービスで編集します。  
 
-1. メイン メニューから、 **Project Service** > **プロジェクト** の順にクリックします。  
+1. メイン メニューから、**Project Service** > **プロジェクト** の順にクリックします。  
 
 2. プロジェクトのリストから、[!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] で作成したものをオープンします。  
 
@@ -135,7 +135,7 @@ ms.locfileid: "4079398"
 
 ### <a name="upload-a-file-for-sharepoint"></a>SharePoint にファイルをアップロードする  
 
-1. メイン メニューから、 **Project Service** > **アップロード** の順にクリックします。  
+1. メイン メニューから、**Project Service** > **アップロード** の順にクリックします。  
 
 2. **Project Service Automation プロジェクト ドキュメントへ** を選択します。  
 
@@ -149,7 +149,7 @@ ms.locfileid: "4079398"
 
 ### <a name="upload-a-file-for-office-groups"></a>Office グループ用のファイルのアップロード  
 
-1. メイン メニューから、 **Project Service** > **アップロード** の順にクリックします。  
+1. メイン メニューから、**Project Service** > **アップロード** の順にクリックします。  
 
 2. **Project Service Automation プロジェクト ドキュメントへ** を選択します。  
 
@@ -164,11 +164,11 @@ ms.locfileid: "4079398"
 ## <a name="publish--your-project-as-a-template"></a>テンプレートとしてのプロジェクトの公開  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] でプロジェクト テンプレートとして保存することで、プロジェクトを保存して再使用できます。  プロジェクト テンプレートは、[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] で再使用可能なプロジェクト計画です。 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [プロジェクトのテンプレートの作成 (Project Service Automation)](../psa/create-project-template.md)  
 
-1. **Project Service** タブから、 **公開** > **新しい Project Service Automation プロジェクト テンプレート** の順にクリックします。  
+1. **Project Service** タブから、**公開** > **新しい Project Service Automation プロジェクト テンプレート** の順にクリックします。  
 
-2. **Project Service テンプレートの新しいプロジェクトへの公開** ダイアログ ボックスで、 **プロジェクト テンプレート名** を入力します。  
+2. **Project Service テンプレートの新しいプロジェクトへの公開** ダイアログ ボックスで、**プロジェクト テンプレート名** を入力します。  
 
-3. また任意で、 **プロジェクト 計画を Project Service Automation にリンクする** を選択すると、[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] にプロジェクト ファイルをリンクします。  
+3. また任意で、**プロジェクト 計画を Project Service Automation にリンクする** を選択すると、[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] にプロジェクト ファイルをリンクします。  
 
 4. **発行** をクリックします。  
 

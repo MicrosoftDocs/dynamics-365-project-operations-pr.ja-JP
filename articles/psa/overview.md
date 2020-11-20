@@ -3,7 +3,7 @@ title: Dynamics 365 Project Service Automation とは何か？
 description: Project Service の紹介と概要
 author: stsporen
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/23/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a9e2a09177e944bd8dcb9dafdfed51d6613534d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 19599fe13964aea2c25bc1774063c13cf79703d0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079452"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128019"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Dynamics 365 Project Service Automation とは何か？
 
@@ -76,7 +76,7 @@ Project Service Automation (PSA) アプリケーションは、最初の営業�
 
  [時間、経費と共同作業](../psa/time-expense-collaboration-guide.md)
 
- [ホワイト ペーパー (アプリ バージョン 2.x または 1.x) ](../psa/white-papers.md)
+ [ホワイト ペーパー (アプリ バージョン 2.x または 1.x)](../psa/white-papers.md)
 
  [開発者向けノート (アプリ バージョン 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 

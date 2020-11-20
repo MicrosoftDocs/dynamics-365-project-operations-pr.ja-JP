@@ -3,7 +3,7 @@ title: Project Service Automation 更新プログラム リリース 22、V3 の
 description: このトピックには、Project Service Automation 更新プログラム リリース 22、V3 で利用可能な機能と修正をリスト化しています。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: badd87a276d68d9959e9cca4220daf61ed570638
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 456ed68bc1d74c2c8e5d2420a3f5d1fb8e0465d6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079216"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126624"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Project Service Automation 更新プログラム リリース 22、V3
 
@@ -47,7 +47,7 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 
 以下の問題が修正されました:
 
-- 手動モードでは、 **リソース要件** の生成時に **リソース割り当て** 輪郭は認識されません。
+- 手動モードでは、**リソース要件** の生成時に **リソース割り当て** 輪郭は認識されません。
 - **リソース要求** はカスタム リクエスト ステータスをサポートしていません。
 
 **プロジェクト管理**
@@ -69,4 +69,4 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 - '新規見積もりプロジェクト価格表' フォーム/エンティティの価格表検索ダイアログで原価価格表が選択されていると、検証エラーメッセージが表示されません。
 - 見積もりに添付された BPF が最終段階にある場合、見積もりを受注としてクローズしても作成された契約に移動しません。
 - **未請求売上** の戻し処理は、時間エントリが取り消されると、元のコストにリンクされます。
-- **確認** ボタンを選択した後、請求書の状態は請求書が更新されない限り、 **確認済み** に変わりません。
+- **確認** ボタンを選択した後、請求書の状態は請求書が更新されない限り、**確認済み** に変わりません。

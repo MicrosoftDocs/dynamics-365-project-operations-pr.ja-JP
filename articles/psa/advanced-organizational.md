@@ -3,7 +3,7 @@ title: 組織単位
 description: このトピックでは Dynamics 365 Project Service Automation の組織単位に関する情報を提供します。
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 454d9a4c4d139f493adf4604f8ba40a0211f0eec
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 755eee6ab9993c72ff1db46e0993527ac0826bfe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079380"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130629"
 ---
 # <a name="organizational-units"></a>組織単位 
 
@@ -50,7 +50,7 @@ PSA で、PSA の組織単位は特定の通貨と特定の原価価格リスト
 
 組織単位は PSA で 2 つの役割を果たします。
 
-- **契約単位** – 営業の獲得、納品、顧客サービスの提供の管理を主に担当する企業グループや部門を表す組織単位。 契約単位は **営業案件** 、 **見積もり** 、 **プロジェクト契約** 、 **プロジェクト** の各ページのヘッダーセクションの **契約単位** フィールドによって識別されます。
+- **契約単位** – 営業の獲得、納品、顧客サービスの提供の管理を主に担当する企業グループや部門を表す組織単位。 契約単位は **営業案件**、**見積もり**、**プロジェクト契約**、**プロジェクト** の各ページのヘッダーセクションの **契約単位** フィールドによって識別されます。
 - **リソース単位** – リソースが属するまたは割り当てられている組織単位。 この組織単位は、所有する作業指示書 (SOW) とプロジェクトのいくつかの役割にリソースを提供できます。
 
 > ![契約単位とリソース単位](media/advanced-1.png)

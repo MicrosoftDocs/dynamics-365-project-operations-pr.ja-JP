@@ -3,7 +3,7 @@ title: 一般的な予約可能なリソースをタスクとプロジェクト 
 description: このトピックでは、タスクとプロジェクト チームへの汎用リソースの予約に関する情報を提供します。
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca0999ae5413d824dd1384fe2262e5226695a5f8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 19761b3e570ad664522e832069a8ac50fffead64
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079283"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127074"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>予約可能な汎用リソースをタスクに割り当て、リソース要件を生成する 
 
@@ -31,7 +31,7 @@ ms.locfileid: "4079283"
 
 プロジェクトに名前付きリソースや実リソースを予約して割り当てることに加えて、プロジェクト タスクに汎用リソースを割り当てることができます。 これらのリソースは、プロジェクトに名前付きリソースを配置する準備ができるまで、名前付きリソースのプレースホルダーとして機能します。 
 
-1. Project Service Automation (PSA) で **プロジェクト** ページを開き、 **スケジュール** タブで、スケジュールの **リソース** セルに汎用リソースの位置名を入力します。 または、セルの **リソース** アイコンをクリックしてリソース ピッカーを開き、作成する汎用リソースの名前を入力します。
+1. Project Service Automation (PSA) で **プロジェクト** ページを開き、**スケジュール** タブで、スケジュールの **リソース** セルに汎用リソースの位置名を入力します。 または、セルの **リソース** アイコンをクリックしてリソース ピッカーを開き、作成する汎用リソースの名前を入力します。
 
 ![汎用チーム メンバーの作成と割り当て](media/RM-how-to-9.png)
 

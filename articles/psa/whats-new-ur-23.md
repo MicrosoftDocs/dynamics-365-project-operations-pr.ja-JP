@@ -3,7 +3,7 @@ title: Project Service Automation 更新プログラム リリース 23、V3 の
 description: このトピックには、Project Service Automation 更新プログラム リリース 23、V3 で利用可能な機能と修正をリスト化しています。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 08/25/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eaae9cc62c449695cb2e999be48c57075aadbb21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 07f1a274914d7e641ddf2fd42f377dce1da7f815
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079215"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131124"
 ---
 # <a name="project-service-automation-update-release-23-v3"></a>Project Service Automation 更新プログラム リリース 23、V3
 
@@ -44,9 +44,9 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 
 以下の問題が修正されました:
 
-- タイム スケールが 5 日を超えると、 **リソース稼働率グリッド リソース カード** に誤ったデータが表示されます。
+- タイム スケールが 5 日を超えると、**リソース稼働率グリッド リソース カード** に誤ったデータが表示されます。
 - 顧客が予約可能リソースを作成すると、プラグインは断続的にリソースを Microsoft Office 365 グループ に自動的に追加できません。
-- **調整** ビューでは、 **週** や **月** ビューに手動の配分型が正しく表示されません。
+- **調整** ビューでは、**週** や **月** ビューに手動の配分型が正しく表示されません。
 
 **プロジェクト管理**
 
@@ -56,8 +56,8 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 - **タスク計画** グリッドのリソース検索では、プロジェクト チームから最大 5 人のチーム メンバーのみを表示するように制限されています。 
 - **タスク計画** グリッドのリソース検索では、非アクティブなリソースをフィルタリングしません。
 - 手動モードは、プロジェクト計画 WBS (作業分解構造) で予想どおりに機能していません。
-- **タスク計画** グリッドには、 **非アクティブなトランザクション カテゴリ** が表示されます。
-- タスクに複数の割り当てがある場合、 **リソース割り当て** グリッドは正しく丸められません。
+- **タスク計画** グリッドには、**非アクティブなトランザクション カテゴリ** が表示されます。
+- タスクに複数の割り当てがある場合、**リソース割り当て** グリッドは正しく丸められません。
 - 丸め値は、1 つのタスクの計画コストと実際コストで異なります。
 
 **営業**

@@ -3,7 +3,7 @@ title: 請求書の表示および送付
 description: Project Service で請求書を表示して送付する方法
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8eaef971d1fd419b7a21f0934d6a7f5f92aa35e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 27994c4a14b25d769a0919514906a7be1804dae2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079340"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125769"
 ---
 # <a name="view-and-send-invoices-project-service"></a>請求書の表示および送付 (Project Service)
 
@@ -35,11 +35,11 @@ ms.locfileid: "4079340"
   
 2.  確認する請求書をクリックします。  
   
-3.  必要に応じて変更を加えます。 変更を行った後で、 **再計算** をクリックします。  
+3.  必要に応じて変更を加えます。 変更を行った後で、**再計算** をクリックします。  
   
-4.  請求書を送る準備ができた後、 **顧客に送信** をクリックします。  
+4.  請求書を送る準備ができた後、**顧客に送信** をクリックします。  
   
-5.  顧客が請求書を支払った後、 **請求書を支払済みとマーク** をクリックします。  
+5.  顧客が請求書を支払った後、**請求書を支払済みとマーク** をクリックします。  
   
 ## <a name="manually-invoice-a-contract"></a>契約を手動で請求  
  プロジェクトを自動ではなく、手動で請求できます。  
@@ -48,9 +48,9 @@ ms.locfileid: "4079340"
   
 2.  請求するプロジェクトをクリックします。  
   
-3.  **営業** をクリックし、 **請求書** をクリックします。  
+3.  **営業** をクリックし、**請求書** をクリックします。  
   
-4.  締め日、請求する品目の種類、出荷単位、マイルストーンを含む、請求するトランザクションのパラメーターを選択します。 パラメーターを選択した後、 **次へ** をクリックします。  
+4.  締め日、請求する品目の種類、出荷単位、マイルストーンを含む、請求するトランザクションのパラメーターを選択します。 パラメーターを選択した後、**次へ** をクリックします。  
   
 5.  **完了** をクリックします。  
   

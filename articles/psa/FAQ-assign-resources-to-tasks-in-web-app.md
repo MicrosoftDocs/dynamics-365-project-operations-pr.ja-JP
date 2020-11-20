@@ -3,7 +3,7 @@ title: 予約可能なリソースをウェブアプリケーションのタス�
 description: 予約可能なリソースアサインする方法の概要。
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7b95eff52351904f97c62b3806f17b02db47860b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc1859540ede064c4ab3e2ac128573972912a207
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079456"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125184"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Web アプリ (Project Service アプリ v2.x) で予約可能なリソースをタスクに割り当てる方法を教えてください。
 
@@ -38,7 +38,7 @@ Project Service には、リソースをタスクを割り当てる 2 つの方�
 ## <a name="book-a-resource-as-a-team-member-and-then-assign-the-resource-to-a-task"></a>リソースをチーム メンバーとして予約し、タスクにリソースを割り当てる
 
 この方法では、プロジェクト チームに対してリソースを追加してから、プロジェクト スケジュールでタスクをリソースに割り当てます。 この方法は次のとおりです。
-1.  チーム メンバー グリッドで、 **新規作成** を選択してチーム メンバーを追加します。
+1.  チーム メンバー グリッドで、**新規作成** を選択してチーム メンバーを追加します。
 2.  チーム メンバーのクイック作成画面で、予約可能なリソース名を選択し、ロールを設定します。
 3.  **開始** 日と **終了** 日を選択します。
 
@@ -94,7 +94,7 @@ Project Service には、リソースをタスクを割り当てる 2 つの方�
     > [!div class="mx-imgBorder"] 
     > ![WBSを使用したリソースの追加のスクリーンショット](media/FAQ-Resources-to-Tasks2-4.png "WBSを使用したリソースの追加のスクリーンショット")
  
-WBS でタスクへロールの割り当てを完了したら、 **プロジェクト チームの生成** を選択します。 Project Service では、タスクの割り当てを集計することで、ロール、リソース組織単位、およびプロジェクトの予定表に基づいて汎用チーム メンバーの最小数が作成されます。
+WBS でタスクへロールの割り当てを完了したら、**プロジェクト チームの生成** を選択します。 Project Service では、タスクの割り当てを集計することで、ロール、リソース組織単位、およびプロジェクトの予定表に基づいて汎用チーム メンバーの最小数が作成されます。
 
 > [!div class="mx-imgBorder"] 
 > ![プロジェクトチームの生成のスクリーンショット](media/FAQ-Resources-to-Tasks2-5.png "プロジェクトチームの生成のスクリーンショット")
@@ -109,7 +109,7 @@ WBS でタスクへロールの割り当てを完了したら、 **プロジェ�
 > [!div class="mx-imgBorder"] 
 > ![関連するリソースの要件を起動するスクリーンショット](media/FAQ-Resources-to-Tasks2-7.png "関連するリソースの要件を起動するスクリーンショット")
 
-汎用リソースの **予約** を選択した後、実質のリソースの検索と予約にスケジュール ボードを使用できます。 また、 **要求の送信** を選択することで、リソース マネージャーによって実行するための要件を送信することもできます。
+汎用リソースの **予約** を選択した後、実質のリソースの検索と予約にスケジュール ボードを使用できます。 また、**要求の送信** を選択することで、リソース マネージャーによって実行するための要件を送信することもできます。
 
 指定されたリソースによって汎用リソースが実行されると、汎用リソースがチームから削除され、汎用リソースのタスク割り当ては汎用リソースのリソース要件を実行したリソースに割り当てられます。
  

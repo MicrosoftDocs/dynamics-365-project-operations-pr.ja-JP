@@ -3,7 +3,7 @@ title: リソースの追加
 description: Project Service でのリソースの追加
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c882ade53eb207d5c85fd769437cff65fef7ca1f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e7b088ce2718901ab5af953f5fa1094188a4c954
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079260"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129504"
 ---
 # <a name="add-resources-project-service"></a>リソースの追加 (Project Service)
 
@@ -41,13 +41,13 @@ ms.locfileid: "4079260"
   
 4.  **保存** をクリックしてレコードを保存します。これにより、そのレコードの編集を継続できます。  
   
-5.  リソースのスキルを追加するには、 **リソースのスキル** で **+** をクリックします。  
+5.  リソースのスキルを追加するには、**リソースのスキル** で **+** をクリックします。  
   
 6.  ポップアップした画面で、必要に応じてフィールドに入力し、画面の右下隅の **保存** ボタンをクリックします。  
   
 7.  必要に応じて、スキルの追加を続けます。  
   
-8.  リソースのロールを追加するには、 **リソースのロール** で **+** をクリックします。  
+8.  リソースのロールを追加するには、**リソースのロール** で **+** をクリックします。  
   
 9. 変更が完了したら、画面の右下隅にある **保存** をクリックします。  
   

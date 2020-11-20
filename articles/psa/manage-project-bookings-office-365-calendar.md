@@ -3,7 +3,7 @@ title: Office 365 カレンダーでプロジェクトおよび予約を管理�
 description: Office 365 カレンダーでプロジェクトおよび予約を管理する方法
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fd4119693875fb851c7bd3f34287db7d81237140
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31ff541f5b817c29b162c38c282df8cfd866e375
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079302"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129054"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>カレンダーでプロジェクトおよび予約を管理する (Project Service)
 
@@ -60,7 +60,7 @@ ms.locfileid: "4079302"
   
 3.  **同期** タブをクリックします。  
   
-4.  **リソース予約の同期を、何と有効にするかどうかを選択する** で、 **リソース予約を Outlook と同期する** をクリックします。  
+4.  **リソース予約の同期を、何と有効にするかどうかを選択する** で、**リソース予約を Outlook と同期する** をクリックします。  
   
 ## <a name="turn-on-synchronization-for-your-user-profile-user-task"></a>ユーザー プロファイルに対する同期を有効にする (ユーザー タスク)  
   
@@ -70,16 +70,16 @@ ms.locfileid: "4079302"
   
 3.  **同期** タブをクリックします。  
   
-4.  **リソース予約を Outlook と同期する** で、 **Outlook とリソース予約の同期** をクリックします。  
+4.  **リソース予約を Outlook と同期する** で、**Outlook とリソース予約の同期** をクリックします。  
   
 ## <a name="import-your-personal-appointments-user-task"></a>個人の予定をインポートする (ユーザー タスク)  
  カレンダーから Project Service Automation の時間エントリ ビューに個人の予定をインポートします。  
   
-1. [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] カレンダーを開き、 **データのインポート** をクリックします。  
+1. [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] カレンダーを開き、**データのインポート** をクリックします。  
   
-2. フィルター画面で、 **Exchange の予定** を選択し、次に **適用** をクリックします。  
+2. フィルター画面で、**Exchange の予定** を選択し、次に **適用** をクリックします。  
   
-3. システムは、現在の週から推奨されたエントリとして、時間エントリ ビューから予定を取得します。 別の週のためのエントリを追加するには、 **前へ** または **次へ** をクリックします。  
+3. システムは、現在の週から推奨されたエントリとして、時間エントリ ビューから予定を取得します。 別の週のためのエントリを追加するには、**前へ** または **次へ** をクリックします。  
   
 4. Project Service Automation の時間エントリ ビューに加える予定を選択して下さい。  
   

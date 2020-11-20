@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e2b16a6e1c48769ed4d903e546804ba1c4e1c4fa
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 574afac3bf5d1f6e5e13d8c61aa1ace6188f4008
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079210"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125724"
 ---
 # <a name="resource-reconciliation-overview"></a>リソースの調整の概要
 
@@ -34,7 +34,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 **調整** タブには、チームメンバーごとの個別タスク割り当てのレベルまで予約と割り当てが表示されています。 時間は、月から日までの期間を表すセルに表示されます。
 
-タブには、 **合計** 列とともにプロジェクトの全体的な合計額も表示されます。
+タブには、**合計** 列とともにプロジェクトの全体的な合計額も表示されます。
 
 リソースごとに、タブはチーム メンバーの予約とチーム メンバーのタスクの割り当てのロールアップの差を計算します。 理想としては、この差は 0 (ゼロ) でなければなりません。 つまり、予約と割り当てに差はありません。 差は、 2 つの条件に注意を引くために色分けと影つけされます:
 
