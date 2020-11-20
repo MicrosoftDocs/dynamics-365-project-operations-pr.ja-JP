@@ -3,7 +3,7 @@ title: Project Service Automation 更新プログラム リリース 23、V3 の
 description: このトピックには、Project Service Automation 更新プログラム リリース 23、V3 で利用可能な機能と修正をリスト化しています。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 08/25/2020
 ms.topic: article
@@ -17,51 +17,51 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eaae9cc62c449695cb2e999be48c57075aadbb21
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 07f1a274914d7e641ddf2fd42f377dce1da7f815
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079215"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131124"
 ---
-# <a name="project-service-automation-update-release-23-v3"></a><span data-ttu-id="9d69b-103">Project Service Automation 更新プログラム リリース 23、V3</span><span class="sxs-lookup"><span data-stu-id="9d69b-103">Project Service Automation Update Release 23, V3</span></span>
+# <a name="project-service-automation-update-release-23-v3"></a><span data-ttu-id="23cfd-103">Project Service Automation 更新プログラム リリース 23、V3</span><span class="sxs-lookup"><span data-stu-id="23cfd-103">Project Service Automation Update Release 23, V3</span></span>
 
-<span data-ttu-id="9d69b-104">Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。</span><span class="sxs-lookup"><span data-stu-id="9d69b-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="9d69b-105">このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。</span><span class="sxs-lookup"><span data-stu-id="9d69b-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="9d69b-106">このリリースは、Dynamics 365 9.x と互換性があります。</span><span class="sxs-lookup"><span data-stu-id="9d69b-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="9d69b-107">このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。</span><span class="sxs-lookup"><span data-stu-id="9d69b-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="9d69b-108">詳細については [優先ソリューションのインストール、更新、または削除](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="9d69b-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="23cfd-104">Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。</span><span class="sxs-lookup"><span data-stu-id="23cfd-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="23cfd-105">このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。</span><span class="sxs-lookup"><span data-stu-id="23cfd-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="23cfd-106">このリリースは、Dynamics 365 9.x と互換性があります。</span><span class="sxs-lookup"><span data-stu-id="23cfd-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="23cfd-107">このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。</span><span class="sxs-lookup"><span data-stu-id="23cfd-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="23cfd-108">詳細については [優先ソリューションのインストール、更新、または削除](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="23cfd-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="9d69b-109">このトピックには、Project Service Automation V3 更新プログラム 23 の新機能または変更された機能と修正をリスト化しています。</span><span class="sxs-lookup"><span data-stu-id="9d69b-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 23.</span></span> <span data-ttu-id="9d69b-110">このバージョンのビルド番号は V 3.10.34.30 であり、一般的には 2020 年 8 月の自己プログラム更新の処理を通じて入手できます。</span><span class="sxs-lookup"><span data-stu-id="9d69b-110">This version has a build number of V 3.10.34.30 and is generally available through a self-update in August 2020.</span></span>
+<span data-ttu-id="23cfd-109">このトピックには、Project Service Automation V3 更新プログラム 23 の新機能または変更された機能と修正をリスト化しています。</span><span class="sxs-lookup"><span data-stu-id="23cfd-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 23.</span></span> <span data-ttu-id="23cfd-110">このバージョンのビルド番号は V 3.10.34.30 であり、一般的には 2020 年 8 月の自己プログラム更新の処理を通じて入手できます。</span><span class="sxs-lookup"><span data-stu-id="23cfd-110">This version has a build number of V 3.10.34.30 and is generally available through a self-update in August 2020.</span></span>
 
-## <a name="update-release-23"></a><span data-ttu-id="9d69b-111">更新プログラム 23</span><span class="sxs-lookup"><span data-stu-id="9d69b-111">Update Release 23</span></span>
+## <a name="update-release-23"></a><span data-ttu-id="23cfd-111">更新プログラム 23</span><span class="sxs-lookup"><span data-stu-id="23cfd-111">Update Release 23</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="9d69b-112">バグの修正</span><span class="sxs-lookup"><span data-stu-id="9d69b-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="23cfd-112">バグの修正</span><span class="sxs-lookup"><span data-stu-id="23cfd-112">Bug fixes</span></span>
 
-<span data-ttu-id="9d69b-113">**時間と経費**</span><span class="sxs-lookup"><span data-stu-id="9d69b-113">**Time and Expense**</span></span>
+<span data-ttu-id="23cfd-113">**時間と経費**</span><span class="sxs-lookup"><span data-stu-id="23cfd-113">**Time and Expense**</span></span>
 
-<span data-ttu-id="9d69b-114">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="9d69b-114">The following issues have been fixed:</span></span>
-- <span data-ttu-id="9d69b-115">**プロジェクト チーム メンバーの削除** のエッジ ケースを処理して、意味のある例外を提供します。</span><span class="sxs-lookup"><span data-stu-id="9d69b-115">Handle edge case in **Project Team Member Delete** to provide a meaningful exception.</span></span>
-- <span data-ttu-id="9d69b-116">割り当てをインポートすると、削除画面が空白になります。</span><span class="sxs-lookup"><span data-stu-id="9d69b-116">Assignment import results in a blank remove screen.</span></span>
+<span data-ttu-id="23cfd-114">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="23cfd-114">The following issues have been fixed:</span></span>
+- <span data-ttu-id="23cfd-115">**プロジェクト チーム メンバーの削除** のエッジ ケースを処理して、意味のある例外を提供します。</span><span class="sxs-lookup"><span data-stu-id="23cfd-115">Handle edge case in **Project Team Member Delete** to provide a meaningful exception.</span></span>
+- <span data-ttu-id="23cfd-116">割り当てをインポートすると、削除画面が空白になります。</span><span class="sxs-lookup"><span data-stu-id="23cfd-116">Assignment import results in a blank remove screen.</span></span>
 
-<span data-ttu-id="9d69b-117">**リソース管理**</span><span class="sxs-lookup"><span data-stu-id="9d69b-117">**Resource Management**</span></span>
+<span data-ttu-id="23cfd-117">**リソース管理**</span><span class="sxs-lookup"><span data-stu-id="23cfd-117">**Resource Management**</span></span>
 
-<span data-ttu-id="9d69b-118">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="9d69b-118">The following issues have been fixed:</span></span>
+<span data-ttu-id="23cfd-118">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="23cfd-118">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="9d69b-119">タイム スケールが 5 日を超えると、 **リソース稼働率グリッド リソース カード** に誤ったデータが表示されます。</span><span class="sxs-lookup"><span data-stu-id="9d69b-119">The **Resource utilization grid resource card** shows incorrect data when the time scale is more than five days.</span></span>
-- <span data-ttu-id="9d69b-120">顧客が予約可能リソースを作成すると、プラグインは断続的にリソースを Microsoft Office 365 グループ に自動的に追加できません。</span><span class="sxs-lookup"><span data-stu-id="9d69b-120">When customers create a bookable resource, the plug-in intermittently fails to automatically add the resource to a Microsoft Office 365 group.</span></span>
-- <span data-ttu-id="9d69b-121">**調整** ビューでは、 **週** や **月** ビューに手動の配分型が正しく表示されません。</span><span class="sxs-lookup"><span data-stu-id="9d69b-121">**Reconciliation** view displays manual contours incorrectly in the **Week** or **Month** view.</span></span>
+- <span data-ttu-id="23cfd-119">タイム スケールが 5 日を超えると、**リソース稼働率グリッド リソース カード** に誤ったデータが表示されます。</span><span class="sxs-lookup"><span data-stu-id="23cfd-119">The **Resource utilization grid resource card** shows incorrect data when the time scale is more than five days.</span></span>
+- <span data-ttu-id="23cfd-120">顧客が予約可能リソースを作成すると、プラグインは断続的にリソースを Microsoft Office 365 グループ に自動的に追加できません。</span><span class="sxs-lookup"><span data-stu-id="23cfd-120">When customers create a bookable resource, the plug-in intermittently fails to automatically add the resource to a Microsoft Office 365 group.</span></span>
+- <span data-ttu-id="23cfd-121">**調整** ビューでは、**週** や **月** ビューに手動の配分型が正しく表示されません。</span><span class="sxs-lookup"><span data-stu-id="23cfd-121">**Reconciliation** view displays manual contours incorrectly in the **Week** or **Month** view.</span></span>
 
-<span data-ttu-id="9d69b-122">**プロジェクト管理**</span><span class="sxs-lookup"><span data-stu-id="9d69b-122">**Project Management**</span></span>
+<span data-ttu-id="23cfd-122">**プロジェクト管理**</span><span class="sxs-lookup"><span data-stu-id="23cfd-122">**Project Management**</span></span>
 
-<span data-ttu-id="9d69b-123">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="9d69b-123">The following issues have been fixed:</span></span>
+<span data-ttu-id="23cfd-123">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="23cfd-123">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="9d69b-124">**RetrieveMultiple for usersettings** エンティティの数が多すぎると、プロジェクト承認やその他の操作のパフォーマンスが低下します。</span><span class="sxs-lookup"><span data-stu-id="9d69b-124">An excessive number of **RetrieveMultiple for usersettings** entities are causing degraded performance for project approvals and other operations.</span></span>
-- <span data-ttu-id="9d69b-125">**タスク計画** グリッドのリソース検索では、プロジェクト チームから最大 5 人のチーム メンバーのみを表示するように制限されています。</span><span class="sxs-lookup"><span data-stu-id="9d69b-125">The **Task Planning** grid resource lookup is limited to only show up to five team members from the project team.</span></span> 
-- <span data-ttu-id="9d69b-126">**タスク計画** グリッドのリソース検索では、非アクティブなリソースをフィルタリングしません。</span><span class="sxs-lookup"><span data-stu-id="9d69b-126">The **Task Planning** grid resource lookup does not filter inactive resources.</span></span>
-- <span data-ttu-id="9d69b-127">手動モードは、プロジェクト計画 WBS (作業分解構造) で予想どおりに機能していません。</span><span class="sxs-lookup"><span data-stu-id="9d69b-127">Manual mode is not working as expected in the project planning work breakdown structure.</span></span>
-- <span data-ttu-id="9d69b-128">**タスク計画** グリッドには、 **非アクティブなトランザクション カテゴリ** が表示されます。</span><span class="sxs-lookup"><span data-stu-id="9d69b-128">The **Task Planning** grid shows **Inactive Transaction Categories**.</span></span>
-- <span data-ttu-id="9d69b-129">タスクに複数の割り当てがある場合、 **リソース割り当て** グリッドは正しく丸められません。</span><span class="sxs-lookup"><span data-stu-id="9d69b-129">The **Resource Assignment** grid rounds incorrectly when a task has multiple assignments.</span></span>
-- <span data-ttu-id="9d69b-130">丸め値は、1 つのタスクの計画コストと実際コストで異なります。</span><span class="sxs-lookup"><span data-stu-id="9d69b-130">Rounding values are different between planned cost and actual cost for a single task.</span></span>
+- <span data-ttu-id="23cfd-124">**RetrieveMultiple for usersettings** エンティティの数が多すぎると、プロジェクト承認やその他の操作のパフォーマンスが低下します。</span><span class="sxs-lookup"><span data-stu-id="23cfd-124">An excessive number of **RetrieveMultiple for usersettings** entities are causing degraded performance for project approvals and other operations.</span></span>
+- <span data-ttu-id="23cfd-125">**タスク計画** グリッドのリソース検索では、プロジェクト チームから最大 5 人のチーム メンバーのみを表示するように制限されています。</span><span class="sxs-lookup"><span data-stu-id="23cfd-125">The **Task Planning** grid resource lookup is limited to only show up to five team members from the project team.</span></span> 
+- <span data-ttu-id="23cfd-126">**タスク計画** グリッドのリソース検索では、非アクティブなリソースをフィルタリングしません。</span><span class="sxs-lookup"><span data-stu-id="23cfd-126">The **Task Planning** grid resource lookup does not filter inactive resources.</span></span>
+- <span data-ttu-id="23cfd-127">手動モードは、プロジェクト計画 WBS (作業分解構造) で予想どおりに機能していません。</span><span class="sxs-lookup"><span data-stu-id="23cfd-127">Manual mode is not working as expected in the project planning work breakdown structure.</span></span>
+- <span data-ttu-id="23cfd-128">**タスク計画** グリッドには、**非アクティブなトランザクション カテゴリ** が表示されます。</span><span class="sxs-lookup"><span data-stu-id="23cfd-128">The **Task Planning** grid shows **Inactive Transaction Categories**.</span></span>
+- <span data-ttu-id="23cfd-129">タスクに複数の割り当てがある場合、**リソース割り当て** グリッドは正しく丸められません。</span><span class="sxs-lookup"><span data-stu-id="23cfd-129">The **Resource Assignment** grid rounds incorrectly when a task has multiple assignments.</span></span>
+- <span data-ttu-id="23cfd-130">丸め値は、1 つのタスクの計画コストと実際コストで異なります。</span><span class="sxs-lookup"><span data-stu-id="23cfd-130">Rounding values are different between planned cost and actual cost for a single task.</span></span>
 
-<span data-ttu-id="9d69b-131">**営業**</span><span class="sxs-lookup"><span data-stu-id="9d69b-131">**Sales**</span></span>
+<span data-ttu-id="23cfd-131">**営業**</span><span class="sxs-lookup"><span data-stu-id="23cfd-131">**Sales**</span></span>
 
-<span data-ttu-id="9d69b-132">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="9d69b-132">The following issues have been fixed:</span></span>
+<span data-ttu-id="23cfd-132">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="23cfd-132">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="9d69b-133">**すべてのトランザクション カテゴリの取得** のダブルクリックで、複数行を作成します。</span><span class="sxs-lookup"><span data-stu-id="9d69b-133">**Fetch All Transaction Categories** double-click creates multiple lines.</span></span>
+- <span data-ttu-id="23cfd-133">**すべてのトランザクション カテゴリの取得** のダブルクリックで、複数行を作成します。</span><span class="sxs-lookup"><span data-stu-id="23cfd-133">**Fetch All Transaction Categories** double-click creates multiple lines.</span></span>
