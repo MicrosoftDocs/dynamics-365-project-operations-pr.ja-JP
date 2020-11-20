@@ -3,7 +3,7 @@ title: プロジェクト見積りの作成
 description: Project Service でのプロジェクト見積もりの作成方法
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,38 +18,38 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efa18faffc6b5e97e8fbc21352688874d07e906f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a28bafed6fa76e21e3edb890da04f105b2b2a3c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079376"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133149"
 ---
-# <a name="create-a-project-quote-project-service"></a><span data-ttu-id="8f041-103">プロジェクト見積もりの作成 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="8f041-103">Create a project quote (Project Service)</span></span>
+# <a name="create-a-project-quote-project-service"></a><span data-ttu-id="99378-103">プロジェクト見積もりの作成 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="99378-103">Create a project quote (Project Service)</span></span>
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="8f041-104">見積もりの作成は、営業案件の作成と似ています。</span><span class="sxs-lookup"><span data-stu-id="8f041-104">Creating a quote is similar to creating an opportunity.</span></span> <span data-ttu-id="8f041-105">営業案件が内部情報のためですが、見積もりは潜在的な顧客に送信されるものです。</span><span class="sxs-lookup"><span data-stu-id="8f041-105">While an opportunity is for internal information, a quote is what you send out to your potential customers.</span></span> <span data-ttu-id="8f041-106">各営業案件について 1 つまたは複数の見積もりを作成できます。</span><span class="sxs-lookup"><span data-stu-id="8f041-106">You can create one or more quotes for each opportunity.</span></span> <span data-ttu-id="8f041-107">潜在顧客に送信する見積もりを作成するとき、プロジェクトの **提案** ステージにあります。</span><span class="sxs-lookup"><span data-stu-id="8f041-107">When you’re creating a quote to send to your potential customer, you’re in the **Propose** stage of your project.</span></span>  
+<span data-ttu-id="99378-104">見積もりの作成は、営業案件の作成と似ています。</span><span class="sxs-lookup"><span data-stu-id="99378-104">Creating a quote is similar to creating an opportunity.</span></span> <span data-ttu-id="99378-105">営業案件が内部情報のためですが、見積もりは潜在的な顧客に送信されるものです。</span><span class="sxs-lookup"><span data-stu-id="99378-105">While an opportunity is for internal information, a quote is what you send out to your potential customers.</span></span> <span data-ttu-id="99378-106">各営業案件について 1 つまたは複数の見積もりを作成できます。</span><span class="sxs-lookup"><span data-stu-id="99378-106">You can create one or more quotes for each opportunity.</span></span> <span data-ttu-id="99378-107">潜在顧客に送信する見積もりを作成するとき、プロジェクトの **提案** ステージにあります。</span><span class="sxs-lookup"><span data-stu-id="99378-107">When you’re creating a quote to send to your potential customer, you’re in the **Propose** stage of your project.</span></span>  
   
-1. <span data-ttu-id="8f041-108">営業案件から見積もりを作成するには、 **Project Service > 営業案件** の順に移動してから、見積もりを作成する対象の営業案件をクリックします。</span><span class="sxs-lookup"><span data-stu-id="8f041-108">To create a quote from an opportunity, go to **Project Service > Opportunities** , and then click the opportunity you want to create a quote for.</span></span>  
+1. <span data-ttu-id="99378-108">営業案件から見積もりを作成するには、**Project Service > 営業案件** の順に移動してから、見積もりを作成する対象の営業案件をクリックします。</span><span class="sxs-lookup"><span data-stu-id="99378-108">To create a quote from an opportunity, go to **Project Service > Opportunities**, and then click the opportunity you want to create a quote for.</span></span>  
   
-2. <span data-ttu-id="8f041-109">プロセス バーの右側の **次のステージ** をクリックし、既存の見積もりを選択するか、新しい見積もりを作成するために **作成** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="8f041-109">Click **Next Stage** on the right side of the process bar, and then either select an existing quote or click **Create** to create a new quote.</span></span>  
+2. <span data-ttu-id="99378-109">プロセス バーの右側の **次のステージ** をクリックし、既存の見積もりを選択するか、新しい見積もりを作成するために **作成** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="99378-109">Click **Next Stage** on the right side of the process bar, and then either select an existing quote or click **Create** to create a new quote.</span></span>  
   
-3. <span data-ttu-id="8f041-110">**概要** 領域で、必要に応じて情報を変更します。</span><span class="sxs-lookup"><span data-stu-id="8f041-110">In the **Summary** area, change any information as necessary.</span></span>  
+3. <span data-ttu-id="99378-110">**概要** 領域で、必要に応じて情報を変更します。</span><span class="sxs-lookup"><span data-stu-id="99378-110">In the **Summary** area, change any information as necessary.</span></span>  
   
-4. <span data-ttu-id="8f041-111">**保存** をクリックして見積もりを作成します。これにより、そのレコードの編集を継続できます。</span><span class="sxs-lookup"><span data-stu-id="8f041-111">Click **Save** to create the quote so you can continue editing it.</span></span>  
+4. <span data-ttu-id="99378-111">**保存** をクリックして見積もりを作成します。これにより、そのレコードの編集を継続できます。</span><span class="sxs-lookup"><span data-stu-id="99378-111">Click **Save** to create the quote so you can continue editing it.</span></span>  
   
-5. <span data-ttu-id="8f041-112">見積もりに製品を追加するには、 **見積依頼明細行** 領域の **製品ベースの明細行** で、 **新規** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="8f041-112">To add a product to the quote, click **New** under **Product-based Lines** in the **Quote Lines** area.</span></span> <span data-ttu-id="8f041-113">**製品名** でアイテムを選択してから、数量、販売価格、および見積もり金額を指定します。</span><span class="sxs-lookup"><span data-stu-id="8f041-113">Select an item under **Product Name** , and then specify the quantity, sales price, and quoted amount.</span></span>  
+5. <span data-ttu-id="99378-112">見積もりに製品を追加するには、**見積依頼明細行** 領域の **製品ベースの明細行** で、**新規** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="99378-112">To add a product to the quote, click **New** under **Product-based Lines** in the **Quote Lines** area.</span></span> <span data-ttu-id="99378-113">**製品名** でアイテムを選択してから、数量、販売価格、および見積もり金額を指定します。</span><span class="sxs-lookup"><span data-stu-id="99378-113">Select an item under **Product Name**, and then specify the quantity, sales price, and quoted amount.</span></span>  
   
-6. <span data-ttu-id="8f041-114">見積もりにプロジェクト見積もりを追加するには、 **見積依頼明細行** 領域の **プロジェクト ベースの明細行** で、 **+** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="8f041-114">To add a project estimate to the quote, click **+** under **Project-based Lines** in the **Quote Lines** area.</span></span> <span data-ttu-id="8f041-115">名前、予算額、プロジェクトを可能な場合は入力します。</span><span class="sxs-lookup"><span data-stu-id="8f041-115">Enter the name, budget amount, and project, if available.</span></span> <span data-ttu-id="8f041-116">見積もりを用意するために WBS (作業分解構造) を使用してプロジェクトを作成する必要がある場合は、[プロジェクトの作成](../psa/create-project.md) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="8f041-116">If you need to create a project with a work breakdown structure to come up with an estimate, see [Create a project](../psa/create-project.md).</span></span>  
+6. <span data-ttu-id="99378-114">見積もりにプロジェクト見積もりを追加するには、**見積依頼明細行** 領域の **プロジェクト ベースの明細行** で、**+** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="99378-114">To add a project estimate to the quote, click **+** under **Project-based Lines** in the **Quote Lines** area.</span></span> <span data-ttu-id="99378-115">名前、予算額、プロジェクトを可能な場合は入力します。</span><span class="sxs-lookup"><span data-stu-id="99378-115">Enter the name, budget amount, and project, if available.</span></span> <span data-ttu-id="99378-116">見積もりを用意するために WBS (作業分解構造) を使用してプロジェクトを作成する必要がある場合は、[プロジェクトの作成](../psa/create-project.md) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="99378-116">If you need to create a project with a work breakdown structure to come up with an estimate, see [Create a project](../psa/create-project.md).</span></span>  
   
-7. <span data-ttu-id="8f041-117">編集が完了したら、画面の右下の **保存** ボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="8f041-117">When you’re done editing, click the **Save** button at the bottom right of the screen.</span></span>  
+7. <span data-ttu-id="99378-117">編集が完了したら、画面の右下の **保存** ボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="99378-117">When you’re done editing, click the **Save** button at the bottom right of the screen.</span></span>  
   
-8. <span data-ttu-id="8f041-118">見積もりを顧客に送る準備ができたら、 **その他** (…) をクリックし、 **レポートの実行** をクリックしてから、 **見積もり** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="8f041-118">When you’re ready to send the quote to your customer, click **More** (…), click **Run Report** , and then click **Quote**.</span></span> <span data-ttu-id="8f041-119">レポートを [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] ドキュメントとして保存し、必要に応じて編集し、見積もりを顧客に送信します。</span><span class="sxs-lookup"><span data-stu-id="8f041-119">Save the report as a [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] document, edit as necessary, and send the quote to your customer.</span></span>  
+8. <span data-ttu-id="99378-118">見積もりを顧客に送る準備ができたら、**その他** (…) をクリックし、**レポートの実行** をクリックしてから、**見積もり** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="99378-118">When you’re ready to send the quote to your customer, click **More** (…), click **Run Report**, and then click **Quote**.</span></span> <span data-ttu-id="99378-119">レポートを [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] ドキュメントとして保存し、必要に応じて編集し、見積もりを顧客に送信します。</span><span class="sxs-lookup"><span data-stu-id="99378-119">Save the report as a [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] document, edit as necessary, and send the quote to your customer.</span></span>  
   
-9. <span data-ttu-id="8f041-120">顧客が見積もりを受け取った場合は、 **見積もり** 画面の上部の **受注としてクローズ** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="8f041-120">If your customer accepts your quote, click **Close as Won** at the top of the **Quote** screen.</span></span> <span data-ttu-id="8f041-121">顧客が一部の項目の変更を望む場合は、このプロセス全体を再度実行して新しい見積もりを作成します。</span><span class="sxs-lookup"><span data-stu-id="8f041-121">If your customer wants you to change some items, follow this entire process again to create a new quote.</span></span> <span data-ttu-id="8f041-122">顧客が現段階でサービスの使用を決定しない場合は、 **見積もり** 画面の上部で、 **失注としてクローズ** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="8f041-122">If your customer decides not to use your services at this time, click **Close as Lost** at the top of the **Quote** screen.</span></span>  
+9. <span data-ttu-id="99378-120">顧客が見積もりを受け取った場合は、**見積もり** 画面の上部の **受注としてクローズ** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="99378-120">If your customer accepts your quote, click **Close as Won** at the top of the **Quote** screen.</span></span> <span data-ttu-id="99378-121">顧客が一部の項目の変更を望む場合は、このプロセス全体を再度実行して新しい見積もりを作成します。</span><span class="sxs-lookup"><span data-stu-id="99378-121">If your customer wants you to change some items, follow this entire process again to create a new quote.</span></span> <span data-ttu-id="99378-122">顧客が現段階でサービスの使用を決定しない場合は、**見積もり** 画面の上部で、**失注としてクローズ** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="99378-122">If your customer decides not to use your services at this time, click **Close as Lost** at the top of the **Quote** screen.</span></span>  
   
-   <span data-ttu-id="8f041-123">受注として見積もりをクローズするとき、プロジェクトは **契約** ステージに進み、 **プロジェクト契約** 画面が表示されて、このプロジェクトに対する契約の作成を要求します。</span><span class="sxs-lookup"><span data-stu-id="8f041-123">When you close a quote as won, your project moves on to the **Contract** stage, and the **Project Contract** screen prompts you to create a contract for this project.</span></span>  
+   <span data-ttu-id="99378-123">受注として見積もりをクローズするとき、プロジェクトは **契約** ステージに進み、**プロジェクト契約** 画面が表示されて、このプロジェクトに対する契約の作成を要求します。</span><span class="sxs-lookup"><span data-stu-id="99378-123">When you close a quote as won, your project moves on to the **Contract** stage, and the **Project Contract** screen prompts you to create a contract for this project.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="8f041-124">関連項目</span><span class="sxs-lookup"><span data-stu-id="8f041-124">See Also</span></span>  
- [<span data-ttu-id="8f041-125">取引先企業管理者ガイド</span><span class="sxs-lookup"><span data-stu-id="8f041-125">Account Manager Guide</span></span>](../psa/account-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="99378-124">関連項目</span><span class="sxs-lookup"><span data-stu-id="99378-124">See Also</span></span>  
+ [<span data-ttu-id="99378-125">取引先企業管理者ガイド</span><span class="sxs-lookup"><span data-stu-id="99378-125">Account Manager Guide</span></span>](../psa/account-manager-guide.md)
