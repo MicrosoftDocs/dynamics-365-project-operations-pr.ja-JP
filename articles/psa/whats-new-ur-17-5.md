@@ -3,7 +3,7 @@ title: Project Service Automation 更新プログラム リリース 17.5、ホ�
 description: このトピックには、Project Service Automation 更新プログラム リリース 17.5、V3 で利用可能な機能と修正をリスト化しています。
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 03/13/2020
 ms.topic: article
@@ -17,28 +17,28 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 359eb8f8ca41d69d4f30dd44497a4deb6a6c4f8d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 235a27d45b3c82303d4ef5434c779b3c11421586
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079223"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118794"
 ---
-# <a name="project-service-automation-update-release-175-v3"></a><span data-ttu-id="841d7-103">Project Service Automation 更新プログラム リリース 17.5、V3</span><span class="sxs-lookup"><span data-stu-id="841d7-103">Project Service Automation Update Release 17.5, V3</span></span>
+# <a name="project-service-automation-update-release-175-v3"></a><span data-ttu-id="57f08-103">Project Service Automation 更新プログラム リリース 17.5、V3</span><span class="sxs-lookup"><span data-stu-id="57f08-103">Project Service Automation Update Release 17.5, V3</span></span>
 
-<span data-ttu-id="841d7-104">Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。</span><span class="sxs-lookup"><span data-stu-id="841d7-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="841d7-105">このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。</span><span class="sxs-lookup"><span data-stu-id="841d7-105">This release includes some important improvements to quality, performance, and usability.</span></span>  <span data-ttu-id="841d7-106">このリリースは、Dynamics 365 9.x と互換性があります。</span><span class="sxs-lookup"><span data-stu-id="841d7-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="841d7-107">このリリースへと更新をするには、Dynamics 365 オンラインの管理センターにアクセスし、ソリューション ページにアクセスして更新プログラムをインストールしてください。</span><span class="sxs-lookup"><span data-stu-id="841d7-107">To update to this release, visit the Admin Center for Dynamics 365 online, solutions page to install the update.</span></span> <span data-ttu-id="841d7-108">詳細については [優先ソリューションのインストール、更新、または削除](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="841d7-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="57f08-104">Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。</span><span class="sxs-lookup"><span data-stu-id="57f08-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="57f08-105">このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。</span><span class="sxs-lookup"><span data-stu-id="57f08-105">This release includes some important improvements to quality, performance, and usability.</span></span>  <span data-ttu-id="57f08-106">このリリースは、Dynamics 365 9.x と互換性があります。</span><span class="sxs-lookup"><span data-stu-id="57f08-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="57f08-107">このリリースへと更新をするには、Dynamics 365 オンラインの管理センターにアクセスし、ソリューション ページにアクセスして更新プログラムをインストールしてください。</span><span class="sxs-lookup"><span data-stu-id="57f08-107">To update to this release, visit the Admin Center for Dynamics 365 online, solutions page to install the update.</span></span> <span data-ttu-id="57f08-108">詳細については [優先ソリューションのインストール、更新、または削除](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="57f08-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="841d7-109">このトピックには、更新プログラム リリース 17.5、V3 の新規追加または変更された機能と修正点をリスト化しています。</span><span class="sxs-lookup"><span data-stu-id="841d7-109">This topic lists the features and fixes that are new or changed for V3, Update Release 17.5.</span></span> <span data-ttu-id="841d7-110">このバージョンのビルド番号は V3.10.7.32 であり、一般的には 2020 年 3 月 の自己プログラム更新の処理を通じて入手できます。</span><span class="sxs-lookup"><span data-stu-id="841d7-110">This version has a build number of V3.10.7.32 and is generally available through a self-update in March 2020.</span></span>
-
-
-## <a name="update-release-175"></a><span data-ttu-id="841d7-111">更新プログラム 17.5</span><span class="sxs-lookup"><span data-stu-id="841d7-111">Update Release 17.5</span></span>
-
-### <a name="bug-fixes"></a><span data-ttu-id="841d7-112">バグ修正</span><span class="sxs-lookup"><span data-stu-id="841d7-112">Bug fixes</span></span>
+<span data-ttu-id="57f08-109">このトピックには、更新プログラム リリース 17.5、V3 の新規追加または変更された機能と修正点をリスト化しています。</span><span class="sxs-lookup"><span data-stu-id="57f08-109">This topic lists the features and fixes that are new or changed for V3, Update Release 17.5.</span></span> <span data-ttu-id="57f08-110">このバージョンのビルド番号は V3.10.7.32 であり、一般的には 2020 年 3 月 の自己プログラム更新の処理を通じて入手できます。</span><span class="sxs-lookup"><span data-stu-id="57f08-110">This version has a build number of V3.10.7.32 and is generally available through a self-update in March 2020.</span></span>
 
 
-<span data-ttu-id="841d7-113">**プロジェクト管理**</span><span class="sxs-lookup"><span data-stu-id="841d7-113">**Project Management**</span></span>
+## <a name="update-release-175"></a><span data-ttu-id="57f08-111">更新プログラム 17.5</span><span class="sxs-lookup"><span data-stu-id="57f08-111">Update Release 17.5</span></span>
 
-- <span data-ttu-id="841d7-114">修正済み：長時間のタスクで発生するサーバー側同期の問題に対処しました。</span><span class="sxs-lookup"><span data-stu-id="841d7-114">Fixed: Addressed server-side synchronization issues that occur with long duration tasks.</span></span>
-- <span data-ttu-id="841d7-115">修正済み：24 時間勤務のテンプレートに対応し、タスクに誤って 1 日分を追加する問題を修正しました。</span><span class="sxs-lookup"><span data-stu-id="841d7-115">Fixed: Addressed 24-hour work hour templates inaccurately adding an additional day to tasks.</span></span>
-- <span data-ttu-id="841d7-116">修正済み：+13 GMT の勤務時間テンプレートに対応し、タスクが 1 日先にずれる問題を修正しました。</span><span class="sxs-lookup"><span data-stu-id="841d7-116">Fixed: Addressed +13 GMT work hour templates inaccurately shifting tasks one day ahead.</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="57f08-112">バグ修正</span><span class="sxs-lookup"><span data-stu-id="57f08-112">Bug fixes</span></span>
+
+
+<span data-ttu-id="57f08-113">**プロジェクト管理**</span><span class="sxs-lookup"><span data-stu-id="57f08-113">**Project Management**</span></span>
+
+- <span data-ttu-id="57f08-114">修正済み：長時間のタスクで発生するサーバー側同期の問題に対処しました。</span><span class="sxs-lookup"><span data-stu-id="57f08-114">Fixed: Addressed server-side synchronization issues that occur with long duration tasks.</span></span>
+- <span data-ttu-id="57f08-115">修正済み：24 時間勤務のテンプレートに対応し、タスクに誤って 1 日分を追加する問題を修正しました。</span><span class="sxs-lookup"><span data-stu-id="57f08-115">Fixed: Addressed 24-hour work hour templates inaccurately adding an additional day to tasks.</span></span>
+- <span data-ttu-id="57f08-116">修正済み：+13 GMT の勤務時間テンプレートに対応し、タスクが 1 日先にずれる問題を修正しました。</span><span class="sxs-lookup"><span data-stu-id="57f08-116">Fixed: Addressed +13 GMT work hour templates inaccurately shifting tasks one day ahead.</span></span>
 
