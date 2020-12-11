@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: 新機能
       items:
+        - name: 2020 年 12 月 - リソース/非在庫ベースのシナリオ向け Project Operations
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: 2020 年 11 月 - リソース/非在庫ベースのシナリオ向け Project Operations
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: プロジェクトの営業プロセス
@@ -87,7 +89,7 @@
                 - name: プロジェクトベースの見積依頼明細行の複数の顧客を管理する
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: プロジェクト見積依頼明細行の請求可能コンポーネントを構成する
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: 見積依頼明細行の見積もりの作成
                   href: sales/create-estimate-quote-line.md
                 - name: プロジェクトの見積もりをプロジェクトベースの見積依頼明細行にインポートする
@@ -109,7 +111,7 @@
             - name: プロジェクト契約のプロジェクト価格表を管理する
               href: sales/contracts-manage-project-price-lists.md
             - name: プロジェクト契約の複数の顧客を管理する
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: プロジェクトベースの契約品目
               items:
                 - name: プロジェクトベースの契約品目の概要
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: プロジェクト契約のコピー
               href: pro/sales/copy-project-contracts-sales.md
+            - name: 前払金と着手金
+              items:
+                - name: 前払いおよび着手金ベースの契約 (ライト)
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: 着手金のスケジュールを設定する (ライト)
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: 契約のアドホック前払いを作成する (ライト)
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: 価格設定と原価計算
       items:
         - name: 価格表の設定
@@ -158,10 +168,18 @@
           items:
             - name: 価格ディメンションの概要
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: カスタム価格ディメンションのソリューションを作成する
+              href: sales/create-solution-custompd.md
             - name: 既存のフィールドを価格ディメンションとして使用する
               items:
-                - name: 価格設定のディメンションとしての Project Operations フィールド
+                - name: 価格ディメンションとしての Project Operations フィールド
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: 価格ディメンションとして予約可能リソースを使用する
+                  href: sales/use-br-as-pd.md
+                - name: 価格ディメンションとしてトランザクション カテゴリを使用する
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: プロジェクトで複数のロール持つ予約可能リソース
+                  href: sales/br-playing-multiple-roles.md
             - name: 価格ディメンションとしてのカスタム フィールド
               items:
                 - name: 価格ディメンションとしてカスタム フィールドとエンティティを作成する
@@ -170,6 +188,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: 価格ディメンションとしてカスタム フィールドを設定する
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: プラグイン属性を更新して新しい価格ディメンションを含める
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: 価格ディメンションをオフにする
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: プロジェクト管理
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: リソースの管理
           items:
+            - name: リソースの作成
+              href: resource-management/create-resources.md
             - name: スキルと能力の定義
               href: resource-management/define-skills-proficiencies.md
+            - name: ロールの定義
+              href: resource-management/define-roles.md
             - name: リソース カレンダーの定義
               href: resource-management/define-resource-calendars.md
         - name: 予約割り当ての方法
           href: resource-management/booking-allocation-methods.md
+        - name: 予約状態
+          href: resource-management/booking-status.md
         - name: スキルおよび能力モデル
           href: resource-management/skills-proficiency-models.md
         - name: リソースの調整
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: プロジェクトの見積もり請求の管理
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: 前払いまたは着手金の請求
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: プロジェクトの見積もり請求の確認
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: プロジェクト請求書の自動化の構成
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Project Operations の統合仕訳帳
           href: project-accounting/project-operations-integration-journal.md
+        - name: 会社間請求
+          items:
+            - name: 会社間請求の概要
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: 会社間請求の構成
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: 会社間で顧客およびベンダーの請求書を作成する
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: 会社間トランザクションの作成
+              href: project-accounting/create-intercompany-transactions.md
+    - name: 売上認識
+      items:
+        - name: 売上認識の概要
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: 売上認識の設定
+          items:
+            - name: 期間タイプの設定
+              href: project-accounting/period-types.md
+            - name: コスト テンプレートの設定
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: 売上の見積もりの管理
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: 固定価格売上見積もりプロジェクト
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: 完了までの原価の計算方法
+          href: revenue-recognition/cost-complete-methods.md
 - name: ライト展開 - 見積もり請求の取引
   items:
     - name: 開始する
@@ -386,6 +440,8 @@
           href: environment/security-model.md
     - name: 新機能
       items:
+        - name: 2020 年 12 月の新機能 - ライト展開 - 見積もり請求の取引
+          href: pro/whats-new/whats-new-dec-2020-lite.md
         - name: 2020 年 11 月の新機能 - ライト展開 - 見積もり請求の取引
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: プロジェクトの営業プロセス
@@ -538,10 +594,18 @@
           items:
             - name: 価格ディメンションの概要
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: カスタム価格ディメンションのソリューションを作成する
+              href: sales/create-solution-custompd.md
             - name: 既存のフィールドを価格ディメンションとして使用する
               items:
-                - name: 既存のフィールドを価格ディメンションとして使用する
+                - name: 価格ディメンションとしての Project Operations フィールド
                   href: pricing-costing/use-existing-field-pricing-dimension.md
+                - name: 価格ディメンションとして予約可能リソースを使用する
+                  href: sales/use-br-as-pd.md
+                - name: 価格ディメンションとしてトランザクション カテゴリを使用する
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: プロジェクトで複数のロール持つ予約可能リソース
+                  href: sales/br-playing-multiple-roles.md
             - name: 価格ディメンションとしてのカスタム フィールド
               items:
                 - name: 価格ディメンションとしてカスタム フィールドとエンティティを作成する
@@ -550,6 +614,8 @@
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
                 - name: 価格ディメンションとしてカスタム フィールドを設定する
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: プラグイン属性を更新して新しい価格ディメンションを含める
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: 価格ディメンションをオフにする
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: プロジェクト管理
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: リソースの管理
           items:
+            - name: リソースの作成
+              href: resource-management/create-resources.md
             - name: スキルと能力の定義
               href: resource-management/define-skills-proficiencies.md
+            - name: ロールの定義
+              href: resource-management/define-roles.md
             - name: リソース カレンダーの定義
               href: resource-management/define-resource-calendars.md
         - name: 予約割り当ての方法
           href: resource-management/booking-allocation-methods.md
+        - name: 予約状態
+          href: resource-management/booking-status.md
         - name: スキルおよび能力モデル
           href: resource-management/skills-proficiency-models.md
         - name: リソースの調整
@@ -834,6 +906,8 @@
       items:
         - name: Project Service 3.x の更新プログラム リリース スケジュール
           href: psa/version-history-ps.md
+        - name: 更新プログラム リリース 26、V3 の最新情報または変更事項
+          href: psa/whats-new-ur-26.md
         - name: 更新プログラム リリース 25、V3 の最新情報または変更事項
           href: psa/whats-new-ur-25.md
         - name: 更新プログラム リリース 24、V3 の最新情報または変更事項
