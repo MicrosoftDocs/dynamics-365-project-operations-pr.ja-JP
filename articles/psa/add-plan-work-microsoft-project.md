@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 86b676a0cf74e0257fd76cf32271497eebc06e75
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4129684"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642774"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Microsoft Project で作業を計画するための Project Service Automation アドインの使用
 
@@ -85,7 +85,7 @@ ms.locfileid: "4129684"
 ## <a name="publish-your-project"></a>プロジェクトの公開  
 プロジェクト計画が完了した場合、次のステップはプロジェクトを [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] にインポートして公開することです。  
 
-プロジェクトを [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] にインポートします。 価格設定およびチーム生成プロセスが適用されます。 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] でプロジェクトを開いて、チーム、プロジェクトの予測および作業分解構造が生成されていることを確認します。 次の表は結果が表示される場所を示します。
+プロジェクトを [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] にインポートします。 価格設定およびチーム生成プロセスが適用されます。 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] でプロジェクトを開いて、チーム、プロジェクトの見積もり、作業分解構造が生成済みなことを確認します。 次の表は結果が表示される場所を示します。
 
 
 |                                                                                          |                                                                                                                                   |
@@ -173,6 +173,59 @@ ms.locfileid: "4129684"
 4. **発行** をクリックします。  
 
 プロジェクト ファイルを [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] にリンクすると、プロジェクト ファイルをマスターにして、[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] テンプレートで作業分解構造を読み取り専用に設定できます。  プロジェクト計画への変更を行うためには、それを [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] で作成して [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] に更新として公開する必要があります。
+
+## <a name="read-a-resource-loaded-schedule"></a>リソースをロードしたスケジュールを読む
+
+Project Service Automation のプロジェクトを読み取る際に、リソースのカレンダーをデスクトップ クライアントに同期しません。 タスクの期間、労力、終了に違いがある場合、リソースとデスクトップ クライアントで、同じ勤務時間テンプレート カレンダーをプロジェクトに適用していないことが原因である可能性があります。
+
+
+## <a name="data-synchronization"></a>データの同期
+
+次の表は、Project Service Automation と Microsoft Project デスクトップ アドインの間でデータを同期する方法の概要を示します。
+
+| **エンティティ** | **フィールド** | **Microsoft Project から Project Service Automation へ** | **Project Service Automation から Microsoft Project へ** |
+| --- | --- | --- | --- |
+| プロジェクト タスク | 期日 | ● | - |
+| プロジェクト タスク | 推定作業量 | ● | - |
+| プロジェクト タスク | MS Project クライアント ID | ● | - |
+| プロジェクト タスク | 親タスク | ● | - |
+| プロジェクト タスク | Project | ● | - |
+| プロジェクト タスク | プロジェクト タスク | ● | - |
+| プロジェクト タスク | プロジェクト タスク名 | ● | - |
+| プロジェクト タスク | リソース単位 (v3.0 で廃止) | ● | - |
+| プロジェクト タスク | スケジュールされた期間 | ● | - |
+| プロジェクト タスク | 開始日 | ● | - |
+| プロジェクト タスク | WBS ID | ● | - |
+
+| **エンティティ** | **フィールド** | **Microsoft Project から Project Service Automation へ** | **Project Service Automation から Microsoft Project へ** |
+| --- | --- | --- | --- |
+| チーム メンバー | MS Project クライアント ID | ● | - |
+| チーム メンバー | ポジション名 | ● | - |
+| チーム メンバー | プロジェクト | ● | ● |
+| チーム メンバー | プロジェクト チームです | ● | ● |
+| チーム メンバー | リソース単位 | - | ● |
+| チーム メンバー | ロール | - | ● |
+| チーム メンバー | 作業時間 | 同期されていません | 同期されていません |
+
+| **エンティティ** | **フィールド** | **Microsoft Project から Project Service Automation へ** | **Project Service Automation から Microsoft Project へ** |
+| --- | --- | --- | --- |
+| リソース割り当て | 開始日 | ● | - |
+| リソース割り当て | 時間 | ● | - |
+| リソース割り当て | MS Project クライアント ID | ● | - |
+| リソース割り当て | 予定作業 | ● | - |
+| リソース割り当て | Project | ● | - |
+| リソース割り当て | プロジェクト チームです | ● | - |
+| リソース割り当て | リソース割り当て | ● | - |
+| リソース割り当て | タスク​ | ● | - |
+| リソース割り当て | 終了日 | ● | - |
+
+| **エンティティ** | **フィールド** | **Microsoft Project から Project Service Automation へ** | **Project Service Automation から Microsoft Project へ** |
+| --- | --- | --- | --- |
+| プロジェクト タスクの依存関係 | プロジェクト タスクの依存関係 | ● | - |
+| プロジェクト タスクの依存関係 | リンクの種類 | ● | - |
+| プロジェクト タスクの依存関係 | 前任のタスク | ● | - |
+| プロジェクト タスクの依存関係 | Project | ● | - |
+| プロジェクト タスクの依存関係 | 後継のタスク | ● | - |
 
 ### <a name="see-also"></a>関連項目  
  [プロジェクト管理者ガイド](../psa/project-manager-guide.md)

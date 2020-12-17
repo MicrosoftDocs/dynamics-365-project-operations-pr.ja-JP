@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180513"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513795"
 ---
 # <a name="manage-leads---lite"></a>リードの管理 (ライト)
 
@@ -23,7 +23,7 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 ## <a name="list-of-project-sales-leads"></a>プロジェクトの営業リードのリスト
 
-左側のナビゲーション ウィンドウの **営業** セクションで、**リード** 一覧ページを開いてシステム内のすべてのリード レコードの一覧を表示します。 表示されるリードの一覧は、Dynamics 365 Sales または Dynamics 365 Field Service アプリケーションを持っている場合に作成できる、作業ベースおよびその他の種類のリードです。
+左側のナビゲーション ウィンドウの **営業** セクションで、**リード** 一覧ページを開いてシステム内のすべてのリード レコードの一覧を表示します。 一覧のリードは作業ベースとその他の種類のリードで、Dynamics 365 Sales や Dynamics 365 Field Service アプリケーションからも作成できます。
 
 **種類** 値にフィルターを作成することで、プロジェクト ベースのリードのみを表示するためのフィルター ビューを作成できます。 たとえば、作業ベースのリードのみを表示するように選択できます。
 
@@ -53,7 +53,7 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 - リードから **会社** フィールドを使用する取引先企業。
 - リードの **名** および **姓** フィールドの値に基づいて取引先企業に関連付けられた取引先担当者レコード。
-- **型** フィールドが **作業ベース** に設定されているブロジェクトベースの営業案件。
+- **種類** フィールドを **作業ベース** に設定したブロジェクト ベースの営業案件。
 
 リードの見込み評価の詳細については、[リードを見込みありと評価または変換](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales) を参照してください。
 

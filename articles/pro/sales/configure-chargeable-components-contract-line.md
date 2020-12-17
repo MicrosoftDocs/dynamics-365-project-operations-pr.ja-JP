@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: b881e03a2bb085c6d7cfccb7eec70442e696e62c
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177157"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513885"
 ---
 # <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>プロジェクトベースの契約品目の請求可能なコンポーネントを構成する (ライト)
 
@@ -34,7 +34,7 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 課金型のコンポーネントは、タスク、ロール、トランザクション カテゴリで定義することができます。
 
-課金対象は、プロジェクト契約品目のタスクで定義され、品目に含まれるすべてのトランザクション クラスに適用されます。 契約品目の **タスクを含める** フィールドが空白であるか、**プロジェクト全体** に設定されている場合は、**課金型タスク** タブは使用できません。
+課金対象は、プロジェクト契約品目のタスクで定義され、品目に含まれるすべてのトランザクション クラスに適用されます。 契約品目の **タスクを含める** フィールドが空白であるか、**プロジェクト全体** に設定されている場合は **課金型タスク** タブを使用できません。
 
 プロジェクト契約品目のロールで定義された課金対象は、**時間** トランザクション クラスにのみ適用されます。 契約品目の **時間を含める** フィールドが空白であるか、**いいえ** に設定されている場合は、**課金型ロール** タブは使用できません。
 

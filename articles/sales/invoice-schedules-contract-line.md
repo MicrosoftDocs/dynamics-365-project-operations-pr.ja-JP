@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 674f4ccced3d0e3178799f60d9f95a2ec27cd153
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b2fbec567c07d7567f1d133fa3512496039f16a1
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180783"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513930"
 ---
 # <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>プロジェクトベースの契約品目で請求スケジュールを作成する 
 
@@ -49,7 +49,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 3. マイルストーン スケジュールを作成する **固定価格** の契約品目を開きます。 **請求マイルストーン** タブで、請求開始日と請求頻度を選択します。 
 4. サブグリッドで、**定期マイルストーンの生成** を選択します。 請求スケジュールは、**マイルストーンの名前**、**マイルストーンの日付**、**マイルストーンの金額** フィールドが次のように設定された状態で生成されます:
 
-    - **マイルストーンの名前**: この日付は、請求頻度によって決まります。
+    - **マイルストーンの名前**: この名前は請求書の頻度で決まります。
     - **マイルストーンの日付**: この日付は、請求頻度によって決まります。
     - **マイルストーンの金額**: この金額は、契約品目の契約金額を、頻度、請求開始日、および配送指定日によって指定されたマイルストーンの数で割って計算されます。
 

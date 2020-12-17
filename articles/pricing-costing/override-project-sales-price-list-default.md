@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130854"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672237"
 ---
 # <a name="override-project-sales-price-lists"></a>プロジェクト販売価格表の上書き
 
@@ -27,7 +28,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 1. **取引先企業** 一覧ページを開きます。
 2. 顧客レコードを検索してダブルクリックし、**取引先企業** 詳細ページを開きます。
-3. **プロジェクト価格表** タブで、**+ 新しいプロジェクト価格表^^ を選択します。
+3. **プロジェクト価格表** タブで **+ 新しいプロジェクト価格表** を選択します。
 4. **新しいプロジェクト価格表** ページで、ドロップダウンから価格表を選択します。 コンテキストが **営業** に設定され、その通貨がアカウントの通貨と一致する価格表のみが含まれます。
 5. 関連付けに名前を付け、**保存** を選択します。 顧客固有のプロジェクト価格表が作成されます。 この価格表は、見積もりまたはプロジェクト契約の作成日が価格表の有効日内にある場合には、この顧客用に作成されたプロジェクト見積もりまたは契約の既定のプロジェクト価格に使用されます。
 

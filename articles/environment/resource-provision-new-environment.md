@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121179"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642983"
 ---
 # <a name="provision-a-new-environment"></a>新しい環境をプロビジョニングする
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-このトピックは、リソース/非在庫ベースのシナリオ用に新しい Dynamics 365 Project Operations をプロビジョニングする方法について説明します。
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+このトピックでは、リソース/非在庫ベースのシナリオについて Dynamics 365 Project Operations の新しい環境をプロビジョニングする方法を説明します。
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>LCS プロジェクトで Project Operations の自動プロビジョニングを有効にします
 
@@ -120,7 +122,7 @@ Project Operations には、**10.0.13 (10.0.569.20009)** 以上のアプリケ�
 
 ![ソリューションを適用する](./media/13ApplySolutions.png)
 
-5. **Dynamics 365 Finance and Operations 二重書き込みエンティティ マップ** と **Dynamics 365 Project Operations 二重書き込みエンティティ マップ** の両方を選択し、次に **適用** を選択します。
+5. **Dynamics 365 Finance and Operations 二重書き込みエンティティ マップ** と **Dynamics 365 Project Operations 二重書き込みエンティティ マップ** のソリューションを両方選択してから **適用** を選択します。
 
 ![ソリューションの確認](./media/14ConfirmSolutions.png)
 
@@ -160,6 +162,7 @@ Project Operations には、**10.0.13 (10.0.569.20009)** 以上のアプリケ�
 | --- | --- | --- | --- | --- | --- |
 | **すべての会社のプロジェクト リソース ロール (bookableresourcecategories)** | 無効 | 有効 | Common Data Service | 無効 | N\A |
 | **法人 (cdm\_companies)** | 無効 | 有効 | Finance and Operations アプリ | 無効 | N\A |
+| **元帳 (msdyn_ledgers)** | 無効 | 有効 | Finance and Operations アプリ | 有効 | はい、Finance and Operations アプリです |
 | **Project Operations 統合実績 (msdyn\_actuals)** | 無効 | 無効 | N\A | 有効 | 無効 |
 | **プロジェクト 契約品目 (salesorderdetails)** | 無効 | 無効 | N\A | 無効 | 無効 |
 | **プロジェクト トランザクションの関連付けにおける統合エンティティ (msdyn\_transactionconnections)** | 無効 | 無効 | N\A | 無効 | N\A |

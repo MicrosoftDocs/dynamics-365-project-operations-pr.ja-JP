@@ -1,5 +1,5 @@
 ---
-title: 前払いおよび着手金ベースの契約 - Lite
+title: 前払い契約と着手金ベースの契約
 description: このトピックは、Project Operations で着手金ベースの契約モデルと前払についての情報を説明します。
 author: rumant
 manager: Annbe
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180873"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596108"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>前払いおよび着手金ベースの契約 - Lite
+# <a name="advances-and-retainer-based-contracts"></a>前払いおよび着手金ベースの契約
 
 
-_**適用対象:** ライト展開 - 見積もり請求の取引_
+_**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-Dynamics 365 Project Operations は、着手金ベースの契約をサポートします。 リテーナ ベースの契約は、プロジェクトの期間全体を通じて顧客に請求される、均等に分配された支払いの交渉済みセットです。 このタイプの契約は通常、顧客に予測可能な請求書と支払いスケジュールを提供する必要がある時間と材料または消費ベースの請求モデルに使用されます。 各期間に発生した実際の売上は、期間の開始時に顧客から受け取った支払いと照合されます。 時間と材料の請求モデルの概念に従って、各期間に発生する売上額は、発生するコストによって異なります。 発生した売上が期間の初めに受け取った金額よりも多い場合、プロジェクト提供会社は次のことができます。
+Dynamics 365 Project Operations は着手金ベースの契約をサポートしています。 リテーナ ベースの契約は、プロジェクトの期間全体を通じて顧客に請求される、均等に分配された支払いの交渉済みセットです。 このタイプの契約は通常、顧客に予測可能な請求書と支払いスケジュールを提供する必要がある時間と材料または消費ベースの請求モデルに使用されます。 各期間に発生した実際の売上は、期間の開始時に顧客から受け取った支払いと照合されます。 時間と材料の請求モデルの概念に従って、各期間に発生する売上額は、発生するコストによって異なります。 発生した売上が期間の初めに受け取った金額よりも多い場合、プロジェクト提供会社は次のことができます。
 
 - 超過に対してのみ顧客に請求します 
 - 売上の調整を次の請求期間に延期し、プロジェクトの最後に、調整されていない残りの売上に対して1つの最終請求を行います

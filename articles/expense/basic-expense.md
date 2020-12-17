@@ -3,17 +3,17 @@ title: 経費の入力 (ライト)
 description: このトピックでは、ライト展開で経費エントリを処理する方法について説明します。
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121089"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590952"
 ---
 # <a name="expense-entry-lite"></a>経費の入力 (ライト)
 
@@ -21,7 +21,7 @@ _**適用対象:** ライト展開- 見積もり請求の取引_
 
 ベーシック、またはライトな経費管理は、単純な経費を記録する機能です。 プロジェクトに対する経費を記録することができ、プロジェクトの承認者がそれらを確認して承認します。
 
-Dynamics 365 Project Operations の経費の機能の詳細については、[経費の概要](expense-overview.md) を参照してください。
+Dynamics 365 Project Operations の経費機能の詳細については [経費の概要](expense-overview.md) を参照してください。
 
 ## <a name="capture-a-basic-expense"></a>基本経費を取り込む
 
@@ -36,6 +36,10 @@ Dynamics 365 Project Operations の経費の機能の詳細については、[�
 
 1. **経費** に移動し、経費の選択をします。 または、ヘッダーのチェック ボックスを使用してすべての経費を選択します。
 2. **送信** を選択します。 選択したエントリが処理され、経費承認要求が作成されます。
+
+## <a name="add-an-attachment"></a>添付ファイルの追加
+
+経費に関する文書を承認者にさらに提供する必要がある場合があります。 経費入力のタイムラインで領収書を添付できます。 **タイムライン** セクションで **編集** を選択し、ペーパークリップ アイコンを選択して領収書を添付します。
 
 ## <a name="recall-a-basic-expense"></a>基本経費を取り消す
 

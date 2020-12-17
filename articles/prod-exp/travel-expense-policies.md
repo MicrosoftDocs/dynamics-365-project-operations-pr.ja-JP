@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: ryansand
+ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f74f6906cc1137b9645a830360a546432dc5207f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6240a7be175800ce6f3b066de9e935ab370629ef
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079415"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650100"
 ---
 # <a name="set-up-expense-policies"></a>経費ポリシーの設定
 
@@ -48,7 +48,7 @@ ms.locfileid: "4079415"
 経費管理の新しいポリシーを作成する際に役立ついくつかの提案を以下に示します。 
 * ポリシーは、日付の影響を受け、経費が発生した日以降の日付でポリシーが作成された場合には有効となりません。 たとえば、今日、最高で50ドルの食費を適用する新しいポリシーを作成している場合、昨日時点で入力された既存の費用は、このポリシーと照合されません。
 * 項目化できる経費カテゴリのポリシーを作成する際には、経費明細タイプの条件を追加することを検討してください。 領収書の要求などの一部のポリシーは、項目別の行には意味がない場合があり、ヘッダー行または項目別でない行にのみ適用する必要があります。 
-* 経費管理ポリシーは、既定ソース エンティティに対して評価されます。 会社間のシナリオでは、代わりに宛先エンティティ (借用エンティティ) に対して評価されるポリシーを設定できます。 宛先エンティティに対してポリシーを実行するには、 **機能管理** ワークスペース内の "借用法人に対する経費方針を評価する" 機能を有効化してください。
+* 経費管理ポリシーは、既定ソース エンティティに対して評価されます。 会社間のシナリオでは、代わりに宛先エンティティ (借用エンティティ) に対して評価されるポリシーを設定できます。 宛先エンティティに対してポリシーを実行するには、**機能管理** ワークスペース内の "借用法人に対する経費方針を評価する" 機能を有効化してください。
 
 ## <a name="when-to-evaluate-policies"></a>ポリシーを評価するタイミング
 

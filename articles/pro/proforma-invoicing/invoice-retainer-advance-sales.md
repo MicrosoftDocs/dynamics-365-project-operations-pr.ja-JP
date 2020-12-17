@@ -1,5 +1,5 @@
 ---
-title: 前払いまたは着手金の請求 (ライト)
+title: 着手金または前払金を請求する
 description: このトピックは、Project Operations で着手金または前払金を請求する方法について説明します。
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180558"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596198"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>前払いまたは着手金の請求 (ライト)
+# <a name="invoice-a-retainer-or-an-advance"></a>前払いまたは着手金の請求
 
-_**適用対象:** ライト展開 - 見積もり請求の取引_
+_**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-Dynamics 365 Project Operations は、着手金ベースの契約と 1 回限りの前払金をサポートします。 プロジェクト契約では、着手金のスケジュールまたは 1 回限りの前払金を記録できます。 ただし、プロジェクト契約レベルで記録したからといって、着手金または前払金をすぐに使用できるわけではありません。 実際に顧客に請求する請求書で着手金または前払金を使用するには、最初に着手金または前払金を請求する必要があります。
+Dynamics 365 Project Operations は着手金ベースの契約と 1 回限りの前払いをサポートします。 プロジェクト契約では、着手金のスケジュールまたは 1 回限りの前払金を記録できます。 ただし、プロジェクト契約レベルで記録したからといって、着手金または前払金をすぐに使用できるわけではありません。 実際に顧客に請求する請求書で着手金または前払金を使用するには、最初に着手金または前払金を請求する必要があります。
 
 次の手順を実行して、着手金または前払金を請求します。
 

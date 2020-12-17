@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121134"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642970"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>リソース/在庫のないシナリオ向け Project Operations プレビュー サブスクリプションにサインアップします
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 このトピックは、プレビュー/パートナー オファーをサブスクライブし、リソース/非在庫ベースのシナリオ向け Project Operations 環境を展開する方法を説明しています。
 
@@ -31,18 +33,18 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 [プレビュー要求](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) が承認されると、メールで Microsoft から 3 つのオファーが送信されますを受け取ります。 これらのオファーを使用すると、Project Operations プレビューを展開できます。
 
-- Dynamics 365 Project Operations (CRM) – プレビュー試用版
+- Dynamics 365 Project Operations (CRM) - プレビュー試用版
 - Office 365 Project Operations - プレビュー試用版
 - Dynamics 365 Finance - プレビュー 試用版
 
 > [!IMPORTANT]
 > このタスクを実行する必要があるのは、組織内の 1 人のテナント管理者だけです。 このリリースのサブスクライバーでない場合は、組織がサインアップしてユーザー資格情報を受け取るまで待ちます。
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – プレビュー試用版 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - プレビュー試用版 
 
 開始する前に、Project Operations のプレビューが必要なテナントでユーザーの業務用アカウントを使用してブラウザーにログインしていることを確認してください。
 
-1. 最初のオファー コードである **Dynamics 365 Project Operations (CRM) – プレビュー試用版** をブラウザー URLに貼り付けて引き換えます。
+1. ブラウザの URL 欄に貼り付けて最初のオファー コード **Dynamics 365 Project Operations (CRM) - プレビュー試用版** を引き換えます。
 
 ![オファーの引き換え](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ![ライセンスの割り当て](./media/15AssignLicenses.png)
 
-3. **Dynamics 365 Project Operations (CRM) プレビュー** と **Office 365 Project Operations - プレビュー** ライセンスが選択されていることを確認して、**変更を保存する** を選択します。
+3. **Dynamics 365 Project Operations (CRM) プレビュー** と **Office 365 Project Operations - プレビュー** のライセンスを選択したことを確認し、**変更を保存する** を選択します。
 
 > [!NOTE]
 > Finance 試用版オファーをユーザーに割り当てる必要はありません。

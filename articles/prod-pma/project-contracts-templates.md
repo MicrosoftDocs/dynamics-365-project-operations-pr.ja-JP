@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079402"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642639"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Project Service Automation から Finance and Operations へのプロジェクト契約およびプロジェクトの直接同期
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 このトピックでは、Dynamics 365 Project Service Automation から Dynamics 365 Finance へのプロジェクト契約およびプロジェクトを直接同期するために使用されるテンプレートと基礎となるタスクについて説明します。
 
@@ -46,7 +48,7 @@ Project Service Automation から Finance への統合ソリューションは�
 
 ## <a name="templates-and-tasks"></a>テンプレートおよびタスク
 
-利用可能なテンプレートにアクセスするには、Microsoft Power Apps 管理センターで、 **プロジェクト** を選択してから、右上隅で **新しいプロジェクト** を選択して公開テンプレートを選択します。
+利用可能なテンプレートにアクセスするには、Microsoft Power Apps 管理センターで、**プロジェクト** を選択してから、右上隅で **新しいプロジェクト** を選択して公開テンプレートを選択します。
 
 以下のテンプレートおよび基礎となるタスクは、Project Service Automation から Finance へのプロジェクト契約およびプロジェクトを同期するために使用されます。
 
@@ -93,21 +95,21 @@ Project Service Automation にはスキーマの変更があり、プロジェ�
 
 ## <a name="project-service-automation-to-finance-integration-solution"></a>Project Service Automation から Finance への統合ソリューション
 
-**プロジェクト契約 ID** フィールドは、 **プロジェクト契約** ページで利用可能です。 このフィールドは、統合をサポートするための自然で一意のキーになっています。
+**プロジェクト契約 ID** フィールドは、**プロジェクト契約** ページで利用可能です。 このフィールドは、統合をサポートするための自然で一意のキーになっています。
 
-新しいプロジェクト契約が作成されると、 **プロジェクト契約 ID** 値がまだ存在しない場合、番号順序を使用して自動的に生成されます。 値は **ORD** から成り、番号順序が増分し、その後に 6 文字の接尾辞が続きます。 次に例を示します: **ORD-01022-Z4M9Q0** 。
+新しいプロジェクト契約が作成されると、**プロジェクト契約 ID** 値がまだ存在しない場合、番号順序を使用して自動的に生成されます。 値は **ORD** から成り、番号順序が増分し、その後に 6 文字の接尾辞が続きます。 次に例を示します: **ORD-01022-Z4M9Q0**。
 
-**プロジェクト番号** フィールドは、 **プロジェクト** ページで利用可能です。 このフィールドは、統合をサポートするための自然で一意のキーになっています。
+**プロジェクト番号** フィールドは、**プロジェクト** ページで利用可能です。 このフィールドは、統合をサポートするための自然で一意のキーになっています。
 
-新しいプロジェクトが作成されると、 **プロジェクト番号** 値がまだ存在しない場合、番号順序を使用して自動的に生成されます。 値は **PRJ** から成り、番号順序が増分し、その後に 6 文字の接尾辞が続きます。 次に例を示します: **PRJ-01049-CCNID0** 。
+新しいプロジェクトが作成されると、**プロジェクト番号** 値がまだ存在しない場合、番号順序を使用して自動的に生成されます。 値は **PRJ** から成り、番号順序が増分し、その後に 6 文字の接尾辞が続きます。 次に例を示します: **PRJ-01049-CCNID0**。
 
 Project Service Automation から Finance への統合ソリューションが適用されると、アップグレード スクリプトにより、既存のプロジェクト契約の **プロジェクト契約 ID** フィールド、および Project Service Automation の既存のプロジェクトの **プロジェクト番号** フィールドが設定されます。
 
 ## <a name="prerequisites-and-mapping-setup"></a>前提条件とマッピングの設定
 
 - プロジェクト契約およびプロジェクトの同期を行う前に、アカウントを同期する必要があります。
-- 接続設定で、 **msdyn\_organizationalunits** から **msdyn\_name\[名前\]** への統合キー フィールドのマッピングを追加します。 最初にプロジェクトを接続設定に追加する必要があるかもしれません。 詳細については、[アプリ用 Common Data Service へのデータの統合](https://docs.microsoft.com/powerapps/administrator/data-integrator)を参照してください。
-- 接続設定で、 **msdyn\_projects** から **msdynce\_projectnumber\[プロジェクト番号\]** への統合キー フィールドのマッピングを追加します。 最初にプロジェクトを接続設定に追加する必要があるかもしれません。 詳細については、[アプリ用 Common Data Service へのデータの統合](https://docs.microsoft.com/powerapps/administrator/data-integrator)を参照してください。
+- 接続設定で、**msdyn\_organizationalunits** から **msdyn\_name\[名前\]** への統合キー フィールドのマッピングを追加します。 最初にプロジェクトを接続設定に追加する必要があるかもしれません。 詳細については、[アプリ用 Common Data Service へのデータの統合](https://docs.microsoft.com/powerapps/administrator/data-integrator)を参照してください。
+- 接続設定で、**msdyn\_projects** から **msdynce\_projectnumber\[プロジェクト番号\]** への統合キー フィールドのマッピングを追加します。 最初にプロジェクトを接続設定に追加する必要があるかもしれません。 詳細については、[アプリ用 Common Data Service へのデータの統合](https://docs.microsoft.com/powerapps/administrator/data-integrator)を参照してください。
 - プロジェクト契約およびプロジェクトの **SourceDataID** は、別の値に更新したり、マッピングから削除したりできます。 既定のテンプレート値は **Project Service Automation** です。
 - **PaymentTerms** マッピングは、Finance の有効な支払条件を反映するように更新する必要があります。 プロジェクト タスクからマッピングを削除することもできます。 既定値マップには、デモ データの既定値があります。 次の表は、Project Service Automation の値を示します。
 
@@ -127,15 +129,15 @@ Project Service Automation から Finance への統合ソリューションが�
 
 Power Query を使用する必要がある場合は、これらのガイドラインに従ってください。
 
-- プロジェクトと契約 (PSA から Finance and Operation) テンプレートには既定のフィルターがあり、 **作業項目 (msdyn\_ordertype = 192350001)** タイプの受注のみが含まれます。 このフィルターは、プロジェクト契約が Finance の受注に対して作成されないことを保証するのに役立ちます。 独自のテンプレートを作成する場合は、このフィルターを追加する必要があります。
+- プロジェクトと契約 (PSA から Finance and Operation) テンプレートには既定のフィルターがあり、**作業項目 (msdyn\_ordertype = 192350001)** タイプの受注のみが含まれます。 このフィルターは、プロジェクト契約が Finance の受注に対して作成されないことを保証するのに役立ちます。 独自のテンプレートを作成する場合は、このフィルターを追加する必要があります。
 - 統合接続設定の法人に同期する必要がある契約組織のみを含む Power Query フィルターを作成する必要があります。 たとえば、Contoso US の契約組織単位とのプロジェクト契約は USSI 法人に同期する必要がありますが、Contoso グローバルの契約組織単位とのプロジェクト契約は USMF 法人に同期する必要があります。 このフィルターをタスク マッピングに追加しない場合、契約組織単位に関係なく、すべてのプロジェクト契約が接続設定に定義されている法人に同期されます。
 
 ## <a name="template-mapping-in-data-integration"></a>データ統合におけるテンプレート マッピング
 
 > [!NOTE] 
-> **CustomerReference** 、 **AddressCity** 、 **AddressCountryRegionID** 、 **AddressDescription** 、 **AddressLine1** 、 **AddressLine2** 、 **AddressState** 、および **AddressZipCode** フィールドは、プロジェクト契約の既定マッピングには含まれません。 このデータをプロジェクト契約で同期する必要がある場合は、マッピングを追加できます。
+> **CustomerReference**、**AddressCity**、**AddressCountryRegionID**、**AddressDescription**、**AddressLine1**、 **AddressLine2**、**AddressState**、および **AddressZipCode** フィールドは、プロジェクト契約の既定マッピングには含まれません。 このデータをプロジェクト契約で同期する必要がある場合は、マッピングを追加できます。
 >
-> **Description** 、 **ParentID** 、 **ProjectGroup** 、 **ProjectManagerPersonnelNumber** 、および **ProjectType** フィールドは、プロジェクトの既定マッピングには含まれません。 このデータをプロジェクトで同期する必要がある場合は、マッピングを追加できます。
+> **Description**、**ParentID**、**ProjectGroup**、**ProjectManagerPersonnelNumber**、および **ProjectType** フィールドは、プロジェクトの既定マッピングには含まれません。 このデータをプロジェクトで同期する必要がある場合は、マッピングを追加できます。
 
 次の図は、データ統合のテンプレート タスク マッピングの例を示しています。 マッピングには、Project Service Automation から Finance に同期されるフィールド情報が表示されます。
 

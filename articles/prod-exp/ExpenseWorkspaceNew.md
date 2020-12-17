@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations, Core
 ms.search.region: Global
-ms.author: ryansand
+ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: ec8737d848ae5ad25219a43c68306d19b1c1fbce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f2acd9eab52629b0baeb82a399993fbc6337c722
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079311"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650145"
 ---
 # <a name="redesigned-expense-reports"></a>再設計された経費報告書
 [!include[banner](../includes/banner.md)]
@@ -35,7 +35,7 @@ ms.locfileid: "4079311"
 - 組織でどのフィールドが必要か、どのフィールドが任意か、どのフィールドをキャプチャしてはいけないかを指定する新たなページが導入されています。 このページでは、ユーザーが設定しなければならないフィールドの数を減らすことができます。
 - 経費報告書の新しいルック アンド フィールにより、報告書は会計ペルソナ用に設計されたかのようには見えなくなります。
 
-新しいエクスペリエンスをオンにするには、 **機能管理** ワークスペースを使用して、 **新しくなった経費報告書** 機能をオンにします。 この機能を有効にすると、次のアクションが発生します。
+新しいエクスペリエンスをオンにするには、**機能管理** ワークスペースを使用して、**新しくなった経費報告書** 機能をオンにします。 この機能を有効にすると、次のアクションが発生します。
 
 - 既存の経費ワークスペースは、新しいワークスペースに置き換えられます。
 - 経費フィールドの表示に使用する新たなメニュー項目が追加されました。

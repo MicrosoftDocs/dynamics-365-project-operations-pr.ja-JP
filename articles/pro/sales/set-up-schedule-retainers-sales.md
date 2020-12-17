@@ -1,5 +1,5 @@
 ---
-title: 着手金スケジュールの設定 - Lite
+title: 着手金スケジュールの設定
 description: このトピックでは、Project Operations で着手金スケジュールを設定する方法について説明します。
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e0312b89d9969f140146b6aaaa9bdcfde702c0b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1c264b544660cf7a0b116f09b6bd7c94fcf0457e
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181278"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596378"
 ---
-# <a name="set-up-a-retainer-schedule---lite"></a>着手金スケジュールの設定 - Lite
+# <a name="set-up-a-retainer-schedule"></a>着手金スケジュールの設定
 
-_**適用対象:** ライト展開 - 見積もり請求の取引_
+_**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
 着手金スケジュールは、Dynamics 365 Project Operations の **プロジェクト契約** ページに設定されます。
 

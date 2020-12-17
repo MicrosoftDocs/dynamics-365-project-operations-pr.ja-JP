@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24b3fcd74e4167ba419e12c890a119d22c54c99a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: fa00bd5b4a1179f38d5dfb63a47b39eec69c6ecf
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175537"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642144"
 ---
 # <a name="project-contracts---key-concepts"></a>プロジェクト契約 - 重要な概念
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-このトピックでは、Dynamics 365 Project Operations でプロジェクト契約を使い始める前に知っておくべき重要な概念について解説します :
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+このトピックでは Dynamics 365 Project Operations でプロジェクト契約を使用する前に把握する必要がある重要な概念を説明します:
 
 ## <a name="owning-company"></a>所有会社
 

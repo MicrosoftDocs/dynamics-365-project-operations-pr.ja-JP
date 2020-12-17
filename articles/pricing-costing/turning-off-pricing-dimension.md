@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ffeff2ab465f37b8a4e40f4e64b118e3bb412cb8
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 986fae72c6b44b3f76281aefb81ffdaa96f71ae7
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119289"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650055"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>価格設定ディメンションをオフにする
 
@@ -33,6 +33,8 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 価格設定のディメンションを停止するには、それが標準であるかカスタムであるかにかかわらず、価格設定ディメンションの **コストに適用可能** および **営業に適用可能** フィールドを **いいえ** に設定します。
 
 ただし、これを行うと、次のエラーメッセージが表示される場合があります : **関連する価格レコードがある場合、価格ディメンションを更新または削除することはできません。**
+
+![価格設定のディメンションを停止したとき、生じる可能性が高いビジネス プロセス エラー](media/Business-Process-Error.png)
 
 このエラー メッセージは、停止されているディメンションに対して過去に設定済みの価格のレコードが存在することを示します。 ディメンションを参照するすべての **ロール価格** および **ロール価格利幅** レコード は、ディメンションの適用領域を **いいえ** に設定する可能性があればその前に削除する必要があります。 このルールは、作成済みの双方の標準価格ディメンションおよび任意のカスタム価格ディメンションに適用されます。 この検証の理由は、それぞれの **ロール価格** レコードは一意のディメンション組み合わせを持つ必要があるためです。 たとえば、**US Cost Rates 2018** と呼ばれる価格表には、次の **ロール価格** 行があります。 
 

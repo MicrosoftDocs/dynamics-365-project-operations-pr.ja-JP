@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4c99485a1d0c54ae848e5fbed4c4590e96cba9fd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 16f5dbb283eee12cf10ca7145ea9e17c5ef8923e
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181773"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513840"
 ---
 # <a name="manage-leads"></a>リードの管理
 
@@ -53,7 +53,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 - リードから **会社** フィールドを使用する取引先企業。
 - リードの **名** および **姓** フィールドの値に基づいて取引先企業に関連付けられた取引先担当者レコード。
-- **種類** フィールドが **作業ベース** に設定されているブロジェクト ベースの営業案件。
+- **種類** フィールドを **作業ベース** に設定したブロジェクト ベースの営業案件。
 
 リードの見込み評価の詳細については、[リードを見込みありと評価または変換](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales) を参照してください。
 

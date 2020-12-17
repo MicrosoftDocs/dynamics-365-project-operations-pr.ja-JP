@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ce37c9dd18fd01e599e8766389e42c066e182547
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 3381707457ef35ff604c716592afd8382b98ad5d
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177067"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643044"
 ---
 # <a name="project-contracts---key-concepts---lite"></a>プロジェクト契約 - 重要な概念 (ライト)
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
-このトピックでは、Dynamics 365 Project Operations でプロジェクト契約を使い始める前に知っておくべき重要な概念について解説します :
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+このトピックでは Dynamics 365 Project Operations でプロジェクト契約を使用する前に把握する必要がある重要な概念を説明します:
 
 ## <a name="contracting-unit"></a>契約単位
 

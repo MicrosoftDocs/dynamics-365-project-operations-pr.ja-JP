@@ -1,6 +1,6 @@
 ---
 title: セキュリティ モデル
-description: このトピックでは、Dynamics 365 Project Operations のセキュリティ モデルについて説明します。
+description: このトピックは Dynamics 365 Project Operations のセキュリティ モデルに関する情報を提供します。
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124374"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642909"
 ---
 # <a name="security-model"></a>セキュリティ モデル
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-Microsoft Dynamics 365 Project Operations には、Microsoft Office グループと連携する役割ベースのビジネス セキュリティ モデルを可能にする一意のセキュリティ モデルが含まれています。 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations は独自のセキュリティモデルを含み、Microsoft Office グループと連携するロール ベースのビジネス セキュリティ モデルを利用できます。 
 
 
 ## <a name="security-roles"></a>セキュリティ ロール
