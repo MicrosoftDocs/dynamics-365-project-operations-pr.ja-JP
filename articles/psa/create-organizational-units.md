@@ -18,35 +18,37 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ebb00b9838773560404a9e3f7a19cc83408d7889
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f8d44254adc9fc1e35d39080e284ea6195bfa821
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125094"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144734"
 ---
-# <a name="create-organizational-units-project-service"></a><span data-ttu-id="7d585-103">組織単位の作成 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="7d585-103">Create organizational units (Project Service)</span></span>
+# <a name="create-organizational-units-project-service"></a><span data-ttu-id="a578a-103">組織単位の作成 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="a578a-103">Create organizational units (Project Service)</span></span>
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="7d585-104">会社は、地理、機能、またはその他の領域によってコンサルティング ビジネスを編成する可能性があります。</span><span class="sxs-lookup"><span data-stu-id="7d585-104">Your company probably organizes its consulting business by geography, function, or other areas.</span></span> <span data-ttu-id="7d585-105">コンサルティング ビジネスを反映した組織単位を作成できます。</span><span class="sxs-lookup"><span data-stu-id="7d585-105">You can create organizational units that reflect your consulting business.</span></span> <span data-ttu-id="7d585-106">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 組織単位は、企業内のこうしたグループまたは事業部とは別個のコスト レートを伴う請求できるリソースを雇う専門的サービス企業のグループまたは事業部です。</span><span class="sxs-lookup"><span data-stu-id="7d585-106">A [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] organizational unit is a group or division in a professional services company that employs billable resources with cost rates that are distinct from other such groups or divisions in the company.</span></span>  
+<span data-ttu-id="a578a-104">会社は、地理、機能、またはその他の領域によってコンサルティング ビジネスを編成する可能性があります。</span><span class="sxs-lookup"><span data-stu-id="a578a-104">Your company probably organizes its consulting business by geography, function, or other areas.</span></span> <span data-ttu-id="a578a-105">コンサルティング ビジネスを反映した組織単位を作成できます。</span><span class="sxs-lookup"><span data-stu-id="a578a-105">You can create organizational units that reflect your consulting business.</span></span> <span data-ttu-id="a578a-106">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 組織単位は、企業内のこうしたグループまたは事業部とは別個のコスト レートを伴う請求できるリソースを雇う専門的サービス企業のグループまたは事業部です。</span><span class="sxs-lookup"><span data-stu-id="a578a-106">A [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] organizational unit is a group or division in a professional services company that employs billable resources with cost rates that are distinct from other such groups or divisions in the company.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="7d585-107">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 組織単位は、[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] の部署とは異なります。</span><span class="sxs-lookup"><span data-stu-id="7d585-107">A [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] organizational unit is separate from a business unit in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].</span></span> <span data-ttu-id="7d585-108">部署は、[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] 情報へのアクセス レベルに影響を与えるセキュリティ構造がより多く、通常、親会社および子会社または事業部など、会社事業部周囲で組織されます。</span><span class="sxs-lookup"><span data-stu-id="7d585-108">Business units are more of a security structure that affects levels of access to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] information, and are usually organized around company divisions, like parent company and subsidiaries or divisions.</span></span> <span data-ttu-id="7d585-109">組織単位は、地理的場所 (EMEA または LATAM など) によって、機能 (製品開発または IT アウトソーシングなど) によって、その他のパラメーターによってのいずれかで、コンサルティング会社がさまざまな業務をどのように分類するかを表します。</span><span class="sxs-lookup"><span data-stu-id="7d585-109">Organizational units represent how your consulting company categorizes its different businesses, whether by geographic location (like EMEA or LATAM), by function (like Product Development or IT Outsourcing), or by other parameters.</span></span>  
+>  <span data-ttu-id="a578a-107">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 組織単位は、[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] の部署とは異なります。</span><span class="sxs-lookup"><span data-stu-id="a578a-107">A [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] organizational unit is separate from a business unit in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].</span></span> <span data-ttu-id="a578a-108">部署は、[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] 情報へのアクセス レベルに影響を与えるセキュリティ構造がより多く、通常、親会社および子会社または事業部など、会社事業部周囲で組織されます。</span><span class="sxs-lookup"><span data-stu-id="a578a-108">Business units are more of a security structure that affects levels of access to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] information, and are usually organized around company divisions, like parent company and subsidiaries or divisions.</span></span> <span data-ttu-id="a578a-109">組織単位は、地理的場所 (EMEA または LATAM など) によって、機能 (製品開発または IT アウトソーシングなど) によって、その他のパラメーターによってのいずれかで、コンサルティング会社がさまざまな業務をどのように分類するかを表します。</span><span class="sxs-lookup"><span data-stu-id="a578a-109">Organizational units represent how your consulting company categorizes its different businesses, whether by geographic location (like EMEA or LATAM), by function (like Product Development or IT Outsourcing), or by other parameters.</span></span>  
   
-1.  <span data-ttu-id="7d585-110">**Project Service > 組織単位** の順に移動します。</span><span class="sxs-lookup"><span data-stu-id="7d585-110">Go to **Project Service > Organizational Units**.</span></span>  
+1.  <span data-ttu-id="a578a-110">**Project Service > 組織単位** の順に移動します。</span><span class="sxs-lookup"><span data-stu-id="a578a-110">Go to **Project Service > Organizational Units**.</span></span>  
   
-2.  <span data-ttu-id="7d585-111">**新規** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7d585-111">Click **New**.</span></span>  
+2.  <span data-ttu-id="a578a-111">**新規** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a578a-111">Click **New**.</span></span>  
   
-3.  <span data-ttu-id="7d585-112">**概要** 領域で、組織単位の名前を **名前** に入力してから、必要に応じて他のフィールドに入力します。</span><span class="sxs-lookup"><span data-stu-id="7d585-112">In the **General** area, enter a name for the organization unit in **Name**, and fill in the other fields as necessary.</span></span>  
+3.  <span data-ttu-id="a578a-112">**概要** 領域で、組織単位の名前を **名前** に入力してから、必要に応じて他のフィールドに入力します。</span><span class="sxs-lookup"><span data-stu-id="a578a-112">In the **General** area, enter a name for the organization unit in **Name**, and fill in the other fields as necessary.</span></span>  
   
-4.  <span data-ttu-id="7d585-113">**保存** をクリックしてレコードを作成します。これにより、そのレコードの編集を継続できます。</span><span class="sxs-lookup"><span data-stu-id="7d585-113">Click **Save** to create the record so you can continue editing it.</span></span>  
+4.  <span data-ttu-id="a578a-113">**保存** をクリックしてレコードを作成します。これにより、そのレコードの編集を継続できます。</span><span class="sxs-lookup"><span data-stu-id="a578a-113">Click **Save** to create the record so you can continue editing it.</span></span>  
   
-5.  <span data-ttu-id="7d585-114">**原価価格表** の下で、**+** をクリックして価格表を追加します。</span><span class="sxs-lookup"><span data-stu-id="7d585-114">Under **Cost Price Lists**, click **+** to add a price list.</span></span> <span data-ttu-id="7d585-115">ここの **コスト** コンテキストでのみ価格表を追加できます。</span><span class="sxs-lookup"><span data-stu-id="7d585-115">You can only add price lists with the **Cost** context here.</span></span>  
+5.  <span data-ttu-id="a578a-114">**原価価格表** の下で、**+** をクリックして価格表を追加します。</span><span class="sxs-lookup"><span data-stu-id="a578a-114">Under **Cost Price Lists**, click **+** to add a price list.</span></span> <span data-ttu-id="a578a-115">ここの **コスト** コンテキストでのみ価格表を追加できます。</span><span class="sxs-lookup"><span data-stu-id="a578a-115">You can only add price lists with the **Cost** context here.</span></span>  
   
-6.  <span data-ttu-id="7d585-116">**名前** フィールドで、**検索** ボタンをクリックして、この組織単位で使用できるようにする価格表を選択します。</span><span class="sxs-lookup"><span data-stu-id="7d585-116">In the **Name** field, click the **Search** button and select a price list you want to make available to this organizational unit.</span></span> <span data-ttu-id="7d585-117">必要に応じて価格表を追加し続けます。</span><span class="sxs-lookup"><span data-stu-id="7d585-117">Continue adding price lists as needed.</span></span>  
+6.  <span data-ttu-id="a578a-116">**名前** フィールドで、**検索** ボタンをクリックして、この組織単位で使用できるようにする価格表を選択します。</span><span class="sxs-lookup"><span data-stu-id="a578a-116">In the **Name** field, click the **Search** button and select a price list you want to make available to this organizational unit.</span></span> <span data-ttu-id="a578a-117">必要に応じて価格表を追加し続けます。</span><span class="sxs-lookup"><span data-stu-id="a578a-117">Continue adding price lists as needed.</span></span>  
   
-7.  <span data-ttu-id="7d585-118">完了したら、画面の右下隅の **保存** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="7d585-118">When you’re done, click **Save** at the bottom right corner of the screen.</span></span>  
+7.  <span data-ttu-id="a578a-118">完了したら、画面の右下隅の **保存** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a578a-118">When you’re done, click **Save** at the bottom right corner of the screen.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="7d585-119">関連項目</span><span class="sxs-lookup"><span data-stu-id="7d585-119">See Also</span></span>  
- [<span data-ttu-id="7d585-120">Project Service Automation の構成</span><span class="sxs-lookup"><span data-stu-id="7d585-120">Configure Project Service Automation</span></span>](../psa/configure.md)
+### <a name="see-also"></a><span data-ttu-id="a578a-119">関連項目</span><span class="sxs-lookup"><span data-stu-id="a578a-119">See Also</span></span>  
+ [<span data-ttu-id="a578a-120">Project Service Automation の構成</span><span class="sxs-lookup"><span data-stu-id="a578a-120">Configure Project Service Automation</span></span>](../psa/configure.md)
