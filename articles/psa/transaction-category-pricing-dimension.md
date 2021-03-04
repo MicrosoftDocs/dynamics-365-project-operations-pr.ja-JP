@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0019571a1d37d3b6a503e7221db3c3b51365c236
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079352"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150764"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>価格設定のディメンションとしてトランザクション カテゴリを使用する
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 このトピックでは、価格設定ディメンションとしてトランザクション カテゴリを使用する方法について説明します。 開始する前に、価格設定ディメンションのソリューションをまだ作成していなければ、新しく作成する必要があります。 既に価格設定のディメンションのソリューションがある場合、そのソリューションで変更を行うことができます。 組織用に新しい価格設定ディメンションのソリューションを作成済みでない場合は、[カスタム フィールドおよびエンティティを作成する](create-custom-fields-entities.md) の手順を完了します。
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>フォームとビューにトランザクション カテゴリを追加します。
@@ -46,7 +49,7 @@ ms.locfileid: "4079352"
 
 ## <a name="set-up-transaction-category-as-a-pricing-dimension"></a>価格設定のディメンションとしてトランザクション カテゴリをセットアップする
 
-1. Webインターフェイスで、 **Project Service** > **設定** > **パラメーター** の順に移動します。 
-2. **パラメーター** ページ、 **金額ベースの価格設定ディメンション** タブでは、 **価格設定ディメンション** エンティティのレコードを示すタブのグリッドに注意します。
-3. このリストに **トランザクション カテゴリ** を追加して、 **コストに適用可能** と **営業に適用可能** フィールドは **はい** に設定します。
+1. Webインターフェイスで、**Project Service** > **設定** > **パラメーター** の順に移動します。 
+2. **パラメーター** ページ、**金額ベースの価格設定ディメンション** タブでは、**価格設定ディメンション** エンティティのレコードを示すタブのグリッドに注意します。
+3. このリストに **トランザクション カテゴリ** を追加して、**コストに適用可能** と **営業に適用可能** フィールドは **はい** に設定します。
 4. **ディメンションの種類** フィールドで **金額ベース** を選択して、コストと営業に関連づけられた **トランザクション カテゴリ** の優先順位を選択します。

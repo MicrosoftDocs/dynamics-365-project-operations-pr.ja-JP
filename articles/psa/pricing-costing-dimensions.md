@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079309"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151304"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>価格とコストのディメンションのホーム ページ
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 プロジェクト ベースの組織で労働の価格とコストを設定するために使用されるディメンションは、次の属性の影響を受けます:
 
@@ -55,7 +57,7 @@ PSAには、価格ディメンションの既定セットが付属していま�
 ## <a name="pricing-human-resource-time"></a>人的リソース時間の価格設定
 組織が人的リソース時間をどのように価格設定するかは、多くの場合、組織の収益性に直接影響する重要な戦略的考慮事項です。 組織が人的リソース時間の請求レートとコスト レートの設定方法を決定する準備ができたら、財務チームおよび実務担当者と連携します。
 
-価格設定に関する他の検討事項には、現在価格ディメンションではないが組織の価格ディメンションとして適用されるフィールドまたはエンティティを再利用するかどうかがあります。 **トランザクション カテゴリ** ( **msdyn_transactioncategory** ) と **予約可能リソース** ( **bookableresource** ) のようなフィールドが候補のディメンションの例です。 
+価格設定に関する他の検討事項には、現在価格ディメンションではないが組織の価格ディメンションとして適用されるフィールドまたはエンティティを再利用するかどうかがあります。 **トランザクション カテゴリ** (**msdyn_transactioncategory**) と **予約可能リソース** (**bookableresource**) のようなフィールドが候補のディメンションの例です。 
 
 価格ディメンションをテーブルにするかオプション セットにするかを検討する必要があります。 10 または 12 を超えるディメンションの値への変更が予測され、これらの値に追加の属性が必要な場合は、オプション セットではなくエンティティを作成します。 ほとんどのビジネス ユーザーは、テーブルに新しい行を追加できますが、値の追加や削除などのオプション セットを管理するには、管理者または開発者が必要です。
 
