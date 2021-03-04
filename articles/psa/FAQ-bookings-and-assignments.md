@@ -18,15 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c4b976b49bd643bc7a774a86b1ba89bd76d7c916
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 0e4eea87bfb059a3c0be8ccbd2914a4d6c3cf46b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4125005"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149954"
 ---
 # <a name="resource-bookings-and-how-they-relate-to-task-assignments"></a>リソースの予約およびタスク割当への関連付け
 
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 名前付きリソースをプロジェクトチームに登録し、プロジェクトタスクを割り当てるには、2つの方法があります:
 

@@ -18,14 +18,17 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121809"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149549"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>WBS (作業分解構造) のアップグレードに関する考慮事項
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 このトピックでは、「Project Service Automation 2.x から 3.x. へ」 の WBS (作業分解構造) をアップグレードする方法に関して説明します。 このトピックでは、アップグレードを完了するのに必要な Project Service Automation (PSA) のプロジェクトについて、正常な条件を定義します。 ここには、アップグレードが失敗する一般的なブロック条件についての詳細が含まれます。 プロジェクト スケジュールのプロジェクト タスクおよび機能の定義に関する詳細は、[プロジェクト スケジュール](project-creating.md) を参照してください。
 
 ## <a name="key-entities"></a>主要なエンティティ

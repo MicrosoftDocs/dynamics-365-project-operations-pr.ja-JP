@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079459"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148649"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>リソースの管理の変更 (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 このトピックのセクションでは、Dynamics 365 Project Service Automation バージョン 3.x のリソース管理領域に加える変更について説明します。
 
 ## <a name="project-estimates"></a>プロジェクト見積もり
 
-**msdyn\_projecttask** エンティティ ( **プロジェクト タスク** ) に基づく代わりに、プロジェクト見積は **msdyn\_resourceassignment** エンティティ ( **リソースの割り当て** ) に基づいています。 リソースの割り当ては、タスク スケジュールと価格設定の「真実のソース」となりました。
+**msdyn\_projecttask** エンティティ (**プロジェクト タスク**) に基づく代わりに、プロジェクト見積は **msdyn\_resourceassignment** エンティティ (**リソースの割り当て**) に基づいています。 リソースの割り当ては、タスク スケジュールと価格設定の「真実のソース」となりました。
 
 ## <a name="line-tasks"></a>ライン タスク
 
@@ -65,7 +67,7 @@ PSA 3.x では、割り当てされていない割り当ては **NULL** チー�
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>プロジェクト タスク エンティティ上のフィールドのスケジュール
 
-**msdyn\_projecttask** エンティティのフィールドは、非推奨となるか **msdyn\_resourceassignment** エンティティへと移動されている、あるいは現在は **msdyn\_projectteam** エンティティ ( **プロジェクト チーム メンバー** ) から参照されています。
+**msdyn\_projecttask** エンティティのフィールドは、非推奨となるか **msdyn\_resourceassignment** エンティティへと移動されている、あるいは現在は **msdyn\_projectteam** エンティティ (**プロジェクト チーム メンバー**) から参照されています。
 
 | msdyn\_projecttask (プロジェクト タスク) の非推奨のフィールド | msdyn\_resourceassignment (リソース割り当て) の新しいフィールド | コメント |
 |---|---|---|
@@ -77,7 +79,7 @@ PSA 3.x では、割り当てされていない割り当ては **NULL** チー�
 
 ## <a name="schedule-contour"></a>スケジュール輪郭
 
-スケジュール輪郭は、 **リソース割り当て** の各エンティティ ( **msdyn\_resourceassignment** ) の **計画作業** フィールド ( **msdyn\_plannedwork** ) に保存されています。
+スケジュール輪郭は、**リソース割り当て** の各エンティティ (**msdyn\_resourceassignment**) の **計画作業** フィールド (**msdyn\_plannedwork**) に保存されています。
 
 ### <a name="structure"></a>構造体
 
@@ -139,7 +141,7 @@ PSA 3.x では、割り当てされていない割り当ては **NULL** チー�
 
 ## <a name="pricing-dimensions"></a>価格ディメンション
 
-PSA 3.x では、リソース固有の価格ディメンションのフィールド ( **ロール** と **組織単位** など) は **msdyn\_projecttask** エンティティから削除されています。 これらのフィールドは、プロジェクト見積が生成された際に、リソース割り当て ( **msdyn\_resourceassignment** ) の対応するプロジェクト チーム メンバー ( **msdyn\_projectteam** ) から取得できるようになりました。 新規フィールドである、 **msdyn\_organizationalunit** が、 **msdyn\_projectteam** エンティティに追加されました。
+PSA 3.x では、リソース固有の価格ディメンションのフィールド (**ロール** と **組織単位** など) は **msdyn\_projecttask** エンティティから削除されています。 これらのフィールドは、プロジェクト見積が生成された際に、リソース割り当て (**msdyn\_resourceassignment**) の対応するプロジェクト チーム メンバー (**msdyn\_projectteam**) から取得できるようになりました。 新規フィールドである、**msdyn\_organizationalunit** が、**msdyn\_projectteam** エンティティに追加されました。
 
 | msdyn\_projecttask (プロジェクト タスク) の非推奨のフィールド | 代わり使用される、msdyn\_projectteam (プロジェクト チーム メンバー) からのフィールド |
 |---|---|
@@ -148,19 +150,19 @@ PSA 3.x では、リソース固有の価格ディメンションのフィール
 
 ## <a name="contours"></a>輪郭
 
-価格および見積もり輪郭フィールドは、 **msdyn\_projecttask** エンティティでは非推奨となりました。 これらのフィールドは、 **msdyn\_resourceassignment** エンティティに移動されました。
+価格および見積もり輪郭フィールドは、**msdyn\_projecttask** エンティティでは非推奨となりました。 これらのフィールドは、**msdyn\_resourceassignment** エンティティに移動されました。
 
 | msdyn\_projecttask (プロジェクト タスク) の非推奨のフィールド | msdyn\_resourceassignment (リソース割り当て) の新しいフィールド |
 |---|---|
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-以下のフィールドは、 **msdyn\_resourceassignment** エンティティに追加されました。
+以下のフィールドは、**msdyn\_resourceassignment** エンティティに追加されました。
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-計画済み、実績、および残りのコストおよび売上に対する次のフィールドは、 **msdyn\_projecttask** エンティティでは変更されていません:
+計画済み、実績、および残りのコストおよび売上に対する次のフィールドは、**msdyn\_projecttask** エンティティでは変更されていません:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
