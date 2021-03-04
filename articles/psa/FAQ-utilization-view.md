@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4516c562e7eaf35c5fef638183967eef5a033b11
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122169"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146399"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>リソースの稼働率を表示する
+
+[!include [banner](../includes/psa-now-project-operations.md)]
  
 **Project Service リソースの稼働率** ページの **稼働率ビュー** では、それぞれの予約可能リソースの稼働率を表示します。 このビューはスケジュール ボードに基づいているため、共通する機能があります。
 

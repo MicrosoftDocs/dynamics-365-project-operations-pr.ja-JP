@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124104"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147389"
 ---
 # <a name="soft-book-requirements"></a>仮予約の要件
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 リソース要件は本予約できます。 本予約では、リソースの容量を使用する提案を作成できます。 提案が承認のために要求者に返されます。 仮予約でプロジェクト チームに一時的にリソースが追加され、スケジュール ボードに別の状態が示されますが、リソースの容量は消費されません。 スケジュール ボードの仮予約リソースに対して、**予約の状態** フィールドを **仮予約** に設定します。
 

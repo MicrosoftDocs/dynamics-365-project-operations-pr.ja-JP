@@ -16,14 +16,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c42e5fda79d51430f4dedf46037e11c86a38c474
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121854"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147074"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>プラグインの属性を更新して新しい価格ディメンションを含める
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
 > Project Service Automation (PSA) の見積もりおよび契約機能を使用していない場合、このトピックはスキップできます。

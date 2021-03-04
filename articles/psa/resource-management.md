@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca49c29f079f04dad127cfe56f262577ea8cc4a1
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6d62baf0d5a535d118df507edaba3059d44fd4d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124059"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147433"
 ---
 # <a name="resourcing-projects-home-page"></a>プロジェクトのリソース ホームページ
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -35,10 +37,10 @@ ms.locfileid: "4124059"
 - 汎用チーム メンバ レコードを作成し、そのチームのロールやリソース組織単位を定義します。
 - 汎用チーム メンバーのタスク割り当てから、彼らのリソース要件を生成します。
 - 使用可能なリソース スキルに対してリソース要求で定義されたスキルを識別することでスキルを一致させます。
-- リソースを代用します。
-- プロジェクト スケジュール割り当てとリソースの予約を配置します。
-- 予約と割り当ての違いを調整します。
-- 不在状態に応じてリソースの予約を変更します。
+- リソースを代用する。
+- プロジェクト スケジュールの割り当てとリソースの予約を調整する。
+- 予約と割り当ての差異を調整する。
+- 不在状態ステータスに応じてリソース予約を変更する。
 - プロジェクト マネージャーとリソース マネージャーで共同作業します。
 - リソースの時間がどのように利用されたかなどの内訳を含む、目標に対してリソースの稼働率の履歴を表示します。
 - スキルと能力リポジトリを維持します。
