@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079462"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144599"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>新しいカスタム エンティティ フォームを追加する (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>フィールドの種類 
 
-Dynamics 365 Project Service Automation は営業案件、見積もり、受注、請求書エンティティの **種類** ( **msdyn\_ordertype** ) フィールドに依存しており、これらのエンティティの **作業ベース** バージョンを **品目ベース** や **サービス ベース** バージョンと区別します。 これらのエンティティの作業ベースのバージョンは PSA によって処理されます。 ソリューションのクライアント側とサーバー側の多くのビジネス ロジックは、 **種類** フィールドに依存します。 そのため、エンティティの作成時にフィールドを正しい値で初期化することが重要です。 不正な値は不正な動作の原因になる可能性があり、一部のビジネス ロジックは正しく実行されない場合があります。
+Dynamics 365 Project Service Automation は営業案件、見積もり、受注、請求書エンティティの **種類** (**msdyn\_ordertype**) フィールドに依存しており、これらのエンティティの **作業ベース** バージョンを **品目ベース** や **サービス ベース** バージョンと区別します。 これらのエンティティの作業ベースのバージョンは PSA によって処理されます。 ソリューションのクライアント側とサーバー側の多くのビジネス ロジックは、**種類** フィールドに依存します。 そのため、エンティティの作成時にフィールドを正しい値で初期化することが重要です。 不正な値は不正な動作の原因になる可能性があり、一部のビジネス ロジックは正しく実行されない場合があります。
 
 ## <a name="automatic-form-switching"></a>自動フォーム切り替え
 
@@ -41,13 +43,13 @@ Dynamics 365 Project Service Automation は営業案件、見積もり、受注�
 
 次の手順に従って **プロジェクト情報** フォームのカスタム バージョンを作成します。
 
-1. 営業案件エンティティで **プロジェクト情報** フォームを開き、 **自分のプロジェクト情報** という名前でコピーを保存します。
+1. 営業案件エンティティで **プロジェクト情報** フォームを開き、**自分のプロジェクト情報** という名前でコピーを保存します。
 2. 新しいフォームを開き、プロパティに **プロジェクト情報** フォームのフォーム初期化スクリプトが存在することを確認します。 
 
     > [!IMPORTANT]
     > このスクリプトを削除しないでください。 削除すると一部のデータが誤って初期化される可能性があります。
 
-3. フォームに **種類** ( **msdyn\_ordertype** ) フィールドが存在することを確認します。 
+3. フォームに **種類** (**msdyn\_ordertype**) フィールドが存在することを確認します。 
 
     > [!IMPORTANT]
     > このフィールドを削除しないでください。 削除した場合は初期化スクリプトが失敗します。
@@ -59,7 +61,7 @@ Dynamics 365 Project Service Automation は営業案件、見積もり、受注�
 
     ![URL の新しいフォームの formId 値](media/how-to-add-custom-forms-in-v2.0.png)
 
-5. msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js Webリソースを編集して、 **formId** 値の **msdyn\_ordertype** マッピングを作成します。 リソースからコードを削除し、次のコードに置き換えます。
+5. msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js Webリソースを編集して、**formId** 値の **msdyn\_ordertype** マッピングを作成します。 リソースからコードを削除し、次のコードに置き換えます。
 
     ```javascript
     define(["require", "exports"], function (require, exports) {

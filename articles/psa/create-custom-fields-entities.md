@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079337"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144869"
 ---
 # <a name="create-custom-fields-and-entities"></a>カスタム フィールドとエンティティの作成 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Power Apps プラットフォームにてカスタム オプション セットまたはエンティティを作成するには以下の手順に従ってください。  
 このトピックで扱う手順は Project Service Automation (PSA) のWebインターフェイスを使用して実行する必要があります。
@@ -39,7 +41,7 @@ Power Apps プラットフォームにてカスタム オプション セット�
 
 ### <a name="entity-based-dimensions"></a>エンティティ ベースのディメンション
 
-1. PSA で、 **設定** > **ソリューション** をクリックし、続いて **\<your organization name> 価格ディメンション** をダブルクリックします。
+1. PSA で、**設定** > **ソリューション** をクリックし、続いて **\<your organization name> 価格ディメンション** をダブルクリックします。
 2. ソリューション エクスプローラーの左側のナビゲーションパネルで、 **エンティティ** を選択します。
 3. **新規** をクリックして、 **スタンダード タイトル** と呼ばれる新しいエンティティを作成します。 その他の必要情報を入力し、 **保存** をクリックします。
 
@@ -50,7 +52,7 @@ Power Apps プラットフォームにてカスタム オプション セット�
 2つのオプション セット ベースのディメンションを作成することができます。 **リソースの作業場所** を使用して、 **ホーム** と **オンサイト** の各作業場所の価格を追跡します。 **リソースの作業時間** に **Regular** and **Overtime** の値を使用して、作業完了時の利幅を適用します。
 
 
-1. PSAで、 **設定** > **ソリューション** をクリックし、続いて **\<your organization name> 価格ディメンション** をダブルクリックします。 
+1. PSAで、**設定** > **ソリューション** をクリックし、続いて **\<your organization name> 価格ディメンション** をダブルクリックします。 
 2. ソリューション エクスプローラーの左側のナビゲーションパネルで、  **オプション セット** を選択します。 
 3. **新規** をクリックして新たなオプション セットを作成し、その他の必要な情報を入力し、 **保存** をクリックします。
 

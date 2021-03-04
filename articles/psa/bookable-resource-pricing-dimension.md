@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079367"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145004"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>価格設定ディメンションとして予約可能リソースを使用する
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 このトピックでは、価格設定ディメンションとしての予約可能リソースの使用方法について説明します。 開始する前に、価格設定ディメンションのソリューションをまだ作成していなければ、新しく作成する必要があります。 既に価格設定のディメンションのソリューションがある場合、そのソリューションで変更を行うことができます。 組織用に新しい価格設定ディメンションのソリューションを作成済みでない場合は、[カスタム フィールドおよびエンティティを作成する](create-custom-fields-entities.md) の手順を完了します。
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>フォームとビューに予約可能リソースを追加します。
@@ -48,7 +51,7 @@ ms.locfileid: "4079367"
 
 ## <a name="set-up-bookable-resource-as-a-pricing-dimension"></a>価格設定ディメンションとして予約可能リソースを設定する
 
-1. Webインターフェイスで、 **Project Service** > **設定** > **パラメーター** の順に移動します。 **パラメーター** ページ、 **金額ベースの価格設定ディメンション** タブ では、タブのグリッドに価格設定ディメンション エンティティのレコードが表示されます。 
+1. Webインターフェイスで、**Project Service** > **設定** > **パラメーター** の順に移動します。 **パラメーター** ページ、 **金額ベースの価格設定ディメンション** タブ では、タブのグリッドに価格設定ディメンション エンティティのレコードが表示されます。 
 2. 価格設定のディメンションの一覧に **予約可能リソース** を、 **msdyn_bookableresource** として追加します。 
 3. 予約可能リソースが価格設定ディメンションとして機能するコンテキストを指定し、 **価格に適用** および **売上に適用** の値を設定します。
 4. **ディメンションの種類** フィールドで **金額ベース** を選択します。 
@@ -57,7 +60,7 @@ ms.locfileid: "4079367"
 ## <a name="set-up-pricing-dimension-field-names"></a>価格ディメンション のフィールド名称を設定する
 
 **価格ロール** テーブルの価格ディメンションのフィールド名が、価格デフォルト設定を機能させる必要がある他のエンティティのフィールド名と異なる場合、価格設定ディメンション レコードで異なる名称を認識する必要があります。    
-予約可能リソースでは、 **プロジェクト チーム メンバー** エンティティーには、 **価格ロール** エンティティー ( **msdyn_bookableresource** )で呼び出されるものとは少し異なるフィールド名( **msdyn_bookableresourceid** )があります。 の価格設定ディメンション レコードの **msydn_bookableresource** は、これに対応する必要があります。 
+予約可能リソースでは、 **プロジェクト チーム メンバー** エンティティーには、 **価格ロール** エンティティー (**msdyn_bookableresource**)で呼び出されるものとは少し異なるフィールド名(**msdyn_bookableresourceid**)があります。 の価格設定ディメンション レコードの **msydn_bookableresource** は、これに対応する必要があります。 
 1. そのためには、 **価格ディメンション** グリッドの行をダブルクリックし、 **msdyn_bookableresource** のディメンションページを開きます。
 2. ディメンション ページの、 **関連** タブで、 **価格ディメンションのフィールド名称** をクリックします。
 

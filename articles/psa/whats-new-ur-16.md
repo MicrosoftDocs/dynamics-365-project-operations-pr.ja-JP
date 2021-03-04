@@ -17,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2c93d34b61001b7755d426539ac384641a7bc9da
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 882ee6c25e5d88db22e051254c7fd82dc787ab73
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121584"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143639"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Project Service Automation 更新プログラム リリース 16、V3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。  このリリースは、Dynamics 365 9.x と互換性があります。 このリリースへと更新をするには、Dynamics 365 オンラインの管理センターにアクセスし、ソリューション ページにアクセスして更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストールと更新](https://docs.microsoft.com/dynamics365/project-service/upgrade-psa-home-page) を参照してください。
 このトピックには、PSA V3 更新プログラム 16 の新機能または変更された機能と修正をリスト化しています。 このバージョンのビルド番号は V3.10.6.34 であり、一般的には 2020年1月 の自己プログラム更新の処理を通じて入手できます。

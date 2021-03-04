@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c3f2be4f68fc492dc867cdbbac6f1401eede629d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 8fc01ffc48d185055fd9a70da12dbb4333b90b96
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118839"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144779"
 ---
 # <a name="create-an-office-365-group-for-a-project-project-service"></a>プロジェクト (Project Service)に特化した Office 365 グループの作成
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
