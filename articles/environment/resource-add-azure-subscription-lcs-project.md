@@ -70,3 +70,6 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 これで、Azure サブスクリプションが正常に接続されました。 これで、Dynamics 365 Finance のクラウド ホスト環境を展開できます。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ ms.locfileid: "5147569"
 - [仮予約の要件](resource-management-softbook-requirements.md)
 - [スキルおよび実力モデル](resource-management-skills-proficiency.md)
 - [リソース管理に関するよくある質問](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

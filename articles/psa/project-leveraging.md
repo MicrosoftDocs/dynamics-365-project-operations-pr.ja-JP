@@ -54,3 +54,6 @@ ms.locfileid: "5148379"
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>プロジェクトからの見積もりを見積へインポートする
 
 プロジェクト見積もりを定義した後、これらを見積依頼明細行にインポートできます。 **見積依頼明細行の詳細** ページで、リボン上の **見積もりからのインポート** を選択して、トランザクションの種類、ロール、またはタスク レベルによるプロジェクト見積もりを要約します。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

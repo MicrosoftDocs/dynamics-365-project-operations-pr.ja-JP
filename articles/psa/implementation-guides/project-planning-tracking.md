@@ -45,3 +45,6 @@ Project Service アプリケーションは、サービス組織が、営業案�
 
 > [!NOTE]
 > このトピックは、今後の文書の更新で削除される場合があります。 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -231,3 +231,6 @@ Project Service Automation のプロジェクトを読み取る際に、リソ�
 
 ### <a name="see-also"></a>関連項目  
  [プロジェクト管理者ガイド](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

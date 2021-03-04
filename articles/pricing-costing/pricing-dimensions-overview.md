@@ -71,3 +71,6 @@ Dynamics 365 Project Operations には、価格ディメンションの既定セ
 | ----------------|-------------|----------|----------:|----------|
 | 自分の会社_Band1 | Contoso US  |Hour | 145|USD     |
 | 自分の会社_Band2 | Contoso India社 |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

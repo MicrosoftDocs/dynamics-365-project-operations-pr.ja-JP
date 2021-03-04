@@ -56,3 +56,6 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 > [!NOTE]
 > 経費報告書を承認された出張申請書にマップする場合、取引金額は承認された金額を超えることはできません。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

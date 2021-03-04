@@ -127,3 +127,6 @@ Microsoft Project Client を使用して新しい WBS (作業分解構造) を�
 8.  リソースで使用する **カレンダー** を選択します。
 
 11. **OK** をクリックします。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

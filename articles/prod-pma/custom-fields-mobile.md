@@ -429,3 +429,6 @@ final class TSTimesheetDetails_Extension
 1. アプリは、プロジェクト リソースから既定のカテゴリを配置しようとします。 この既定のカテゴリは、 **TSTimesheetSettingsService** クラスの **getCurrentUserResource** および **getDelegatedResourcesForCurrentUser** メソッドで設定されます。
 2. 既定のカテゴリがプロジェクト リソース レベルで指定されていない場合、アプリはプロジェクト活動から取得しようとします。 この既定のカテゴリは、 **TSTimesheetProjectService** クラスの **getActivitiesForProject** メソッドで設定されます。
 3. 既定のカテゴリがプロジェクト活動レベルで指定されていない場合、既定のカテゴリはプロジェクト パラメーターから取得されます。 この既定のカテゴリは、 **TSTimesheetProjectService** クラスの **getProjectDetailsbyRule** メソッドで設定されます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

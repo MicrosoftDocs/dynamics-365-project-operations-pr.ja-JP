@@ -59,3 +59,6 @@ Dynamics 365 Project Service Automation (PSA) アプリケーションの最新�
      - 修正済み: **新規の営業案件**、**見積もり**、**受注明細行**、および **製品の追加** の追加ボタンが、営業案件、見積もり、受注製品、およびプロジェクトベースの明細行サブグリッドのコマンドに表示されます。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

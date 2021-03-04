@@ -297,3 +297,6 @@ Field Service オペレーションは合衆国に集約され、大半はシア
 
 > [!div class="mx-imgBorder"]
 > ![アクティブな予約可能リソースのスクリーンショット](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

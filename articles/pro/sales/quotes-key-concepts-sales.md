@@ -89,3 +89,6 @@ Project Operations の見積もりは、Dynamics 365 Sales の見積もりに基
 - Project Operations の見積もりには、独自のフォームと UI 要素、業務ルール、プラグインのビジネス ロジック、および販売見積もりとは異なるクライアント側のスクリプトがあります。
 
 これらの理由から、販売見積もりと Project Operations 見積もりを同じ意味で使用することはお勧めしません。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

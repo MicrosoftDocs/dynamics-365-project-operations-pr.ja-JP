@@ -134,3 +134,6 @@ Common Data Service (CDS) でデータの構成を開始する前に、次の前
 13. **保存** を選択します。 
 
 ![更新されるプロジェクト パラメーター](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

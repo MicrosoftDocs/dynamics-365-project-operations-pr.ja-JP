@@ -104,3 +104,6 @@ ms.locfileid: "4079403"
 
 3. **保存** を選択した後、ページを閉じます。
 4. **コンピテンシー** タブで、 **ProjectMgmt** スキルと **PMP** 証明書を追加します。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

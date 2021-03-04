@@ -344,3 +344,6 @@ PSAには、 **調整** タブがあり、プロジェクト マネージャー�
 ![予約の延長 ダイアログ ボックス](media/Resource-Management-image58.png)
 
 プロジェクト管理者やリソース マネージャーは、スケジュール ボードを使用して、リソースが容量を超えてオーバーブッキングされる状況を管理できます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

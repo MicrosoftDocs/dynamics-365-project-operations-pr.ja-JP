@@ -113,3 +113,6 @@ ms.locfileid: "4079294"
 詳細については、[会社間プロジェクト請求の構成](tasks/configure-intercompany-project-invoicing.md)を参照してください。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

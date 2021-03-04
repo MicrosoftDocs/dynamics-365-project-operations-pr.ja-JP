@@ -65,3 +65,6 @@ Project Operations の営業案件の営業プロセスは、Sales アプリケ�
 > プロジェクトベースの取引が営業案件から始まった場合は、営業案件の営業プロセスが優先されます。
 
 製品のビジネス プロセス フローを編集するか、独自のビジネス プロセス フローを作成して、必要に応じて営業プロセスを追跡できます。 ビジネス プロセス フローの詳細については、[ビジネス プロセス フローの概要](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview) を参照してください。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

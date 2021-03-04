@@ -82,3 +82,6 @@ Microsoft Dynamics 365 Project Service Automation には、リタスクにリソ
 
 3. タスクに割り当てるリソースを選択します。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

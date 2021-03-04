@@ -101,3 +101,6 @@ ms.locfileid: "5147929"
 
 しかし、予約の詳細をよく見ると、予約の開始時刻に違いがあることがわかります。 予約は、割り当ての等高線の開始時間よりも早まることなはく、リソースの利用可能な開始時間より早く開始されることもありません。
  ![スケジュール ボードにおけるリソースの新規予約](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ ms.locfileid: "5147878"
 - [出荷単位一覧および出荷単位](advanced-units.md)
 - [複数単位通貨](advanced-currency.md)
 - [実績の記録](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

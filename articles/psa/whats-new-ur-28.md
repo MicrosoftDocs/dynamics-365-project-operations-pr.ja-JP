@@ -55,3 +55,6 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 - **GetEstimatesForProject** プラグインが呼び出されると、null 参照例外が生成されます。
 - マイルストーン グリッドの **請求準備完了としてマーク** は、**InvoiceStatus** 属性 (更新済み) 以外の属性を部分的にのみ更新します。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

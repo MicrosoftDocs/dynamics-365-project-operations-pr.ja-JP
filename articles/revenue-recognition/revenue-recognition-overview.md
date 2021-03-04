@@ -60,3 +60,6 @@ Dynamics 365 Project Operations で売上認識の原則は、プロジェクト
 [売上の見積もりの管理](rev-rec-completed-contract-method.md)
 
 [完了までの原価の計算方法](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

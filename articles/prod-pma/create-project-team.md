@@ -62,3 +62,6 @@ ms.locfileid: "4079433"
 ## <a name="monitor-project-teams"></a>プロジェクト チームを監視する
 1. **すべてのプロジェクト** ページで、 **XYZ アップグレード フェーズ 2** プロジェクトの **プロジェクト ID** を選択します。
 2. **プロジェクト チームとスケジュール** FastTab で、リストされているプロジェクト リソースが正しいことを確認します。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

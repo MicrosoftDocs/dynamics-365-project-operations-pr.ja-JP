@@ -81,3 +81,6 @@ Project Operations には次のロールが含まれます:
 Finance のセキュリティの詳細については、[ロールベースのセキュリティ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security) を参照してください。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

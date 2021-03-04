@@ -55,3 +55,6 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
     | Developer | Fabrikam 米国 | 150 ドル |
 
 3. 販売価格表、**Fabrikam 米国の請求レート** をプロジェクト契約のプロジェクト価格表または特定のアカウントに添付します。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

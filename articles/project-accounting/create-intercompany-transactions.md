@@ -113,3 +113,6 @@ GBPM に雇用された開発者である Molly Clark は、プロジェクト �
     - 貸方: プロジェクト – 未収売上 120 USD
 
     これでシステムが会社間の顧客請求書を作成できます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

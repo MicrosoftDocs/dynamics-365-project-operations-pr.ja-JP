@@ -105,3 +105,6 @@ Project Resource ハブ アプリでは、外出先で作業しているプロ�
  [Project Service の概要](../psa/overview.md)   
  [時間、経費、および共同作業ガイド](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

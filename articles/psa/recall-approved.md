@@ -107,3 +107,6 @@ ms.locfileid: "5147846"
 次の図は承認済みの経費エントリが取り消された場合に発生する変更を示します。
 
 ![経費エントリ状態の切り替え](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

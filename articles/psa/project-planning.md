@@ -52,3 +52,6 @@ PSA のプロジェクト管理ツールによって、プロジェクトを簡�
 - [プロジェクト テンプレート](project-templates.md)
 - [プロジェクト ステージ](project-stages.md)
 - [プロジェクト設定](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

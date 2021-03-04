@@ -64,3 +64,6 @@ ms.locfileid: "4513997"
 5.  選択したエンティティに依存エンティティを含めるようプロンプトが表示されたら **いいえ、必須コンポーネントを含めません** を選択します。
 
     ![依存エンティティを含める](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

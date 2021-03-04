@@ -62,3 +62,6 @@ Dynamics 365 プロジェクト オペレーションは Universal Resource Sche
 
 個々のリソースに関する詳細を表示するには、右クリックしてリソース カードを開きます。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

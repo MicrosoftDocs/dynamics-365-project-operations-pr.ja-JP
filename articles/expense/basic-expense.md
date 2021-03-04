@@ -55,3 +55,6 @@ Dynamics 365 Project Operations の経費機能の詳細については [経費�
 ## <a name="see-also"></a>関連項目
 
 - [承認の概要](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ ms.locfileid: "4079440"
 - リソース要求を処理します。
 - WBS からスタッフが配置されたリソースを要求します。
 - スタッフが配置されたリソースをリクエストせずに、プロジェクトにリソースを予約します。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ Dynamics 365 Project Service Automation バージョン 3.0 では、[時間と�
 以前は、[時間と経費] のカレンダーおよびグリッドを、DHTMLX コントロールとして実行しました。 現在、カレンダーおよびグリッド ビューの実装関連アーティファクトは古くなっています（非推奨）。
 
 非推奨リソースの完全版リストについては、 [Project Service Automation 3.x で非推奨の Web リソース](web-resources-deprecated-v3.x.md)を参照してください。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

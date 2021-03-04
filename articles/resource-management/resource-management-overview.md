@@ -25,3 +25,6 @@ ms.lasthandoff: 10/28/2020
 ms.locfileid: "4119784"
 ---
 # <a name="resource-management-overview"></a>リソース管理の概要
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -209,3 +209,6 @@ Finance 環境にデモ データを適用した場合は、デモ データを 
 
 
 これで、Project Operations環境がプロビジョニングおよび構成されました。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Dynamics 365 Project Service Automation は Universal Resource Scheduling エン
 個々のリソースに関する詳細を表示するには、右クリックしてリソース カードを開きます。
 
 ![リソース カード](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

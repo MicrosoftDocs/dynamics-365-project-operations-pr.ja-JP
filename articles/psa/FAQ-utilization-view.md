@@ -101,3 +101,6 @@ ms.locfileid: "5146399"
   - プロジェクトを支えるプロジェクト契約品目のロールが請求不可に設定されている。
   - プロジェクトに関連する契約品目がない。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

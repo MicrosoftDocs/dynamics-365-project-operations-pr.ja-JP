@@ -42,3 +42,6 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 
 - スケジュール支援検索のパフォーマンス低下
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

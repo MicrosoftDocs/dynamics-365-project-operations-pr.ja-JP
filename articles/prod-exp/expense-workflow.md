@@ -55,3 +55,6 @@ ms.locfileid: "4960568"
 これらの要件を確認後、経費報告書が転記されます。
 
 経費報告書が転記された後、経費報告書の支払いが承認され、従業員に精算されます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

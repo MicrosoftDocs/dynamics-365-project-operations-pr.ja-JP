@@ -48,3 +48,6 @@ Project Service Automation でスキルのリポジトリを維持するには�
 > ![定義された最小評価値と最高評価値](media/Resource-Management-image85.png)
 
 これらの評価値は、**リソース要件**、**スケジュール ボード**、および **スケジュール アシスタント** の各種フィルター上で表示されます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

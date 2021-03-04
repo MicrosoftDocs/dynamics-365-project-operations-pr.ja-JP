@@ -84,3 +84,6 @@ UCI アプリケーションモジュールにはPSA バージョンのフォー
 > 廃止されたリソースの完全なリストについては、 [Project Service Automation v3.x で非推奨となったウェブリソース](../developer-guides/web-resources-deprecated-v3.x.md)を参照してください。
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

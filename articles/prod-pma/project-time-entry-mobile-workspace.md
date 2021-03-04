@@ -113,3 +113,6 @@ Finance and Operations モバイル アプリのダウンロードとインス�
 11. ライン プロパティを選択します。
 12. 任意: 外部および内部のコメントを入力します。
 13. **完了** を選択します。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

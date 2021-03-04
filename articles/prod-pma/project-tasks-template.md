@@ -83,3 +83,6 @@ Power Query を使用する必要がある場合は、このガイドライン�
 次の図は、データ統合のテンプレート タスク マッピングの例を示しています。 マッピングには、Project Service Automation から Finance に同期されるフィールド情報が表示されます。
 
 [![テンプレート マッピング](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

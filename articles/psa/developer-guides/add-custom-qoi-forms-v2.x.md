@@ -96,3 +96,6 @@ Dynamics 365 Project Service Automation は営業案件、見積もり、受注�
     ```
 
 6. カスタマイズを保存し、公開します。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

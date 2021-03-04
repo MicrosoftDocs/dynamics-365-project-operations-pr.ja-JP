@@ -64,3 +64,6 @@ ms.locfileid: "4079327"
 32. **価格** フィールドに数値を入力します。
 33. **保存** を選択します。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Dynamics 365 Finance のプロジェクト管理および会計の詳細につ�
 ## <a name="regulatory-updates"></a>規制の更新
 
 Finance and Operations アプリの規制の更新については、[規制の更新](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates) を参照してください。 規制の更新について学ぶもう 1 つの方法は、Lifecycle Services (LCS) にログインし、問題検索ツールを使用して計画された規制の更新を表示することです。 問題検索では、国、機能の種類、リリースで検索できます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

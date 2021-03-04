@@ -33,3 +33,6 @@ Dynamics 365 Project Operations の製品ベースの見積依頼明細行にも
 Fabrikam Robotics は、A Datum Corporation のアセンブリ明細にロボット アームを設置しています。 Fabrikam は設置サービスを提供しますが、ロボット アームは Trey ロボティクスから調達されます。 A Datum Corporation にロボット アームを設置することで、Trey のロボット アームに新しい業界の垂直構造が開かれた場合、Trey はこの取引に対して Fabrikam に特別割引を提供することができます。
 
 この場合、Fabrikam は、Robotic Arms に対する製品ベースの見積依頼明細行を作成し、この見積もりの単位原価あたりの特別な値を入力します。 このコストは、Trey Robotic Arms の標準コストとは異なります。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

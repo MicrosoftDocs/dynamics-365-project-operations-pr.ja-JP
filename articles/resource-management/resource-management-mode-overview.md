@@ -48,3 +48,6 @@ Dynamics 365 Project Operations は、予約フロー全体を実行するため
 リソース要件からリソースを予約する:
 - [予約可能な汎用リソースをタスクに割り当て、リソース要件を生成する](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [リソース要件から名前付きリソースを予約する](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

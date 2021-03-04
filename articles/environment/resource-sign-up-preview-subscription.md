@@ -98,3 +98,6 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 トピック[Common Data Service で構成データを設定および適用](resource-apply-pro-setup-config-data.md) の説明に従って、CDS の設定および構成データをインストールします。
 このステップは、Finance デモ環境がデプロイされ、FO のデモデータの準備ができた後でのみ完了してください。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

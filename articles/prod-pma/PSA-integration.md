@@ -75,3 +75,6 @@ Project Service Automation から Finance への統合ソリューションを�
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Project Service Automation インスタンスに、Project Service Automation から Finance への統合ソリューションをインストールする
 
 [Microsoft ダウンロード センター](https://www.microsoft.com/download/details.aspx?id=57016)から Project Service Automation から Finance への統合ソリューションをダウンロードして、ソリューションに含まれる指示に従います。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -33,3 +33,6 @@ Dynamics 365 Project Service Automation 3.x は、およびさまざまな領域
 - [時間と経費の変更 (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)
 - [リソースの管理の変更 (Project Service Automation 3.x)](../developer-guides/resource-management-changes-v3.x.md)
 - [Project Service Automation 3.x で廃止されたWebリソース](../developer-guides/web-resources-deprecated-v3.x.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

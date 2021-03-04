@@ -23,3 +23,6 @@ Dynamics 365 Project Operations には、検証ロジックが含まれており
 
   - すべてのサポート行は、ジャーナルや実績などの関連テーブルに作成されます。
   - 承認者は、プロジェクトを進める前に **プロジェクト承認者** としてマークされます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

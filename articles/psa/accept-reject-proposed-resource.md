@@ -45,3 +45,6 @@ ms.locfileid: "5146174"
 ![リソース提案の承認](media/RM-how-to-20.png) 
 
 名前付きリソースで汎用リソース要求を直接満たすのと同様に、汎用リソースは置き換えられ、割り当てられたタスクは名前付きチーム メンバーで更新されます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

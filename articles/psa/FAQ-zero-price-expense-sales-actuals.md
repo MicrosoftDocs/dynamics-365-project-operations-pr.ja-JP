@@ -72,3 +72,6 @@ Project Service で既定の価格として価格表を考慮に入れる場合�
 上の 3 つのチェックが終わった後に経費売上実績に有効な価格がまだ表示されない場合、サポート チケットを登録します。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

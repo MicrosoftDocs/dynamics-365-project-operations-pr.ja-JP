@@ -40,3 +40,6 @@ Dynamics 365 Project Service Automation には、**プラクティス マネー�
 ## <a name="resource-manager"></a>リソース マネージャー 
 
 **リソース マネージャー** ダッシュボードは、リソース要求、リソース需要、および利用率を監視するためのグラフィカルなダッシュボード体験をリソース マネージャーに提供します。 また、リソース マネージャーがさまざまなディメンションで監視情報をスライスすることもできます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

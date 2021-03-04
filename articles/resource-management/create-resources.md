@@ -20,3 +20,6 @@ ms.locfileid: "4514545"
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
 Dynamics 365 Field Service を使用して Dynamics 365 Project Operations 環境で使用する予約可能リソースを作成できます。 これらのリソースを作成する際は [予約可能リソースの設定](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources) を参照してください。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

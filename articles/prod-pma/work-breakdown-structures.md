@@ -316,3 +316,6 @@ WBS テンプレートには日付がないため、先行処理の終了日に�
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

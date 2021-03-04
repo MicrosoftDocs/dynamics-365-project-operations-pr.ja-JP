@@ -81,3 +81,6 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 - Dynamics 365 Field Service と Project Service Automationの 両方がインストールされている場合、**請求書** ページに **価格のロック** と **現在の値付けを​​使用** オプションが同時に表示されません。
 - 日本語の場合、他のカレンダー ベースのページとの翻訳に一貫性がありません。
 - **アクティブ化** と **非アクティブ化** が、Project Service Automation の **価格表の関連付け** エンティティから削除されました。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -140,3 +140,6 @@ Project Service Automation から Finance への統合ソリューションは�
 [![テンプレート マッピング - 実績の更新](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![テンプレート マッピング - トランザクションの更新](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

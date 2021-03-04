@@ -26,3 +26,6 @@ Dynamics 365 Project Operations のプロジェクト管理ツールによって
 - 営業プロセス中にプロジェクトの予測を使用します。
 - パイプラインにあるプロジェクトのリソース要件の予測
 - 進行状況とコスト消費を追跡することでプロジェクトを正常に提供します。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -330,3 +330,6 @@ PSA はプロジェクト中に発生する財務取引を記録します。 こ
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

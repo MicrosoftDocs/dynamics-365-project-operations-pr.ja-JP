@@ -70,3 +70,6 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 - **プロジェクトのコピー: HelperResource 管理の見積もり** から生成される Null 参照例外に対処するためのエラー処理が改善されました。
 - **時間と材料の請求バックログ** の **請求準備未完了** では、請求の状態がクリアされません。
 - **ロール価格** と **カタログ品目** タブの誤ってラベル付けされた **価格** ボタンが修正されました。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

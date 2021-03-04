@@ -98,3 +98,6 @@ Project Operations は、法人エンティティ レベルの構成を通じて
 
 この展開については、[プレビュー サブスクリプションにサインアップする](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) および[新しい環境をプロビジョニングする](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json) を参照してください。 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

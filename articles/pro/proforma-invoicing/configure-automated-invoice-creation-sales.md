@@ -91,3 +91,6 @@ Dynamics 365 Project Operations では請求書の自動作成を構成できま
 
 > [!NOTE]
 > Project Operations の一括請求書発行は、請求書スケジュールによって構成されたプロジェクトの契約品目に対してのみ実行されます。 固定価格の請求方法の契約品目には、マイルストーンを構成する必要があります。 時間と材料の請求方法を持つプロジェクト契約品目には、日付ベースの請求スケジュールを設定する必要があります。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

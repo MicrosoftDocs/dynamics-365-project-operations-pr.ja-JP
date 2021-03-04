@@ -53,3 +53,6 @@ PSA の汎用または名前の付いたリソースでプロジェクトにス�
 - [リソース要件から名前付きリソースを予約する](book-named-resource.md)
 - [リソース要求の送信](submit-resource-request.md)
 - [リソース要求から提案されたプロジェクト リソースの承諾または拒否](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

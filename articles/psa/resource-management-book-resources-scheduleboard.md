@@ -53,3 +53,6 @@ ms.locfileid: "5144419"
 この要件は、選択されたリソースを使用して実行します。 **予約の要件** ウィンドウで、要件が更新され、リソースがプロジェクトで予約済みとして表示されていることに注意して下さい。
 
 ![プロジェクトで予約されたリソース](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

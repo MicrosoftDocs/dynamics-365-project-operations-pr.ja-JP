@@ -35,3 +35,6 @@ Microsoft Dataverse の Dynamics 365 Project Operations で以下の属性を使
 
   プロジェクトのコスト、売上プロファイル、コスト テンプレート、期間コードを手動で設定できます。 手動で設定しない場合は、プロジェクトのコストと売上プロファイルに対して構成したルールを使用するプロジェクトの最初の見積もり計算時に、この値が既定になります。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

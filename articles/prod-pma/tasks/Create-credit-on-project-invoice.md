@@ -39,3 +39,6 @@ ms.locfileid: "4079245"
 10. [OK] をクリックします。 
 
 この手順の後、請求書の提案に対して訂正票が使用できるようになります。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

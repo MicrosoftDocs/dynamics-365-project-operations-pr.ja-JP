@@ -66,3 +66,6 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 - **GetBookableResourceIdFromUser** がプライマリ ID だけでなく、予約可能なリソースのすべての列を取得するため、プロジェクトを作成するときに、パフォーマンスが低下する可能性があります。
 - **TransactionType** エンティティに事前検証更新プラグインがないため、ユーザーがトランザクション タイプに対して無効な **単位** と **UnitGroups** を入力できません。
 - **削除** ステップは、時間エントリのインポートでは機能しません。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -149,3 +149,6 @@ PSA はこれら 5 つのエンティティ レコードをビジネス トラ�
 | 下書きの請求書修正       | 請求書明細行トランザクションの GUID | 置換          | msdyn_invoicelinetransaction | 請求済み販売の GUID            | 元の画像サイズ           | msdyn_actual       |
 | 請求書修正の確認     | 請求済みの販売取消の GUID    | 逆仕訳          | msdyn_actual                 | 請求済み販売の GUID            | 元の画像サイズ           | msdyn_actual       |
 | 新しい未請求の販売実績の GUID | 置換                     | msdyn_actual       | 請求済み販売の GUID            | 元の画像サイズ                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

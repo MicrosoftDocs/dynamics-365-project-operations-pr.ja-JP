@@ -49,3 +49,6 @@ Dynamics 365 プロジェクト タイムシート モバイル アプリを使�
 - [プロジェクト時間エントリ]( project-time-entry-mobile-workspace.md)
 - [モバイル デバイスでのプロジェクト タイムシート](Mobile-timesheets.md)
 - [iOS および Android 上の Microsoft Dynamics 365 Project Timesheet モバイル アプリのカスタム フィールドを実装する](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

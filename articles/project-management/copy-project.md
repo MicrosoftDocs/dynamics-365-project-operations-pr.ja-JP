@@ -61,3 +61,6 @@ Dynamics 365 Project Operations を使用すると、**プロジェクト** フ�
 プロジェクトがコピーされると、リソースおよび経費見積品目の両方がソース プロジェクトからコピーされます。 
 
 コピー プロジェクトにプログラムでアクセスする方法については、[コピー プロジェクトでプロジェクト テンプレートを開発する](dev-copy-project.md)を参照してください。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

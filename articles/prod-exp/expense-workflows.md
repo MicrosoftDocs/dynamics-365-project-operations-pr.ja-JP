@@ -50,3 +50,6 @@ ms.locfileid: "4960523"
 |      <strong>現金前払い申請</strong>      |         現金前払い申請の承認ワークフローを作成します。          |
 |        <strong>VAT 過誤納税の還付</strong>        | 付加価値税 (VAT) の還付に使用する承認ワークフローを作成します。  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

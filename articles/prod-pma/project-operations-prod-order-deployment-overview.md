@@ -43,3 +43,6 @@ _**適用対象:** 在庫/製造ベースのシナリオ向け Project Operation
 - プロジェクトの顧客向け請求書を生成するためのエンタープライズ クラスの消費税および為替レート エンジン。
 - 国際財務報告基準 (IFRS) に準拠したプロジェクト会計および収益認識システム。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ ms.locfileid: "4079254"
 - [プロジェクト リソース スケジュールのパフォーマンス](project-scheduling-performance.md)
 - [WBS (作業分解構造) テンプレートで役割を設定する](set-up-roles-wbs-template.md)
 - [計画されたリソースのリソース フルフィルメント](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

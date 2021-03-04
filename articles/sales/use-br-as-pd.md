@@ -78,3 +78,6 @@ ms.locfileid: "4643089"
 5. **msdyn_bookableresourceid** を **Field Name** に追加します。
 
  ![新規価格ディメンション フィールド名の追加フォーム](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

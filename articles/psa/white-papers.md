@@ -45,3 +45,6 @@ ms.locfileid: "5146984"
 
 ### <a name="see-also"></a>関連項目
  [Project Service の概要](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

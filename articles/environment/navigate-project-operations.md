@@ -38,3 +38,6 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 > [!NOTE]
 > Common Data Service と **プロジェクト管理および会計** モジュールの Project Operations には、それぞれの URL を使用して直接アクセスできます。 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

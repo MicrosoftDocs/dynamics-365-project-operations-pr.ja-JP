@@ -79,3 +79,6 @@ AXDB の復元が成功したという確認が表示されます。 この確�
 18. リモート デスクトップ セッションを閉じて、LCS **環境の詳細** ページを使用して環境にログインし、期待どおりに機能していることを確認します。
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

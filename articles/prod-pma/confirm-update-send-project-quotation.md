@@ -57,3 +57,6 @@ ms.locfileid: "4079406"
 
 > [!NOTE]
 > 状態が **送信済み** に更新された後は、プロジェクトの見積りを変更することはできません。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -198,3 +198,6 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -170,3 +170,6 @@ Project Service Automation から Finance への統合ソリューションは�
 [![経費見積もりトランザクションのテンプレートマッピング](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![経費見積もりのテンプレートマッピング](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

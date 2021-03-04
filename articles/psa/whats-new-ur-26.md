@@ -74,3 +74,6 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 - 見積もりや契約でプロジェクト ベースの品目を選択する場合、**提案** ボタンを既存の製品に関連付けられた製品ベースの品目を選択した時だけ表示します。
 - **Create_Product** 特権を **Create_ProjectContract** 特権から分割します。
 - 請求明細行を削除すると **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice** で null 参照エラーが発生します。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

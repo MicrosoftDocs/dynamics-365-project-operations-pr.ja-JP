@@ -344,3 +344,6 @@ Dynamics 365 Finance では、単一のトランザクションまたはプロ�
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

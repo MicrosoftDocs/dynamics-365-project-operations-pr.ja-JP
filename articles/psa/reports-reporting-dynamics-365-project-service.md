@@ -52,3 +52,6 @@ PSA でのレポート作成については、次のトピックを参照して�
 - [Project Service のデータ モデルでの作業](reports-working-project-service-data-model.md)
 - [ダッシュボード](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ ms.locfileid: "5147389"
 プロジェクトの **チーム** タブで仮予約済みのリソースを本予約済みに変換するには、リソースを選び、**確認する** を選択します。
 
 ![コマンドを確認する](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

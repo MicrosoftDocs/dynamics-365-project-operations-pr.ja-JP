@@ -66,3 +66,6 @@ Project Service で既定の価格として価格表を考慮に入れる場合�
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

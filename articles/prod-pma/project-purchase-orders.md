@@ -76,3 +76,6 @@ ms.locfileid: "4079256"
 
 詳細については、[アイテム要件から発注書のアイテムを受け取る](tasks/receive-items-purchase-order-item-requirement.md) を参照してください。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

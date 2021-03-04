@@ -64,3 +64,6 @@ Dynamics 365 Project Service Automation (PSA) アプリケーションの最新�
      - 修正済み：ユーザーがプロジェクトの費用の見積もり原価価格を入力するまで総販売価格が計算されない。
      - 修正：見積もりに関連付けられているプロジェクトの契約が **下書き** 状態の場合、この見積を **成約** としてクローズことができない。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

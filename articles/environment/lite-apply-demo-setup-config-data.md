@@ -74,3 +74,6 @@ _**ライト デプロイメント - 見積もり請求の取引_
     -   予約可能リソースの特性
 
     ![インポートの完了](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

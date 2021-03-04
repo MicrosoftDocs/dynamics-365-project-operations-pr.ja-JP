@@ -342,3 +342,6 @@ Project Operations はプロジェクト中に発生する財務取引を記録�
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

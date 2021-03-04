@@ -116,3 +116,6 @@ Project Operations のスケジュールを使用して、タスク間に先行�
 ## <a name="accessibility-and-keyboard-shortcuts"></a>ユーザー補助およびキーボード ショートカット
 
 **スケジュール** グリッドは、完全にアクセスでき、ナレーター、JAWS、またはNVDAなどのスクリーン リーダーで使用できます。 矢印キー (Microsoft Excel のように) を使用してグリッド領域内を移動したり、 Tab キーを使用して対話型ユーザー インターフェイス要素間を移動したり、下方向キー、Enter キー、または Space キーを使用して、ドロップダウン メニューを開く選択して開くことができます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

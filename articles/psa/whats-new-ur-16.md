@@ -64,3 +64,6 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 
     -   修正済み：2.X から 3.X にアップグレードすると、プロジェクト名に NULL 値を持つプロジェクトが許容されます。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

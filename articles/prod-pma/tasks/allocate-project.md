@@ -44,3 +44,6 @@ ms.locfileid: "4079326"
 10. 割り当てがニーズに合うなら、プロジェクトの予算ページで送信をクリックし、承認ワークフローに予算または予算のリビジョンを送信します。  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 7. **OK** を選択してダイアログボックスを閉じ、 **手順の更新** を選択します。
 8. さらにプラグインを更新するには、手順1 から 7を繰り返します。
 9. **PluginRegistrationTool** を閉じます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

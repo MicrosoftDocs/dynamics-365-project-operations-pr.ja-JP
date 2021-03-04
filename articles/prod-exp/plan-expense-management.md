@@ -160,3 +160,6 @@ ms.locfileid: "4960343"
 - ポリシーの有効期限は?
 - ポリシー ルールとは何か?
 - ポリシー ルールの結果は何か?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

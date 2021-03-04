@@ -36,3 +36,6 @@ Lifecycle Services (LCS) を使用して、Dynamics 365 Project Operations 環�
 
 この LCS プロジェクトを使用して、Project Operations 環境を展開します。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

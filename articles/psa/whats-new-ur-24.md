@@ -81,3 +81,6 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 - **実績の更新** ボタンは、誤ってサマリー タスクを計算します。
 - Microsoft Project アドイン: チーム メンバーのいずれかに空のリソース単位がある場合、Null 参照エラーを修正します。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

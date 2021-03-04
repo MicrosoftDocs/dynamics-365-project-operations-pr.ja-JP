@@ -61,3 +61,6 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
     - 税の回収から除外されているサブカテゴリはあるか?
     - サブカテゴリの品目消費税グループはなにか?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

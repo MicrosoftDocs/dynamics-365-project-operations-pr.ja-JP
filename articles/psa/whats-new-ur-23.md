@@ -67,3 +67,6 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 以下の問題が修正されました:
 
 - **すべてのトランザクション カテゴリの取得** のダブルクリックで、複数行を作成します。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

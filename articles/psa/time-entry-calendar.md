@@ -42,3 +42,6 @@ Dynamics 365 Project Service Automation では、新規および拡張可能時�
 ## <a name="extensibility"></a>機能拡張
 
 時間エントリ グリッドのある **時間エントリ** ページで、ユーザー定義フィールドを追加して、検索フィールドを設定し、カスタム ビューを作成できます。 カスタム フィールドで選択済みまたは入力済みの値に基づくカスタム ビジネス ロジックを設定することもできます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

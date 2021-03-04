@@ -73,3 +73,6 @@ Project Service の更新については、[Dynamics 365 リリース計画](htt
 >[!Note]
 > - Government Community Cloud (GCC) を除くすべての地域の日付は、次の自動更新のタイミングを示します。 GCC の日付は、バージョンの可用性を示しています; 現時点では、これらの地域の自動更新はありません。
 > - 他のすべての地域では、ほとんどの更新は予定された夜間に完了する必要がありますが、**予定日** 列に示されている週末の夜間に、時間がかかる更新が完了する場合があります。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

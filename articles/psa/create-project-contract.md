@@ -47,3 +47,6 @@ ms.locfileid: "5150854"
   
 ### <a name="see-also"></a>関連項目  
  [取引先企業管理者ガイド](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

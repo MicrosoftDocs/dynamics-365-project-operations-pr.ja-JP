@@ -35,3 +35,6 @@ Dynamics 365 Project Operations のプロジェクト契約は、**確認済み*
 
 > [!NOTE]
 > Dynamics 365 Project Operationsでは、失注したプロジェクト契約をクローズしても関連する営業案件の状態には影響を与えません。 営業案件はオープンの状態のままなので、手動でクローズする必要があります。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

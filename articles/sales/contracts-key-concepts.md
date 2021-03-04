@@ -88,3 +88,6 @@ Project Operations は、次の 4 種類のトランザクション クラスを
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Dynamics 365 Sales Orders からの変更点
 
 Project Operations の契約は、Dynamics 365 Sales の注文に基づいて構築されます。 しかし、重要な偏差や機能の違いがあります。 契約には、独自のフォームや UI 要素、ビジネス ルール、プラグイン内のビジネス ロジック、クライアント サイドのスクリプトがあり、受注書とは異なる独自のものとなっています。 これらの理由から、販売注文と Project Operations 契約を区別なく使用しないでください。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

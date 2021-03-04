@@ -44,3 +44,6 @@ ms.locfileid: "4079328"
 13. 一覧で、選択された行をマークします。 
 14. 原価価格フィールドに、数値を入力します。 
 15. 転記をクリックします。 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

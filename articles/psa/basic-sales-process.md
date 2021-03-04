@@ -93,3 +93,6 @@ PSAでは、見積もりに対するリビジョンを追跡することがで�
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>見積およびプロジェクト契約の注釈と承認の追跡
 レコードウォールとポストを使用して、見積とプロジェクト契約のレビューと承認を管理することができます。 カスタムワークフローとプラグインを作成して、レビューおよび承認作業項目に対する通知の割り当て、リダイレクト、エスカレーション、および管理を行うことができます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

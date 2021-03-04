@@ -106,3 +106,6 @@ WBS (作業分解構造) に 1 つ以上の更新が行われると、変更は�
   - Project Operations システム
   - プロジェクト システム
   - Project Operations 二重書き込みシステム (このロールは、Project Operations のリソース/非在庫ベースのシナリオを展開する場合に必要です。)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

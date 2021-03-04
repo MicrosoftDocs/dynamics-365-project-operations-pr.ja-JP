@@ -63,3 +63,6 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 **営業**
 
 - 修正：時間エントリが再承認 （**承認 > キャンセル >** 再度承認）された際に、重複する課金できない実績値が作成される。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

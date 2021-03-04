@@ -73,3 +73,6 @@ ms.locfileid: "5147344"
  [取引先企業管理者ガイド](../psa/account-manager-guide.md)   
  [プロジェクト管理者ガイド](../psa/project-manager-guide.md)   
  [時間、経費、および共同作業ガイド](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

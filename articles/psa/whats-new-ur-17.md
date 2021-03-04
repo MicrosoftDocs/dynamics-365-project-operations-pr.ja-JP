@@ -57,3 +57,6 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 - 修正済み：トランザクション クラスが **時間**、**UnitGroup** の場合、**QuoteLineDetails**、**JournalLine**、**InvoiceLineDetail**、**ContractLineDetails** を含むすべてのエンティティで編集できません。 しかし、**JournalLine** と **InvoiceLineDetails** の **単位** が編集できません。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

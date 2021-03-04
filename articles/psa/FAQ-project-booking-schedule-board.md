@@ -91,3 +91,6 @@ Project Service でプロジェクトを作成すると、自動的にプライ�
 
 4. これでリソースが予約されました。タスクは手動で割り当てる必要があります。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

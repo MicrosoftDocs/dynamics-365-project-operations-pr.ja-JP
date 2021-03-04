@@ -144,3 +144,6 @@ Dynamics 365 Project Operations には、拡張可能な時間エントリ カ�
 
 ### <a name="copying-time-entries"></a>時間エントリのコピー
 時間入力中にコピーするフィールドのリストを定義するには、**時間エントリ列のコピー** ビューを使用します。 **日付** と **期間** は必須フィールドのため、ビューから削除しないでください。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

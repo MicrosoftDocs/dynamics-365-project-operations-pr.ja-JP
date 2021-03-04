@@ -132,3 +132,6 @@ Microsoft Dynamics 365 Project Service Automation  バージョン 3.3 では、
 
 > [!IMPORTANT] 
 > 現在、TBX のページに関する既知の問題によって、更新の際にプラグインの検証に失敗すると情報収集や [完了] の再選択ができない状況です。 回避策として、この状況をできる限り防ぐため、ビジネス ルール検証をセットアップします。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

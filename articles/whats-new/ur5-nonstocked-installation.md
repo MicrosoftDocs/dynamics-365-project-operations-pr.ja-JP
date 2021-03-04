@@ -125,3 +125,6 @@ UR5 の更新の一部として、エンティティのセキュリティ権限�
  
  ![元帳マップの同期](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

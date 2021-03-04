@@ -44,3 +44,6 @@ ms.locfileid: "5149054"
 
 > [!NOTE]
 > このトピックは、今後の文書の更新で削除される場合があります。 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

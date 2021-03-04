@@ -52,3 +52,6 @@ ms.locfileid: "4643224"
 7. **OK** を選択してページを閉じ、**ステップの更新** を選択します。
 8. 2 番目のプラグイン **PreOperationQuoteLineDetail** に対して手順 2 から 7 を繰り返します。 このプラグインでは **msdyn_quotelinetransaction の更新** ステップを更新する必要があります。
 9. **PluginRegistrationTool** を閉じます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ ms.locfileid: "4175897"
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS コンフィグレーションをインストールし、デモ データを設定する
 
 トピックの手順 [デモの設定および構成データを適用する](lite-apply-demo-setup-config-data.md) に従い、CDS 構成をインストールし、デモ データを設定します。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

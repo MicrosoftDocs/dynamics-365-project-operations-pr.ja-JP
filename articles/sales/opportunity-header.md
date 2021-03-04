@@ -36,3 +36,6 @@ Dynamics 365 Project Operations のプロジェクトベースの営業案件は
 | 契約単位 | [全般] タブ | この取引に関連する 1 つまたは複数のプロジェクトの配信を担当する組織単位。 | 契約単位は、取引が成立した後にプロジェクトを完了する会社の部署です。 すべての契約単位には通貨があり、この通貨は、プロジェクト中に発生した見積原価と実際原価をレポートするために使用されます。 |
 
 営業案件の **概要** タブで他のすべてのフィールドおよびセクションについては、[営業案件を作成、編集する (Sales と営業ハブ)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales) を参照してください。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

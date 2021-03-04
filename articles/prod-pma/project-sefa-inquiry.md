@@ -104,3 +104,6 @@ ms.locfileid: "4079252"
 - 連邦国内支援クラスターのカタログ
 - 領収書
 - 支出
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

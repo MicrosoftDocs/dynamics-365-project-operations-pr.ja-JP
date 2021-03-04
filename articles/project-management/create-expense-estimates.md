@@ -38,3 +38,6 @@ Dynamics 365 Project Operations を使用すると、リソースベースの見
 - **単位原価価格**: 経費のコストの計算に使用される単価。
 - **単位販売価格**: 経費の販売価格の計算に使用される単価。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 1. 組織全体
 2. 顧客
 3. 見積もり/契約
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

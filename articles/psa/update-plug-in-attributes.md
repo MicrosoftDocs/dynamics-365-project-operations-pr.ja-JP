@@ -68,3 +68,6 @@ ms.locfileid: "5147074"
 
 9. プラグイン登録ツールを閉じます。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ ms.locfileid: "4079405"
 6. プロジェクトにベンダーに PWP (Pay-when-paid) 条件が設定されている場合は、 **PWP の閾値パーセンテージ** フィールドにプロジェクトの閾値パーセンテージを入力します。
 
 ベンダーのリテンション期間は、ベンダー受けに作成した発注書にも表示されます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

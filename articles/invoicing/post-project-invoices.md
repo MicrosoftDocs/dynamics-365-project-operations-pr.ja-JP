@@ -30,3 +30,6 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 [見積送り状は手動で作成する](../proforma-invoicing/create-manual-proforma-invoice.md)か、[定期的なプロセス](../proforma-invoicing/configure-automated-invoice-creation.md)を使用できます。 プロジェクトマネージャーは必要に応じて[ドラフト見積送り状を調整](../proforma-invoicing/manage-proforma-invoice.md)して、確認することができます。
 
 確認済みの見積送り状は Finance の **プロジェクト管理および会計** モジュールに送信されます。 プロジェクト経理担当は、プロジェクト仮発行請求書をフォーマットして更新してから、ドキュメントを転記して印刷します。 転記されたプロジェクト仮発行請求書は、総勘定元帳、および顧客とプロジェクトの補助元帳に記録されます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ ms.locfileid: "4079435"
 21. **製品受領書** フィールドに値を入力します。
 22. **OK** を選択します。
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

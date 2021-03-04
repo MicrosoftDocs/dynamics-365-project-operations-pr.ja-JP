@@ -95,3 +95,6 @@ ms.locfileid: "4960298"
 Finance は Cognitive Services に連絡してフィール ドデータを抽出します。 Cognitive Services は、処理が行われている間、領収書のコピーを最大24時間保持します。 処理が完了すると、Cognitive Services は領収書を削除します。 領収書は引き続き Finance に保管されます。
 
 詳細については、[Form Recognizer の新機能を使用して領収書を有効にする](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/) を参照してください。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

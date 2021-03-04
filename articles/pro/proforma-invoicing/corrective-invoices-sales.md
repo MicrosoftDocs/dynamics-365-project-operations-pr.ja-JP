@@ -288,3 +288,6 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

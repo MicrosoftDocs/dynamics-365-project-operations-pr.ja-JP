@@ -78,3 +78,6 @@ ms.locfileid: "4960253"
 - 明細行レベルのワークフロー
 - 中間承認者のサポート
 - 詳細項目別化
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

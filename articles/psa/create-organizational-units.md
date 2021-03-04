@@ -52,3 +52,6 @@ ms.locfileid: "5144734"
   
 ### <a name="see-also"></a>関連項目  
  [Project Service Automation の構成](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

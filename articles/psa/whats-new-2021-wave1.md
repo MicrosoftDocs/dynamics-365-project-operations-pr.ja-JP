@@ -43,3 +43,6 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 
 - 期間が null の場合、時間エントリが作成されると、終了日が自動入力されます。
 - ユーザーは承認または送信済みのタイム入力でタスクを変更できます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

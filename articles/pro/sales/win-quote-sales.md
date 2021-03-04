@@ -40,3 +40,6 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 > [!NOTE]
 > Project Operations では、見積もりを受注または失注としてクローズしても、営業案件のステータスには影響しません。案件は、手動でクローズするまでオープンしたままになります。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Project Operations は、複数の展開モデルをサポートしています�
 2. Dynamics 365 アプリの展開リストから **Microsoft Dynamics 365 Project Operations** をインストールします。 詳細については、[Dynamics 365 アプリを管理する](https://docs.microsoft.com/power-platform/admin/manage-apps) 参照してください。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

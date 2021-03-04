@@ -30,3 +30,6 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | 電車の運賃   | DKK 578              | DKK 405                         | DKK 173                         |
 | 宿泊        | EUR 725              | EUR 557                         | EUR 168                         |
 | 食事        | EUR 346              | EUR 284                         | EUR 62                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

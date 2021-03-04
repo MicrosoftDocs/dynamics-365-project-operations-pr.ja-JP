@@ -55,3 +55,6 @@ _ **適用対象:** リソース/非在庫ベースのシナリオの Project Op
     | Developer | Fabrikam 米国 | Fabrikam 米国 - ロボティックス | 150 ドル |
 
 3. 販売価格表、**Fabrikam 米国の請求賃金** をプロジェクト契約のプロジェクト価格表または特定のアカウントに添付します。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

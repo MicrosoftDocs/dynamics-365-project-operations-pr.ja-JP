@@ -110,3 +110,6 @@ Project Service Automation のバージョン 3 では、予約可能なリソ�
  
 生成されていないチーム メンバーについて、異なるリソース組織単位の既定を変更する理由は、汎用リソースを含む各プロジェクトで、アップグレード前にチームを生成または再生成し、組織単位割り当てが失われないようにするためで、Microsoft がお勧めしています。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

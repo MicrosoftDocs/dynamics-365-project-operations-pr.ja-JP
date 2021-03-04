@@ -44,3 +44,6 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 - 修正済み：24 時間勤務のテンプレートに対応し、タスクに誤って 1 日分を追加する問題を修正しました。
 - 修正済み：+13 GMT の勤務時間テンプレートに対応し、タスクが 1 日先にずれる問題を修正しました。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

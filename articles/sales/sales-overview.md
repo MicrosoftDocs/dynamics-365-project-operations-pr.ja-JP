@@ -63,3 +63,6 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>見積書とプロジェクト契約のコメントと承認を追跡する
 レコードウォールとポストを使用して、見積とプロジェクト契約のレビューと承認を管理することができます。 ユーザー定義のワークフローやプラグインを作成して、割り当て、リダイレクト、エスカレーション、レビューの通知や作業項目の承認を管理することができます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

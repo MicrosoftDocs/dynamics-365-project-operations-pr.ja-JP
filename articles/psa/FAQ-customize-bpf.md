@@ -107,3 +107,6 @@ ms.locfileid: "5149009"
 
    ![プロジェクト エンティティでのビューの変更のスクリーンショット](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

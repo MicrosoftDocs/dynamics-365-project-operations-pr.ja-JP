@@ -76,3 +76,6 @@ ms.locfileid: "5145004"
 5. **エンティティのロジカル名** のフィールドに **msdyn_projectteam** を追加し、 **フィールド名** のフィールドに **msdyn_bookableresourceid** を追加します。 レコードを保存します。
 
  ![新規価格ディメンション フィールド名の追加フォーム](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

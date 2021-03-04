@@ -43,3 +43,6 @@ Dynamics 365 Project Operations は会社間取引の処理に次のフローを
 - [会社間請求の構成](configure-intercompany-invoicing.md)
 - [会社間トランザクションの記録](create-intercompany-transactions.md)
 - [会社間で顧客およびベンダーの請求書を作成する](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

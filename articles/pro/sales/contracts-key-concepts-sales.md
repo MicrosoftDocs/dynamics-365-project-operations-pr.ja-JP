@@ -93,3 +93,6 @@ Project Operations の契約は、Dynamics 365 Sales の注文に基づいて構
 - Project Operations は、独自のフォームや UI 要素、ビジネス ルール、プラグイン内のビジネス ロジック、クライアント サイドのスクリプトなどがあり、販売契約とは異なります。
 
 これらの理由から、販売契約と Project Operations 契約を区別なく使用しないようにしてください。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

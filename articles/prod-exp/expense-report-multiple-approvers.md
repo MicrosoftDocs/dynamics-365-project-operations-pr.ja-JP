@@ -40,3 +40,6 @@ ms.locfileid: "4960613"
 
     1. 従業員の上司が経費報告書を承認する。
     2. 予算所有者が経費報告書を承認する。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

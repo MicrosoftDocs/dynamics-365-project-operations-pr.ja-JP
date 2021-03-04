@@ -43,3 +43,6 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 > [!NOTE]
 > Project Operations では、見積もりを受注または失注としてクローズしても、営業案件のステータスには影響しません。案件は、手動でクローズするまでオープンしたままになります。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

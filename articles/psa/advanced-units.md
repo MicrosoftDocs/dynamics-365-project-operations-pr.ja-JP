@@ -112,3 +112,6 @@ Dynamics 365 Project Service Automation は単位と単位グループを使用�
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>単位と単位グループを編集、削除、追加できますか。
 はい。 **時間** 単位グループと **時** 単位を除き、すべての単位を削除や編集することが可能で、新しい単位を追加できます。 PSA で **時間** 単位グループと **時** 単位は削除できません。 ただし、**名前** フィールドの翻訳されたテキストで更新できます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ ms.locfileid: "5144959"
 8. プロジェクト ページの **実績** タブ、**実際の関連ビュー** を確認します。 元の入力値と修正された入力値が一覧表示されます。 以下の図は、元の経費入力金額と、それに対応する修正後の経費入力金額を示しています。 
 
 ![実際の経費](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

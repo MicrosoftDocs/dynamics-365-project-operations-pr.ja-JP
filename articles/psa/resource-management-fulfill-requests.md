@@ -46,3 +46,6 @@ ms.locfileid: "5147614"
 > ![選択したリソース](media/Resource-Management-image61.png)
 
 汎用チーム メンバーが、プロジェクト チームの本予約された名前の付いたリソースとプロジェクト スケジュール内のタスク割り当で置き換えられます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

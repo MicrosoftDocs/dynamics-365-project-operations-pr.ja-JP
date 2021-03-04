@@ -27,3 +27,6 @@ Project Operations で時間を記録する場合、ユーザーはプロジェ�
 
 エントリの作成、送信、または取り消しをする方法、およびレポートを完成させるのに役立つその他のツールについては、[時間エントリのユーザーの行動](ui-behavior-time.md) を参照してください。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

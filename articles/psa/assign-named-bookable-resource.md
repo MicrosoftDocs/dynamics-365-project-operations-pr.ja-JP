@@ -68,3 +68,6 @@ Project Service Automation (PSA) のバージョン 3 では、リソースの�
 ![リソース調整 タブでのチーム メンバーの予約の延長](media/RM-how-to-7.png)
 
 チーム メンバーをプロジェクトに予約した後で、予約の管理を使用するかスケジュール ボードを直接使用して予約を管理できます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

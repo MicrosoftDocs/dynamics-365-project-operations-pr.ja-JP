@@ -242,3 +242,6 @@ Project Service Automation のプロジェクトを読み取る際に、リソ�
 
 ### <a name="additional-resources"></a>その他のリソース
  [プロジェクト管理者ガイド](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

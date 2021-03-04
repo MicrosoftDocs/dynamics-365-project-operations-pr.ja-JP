@@ -101,3 +101,6 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
           - **リソース会社** = **Contoso Robotics UK**
           - **請求レート** = **200 USD**
       9. **販売** > **プロジェクト契約** に移動して、**Adventure Works の請求レート** 価格表をプロジェクト契約の Adventure Works プロジェクト価格表に添付します。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

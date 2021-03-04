@@ -59,3 +59,6 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 3. **保存** を選択します。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

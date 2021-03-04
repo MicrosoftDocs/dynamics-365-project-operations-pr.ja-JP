@@ -236,3 +236,6 @@ Dynamics 365 Unified Ops モバイル アプリをダウンロードしてイン
 22. **送信** を選択します。
 23. 承認者に向けたコメントを入力します。
 24. **完了** を選択します。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

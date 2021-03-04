@@ -36,3 +36,6 @@ ms.locfileid: "5149234"
   
 ### <a name="see-also"></a>関連項目  
  [時間、経費、および共同作業ガイド](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ ms.locfileid: "4079428"
 ### <a name="videos"></a>ビデオ
 
 [Microsoft Dynamics 365 YouTube チャンネル](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)で公開中のハウツー動画をご利用ください。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

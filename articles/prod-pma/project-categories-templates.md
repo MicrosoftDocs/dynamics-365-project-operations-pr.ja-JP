@@ -124,3 +124,6 @@ Project Service Automation に同期する場合は、Microsoft Power Query for 
 > マッピングには、Project Service Automation から Finance に同期されるフィールド情報が表示されます。
 
 [![Project Service Automation から Finance へのテンプレート マッピング](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ ms.locfileid: "4079246"
     | 終了日    | リソース キャパシティ ロールアップの同期プロセスの終了日を入力します。 |
 
 [![同期プロセス](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
