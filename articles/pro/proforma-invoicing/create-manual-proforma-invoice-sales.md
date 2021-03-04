@@ -5,21 +5,22 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 87ef090454b2a7ab997e7c21d8d10badc31c8235
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5a924de6efc377e28a20e038e7deac04616b95aa
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176392"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764509"
 ---
 # <a name="create-a-manual-proforma-invoice---lite"></a>手動で見積送り状を作成する (ライト)
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
-Dynamics 365 Project Operations では、見積送り状を必要に応じて手動で作成できます。 **プロジェクト契約** 一覧ページまたは **プロジェクト契約** の詳細ページから、手動で見積送り状を作成することができます。
+Dynamics 365 Project Operations では、必要に応じて見積送り状を手動で作成できます。 **プロジェクト契約** 一覧ページまたは **プロジェクト契約** の詳細ページから、手動で見積送り状を作成することができます。
 
 ##  <a name="project-contracts-list-page"></a>プロジェクト契約の価格表
 
@@ -29,8 +30,8 @@ Dynamics 365 Project Operations では、見積送り状を必要に応じて手
 
 作成されたプロジェクトの請求書はすべて、**営業** エリアの **請求** のセクション内の **請求書** ページに掲載されています。
 
-## <a name="project-contract-details-page"></a>プロジェクト契約詳細ページ
+## <a name="project-contract-details-page"></a>[プロジェクト契約の詳細] ページ
 
-見積送り状は、**プロジェクト契約** の詳細ページからも作成することができ、その特定のプロジェクト契約の請求書を作成します。 システムは、プロジェクト契約に今日の日付よりも前の日付の **請求書の発行準備完了** のバックログがあることを確認します。 これらの契約から、各契約ラインの顧客数に応じた見積送り状のドラフト版を作成します。
+見積送り状は、**プロジェクト契約** 詳細ページからも作成できます。 システムによって、プロジェクト契約に今日の日付より前の日付の **請求準備完了** バックログがあることが確認されます。 それらの契約から、システムによって各契約品目の顧客の数に基づいてドラフトの見積送り状が作成されます。
 
-ひとつの見積送り状が作成されると、**請求書** ページが開きます。 そのプロジェクト契約に複数の請求書が作成されている場合、**請求書** の一覧ページが開き、作成されたすべての請求書が表示されます。
+ひとつの見積送り状が作成されると、**請求書** ページが開きます。 そのプロジェクト契約に対して複数の見積送り状が作成された場合、**請求書** リスト ページが開き、作成されたすべての見積送り状が表示されます。

@@ -1,9 +1,9 @@
 ---
-title: Project Service Automation から Finance and Operations へのプロジェクト契約およびプロジェクトの直接同期
+title: プロジェクト契約とプロジェクトを、Project Service Automation から Finance に直接同期します
 description: このトピックでは、Microsoft Dynamics 365 Project Service Automation から Dynamics 365 Finance へのプロジェクト契約およびプロジェクトを直接同期するために使用されるテンプレートと基礎となるタスクについて説明します。
 author: Yowelle
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642639"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764825"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Project Service Automation から Finance and Operations へのプロジェクト契約およびプロジェクトの直接同期
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>プロジェクト契約とプロジェクトを、Project Service Automation から Finance に直接同期します 
 
 [!include[banner](../includes/banner.md)]
 
@@ -53,24 +53,24 @@ Project Service Automation から Finance への統合ソリューションは�
 以下のテンプレートおよび基礎となるタスクは、Project Service Automation から Finance へのプロジェクト契約およびプロジェクトを同期するために使用されます。
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>Dynamics 365 Project Service Automation v2.x との統合
-- **データ統合のテンプレートの名前:** プロジェクトおよび契約 (PSA から Finance and Operation へ)
+- **データ統合におけるテンプレートの名前:** プロジェクトと契約 (Project Service Automation から Finance)
 - **プロジェクトのタスクの名前:**
 
-    - PSA から Finance and Operation へのプロジェクト契約
-    - PSA から Finance and Operation へのプロジェクト
-    - PSA から Finance and Operation へのプロジェクト契約品目
-    - PSA から Finance and Operation へのプロジェクト契約品目のマイルストーン
+    - プロジェクト契約 Project Service Automation から Finance
+    - プロジェクト Project Service Automation から Finance
+    - プロジェクト契約品目 Project Service Automation から Finance
+    - プロジェクト契約品目マイルストーン Project Service Automation から Finance
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>Dynamics 365 Project Service Automation v3.x との統合
 Project Service Automation にはスキーマの変更があり、プロジェクト契約品目のマイルストーン テンプレートに影響します。ProjectService Automation v3.x を Dynamics 365 と統合するには、テンプレートの v2 バージョンを使用する必要があります。
 
-- **データ統合のテンプレートの名前:** プロジェクトおよび契約 (PSA 3.x から Finance and Operation へ) - v2
+- **データ統合におけるテンプレートの名前:** プロジェクトと契約 (Project Service Automation 3.x から Finance) - v2
 - **プロジェクトのタスクの名前:**
 
-    - PSA から Finance and Operation へのプロジェクト契約
-    - PSA から Finance and Operation へのプロジェクト
-    - PSA から Finance and Operation へのプロジェクト契約品目
-    - PSA から Finance and Operation へのプロジェクト契約品目のマイルストーン
+    - プロジェクト契約 Project Service Automation から Finance
+    - プロジェクト Project Service Automation から Finance
+    - プロジェクト契約品目 Project Service Automation から Finance
+    - プロジェクト契約品目マイルストーン Project Service Automation から Finance
 
 プロジェクト契約およびプロジェクトの同期を行う前に、アカウントを同期する必要があります。
 
@@ -87,7 +87,8 @@ Project Service Automation にはスキーマの変更があり、プロジェ�
 
 プロジェクト契約は Project Service Automation で管理され、プロジェクト契約として Finance に同期されます。 統合テンプレートの一部として、プロジェクト契約の統合ソースを Finance で設定できます。
 
-時間/実費払プロジェクトおよび固定価格プロジェクトは Project Service Automation で管理され、プロジェクトとして Finance に同期されます。 テンプレート統合の一部として、プロジェクトの統合ソースを Finance で設定できます。
+時間と材料および固定価格のプロジェクトは、Project Service Automation で管理され、プロジェクトとして Finance に同期されます。 テンプレート統合の一部として、Finance でプロジェクトの統合ソースを設定できます。 現在、時間と材料および固定価格のプロジェクトのみがサポートされています。
+
 
 プロジェクト契約品目は Project Service Automation で管理され、プロジェクト契約の請求ルールとして Finance に同期されます。 請求方法が既定のプロジェクト タイプと異なる場合、同期により、契約品目プロジェクトとプロジェクト グループのプロジェクト タイプが更新されます。
 
@@ -122,7 +123,7 @@ Project Service Automation から Finance への統合ソリューションが�
 
 ## <a name="power-query"></a>Power Query
 
-次の条件が満たされている場合、Microsoft Power Query for Excel を使用してデータをフィルター処理する必要があります。
+次の条件が満たされている場合は、Microsoft Power Query for Excel を使用して、データをフィルタリングします。
 
 - Dynamics 365 Sales に受注があります。
 - Project Service Automation に複数の組織単位があり、これらの組織単位は Finance の複数の法人にマップされます。
@@ -130,7 +131,7 @@ Project Service Automation から Finance への統合ソリューションが�
 Power Query を使用する必要がある場合は、これらのガイドラインに従ってください。
 
 - プロジェクトと契約 (PSA から Finance and Operation) テンプレートには既定のフィルターがあり、**作業項目 (msdyn\_ordertype = 192350001)** タイプの受注のみが含まれます。 このフィルターは、プロジェクト契約が Finance の受注に対して作成されないことを保証するのに役立ちます。 独自のテンプレートを作成する場合は、このフィルターを追加する必要があります。
-- 統合接続設定の法人に同期する必要がある契約組織のみを含む Power Query フィルターを作成する必要があります。 たとえば、Contoso US の契約組織単位とのプロジェクト契約は USSI 法人に同期する必要がありますが、Contoso グローバルの契約組織単位とのプロジェクト契約は USMF 法人に同期する必要があります。 このフィルターをタスク マッピングに追加しない場合、契約組織単位に関係なく、すべてのプロジェクト契約が接続設定に定義されている法人に同期されます。
+- 統合接続セットの法人に同期する必要がある契約組織のみを含む Power Query フィルターを作成します。 たとえば、Contoso US の契約組織単位とのプロジェクト契約は USSI 法人に同期する必要がありますが、Contoso グローバルの契約組織単位とのプロジェクト契約は USMF 法人に同期する必要があります。 このフィルターをタスク マッピングに追加しない場合、契約組織単位に関係なく、すべてのプロジェクト契約が接続設定に定義されている法人に同期されます。
 
 ## <a name="template-mapping-in-data-integration"></a>データ統合におけるテンプレート マッピング
 

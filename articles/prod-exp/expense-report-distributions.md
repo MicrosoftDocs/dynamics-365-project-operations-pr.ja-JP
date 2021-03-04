@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8850a8d3f2efc699bc95d4cb4fc76428badb10f1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a43de30d916d2775f28f59f404c34b60a43fff9c
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079425"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960748"
 ---
 # <a name="expense-report-distributions"></a>経費報告書の配布
-
-[!include [banner](../includes/banner.md)]
 
 経費精算書に経費を入力すると、組織内で複数のプロジェクト、財務分析コード、または取引先企業にわたって配布することができます。
 

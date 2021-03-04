@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f80922877f3d3d0e1149c2aa690f881bcf927b11
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: 3889402ab991e307bc3fe5463098dfab383a53b4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700686"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727886"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 年 12 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 
@@ -24,6 +24,8 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 - Dataverse 環境バージョン 4.5.0.134 での Project Operations
 - Dynamics 365 Finance 環境バージョン 10.0.15 でのプロジェクト管理および会計
+
+このリリースに更新する方法については、[Finance 環境で Project Operations を更新する](ur5-nonstocked-installation.md)を参照してください。
 
 ## <a name="features-included-in-this-release"></a>このリリースが含む機能
 このリリースは以下の機能を含みます。

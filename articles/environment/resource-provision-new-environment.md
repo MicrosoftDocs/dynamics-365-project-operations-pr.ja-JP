@@ -3,17 +3,18 @@ title: 新しい環境をプロビジョニングする
 description: このトピックは、新しい Project Operations 環境でプロビジョニングする方法について説明します。
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642983"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727796"
 ---
 # <a name="provision-a-new-environment"></a>新しい環境をプロビジョニングする
 
@@ -60,17 +61,15 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ![展開の同意](./media/2DeploymentConsent.png)
 
-7. ウィザードの残りの必須フィールドを完了し、展開を確認します。 環境プロビジョニングの時間は、環境タイプによって異なります。 プロビジョニングには最大 6 時間かかる場合があります。
+7. オプション - デモ データを環境に適用します。 **高度な設定** に移動して、**SQL データベース構成のカスタマイズ** を選択して、**アプリケーション データベースにデータセットを指定する** を **デモ** に設定します。
+
+8. ウィザードの残りの必須フィールドを完了し、展開を確認します。 環境をプロビジョニングする時間は、環境の種類によって異なります。 プロビジョニングには最大 6 時間かかる場合があります。
 
   展開が正常に完了すると、環境は **展開** として表示されます。
 
-8. 環境が正常に展開されたことを確認するには、**ログイン** を選択し、確認のために環境にログオンします。
+9. 環境が正常に展開されたことを確認するには、**ログイン** を選択して、確認のために環境にログオンします。
 
 ![ 環境の詳細](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Project Operations Finance のデモ データを適用する (オプションのステップ)
-
-[この記事](resource-apply-finance-demo-data.md) で説明されているように、Project Operations Finance のデモ データを10.0.13 サービス リリースのクラウド ホスト環境に適用します。
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Finance 環境に更新を適用する
 
@@ -151,6 +150,21 @@ Project Operations には、**10.0.13 (10.0.569.20009)** 以上のアプリケ�
 最新の情報に更新するには約 20 分かかります。 完了するとアラート通知が表示されます。
 
 ![最新の情報に更新を確認](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Dataverse 上の Project Operations のセキュリティ設定を更新する
+
+1. Dataverse 環境で Project Operations に移動します。 
+2. **設定** >  **セキュリティ** > **セキュリティ ロール** へ移動します。 
+3. **セキュリティ ロール** ページのロールのリストで、**二重書き込みアプリ ユーザー** を選択してから、**カスタム エンティティ** タブを選択します。  
+4. ロールに、次の **読み込み** と **追加先** 権限があることを確認します。
+      
+      - **通貨為替レートのタイプ**
+      - **勘定科目表**
+      - **会計カレンダー**
+      - **Ledger**
+
+5. セキュリティ ロールが更新されたら、**設定** > **セキュリティ** > **チーム** に移動し、**ローカル ビジネス オーナー** チーム ビューで既定のチームを選択します。
+6. **ロールの管理** を選択して、**二重書き込みアプリ ユーザー** のセキュリティ特権がこのチームに適用されることを確認します。
 
 ## <a name="run-project-operations-dual-write-maps"></a>Project Operations の二重書き込みマップを実行する
 
