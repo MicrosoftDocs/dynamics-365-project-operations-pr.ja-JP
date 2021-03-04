@@ -1,6 +1,6 @@
 ---
 title: 経費の委任を管理する
-description: 経費の代理ユーザーは、組織内で別の従業員に代わって経費精算書を作成および管理できます。
+description: 経費代理人ユーザーは、組織内の別の従業員の経費レポートを作成および管理できます。
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -16,27 +16,28 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2020-01-10
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ce1d1cf35745ef4372258e07fd4d2b108ed4827
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ebe9a47b463498e8e79058019a0b28320590639b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079420"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960793"
 ---
-# <a name="manage-expense-delegation"></a><span data-ttu-id="eacfa-103">経費の委任を管理する</span><span class="sxs-lookup"><span data-stu-id="eacfa-103">Manage expense delegation</span></span>
+# <a name="manage-expense-delegation"></a><span data-ttu-id="2c6bc-103">経費の委任の管理</span><span class="sxs-lookup"><span data-stu-id="2c6bc-103">Manage expense delegation</span></span>
 
-[!include [banner](../includes/banner.md)]
+<span data-ttu-id="2c6bc-104">経費委任者は、他の従業員の経費精算書を作成および管理できます。</span><span class="sxs-lookup"><span data-stu-id="2c6bc-104">An expense delegate can create and manage expense reports for another employee.</span></span>
 
-<span data-ttu-id="eacfa-104">経費の代理ユーザーは、組織内で別の従業員に代わって経費精算書を作成および管理できます。</span><span class="sxs-lookup"><span data-stu-id="eacfa-104">An expense delegate user can create and manage expense reports on behalf of another employee in the organization.</span></span>
+## <a name="configure-expense-delegation"></a><span data-ttu-id="2c6bc-105">経費代理人の構成</span><span class="sxs-lookup"><span data-stu-id="2c6bc-105">Configure expense delegation</span></span>
 
-## <a name="configuring-expense-delegation"></a><span data-ttu-id="eacfa-105">経費委任の構成</span><span class="sxs-lookup"><span data-stu-id="eacfa-105">Configuring expense delegation</span></span>
+1. <span data-ttu-id="2c6bc-106">ユーザーを経費代理人として設定するには、**経費管理 > 設定 > 一般 > 代理人** に移動してください。</span><span class="sxs-lookup"><span data-stu-id="2c6bc-106">To set up a user as an expense delegate, go to **Expense management > Setup > General > Delegates**.</span></span>
+2. <span data-ttu-id="2c6bc-107">**代理人** ページで、**新規** を選びます。</span><span class="sxs-lookup"><span data-stu-id="2c6bc-107">On the **Delegates** page, select **New**.</span></span>
+3. <span data-ttu-id="2c6bc-108">代理人を定義する従業員を選択します。</span><span class="sxs-lookup"><span data-stu-id="2c6bc-108">Select the employee that will have a delegate defined.</span></span> 
+4. <span data-ttu-id="2c6bc-109">代理ユーザーのエイリアス、委任期間の開始日と終了日を入力します。</span><span class="sxs-lookup"><span data-stu-id="2c6bc-109">Enter the alias of the delegate user and the start and end date for the delegation period.</span></span>
 
-<span data-ttu-id="eacfa-106">ユーザーを経費の代理人として設定するには、 **経費管理 > 設定 > 全般 > 代理人** に移動し、 **代理人** ページを開きます。</span><span class="sxs-lookup"><span data-stu-id="eacfa-106">To set up a user as an expense delegate, go to **Expense management > Setup > General > Delegates** to open the **Delegates** page.</span></span> <span data-ttu-id="eacfa-107">**新規** を選択してから、代理人を定義する従業員を選択します。</span><span class="sxs-lookup"><span data-stu-id="eacfa-107">Select **New** and then select the employee that will have a delegate defined.</span></span> <span data-ttu-id="eacfa-108">代理ユーザーのエイリアス、委任期間の開始日と終了日を入力します。</span><span class="sxs-lookup"><span data-stu-id="eacfa-108">Enter the alias of the delegate user and the start and end date for the delegation period.</span></span>
+## <a name="manage-expense-delegation-for-another-employee"></a><span data-ttu-id="2c6bc-110">別の従業員の経費委任を管理する</span><span class="sxs-lookup"><span data-stu-id="2c6bc-110">Manage expense delegation for another employee</span></span>
 
-## <a name="managing-expense-delegation-on-behalf-of-another-employee"></a><span data-ttu-id="eacfa-109">他の従業員に代わって経費の委任を管理する</span><span class="sxs-lookup"><span data-stu-id="eacfa-109">Managing expense delegation on behalf of another employee</span></span>
+<span data-ttu-id="2c6bc-111">機能管理キー **経費代理人リスト ページを有効にする** が有効になっている場合、**自分に委任された経費** リスト ページが表示されます。</span><span class="sxs-lookup"><span data-stu-id="2c6bc-111">When the feature management key **Enable expense delegates list page** is enabled, the **Expenses delegated to me** list page will be available.</span></span> <span data-ttu-id="2c6bc-112">**経費管理** > **自分の経費** > **自分へ委任された経費** に移動します。</span><span class="sxs-lookup"><span data-stu-id="2c6bc-112">Go to **Expense management** > **My expenses** > **Expenses delegated to me**.</span></span>
 
-<span data-ttu-id="eacfa-110">機能管理キー **経費の委任一覧ページを有効にする** が有効になっている場合、 **経費管理 > 自分の経費 > 自分へ委任された経費** の順に移動すると、 **自分へ委任された経費** の一覧ページが表示されます。</span><span class="sxs-lookup"><span data-stu-id="eacfa-110">If the feature management key **Enable expense delegates list page** is enabled, the **Expenses delegated to me** list page will be available by navigating to **Expense management > My expenses > Expenses delegated to me**.</span></span>
+<span data-ttu-id="2c6bc-113">代理人ユーザーは、委任された既存の経費報告書をすばやくフィルターして検索できます。</span><span class="sxs-lookup"><span data-stu-id="2c6bc-113">A delegate user can quickly filter and search on existing expense reports that have been delegated to them.</span></span> <span data-ttu-id="2c6bc-114">また、**新しい経費精算書** を選択して、他のユーザーに新しい経費精算書を作成することもできます。</span><span class="sxs-lookup"><span data-stu-id="2c6bc-114">They can also create a new expense report for other users by selecting **New expense report**.</span></span>
 
-<span data-ttu-id="eacfa-111">代理ユーザーは、ユーザーに委任された既存の経費精算書をすばやくフィルター処理および検索できます。</span><span class="sxs-lookup"><span data-stu-id="eacfa-111">A delegate user can quickly filter and search on existing expense reports that hae been delegated to the user.</span></span> <span data-ttu-id="eacfa-112">ユーザーは、 **新規経費精算書** をクリックすると、他のユーザーに代わって新規経費精算書をすばやく作成することもできます。</span><span class="sxs-lookup"><span data-stu-id="eacfa-112">The user can also quickly create a new expense report on behalf of other users by clicking **New expense report**.</span></span>
-
-<span data-ttu-id="eacfa-113">代理ユーザーは、 **経費管理 > 自分の経費 > 経費精算書** の順に移動して、 **他のユーザーの経費を開く** ボタンをクリックして、他の従業員に代わって経費精算書を作成および管理することもできます。</span><span class="sxs-lookup"><span data-stu-id="eacfa-113">Delegate users can also create and manage expense reports on behalf of other employees by navigating to **Expense management > My expenses > Expense reports** and clicking the **Open other user's expenses** button.</span></span>
+<span data-ttu-id="2c6bc-115">代理人ユーザーは、**経費管理** > **自分の経費** > **経費清算書** に移動して、**他のユーザーの経費を開く** を選択することで、他の従業員の経費清算書を作成および管理することもできます。</span><span class="sxs-lookup"><span data-stu-id="2c6bc-115">Delegate users can also create and manage expense reports for other employees by going to **Expense management** > **My expenses** > **Expense reports** and selecting **Open other user's expenses**.</span></span>
