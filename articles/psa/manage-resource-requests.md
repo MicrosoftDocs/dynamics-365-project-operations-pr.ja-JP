@@ -18,36 +18,39 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e19f3a710191e3a5b41ffb89b289e357e574207f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149864"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5284229"
 ---
-# <a name="manage-resource-requests-project-service"></a><span data-ttu-id="0d428-103">リソース要求の管理 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="0d428-103">Manage resource requests (Project Service)</span></span>
+# <a name="manage-resource-requests-project-service"></a><span data-ttu-id="437c5-103">リソース要求の管理 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="437c5-103">Manage resource requests (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="0d428-104">取引先企業管理者とプロジェクト管理者は、自分たちのプロジェクトのリソースを定期的に要求します。</span><span class="sxs-lookup"><span data-stu-id="0d428-104">Account managers and project managers regularly request resources for their projects.</span></span> <span data-ttu-id="0d428-105">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] の機能を使用すると、これらのリソースの要求に対して必要なスキルと能力を持つコンサルタントを検索し照合できます。</span><span class="sxs-lookup"><span data-stu-id="0d428-105">With the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities, you can find and match consultants who have the required skills and proficiencies to those resource requests.</span></span>  
+<span data-ttu-id="437c5-104">取引先企業管理者とプロジェクト管理者は、自分たちのプロジェクトのリソースを定期的に要求します。</span><span class="sxs-lookup"><span data-stu-id="437c5-104">Account managers and project managers regularly request resources for their projects.</span></span> <span data-ttu-id="437c5-105">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] の機能を使用すると、これらのリソースの要求に対して必要なスキルと能力を持つコンサルタントを検索し照合できます。</span><span class="sxs-lookup"><span data-stu-id="437c5-105">With the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities, you can find and match consultants who have the required skills and proficiencies to those resource requests.</span></span>  
   
-1. <span data-ttu-id="0d428-106">**Project Service** > **リソース要求** に移動します。</span><span class="sxs-lookup"><span data-stu-id="0d428-106">Go to **Project Service** > **Resource Requests**.</span></span>  
+1. <span data-ttu-id="437c5-106">**Project Service** > **リソース要求** に移動します。</span><span class="sxs-lookup"><span data-stu-id="437c5-106">Go to **Project Service** > **Resource Requests**.</span></span>  
   
-2. <span data-ttu-id="0d428-107">リソース要求を選択し、**リソースの検索** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="0d428-107">Select a resource request and click **Find Resources**.</span></span> <span data-ttu-id="0d428-108">これにより、すべてのリソースとその空き時間のカレンダー ビューが、リソースの予約状態のビジュアル ビューを表す色分けを使用して表示されます。</span><span class="sxs-lookup"><span data-stu-id="0d428-108">This shows a calendar view of all resources and their availability, with color coding that provides a visual view of a resource’s booking status.</span></span>  
+2. <span data-ttu-id="437c5-107">リソース要求を選択し、**リソースの検索** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="437c5-107">Select a resource request and click **Find Resources**.</span></span> <span data-ttu-id="437c5-108">これにより、すべてのリソースとその空き時間のカレンダー ビューが、リソースの予約状態のビジュアル ビューを表す色分けを使用して表示されます。</span><span class="sxs-lookup"><span data-stu-id="437c5-108">This shows a calendar view of all resources and their availability, with color coding that provides a visual view of a resource’s booking status.</span></span>  
   
-    <span data-ttu-id="0d428-109">検索を最適化するには、次のいずれかを実行します。</span><span class="sxs-lookup"><span data-stu-id="0d428-109">Do any of the following to optimize your search:</span></span>  
+    <span data-ttu-id="437c5-109">検索を最適化するには、次のいずれかを実行します。</span><span class="sxs-lookup"><span data-stu-id="437c5-109">Do any of the following to optimize your search:</span></span>  
   
-   -   <span data-ttu-id="0d428-110">画面の上部からビューや並べ替え順序を選択します。</span><span class="sxs-lookup"><span data-stu-id="0d428-110">Select a view or sort order from the top of the screen.</span></span> <span data-ttu-id="0d428-111">また、**日**、**週間**、または **月** の空き時間を表示するかどうかを選択し、また矢印を使用して前または次の期間を表示することもできます。</span><span class="sxs-lookup"><span data-stu-id="0d428-111">You can also select whether to show availability for the **Day**, **Week**, or **Month**, and use the arrows to view the previous or next time period.</span></span> <span data-ttu-id="0d428-112">特定のリソースを見つけるには検索ボックスを使用します。</span><span class="sxs-lookup"><span data-stu-id="0d428-112">Use the search box to find a specific resource.</span></span>  
+   -   <span data-ttu-id="437c5-110">画面の上部からビューや並べ替え順序を選択します。</span><span class="sxs-lookup"><span data-stu-id="437c5-110">Select a view or sort order from the top of the screen.</span></span> <span data-ttu-id="437c5-111">また、**日**、**週間**、または **月** の空き時間を表示するかどうかを選択し、また矢印を使用して前または次の期間を表示することもできます。</span><span class="sxs-lookup"><span data-stu-id="437c5-111">You can also select whether to show availability for the **Day**, **Week**, or **Month**, and use the arrows to view the previous or next time period.</span></span> <span data-ttu-id="437c5-112">特定のリソースを見つけるには検索ボックスを使用します。</span><span class="sxs-lookup"><span data-stu-id="437c5-112">Use the search box to find a specific resource.</span></span>  
   
-   -   <span data-ttu-id="0d428-113">**オプション** をクリックして表示内容を変更します。</span><span class="sxs-lookup"><span data-stu-id="0d428-113">Click **Options** to change what displays.</span></span> <span data-ttu-id="0d428-114">たとえば、様々な種類の予約に対する配色を示す凡例を表示したり、または特定の種類の予約 (たとえば、確定された予約または一時的な予約) のみを表示するように選択できます。</span><span class="sxs-lookup"><span data-stu-id="0d428-114">For example, you can show a legend that shows the color scheme for the different types of bookings, or you can choose to show only a certain type of booking (for example, hard booking or soft booking).</span></span>  
+   -   <span data-ttu-id="437c5-113">**オプション** をクリックして表示内容を変更します。</span><span class="sxs-lookup"><span data-stu-id="437c5-113">Click **Options** to change what displays.</span></span> <span data-ttu-id="437c5-114">たとえば、様々な種類の予約に対する配色を示す凡例を表示したり、または特定の種類の予約 (たとえば、確定された予約または一時的な予約) のみを表示するように選択できます。</span><span class="sxs-lookup"><span data-stu-id="437c5-114">For example, you can show a legend that shows the color scheme for the different types of bookings, or you can choose to show only a certain type of booking (for example, hard booking or soft booking).</span></span>  
   
-   -   <span data-ttu-id="0d428-115">**フィルター** をクリックして **フィルター** ウィンドウを表示します。このウィンドウを使用して、組織単位、役割、スキル、またはその他の属性によって、結果をフィルターすることができます。</span><span class="sxs-lookup"><span data-stu-id="0d428-115">Click **Filter** to display the **Filter** pane, which lets you filter your results by organizational unit, role, skill, or other attributes.</span></span>  
+   -   <span data-ttu-id="437c5-115">**フィルター** をクリックして **フィルター** ウィンドウを表示します。このウィンドウを使用して、組織単位、役割、スキル、またはその他の属性によって、結果をフィルターすることができます。</span><span class="sxs-lookup"><span data-stu-id="437c5-115">Click **Filter** to display the **Filter** pane, which lets you filter your results by organizational unit, role, skill, or other attributes.</span></span>  
   
-       <span data-ttu-id="0d428-116">![Project Service リソースの要求画面](../psa/media/project-service-resource-request-screen.png "Project Service リソースの要求画面")</span><span class="sxs-lookup"><span data-stu-id="0d428-116">![Project Service Resource Request screen](../psa/media/project-service-resource-request-screen.png "Project Service Resource Request screen")</span></span>  
+       <span data-ttu-id="437c5-116">![Project Service リソースの要求画面](../psa/media/project-service-resource-request-screen.png "Project Service リソースの要求画面")</span><span class="sxs-lookup"><span data-stu-id="437c5-116">![Project Service Resource Request screen](../psa/media/project-service-resource-request-screen.png "Project Service Resource Request screen")</span></span>  
   
-3. <span data-ttu-id="0d428-117">予約するリソースのカレンダーで、そのリソースを予約する期間を選択してから、**予約** をクリックしてリソースを予約するか、または **予約の提案** をクリックして予約を提案し、要求者はその予約を確認します。</span><span class="sxs-lookup"><span data-stu-id="0d428-117">In the calendar for the resource you want to book, select the time period to book the resource, and then either click **Book** to book the resource or **Propose Booking** to propose the booking and have the requestor approve it.</span></span> <span data-ttu-id="0d428-118">リソースを予約するとき、ソフト予約またはハード予約することができます。</span><span class="sxs-lookup"><span data-stu-id="0d428-118">When you book a resource, you can soft book or hard book.</span></span>  
+3. <span data-ttu-id="437c5-117">予約するリソースのカレンダーで、そのリソースを予約する期間を選択してから、**予約** をクリックしてリソースを予約するか、または **予約の提案** をクリックして予約を提案し、要求者はその予約を確認します。</span><span class="sxs-lookup"><span data-stu-id="437c5-117">In the calendar for the resource you want to book, select the time period to book the resource, and then either click **Book** to book the resource or **Propose Booking** to propose the booking and have the requestor approve it.</span></span> <span data-ttu-id="437c5-118">リソースを予約するとき、ソフト予約またはハード予約することができます。</span><span class="sxs-lookup"><span data-stu-id="437c5-118">When you book a resource, you can soft book or hard book.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="0d428-119">関連項目</span><span class="sxs-lookup"><span data-stu-id="0d428-119">See Also</span></span>  
- [<span data-ttu-id="0d428-120">Resource Manager ガイド</span><span class="sxs-lookup"><span data-stu-id="0d428-120">Resource Manager Guide</span></span>](../psa/resource-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="437c5-119">関連項目</span><span class="sxs-lookup"><span data-stu-id="437c5-119">See Also</span></span>  
+ [<span data-ttu-id="437c5-120">Resource Manager ガイド</span><span class="sxs-lookup"><span data-stu-id="437c5-120">Resource Manager Guide</span></span>](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
