@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175897"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290050"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>プレビューのサブスクリプションにサインアップする (ライト) 
 
-このトピックでは、プレビュー パートナー オファーの購読方法および Dynamics 365 Project Operations の展開方法を説明します - 見積もり請求の取引を行います。
+このトピックは、プレビュー パートナー オファーをサブスクライブして Dynamics 365 Project Operations ライト展開 - 見積もり請求の取引を展開する方法を説明しています。
 
 > [!NOTE]
 > このプロセスは、Project Operations の今後のリリースで変更されます。
@@ -32,17 +32,17 @@ ms.locfileid: "4175897"
 
 [プレビュー リクエスト](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) 承認を受け取ると、電子メールにより Microsoft から 2 つのオファーが送信されます。 これらのオファーを使用すると、Project Operations プレビューを展開できます。
 
-- Dynamics 365 Project Operations (CRM) – プレビュー試用版
+- Dynamics 365 Project Operations (CRM) - プレビュー試用版
 - Office 365 Project Operations - プレビュー試用版
 
 > [!IMPORTANT]
 > このタスクを実行する必要があるのは、組織内の 1 人のテナント管理者だけです。 このリリースのサブスクライバーでない場合は、組織がサインアップしてユーザー資格情報を受け取るまで待ちます。
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – プレビュー試用版 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - プレビュー試用版 
 
 開始する前に、Project Operations のプレビューが必要なテナントでユーザーの業務用アカウントを使用してブラウザーにログインしていることを確認してください。
 
-1. 最初のオファー コードである **Dynamics 365 Project Operations (CRM) – プレビュー試用版** をブラウザー URLに貼り付けて引き換えます。
+1. ブラウザの URL 欄に貼り付けて最初のオファー コード **Dynamics 365 Project Operations (CRM) - プレビュー試用版** を引き換えます。
 
 ![オファーの引き換え](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ ms.locfileid: "4175897"
 
 ![ライセンスの割り当て](./media/15AssignLicenses.png)
 
-3. **Dynamics 365 Project Operations (CRM) プレビュー** と **Office 365 Project Operations - プレビュー** のライセンスが選択されていることを確認します。 
+3. **Dynamics 365 Project Operations (CRM) プレビュー** および **Office 365 プロジェクト オペレーション - プレビュー** ライセンスが選択されていることを確認します。 
 4. **変更を保存** を選択します。
 
 ## <a name="create-a-new-cds-environment"></a>新しい CDS 環境の作成
