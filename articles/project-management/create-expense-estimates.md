@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 10872366453985561bda0c07e50cff7f5f6d333e
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3f0429366c69346113003355679c055cd2c74ca3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131709"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287064"
 ---
 # <a name="expense-estimates"></a>経費の見積もり
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-Dynamics 365 Project Operations を使用すると、リソースベースの見積もりを定義すると共に、プロジェクト マネージャーは各プロジェクトのプロジェクトベースの経費を定義できます。 各経費項目は、特定のプロジェクト タスクまたは経費カテゴリに関連付けることができます。 経費カテゴリは通常、組織レベルで定義されます。 各経費カテゴリの価格設定は通常、次の階層で定義されます:
+Dynamics 365 Project Operations では、リソースベースの見積もりを定義するとともに、プロジェクトマネージャーが各プロジェクトのプロジェクトベースの費用を定義できます。 各経費項目は、特定のプロジェクト タスクまたは経費カテゴリに関連付けることができます。 経費カテゴリは通常、組織レベルで定義されます。 各経費カテゴリの価格設定は通常、次の階層で定義されます:
 
 - 組織全体
 - 顧客

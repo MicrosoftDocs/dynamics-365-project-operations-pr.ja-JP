@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 27a93c41243f300cadb632c697672180e5a3817b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b4296837cabd4c6f7e2d2924079658e45ce8b87c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146579"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286299"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Web アプリ (Project Service アプリ v2.x) で予約可能なリソースをタスクに割り当てる方法を教えてください。
 

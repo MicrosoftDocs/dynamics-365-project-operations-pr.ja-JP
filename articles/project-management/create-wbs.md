@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841361"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287019"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>WBS (作業分解構造) の作成
 
@@ -92,6 +92,8 @@ ms.locfileid: "4841361"
 | スタート画面 | 開始日時。 |
 | 件名 | タスクの名前。 |
 | ID | WBS (作業分解構造) のタスクの ID。 |
+
+管理者として、タスク エンティティでカスタム フィールドを定義できます。 ただし、フィールドをスケジュール グリッドに表示することはできません。 カスタム フィールドを表示するには、それらを **プロジェクト タスク** 詳細ページに追加します。
 
 ## <a name="staffing-attributes"></a>スタッフ属性
 

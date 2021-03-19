@@ -1,6 +1,6 @@
 ---
 title: プロジェクトの見積もりの概要
-description: このトピックでは、Dynamics 365 プロジェクト オペレーションの見積もりについての説明をします。
+description: このトピックでは、 Dynamics 365 Project Operations での見積もりに関する情報を提供します。
 author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131574"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286884"
 ---
 # <a name="estimate-projects-overview"></a>プロジェクトの見積もりの概要
 
@@ -21,7 +21,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 プロジェクト ベースの見積りでは、**見積明細詳細** エンティティを使用して、プロジェクトの遂行に必要となる作業を見積もることができます。 顧客とその見積もりを共有することができます。
 
-プロジェクトベースの見積明細には、ゼロ行から多数の見積明細行を含めることができます。 見積明細詳細は、時間、費用または手数料の見積に使用されます。 Microsoft Dynamics 365 プロジェクト オペレーションでは、見積明細詳細での原料の見積には対応していません。 これらはトランザクション クラスと呼ばれます。 見積税額はトランザクション クラスにも入力できます。
+プロジェクトベースの見積明細には、ゼロ行から多数の見積明細行を含めることができます。 見積明細詳細は、時間、費用または手数料の見積に使用されます。 Microsoft Dynamics 365 Project Operations では、見積もり明細行の詳細で原料見積もりができません。 これらはトランザクション クラスと呼ばれます。 見積税額はトランザクション クラスにも入力できます。
 
 トランザクション クラスに加えて、見積明細詳細にもトランザクション タイプがあります。 見積明細詳細は、次の 2 つのトランザクション タイプに対応しています : **コスト** および **プロジェクト契約** です。
 

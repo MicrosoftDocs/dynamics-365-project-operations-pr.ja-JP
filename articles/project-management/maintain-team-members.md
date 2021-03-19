@@ -8,20 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 60b6788d881518502d314e9ee5daf6bbc0ae8764
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131529"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286839"
 ---
 # <a name="maintain-team-members"></a>チーム メンバーの維持管理
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-チームに直接予約することで、プロジェクト チームに名前付きリソースを追加できます。
+プロジェクト チームに名前付きリソースを直接予約すると、そのチームにそのリソースを追加できます。
 
-1. Dynamics 365 プロジェクト オペレーションで **プロジェクト** に移動して、予約するプロジェクトを開くを選択します。
+1. Dynamics 365 Project Operations で、 **プロジェクト** に移動して、予約するプロジェクトを開きます。
 2. **チーム** タブの **プロジェクト** ページで **新規** を選択します。 
 3. **プロジェクト チーム メンバーの簡易作成** ダイアログ ボックスで、予約可能リソースを選択します。 リソースのデフォルトの役割が割り当てられている場合、**役割** フィールドにその役割が入力されます。 役割を変更できます。 
 4. リソースが必要な開始日と終了日を選択し、リソースの容量の割り当て方法を選択します。 

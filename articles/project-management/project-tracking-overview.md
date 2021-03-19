@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f159ecac53b824ef208221bb14958923fb5da63b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 14094d603be2834dc66abff2ff1faf5e940b1ffa
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127361"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286614"
 ---
 # <a name="project-tracking-overview"></a>プロジェクトの追跡の概要
 
@@ -23,7 +23,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 ## <a name="effort-tracking-view"></a>工数の追跡の表示
 
-**工数の追跡** ビューは、タスクに費やされた実際の工数時間をタスクの計画された工数時間と比較することにより、スケジュール内のタスクの進行状況を追跡します。 Dynamics 365 Project Operations は、次の計算式を使用して追跡指標を計算します。
+**工数の追跡** ビューは、タスクに費やされた実際の工数時間をタスクの計画された工数時間と比較することにより、スケジュール内のタスクの進行状況を追跡します。 Dynamics 365 Project Operations は次の計算式を使用して追跡指標を計算します。
 
 - **進捗率**: 今までに費やした実際の工数 ÷ 完了時の見積もり (EAC) 
 - **完了までの予測 (ETC)**: 計画工数 – 今までに費やした実際の工数 
