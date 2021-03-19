@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde924c24dcffe2a8fb690e6eb429e4c3d9fb28
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d51eb890a4744051ddd7268e1f1f11b15a23b609
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126399"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278379"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>見積もりをプロジェクトベース契約品目にインポートする
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-Dynamics 365 Project Operationsでは、見積もりをプロジェクトからプロジェクトベースの契約品目にインポートできます。
+Dynamics 365 Project Operations では、プロジェクトの見積もりをプロジェクトベースの契約品目にインポートできます。
 
 1. プロジェクトベースの契約品目にある **プロジェクト** フィールドが入力されていることを確認します。
 2. **契約品目の詳細** タブのサブグリッドで、**プロジェクトの見積もりからインポート** を選択します。 集計オプションのあるダイアログ ページが開きます。 使用可能な集計オプションは、**トランザクション クラス**、**カテゴリ**、**ロール**、**プロジェクト タスク** です。 この集計の選択に基づいて、この契約品目に含まれるすべての取引クラスのプロジェクトからの見積もりがコピーされます。 

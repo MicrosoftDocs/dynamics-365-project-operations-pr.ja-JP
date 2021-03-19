@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
-ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
+ms.openlocfilehash: 539d0ba6be6f49a6f0509595a0776ef67135496d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4590952"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276759"
 ---
 # <a name="expense-entry-lite"></a>経費の入力 (ライト)
 
 _**適用対象:** ライト展開- 見積もり請求の取引_
 
-ベーシック、またはライトな経費管理は、単純な経費を記録する機能です。 プロジェクトに対する経費を記録することができ、プロジェクトの承認者がそれらを確認して承認します。
+ベーシック、またはライトな経費管理は、単純な経費を記録する機能です。 プロジェクトに対する経費を記録すると、プロジェクト承認者が経費を確認および承認します。
 
 Dynamics 365 Project Operations の経費機能の詳細については [経費の概要](expense-overview.md) を参照してください。
 

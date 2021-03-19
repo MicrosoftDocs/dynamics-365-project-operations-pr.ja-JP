@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: ee00b3c6a683aa8daf2823331a1a9638828dad03
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122709"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5276399"
 ---
 # <a name="manage-delegation"></a>委任の管理
 経費委任者は、他の従業員の経費精算書を作成および管理できます。

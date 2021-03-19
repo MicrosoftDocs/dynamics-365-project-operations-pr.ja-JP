@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8b85464dbb68523b122116225a604f67e7236f3e
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 4d66b5fc642ef53adf1169ce891a7a5fa26b07d6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401382"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279324"
 ---
 # <a name="resource-utilization-overview"></a>リソース稼働率の概要
 
@@ -23,10 +23,10 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 次の計算式を使用して稼働率を計算します:
 
-  - 支払請求可能な稼働率 = 課金対象となる実際の時間 ÷ リソースのキャパシティ
-  - 支払請求不可な稼働率 = 請求タイプ ID を持つ実際の時間 = 非課金対象、補助、利用不可 ÷ リソースのキャパシティ
-  - 内部 = 営業契約なしの実際の時間 ÷ リソースのキャパシティ
-  - リソースのキャパシティ = リソースの作業時間 – 不在 – 非作業日
+  - 支払請求可能な稼働率 = 課金可能な実際の時間数 ÷ リソース キャパシティ
+  - 支払請求不可能な稼働率 = 請求タイプ ID が支払請求不可能、無料、該当なし/利用不可である実際の時間 ÷ リソース キャパシティ
+  - 内部 = 販売契約なしの実際の時間 ÷ リソース キャパシティ
+  - リソース キャパシティ = リソース作業時間 – 外出中 – 非勤務日
 
 **リソース** ウィンドウの **リソース稼働率** ビューがあります。
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6844f4c5d4cda8a6a901b0302448f70f4c597f5d
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 5e77a0442f634a50f8099fadec42ff400fee0e81
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531470"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278874"
 ---
 # <a name="revenue-recognition-overview"></a>収益認識の概要
 
@@ -31,7 +31,7 @@ Dynamics 365 Project Operations で売上認識の原則は、プロジェクト
   | 仕掛品販売額 | 借方 | 100 |
   | 売上計上の販売額 | 貸方 | 100 |
 
-- 売上を請求時に認識します。 システムは転記時に **請求済売上** 勘定を使用します。 この方法の例を以下に示します。  
+- 収益は請求時に認識されます。 システムは転記時に **請求済売上** 勘定を使用します。 この方法の例を以下に示します。  
 
   | トランザクションの種類 | 借方/貸方 | 金額 |
   | --- | --- | --- |

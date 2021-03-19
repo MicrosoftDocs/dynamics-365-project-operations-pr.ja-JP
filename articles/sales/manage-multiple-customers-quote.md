@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2b57d052d6b50ee420249cf5441077b092b4e13f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181998"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277884"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>プロジェクト見積もりの複数の顧客を管理する
 
@@ -23,7 +23,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 プロジェクト見積もりの **顧客** タブのすべての見積もり顧客は、プロジェクト見積もりのために作成された **新しい** プロジェクトベースの見積依頼明細行で見積依頼明細行の顧客として既定設定されます。 既存のプロジェクトベースの見積依頼明細行は、その後に作成された新しい見積もり顧客レコードを継承しません。
 
-見積もりの顧客および見積依頼明細行の顧客は、見積もりの受注前であればいつでも追加、更新、または削除できます。 見積もりの有効な顧客は、**顧客** ページで所有会社または法人の顧客として設定する必要があります。 法人は、Dynamics 365 Project Operations の **プロジェクト管理および会計** モジュールで設定され、Project Operations の **プロジェクト営業および出荷** モジュールで会社として使用できるようになります。
+見積もりの顧客および見積依頼明細行の顧客は、見積もりの受注前であればいつでも追加、更新、または削除できます。 見積もりの有効な顧客は、**顧客** ページで所有会社または法人の顧客として設定する必要があります。 Dynamics 365 Project Operations の **プロジェクトの管理と会計** モジュールに法人を設定し、Project Operations の **プロジェクト販売と 配送** モジュールで会社として利用できます。
 
 ## <a name="concept-of-a-primary-customer"></a>主要な顧客の概念
 

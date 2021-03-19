@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24299d997074efcff3776168652809d490c81b17
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cdc8984e080d995e3a0b667fe662291b499235b2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180468"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278514"
 ---
 # <a name="estimate-a-projectbased-contract-line"></a>プロジェクトベースの契約品目を見積もる
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_ 
 
-Dynamics 365 Project Operations では、プロジェクトベースの契約品目は、契約品目の提供に関与する作業のコストと潜在的な収益を見積もるの際に便利な詳細があります。
+Dynamics 365 Project Operations では、プロジェクトベースの契約品目は、契約品目の提供に関与する作業のコストと潜在的な収益を見積もるのに便利な詳細があります。
 
 プロジェクトベースの契約品目を見積もるには、プロジェクト ベースの **契約品目** の **契約品目の詳細** タブに移動します。  プロジェクトベースの契約品目で見積もりを作成するには、次の 2 つの方法があります :
 

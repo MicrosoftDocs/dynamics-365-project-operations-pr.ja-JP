@@ -1,6 +1,6 @@
 ---
 title: リソース管理モードの概要
-description: このトピックは、Dynamics 365 Project Operations でのリソース管理機能に関する情報を提供します。
+description: このトピックは、Dynamics 365 Project Operations のリソース管理機能に関する情報を提供します。
 author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 73ba6190e2e366f22372102d14d26f6d71ba0bc1
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118524"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279459"
 ---
 # <a name="resource-management-modes-overview"></a>リソース管理モードの概要
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
 
-Dynamics 365 Project Operations は、予約フロー全体を実行するために 2 つのモードをサポートしています。 管理モードはプロジェクト パラメータとして定義されており、ビジネス ニーズが変更する場合は修正可能です。    
+Dynamics 365 Project Operations は、全体的な予約フローを実行する 2 つのモードをサポートしています。 管理モードはプロジェクト パラメータとして定義されており、ビジネス ニーズが変更する場合は修正可能です。    
 
 ## <a name="central-mode"></a>セントラル モード
 プロジェクトへのリソースの割り当てを一元管理する組織の場合、セントラル モードは、プロジェクト マネージャーがプロジェクト レベルでリソース要件を定義できるようにする方法を提供します。 リソース要件の履行は、リソース マネージャーに委任されます。 プロジェクト マネージャーは、リソース マネージャーによって提案されたリソースを承認または拒否できます。

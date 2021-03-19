@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121314"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277524"
 ---
 # <a name="quotes---key-concepts"></a>見積もり - 重要な概念
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-Dynamics 365 プロジェクト オペレーションには、プロジェクトと営業の 2 種類の見積もりがあります。 2 つのタイプの見積もりは、次の点で異なります :
+Dynamics 365 Project Operations には、プロジェクトと販売という 2 つの種類の見積もりがあります。 2 つのタイプの見積もりは、次の点で異なります :
 
 - **明細品目のグリッド** : 営業見積では、品目のグリッドは 1 つだけです。 プロジェクト見積には、品目に使用する 2 つのグリッドがあります。 1つのグリッドはプロジェク トラインに使用され、もう一方は製品ラインに使用されます。
 - **アクティベーションと改訂** : 営業見積はアクティベーションと改訂をサポートします。 これらのプロセスは、プロジェクト見積もりでは対応していません。
