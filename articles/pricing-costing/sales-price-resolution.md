@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6e89e23189fa65057d7b955897924057c440ccd8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119559"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274959"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>見積もりと実績の販売価格を解決する
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-Dynamics 365 Project Operations で見積もりと実績の販売価格が解決されると、システムは最初に関連するプロジェクトの見積もりまたは契約の日付と通貨を使用して販売価格リストを解決します。 販売価格リストが解決された後、システムは販売または請求レートを解決します。
+見積りおよび実績の販売価格が Dynamics 365 Project Operations で解決されると、システムは最初に、関連するプロジェクトの見積もりまたは契約の日付と通貨を使用して、販売価格リストを解決します。 販売価格リストが解決された後、システムは販売または請求レートを解決します。
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>時間に向けた実際の明細行と見積もり明細行での販売率の解決
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 34ee7bb157426507ec7ca8c031f5cb552e85099b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180198"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275499"
 ---
 # <a name="set-up-price-lists"></a>価格表の設定
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-Dynamics 365 Project Operations の価格表は、レートのカタログを表します。 レートは、コスト、営業、および請求レートを表します。 価格表がコスト レートを表すか、営業と請求レートを表すかに応じて、価格表のコンテキストは **営業** または **コスト** になります。
+Dynamics 365 Project Operations の価格表は料金のカタログを表します。 レートは、コスト、営業、および請求レートを表します。 価格表がコスト レートを表すか、営業と請求レートを表すかに応じて、価格表のコンテキストは **営業** または **コスト** になります。
 
 次の拡張機能は Project Operations に固有であり、Dynamics 365 Sales の価格表に適用されます。
 

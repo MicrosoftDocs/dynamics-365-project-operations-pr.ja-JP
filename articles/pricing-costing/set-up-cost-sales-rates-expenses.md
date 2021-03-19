@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b518c9eda00bef4d342dd66677344af516012749
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180288"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274914"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>経費の原価率と販売率を設定する
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-Dynamics 365 Project Operations で、トランザクション カテゴリのコストと販売価格を設定できます。 コストと販売価格は経費用に設計されているため、これらを含む各トランザクション カテゴリも経費カテゴリとして設定する必要があります。 この設定により、ダウンストリーム機能の精度が保証されます。 トランザクション カテゴリのコストと販売価格は、1 つの通貨でのみ表示できます。これは、価格表ヘッダーの通貨である必要があります。
+Dynamics 365 Project Operations でトランザクション カテゴリのコストと販売価格を設定できます。 コストと販売価格は経費用に設計されているため、これらを含む各トランザクション カテゴリも経費カテゴリとして設定する必要があります。 この設定により、ダウンストリーム機能の精度が保証されます。 トランザクション カテゴリのコストと販売価格は、1 つの通貨でのみ表示できます。これは、価格表ヘッダーの通貨である必要があります。
 
 トランザクション カテゴリのコストと販売率を設定するには、次の手順を実行します。 
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: 2f0a6391a3bf6dd39d21504a6f286e4ff1954183
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596001"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273603"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>契約のアドホック前払いを作成する
 

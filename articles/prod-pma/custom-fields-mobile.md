@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079322"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270999"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>iOS および Android 上の Microsoft Dynamics 365 Project Timesheet モバイル アプリのカスタム フィールドを実装する
 
@@ -53,9 +53,9 @@ ms.locfileid: "4079322"
 
 | 種類の値 | 型              | メモ​​ |
 |-------------|-------------------|-------|
-| 12           | 文字列 (列挙型) | フィールドはテキスト フィールドとして表示されます。 |
+| 0           | 文字列 (列挙型) | フィールドはテキスト フィールドとして表示されます。 |
 | 6           | Integer           | 値は、小数点以下の桁数がない数値として表示されます。 |
-| 2           | 実数              | 値は、小数点以下の桁数を含む数値として表示されます。<p>アプリで通貨として実数値を表示するには、 **fieldExtenededType** プロパティを使用します。 **numberOfDecimals** プロパティを使用し、表示される小数点以下の桁数を設定することができます。</p> |
+| 2           | 実数              | 値は、小数点以下の桁数を含む数値として表示されます。<p>アプリで通貨として実数値を表示するには、**fieldExtenededType** プロパティを使用します。 **numberOfDecimals** プロパティを使用し、表示される小数点以下の桁数を設定することができます。</p> |
 | 3           | 日              | 日付の書式は、ユーザーが **ユーザー オプション** の **言語と国/地域の基本設定** の下で指定した **日付、時間、および数値書式** により決定されます。 |
 | 4           | Boolean           | |
 | 15          | GUID              | |
@@ -71,12 +71,12 @@ ms.locfileid: "4079322"
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
-このプロパティを使用して、実数値の書式を通貨として設定することができます。 この方法は、 **fieldBaseType** 値が **実数** である場合にのみ適用されます。
+このプロパティを使用して、実数値の書式を通貨として設定することができます。 この方法は、**fieldBaseType** 値が **実数** である場合にのみ適用されます。
 
 - **TSCustomFieldExtendedType:None** – 書式設定は適用されません。
 - **TSCustomFieldExtendedType::Currency** – 値の書式は通貨として設定されます。
 
-    通貨の書式設定がアクティブな場合、 **stringValue** フィールドを使用して、アプリに表示する必要がある通貨コードを渡すことができます。 値は、読み取り専用の値です。
+    通貨の書式設定がアクティブな場合、**stringValue** フィールドを使用して、アプリに表示する必要がある通貨コードを渡すことができます。 値は、読み取り専用の値です。
 
     **realValue** フィールドには、データベースに保存する必要がある金額が含まれます。
 
@@ -109,7 +109,7 @@ ms.locfileid: "4079322"
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (文字列のリスト)
 
-このプロパティは、 **fieldBaseType** が **文字列** に設定されている場合にのみ適用されます。 **stringOptions** が設定されている場合、オプション ボタン (ラジオ ボタン) を介して選択できる文字列値は、リスト内の文字列によって指定されます。 文字列が指定されていない場合、文字列フィールドに自由書式の入力が許可されます (例については、このトピックの後半の「TSTimesheetEntryService クラスのコマンド チェーンを使用してアプリからデータベースにタイムシート エントリを保存する」のセクションを参照してください)。
+このプロパティは、**fieldBaseType** が **文字列** に設定されている場合にのみ適用されます。 **stringOptions** が設定されている場合、オプション ボタン (ラジオ ボタン) を介して選択できる文字列値は、リスト内の文字列によって指定されます。 文字列が指定されていない場合、文字列フィールドに自由書式の入力が許可されます (例については、このトピックの後半の「TSTimesheetEntryService クラスのコマンド チェーンを使用してアプリからデータベースにタイムシート エントリを保存する」のセクションを参照してください)。
 
 ### <a name="stringlength-int"></a>stringLength (int)
 
@@ -179,9 +179,9 @@ ms.locfileid: "4079322"
 
 このコードは、アプリのフィールドの表示設定を制御します。 たとえば、フィールドの種類、ラベル、フィールドが必須かどうか、およびフィールドが表示されるセクションを制御します。
 
-時間エントリの文字列フィールドの例を次に示します。 このフィールドには、 **最初のオプション** および **2 番目のオプション** の 2 つのオプションがあり、オプション ボタン (ラジオ ボタン) により使用することができます。 アプリのフィールドは、TSTimesheetLine テーブルに追加される **TestLineString** フィールドに関連付けられています。
+時間エントリの文字列フィールドの例を次に示します。 このフィールドには、**最初のオプション** および **2 番目のオプション** の 2 つのオプションがあり、オプション ボタン (ラジオ ボタン) により使用することができます。 アプリのフィールドは、TSTimesheetLine テーブルに追加される **TestLineString** フィールドに関連付けられています。
 
-**TSTimesheetCustomField::newFromMetatdata()** メソッドを使用して、カスタム フィールド プロパティ **fieldBaseType** 、 **tableName** 、 **fieldname** 、 **label** 、 **isEditable** 、 **isMandatory** 、 **stringLength** 、および **numberOfDecimals** の初期化を簡略化することに注意してください。 必要に応じて、これらのパラメーターを手動で設定することもできます。
+**TSTimesheetCustomField::newFromMetatdata()** メソッドを使用して、カスタム フィールド プロパティ **fieldBaseType**、**tableName**、**fieldname**、**label**、**isEditable**、**isMandatory**、**stringLength**、および **numberOfDecimals** の初期化を簡略化することに注意してください。 必要に応じて、これらのパラメーターを手動で設定することもできます。
 
 ```xpp
 ...
@@ -245,7 +245,7 @@ final class TsTimesheetEntry_Extension
 
 - **timesheetLineNeedsUpdating** メソッドを使用して、ユーザーによりラインのレコードが変更され、データベースに保存する必要があるかどうかを確認します。 パフォーマンスが問題にならない場合、このメソッドを単純化して常に **True** を返すようにすることができます。
 - **populateTimesheetLineFromEntryDuringCreate** および **populateTimesheetLineFromEntryDuringUpdate** メソッドを拡張し、指定された TSTimesheetEntry データ契約レコードから TSTimesheetLine データベース レコードに値を入力できます。 次の例で、データベース フィールドと入力フィールド間でのマップが X++ コードを介して手動で行われていることを確認してください。
-- **TSTimesheetEntry** オブジェクトにマップされたカスタム フィールドを TSTimesheetLineweek データベース テーブルに書き込む必要がある場合、 **populateTimesheetWeekFromEntry** メソッドを拡張することもできます。
+- **TSTimesheetEntry** オブジェクトにマップされたカスタム フィールドを TSTimesheetLineweek データベース テーブルに書き込む必要がある場合、**populateTimesheetWeekFromEntry** メソッドを拡張することもできます。
 
 > [!NOTE]
 > 次の例では、ユーザーが生の文字列値としてデータベースに選択した **firstOption** または **secondOption** 値を保存します。 データベース フィールドが **列挙** 型のフィールドの場合、それらの値を手動で列挙値にマップし、データベース テーブルの列挙フィールドに保存することができます。
@@ -406,11 +406,11 @@ final class TSTimesheetDetails_Extension
 
 ### <a name="adding-additional-validation-for-the-app"></a>アプリに追加の検証を追加する
 
-データベース レベルでのタイムシート機能に対する既存のロジックは、引き続き期待どおりに機能します。 保存または送信操作の完了を中断し、特定のエラー メッセージを表示するには、 **エラーのスロー (「ユーザーへのメッセージ」)** をコマンド チェーン拡張機能を介してコードに追加できます。 拡張可能な有効なメソッドの例を 3 つ示します。
+データベース レベルでのタイムシート機能に対する既存のロジックは、引き続き期待どおりに機能します。 保存または送信操作の完了を中断し、特定のエラー メッセージを表示するには、**エラーのスロー (「ユーザーへのメッセージ」)** をコマンド チェーン拡張機能を介してコードに追加できます。 拡張可能な有効なメソッドの例を 3 つ示します。
 
 - タイムシート ラインの保存操作の間に TSTimesheetLine テーブルの **validateWrite** が **false** を返す場合、モバイル アプリにエラー メッセージが表示されます。
 - アプリのタイムシートの送信中に TSTimesheetTable テーブルの **validateSubmit** が **false** を返す場合、エラー メッセージがユーザーに表示されます。
-- TSTimesheetLine テーブルの **insert** メソッド中、フィールド (たとえば、 **Line プロパティ** ) に入力するロジックは引き続き実行されます。
+- TSTimesheetLine テーブルの **insert** メソッド中、フィールド (たとえば、**Line プロパティ**) に入力するロジックは引き続き実行されます。
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>標準フィールドを非表示にし、構成を介して読み取り専用としてマークする
 
@@ -426,9 +426,9 @@ final class TSTimesheetDetails_Extension
 
 タイムシート エントリの既定のプロジェクト カテゴリのエントリは、3 つのレベルで発生します。 コマンド チェーンを使用し、これらのレベルのいずれかまたはすべてにおいて動作を拡張して、希望する動作を実現できます。 次の階層が使用されます。
 
-1. アプリは、プロジェクト リソースから既定のカテゴリを配置しようとします。 この既定のカテゴリは、 **TSTimesheetSettingsService** クラスの **getCurrentUserResource** および **getDelegatedResourcesForCurrentUser** メソッドで設定されます。
-2. 既定のカテゴリがプロジェクト リソース レベルで指定されていない場合、アプリはプロジェクト活動から取得しようとします。 この既定のカテゴリは、 **TSTimesheetProjectService** クラスの **getActivitiesForProject** メソッドで設定されます。
-3. 既定のカテゴリがプロジェクト活動レベルで指定されていない場合、既定のカテゴリはプロジェクト パラメーターから取得されます。 この既定のカテゴリは、 **TSTimesheetProjectService** クラスの **getProjectDetailsbyRule** メソッドで設定されます。
+1. アプリは、プロジェクト リソースから既定のカテゴリを配置しようとします。 この既定のカテゴリは、**TSTimesheetSettingsService** クラスの **getCurrentUserResource** および **getDelegatedResourcesForCurrentUser** メソッドで設定されます。
+2. 既定のカテゴリがプロジェクト リソース レベルで指定されていない場合、アプリはプロジェクト活動から取得しようとします。 この既定のカテゴリは、**TSTimesheetProjectService** クラスの **getActivitiesForProject** メソッドで設定されます。
+3. 既定のカテゴリがプロジェクト活動レベルで指定されていない場合、既定のカテゴリはプロジェクト パラメーターから取得されます。 この既定のカテゴリは、**TSTimesheetProjectService** クラスの **getProjectDetailsbyRule** メソッドで設定されます。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

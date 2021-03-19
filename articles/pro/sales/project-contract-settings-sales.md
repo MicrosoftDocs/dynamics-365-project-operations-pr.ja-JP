@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 870a583a4f7c9ed461207f65f267b529580cf02b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180919"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272484"
 ---
 # <a name="project-contract-settings---lite"></a>プロジェクト契約の設定 - Lite
 
@@ -21,7 +21,7 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 このトピックでは、すべての契約品目に影響を与える設定を含む、プロジェクト契約全体に適用されるフィールドについて説明します。 プロジェクト契約の KPI を推進するために、すべての品目にわたって要約された契約に関する情報も含まれています。
 
-次の表に、Dynamics 365 Project Operations に固有のフィールド、または Dynamics 365 Sales の受注からの動作にいくつかの重要な変更があるプロジェクト契約のフィールドを表示します。
+次の表には、Dynamics 365 Project Operations に固有のプロジェクト契約のフィールド、または Dynamics 365 Sales の受注からの動作にいくつかの重要な変更があるフィールドが表示されています。
 
 | フィールド | 場所 | 内容 | 下位への影響 |
 | --- | --- | --- | --- |

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d807d3631f40a93ec7dbd918b64c287fd4875c79
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128289"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273834"
 ---
 # <a name="confirm-a-project-contract"></a>プロジェクト契約の確認
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-Dynamics 365 Project Operations のプロジェクト契約は、**確認済み** となった場合にアクティブ化でき、**失注** となった場合にクローズできます。 プロジェクト契約を確認すると、状態が **下書き** から **アクティブ** に更新され、状態の理由が **確認済み** になります。 アクティブまたはクローズされた契約は、編集や再開することはできません。 
+Dynamics 365 Project Operations のプロジェクト契約は、**確認済み** という理由でアクティブにするか、または **失注** という理由でクローズすることができます。 プロジェクト契約を確認すると、状態が **下書き** から **アクティブ** に更新され、状態の理由が **確認済み** になります。 アクティブまたはクローズされた契約は、編集や再開することはできません。 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>プロジェクト契約の確認による財務上の影響
 
@@ -34,7 +34,7 @@ Dynamics 365 Project Operations のプロジェクト契約は、**確認済み*
 失われたとしてクローズされたプロジェクト契約がそのライン上のプロジェクトを参照している場合、そのプロジェクトもクローズとしてマークされます。 この日付以降のリソース予約はキャンセルされます。 プロジェクト契約書の未請求の売上実績が、請求書に載っていないものは取り消されてしまいます。
 
 > [!NOTE]
-> Dynamics 365 Project Operationsでは、失注したプロジェクト契約をクローズしても関連する営業案件の状態には影響を与えません。 営業案件はオープンの状態のままなので、手動でクローズする必要があります。
+> Dynamics 365 Project Operations では、失注としてプロジェクト契約をクローズしても、関連付けられた機会のそのステータスには影響を与えません。 営業案件はオープンの状態のままなので、手動でクローズする必要があります。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

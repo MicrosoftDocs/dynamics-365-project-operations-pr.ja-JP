@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c34817181b75b1b0079974f536e4d7b032ae87dd
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b84b1831abaf6c428f9b8da959abe2541c788db6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181050"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272709"
 ---
 # <a name="opportunity-header---lite"></a>営業案件ヘッダー- Lite
 
@@ -21,7 +21,7 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 営業案件ヘッダーは、プロジェクトベースの営業案件のすべての行に適用されるプロジェクトベースの取引に関する全体的な情報を取得します。
 
-Dynamics 365 Project Operations のプロジェクトベースの営業案件は、Dynamics 365 Sales の営業案件の拡張機能です。 これらの拡張機能は、プロジェクトベースの営業案件に固有の必要な追加機能を提供します。 これらの拡張機能には、プロジェクトベースの営業案件で利用可能な新しいフィールドとリボン アクションを含めることができます。 Sales で使用できる一部のフィールド、機能、および規定値設定ロジックは、Project Operations では使用できない場合があります。
+Dynamics 365 Project Operations のプロジェクトベースの機会は、Dynamics 365 Sales の機会の拡張機能です。 これらの拡張機能は、プロジェクトベースの営業案件に固有の必要な追加機能を提供します。 これらの拡張機能には、プロジェクトベースの営業案件で利用可能な新しいフィールドとリボン アクションを含めることができます。 Sales で使用できる一部のフィールド、機能、および規定値設定ロジックは、Project Operations では使用できない場合があります。
 
 次の表には、Project Operations に固有の、または Sales の営業案件からの動作にいくつかの重要な変更がある、プロジェクトベースの営業案件のフィールドが含まれています。
 

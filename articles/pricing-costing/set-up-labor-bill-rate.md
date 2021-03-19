@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180705"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274824"
 ---
 # <a name="set-up-labor-bill-rates"></a>労務の請求レートを設定する
 
 _ **適用対象:** リソース/非在庫ベースのシナリオの Project Operations
 
-各価格表には、価格表ヘッダーに含まれるコンテキストと日付の有効性に有効な一連のロール価格または労働賃金があります。 Dynamics 365 Project Operations の時間の請求賃金は、価格表ヘッダーの通貨である 1 通貨のみで設定できます。
+各価格表には、価格表ヘッダーに含まれるコンテキストと日付の有効性に有効な一連のロール価格または労働賃金があります。 Dynamics 365 Project Operations の時間に対する請求レートは、価格表ヘッダーの通貨である 1 つの通貨でのみ設定できます。
 
 1. 販売価格表の労働請求賃金を設定するには、価格表ヘッダーに基づいて価格表を作成します。 
 2. **ロール価格** タブのサブグリッドで、**+ 新規ロール価格** 選択します。 

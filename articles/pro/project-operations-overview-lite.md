@@ -1,6 +1,6 @@
 ---
 title: Lite 展開の概要
-description: このトピックでは、Dynamics 365 Project Operations の Lite 展開について説明します。
+description: このトピックでは、Dynamics 365 Project Operations のライト展開について情報を提供します。
 author: rumant
 manager: Annbe
 ms.date: 11/02/2020
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b66b3656d1ef5266ede1f62657dbe9b8a63c863a
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: c1df809ea3df3f53d5fb42d632c56c47615fec3d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365530"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273969"
 ---
-# <a name="lite-deployment-overview"></a>Lite 展開の概要
+# <a name="lite-deployment-overview"></a>ライト展開の概要
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
-Dynamics 365 Project Operations の Lite 展開の種類には、プロジェクトベースの企業向けに次の機能があります:
+Dynamics 365 Project Operations のライト展開タイプには、プロジェクトベースの企業向けに次の機能があります。
 
 - Web 向けの Microsoft Project を使用したプロジェクト計画
 - 労働力の多面的な価格設定と原価計算
@@ -27,7 +27,7 @@ Dynamics 365 Project Operations の Lite 展開の種類には、プロジェク
 - Dynamics 365 Sales の機能を使用したプロジェクトベースの営業管理
 - Dynamics 365 Field Service や Dynamics 365 Customer Service などの他のアプリケーションと統合する Universal Resource Scheduling
 - プロジェクトの進捗状況と時間追跡
-- プロジェクトベースの経費の基本的な経費追跡
+- プロジェクト ベースの経費に対する基本的な経費追跡
 - レビューして処理のために財務システムに送信できる見積もり請求
 - Power Platform を使用した拡張性
 

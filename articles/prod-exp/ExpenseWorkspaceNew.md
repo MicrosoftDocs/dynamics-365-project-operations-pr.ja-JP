@@ -1,6 +1,6 @@
 ---
 title: 再設計された経費報告書
-description: このトピックでは、Microsoft Dynamics 365 Finance における経費報告書エントリの再設計および刷新されたエクスペリエンスに関する情報を提供します。 新しいエクスペリエンスにより、経費報告書を完成させるプロセスが簡素化され、所用時間が短縮されます。
+description: このトピックでは、経費報告書エントリの再設計および刷新されたエクスペリエンスに関する情報を提供します。
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960253"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271989"
 ---
 # <a name="redesigned-expense-reports"></a>再設計された経費報告書
 
@@ -40,12 +40,6 @@ ms.locfileid: "4960253"
 - 経費フィールドの表示に使用する新たなメニュー項目が追加されました。
 - 経費報告書 (既存のページ) または経費報告書フィールドの既存のメニュー項目が削除されることはありません。
 - ワークフローや承認では、既存の経費報告書のページに移動します。
-
-## <a name="getting-started-video-for-new-users"></a>新しいユーザー向けの作業の開始に関するビデオ
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-[Dynamics 365 for Finance and Operations での経費エクスペリエンス](https://youtu.be/Ocy-MsTvEE0) ビデオ (上に表示) は、YouTube で使用可能な [Finance and Operations プレイリスト](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) に含まれています。
 
 ## <a name="new-features"></a>新機能
 

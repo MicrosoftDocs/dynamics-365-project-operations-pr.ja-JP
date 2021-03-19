@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181548"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274045"
 ---
 # <a name="manage-a-proforma-invoice---lite"></a>見積送り状の管理 (ライト)
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
-Dynamics 365 Project Operations では、見積送り状は Dynamics 365 Sales の請求書の拡張機能で作成されます。 しかし、請求書を作成する際には、Sales と Project Operations では、請求書の作成プロセスに違いがあります。 例えば、Project Operations では **請求書一覧** ページから新規の請求書を作成することはできませんが、Sales では作成することができます。 これらの差異や拡張機能は、販売注文に向けた一般的な請求書とは異なるプロジェクトの請求書作成プロセスに対応するために用意されています。
+Dynamics 365 Project Operations では、見積送り状は Dynamics 365 Sales の請求書の拡張機能として作成されます。 しかし、請求書を作成する際には、Sales と Project Operations では、請求書の作成プロセスに違いがあります。 例えば、Project Operations では **請求書一覧** ページから新規の請求書を作成することはできませんが、Sales では作成することができます。 これらの差異や拡張機能は、販売注文に向けた一般的な請求書とは異なるプロジェクトの請求書作成プロセスに対応するために用意されています。
 
 > [!IMPORTANT]
 > このような違いがあるため、Sales と Project Operations における請求書の互換性はありません。

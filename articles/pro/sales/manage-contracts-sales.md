@@ -8,21 +8,21 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 5a4357d5cf184a3c6ada3ae33631694c31bb5b00
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177337"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273205"
 ---
 # <a name="manage-project-contracts"></a>プロジェクト契約の管理
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-Dynamics 365 Project Operations のプロジェクト契約は、契約で合意されたプロジェクトのコミットメントと請求の詳細を取得して管理します。 プロジェクト運用におけるプロジェクト契約の構造は、次のコンポーネントを使用したプロジェクト ベースの作業に合わせて調整されています。
+Dynamics 365 Project Operations のプロジェクト契約では、契約により同意された確約やプロジェクトの請求の詳細を取り込んで管理できます。 プロジェクト運用におけるプロジェクト契約の構造は、次のコンポーネントを使用したプロジェクト ベースの作業に合わせて調整されています。
 
-- プロジェクトの請求書に高レベルのコンポーネントとして表示される作業の個別のコンポーネントを識別する契約品目です。
-- 各高レベルのコンポーネント、または契約品目の作業を識別し、見積もりをする契約品目の詳細です。 見積もりには、契約品目に関連付けられた作業のスケジュールと財務面が含まれます。
+- プロジェクト見積で上位レベルのコンポーネントとして表示される作業の個別のコンポーネントを識別する契約明細行。
+- 各上位レベルのコンポーネントまたは契約明細行の作業を識別して見積もる契約明細行の詳細。 見積もりには、契約品目に関連付けられた作業のスケジュールと財務面が含まれます。
 - 契約モデルと課金対象コンポーネントは、各契約品目と契約全体の請求契約を保持する各契約品目に設定されます。
 
 ## <a name="view-all-project-based-contracts"></a>プロジェクトベースの契約をすべて表示する

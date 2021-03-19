@@ -8,21 +8,21 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 63d9fc56f47c3bb7c5477af8f3bfa1be11a09a45
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4178012"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272394"
 ---
 # <a name="quotes---key-concepts---lite"></a>見積もり - 重要な概念 - Lite
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 
-以下は、Dynamics 365 Project Operations でプロジェクト見積もりを使用する前に知っておくべき重要な概念です。
+Dynamics 365 Project Operations でプロジェクト見積もりを使用し始める前に把握する必要がある重要な概念は次のとおりです。
 
-## <a name="contracting-unit"></a>契約単位
+## <a name="contracting-unit"></a>単位を契約中
 
 契約単位は、プロジェクトの実施を所有する部門または業務を表します。 各契約単位ごとにリソース コストを設定できます。 契約ユニット内のリソースのリソース コストを指定すると、この契約ユニットが借りるリソース、または企業内の他の部門や慣行に対して異なる原価率を設定することもできます。 これらは、移転価格、リソース借入、または為替価格と呼ばれます。 他の部門からリソースを借りるコストを設定する場合、それらの原価率を貸し出し部門の通貨で設定することも選択できます。
 

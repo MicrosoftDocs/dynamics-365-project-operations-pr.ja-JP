@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d21ab159294cac66ffeb8abcf0943b4babd7b360
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c08ac3b0f24dda19489bad6e667a50b67b8ce3ec
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118929"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273654"
 ---
 # <a name="costing-product-based-quote-lines"></a>製品原価計算ベースの見積依頼明細行
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
 
-Dynamics 365 Project Operations の製品ベースの見積依頼明細行にも **原価価格** フィールドがあります。 このフィールドは、見積依頼明細行で製品の原価価格を追跡し、下位の利益性の計算をするために使用されます。
+Dynamics 365 Project Operations の製品ベースの見積もり行にも **原価** フィールドがあります。 このフィールドは、見積依頼明細行で製品の原価価格を追跡し、下位の利益性の計算をするために使用されます。
 
 カタログ製品に対する製品ベースの見積依頼明細行が作成されると、製品ベースの見積依頼明細行の原価は、製品カタログの **標準のコスト** フィールドで規定値に設定されます。 製品カタログの標準のコスト フィールドは、組織の基本通貨で設定されます。 製品ベースの見積依頼明細行での既定の単位原価は、見積の販売通貨に変換されます。
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130944"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275589"
 ---
 # <a name="default-price-lists"></a>既定の価格表
 
@@ -21,7 +21,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 ## <a name="sales-price-lists"></a>販売価格表
 
-Dynamics 365 Project Operations のすべてのプロジェクト見積もりと契約には、既定の販売価格表が含まれています。 
+Dynamics 365 Project Operations のすべてのプロジェクト見積もりと契約には、既定の営業価格表が含まれています。 
 
 ### <a name="price-list-default-on-project-quotes"></a>プロジェクトの既定の見積もり価格表
 システムは、プロジェクト見積書の既定の価格表を決定するにあたって、以下のプロセスを完了します。

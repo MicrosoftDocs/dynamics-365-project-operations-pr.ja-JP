@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: c52d5ccef681ef9d9ff767c99af6f2fd0fd6da52
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1c7bd2cb3b200ef3be735484d4e831a7a5793d58
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126129"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275949"
 ---
 # <a name="vat-recovery-in-expense-management"></a>経費管理における VAT の回収
 
@@ -24,7 +24,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 **経費管理** モジュールで VAT を回収するには、次の前提条件を実施する必要があります。
 
 - 経費カテゴリに割り当てられている国/地域の税コードを作成する必要があります。
-- 税コードごとに消費税グループを作成する必要があります。
+- 各税コードに消費税グループが作成されている。
 - 消費税グループごとに品目消費税コードを作成する必要があります。
 
 前提条件を満たした後、VAT トランザクションの払い戻しを請求するには、次の手順を実施する必要があります。
