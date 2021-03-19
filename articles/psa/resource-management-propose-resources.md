@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0a3eaa9929770c91523831d92744d5084aa28cb8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 2003f6f06912b0c47eb942aae17e509b00e19487
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147524"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283014"
 ---
 # <a name="propose-project-resources"></a>プロジェクト リソースの提案
 
@@ -65,10 +65,10 @@ ms.locfileid: "5147524"
 
 次の計算式を使用して稼働率を計算します:
 
-- 支払請求可能な稼働率 = 課金対象となる実際の時間 ÷ リソースのキャパシティ
-- 支払請求不可な稼働率 = 請求タイプ ID を持つ実際の時間 = 非課金対象、補助、利用不可 ÷ リソースのキャパシティ
-- 内部 = 営業契約なしの実際の時間 ÷ リソースのキャパシティ
-- リソースのキャパシティ = リソースの作業時間 – 不在 – 非作業日
+- 支払請求可能な稼働率 = 課金可能な実際の時間数 ÷ リソース キャパシティ
+- 支払請求不可能な稼働率 = 請求タイプ ID が支払請求不可能、無料、該当なし/利用不可である実際の時間 ÷ リソース キャパシティ
+- 内部 = 販売契約なしの実際の時間 ÷ リソース キャパシティ
+- リソース キャパシティ = リソース作業時間 – 外出中 – 非勤務日
 
 **リソース** ウィンドウの **リソース稼働率** ビューがあります。
 

@@ -18,20 +18,20 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f1c8e150500334e87b25a1c8d04cf28c7b7beaeb
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149639"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282069"
 ---
-# <a name="customize-weekly-time-entry"></a>毎週の時間エントリをカスタマイズします。 
+# <a name="customize-weekly-time-entry"></a>週単位の時間エントリをカスタマイズする 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation  バージョン 3.3 では、Microsoft が導入したモダン グリッドでプロジェクト リソースを使用すると、一度に最大 1 週間までの時間をクイック入力できます。 新しい週の時間エントリ グリッドには、日付別、行別、週別にエントリの合計を表示できます。 リソースでは、その週の時間エントリのコピーと、その前の週の一括コピーを作成できます。 システム カスタマイザーは、フィールドを追加し、他のエンティティに [検索] を追加し、組織のベスト プラクティスをサポートするユーザー定義のビジネス ルールを実行することにより、ビューをカスタマイズできます。
+Microsoft Dynamics 365 Project Service Automation バージョン 3.3 では、Microsoft が導入したモダン グリッドでプロジェクト リソースを使用すると、一度に最大 1 週間までの時間をクイック入力できます。 新しい週の時間エントリ グリッドには、日付別、行別、週別にエントリの合計を表示できます。 リソースでは、その週の時間エントリのコピーと、その前の週の一括コピーを作成できます。 システム カスタマイザーは、フィールドを追加し、他のエンティティに [検索] を追加し、組織のベスト プラクティスをサポートするユーザー定義のビジネス ルールを実行することにより、ビューをカスタマイズできます。
 
 時間エントリおよび新規の毎週の時間グリッドには、サイト マップを使ってアクセスします。 以前の PSA バージョンの一部であった、ユーザー定義の非拡張の時間エントリ エクスペリエンスは、拡張可能な週単位の時間エントリ グリッドに置き換えられ、また、読み取り専用グリッドとカレンダー内の代替エクスペリエンスに置き換えられました。 この変更によって、ユーザーは週単位で合計時間を入力できます。
 

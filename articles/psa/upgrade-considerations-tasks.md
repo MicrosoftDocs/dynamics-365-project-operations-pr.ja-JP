@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a067521410f0fe0d8f5d4c510a35f2a3b018dce3
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149549"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281754"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>WBS (作業分解構造) のアップグレードに関する考慮事項
 

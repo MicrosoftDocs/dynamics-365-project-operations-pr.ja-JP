@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 20562b98ccc8451ab57dd42fb8c2f9f303811dbe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144374"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283149"
 ---
 # <a name="resource-management-faq"></a>リソース管理に関するよくある質問
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365 Project Service Automation バージョン 2.x または 1.x からバージョン 3.x へのアップグレードに関する考慮事項
+title: アップグレードに関する考慮事項 - Microsoft Dynamics 365 Project Service Automation バージョン 2.x または 1.x からバージョン 3
 description: このトピックでは、Project Service Automation の バージョン 2.x または 1.x から バージョン 3 へアップグレードする際に必要な考慮事項について説明します。
 manager: kfend
 ms.prod: ''
@@ -18,12 +18,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ff0777705c6d0e2c0d8aa4ed191f4ae6b1786100
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144174"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281664"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>PSA バージョン 2.x または 1.x からバージョン 3.x へのアップグレードに関する考慮事項
 

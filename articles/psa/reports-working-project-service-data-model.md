@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 25f1af15c03001a92f96689ff36a3159a5352a46
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147659"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283239"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Project Service Automation データ モデルでの作業
 
@@ -87,7 +87,7 @@ PSA が契約に追加するその他のエンティティは、**プロジェ�
 
 ## <a name="reporting-on-resources"></a>リソースのレポート
 
-プロジェクト リソースは、Microsoft Dynamics 365 Field Service などのその他のアプリとシェアされる Universal Resource Scheduling (URS) から **予約可能リソース** エンティティを使用します。 プロジェクト リソース上でレポートする場合に使用する可能性があるエンティティのリストはこちらです:
+プロジェクト リソースは、Microsoft Dynamics 365 Field Service などのその他のアプリと共有される Universal Resource Scheduling (URS) から **予約可能リソース** エンティティを使用します。 プロジェクト リソース上でレポートする場合に使用する可能性があるエンティティのリストはこちらです:
 
 - **予約可能リソース** – このエンティティは、プロジェクト チームで使用する、ユーザー、連絡先、汎用リソース、アカウント グループ、または備品を表します。
 - **予約可能リソースの特製** – このエンティティには、リソースのスキル、証明、または教育が含まれます。 特性は評価モデルによって定義される評価値を持つことができます。
