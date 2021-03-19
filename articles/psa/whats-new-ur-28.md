@@ -17,41 +17,44 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2c50d6bdc033836e1259a2fd12b78015280d8093
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 079679302b2d8dac3074732b2392a7b811ac9711
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150629"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280224"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-update-release-28-v3"></a><span data-ttu-id="f94f6-103">Project Service Automation 更新プログラム リリース 28、V3 の新機能と変更点</span><span class="sxs-lookup"><span data-stu-id="f94f6-103">What's new or changed in Project Service Automation Update Release 28, V3</span></span>
+# <a name="whats-new-or-changed-in-project-service-automation-update-release-28-v3"></a><span data-ttu-id="bb647-103">Project Service Automation 更新プログラム リリース 28、V3 の新機能と変更点</span><span class="sxs-lookup"><span data-stu-id="bb647-103">What's new or changed in Project Service Automation Update Release 28, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="f94f6-104">Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。</span><span class="sxs-lookup"><span data-stu-id="f94f6-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="f94f6-105">このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。</span><span class="sxs-lookup"><span data-stu-id="f94f6-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="f94f6-106">このリリースは、Dynamics 365 9.x と互換性があります。</span><span class="sxs-lookup"><span data-stu-id="f94f6-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="f94f6-107">このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。</span><span class="sxs-lookup"><span data-stu-id="f94f6-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="f94f6-108">詳細については [優先ソリューションのインストール、更新、または削除](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="f94f6-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="bb647-104">Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。</span><span class="sxs-lookup"><span data-stu-id="bb647-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="bb647-105">このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。</span><span class="sxs-lookup"><span data-stu-id="bb647-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="bb647-106">このリリースは、Dynamics 365 9.x と互換性があります。</span><span class="sxs-lookup"><span data-stu-id="bb647-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="bb647-107">このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。</span><span class="sxs-lookup"><span data-stu-id="bb647-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="bb647-108">詳細については [優先ソリューションのインストール、更新、または削除](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="bb647-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="f94f6-109">このトピックでは、Project Service Automation V3、更新プログラム リリース 28 で新規または変更された機能と修正の一覧を示します。このバージョンのビルド番号は V3.10.46.32 で、2021 年 1 月に自己更新で一般提供されます。</span><span class="sxs-lookup"><span data-stu-id="f94f6-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 28 This version has a build number of V3.10.46.32 and is generally available through a self-update in January 2021.</span></span>
+<span data-ttu-id="bb647-109">このトピックでは、Project Service Automation V3、更新プログラム リリース 28 で新規または変更された機能と修正の一覧を示します。このバージョンのビルド番号は V3.10.46.32 で、2021 年 1 月に自己更新で一般提供されます。</span><span class="sxs-lookup"><span data-stu-id="bb647-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 28 This version has a build number of V3.10.46.32 and is generally available through a self-update in January 2021.</span></span>
 
-## <a name="update-release-28"></a><span data-ttu-id="f94f6-110">更新プログラム 28</span><span class="sxs-lookup"><span data-stu-id="f94f6-110">Update Release 28</span></span>
+## <a name="update-release-28"></a><span data-ttu-id="bb647-110">更新プログラム 28</span><span class="sxs-lookup"><span data-stu-id="bb647-110">Update Release 28</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="f94f6-111">バグの修正</span><span class="sxs-lookup"><span data-stu-id="f94f6-111">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="bb647-111">バグの修正</span><span class="sxs-lookup"><span data-stu-id="bb647-111">Bug fixes</span></span>
 
-<span data-ttu-id="f94f6-112">**時間と経費**</span><span class="sxs-lookup"><span data-stu-id="f94f6-112">**Time and Expense**</span></span>
+<span data-ttu-id="bb647-112">**時間と経費**</span><span class="sxs-lookup"><span data-stu-id="bb647-112">**Time and Expense**</span></span>
 
-<span data-ttu-id="f94f6-113">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="f94f6-113">The following issues have been fixed:</span></span>
+<span data-ttu-id="bb647-113">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="bb647-113">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="f94f6-114">ユーザーは **一括編集** を使って、承認および送信済みの時間エントリを更新できます。</span><span class="sxs-lookup"><span data-stu-id="f94f6-114">Users can use **Bulk Edit** to update time entries that have been approved and submitted.</span></span>
+- <span data-ttu-id="bb647-114">ユーザーは **一括編集** を使って、承認および送信済みの時間エントリを更新できます。</span><span class="sxs-lookup"><span data-stu-id="bb647-114">Users can use **Bulk Edit** to update time entries that have been approved and submitted.</span></span>
 
-<span data-ttu-id="f94f6-115">**プロジェクト管理**</span><span class="sxs-lookup"><span data-stu-id="f94f6-115">**Project Management**</span></span>
+<span data-ttu-id="bb647-115">**プロジェクト管理**</span><span class="sxs-lookup"><span data-stu-id="bb647-115">**Project Management**</span></span>
 
-<span data-ttu-id="f94f6-116">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="f94f6-116">The following issues have been fixed:</span></span>
+<span data-ttu-id="bb647-116">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="bb647-116">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="f94f6-117">タスク GUID が数値として解釈される場合、**WBS (作業分解構造)** ページのリボンに表示された **タスクの編集** を使用して編集するためにタスクを開くことはできません。</span><span class="sxs-lookup"><span data-stu-id="f94f6-117">In cases where the task GUID is interpreted as a number, tasks can't be opened for edit using **Edit Task** in the ribbon on the **Work Breakdown Structure** page.</span></span>
+- <span data-ttu-id="bb647-117">タスク GUID が数値として解釈される場合、**WBS (作業分解構造)** ページのリボンに表示された **タスクの編集** を使用して編集するためにタスクを開くことはできません。</span><span class="sxs-lookup"><span data-stu-id="bb647-117">In cases where the task GUID is interpreted as a number, tasks can't be opened for edit using **Edit Task** in the ribbon on the **Work Breakdown Structure** page.</span></span>
 
-<span data-ttu-id="f94f6-118">**営業**</span><span class="sxs-lookup"><span data-stu-id="f94f6-118">**Sales**</span></span>
+<span data-ttu-id="bb647-118">**営業**</span><span class="sxs-lookup"><span data-stu-id="bb647-118">**Sales**</span></span>
 
-<span data-ttu-id="f94f6-119">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="f94f6-119">The following issues have been fixed:</span></span>
+<span data-ttu-id="bb647-119">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="bb647-119">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="f94f6-120">**GetEstimatesForProject** プラグインが呼び出されると、null 参照例外が生成されます。</span><span class="sxs-lookup"><span data-stu-id="f94f6-120">A null reference exception is generated when the **GetEstimatesForProject** plug-in is invoked.</span></span>
-- <span data-ttu-id="f94f6-121">マイルストーン グリッドの **請求準備完了としてマーク** は、**InvoiceStatus** 属性 (更新済み) 以外の属性を部分的にのみ更新します。</span><span class="sxs-lookup"><span data-stu-id="f94f6-121">**Mark ready to invoice** on the milestone grid only partially updates attributes, except for the **InvoiceStatus** attribute, which is updated.</span></span>
+- <span data-ttu-id="bb647-120">**GetEstimatesForProject** プラグインが呼び出されると、null 参照例外が生成されます。</span><span class="sxs-lookup"><span data-stu-id="bb647-120">A null reference exception is generated when the **GetEstimatesForProject** plug-in is invoked.</span></span>
+- <span data-ttu-id="bb647-121">マイルストーン グリッドの **請求準備完了としてマーク** は、**InvoiceStatus** 属性 (更新済み) 以外の属性を部分的にのみ更新します。</span><span class="sxs-lookup"><span data-stu-id="bb647-121">**Mark ready to invoice** on the milestone grid only partially updates attributes, except for the **InvoiceStatus** attribute, which is updated.</span></span>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,46 +16,49 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 092455a131f556e4f943f6bb89d7e38358f0a697
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: bdeeb100614cda78d0ba536310bb6b411c863b71
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150494"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282789"
 ---
-# <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a><span data-ttu-id="00a70-103">プロジェクトおよびプロジェクト契約の請求バックログをレビューする</span><span class="sxs-lookup"><span data-stu-id="00a70-103">Review the invoicing backlog on projects and project contracts</span></span>
+# <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a><span data-ttu-id="dd0f1-103">プロジェクトおよびプロジェクト契約の請求バックログをレビューする</span><span class="sxs-lookup"><span data-stu-id="dd0f1-103">Review the invoicing backlog on projects and project contracts</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="00a70-104">トランザクション準備ができ、請求書が作成され、処理されたとき、トランザクションは **請求準備完了** としてマークされます。</span><span class="sxs-lookup"><span data-stu-id="00a70-104">When a transaction is ready to have an invoice created and processed, the transaction should be marked **Ready to invoice**.</span></span> <span data-ttu-id="00a70-105">このトピックでは、作成できるトランザクションの種類について説明します。</span><span class="sxs-lookup"><span data-stu-id="00a70-105">This topic describes the types of transactions that can be created.</span></span>
+<span data-ttu-id="dd0f1-104">トランザクション準備ができ、請求書が作成され、処理されたとき、トランザクションは **請求準備完了** としてマークされます。</span><span class="sxs-lookup"><span data-stu-id="dd0f1-104">When a transaction is ready to have an invoice created and processed, the transaction should be marked **Ready to invoice**.</span></span> <span data-ttu-id="dd0f1-105">このトピックでは、作成できるトランザクションの種類について説明します。</span><span class="sxs-lookup"><span data-stu-id="dd0f1-105">This topic describes the types of transactions that can be created.</span></span>
 
-## <a name="review-the-time-and-material-billing-backlog"></a><span data-ttu-id="00a70-106">時間と材料の請求バックログのレビュー</span><span class="sxs-lookup"><span data-stu-id="00a70-106">Review the time and material billing backlog</span></span>
+## <a name="review-the-time-and-material-billing-backlog"></a><span data-ttu-id="dd0f1-106">時間と材料の請求バックログのレビュー</span><span class="sxs-lookup"><span data-stu-id="dd0f1-106">Review the time and material billing backlog</span></span>
 
-<span data-ttu-id="00a70-107">時間または経費エントリがプロジェクトに送信され承認されると、PSA によってプロジェクトの実績が作成されます。</span><span class="sxs-lookup"><span data-stu-id="00a70-107">When a time or expense entry is submitted and approved for a project, PSA creates a project actual.</span></span> <span data-ttu-id="00a70-108">プロジェクトの組み合わせとトランザクション クラスが時間‐材料プロジェクトの契約品目にマップされている場合、2 つの実績はエントリが承認された時点で作成されます。</span><span class="sxs-lookup"><span data-stu-id="00a70-108">If the combination of the project and the transaction class are mapped to a contract line for a time-and-materials project, two actuals are created when the entry is approved:</span></span>
+<span data-ttu-id="dd0f1-107">時間または経費エントリがプロジェクトに送信され承認されると、PSA によってプロジェクトの実績が作成されます。</span><span class="sxs-lookup"><span data-stu-id="dd0f1-107">When a time or expense entry is submitted and approved for a project, PSA creates a project actual.</span></span> <span data-ttu-id="dd0f1-108">プロジェクトの組み合わせとトランザクション クラスが時間‐材料プロジェクトの契約品目にマップされている場合、2 つの実績はエントリが承認された時点で作成されます。</span><span class="sxs-lookup"><span data-stu-id="dd0f1-108">If the combination of the project and the transaction class are mapped to a contract line for a time-and-materials project, two actuals are created when the entry is approved:</span></span>
 
-- <span data-ttu-id="00a70-109">コストの実績</span><span class="sxs-lookup"><span data-stu-id="00a70-109">Cost actual</span></span> 
-- <span data-ttu-id="00a70-110">未請求売上の実績</span><span class="sxs-lookup"><span data-stu-id="00a70-110">Unbilled sales actual</span></span>
+- <span data-ttu-id="dd0f1-109">コストの実績</span><span class="sxs-lookup"><span data-stu-id="dd0f1-109">Cost actual</span></span> 
+- <span data-ttu-id="dd0f1-110">未請求売上の実績</span><span class="sxs-lookup"><span data-stu-id="dd0f1-110">Unbilled sales actual</span></span>
 
-<span data-ttu-id="00a70-111">未請求売上の実績によって請求バックログが示され、請求書の状態を **請求準備完了** に設定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="00a70-111">Unbilled sales actuals represent the billing backlog, and their billing status must be set to **Ready to Invoice**.</span></span> <span data-ttu-id="00a70-112">プロジェクトの請求書を作成すると、未請求営業の実績は **請求準備完了** とマークされ、請求品目の詳細にコピーされます。</span><span class="sxs-lookup"><span data-stu-id="00a70-112">When a project invoice is created, unbilled sales actuals that are marked **Ready to Invoice** are copied over as invoice line details.</span></span>
+<span data-ttu-id="dd0f1-111">未請求売上の実績によって請求バックログが示され、請求書の状態を **請求準備完了** に設定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="dd0f1-111">Unbilled sales actuals represent the billing backlog, and their billing status must be set to **Ready to Invoice**.</span></span> <span data-ttu-id="dd0f1-112">プロジェクトの請求書を作成すると、未請求営業の実績は **請求準備完了** とマークされ、請求品目の詳細にコピーされます。</span><span class="sxs-lookup"><span data-stu-id="dd0f1-112">When a project invoice is created, unbilled sales actuals that are marked **Ready to Invoice** are copied over as invoice line details.</span></span>
 
-<span data-ttu-id="00a70-113">時間と資料の請求バックログ数をレビューするには、**営業**\>**請求書**\>**時間と材料の請求バックログ** の順に移動します。</span><span class="sxs-lookup"><span data-stu-id="00a70-113">To review the billing backlog for time and materials, go to **Sales** \> **Billing** \> **Time and Material Billing Backlog**.</span></span> <span data-ttu-id="00a70-114">請求準備完了となっているすべての未請求売上の実績を選択して、 **請求準備完了** を選択します。</span><span class="sxs-lookup"><span data-stu-id="00a70-114">Select all the unbilled sales actuals that are ready to be invoiced, and then select **Ready to Invoice**.</span></span> <span data-ttu-id="00a70-115">請求書の実績の状態は **請求準備完了** に変更されます。</span><span class="sxs-lookup"><span data-stu-id="00a70-115">The billing status of these actuals is changed to **Ready to Invoice**.</span></span>
+<span data-ttu-id="dd0f1-113">時間と資料の請求バックログ数をレビューするには、**営業**\>**請求書**\>**時間と材料の請求バックログ** の順に移動します。</span><span class="sxs-lookup"><span data-stu-id="dd0f1-113">To review the billing backlog for time and materials, go to **Sales** \> **Billing** \> **Time and Material Billing Backlog**.</span></span> <span data-ttu-id="dd0f1-114">請求準備完了となっているすべての未請求売上の実績を選択して、 **請求準備完了** を選択します。</span><span class="sxs-lookup"><span data-stu-id="dd0f1-114">Select all the unbilled sales actuals that are ready to be invoiced, and then select **Ready to Invoice**.</span></span> <span data-ttu-id="dd0f1-115">請求書の実績の状態は **請求準備完了** に変更されます。</span><span class="sxs-lookup"><span data-stu-id="dd0f1-115">The billing status of these actuals is changed to **Ready to Invoice**.</span></span>
 
 ![時間と材料の請求バックログ](media/TMBacklog.png)
 
-## <a name="review-the-product-billing-backlog"></a><span data-ttu-id="00a70-117">製品の請求バックログのレビュー</span><span class="sxs-lookup"><span data-stu-id="00a70-117">Review the product billing backlog</span></span>
+## <a name="review-the-product-billing-backlog"></a><span data-ttu-id="dd0f1-117">製品の請求バックログのレビュー</span><span class="sxs-lookup"><span data-stu-id="dd0f1-117">Review the product billing backlog</span></span>
 
-<span data-ttu-id="00a70-118">PSAで、プロジェクト契約に製品ベースの契約品目が含まれている場合、それらの品目は、請求書がプロジェクト契約ごとに作成されるたびに請求書の対象となります。</span><span class="sxs-lookup"><span data-stu-id="00a70-118">In PSA, when a project contract has product-based contract lines, those lines are considered for invoicing whenever an invoice is created for the project contract.</span></span> <span data-ttu-id="00a70-119">**請求準備完了** とマークされた契約品目が存在する製品は、プロジェクトの請求品目としてプロジェクトの請求書にコピーされます。</span><span class="sxs-lookup"><span data-stu-id="00a70-119">Any product that has contract lines that are marked **Ready to Invoice** is copied over to the project invoice as project invoice lines.</span></span>
+<span data-ttu-id="dd0f1-118">PSAで、プロジェクト契約に製品ベースの契約品目が含まれている場合、それらの品目は、請求書がプロジェクト契約ごとに作成されるたびに請求書の対象となります。</span><span class="sxs-lookup"><span data-stu-id="dd0f1-118">In PSA, when a project contract has product-based contract lines, those lines are considered for invoicing whenever an invoice is created for the project contract.</span></span> <span data-ttu-id="dd0f1-119">**請求準備完了** とマークされた契約品目が存在する製品は、プロジェクトの請求品目としてプロジェクトの請求書にコピーされます。</span><span class="sxs-lookup"><span data-stu-id="dd0f1-119">Any product that has contract lines that are marked **Ready to Invoice** is copied over to the project invoice as project invoice lines.</span></span>
 
-<span data-ttu-id="00a70-120">製品の請求バックログを確認するには、**営業**\>**請求書**\>**製品の請求バックログ** の順に移動します。</span><span class="sxs-lookup"><span data-stu-id="00a70-120">To review the billing backlog for products, go to **Sales** \> **Billing** \> **Product Billing Backlog**.</span></span> <span data-ttu-id="00a70-121">請求準備完了となっているすべて製品ベースの契約品目を選択して、 **請求準備完了** を選択します。</span><span class="sxs-lookup"><span data-stu-id="00a70-121">Select all the product-based contract lines that are ready to be invoiced, and then select **Ready to Invoice**.</span></span> <span data-ttu-id="00a70-122">これらの品目に関する請求書の状態は **請求準備完了** に変更されます。</span><span class="sxs-lookup"><span data-stu-id="00a70-122">The billing status of these lines is changed to **Ready to Invoice**.</span></span>
+<span data-ttu-id="dd0f1-120">製品の請求バックログを確認するには、**営業**\>**請求書**\>**製品の請求バックログ** の順に移動します。</span><span class="sxs-lookup"><span data-stu-id="dd0f1-120">To review the billing backlog for products, go to **Sales** \> **Billing** \> **Product Billing Backlog**.</span></span> <span data-ttu-id="dd0f1-121">請求準備完了となっているすべて製品ベースの契約品目を選択して、 **請求準備完了** を選択します。</span><span class="sxs-lookup"><span data-stu-id="dd0f1-121">Select all the product-based contract lines that are ready to be invoiced, and then select **Ready to Invoice**.</span></span> <span data-ttu-id="dd0f1-122">これらの品目に関する請求書の状態は **請求準備完了** に変更されます。</span><span class="sxs-lookup"><span data-stu-id="dd0f1-122">The billing status of these lines is changed to **Ready to Invoice**.</span></span>
 
 ![製品の請求バックログ](media/ProductBacklog.png)
 
-## <a name="review-billing-milestones-on-fixed-price-contracts"></a><span data-ttu-id="00a70-124">固定価格の契約に関する請求マイルストーンのレビュー</span><span class="sxs-lookup"><span data-stu-id="00a70-124">Review billing milestones on fixed-price contracts</span></span>
+## <a name="review-billing-milestones-on-fixed-price-contracts"></a><span data-ttu-id="dd0f1-124">固定価格の契約に関する請求マイルストーンのレビュー</span><span class="sxs-lookup"><span data-stu-id="dd0f1-124">Review billing milestones on fixed-price contracts</span></span>
 
-<span data-ttu-id="00a70-125">固定価格の請求方法を持つ各プロジェクトの契約品目を用いて、契約のマイルストーンを定義する必要があります。</span><span class="sxs-lookup"><span data-stu-id="00a70-125">Each project contract line that has a fixed-price billing method must define contract milestones.</span></span> <span data-ttu-id="00a70-126">これらの契約のマイルストーンが **請求準備完了** とマークされている場合にのみ、請求を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="00a70-126">These contract milestones can be invoiced only if they are marked **Ready to Invoice**.</span></span> 
+<span data-ttu-id="dd0f1-125">固定価格の請求方法を持つ各プロジェクトの契約品目を用いて、契約のマイルストーンを定義する必要があります。</span><span class="sxs-lookup"><span data-stu-id="dd0f1-125">Each project contract line that has a fixed-price billing method must define contract milestones.</span></span> <span data-ttu-id="dd0f1-126">これらの契約のマイルストーンが **請求準備完了** とマークされている場合にのみ、請求を行うことができます。</span><span class="sxs-lookup"><span data-stu-id="dd0f1-126">These contract milestones can be invoiced only if they are marked **Ready to Invoice**.</span></span> 
 
-<span data-ttu-id="00a70-127">請求マイルストーンをレビューするには、**営業**\>**請求書**\>**固定価格のマイルストーン** の順に移動します。</span><span class="sxs-lookup"><span data-stu-id="00a70-127">To review billing milestones, go to **Sales** \> **Billing** \> **Fixed Price Milestones**.</span></span> <span data-ttu-id="00a70-128">請求準備完了となっているマイルストーンを選択して、**請求準備完了** を選択します。</span><span class="sxs-lookup"><span data-stu-id="00a70-128">Select the milestones that are ready to be invoiced, and then select **Ready to invoice**.</span></span> <span data-ttu-id="00a70-129">これらのマイルストーンの請求の状態は **請求準備完了** に変更されます。</span><span class="sxs-lookup"><span data-stu-id="00a70-129">The billing status of these milestones is changed to **Ready to Invoice**.</span></span>
+<span data-ttu-id="dd0f1-127">請求マイルストーンをレビューするには、**営業**\>**請求書**\>**固定価格のマイルストーン** の順に移動します。</span><span class="sxs-lookup"><span data-stu-id="dd0f1-127">To review billing milestones, go to **Sales** \> **Billing** \> **Fixed Price Milestones**.</span></span> <span data-ttu-id="dd0f1-128">請求準備完了となっているマイルストーンを選択して、**請求準備完了** を選択します。</span><span class="sxs-lookup"><span data-stu-id="dd0f1-128">Select the milestones that are ready to be invoiced, and then select **Ready to invoice**.</span></span> <span data-ttu-id="dd0f1-129">これらのマイルストーンの請求の状態は **請求準備完了** に変更されます。</span><span class="sxs-lookup"><span data-stu-id="dd0f1-129">The billing status of these milestones is changed to **Ready to Invoice**.</span></span>
 
 ![固定価格マイルストーン](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

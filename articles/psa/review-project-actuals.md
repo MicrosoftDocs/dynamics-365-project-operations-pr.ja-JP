@@ -18,20 +18,23 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4fc47760fef67dd88bec82df3d69cb41771bfcc3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 68d940790a33b22bf7dd8bc663dcea61264b082e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146849"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282744"
 ---
-# <a name="review-project-actuals-project-service"></a><span data-ttu-id="d69f3-103">プロジェクトの成果を確認 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="d69f3-103">Review project actuals (Project Service)</span></span>
+# <a name="review-project-actuals-project-service"></a><span data-ttu-id="467d7-103">プロジェクトの成果を確認 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="467d7-103">Review project actuals (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="d69f3-104">プロジェクトの実績に移動し、コストおよび時間に対する未請求売上が正しい売上と正しいコストに対して記録されていること、および **契約** および **リソース単位** が実績に正しく記録されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="d69f3-104">Navigate to project actuals and make sure that cost and unbilled sales for time are logged for the correct sales and cost prices and that the **Contracting** and **Resourcing Units** are recorded correctly on the actuals.</span></span>  
+<span data-ttu-id="467d7-104">プロジェクトの実績に移動し、コストおよび時間に対する未請求売上が正しい売上と正しいコストに対して記録されていること、および **契約** および **リソース単位** が実績に正しく記録されていることを確認します。</span><span class="sxs-lookup"><span data-stu-id="467d7-104">Navigate to project actuals and make sure that cost and unbilled sales for time are logged for the correct sales and cost prices and that the **Contracting** and **Resourcing Units** are recorded correctly on the actuals.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="d69f3-105">関連項目</span><span class="sxs-lookup"><span data-stu-id="d69f3-105">See Also</span></span>  
- [<span data-ttu-id="d69f3-106">プロジェクト管理者ガイド</span><span class="sxs-lookup"><span data-stu-id="d69f3-106">Project manager guide</span></span>](../psa/project-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="467d7-105">関連項目</span><span class="sxs-lookup"><span data-stu-id="467d7-105">See Also</span></span>  
+ [<span data-ttu-id="467d7-106">プロジェクト管理者ガイド</span><span class="sxs-lookup"><span data-stu-id="467d7-106">Project manager guide</span></span>](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
