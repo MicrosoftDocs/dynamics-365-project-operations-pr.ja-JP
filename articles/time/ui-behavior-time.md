@@ -3,17 +3,17 @@ title: 時間エントリ の UI の動作
 description: このトピックでは、時間エントリの UI の動作について説明します。
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124509"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499620"
 ---
 # <a name="time-entry-ui-behavior"></a>時間エントリ の UI の動作
 
@@ -21,6 +21,19 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 
 **週単位の時間エントリ** グリッドは、2 つのメイン セクション、**ディメンション** および **期間** を持つ カスタム コントロールです。
+
+## <a name="keyboard-shortcuts"></a>キーボード ショートカット
+| 操作​​        | ショートカット                  |
+|------------   |------------------------   |
+| 新しい           | Alt + Shift + n           |
+| 行のコピー      | Alt + Shift + c           |
+| エントリの編集    | Alt + Shift + e           |
+| 行の編集      | Alt + Shift + Ctrl + e    |
+| エントリを開く    | Alt + Shift + o           |
+| 提出​​        | Alt + Shift + s           |
+| 取り消し        | Alt + Shift + r           |
+| Delete キー        | Alt + Shift + d           |
+| 週のコピー     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>ディメンション
 **ディメンション** セクションには、時間を入力できるディメンションが表示されます。 次のディメンションは、標準でサポートされています。
@@ -40,7 +53,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 1. 時間エントリ グリッドで、**新規** を選択します。 
 2. **時間入力簡易作成フォーム** ダイアログ ボックスで、時間エントリ日付を選択します。
-3. **プロジェクト** のデータ、**プロジェクトのタスク**、**ロール**、および **期間** のディメンションを入力します。 この情報は、数値と共に **h**、**m**、または **d** を入力して、分、時、または日単位で追加される必要があります。 
+3. **プロジェクト** のデータ、**プロジェクトのタスク**、**ロール**、および **期間** のディメンションを入力します。 この情報は、時、分、日付を **h**、**m**、**d** の形式で、数値と共に追加する必要があります。 
 4. エントリの説明および時間エントリに関連して外部に共有できるコメントを入力します。 
 
 エントリを保存した場合、入力した値は **ディメンション** セクションに表示されます。 **期間** フィールドに入力した情報は、時間エントリの作成対象の日付に表示されます。

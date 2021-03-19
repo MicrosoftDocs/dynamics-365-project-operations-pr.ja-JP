@@ -1,5 +1,5 @@
 ---
-title: OCR を使用した領収書と経費の照合
+title: OCR を使用して領収書を取り込む
 description: このトピックでは、領収書の光学式文字認識 (OCR) 処理に関する説明をします。
 author: suvaidya
 manager: AnnBe
@@ -15,14 +15,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 55f63c8c092942b73a55c9d86d867bca600f42e5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124329"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499857"
 ---
-# <a name="match-a-receipt-to-an-expense-using-ocr"></a>OCR を使用した領収書と経費の照合
+# <a name="capture-a-receipt-using-ocr"></a>OCR を使用して領収書を取り込む
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 

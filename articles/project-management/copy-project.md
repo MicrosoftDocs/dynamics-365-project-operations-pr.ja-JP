@@ -1,27 +1,27 @@
 ---
 title: プロジェクトのコピー
-description: このトピックでは、Dynamics 365 Project Operations でのプロジェクトのコピーについて説明します。
+description: このトピックでは、Dynamics 365 Project Operations のプロジェクトのコピーについて説明します。
 author: ruhercul
 manager: AnnBe
-ms.date: 10/07/2020
+ms.date: 02/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 53c72e5fd680eb28128644788752368705440445
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131799"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479525"
 ---
 # <a name="copy-a-project"></a>プロジェクトのコピー
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-Dynamics 365 Project Operations を使用すると、**プロジェクト** フォームの **プロジェクトのコピー** を選択して新しいプロジェクトをすばやく構築できます。 プロジェクトをコピーするには、コピーするプロジェクトを開き、**プロジェクトのコピー** を選択します。 操作は以下をコピーします:
+Dynamics 365 Project Operations では、**プロジェクト** フォームで **プロジェクトのコピー** を選択することで新しいプロジェクトをすばやく構築できます。 プロジェクトをコピーするには、コピーするプロジェクトを開き、**プロジェクトのコピー** を選択します。 操作は以下をコピーします:
 
-- プロジェクト プロパティ
+- プロジェクトのプロパティ (推定開始日はソース プロジェクトからコピーされます)
 - WBS(作業分解構造)
 - プロジェクト チーム メンバー
 - プロジェクト見積もり

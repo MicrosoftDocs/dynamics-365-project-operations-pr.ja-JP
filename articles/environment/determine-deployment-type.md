@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e9d3a5d8e6e1daafac72a3b4c0380b679d1869bd
-ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4401224"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479570"
 ---
 # <a name="determine-your-deployment-type"></a>展開の種類を決定する
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
 > [!IMPORTANT]
-> ライセンスを購入した後、ここから開始して、[ガイド付きインストール フロー](https://aka.ms/provisionprojectoperations) を使用し Dynamics 365 Project Operations の最適な展開モデルを決定します。
+> ライセンスを購入したら、[ガイド付きインストール フロー](https://aka.ms/provisionprojectoperations) を使って、ここから Dynamics 365 Project Operations の最適な展開モデルを決定します。
 > ガイド付きインストール フローを終了した後、正しい管理ポータルに移動してインストールを完了します。 展開の詳細を参照して、インストールを完了します。
 
 
@@ -32,8 +32,11 @@ Project Operations には、Project Service Automation に付属する機能が�
 プロジェクト管理および会計機能を使用する財務の既存のお客様は、そのままご利用いただけます。 [在庫/製造オーダー シナリオ向け Project Operations](#pma) を参照してください。
 
 
-## <a name="deployment-types"></a>展開の種類
-Project Operations は、要件に合った複数の展開オプションをサポートします。 新規または既存の Dynamics 365 の顧客のいずれの場合でも、Project Operations はニーズにあわせた対応ができます。
+## <a name="deployment-regions"></a>展開リージョン
+Project Operations の展開をサポートするリージョンを決定するには、[Dynamics 365 および Power Platform レポートの地域的利用可能性](https://dynamics.microsoft.com/en-us/geographic-availability/) を参照してください。 **レポートを見る** を選択して、**Dynamics 365 > オペレーション アプリ > Dynamics 365 Project Operations** を展開して、サポートされているリージョンを表示します。
+
+## <a name="deployment-types"></a>展開タイプ
+Project Operations では、要件に合わせて複数の展開オプションがサポートされます。 新規または既存の Dynamics 365 の顧客のいずれの場合でも、Project Operations はニーズにあわせた対応ができます。
 
 [展開アンケート](https://aka.ms/provisionprojectoperations) は、適切な展開を決定するのに役立ちます。 結果により、次のいずれかの展開の種類にガイドされます。
 
