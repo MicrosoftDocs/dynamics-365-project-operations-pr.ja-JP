@@ -17,69 +17,72 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0383607a07def6c21562bf4b0893fe3ce3db6a04
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7cc9ee9de576549c132e14c333a1000c22a55236
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079250"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288925"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a><span data-ttu-id="5fcb0-103">Project Service Automation から Finance and Operations へのプロジェクト タスクの直接同期</span><span class="sxs-lookup"><span data-stu-id="5fcb0-103">Synchronize project tasks directly from Project Service Automation to Finance and Operations</span></span>
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a><span data-ttu-id="183e7-103">Project Service Automation から Finance and Operations へのプロジェクト タスクの直接同期</span><span class="sxs-lookup"><span data-stu-id="183e7-103">Synchronize project tasks directly from Project Service Automation to Finance and Operations</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="5fcb0-104">このトピックは、Dynamics 365 Project Service Automation から Dynamics 365 Finance へプロジェクト タスクを直接同期するために使用されるテンプレートと基礎となるタスクについて説明しています。</span><span class="sxs-lookup"><span data-stu-id="5fcb0-104">This topic describes the template and underlying task that are used to synchronize project tasks directly from Dynamics 365 Project Service Automation to Dynamics 365 Finance.</span></span>
+<span data-ttu-id="183e7-104">このトピックは、Dynamics 365 Project Service Automation から Dynamics 365 Finance へプロジェクト タスクを直接同期するために使用されるテンプレートと基礎となるタスクについて説明しています。</span><span class="sxs-lookup"><span data-stu-id="183e7-104">This topic describes the template and underlying task that are used to synchronize project tasks directly from Dynamics 365 Project Service Automation to Dynamics 365 Finance.</span></span>
 
 > [!NOTE]
-> - <span data-ttu-id="5fcb0-105">プロジェクト タスクの統合、経費トランザクション カテゴリ、時間の見積もり、経費の見積もり、および機能のロックはバージョン 8.0 で使用可能です。</span><span class="sxs-lookup"><span data-stu-id="5fcb0-105">Project task integration, expense transaction categories, hour estimates, expense estimates, and functionality locking are available in version 8.0.</span></span>
-> - <span data-ttu-id="5fcb0-106">KB 4132657 および KB 4132660 をインストールした後で、Enterprise Edition 7.3.0 を使用している場合は、テンプレートを使用して、プロジェクト タスク、経費トランザクション カテゴリ、時間見積もり、経費見積もり、および実績を統合して機能ロックを設定できます。</span><span class="sxs-lookup"><span data-stu-id="5fcb0-106">If you're using Enterprise edition 7.3.0, after you install KB 4132657 and KB 4132660, you will be able to use the templates to integrate project tasks, expense transaction categories, hour estimates, expense estimates, and actuals, and to configure functionality locking.</span></span> <span data-ttu-id="5fcb0-107">勘定配布をリセットする必要がある場合は、サポート情報 4131710 をインストールすることもお勧めします。</span><span class="sxs-lookup"><span data-stu-id="5fcb0-107">If you must reset the accounting distributions, we recommended that you also install KB 4131710.</span></span>
-> - <span data-ttu-id="5fcb0-108">実績の統合は、バージョン 8.0.1 以降で使用できます。</span><span class="sxs-lookup"><span data-stu-id="5fcb0-108">Actuals integration is available in version 8.0.1 or later.</span></span>
+> - <span data-ttu-id="183e7-105">プロジェクト タスクの統合、経費トランザクション カテゴリ、時間の見積もり、経費の見積もり、および機能のロックはバージョン 8.0 で使用可能です。</span><span class="sxs-lookup"><span data-stu-id="183e7-105">Project task integration, expense transaction categories, hour estimates, expense estimates, and functionality locking are available in version 8.0.</span></span>
+> - <span data-ttu-id="183e7-106">KB 4132657 および KB 4132660 をインストールした後で、Enterprise Edition 7.3.0 を使用している場合は、テンプレートを使用して、プロジェクト タスク、経費トランザクション カテゴリ、時間見積もり、経費見積もり、および実績を統合して機能ロックを設定できます。</span><span class="sxs-lookup"><span data-stu-id="183e7-106">If you're using Enterprise edition 7.3.0, after you install KB 4132657 and KB 4132660, you will be able to use the templates to integrate project tasks, expense transaction categories, hour estimates, expense estimates, and actuals, and to configure functionality locking.</span></span> <span data-ttu-id="183e7-107">勘定配布をリセットする必要がある場合は、サポート情報 4131710 をインストールすることもお勧めします。</span><span class="sxs-lookup"><span data-stu-id="183e7-107">If you must reset the accounting distributions, we recommended that you also install KB 4131710.</span></span>
+> - <span data-ttu-id="183e7-108">実績の統合は、バージョン 8.0.1 以降で使用できます。</span><span class="sxs-lookup"><span data-stu-id="183e7-108">Actuals integration is available in version 8.0.1 or later.</span></span>
 
-## <a name="data-flow-for-project-service-automation-to-finance"></a><span data-ttu-id="5fcb0-109">Project Service Automation から Finance へのデータ フロー</span><span class="sxs-lookup"><span data-stu-id="5fcb0-109">Data flow for Project Service Automation to Finance</span></span>
+## <a name="data-flow-for-project-service-automation-to-finance"></a><span data-ttu-id="183e7-109">Project Service Automation から Finance へのデータ フロー</span><span class="sxs-lookup"><span data-stu-id="183e7-109">Data flow for Project Service Automation to Finance</span></span>
 
-<span data-ttu-id="5fcb0-110">Project Service Automation から Finance への統合ソリューションは、データ統合機能を使用して、Project Service Automation および Finance のインスタンス間でデータを同期します。</span><span class="sxs-lookup"><span data-stu-id="5fcb0-110">The Project Service Automation to Finance integration solution uses the Data integration feature to synchronize data across instances of Project Service Automation and Finance.</span></span> <span data-ttu-id="5fcb0-111">データ統合機能で使用可能な統合テンプレートを使用すると、Project Service Automation から Finance へのプロジェクト タスクに関するデータ フローが可能になります。</span><span class="sxs-lookup"><span data-stu-id="5fcb0-111">The integration template that is available with the Data integration feature enables the flow of data about project tasks from Project Service Automation to Finance.</span></span>
+<span data-ttu-id="183e7-110">Project Service Automation から Finance への統合ソリューションは、データ統合機能を使用して、Project Service Automation および Finance のインスタンス間でデータを同期します。</span><span class="sxs-lookup"><span data-stu-id="183e7-110">The Project Service Automation to Finance integration solution uses the Data integration feature to synchronize data across instances of Project Service Automation and Finance.</span></span> <span data-ttu-id="183e7-111">データ統合機能で使用可能な統合テンプレートを使用すると、Project Service Automation から Finance へのプロジェクト タスクに関するデータ フローが可能になります。</span><span class="sxs-lookup"><span data-stu-id="183e7-111">The integration template that is available with the Data integration feature enables the flow of data about project tasks from Project Service Automation to Finance.</span></span>
 
-<span data-ttu-id="5fcb0-112">次の図は、Project Service Automation と Finance 間でデータを同期する方法を示します。</span><span class="sxs-lookup"><span data-stu-id="5fcb0-112">The following illustration shows how the data is synchronized between Project Service Automation and Finance.</span></span>
+<span data-ttu-id="183e7-112">次の図は、Project Service Automation と Finance 間でデータを同期する方法を示します。</span><span class="sxs-lookup"><span data-stu-id="183e7-112">The following illustration shows how the data is synchronized between Project Service Automation and Finance.</span></span>
 
-<span data-ttu-id="5fcb0-113">[![Project Service Automation と Finance の統合用データ フロー](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)</span><span class="sxs-lookup"><span data-stu-id="5fcb0-113">[![Data flow for Project Service Automation integration with Finance](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)</span></span>
+<span data-ttu-id="183e7-113">[![Project Service Automation と Finance の統合用データ フロー](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)</span><span class="sxs-lookup"><span data-stu-id="183e7-113">[![Data flow for Project Service Automation integration with Finance](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)</span></span>
 
-## <a name="template-and-task"></a><span data-ttu-id="5fcb0-114">テンプレートとタスク</span><span class="sxs-lookup"><span data-stu-id="5fcb0-114">Template and task</span></span>
+## <a name="template-and-task"></a><span data-ttu-id="183e7-114">テンプレートとタスク</span><span class="sxs-lookup"><span data-stu-id="183e7-114">Template and task</span></span>
 
-<span data-ttu-id="5fcb0-115">テンプレートにアクセスするには、Microsoft Power Apps 管理センターで、 **プロジェクト** を選択してから、右上隅で **新しいプロジェクト** を選択して公開テンプレートを選択します。</span><span class="sxs-lookup"><span data-stu-id="5fcb0-115">To access the template, in the Microsoft Power Apps admin center, select **Projects** , and then, in the upper-right corner, select **New project** to select public templates.</span></span>
+<span data-ttu-id="183e7-115">テンプレートにアクセスするには、Microsoft Power Apps 管理センターで、**プロジェクト** を選択してから、右上隅で **新しいプロジェクト** を選択して公開テンプレートを選択します。</span><span class="sxs-lookup"><span data-stu-id="183e7-115">To access the template, in the Microsoft Power Apps admin center, select **Projects**, and then, in the upper-right corner, select **New project** to select public templates.</span></span>
 
-<span data-ttu-id="5fcb0-116">以下のテンプレートおよび基礎となるタスクは、Project Service Automation から Finance へプロジェクト タスクを同期するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="5fcb0-116">The following template and underlying task are used to synchronize project tasks from Project Service Automation to Finance:</span></span>
+<span data-ttu-id="183e7-116">以下のテンプレートおよび基礎となるタスクは、Project Service Automation から Finance へプロジェクト タスクを同期するために使用されます。</span><span class="sxs-lookup"><span data-stu-id="183e7-116">The following template and underlying task are used to synchronize project tasks from Project Service Automation to Finance:</span></span>
 
-- <span data-ttu-id="5fcb0-117">**データ統合のテンプレートの名前:** プロジェクト タスク (PSA から Finance and Operation へ)</span><span class="sxs-lookup"><span data-stu-id="5fcb0-117">**Name of the template in Data integration:** Project tasks (PSA to Fin and Ops)</span></span>
-- <span data-ttu-id="5fcb0-118">**プロジェクトのタスクの名前:** プロジェクト タスク</span><span class="sxs-lookup"><span data-stu-id="5fcb0-118">**Name of the task in the project:** Project tasks</span></span>
+- <span data-ttu-id="183e7-117">**データ統合のテンプレートの名前:** プロジェクト タスク (PSA から Finance and Operation へ)</span><span class="sxs-lookup"><span data-stu-id="183e7-117">**Name of the template in Data integration:** Project tasks (PSA to Fin and Ops)</span></span>
+- <span data-ttu-id="183e7-118">**プロジェクトのタスクの名前:** プロジェクト タスク</span><span class="sxs-lookup"><span data-stu-id="183e7-118">**Name of the task in the project:** Project tasks</span></span>
 
-<span data-ttu-id="5fcb0-119">プロジェクト タスクの同期を行う前に、プロジェクト契約とプロジェクトを同期する必要があります。</span><span class="sxs-lookup"><span data-stu-id="5fcb0-119">Before synchronization of project tasks can occur, you must synchronize project contracts and projects.</span></span>
+<span data-ttu-id="183e7-119">プロジェクト タスクの同期を行う前に、プロジェクト契約とプロジェクトを同期する必要があります。</span><span class="sxs-lookup"><span data-stu-id="183e7-119">Before synchronization of project tasks can occur, you must synchronize project contracts and projects.</span></span>
 
-## <a name="entity-set"></a><span data-ttu-id="5fcb0-120">エンティティ セット</span><span class="sxs-lookup"><span data-stu-id="5fcb0-120">Entity set</span></span>
+## <a name="entity-set"></a><span data-ttu-id="183e7-120">エンティティ セット</span><span class="sxs-lookup"><span data-stu-id="183e7-120">Entity set</span></span>
 
-| <span data-ttu-id="5fcb0-121">Project Service Automation</span><span class="sxs-lookup"><span data-stu-id="5fcb0-121">Project Service Automation</span></span> | <span data-ttu-id="5fcb0-122">財務</span><span class="sxs-lookup"><span data-stu-id="5fcb0-122">Finance</span></span>                             |
+| <span data-ttu-id="183e7-121">Project Service Automation</span><span class="sxs-lookup"><span data-stu-id="183e7-121">Project Service Automation</span></span> | <span data-ttu-id="183e7-122">財務</span><span class="sxs-lookup"><span data-stu-id="183e7-122">Finance</span></span>                             |
 |----------------------------|-------------------------------------|
-| <span data-ttu-id="5fcb0-123">プロジェクト タスク</span><span class="sxs-lookup"><span data-stu-id="5fcb0-123">Project Tasks</span></span>              | <span data-ttu-id="5fcb0-124">プロジェクト タスクの統合エンティティ</span><span class="sxs-lookup"><span data-stu-id="5fcb0-124">Integration entity for project task</span></span> |
+| <span data-ttu-id="183e7-123">プロジェクト タスク</span><span class="sxs-lookup"><span data-stu-id="183e7-123">Project Tasks</span></span>              | <span data-ttu-id="183e7-124">プロジェクト タスクの統合エンティティ</span><span class="sxs-lookup"><span data-stu-id="183e7-124">Integration entity for project task</span></span> |
 
-## <a name="entity-flow"></a><span data-ttu-id="5fcb0-125">エンティティ フロー</span><span class="sxs-lookup"><span data-stu-id="5fcb0-125">Entity flow</span></span>
+## <a name="entity-flow"></a><span data-ttu-id="183e7-125">エンティティ フロー</span><span class="sxs-lookup"><span data-stu-id="183e7-125">Entity flow</span></span>
 
-<span data-ttu-id="5fcb0-126">プロジェクト タスクは Project Service Automation で管理され、プロジェクト活動として Finance に同期されます。</span><span class="sxs-lookup"><span data-stu-id="5fcb0-126">Project tasks are managed in Project Service Automation, and they are synchronized to Finance as project activities.</span></span>
+<span data-ttu-id="183e7-126">プロジェクト タスクは Project Service Automation で管理され、プロジェクト活動として Finance に同期されます。</span><span class="sxs-lookup"><span data-stu-id="183e7-126">Project tasks are managed in Project Service Automation, and they are synchronized to Finance as project activities.</span></span>
 
-## <a name="prerequisites-and-mapping-setup"></a><span data-ttu-id="5fcb0-127">前提条件とマッピングの設定</span><span class="sxs-lookup"><span data-stu-id="5fcb0-127">Prerequisites and mapping setup</span></span>
+## <a name="prerequisites-and-mapping-setup"></a><span data-ttu-id="183e7-127">前提条件とマッピングの設定</span><span class="sxs-lookup"><span data-stu-id="183e7-127">Prerequisites and mapping setup</span></span>
 
-<span data-ttu-id="5fcb0-128">プロジェクト タスクの同期を行う前に、プロジェクト契約とプロジェクトを同期する必要があります。</span><span class="sxs-lookup"><span data-stu-id="5fcb0-128">Before synchronization of project tasks can occur, you must synchronize project contracts and projects.</span></span>
+<span data-ttu-id="183e7-128">プロジェクト タスクの同期を行う前に、プロジェクト契約とプロジェクトを同期する必要があります。</span><span class="sxs-lookup"><span data-stu-id="183e7-128">Before synchronization of project tasks can occur, you must synchronize project contracts and projects.</span></span>
 
-## <a name="power-query"></a><span data-ttu-id="5fcb0-129">Power Query</span><span class="sxs-lookup"><span data-stu-id="5fcb0-129">Power Query</span></span>
+## <a name="power-query"></a><span data-ttu-id="183e7-129">Power Query</span><span class="sxs-lookup"><span data-stu-id="183e7-129">Power Query</span></span>
 
-<span data-ttu-id="5fcb0-130">この条件が満たされている場合、Microsoft Power Query for Excel を使用してデータをフィルター処理する必要があります。</span><span class="sxs-lookup"><span data-stu-id="5fcb0-130">You must use Microsoft Power Query for Excel to filter data if this condition is met:</span></span>
+<span data-ttu-id="183e7-130">この条件が満たされている場合、Microsoft Power Query for Excel を使用してデータをフィルター処理する必要があります。</span><span class="sxs-lookup"><span data-stu-id="183e7-130">You must use Microsoft Power Query for Excel to filter data if this condition is met:</span></span>
 
-- <span data-ttu-id="5fcb0-131">プロジェクト タスクにリソース固有のレコードがあります。</span><span class="sxs-lookup"><span data-stu-id="5fcb0-131">You have resource-specific records in a project task.</span></span>
+- <span data-ttu-id="183e7-131">プロジェクト タスクにリソース固有のレコードがあります。</span><span class="sxs-lookup"><span data-stu-id="183e7-131">You have resource-specific records in a project task.</span></span>
 
-<span data-ttu-id="5fcb0-132">Power Query を使用する必要がある場合は、このガイドラインに従ってください。</span><span class="sxs-lookup"><span data-stu-id="5fcb0-132">If you must use Power Query, follow this guideline:</span></span>
+<span data-ttu-id="183e7-132">Power Query を使用する必要がある場合は、このガイドラインに従ってください。</span><span class="sxs-lookup"><span data-stu-id="183e7-132">If you must use Power Query, follow this guideline:</span></span>
 
-- <span data-ttu-id="5fcb0-133">プロジェクト タスク (PSA から Finance and Operation へ) テンプレートには、フィルターを **IsLineTask** から **False** に設定することで、プロジェクト タスクからリソース固有のレコードを除外する既定のフィルターがあります。</span><span class="sxs-lookup"><span data-stu-id="5fcb0-133">The Project tasks (PSA to Fin and Ops) template has a default filter that excludes resource-specific records from a project task by setting the filter on **IsLineTask** to **False**.</span></span> <span data-ttu-id="5fcb0-134">独自のテンプレートを作成する場合は、このフィルターを追加する必要があります。</span><span class="sxs-lookup"><span data-stu-id="5fcb0-134">If you create your own template, you must add this filter.</span></span>
+- <span data-ttu-id="183e7-133">プロジェクト タスク (PSA から Finance and Operation へ) テンプレートには、フィルターを **IsLineTask** から **False** に設定することで、プロジェクト タスクからリソース固有のレコードを除外する既定のフィルターがあります。</span><span class="sxs-lookup"><span data-stu-id="183e7-133">The Project tasks (PSA to Fin and Ops) template has a default filter that excludes resource-specific records from a project task by setting the filter on **IsLineTask** to **False**.</span></span> <span data-ttu-id="183e7-134">独自のテンプレートを作成する場合は、このフィルターを追加する必要があります。</span><span class="sxs-lookup"><span data-stu-id="183e7-134">If you create your own template, you must add this filter.</span></span>
 
-## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="5fcb0-135">データ統合におけるテンプレート マッピング</span><span class="sxs-lookup"><span data-stu-id="5fcb0-135">Template mapping in Data integration</span></span>
+## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="183e7-135">データ統合におけるテンプレート マッピング</span><span class="sxs-lookup"><span data-stu-id="183e7-135">Template mapping in Data integration</span></span>
 
-<span data-ttu-id="5fcb0-136">次の図は、データ統合のテンプレート タスク マッピングの例を示しています。</span><span class="sxs-lookup"><span data-stu-id="5fcb0-136">The following illustration shows an example of the template task mappings in Data integration.</span></span> <span data-ttu-id="5fcb0-137">マッピングには、Project Service Automation から Finance に同期されるフィールド情報が表示されます。</span><span class="sxs-lookup"><span data-stu-id="5fcb0-137">The mapping shows the field information that will be synchronized from Project Service Automation to Finance.</span></span>
+<span data-ttu-id="183e7-136">次の図は、データ統合のテンプレート タスク マッピングの例を示しています。</span><span class="sxs-lookup"><span data-stu-id="183e7-136">The following illustration shows an example of the template task mappings in Data integration.</span></span> <span data-ttu-id="183e7-137">マッピングには、Project Service Automation から Finance に同期されるフィールド情報が表示されます。</span><span class="sxs-lookup"><span data-stu-id="183e7-137">The mapping shows the field information that will be synchronized from Project Service Automation to Finance.</span></span>
 
-<span data-ttu-id="5fcb0-138">[![テンプレート マッピング](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)</span><span class="sxs-lookup"><span data-stu-id="5fcb0-138">[![Template mapping](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)</span></span>
+<span data-ttu-id="183e7-138">[![テンプレート マッピング](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)</span><span class="sxs-lookup"><span data-stu-id="183e7-138">[![Template mapping](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
