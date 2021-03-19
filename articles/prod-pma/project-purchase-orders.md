@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd891aec5bcab66c5801a5d9ca8abbbf632d662d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5f3f5d196e0d7db4a6d8c4cfe834a335f4ef737c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079256"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289195"
 ---
 # <a name="purchase-orders-for-a-project"></a>プロジェクトの発注書
 
@@ -54,7 +54,7 @@ ms.locfileid: "4079256"
 <td>このメソッドを使用して、プロジェクトで消費するために外部仕入先からアイテムを購入します。 発注書は 2 日で作成できます。
 <ul>
 <li>プロジェクト自体から。 この場合、プロジェクトは発注書に対してすでに定義されています。</li>
-<li>プロジェクト発注書に移動して。 発注書を作成するには、仕入先とプロジェクトの両方を選択する必要があります。</li>
+<li>プロジェクトの発注書に移動する。 仕入先とプロジェクトの両方を選択して、発注書を作成する必要があります。</li>
 </ul></td>
 <td>品目はベンダー請求書が更新されるときに消費されます。</td>
 </tr>

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: ed7ca3c85d3f99b7eefe10f4ddec822b9aeb1684
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 4abb7fe6554825b97df4cc04ee1b02d731cb4af9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079407"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289645"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>プロジェクト経費カテゴリを Finance and Operations と Project Service Automation 間で同期する
 
@@ -48,7 +48,7 @@ Project Service Automation と Finance の統合ソリューションは、デ�
 >
 > 最初に Project Service Automation から同期する場合、同期を実行する前に、Finance で次の要件を満たしている必要があります。
 >
-> - Project Service Automation で設定されているプロジェクト カテゴリと一致する共有カテゴリが存在し、 **プロジェクト** と **経費** の両方で有効になっている必要があります。
+> - Project Service Automation で設定されているプロジェクト カテゴリと一致する共有カテゴリが存在し、**プロジェクト** と **経費** の両方で有効になっている必要があります。
 > - 統合する必要がある Finance の法人ごとに、次のプロジェクト カテゴリが存在する必要があります。
 >
 >     - **プロジェクト カテゴリー** は存在します。 
@@ -64,7 +64,7 @@ Project Service Automation と Finance の統合ソリューションは、デ�
 
 ### <a name="template-and-task"></a>テンプレートとタスク
 
-テンプレートにアクセスするには、Microsoft Power Apps 管理センターで、 **プロジェクト** を選択してから、右上隅で **新しいプロジェクト** を選択して公開テンプレートを選択します。
+テンプレートにアクセスするには、Microsoft Power Apps 管理センターで、**プロジェクト** を選択してから、右上隅で **新しいプロジェクト** を選択して公開テンプレートを選択します。
 
 以下のテンプレートおよび基礎となるタスクは、Finance から Project Service Automation へプロジェクト経費カテゴリを同期するために使用されます。
 
@@ -89,7 +89,7 @@ Project Service Automation に同期する場合は、Microsoft Power Query for 
 2. **高度なクエリとフィルター処理** リンクをクリックして、Power Query を開きます。
 2. **条件付き列を追加** を選択します。
 3. **BillingType** などの新しい列の名前を入力します。
-4. 次の条件を入力します: **CATEGORYID が null と等しくない場合は 19235001、そうでない場合は null** 。
+4. 次の条件を入力します: **CATEGORYID が null と等しくない場合は 19235001、そうでない場合は null**。
 5. 列で **OK** をクリックします。
 6. この新しい列をマッピング ページに必ずマッピングしてください。
 

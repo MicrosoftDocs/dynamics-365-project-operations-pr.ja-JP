@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079400"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289690"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Finance and Operations に転記するため、プロジェクトの実績を Project Service Automation から直接プロジェクト総合ジャーナルへ同期する
 
@@ -50,7 +50,7 @@ Project Service Automation から Finance への統合ソリューションは�
 
 ### <a name="template-and-tasks"></a>テンプレートとタスク
 
-利用可能なテンプレートにアクセスするには、Microsoft Power Apps 管理センターで、 **プロジェクト** を選択してから、右上隅で **新しいプロジェクト** を選択して公開テンプレートを選択します。
+利用可能なテンプレートにアクセスするには、Microsoft Power Apps 管理センターで、**プロジェクト** を選択してから、右上隅で **新しいプロジェクト** を選択して公開テンプレートを選択します。
 
 以下のテンプレートおよび基礎となるタスクは、Project Service Automation から Finance へプロジェクトの実績を同期するために使用されます。
 
@@ -80,16 +80,16 @@ Project Service Automation から Finance への統合ソリューションは�
 プロジェクトの実績テンプレートでは、Microsoft Power Query for Excel を使用して次のタスクを完了する必要があります。
 
 - Project Service Automation のトランザクション タイプを、Finance の正しいトランザクション タイプに変換します。 この変換は、プロジェクト実績 (PSA から Fin および Ops へ) テンプレートですでに定義されています。
-- Project Service Automation の請求タイプを、Finance の正しい請求タイプに変換します。 この変換は、プロジェクト実績 (PSA から Fin および Ops へ) テンプレートですでに定義されています。 次に、請求タイプは明細行プロパティにマップされ、 **Project Service Automation 統合パラメーター** ページの設定に基づきます。
+- Project Service Automation の請求タイプを、Finance の正しい請求タイプに変換します。 この変換は、プロジェクト実績 (PSA から Fin および Ops へ) テンプレートですでに定義されています。 次に、請求タイプは明細行プロパティにマップされ、**Project Service Automation 統合パラメーター** ページの設定に基づきます。
 - このテンプレートと同期する必要がある特定のリソース組織単位にフィルターします。
 - 会社間の時間または会社間の費用の実績が Finance に同期される場合は、契約組織単位を Finance の正しい法人に変換する必要があります。 プロジェクト実績 (PSA から Fin および Ops へ) テンプレートでは、条件付きの列がデモ データに基づいて定義されています。 最後に挿入された条件付き列を正しい法人に更新する必要があります。 そうしないと、統合エラーが発生するか、または誤った実際のトランザクションが Finance にインポートされる可能性があります。
 - 会社間の時間または会社間の費用の実績が Finance に同期されない場合は、最後に挿入された条件付き列をテンプレートから削除する必要があります。 そうしないと、統合エラーが発生するか、または誤った実際のトランザクションが Finance にインポートされる可能性があります。
 
 #### <a name="contract-organizational-unit"></a>契約組織の単位
-テンプレートで挿入された条件付き列を更新するには、 **マップ** 矢印をクリックしてマッピングを開きます。 **高度なクエリとフィルター処理** リンクを選択し、Power Query を開きます。
+テンプレートで挿入された条件付き列を更新するには、**マップ** 矢印をクリックしてマッピングを開きます。 **高度なクエリとフィルター処理** リンクを選択し、Power Query を開きます。
 
-- 既定のプロジェクト実績 (PSA から Fin と Ops へ) テンプレートを使用している場合は、Power Query で、 **適用したステップ** セクションから最後に **挿入した条件** を選択します。 **関数** エントリで、 **USSI** を統合で使用する法人名に置き換えます。 必要に応じて、条件を **関数** にエントリに追加し、 **USMF** から正しい法人に **他の** 条件を更新します。
-- 新しいテンプレートを作成する場合は、会社間の時間と費用をサポートするために列を追加する必要があります。 **条件列の追加** を選択し、 **LegalEntity** などの列の名前を入力します。 列の条件 **msdyn\_contractorganizationalunitid.msdyn\_name** is \<organizational unit\>, then \<enter the legal entity\>; else null を入力します。
+- 既定のプロジェクト実績 (PSA から Fin と Ops へ) テンプレートを使用している場合は、Power Query で、**適用したステップ** セクションから最後に **挿入した条件** を選択します。 **関数** エントリで、**USSI** を統合で使用する法人名に置き換えます。 必要に応じて、条件を **関数** にエントリに追加し、**USMF** から正しい法人に **他の** 条件を更新します。
+- 新しいテンプレートを作成する場合は、会社間の時間と費用をサポートするために列を追加する必要があります。 **条件列の追加** を選択し、**LegalEntity** などの列の名前を入力します。 列の条件 **msdyn\_contractorganizationalunitid.msdyn\_name** is \<organizational unit\>, then \<enter the legal entity\>; else null を入力します。
 
 ### <a name="template-mapping-in-data-integration"></a>データ統合におけるテンプレート マッピング
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122349"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287739"
 ---
 # <a name="manage-the-billing-backlog"></a>請求バックログを管理する
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-Dynamics 365 Project Operations には、請求バックログの操作と管理に役立つ 2 つの専用ビューがあります。 これらは、**固定価格マイルストーン** と **時間と材料の請求バックログ** です。ビューを選択するには、Project Operations の **営業** 領域の左側のナビゲーション・ページで、**請求** を選択します。 請求バックログのリンクはそこに保存されます。
+Dynamics 365 Project Operations には、請求バックログの処理と管理に役立つ専用のビューが 2 つあります。 これらは、**固定価格マイルストーン** と **時間と材料の請求バックログ** です。ビューを選択するには、Project Operations の **営業** 領域の左側のナビゲーション・ページで、**請求** を選択します。 請求バックログのリンクはそこに保存されます。
 
 ## <a name="fixed-price-milestones"></a>固定価格マイルストーン
 

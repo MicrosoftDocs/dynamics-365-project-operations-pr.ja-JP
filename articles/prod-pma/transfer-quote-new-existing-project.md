@@ -18,23 +18,23 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: ec0d53e9d294b12be9af9bb03885a45b68fb3388
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9952336c395d98eb776190f92062fffcfb31556b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079244"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288099"
 ---
 # <a name="transfer-a-quotation-to-a-project"></a>見積をプロジェクトに転送する
 
 [!include [banner](../includes/banner.md)]
 
-プロジェクト見積もりのステータスが **確認済み** で、 **プロジェクトに転送** ウィザードを使用して、一部またはすべての見積明細を新規または既存のプロジェクトに転送できます。 
+プロジェクト見積もりのステータスが **確認済み** で、**プロジェクトに転送** ウィザードを使用して、一部またはすべての見積明細を新規または既存のプロジェクトに転送できます。 
 
 ウィザードを使用するには、以下の手順に従ってください。
 
 1. **プロジェクト管理と会計** > **見積もり** > **プロジェクト見積もり** の順に移動します。
-2. 転送する見積もりを選択し、 **フォローアップ** タブ、 **変更** グループで、 **プロジェクトに転送** を選択します。
+2. 転送する見積もりを選択し、**フォローアップ** タブ、**変更** グループで、**プロジェクトに転送** を選択します。
 3. **見積もりをプロジェクトに転送する** ウィザードに従って、見積もりをプロジェクトに関連付けて転送します。
 
 

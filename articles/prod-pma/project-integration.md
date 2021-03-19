@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079329"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289330"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client の統合
 
@@ -35,21 +35,21 @@ ms.locfileid: "4079329"
 > 7 月の更新 (バージョン 10.0.4) を使用している場合は、サポート情報 4054797 および 4055884 をインストールする必要があります。
 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>Microsoft Project Client アドインの構成
-Microsoft Project Client との統合を有効にするには、Microsoft Dynamics 365 アドインをユーザーのクライアント Microsoft Project アプリケーションにインストールする必要があります。 これは、 **プロジェクト管理ワークスペース** を開いて行います。
+Microsoft Project Client との統合を有効にするには、Microsoft Dynamics 365 アドインをユーザーのクライアント Microsoft Project アプリケーションにインストールする必要があります。 これは、**プロジェクト管理ワークスペース** を開いて行います。
 
 •ワークスペースの **リンク** > **セットアップ** セクションから **プロジェクト クライアント アドインを構成する** をクリックします。
 
-• **開く** をクリックし、確認メッセージが表示されたら **実行** をクリックします。
+•**開く** をクリックし、確認メッセージが表示されたら **実行** をクリックします。
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Microsoft Project Client で既存のドラフト WBS (作業分解構造) を開いて編集する
-Dynamics 365 Finance のプロジェクトで既に WBS (作業分解構造) が作成されている場合、WBS (作業分解構造) がドラフト状態の場合は Microsoft Project Client アプリケーションで WBS (作業分解構造) を開くことができます。 **プロジェクト** ページから開くには、 **計画** タブの **Microsoft Projectで開く** のリンクをクリックします。このページは、 **Microsoft Dynamics 365** タブの **開く** をクリックして Microsoft Project Client アプリケーションから開くこともできます。一覧で、 **法人** および **プロジェクト** を選択します。
+Dynamics 365 Finance のプロジェクトで既に WBS (作業分解構造) が作成されている場合、WBS (作業分解構造) がドラフト状態の場合は Microsoft Project Client アプリケーションで WBS (作業分解構造) を開くことができます。 **プロジェクト** ページから開くには、**計画** タブの **Microsoft Projectで開く** のリンクをクリックします。このページは、**Microsoft Dynamics 365** タブの **開く** をクリックして Microsoft Project Client アプリケーションから開くこともできます。一覧で、**法人** および **プロジェクト** を選択します。
 
 > [!NOTE]
-> ブラウザーとして Internet Explorer を使用している場合、ファイルがダウンロードされた場所から手動で開くには **保存** をクリックする必要があります。 または、 **保存して開く** をクリックして Microsoft Project Client でファイルを開きます。 保存時にファイル名を変更しないでください。
+> ブラウザーとして Internet Explorer を使用している場合、ファイルがダウンロードされた場所から手動で開くには **保存** をクリックする必要があります。 または、**保存して開く** をクリックして Microsoft Project Client でファイルを開きます。 保存時にファイル名を変更しないでください。
 
-Microsoft Project Client を使用してファイルを編集する前に、ファイルを確認する必要があります。 **Microsoft Dynamics 365** タブで **チェックアウト** をクリックします。これにより、他のユーザーが同時に Finance で WBS (作業分解構造) を編集することができなくなります。 編集の完了後に WBS (作業分解構造) を公開するには、 **Microsoft Dynamics 365** タブの **チェックイン** をクリックします。
+Microsoft Project Client を使用してファイルを編集する前に、ファイルを確認する必要があります。**Microsoft Dynamics 365** タブで **チェックアウト** をクリックします。これにより、他のユーザーが同時に Finance で WBS (作業分解構造) を編集することができなくなります。 編集の完了後に WBS (作業分解構造) を公開するには、**Microsoft Dynamics 365** タブの **チェックイン** をクリックします。
 
-プロジェクト チームが既に Finance のプロジェクトに追加されている場合、リソース リストにはチーム メンバーが設定されます。 プロジェクト チームがまだプロジェクトに追加されていない場合は、 **Microsoft Dynamics 365** タブの **リソース** ボタンをクリックしリソースを選択して Microsoft Project Client 内でチームを構築できます。 
+プロジェクト チームが既に Finance のプロジェクトに追加されている場合、リソース リストにはチーム メンバーが設定されます。 プロジェクト チームがまだプロジェクトに追加されていない場合は、**Microsoft Dynamics 365** タブの **リソース** ボタンをクリックしリソースを選択して Microsoft Project Client 内でチームを構築できます。 
 
 次のデータは、チェックイン プロセスの一環として、Finance に同期されます。
 
@@ -82,7 +82,7 @@ Microsoft Project Client を使用して新しい WBS (作業分解構造) を�
 
 1.  Microsoft Project Client を開きます。
 
-2.  **Microsoft Dynamics 365** タブで、 **開く** をクリックします。
+2.  **Microsoft Dynamics 365** タブで、**開く** をクリックします。
 
 3.  プロジェクトの **法人** を選択します。
 
@@ -90,7 +90,7 @@ Microsoft Project Client を使用して新しい WBS (作業分解構造) を�
 
 5.  **Microsoft Dynamics 365** タブの **チェックアウト** をクリックします。
 
-6.  財務に公開する準備ができたら、 **Microsoft Dynamics 365** タブの **チェックイン** をクリックします。
+6.  財務に公開する準備ができたら、**Microsoft Dynamics 365** タブの **チェックイン** をクリックします。
 
 ## <a name="replace-the-existing-work-breakdown-structure-for-an-existing-project-using-microsoft-project-client"></a>Microsoft Project Client を使用した既存プロジェクトの既存 WBS (作業分解構造) の置換
 Microsoft Project Client を使用して新しい WBS (作業分解構造) を作成し、既存プロジェクトの既存 WBS (作業分解構造) を置き換えるには、次の手順に従います。
@@ -99,7 +99,7 @@ Microsoft Project Client を使用して新しい WBS (作業分解構造) を�
 
 2.  Microsoft Project Client でスケジュールを作成します。
 
-3.  **Microsoft Dynamics 365** タブで、 **変更の保存** > **既存のプロジェクトを置き換え** をクリックします。
+3.  **Microsoft Dynamics 365** タブで、**変更の保存** > **既存のプロジェクトを置き換え** をクリックします。
 
 4.  プロジェクトの **法人** を選択します。
 
@@ -114,15 +114,15 @@ Microsoft Project Client を使用して新しい WBS (作業分解構造) を�
 
 2.  Microsoft Project Client でスケジュールを作成します。
 
-3.  **Microsoft Dynamics 365** タブで、 **変更の保存** > **新しいプロジェクトに保存** をクリックします。
+3.  **Microsoft Dynamics 365** タブで、**変更の保存** > **新しいプロジェクトに保存** をクリックします。
 
 4.  プロジェクトの **法人** を選択します。
 
-5.  必要であれば、 **プロジェクト ID** を入力します。
+5.  必要であれば、**プロジェクト ID** を入力します。
 
 6.  **プロジェクト名** を入力します。
 
-7.  **プロジェクト タイプ** 、 **プロジェクト グループ** および **プロジェクト契約 ID** を選択します。 または、 **新規** をクリックして新しいプロジェクト契約を作成することもできます。
+7.  **プロジェクト タイプ**、**プロジェクト グループ** および **プロジェクト契約 ID** を選択します。 または、**新規** をクリックして新しいプロジェクト契約を作成することもできます。
 
 8.  リソースで使用する **カレンダー** を選択します。
 

@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9d3c84664f1b0701db17f0c05654e0c99bb6c640
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3289b8bcaddaebe1a3657b5902c1d324f9e0fd53
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128064"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287784"
 ---
 # <a name="create-a-manual-proforma-invoice"></a>手動で見積もり請求書を作成する
 
@@ -30,7 +30,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 請求書を作成することで、プロジェクト マネージャーは、顧客に向けた請求書を作成する前に、2段階の承認を作成することができます。 プロジェクト チーム メンバーが送信する時間と経費のエントリが承認されると、第 1 レベルの承認が完了します。
 
-Dynamics 365 プロジェクト オペレーションでは、次の理由により、顧客向けの請求書を生成するように設計されていません :
+Dynamics 365 Project Operations は、次の理由により、顧客向け請求書を生成するようには設計されていません。
 
 - 税務情報は含まれていません。
 - 正しく設定された為替レートを使用して、他の通貨を請求通貨に変換することはできません。
