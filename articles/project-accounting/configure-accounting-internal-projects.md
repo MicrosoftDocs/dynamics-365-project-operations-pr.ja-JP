@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9f1cc75b12fec81d726e46f8d970dcfe030f6b29
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 65d05e3a6321dc32aee55c28b3eaa4bd0bae2f86
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287604"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5857984"
 ---
 # <a name="configure-accounting-for-internal-projects"></a>内部プロジェクトの会計の構成
 
@@ -28,8 +28,9 @@ Dynamics 365 Project Operations で契約に関連付けられていないプロ
 
 - 時間取引は、**費用** 勘定を引き落とし、**給与の割り当て** 勘定を入金することで計上されます。
 - 経費取引は、**費用** 勘定を引き落とし、**経費の相殺勘定** を入金することで計上されます。
+- 品目トランザクションは、**原価** 勘定を借方に転記し、**原価 - 品目** 勘定を貸方に転記します。
 
-案件に取引が計上された後、案件が案件契約に関連付けられている場合は、累積された取引を全て取り消して、新たに請求可能な取引を作成します。 請求可能な取引は、それぞれのプロジェクトのコストと収益プロファイルに定義された会計ルールに従います。
+取引をプロジェクトに転記すると、プロジェクトがプロジェクト契約に関連付けられている場合は、すべての累計の取引が取り消され、新しく請求可能な取引が作成されます。 請求可能な取引は、それぞれのプロジェクトのコストと収益プロファイルに定義された会計ルールに従います。
 
 
 

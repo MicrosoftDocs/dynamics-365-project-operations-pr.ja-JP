@@ -3,17 +3,17 @@ title: 経費の原価率と販売率を設定する
 description: このトピックは、トランザクションと経費のカテゴリのためのコストと販売率を設定する方法に関する情報を提供します。
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ee52daae18c5f9f0b630e54359021fffe1759274
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274914"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877226"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>経費の原価率と販売率を設定する
 
@@ -23,9 +23,10 @@ Dynamics 365 Project Operations でトランザクション カテゴリのコ�
 
 トランザクション カテゴリのコストと販売率を設定するには、次の手順を実行します。 
 
-1. 価格表ヘッダーに基づいて価格表を作成します。 
-2. サブグリッド メニューの **カテゴリ価格** で、**+ 新しいカテゴリー価格** を選択します。 
-3. **クイック作成** ページで、新しい価格を作成する取引カテゴリと単位を入力します。
+1. **販売** > **顧客** > **価格表** に移動します。
+2. **新規** を選択して、価格表を新規作成します。 
+3. サブグリッド メニューの **カテゴリ価格** で、**新しいカテゴリ価格** を選択します。 
+4. **クイック作成** ページで、新しい価格を作成する取引カテゴリと単位を入力します。
 
 次のテーブルは、**一般** タブのフィールドと販売または原価価格表でカテゴリ価格を作成する際に留意すべき、**クイック作成** ページののカテゴリ価格の明細行を一覧表示しています。
 

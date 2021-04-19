@@ -1,6 +1,6 @@
 ---
-title: プロジェクトベースの見積依頼明細行の概要
-description: このトピックは、プロジェクト作業のプロジェクトベースの見積依頼明細行の使用に関する情報を提供します。
+title: プロジェクト見積依頼明細行の概要
+description: このトピックは、プロジェクト作業にからプロジェクトの見積依頼明細行を使用する方法に関する情報を提供します。
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e61a9fbf357123884397b930662d11f22bfdeaa0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa48a90c275eae1b0c0dbce685ae718dd9674c88
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277794"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858029"
 ---
-# <a name="project-based-quote-lines-overview"></a>プロジェクトベースの見積依頼明細行の概要
+# <a name="project-quote-lines-overview"></a>プロジェクト見積依頼明細行の概要
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 

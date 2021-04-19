@@ -1,29 +1,27 @@
 ---
-title: 請求書自動作成の構成 (ライト)
-description: このトピックでは、見積送り状の自動作成について説明します。
+title: 請求書自動作成の設定
+description: このトピックは、見積もり請求の自動作成の設定と構成に関する情報を提供します。
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274329"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866823"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>請求書自動作成の構成 (ライト)
+# <a name="set-up-automatic-invoice-creation"></a>請求書自動作成の設定 
  
-_**適用対象:** ライト展開 - 見積もり請求の取引_
+_**適用対象:** ライト展開 - 見積請求、リソース/非在庫ベースのシナリオ向けの Project Operations_
 
 Dynamics 365 Project Operations で請求書自動作成を構成することができます。 システムは、プロジェクト契約および契約品目ごとの請求スケジュールに基づいて、ドラフトの見積送り状を作成します。 請求スケジュールは、契約品目レベルで設定します。 契約の各品目に異なる請求スケジュールを設定するか、契約のすべての品目に同じ請求スケジュールを設定することができます。
 
-請求書を作成すると、システムは常にプロジェクト契約ごとに少なくとも 1 つの請求書を作成します。 場合によっては、複数の請求書が作成される場合があります。
-
-たとえば、複数の顧客が存在する契約であれば、そのプロジェクト契約で請求する請求可能なトランザクションを持つ顧客の数と同じ数の請求書が作成されます。
+請求書を作成すると、システムは常にプロジェクト契約ごとに少なくとも 1 つの請求書を作成します。 場合によっては、複数の請求書が作成される場合があります。 たとえば、複数の顧客が存在する契約であれば、そのプロジェクト契約で請求する請求可能なトランザクションを持つ顧客の数と同じ数の請求書が作成されます。
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>トランザクションがどのように請求書の含まれるかを理解する 
 

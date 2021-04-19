@@ -1,21 +1,21 @@
 ---
-title: 見積もりと実績の販売価格を解決する - Lite
-description: このトピックでは、見積もりと実績上の販売価格の解決方法について説明します。
+title: プロジェクトの見積もりと実績の販売価格を解決する
+description: このトピックは、プロジェクトの見積もりと実績の販売価格がどのように解決されるかについての情報を提供します。
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25620704570fa702e1e5e09c83005be50f98f20a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3bf4686b414300370e6b364834b33edad98b7f39
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274509"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877362"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals---lite"></a>見積もりと実績の販売価格を解決する - Lite
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>プロジェクトの見積もりと実績の販売価格を解決する
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
@@ -55,5 +55,14 @@ Project Operations では、経費の見積もり明細行が、経費の見積�
 
 4. システムが **カテゴリ** と **単位** フィールド値と一致することができない場合、販売率は規定でゼロ (0) になります。
 
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>材料の実績と見積もり行の販売率を解決する
+
+Project Operations で、材料の見積もり行は、材料の見積もり行および契約品目の詳細と、プロジェクトの材料見積もり行を示すために使用されます。
+
+販売の価格表が解決された後、システムは次の手順を実行して、単位販売価格を規定に設定します。
+
+1. システムは、材料の見積もり行の **製品** と **単位** フィールドの組み合わせを使って、解決された価格表の価格表品目行と照合します。
+2. システムが、**製品** と **単位** フィールドの組み合わせの販売率を持つ価格表アイテム行を見つけ、価格設定方法が **通貨金額** である場合、価格表行で指定された販売価格が使用されます。
+3. **製品** と **単位** フィールドが一致しない場合、販売率は既定でゼロになります。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

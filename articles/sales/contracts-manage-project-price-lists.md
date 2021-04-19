@@ -3,17 +3,17 @@ title: プロジェクト契約のプロジェクト価格表を管理する
 description: このトピックは、プロジェクト契約のプロジェクト価格表の管理について説明します。
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278604"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858569"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>プロジェクト契約のプロジェクト価格表を管理する
 
@@ -21,13 +21,13 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 Dynamics 365 Project Operations のプロジェクト契約は、契約の複数の日付有効営業価格表に対応するように設計されています。 プロジェクト オペレーションには、**プロジェクト価格表** と呼ばれる新たな関連エンティティがあります。 このエンティティは、プロジェクト契約と 1 対多の関係にあります。
 
-プロジェクト価格表は、プロジェクトの時間と経費のトランザクションの価格設定に使用されます。 契約に 1 つ以上のプロジェクト価格表がある場合、これらの価格表は、契約品目を通じて契約に関連付けられているプロジェクトの時間と費用の見積もりと実際の価格設定に使用されます。
+プロジェクト価格表は、プロジェクトの時間、材料、および経費のトランザクションの価格を設定するために使用されます。 契約に 1 つ以上のプロジェクト価格表がある場合、これらの価格表は、契約品目を通じて契約に関連付けられているプロジェクトの時間、材料、費用の見積もり、および実績の価格設定に使用されます。
 
-プロジェクト契約にプロジェクト価格表がない場合、プロジェクト価格表がないことを示す警告メッセージが表示され、見積もり、実際のプロジェクト作業、費用などの価格設定はされません。 販売価格の価格はありません。
+プロジェクト契約にプロジェクト価格表がない場合、プロジェクト価格表がないことを示す警告メッセージが表示され、見積もり、実際のプロジェクト作業、材料、および記録された費用は価格設定されません。 販売価格の価格はありません。
 
 ## <a name="associate-or-unassociate-a-project-price-list-on-a-project-contract"></a>プロジェクト契約のプロジェクト価格表の関連付け、または関連付けの解除
 
-### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-and-expenses"></a>プロジェクトベースの仕事と経費の見積もりに使用する具体的な価格表を作成、または関連付ける
+### <a name="create-or-associate-a-specific-price-list-for-estimating-project-based-work-material-and-expenses"></a>プロジェクトベースの作業、材料、および費用を見積もるための特定の価格表を作成または関連付ける
 
 1. プロジェクト契約を開き、**プロジェクト価格表** タブを選択します。
 2. サブグリッドで、**+新しいプロジェクトの価格表を追加する** を選択します。
@@ -52,7 +52,7 @@ Dynamics 365 Project Operations のプロジェクト契約は、契約の複数
 
 ## <a name="set-up-automatic-defaulting-of-project-price-lists-on-a-contract"></a>契約のプロジェクト価格表を自動で既定とする設定
 
-プロジェクト価格表を、プロジェクト契約の既定のリストとして設定できます。 この設定により、組織内のすべての契約が常にその価格期間の標準の価格表で開始されるようになります。
+プロジェクト価格表は、既定のプロジェクト価格表として設定できます。 この設定により、組織内のすべての契約は、常にその価格期間の標準プロジェクト価格表から開始されます。
 
 ### <a name="set-up-the-organizational-default-for-project-price-lists"></a>プロジェクト価格表の組織が既定で使用する価格表を設定する
 

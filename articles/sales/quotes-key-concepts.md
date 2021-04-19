@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 488c57527e6cc153093014438453001170f311dc
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277524"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663701"
 ---
-# <a name="quotes---key-concepts"></a>見積もり - 重要な概念
+# <a name="concepts-unique-to-project-based-quotes"></a>プロジェクトベースの見積もり固有の概念
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 

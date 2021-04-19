@@ -3,17 +3,17 @@ title: 労働の請求賃金を設定する
 description: このトピックでは、Project Operations で労働の請求賃金見積もりを設定する方法について説明します。
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274824"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877406"
 ---
 # <a name="set-up-labor-bill-rates"></a>労務の請求レートを設定する
 
@@ -21,8 +21,8 @@ _ **適用対象:** リソース/非在庫ベースのシナリオの Project Op
 
 各価格表には、価格表ヘッダーに含まれるコンテキストと日付の有効性に有効な一連のロール価格または労働賃金があります。 Dynamics 365 Project Operations の時間に対する請求レートは、価格表ヘッダーの通貨である 1 つの通貨でのみ設定できます。
 
-1. 販売価格表の労働請求賃金を設定するには、価格表ヘッダーに基づいて価格表を作成します。 
-2. **ロール価格** タブのサブグリッドで、**+ 新規ロール価格** 選択します。 
+1. 販売価格表の労務の請求レートを設定するには、**販売** > **顧客** > **価格表** に異動して、**新着** を選択し、新しい価格表を作成します。 
+2. **ロール価格** タブのサブグリッドで、**新規ロール価格** 選択します。 
 3. **クイック作成** ペインで、請求賃金を設定する必要があるロールと組織単位の組み合わせを入力します。
 
    次のテーブルは、**一般** タブのフィールドと販売価格表でロール価格を作成する際に留意すべき、**クイック作成** ペインのロール価格の明細行を一覧表示しています。

@@ -1,27 +1,27 @@
 ---
-title: プロジェクト見積依頼のプロジェクト価格表を管理する (ライト)
-description: このトピックでは、見積もりのプロジェクト価格表に関する作業について説明します。 (Sales)
+title: プロジェクト見積もりのプロジェクト価格表を管理する
+description: このトピックでは、見積もりのプロジェクト価格表に関する作業について説明します。
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273024"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858614"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>プロジェクト見積依頼のプロジェクト価格表を管理する (ライト)
+# <a name="manage-project-price-lists-on-project-quotes"></a>プロジェクト見積依頼のプロジェクト価格表を管理する 
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 プロジェクト見積もりは、複数日有効な営業価格表をサポートするように設計されています。 Dynamics 365 Project Operations では、**プロジェクト価格表** と呼ばれる新しい関連エンティティが追加されます。 このエンティティには、プロジェクト見積もりに対して一対多関連付けがあります。
 
-プロジェクト価格表は、プロジェクトの時間と経費のトランザクションの価格設定に使用されます。 見積もりに 1 つ以上のプロジェクト価格表がある場合、これらの価格表は、見積依頼明細行を通じて見積もりに関連付けられているプロジェクトの時間と経費の見積もりと実績の価格設定に使用されます。
+プロジェクト価格表は、プロジェクトの時間、材料、および経費のトランザクションの価格を設定するために使用されます。 見積もりに 1 つ以上のプロジェクト価格表がある場合、これらの価格表は、見積もり行を通じて見積もりに関連付けられているプロジェクトの時間、材料、費用の見積もり、および実績の価格設定に使用されます。
 
 プロジェクト見積もりにプロジェクト価格表がない場合は、警告メッセージが表示されます。 メッセージには、プロジェクト価格表がないため、プロジェクトの見積もりと実際の作業および経費の価格が設定されないことが表示されています。 代わりに、販売額の価格はゼロ (0) になります。
 

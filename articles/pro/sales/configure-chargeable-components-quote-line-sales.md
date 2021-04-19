@@ -1,23 +1,23 @@
 ---
-title: 見積依頼明細行の請求可能コンポーネントを構成する (ライト)
+title: 見積依頼明細行の請求可能コンポーネントを構成する
 description: このトピックでは、プロジェクトベースの見積明細での課金対象コンポーネントと非課金対象コンポーネントの設定に関する情報を提供します。
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0e293587adf15d0523bef6b7e688fdc883aba0fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1a9e1851bd8c5a4070df2774c945d1f3eabaaa8a
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273879"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858299"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>見積依頼明細行の請求可能コンポーネントを構成する (ライト)
+# <a name="configure-the-chargeable-components-of-a-quote-line"></a>見積依頼明細行の請求可能コンポーネントを構成する 
 
-_**適用対象:** ライト展開 - 見積もり請求の取引_
+_**適用対象:** ライト展開 - 見積請求、リソース/非在庫ベースのシナリオ向けの Project Operations_
 
 プロジェクト ベースの見積品目には、*付属型* コンポーネントと *有料型* コンポーネントの概念があります。
 
@@ -42,7 +42,7 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 ### <a name="update-a-project-task-to-be-chargeable-or-non-chargeable"></a>プロジェクト タスクを課金対象または非課金対象として更新します
 
-プロジェクト タスクは、特定のプロジェクトベースの見積明細で課金/非課金にすることができます。これにより、次の設定が可能になります :
+プロジェクト タスクは、特定のプロジェクトベースの見積明細で請求可/不可にすることができます。これにより、次の設定が可能になります。
 
 プロジェクトベースの見積明細に **時間** とタスク **T1** が含まれている場合、タスクは課金対象として見積もり行に関連付けられています。 **経費** を含む 2 つ目の見積明細がある場合は、契約品目の **T1** タスクを非課金として関連付けることができます。 その結果、タスクに記録されたすべての時間は課金対象となり、経費に記録されているすべてのタスクは課金対象外になります。
 
@@ -61,22 +61,575 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 トランザクションの課金タイプは、**課金対象のカテゴリ** サブグリッドの **課金タイプ** フィールドを更新することで、プロジェクト ベースの見積品目タブの **課金のカテゴリ** で設定することができます。
 
 ### <a name="resolve-chargeability"></a>課金対象の解決
-時間に対して作成された見積もりや実績は、見積明細に **時間** が含まれていて、かつ見積明細で **タスク** と **ロール** が課金対象として設定されている場合にのみ、課金対象とみなされます。
+時間に対して作成された見積もりまたは実際の見積もりは、次の場合にのみ請求可能と見なされます。
 
-経費に対して作成された見積もりや実績は、見積品目に **経費** が含まれている場合、かつ見積品目で **タスク** と **トランザクション カテゴリ** のカテゴリが経費として設定されている場合にのみ、経費が発生するとみなされます。
+   - **時間** が見積もり行に含まれている。
+   - **役割** が見積もり行で請求可能と構成されている。
+   - **含まれるタスク** が、見積もり行で **選択したタスク** に設定されている。 
 
-| 時間を含む | 経費を含む | 含まれるタスク | ロール | カテゴリ | タスク​ | 請求先 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 有効 | 有効 | プロジェクトの全体 | 請求可能 | 請求可能 | 設定できません | 実績時間に基づく請求 : 課金 </br>経費の実績に基づく請求タイプ : 課金 |
-| 有効 | 有効 | 選択したタスクのみ | 請求可能 | 請求可能 | 請求可能 | 実績時間に基づく請求 : 課金</br>経費の実績に基づく請求タイプ : 課金 |
-| 有効 | 有効 | 選択したタスクのみ | 請求不可 | 請求可能 | 請求可能 | 実績時間に基づく請求 : 非課金</br>経費の実績に基づく請求タイプ : 課金 |
-| 有効 | 有効 | 選択したタスクのみ | 請求可能 | 請求可能 | 請求不可 | 実績時間に基づく請求 : 非課金</br> 経費の実績に基づく請求タイプ : 非課金 |
-| 有効 | 有効 | 選択したタスクのみ | 請求不可 | 請求可能 | 請求不可 | 実績時間に基づく請求 : 非課金</br> 経費の実績に基づく請求タイプ : 非課金 |
-| 有効 | 有効 | 選択したタスクのみ | 請求不可 | 請求不可 | 請求可能 | 実績時間に基づく請求 : 非課金</br> 経費の実績に基づく請求タイプ : 非課金 |
-| 無効 | 有効 | プロジェクトの全体 | 設定できません | 請求可能 | 設定できません | 実績時間に基づく請求 : 非対応 </br>経費の実績に基づく請求タイプ : 課金 |
-| 無効 | 有効 | プロジェクトの全体 | 設定できません | 請求不可 | 設定できません | 実績時間に基づく請求 : 非対応 </br>経費の実績に基づく請求タイプ : 非課金 |
-| 有効 | 無効 | プロジェクトの全体 | 請求可能 | 設定できません | 設定できません | 実績時間に基づく請求 : 課金</br>経費の実績に基づく請求タイプ : 非対応 |
-| 有効 | 無効 | プロジェクトの全体 | 請求不可 | 設定できません | 設定できません | 実績時間に基づく請求 : 非課金 </br>経費の実績に基づく請求タイプ : 非対応 |
+これらの 3 つの条件が当てはまる場合、**タスク** は請求可能と構成されます。 
+
+経費に対して作成された見積もりまたは実際の見積もりは、次の場合にのみ請求可能と見なされます。 
+
+   - **経費** が、見積もり行に含まれている。
+   - **トランザクション カテゴリ** が、見積もり行で請求可能と構成されている。
+   - **含まれるタスク** が、見積もり行で **選択したタスク** に設定されている。
+
+これらの 3 つの条件が当てはまる場合、**タスク** は請求可能と構成されます。 
+
+材料に対して作成された見積もりまたは実際の見積もりは、次の場合にのみ請求可能と見なされます。
+
+   - **材料** が、見積もり行に含まれている。
+   - **含まれるタスク** が、見積もり行で **選択したタスク** に設定されている。
+
+これらの 2 つの条件が当てはまる場合、**タスク** は請求可能と構成されます。 
+
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>時間を含む</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>経費を含む</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>材料を含む</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>含まれるタスク</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>ロール</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>カテゴリ</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>タスク​</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>請求可否</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+プロジェクトの全体 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+請求可能 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+請求可能 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+設定不可 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+実績時間に基づく請求 : 課金 </p>
+                <p>
+経費の実績に基づく請求タイプ : 課金 </p>
+                <p>
+材料実績の請求タイプ: 請求可能 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+選択したタスクのみ </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+請求可能 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+請求可能 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+請求可能 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+実績時間に基づく請求 : 課金 </p>
+                <p>
+経費の実績に基づく請求タイプ : 課金 </p>
+                <p>
+材料実績の請求タイプ: 請求可能 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+選択したタスクのみ </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>請求不可</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+請求可能 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+請求可能 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+時間実績に基づく請求: <strong>請求不可</strong>
+                </p>
+                <p>
+経費の実績に基づく請求タイプ : 課金 </p>
+                <p>
+材料実績の請求タイプ: 請求可能 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+選択したタスクのみ </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+請求可能 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+請求可能 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>請求不可</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+時間実績に基づく請求: <strong>請求不可</strong>
+                </p>
+                <p>
+経費実績に基づく請求タイプ: <strong>請求不可</strong>
+                </p>
+                <p>
+材料実績に基づく請求タイプ: <strong>請求不可</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+選択したタスクのみ </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>請求不可</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+請求可能 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>請求不可</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+時間実績に基づく請求: <strong>請求不可</strong>
+                </p>
+                <p>
+経費実績に基づく請求タイプ: <strong>請求不可</strong>
+                </p>
+                <p>
+材料実績に基づく請求タイプ: <strong>請求不可</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+選択したタスクのみ </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>請求不可</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>請求不可</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+請求可能 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+時間実績に基づく請求: <strong>請求不可</strong>
+                </p>
+                <p>
+経費実績に基づく請求タイプ: <strong>請求不可</strong>
+                </p>
+                <p>
+材料実績の請求タイプ: 請求可能 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>無効</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+プロジェクトの全体 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+設定不可 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>請求可能</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+設定不可 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+時間実績に基づく請求:<strong>非対応</strong>
+                </p>
+                <p>
+経費の実績に基づく請求タイプ : 課金 </p>
+                <p>
+材料実績の請求タイプ: 請求可能 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>無効</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+プロジェクトの全体 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+設定不可 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>請求不可</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+設定不可 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+時間実績に基づく請求:<strong>非対応</strong>
+                </p>
+                <p>
+経費実績に基づく請求タイプ: <strong>請求不可</strong>
+                </p>
+                <p>
+材料実績の請求タイプ: 請求可能 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>無効</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+プロジェクトの全体 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+請求可能 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+設定不可 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+設定不可 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+実績時間に基づく請求 : 課金 </p>
+                <p>
+経費実績に基づく請求タイプ: <strong>非対応</strong>
+                </p>
+                <p>
+材料実績の請求タイプ: 請求可能 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>無効</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+プロジェクトの全体 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>請求不可</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+設定不可 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+設定不可 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+時間実績に基づく請求: <strong>請求不可</strong>
+                </p>
+                <p>
+経費実績に基づく請求タイプ: <strong>非対応</strong>
+                </p>
+                <p>
+材料実績の請求タイプ: 請求可能 </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>無効</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+プロジェクトの全体 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+請求可能 </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+請求可能 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+設定不可 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+実績時間に基づく請求 : 課金 </p>
+                <p>
+経費の実績に基づく請求タイプ : 課金 </p>
+                <p>
+資材実績に基づく請求タイプ: <strong>非対応</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+有効 </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>無効</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+プロジェクトの全体 </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>請求不可</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>請求不可</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+設定不可 </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+時間実績に基づく請求: <strong>請求不可</strong>
+                </p>
+                <p>
+経費実績に基づく請求タイプ: <strong>請求不可</strong>
+                </p>
+                <p>
+資材実績に基づく請求タイプ: <strong>非対応</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

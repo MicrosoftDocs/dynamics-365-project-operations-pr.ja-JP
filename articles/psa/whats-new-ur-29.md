@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 711255ab66f84fe46d0f16fa72e5a10fe0360394
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 0e1ff0db42adb8b991b26dca1585bd603b2e2276
+ms.sourcegitcommit: f57408d6637f670b920d7ce95f8ace8eb1963093
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499677"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5664649"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-29-v3"></a>Project Service Automation 更新プログラム リリース 29、V3 の新機能と変更点
 
@@ -30,7 +30,7 @@ ms.locfileid: "5499677"
 
 Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution) を参照してください。
 
-このトピックには、Project Service Automation V3 更新プログラム 29 の新機能または変更された機能と修正をリスト化しています。 このバージョンのビルド番号は V3.10.45.98 で、2021 年 2 月のセルフアップデートで一般提供されます。
+このトピックには、Project Service Automation V3 更新プログラム 29 の新機能または変更された機能と修正をリスト化しています。 このバージョンのビルド番号は V3.10.47.7 で、2021 年 2 月のセルフアップデートで一般提供されます。
 
 ## <a name="update-release-29"></a>更新プログラム 29
 

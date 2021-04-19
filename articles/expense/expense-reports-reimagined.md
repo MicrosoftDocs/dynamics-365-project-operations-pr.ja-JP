@@ -3,7 +3,7 @@ title: 刷新された経費報告書
 description: このトピックでは、経費精算書エントリの再設計および再考されたエクスペリエンスについて説明しています。
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499722"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717701"
 ---
 # <a name="expense-reports-reimagined"></a>刷新された経費報告書
 
@@ -41,11 +41,7 @@ ms.locfileid: "5499722"
 - 経費報告書 (既存のページ) または経費報告書フィールドの既存のメニュー項目が削除されることはありません。
 - ワークフローや承認では、既存の経費報告書のページに移動します。
 
-## <a name="getting-started-video-for-new-users"></a>新しいユーザー向けの作業の開始に関するビデオ
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-[Dynamics 365 for Finance and Operations での経費エクスペリエンス](https://youtu.be/Ocy-MsTvEE0) ビデオ (上に表示) は、YouTube で使用可能な [Finance and Operations プレイリスト](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) に含まれています。
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>新機能
 

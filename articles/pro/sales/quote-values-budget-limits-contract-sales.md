@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0a7fb3419536ca3a595ec339b971e32c11f9671e
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272439"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5664004"
 ---
-# <a name="summary-information-on-a-project-quote---lite"></a>プロジェクト見積もりの概要情報 - Lite
+# <a name="header-details-for-project-quotes"></a>プロジェクト見積もりのヘッダーの詳細
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 

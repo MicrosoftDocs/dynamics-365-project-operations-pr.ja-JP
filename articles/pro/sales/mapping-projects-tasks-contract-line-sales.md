@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c29872ef3d62780eea3c0eda48c8fd2a9af4b1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4737f9870904bfc7adac11b8e2aa13bb8c610ca3
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272799"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858098"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line---lite"></a>プロジェクトとタスクをプロジェクトベースの契約品目にマップする - Lite
+# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>プロジェクトとタスクをプロジェクトベースの契約品目にマップする 
 
-_**適用対象:** ライト展開 - 見積もり請求の取引_
+_**適用対象:** ライト展開 - 見積請求、リソース/非在庫ベースのシナリオ向けの Project Operations_
 
 プロジェクトベースの契約品目では、プロジェクト内の特定のタスクを契約品目にマップできます。
 

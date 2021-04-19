@@ -1,21 +1,21 @@
 ---
-title: 修正済みの請求書 (ライト)
-description: このトピックでは、Project Operations における修正された請求書について説明します
+title: プロジェクトの修正請求書
+description: このトピックは、Project Operations における修正請求書の作成と確認方法に関する情報を提供します。
 author: rumant
 manager: Annbe
-ms.date: 10/15/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: eb949ff3a53bcba19d44e1c3d6fe08a6b368108d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274239"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866597"
 ---
-# <a name="corrected-invoices---lite"></a>修正済みの請求書 (ライト)
+# <a name="corrective-project-invoices"></a>プロジェクトの修正請求書
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
@@ -37,9 +37,9 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 > [!IMPORTANT]
 > 既に請求された他の料金の訂正である請求明細の詳細は、**訂正** フィールドが **はい** に設定されています。 請求書明細の詳細を修正した請求書には、**訂正あり** というフィールドがあり、ここも **はい** に設定されています。
 
-## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>修正請求書の確認時に作成された実績：
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>修正請求書が確認されたときに作成された実績
 
-以下は、確認前のドラフト版の修正請求書に対して実行された操作に基づいて、修正の確認時にアプリケーションが作成した実績です。
+次の表に、修正請求書が確認されたときに作成される実績を示します。
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -214,6 +214,51 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
+以前に請求された材料トランザクションの全クレジットを請求します。
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+元の材料の請求行明細の数量と金額に対する請求済みの販売取消。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+元の材料の請求行明細の数量と金額に対する新しい未請求の売上実績。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+材料トランザクションの部分的クレジットの請求。
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+元の材料の請求行明細で請求された数量と金額に対する請求済みの販売取消。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+編集された請求書明細の数量と金額、これの取り消し、および同等の請求済み販売実績に対して請求可能な、新しい未請求販売実績。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+請求書明細の詳細に記載されている修正数値を差し引いた残りの数量と金額を請求する新たな未請求の売上実績です。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
 以前に請求された料金トランザクションの全クレジットを請求します。
                 </p>
             </td>
@@ -260,7 +305,7 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 マイルストーンの元の請求書明細詳細の時間と金額の請求済み売上戻入です。
                 </p>
                 <p>
-プロジェクト契約行のマイルストーン請求書、または請求書の状態が **請求の発行準備完了** に更新されます。
+マイルストーンの請求書ステータスが、<b>顧客請求書転記済み</b>から<b>請求準備完了</b>に更新されます。
                 </p>
             </td>
         </tr>
