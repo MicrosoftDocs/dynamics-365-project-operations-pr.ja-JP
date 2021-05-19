@@ -34,6 +34,22 @@
               href: environment/security-model.md
             - name: 法人ごとに Project Operations 統合を構成する
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: 二重書き込み統合を構成する
+          items:
+            - name: 二重書き込み統合の概要
+              href: environment/resource-dual-write-overview.md
+            - name: Project Operations 二重書き込みマップ バージョン
+              href: environment/resource-dual-write-maps.md
+            - name: Project Operations のセットアップと構成データの統合
+              href: environment/resource-dual-write-setup-integration.md
+            - name: プロジェクトの見積もりと実績の統合
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: プロジェクト請求書統合
+              href: environment/resource-dual-write-project-invoice.md
+            - name: 経費管理統合
+              href: environment/resource-dual-write-expense.md
+            - name: 仕入先請求書統合
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: 新機能
       items:
         - name: 2021 年 4 月 - リソース/非在庫ベースのシナリオ向け Project Operations
@@ -216,6 +232,8 @@
           href: project-management/understand-project-status.md
         - name: プロジェクト カレンダーの定義
           href: project-management/define-project-calendars.md
+        - name: スケジュール モード
+          href: project-management/scheduling-modes.md
         - name: プロジェクトの更新
           href: project-management/update-project.md
         - name: プロジェクトのコピー
@@ -404,6 +422,12 @@
           items:
             - name: 訂正仕訳帳の作成と確認
               href: actuals/create-confirm-correction-journals.md
+    - name: 調達
+      items:
+        - name: 非在庫材料と保留中の仕入先請求書を構成する
+          href: procurement/configure-materials-nonstocked.md
+        - name: 保留中の仕入先請求書を使用してプロジェクトの非在庫材料を調達する
+          href: procurement/pending-vendor-invoices.md
     - name: 請求
       items:
         - name: 請求処理の概要
@@ -428,6 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: プロジェクトベース請求書の自動化の構成
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: プロジェクトの仮発行請求書の管理
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: プロジェクト会計
       items:
         - name: 財務分析コードの既定値
@@ -682,6 +708,8 @@
           href: project-management/understand-project-status.md
         - name: プロジェクト カレンダーの定義
           href: project-management/define-project-calendars.md
+        - name: スケジュール モード
+          hreF: project-management/scheduling-modes.md
         - name: プロジェクトの更新
           href: project-management/update-project.md
         - name: プロジェクトのコピー
@@ -848,6 +876,8 @@
   items:
     - name: 新機能
       items:
+        - name: 2021 年 4 月の新機能 - 在庫/製造ベースのシナリオ向け Project Operations
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 2021 年 3 月の新機能 - 在庫/製造ベースのシナリオ向け Project Operations
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: 2021 年 1 月の新機能 - 在庫/製造ベースのシナリオ向け Project Operations
@@ -871,9 +901,9 @@
     - name: pay-when-paid (支払留保) のベンダー支払いの設定と使用
       href: prod-pma/setup-manage-vendor-payments.md
     - name: 購買入庫のプロジェクトの見越計上
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: プロジェクト請求
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: プロジェクトの仮発行請求書のパフォーマンス
       href: prod-pma/project-invoice-proposal-performance.md
     - name: プロジェクト契約
@@ -998,6 +1028,8 @@
       items:
         - name: Project Service 3.x の更新プログラム リリース スケジュール
           href: psa/version-history-ps.md
+        - name: 更新プログラム リリース 31、V3 の最新情報または変更事項
+          href: psa/whats-new-ur-31.md
         - name: 更新プログラム リリース 30、V3 の最新情報または変更事項
           href: psa/whats-new-ur-30.md
         - name: 更新プログラム リリース 29.5 修正プログラム、V3 の最新情報または変更事項
@@ -1327,7 +1359,7 @@
             - name: リソース稼働率の表示
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: プロジェクト管理者ガイド
           items:
             - name: プロジェクト マネージャー ガイド (Project Service)
