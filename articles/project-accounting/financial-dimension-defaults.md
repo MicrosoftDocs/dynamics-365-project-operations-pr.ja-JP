@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: eec85b83cad4cd8fb6e0ec9c026c6a571bccf7f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0a76447bb1a81a7157fccc0cd58eddd1eb5995de
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287379"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950135"
 ---
 # <a name="financial-dimension-defaults"></a>財務分析コードの既定値
 
@@ -21,7 +21,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations は Dynamics 365 Finance の [財務分析コード](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) フレームワークを使用して、プロジェクトの補助元帳と総勘定元帳の取引に関する追加的な分析情報を提供しています。
+Dynamics 365 Project Operations は Dynamics 365 Finance の [財務分析コード](/dynamics365/finance/general-ledger/financial-dimensions) フレームワークを使用して、プロジェクトの補助元帳と総勘定元帳の取引に関する追加的な分析情報を提供しています。
 
 既定の財務分析コードは、顧客、プロジェクトの資金源、マイルストーン、プロジェクトの契約品目、プロジェクトに設定できます。
 

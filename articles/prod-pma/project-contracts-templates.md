@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 319000e6a826580049e8575def5790ab595a3165
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289600"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950405"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>プロジェクト契約とプロジェクトを、Project Service Automation から Finance に直接同期します 
 
@@ -109,8 +109,8 @@ Project Service Automation から Finance への統合ソリューションが�
 ## <a name="prerequisites-and-mapping-setup"></a>前提条件とマッピングの設定
 
 - プロジェクト契約およびプロジェクトの同期を行う前に、アカウントを同期する必要があります。
-- 接続設定で、**msdyn\_organizationalunits** から **msdyn\_name\[名前\]** への統合キー フィールドのマッピングを追加します。 最初にプロジェクトを接続設定に追加する必要があるかもしれません。 詳細については、[アプリ用 Common Data Service へのデータの統合](https://docs.microsoft.com/powerapps/administrator/data-integrator)を参照してください。
-- 接続設定で、**msdyn\_projects** から **msdynce\_projectnumber\[プロジェクト番号\]** への統合キー フィールドのマッピングを追加します。 最初にプロジェクトを接続設定に追加する必要があるかもしれません。 詳細については、[アプリ用 Common Data Service へのデータの統合](https://docs.microsoft.com/powerapps/administrator/data-integrator)を参照してください。
+- 接続設定で、**msdyn\_organizationalunits** から **msdyn\_name\[名前\]** への統合キー フィールドのマッピングを追加します。 最初にプロジェクトを接続設定に追加する必要があるかもしれません。 詳細については、[アプリ用 Common Data Service へのデータの統合](/powerapps/administrator/data-integrator)を参照してください。
+- 接続設定で、**msdyn\_projects** から **msdynce\_projectnumber\[プロジェクト番号\]** への統合キー フィールドのマッピングを追加します。 最初にプロジェクトを接続設定に追加する必要があるかもしれません。 詳細については、[アプリ用 Common Data Service へのデータの統合](/powerapps/administrator/data-integrator)を参照してください。
 - プロジェクト契約およびプロジェクトの **SourceDataID** は、別の値に更新したり、マッピングから削除したりできます。 既定のテンプレート値は **Project Service Automation** です。
 - **PaymentTerms** マッピングは、Finance の有効な支払条件を反映するように更新する必要があります。 プロジェクト タスクからマッピングを削除することもできます。 既定値マップには、デモ データの既定値があります。 次の表は、Project Service Automation の値を示します。
 
@@ -131,7 +131,7 @@ Project Service Automation から Finance への統合ソリューションが�
 Power Query を使用する必要がある場合は、これらのガイドラインに従ってください。
 
 - プロジェクトと契約 (PSA から Finance and Operation) テンプレートには既定のフィルターがあり、**作業項目 (msdyn\_ordertype = 192350001)** タイプの受注のみが含まれます。 このフィルターは、プロジェクト契約が Finance の受注に対して作成されないことを保証するのに役立ちます。 独自のテンプレートを作成する場合は、このフィルターを追加する必要があります。
-- 統合接続セットの法人に同期する必要がある契約組織のみを含む Power Query フィルターを作成します。 たとえば、Contoso US の契約組織単位とのプロジェクト契約は USSI 法人に同期する必要がありますが、Contoso グローバルの契約組織単位とのプロジェクト契約は USMF 法人に同期する必要があります。 このフィルターをタスク マッピングに追加しない場合、契約組織単位に関係なく、すべてのプロジェクト契約が接続設定に定義されている法人に同期されます。
+- 統合接続セットの法人に同期する必要がある契約組織のみを含む Power Query フィルターを作成します。 たとえば、契約組織単位が Contoso US のプロジェクト契約は USSI の法人格に同期しますが、契約組織単位が Contoso グローバル のプロジェクト契約は USMF の法人に同期します。 このフィルターをタスク マッピングに追加しない場合、契約組織単位に関係なく、すべてのプロジェクト契約が接続設定に定義されている法人に同期されます。
 
 ## <a name="template-mapping-in-data-integration"></a>データ統合におけるテンプレート マッピング
 

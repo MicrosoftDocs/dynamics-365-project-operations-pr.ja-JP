@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 27847575e2d6ec9af77d24f756b13d3aeb0efea7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cc17df0c73b276048f7c4b04bd9dc6644e828dc0
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286929"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949820"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>プロジェクトのコピーを使用してプロジェクト テンプレートを開発する
 
@@ -44,7 +44,7 @@ Dynamics 365 Project Operations はプロジェクトをコピーして、ロー
 - **{"clearTeamsAndAssignments":true}**: Web 向けのプロジェクトの既定の動作で、すべての割り当てとチームメンバーを削除します。
 - **{"removeNamedResources":true}** プロジェクト操作の既定の動作で、割り当てを汎用リソースに戻します。
 
-既定の動作の詳細 : [Web API のアクションを使用する](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+既定の動作の詳細 : [Web API のアクションを使用する](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>コピーするフィールドを特定する 
 アクションが呼び出されると、**プロジェクトのコピー** は、プロジェクト ビューの **コピー プロジェクト カラム** を見て、プロジェクトがコピーされる際にコピーするフィールドを決定します。

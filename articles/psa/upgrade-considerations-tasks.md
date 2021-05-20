@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a067521410f0fe0d8f5d4c510a35f2a3b018dce3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d31ca60b267063e9cadf544468ece501353950fa
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281754"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951350"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>WBS (作業分解構造) のアップグレードに関する考慮事項
 
@@ -34,20 +34,20 @@ ms.locfileid: "5281754"
 ## <a name="key-entities"></a>主要なエンティティ
 リソースでロードされている正確な WBS (作業分解構造) に関して、次のエンティティが必要です。
 
-- [プロジェクト](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [プロジェクト チーム](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [プロジェクト タスク](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [リソース割り当て](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [プロジェクト タスクの依存関係](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [予約可能リソース](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [プロジェクト](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [プロジェクト チーム](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [プロジェクト タスク](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [リソース割り当て](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [プロジェクト タスクの依存関係](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [予約可能リソース](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 WBS (作業分解構造) がロードされたリソースを定義するには、次の手順を完了する必要があります。
 
-1. 新しいプロジェクトを作成する 新規プロジェクトの作成方法については、[msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)を参照してください。
-2. 1 つ以上のタスクを作成する。 タスクの作成方法については、[msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)を参照してください。
-3. タスクの依存関係を定義します。 詳細については、 [プロジェクト タスクの依存関係](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency) を参照してください。
-4. プロジェクト チーム メンバーをプロジェクトに割り当てます。 詳細については、[msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam) を参照してください。
-5. プロジェクト チーム メンバーをタスクに割り当てます。 詳細については、 [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment) を参照してください。
+1. 新しいプロジェクトを作成する 新規プロジェクトの作成方法については、[msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)を参照してください。
+2. 1 つ以上のタスクを作成する。 タスクの作成方法については、[msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)を参照してください。
+3. タスクの依存関係を定義します。 詳細については、 [プロジェクト タスクの依存関係](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency) を参照してください。
+4. プロジェクト チーム メンバーをプロジェクトに割り当てます。 詳細については、[msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam) を参照してください。
+5. プロジェクト チーム メンバーをタスクに割り当てます。 詳細については、 [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment) を参照してください。
 
 ## <a name="project-team-relationships"></a>プロジェクト チームの関連付け
 

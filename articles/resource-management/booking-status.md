@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 07a68cdedd095b7aecdc02e58df251ed34a4e769
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 552cf8515b6a858437d9ef0f0cbc56f1bd103878
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279954"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950090"
 ---
 # <a name="booking-statuses"></a>予約状態
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-Dynamics 365 Field Service 向けの Universal Resource Scheduling が提供する機能を使用して組織の予約状態を設定できます。 この設定を完了する方法は [予約状態の設定](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses) を参照してください。
+Dynamics 365 Field Service 向けの Universal Resource Scheduling が提供する機能を使用して組織の予約状態を設定できます。 この設定を完了する方法は [予約状態の設定](/dynamics365/field-service/set-up-booking-statuses) を参照してください。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

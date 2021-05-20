@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279459"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949955"
 ---
 # <a name="resource-management-modes-overview"></a>リソース管理モードの概要
 
@@ -29,11 +29,11 @@ Dynamics 365 Project Operations は、全体的な予約フローを実行する
 
 セントラル モードでリソースを管理するには、以下を参照してください。
 
-- [予約可能な汎用リソースをタスクに割り当て、リソース要件を生成する](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [リソース要件から名前付きリソースを予約する](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [リソース要求の送信](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [リソース要求を実行](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [リソース要求から提案されたプロジェクト リソースの承諾または拒否](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [予約可能な汎用リソースをタスクに割り当て、リソース要件を生成する](/dynamics365/project-service/assign-generic-bookable-resource)
+- [リソース要件から名前付きリソースを予約する](/dynamics365/project-service/book-named-resource)
+- [リソース要求の送信](/dynamics365/project-service/submit-resource-request)
+- [リソース要求を実行](/dynamics365/project-service/resource-management-fulfill-requests)
+- [リソース要求から提案されたプロジェクト リソースの承諾または拒否](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>ハイブリッド モード
 リソースの割り当てに柔軟性が必要な組織の場合、ハイブリッド モードでは、プロジェクト マネージャーとリソース マネージャーの両方がリソースを予約できます。
@@ -43,11 +43,11 @@ Dynamics 365 Project Operations は、全体的な予約フローを実行する
 サポートされているセントラル モード プロセスに加えて、ハイブリッド モードでサポートされている他のすべての予約フローを管理するには、次のトピックを参照してください。
 
 プロジェクトにリソースを直接予約する:
-- [名前付き予約可能リソースをプロジェクト チームに予約して、タスクを割り当てる](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [名前付き予約可能リソースをプロジェクト チームに予約して、タスクを割り当てる](/dynamics365/project-service/assign-named-bookable-resource)
 
 リソース要件からリソースを予約する:
-- [予約可能な汎用リソースをタスクに割り当て、リソース要件を生成する](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [リソース要件から名前付きリソースを予約する](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [予約可能な汎用リソースをタスクに割り当て、リソース要件を生成する](/dynamics365/project-service/assign-generic-bookable-resource)
+- [リソース要件から名前付きリソースを予約する](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

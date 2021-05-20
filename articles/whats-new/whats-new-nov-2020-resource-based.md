@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f8e9bce6612e617785264470b7946ffc4795a621
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa6530a0eefb1ae6a84a662c6131182d97d49aeb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291850"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950945"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 年 11 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 
@@ -67,7 +67,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | プロジェクト会計  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | この機能を有効にすると、CDS 統合なしに複数の契約品目は不可能です。                                                                                   |
 
 ### <a name="regulatory-updates"></a>規制の更新
-Finance and Operations アプリの規制の更新については、[規制の更新](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
+Finance and Operations アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

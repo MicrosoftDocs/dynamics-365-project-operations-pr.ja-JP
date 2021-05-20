@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 8d1755b308a415deff1fd1a35122197476673988
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a208ed98a5549030bd663e18b1b490d1a42ee33
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288144"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950225"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>在庫/製造ベースのシナリオ向け Project Operations、2020 年 12 月の最新情報または変更事項
 
@@ -141,7 +141,7 @@ _適用対象: 在庫/製造ベースのシナリオ向け Project Operations_
 
 ## <a name="regulatory-updates"></a>規制の更新
 
-Dynamics 365 Finance の規制の更新については、[規制の更新](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates) を参照してください。 規制の更新について学ぶもう 1 つの方法は、Lifecycle Services (LCS) にログインし、問題検索ツールを使用して計画された規制の更新を表示することです。 問題検索では、国、機能の種類、リリースで検索できます。
+Dynamics 365 Finance の規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 規制の更新について学ぶもう 1 つの方法は、Lifecycle Services (LCS) にログインし、問題検索ツールを使用して計画された規制の更新を表示することです。 問題検索では、国、機能の種類、リリースで検索できます。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

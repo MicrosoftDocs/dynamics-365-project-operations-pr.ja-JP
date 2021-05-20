@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 01df30bf48fa9118771b87363d0418eb6b49ecea
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 2cbce8fbfa622a143f3ebfc34d7d60a7da4a9171
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499902"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950892"
 ---
 # <a name="mobile-expense-app"></a>モバイル経費アプリ
 
@@ -72,16 +72,16 @@ Finance が展開されている場合は、システム管理者は **経費管
 <td>システム管理者</td>
 <td>サポート情報記事 4019015 は、<strong>経費管理</strong>モバイル ワークスペースを含む X++ 更新またはメタデータ修正プログラムです。 サポート情報 4019015 を実装するには、システム管理者は次の手順に従う必要があります。
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Lifecycle Services から更新プログラムをダウンロードする</a>。</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">メタデータ修正プログラムをインストールします</a>。</li>
-<li><strong>ApplicationSuite</strong> および <strong>経費管理</strong> モデルを含む<a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">展開可能なパッケージを作成</a>し、展開可能なパッケージを LCS にアップロードします。</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">展開可能なパッケージを適用します</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Lifecycle Services から更新プログラムをダウンロードする</a>。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">メタデータ修正プログラムをインストールします</a>。</li>
+<li><strong>ApplicationSuite</strong> および <strong>経費管理</strong> モデルを含む<a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">展開可能なパッケージを作成</a>し、展開可能なパッケージを LCS にアップロードします。</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">展開可能なパッケージを適用します</a>。</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td><strong>経費管理</strong>モバイル ワークスペースを公開する。</td>
 <td>システム管理者</td>
-<td><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">モバイル ワークスペースの発行</a>を参照してください。</td>
+<td><a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">モバイル ワークスペースの発行</a>を参照してください。</td>
 </tr>
 </tbody>
 </table>
@@ -122,11 +122,11 @@ Dynamics 365 Unified Ops モバイル アプリをダウンロードしてイン
 
 1. モバイル デバイスで **経費管理** ワークスペースを開きます。
 2. **経費の簡易入力** を選択します。
-3. 経費のカテゴリを選択します。 オフラインで使用するためにアプリに読み込まれている経費カテゴリのリストが表示されます。 既定では 50 項目が読み込まれていますが、開発者はこの数を変更できます。 詳細情報については、開発者は [モバイル プラットフォーム](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) を参照してください。 カテゴリが一覧にない場合は、**検索** を選択してオンライン検索をします。 経費カテゴリで検索するか、経費タイプ別の検索に切り替えます。
+3. 経費のカテゴリを選択します。 オフラインで使用するためにアプリに読み込まれている経費カテゴリのリストが表示されます。 既定では 50 項目が読み込まれていますが、開発者はこの数を変更できます。 詳細情報については、開発者は [モバイル プラットフォーム](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) を参照してください。 カテゴリが一覧にない場合は、**検索** を選択してオンライン検索をします。 経費カテゴリで検索するか、経費タイプ別の検索に切り替えます。
 4. 経費のトランザクション日付を入力します。
 5. オプション : 経費に使用するマーチャントを入力します。
 6. 経費の金額を入力してください。
-7. 経費に使用する通貨を選択します。 オフラインで使用するためにアプリに読み込まれている通貨コードのリストが表示されます。 既定では 400 の通貨が読み込まれていますが、開発者であればこの数を変更できます。 詳細情報については、開発者は [モバイル プラットフォーム](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) を参照してください。 通貨が一覧にない場合は、**検索** を選択してオンライン検索をします。 通貨で検索するか、カテゴリ名別検索に切り替えます。
+7. 経費に使用する通貨を選択します。 オフラインで使用するためにアプリに読み込まれている通貨コードのリストが表示されます。 既定では 400 の通貨が読み込まれていますが、開発者であればこの数を変更できます。 詳細情報については、開発者は [モバイル プラットフォーム](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) を参照してください。 通貨が一覧にない場合は、**検索** を選択してオンライン検索をします。 通貨で検索するか、カテゴリ名別検索に切り替えます。
 8. **写真を撮る** または **画像を選択** を選択します。
 9. 次のいずれかの手順に従います :
 
@@ -159,11 +159,11 @@ Dynamics 365 Unified Ops モバイル アプリをダウンロードしてイン
 7. 経費の一覧で、1 人以上のユーザーを選択します。
 8. **完了** を選択します。
 9. 経費レポートに新たな経費を追加するには、**新たな費用** を選択します。
-10. 経費のカテゴリを選択します。 オフラインで使用するためにアプリに読み込まれている経費カテゴリのリストが表示されます。 既定では 50 項目が読み込まれていますが、開発者はこの数を変更できます。 詳細情報については、開発者は [モバイル プラットフォーム](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) を参照してください。 カテゴリが一覧にない場合は、**検索** を選択してオンライン検索をします。 経費カテゴリで検索するか、経費タイプ別の検索に切り替えます。
+10. 経費のカテゴリを選択します。 オフラインで使用するためにアプリに読み込まれている経費カテゴリのリストが表示されます。 既定では 50 項目が読み込まれていますが、開発者はこの数を変更できます。 詳細情報については、開発者は [モバイル プラットフォーム](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) を参照してください。 カテゴリが一覧にない場合は、**検索** を選択してオンライン検索をします。 経費カテゴリで検索するか、経費タイプ別の検索に切り替えます。
 11. オプション : 経費に使用するマーチャントを入力します。
 12. 経費のトランザクション日付を入力します。
 13. 経費の金額を入力してください。
-14. 経費に使用する通貨を選択します。 オフラインで使用するためにアプリに読み込まれている通貨コードのリストが表示されます。 既定では 400 の通貨が読み込まれていますが、開発者であればこの数を変更できます。 詳細情報については、開発者は [モバイル プラットフォーム](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) を参照してください。 通貨が一覧にない場合は、**検索** を選択してオンライン検索をします。 通貨で検索するか、カテゴリ名別検索に切り替えます。
+14. 経費に使用する通貨を選択します。 オフラインで使用するためにアプリに読み込まれている通貨コードのリストが表示されます。 既定では 400 の通貨が読み込まれていますが、開発者であればこの数を変更できます。 詳細情報については、開発者は [モバイル プラットフォーム](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) を参照してください。 通貨が一覧にない場合は、**検索** を選択してオンライン検索をします。 通貨で検索するか、カテゴリ名別検索に切り替えます。
 15. **完了** を選択します。
 16. 経費に詳細を追加するには、**詳細の追加** を選択します。 使用可能となるフィールドは、会社の経費管理の構成によって異なります。
 17. 会社の方針で経費の領収書が必要な場合は、**領収書** を選択し、次の手順に従ってください :
@@ -209,12 +209,12 @@ Dynamics 365 Unified Ops モバイル アプリをダウンロードしてイン
 
         - **以前のゲスト** を選択した場合、次の手順に従ってください :
 
-            1. 一覧で、1 つまたは以前のゲストを選択します。 オフラインで使用するためにアプリに読み込まれた、以前の経費レポートに追加した以前のゲストのリストが表示されます。 既定では 50 項目が読み込まれていますが、開発者はこの数を変更できます。 詳細情報については、開発者は [モバイル プラットフォーム](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) を参照してください。 ゲストが一覧にない場合は、**検索** を選択してオンライン検索をします。 名前で検索をするか、組織、国、役職に切り替えます。
+            1. 一覧で、1 つまたは以前のゲストを選択します。 オフラインで使用するためにアプリに読み込まれた、以前の経費レポートに追加した以前のゲストのリストが表示されます。 既定では 50 項目が読み込まれていますが、開発者はこの数を変更できます。 詳細情報については、開発者は [モバイル プラットフォーム](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) を参照してください。 ゲストが一覧にない場合は、**検索** を選択してオンライン検索をします。 名前で検索をするか、組織、国、役職に切り替えます。
             2. **完了** を選択します。
 
         - **同僚** 選択した場合、次の手順を実行します :
 
-            1. 一覧で、1 人以上の同僚を選択します。 オフラインで使用するためにアプリに読み込まれている同僚のリストが表示されます。 既定では 50 項目が読み込まれていますが、開発者はこの数を変更できます。 詳細情報については、開発者は [モバイル プラットフォーム](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) を参照してください。 同僚が一覧にない場合は、**検索** を選択してオンライン検索をします。 名前で検索をするか、会社や役職に切り替えます。
+            1. 一覧で、1 人以上の同僚を選択します。 オフラインで使用するためにアプリに読み込まれている同僚のリストが表示されます。 既定では 50 項目が読み込まれていますが、開発者はこの数を変更できます。 詳細情報については、開発者は [モバイル プラットフォーム](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) を参照してください。 同僚が一覧にない場合は、**検索** を選択してオンライン検索をします。 名前で検索をするか、会社や役職に切り替えます。
             2. **完了** を選択します。
 
     3. **戻る**  ボタンをクリックして経費の詳細に戻ります。
@@ -223,7 +223,7 @@ Dynamics 365 Unified Ops モバイル アプリをダウンロードしてイン
 
     1. 項目化をする最初の日付を選択します。
     2. **項目化の追加** を選択します。
-    3. 項目別経費のサブカテゴリを選択します。 オフラインで使用するためにアプリに読み込まれている経費サブカテゴリのリストが表示されます。 既定では 50 項目が読み込まれていますが、開発者はこの数を変更できます。 詳細情報については、開発者は [モバイル プラットフォーム](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) を参照してください。 サブカテゴリが一覧にない場合は、**検索** を選択してオンライン検索をします。 経費のサブカテゴリ名で検索します。
+    3. 項目別経費のサブカテゴリを選択します。 オフラインで使用するためにアプリに読み込まれている経費サブカテゴリのリストが表示されます。 既定では 50 項目が読み込まれていますが、開発者はこの数を変更できます。 詳細情報については、開発者は [モバイル プラットフォーム](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started) を参照してください。 サブカテゴリが一覧にない場合は、**検索** を選択してオンライン検索をします。 経費のサブカテゴリ名で検索します。
     4. 項目別の取引金額を入力します。
     5. 必要に応じて、取引日付を編集します。
     6. **完了** を選択します。

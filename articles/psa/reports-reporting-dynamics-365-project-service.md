@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 78c62f69c6529669789a461f1ded8e3ea5f8219e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 32b504a862f98dac4b1d9b54289476026d988c13
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283284"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951485"
 ---
 # <a name="reporting-home-page"></a>ホーム ページのレポート作成
 
@@ -31,15 +31,15 @@ ms.locfileid: "5283284"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation を使うことで、プロジェクトベースの組織は事業の運営を効率的に管理することができます。 どのプロジェクトでも、チーム メンバーは、営業案件、見積もり、および作業の計画の管理、プロジェクトのリソース、計画に従った作業の管理、作業の請求書、そしてプロジェクトを完了するために作業を実行する必要があります。 操作でレポート機能は、組織の正常性を判断し、必要な修正措置を講じるための重要な鍵となります。 PSA はすべてのレポート作成で、Microsoft Dynamics 365 のレポート作成メソッドと技術を使用しています。 レポートのオプションの詳細については、[Dynamics 365 Customer Engagement (on-premises)のレポート作成ガイド、バージョン9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)を参照してください。
+Microsoft Dynamics 365 Project Service Automation を使うことで、プロジェクトベースの組織は事業の運営を効率的に管理することができます。 どのプロジェクトでも、チーム メンバーは、営業案件、見積もり、および作業の計画の管理、プロジェクトのリソース、計画に従った作業の管理、作業の請求書、そしてプロジェクトを完了するために作業を実行する必要があります。 操作でレポート機能は、組織の正常性を判断し、必要な修正措置を講じるための重要な鍵となります。 PSA はすべてのレポート作成で、Microsoft Dynamics 365 のレポート作成メソッドと技術を使用しています。 レポートのオプションの詳細については、[Dynamics 365 Customer Engagement (on-premises)のレポート作成ガイド、バージョン9](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)を参照してください。
 
 ## <a name="report-wizard"></a>レポート ウィザード
 
-レポート ウィザードでは、開発者以外の人が簡単なレポートを作成できます。 アプリが既存のプラットフォーム上に構築されていることから、この体験は、[レポート ウィザードを使用したレポートの作成、または編集](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard)で文書化された体験と同じです。 ただし、Project Service Automation 固有のエンティティを使用します。
+レポート ウィザードでは、開発者以外の人が簡単なレポートを作成できます。 アプリが既存のプラットフォーム上に構築されていることから、この体験は、[レポート ウィザードを使用したレポートの作成、または編集](/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard)で文書化された体験と同じです。 ただし、Project Service Automation 固有のエンティティを使用します。
 
 ## <a name="custom-sql-server-reporting-services-reports"></a>カスタム SQL Server Reporting Service のレポート
 
-あなたのビジネスがレポート ウィザードを使用して作成することができない特定のレポートを必要とする場合は、カスタム レポートを作成できます。 Microsoft Visual Studio と、適切な Microsoft SQL Server Data Tools と Report Authoring Extension がインストールされている必要があります。 ツール、およびバージョンの詳細については、[SQL Server Data Tools を使用したレポート作成環境](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools) を参照してください。 カスタム レポートの作成方法に関しては、[SQL Server Data Tools を使用して新規レポートを作成する](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools)を参照してください。
+あなたのビジネスがレポート ウィザードを使用して作成することができない特定のレポートを必要とする場合は、カスタム レポートを作成できます。 Microsoft Visual Studio と、適切な Microsoft SQL Server Data Tools と Report Authoring Extension がインストールされている必要があります。 ツール、およびバージョンの詳細については、[SQL Server Data Tools を使用したレポート作成環境](/dynamics365/customerengagement/on-premises/analytics/report-writing-environment-using-sql-server-data-tools) を参照してください。 カスタム レポートの作成方法に関しては、[SQL Server Data Tools を使用して新規レポートを作成する](/dynamics365/customerengagement/on-premises/analytics/create-a-new-report-using-sql-server-data-tools)を参照してください。
 
 ## <a name="power-bi-insights-apps"></a>Power BI インサイト アプリケーション
 

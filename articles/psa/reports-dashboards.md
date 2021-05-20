@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1e66177e92e701c2dc09bed005f748ca19ae980d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ad5c5deca1964d57f22459c129f9936be0c30fde
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283374"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951530"
 ---
 # <a name="dashboards"></a>ダッシュボード
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Service Automation には、**プラクティス マネー�
 
 ## <a name="practice-manager"></a>プラクティス マネージャー 
 
-**プラクティス マネージャー** ダッシュボードは、プラクティス マネージャーに、コスト、営業、粗利、利用率のグラフィカルなダッシュボード体験を提供します。 また、プラクティス マネージャーは、顧客、プロジェクトまたはリソース ロールなどのさまざまなディメンションで情報をスライスすることもできます。 ダッシュボードの作成およびカスタマイズ方法の詳細については、[ダッシュボードの作成と編集](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)を参照してください。
+**プラクティス マネージャー** ダッシュボードは、プラクティス マネージャーに、コスト、営業、粗利、利用率のグラフィカルなダッシュボード体験を提供します。 また、プラクティス マネージャーは、顧客、プロジェクトまたはリソース ロールなどのさまざまなディメンションで情報をスライスすることもできます。 ダッシュボードの作成およびカスタマイズ方法の詳細については、[ダッシュボードの作成と編集](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)を参照してください。
 
 ## <a name="resource-manager"></a>リソース マネージャー 
 

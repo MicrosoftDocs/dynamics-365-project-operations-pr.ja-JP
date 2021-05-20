@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0af8067fc0673890a317ac6f4e62d74b7f4eebca
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2470d573f4537cb22de4dbd98caff148cbe0bda3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290095"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950270"
 ---
 # <a name="deploy-project-operations---lite"></a>Project Operations の展開 (ライト)
 
@@ -34,14 +34,14 @@ Project Operations は、複数の展開モデルをサポートしています�
 
 ## <a name="install-project-operations-to-a-new-cds-environment"></a><a name="new"></a>Project Operations を新しい CDS 環境にインストールする
 
-1. Project Operations ライセンスの[グローバルまたは Power Platform 管理者](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) として、[PowerPlatform 管理センター](https://admin.powerplatform.com) で新しい CDS 環境を作成します。 **CDS データベース** および **Dynamics 365 アプリ** は、有効であることを確認します。 詳細については、[Power Platform 管理センターで環境を作成および管理する](https://docs.microsoft.com/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center) を参照してください。
+1. Project Operations ライセンスの[グローバルまたは Power Platform 管理者](/power-platform/admin/global-service-administrators-can-administer-without-license) として、[PowerPlatform 管理センター](https://admin.powerplatform.com) で新しい CDS 環境を作成します。 **CDS データベース** および **Dynamics 365 アプリ** は、有効であることを確認します。 詳細については、[Power Platform 管理センターで環境を作成および管理する](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center) を参照してください。
 2. Dynamics 365 アプリの展開リストから **Microsoft Dynamics 365 Project Operations** を選択します。
 
 
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Project Operations を既存の CDS 環境にインストールする
 
-1. Project Operations ライセンスの[グローバルまたは Power Platform 管理者](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) として、Project Operations をインストールする [PowerPlatform 管理センター](https://admin.powerplatform.com) で環境を見つけます。
-2. Dynamics 365 アプリの展開リストから **Microsoft Dynamics 365 Project Operations** をインストールします。 詳細については、[Dynamics 365 アプリを管理する](https://docs.microsoft.com/power-platform/admin/manage-apps) 参照してください。
+1. Project Operations ライセンスの[グローバルまたは Power Platform 管理者](/power-platform/admin/global-service-administrators-can-administer-without-license) として、Project Operations をインストールする [PowerPlatform 管理センター](https://admin.powerplatform.com) で環境を見つけます。
+2. Dynamics 365 アプリの展開リストから **Microsoft Dynamics 365 Project Operations** をインストールします。 詳細については、[Dynamics 365 アプリを管理する](/power-platform/admin/manage-apps) 参照してください。
 
 
 

@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d99906b11b0189fc8227accd68bd0457f6baa42c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ceba31934f021b4a18766eca314d68b69dd6a8ff
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281169"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949595"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a>Project Service Automation 早期アクセス ウェーブ 1 2021、V3 の最新情報または変更事項
 
@@ -30,7 +30,7 @@ ms.locfileid: "5281169"
 
 ## <a name="project-service-automation-early-access-wave-1-2021-v3"></a>Project Service Automation 早期アクセス ウェーブ 1 2021、V3
 
-Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution) を参照してください。
+Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](/power-platform/admin/install-remove-preferred-solution) を参照してください。
 
 このトピックは、Project Service Automation V3、早期アクセス ウェーブ 1 2021 の新規または変更された機能と修正をリストしています。 このバージョンのビルド番号は V3.10.49.3 で、2021 年 2 月のセルフアップデートで一般提供されます。
 

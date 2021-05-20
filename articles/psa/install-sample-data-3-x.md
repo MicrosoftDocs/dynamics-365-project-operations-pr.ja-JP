@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275094"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950585"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Project Service アプリケーション用サンプル データのインストール
 
@@ -149,9 +149,9 @@ Project Service および Field Service サンプル データ インストー�
 
 5. 最初のユーザーのカレンダー (**userstocreateandconfigure** タグ) は、デモ データのインポートですべての予約可能リソースに作業時間を設定するのに使用されます。 **設定** > **セキュリティ** > **ユーザー** に移動して、「Spencer Low」というユーザーを検索し、「作業時間」オプションを開きます。 **定期的な週単位のパターン全体** オプションを選択して、既存の作業時間を編集します。 **作業時間が午前 8 時から午後 5 時 (9 時間)、月曜日から金曜日に設定されていること、およびタイムゾーンが太平洋標準時 (米国およびカナダ) に設定されていること** を確認します。 プロジェクトおよびスケジュール ボードが正しく表示されることを確認するのに必要です。
 
-**レコメンデーション:** サンプル データのインストール中に問題が生じるときに開始点に戻る必要がある場合のために、組織のバックアップを今作成することを考慮してください。 詳細については、[インスタンスのバックアップおよび復元](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances)を参照してください。
+**レコメンデーション:** サンプル データのインストール中に問題が生じるときに開始点に戻る必要がある場合のために、組織のバックアップを今作成することを考慮してください。 詳細については、[インスタンスのバックアップおよび復元](/dynamics365/customer-engagement/admin/backup-restore-instances)を参照してください。
 
-## <a name="run-the-package-deployer"></a>Package Deployer の実行
+## <a name="run-the-package-deployer&quot;></a>Package Deployer の実行
 
 1. **PackageDeployer.exe** を **v902FPSMasterData** または **PackageDeployer_FPSDemoData** フォルダーで見つけて実行します。
 
@@ -161,7 +161,7 @@ Project Service および Field Service サンプル データ インストー�
 
    a. 展開タイプ **Office 365** の選択
 
-   b. 「ユーザーを作成または構成」で構成したシステム管理者ユーザーのユーザーおよびパスワードを使用します (ユーザー名 "spencerl" の "Spencer Low")。
+   b. 「ユーザーを作成または構成」で構成したシステム管理者ユーザーのユーザーおよびパスワードを使用します (ユーザー名 &quot;spencerl&quot; の &quot;Spencer Low")。
 
    c. **使用可能な組織の一覧を表示する** が選択されていることを確認します。
 

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92c4cb3e1661f0415d49b84c9a59aba4bda38f20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282294"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951395"
 ---
 # <a name="sign-in-to-project-service-automation"></a>Project Service Automation へのサインイン
 
@@ -39,7 +39,7 @@ Dynamics 365 アプリにサインインする場合、管理者から次の情�
   
 - パスワード  
   
-  おそらくユーザーは、管理者からこの情報を電子メールで受け取ります。もし、すべての情報がない場合、またはサインインに問題があった場合、[管理者またはサポート担当者を探す](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support) を参照してください。  
+  おそらくユーザーは、管理者からこの情報を電子メールで受け取ります。もし、すべての情報がない場合、またはサインインに問題があった場合、[管理者またはサポート担当者を探す](/dynamics365/customerengagement/on-premises/basics/find-administrator-support) を参照してください。  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>電子メールを許可するように個人用オプションを設定する  
  他のユーザーが自分の代わりに電子メールを送信するように、電子メール設定を構成する必要があります。これにより、[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] が、プロジェクトの承認またはサインアップが必要な時間や出費がある場合に、電子メール通知を送信できるようになります。  

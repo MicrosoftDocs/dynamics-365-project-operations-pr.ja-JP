@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 371cfc5bc04ac0fe780400247dc1c1762ade9e21
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284184"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949640"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Dynamics 365 Project Service Automation とは何か？
 
@@ -47,10 +47,10 @@ Project Service Automation (PSA) アプリケーションは、最初の営業�
 ## <a name="whats-new-in-psa"></a>PSA の新機能
 チームは最新の更新プログラムを発表いたします。 ユーザー インターフェイスの改善、バグの修正、重要な新機能の追加など、さまざまな機能が追加されています。 ユーザーが要求し、私たちは取り入れました。
 
-最新の拡張機能と追加機能を確認するには、 [2019 年 10 月のリリース ノート](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) を参照してください。
+最新の拡張機能と追加機能を確認するには、 [2019 年 10 月のリリース ノート](/dynamics365-release-plan/2019wave2/index) を参照してください。
 
 ### <a name="in-development"></a>開発において
-近い将来に計画していることを確認するには、 [Dynamics 365: 2020 年リリース ウェーブ 1 プラン](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index)に進んでください。
+近い将来に計画していることを確認するには、 [Dynamics 365: 2020 年リリース ウェーブ 1 プラン](/dynamics365-release-plan/2020wave1/index)に進んでください。
 
 ## <a name="get-help-with-psa-version-3x"></a>PSA バージョン 3.x に関するヘルプの参照
 実装計画に役立つリソースを検索しますか。 これらのダウンロード可能ガイドをチェックアウトします。

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e5bfd3c790dac51895cde04e08d1fa62f4457e8
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ece05f1f551b18a5b30610af57d68baa120948fb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5292075"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950990"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 1 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 
@@ -88,7 +88,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ## <a name="regulatory-updates"></a>規制の更新
 
-Finance and Operations アプリの規制の更新については、[規制の更新](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
+Finance and Operations アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f5927a638fe8e454aecc9ce8dfc0871ed51d09f5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e7c252ba01a4665bd09423e9b2b250622a149beb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291940"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951035"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 年 12 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 
@@ -108,7 +108,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | 出張と経費                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | 経費レポートの自動転記ワークフローを完了しても請求書が転記されません                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>規制の更新
-Finance and Operations アプリの規制の更新については、[規制の更新](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
+Finance and Operations アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
