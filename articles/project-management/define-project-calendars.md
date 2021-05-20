@@ -1,9 +1,9 @@
 ---
 title: プロジェクト カレンダーの定義
-description: このトピックでは、プロジェクト カレンダーを使用してプロジェクトのスケジュールを追跡する方法について説明します。
+description: このトピックでは、プロジェクトのスケジュールを追跡するためにカレンダーのテンプレートをプロジェクトに適用する方法について説明します。
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286974"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981306"
 ---
-# <a name="define-project-calendars"></a><span data-ttu-id="f756c-103">プロジェクト カレンダーの定義</span><span class="sxs-lookup"><span data-stu-id="f756c-103">Define project calendars</span></span>
+# <a name="define-project-calendars"></a><span data-ttu-id="cec19-103">プロジェクト カレンダーの定義</span><span class="sxs-lookup"><span data-stu-id="cec19-103">Define project calendars</span></span>
 
-<span data-ttu-id="f756c-104">_**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_</span><span class="sxs-lookup"><span data-stu-id="f756c-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="cec19-104">_**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_</span><span class="sxs-lookup"><span data-stu-id="cec19-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="f756c-105">プロジェクト スケジュールを作成するには、1 日分に対応する作業時間数と休業日を定義するプロジェクト カレンダー テンプレートを作成します。</span><span class="sxs-lookup"><span data-stu-id="f756c-105">To create a project schedule, you create a project calendar template that defines the number of working hours per day and any business closures.</span></span> <span data-ttu-id="f756c-106">プロジェクトのカレンダー テンプレートを作成するには、プロジェクトの **カレンダー テンプレート** フィールドで、作業テンプレートを関連付けます。</span><span class="sxs-lookup"><span data-stu-id="f756c-106">To create a project calendar template, you associate a work template with the **Calendar template** field for the project.</span></span> <span data-ttu-id="f756c-107">作業テンプレートを作成するには、次の手順に従います。</span><span class="sxs-lookup"><span data-stu-id="f756c-107">Follow these steps to create a work template.</span></span>
+<span data-ttu-id="cec19-105">プロジェクトを作成、管理するには、カレンダーのテンプレートをプロジェクトに適用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="cec19-105">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="cec19-106">カレンダーのテンプレートは、次のプロジェクト属性を定義します:</span><span class="sxs-lookup"><span data-stu-id="cec19-106">The calendar template defines the following project attributes:</span></span>
 
-1. <span data-ttu-id="f756c-108">左側のナビゲーション ウィンドウで、**リソース** を選択します。</span><span class="sxs-lookup"><span data-stu-id="f756c-108">In the left navigation pane, select **Resources**.</span></span> 
-2. <span data-ttu-id="f756c-109">**リソース** リスト ページで、ユーザー レコードを開き、**作業時間を表示する** を選択します。</span><span class="sxs-lookup"><span data-stu-id="f756c-109">On the **Resources** list page, open a user record, and then select **Show Work Hours**.</span></span>
+- <span data-ttu-id="cec19-107">開始時間と終了時間を含む作業時間</span><span class="sxs-lookup"><span data-stu-id="cec19-107">Working hours, including start and end time</span></span>
+- <span data-ttu-id="cec19-108">営業日</span><span class="sxs-lookup"><span data-stu-id="cec19-108">Working days</span></span>
+- <span data-ttu-id="cec19-109">非稼働日などのカレンダーの例外日</span><span class="sxs-lookup"><span data-stu-id="cec19-109">Calendar exceptions such as non-working days</span></span>
 
-  > [!NOTE]
-  > <span data-ttu-id="f756c-110">ブラウザー ページでポップアップを許可していることを確認してください。</span><span class="sxs-lookup"><span data-stu-id="f756c-110">Make sure that you allow pop-ups on the browser page.</span></span> <span data-ttu-id="f756c-111">これにより、そのリソースに設定された作業時間が表示されます。</span><span class="sxs-lookup"><span data-stu-id="f756c-111">This lets you see the work hours set for the resource.</span></span>
-  
-3. <span data-ttu-id="f756c-112">**月次ビュー** タブで、**設定** を選択します。</span><span class="sxs-lookup"><span data-stu-id="f756c-112">On the **Monthly View** tab, select **Set Up**.</span></span> <span data-ttu-id="f756c-113">次の 3 つのオプションが表示されます。</span><span class="sxs-lookup"><span data-stu-id="f756c-113">A list of three options appears:</span></span> 
+<span data-ttu-id="cec19-110">プロジェクトに適用されるカレンダーのテンプレートは、組織の設定で定義されたカレンダー テンプレートのコピーです。</span><span class="sxs-lookup"><span data-stu-id="cec19-110">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
 
-  - <span data-ttu-id="f756c-114">新しい週単位のスケジュール</span><span class="sxs-lookup"><span data-stu-id="f756c-114">New Weekly Schedule</span></span>
-  - <span data-ttu-id="f756c-115">1 日の作業スケジュール</span><span class="sxs-lookup"><span data-stu-id="f756c-115">Work Schedule for One Day</span></span>
-  - <span data-ttu-id="f756c-116">休暇</span><span class="sxs-lookup"><span data-stu-id="f756c-116">Time Off</span></span>
+> [!NOTE]
+> <span data-ttu-id="cec19-111">カレンダーのテンプレートを変更しても、その変更はプロジェクトの作業時間には反映されません。</span><span class="sxs-lookup"><span data-stu-id="cec19-111">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="cec19-112">プロジェクトの作業時間を変更するには、新しいテンプレートを適用する必要があります。</span><span class="sxs-lookup"><span data-stu-id="cec19-112">To change the working hours of the project, a new template must be applied.</span></span>
 
-4. <span data-ttu-id="f756c-117">**新規週単位スケジュール** を選択し、このリソース スケジュールのオプションを設定します。</span><span class="sxs-lookup"><span data-stu-id="f756c-117">Select **New Weekly Schedule**, and then set the options for this resource schedule.</span></span> <span data-ttu-id="f756c-118">定期的な週単位のスケジュール、毎日の時間パラメーター、休業日の設定などを設定できます。</span><span class="sxs-lookup"><span data-stu-id="f756c-118">You can set a recurring weekly schedule, daily hour parameters, business closures, and more.</span></span>
-5. <span data-ttu-id="f756c-119">日付の範囲を設定して、**保存** を選択し、**閉じる** を選択します。</span><span class="sxs-lookup"><span data-stu-id="f756c-119">Set the date range, select **Save**, and then select **Close**.</span></span> 
-6. <span data-ttu-id="f756c-120">**リソース** リストページへ戻り、作業時間のために設定するリソースを選択します。</span><span class="sxs-lookup"><span data-stu-id="f756c-120">Go back to the **Resources** list page, and select the resource that you set the work hours for.</span></span> 
-7. <span data-ttu-id="f756c-121">作業テンプレートを設定するには、**カレンダーを次のとおり設定** を選択します。</span><span class="sxs-lookup"><span data-stu-id="f756c-121">Select **Set Calendar As** to set the work template.</span></span> 
-8. <span data-ttu-id="f756c-122">**作業テンプレート** ダイアログ ボックスで、作業テンプレートの名前を入力し、**適用** を選択します。</span><span class="sxs-lookup"><span data-stu-id="f756c-122">In the **Work Template** dialog box, enter a name for the work template, and then select **Apply**.</span></span> 
+<span data-ttu-id="cec19-113">組織で使用するカレンダーのテンプレートを作成するには、次の 2 つの重要な要件があります:</span><span class="sxs-lookup"><span data-stu-id="cec19-113">To create a calendar template for your organization, there are two key requirements:</span></span>
 
-<span data-ttu-id="f756c-123">ここで、プロジェクトのカレンダー テンプレートがある作業テンプレートを関連付けることができます。</span><span class="sxs-lookup"><span data-stu-id="f756c-123">You can now associate the work template with a project calendar template.</span></span>
+- <span data-ttu-id="cec19-114">新規または既存の予約可能なリソースを使用して、テンプレートに適用する作業時間を定義します。</span><span class="sxs-lookup"><span data-stu-id="cec19-114">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="cec19-115">新しいカレンダーテンプレートを作成し、そのテンプレートを予約可能なリソースに関連付けます。</span><span class="sxs-lookup"><span data-stu-id="cec19-115">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="cec19-116">**テンプレートの作業時間を定義する**</span><span class="sxs-lookup"><span data-stu-id="cec19-116">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="cec19-117">**リソース** \> **リソース** へ移動します。</span><span class="sxs-lookup"><span data-stu-id="cec19-117">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="cec19-118">カレンダーのテンプレートで参照する新しいリソースを作成するか、既存のリソースを選択します。</span><span class="sxs-lookup"><span data-stu-id="cec19-118">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="cec19-119">リソースの **作業時間** タブを選択し、[リソースの作業時間の設定](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource)に記載の手順に従って、カレンダーのルールを設定します。</span><span class="sxs-lookup"><span data-stu-id="cec19-119">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="cec19-120">**新しいカレンダーのテンプレートを作成する**</span><span class="sxs-lookup"><span data-stu-id="cec19-120">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="cec19-121">**設定** \> **カレンダーのテンプレート** に移動します。</span><span class="sxs-lookup"><span data-stu-id="cec19-121">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="cec19-122">**新規** を選択し、名前、説明、テンプレート リソースを入力します。</span><span class="sxs-lookup"><span data-stu-id="cec19-122">Select **New**, and enter a name, description, and template resource.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="cec19-123">カレンダーのテンプレートでリソースを参照すると、リソースのカレンダーのコピーがカレンダーのテンプレートに関連付けられます。</span><span class="sxs-lookup"><span data-stu-id="cec19-123">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="cec19-124">コピーしたテンプレートの作業時間が変更されても、この変更はカレンダーのテンプレートには反映されません。</span><span class="sxs-lookup"><span data-stu-id="cec19-124">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+<span data-ttu-id="cec19-125">ここで、プロジェクトのカレンダー テンプレートがある作業テンプレートを関連付けることができます。</span><span class="sxs-lookup"><span data-stu-id="cec19-125">You can now associate the work template with a project calendar template.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
