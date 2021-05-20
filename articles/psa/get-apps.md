@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 059409398d7dc3074f0ec852a8e295b2c3d5504f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cea18b38a69be518bf072cd11ee8757034c0479c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284454"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947975"
 ---
 # <a name="get-the-apps-project-service"></a>アプリの取得 (Project Service)
 
@@ -30,7 +30,7 @@ ms.locfileid: "5284454"
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-時間および経費をモバイル デバイスに入力する場合は、[電話および Dynamics 365 for tablets を取得しインストール](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide) を参照してください。  
+時間および経費をモバイル デバイスに入力する場合は、[電話および Dynamics 365 for tablets を取得しインストール](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide) を参照してください。  
   
  また、自分の携帯電話で Project Finder Mobile アプリケーションを使用して、取り組む新しいプロジェクトを検索し、それに申し込むことができます。 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Project Finder Mobile アプリケーションで次のプロジェクトを検索](../psa/find-next-project-finder-mobile-app.md) 
   

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283779"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948154"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Project Resource ハブのユーザー ガイド
 
@@ -48,7 +48,7 @@ Project Resource ハブ アプリでは、外出先で作業しているプロ�
 ## <a name="install-the-mobile-app"></a>モバイル アプリのインストール
 プロジェクト リソース ハブ アプリを使い始める前に、モバイル アプリをデバイスにインストールする必要があります。 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [電話用およびタブレット PC 用の Dynamics 365 のインストール](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)。
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [電話用およびタブレット PC 用の Dynamics 365 のインストール](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)。
 
 ## <a name="basic-navigation"></a>基本的なナビゲーション
 1.  モバイル アプリにサインインすると、MyApps ページにアクセスできるアプリのリストが表示されます。 
@@ -99,7 +99,7 @@ Project Resource ハブ アプリでは、外出先で作業しているプロ�
 5. 週の経費の入力を続けます。 入力を完了し、すべてが正しく思えたら、**送信** をタップします。 管理者は経費を確認して承認します。
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>モバイル アプリの使用方法に関する一般情報 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [モバイル基本ガイド](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [モバイル基本ガイド](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>関連項目  
  [Project Service の概要](../psa/overview.md)   

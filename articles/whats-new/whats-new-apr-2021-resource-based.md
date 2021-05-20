@@ -3,18 +3,18 @@ title: 2021 年 4 月の新機能 - リソース/非在庫ベースのシナリ�
 description: このトピックは、リソース/非在庫ベースのシナリオ向け Project Operations の 2021 年 4 月リリースで利用可能な品質アップデートに関する情報を提供します。
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 359d39898ed60c7253b122cb884465fbd9605e0c
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
+ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867999"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935480"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 4 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 
@@ -33,8 +33,26 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
   - プロジェクトの販売サイクル中の非在庫材料の見積もりと価格設定。 詳細については、[カタログ製品の原価率と販売率を設定する (ライト)](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md)を参照してください。
   - プロジェクトの実施中に非在庫材料の使用を追跡します。 詳細については、[プロジェクトおよびプロジェクト タスクでの材料用途を記録する](../material/material-usage-log.md)を参照してください。
   - 使用済みの非在庫材料原価の請求。 詳細については、[請求バックログの管理](../proforma-invoicing/manage-billing-backlog.md)を参照してください。
+  - この機能の構成方法については、[在庫のない品目と保留中のベンダー請求書を構成する](../procurement/configure-materials-nonstocked.md) を参照してください
 - タスクベースの請求: プロジェクト タスクをプロジェクト契約品目に関連付ける機能が追加されました。これにより、プロジェクト タスクに、契約品目と同じ請求方法、請求頻度、および顧客が適用されます。 この関連付けにより、プロジェクト タスクでこの設定に従って、正確な請求、会計、収益の見積もり、および認識が徹底されます。
 - Dynamics 365 Dataverse の新しい API では、**スケジューリング エンティティ** を使った操作の作成、行進、削除が可能です。 詳細については、[スケジュール API を使用して、スケジューリング エンティティで操作を実行する](../project-management/schedule-api-preview.md)を参照してください。
+
+## <a name="project-operations-dual-write-maps-updates"></a>Project Operations の二重書き込みのマッピングの更新
+
+次のリストは、Project Operations 2021 年 4 月リリースで変更または追加された二重書き込みのマッピングです。
+
+| **エンティティ マップ** | **更新バージョン** | **コメント** |
+| --- | --- | --- |
+| Project Operations 統合実績 (msdyn\_actuals) | 1.0.0.14 | 材料プロジェクトの実績を同期するよう、マッピングが変更されました。 |
+| Project Operations の費用見積もりの統合エンティティ (msdyn\_estimateslines) | 1.0.0.2 | タスク ベースの請求書作成をサポートするために、Finance and Operations アプリにプロジェクトの契約品目の同期が追加されました。 |
+| 時間見積もりに使用する Project Operations 統合エンティティ (msdyn\_resourceassignments) | 1.0.0.5 | タスク ベースの請求書作成をサポートするために、Finance and Operations アプリにプロジェクトの契約品目の同期が追加されました。 |
+| Project Operations の統合テーブルによる材料の見積もり (msdyn\_estimatelines) | 1.0.0.0 | Dataverse から Finance and Operations アプリで材料の見積もりを同期する新しいテーブルマッピング。 |
+| Project Operations 統合プロジェクト ベンダー請求書のエクスポート エンティティ (msdyn\_projectvendorinvoices) | 1.0.0.0 | ベンダーの請求書ヘッダーを Finance and Operations のアプリから Dataverse のアプリに同期するための新しいテーブル マッピング。 |
+| Project Operations 統合プロジェクト ベンダー請求書明細のエクスポート エンティティ (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | ベンダーの請求書明細を Finance and Operations のアプリから Dataverse のアプリに同期するための新しいテーブル マッピング。 |
+
+Project Operations の Dataverse ソリューションと Finance and Operations ソリューションのバージョンを更新する際には、常に最新バージョンのマッピングを環境で実行し、関連するすべてのテーブル マッピングを有効にする必要があります。 最新バージョンのマッピングが有効になっていない場合、一部の機能や性能が正しく動作しないことがあります。 マッピングのアクティブなバージョンは、**二重書き込み** ページの **バージョン** の列で確認できます。 **テーブル マッピングのバージョン** を選択し、最新のバージョンを選択した後で、選択したバージョンを保存することで、マッピングの新しいバージョンを有効にすることができます。 既成のテーブル マッピングをカスタマイズした場合は、変更を再適用します。 詳しくは、[アプリケーションのライフサイクル管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management) を参照してください。
+
+マップの起動に問題がある場合は、「二重書き込みのトラブルシューティング」の [マッピング上にテーブルの列が表示されない問題](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) のセクションを参照してください。
 
 ## <a name="quality-updates"></a>品質更新プログラム
 
@@ -67,7 +85,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 | **機能** | **照合番号** | **品質更新プログラム** |
 | --- | --- | --- |
-| プロジェクト管理および会計 | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | 逆見積もりの削除が **定期的** で機能しない。  |
+| プロジェクト管理および会計 | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | **定期** セクションで、逆見積を除去する機能が動作しません。  |
 | プロジェクト管理および会計 | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | **会計調整** 機能は、**手動入力を許可しない** が選択された元帳勘定では問題が発生します。 |
 | プロジェクト管理および会計 | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | 着手金額または適用された着手金額を含む修正請求書を処理するためのビジネス ロジックが追加されました。 |
 | プロジェクト管理および会計 | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | 仕掛品 - 会社間プロジェクトで請求書に売上高を転記すると、予期しない取引先企業が選択されます。 |

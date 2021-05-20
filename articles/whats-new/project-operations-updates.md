@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5a1ab3b506ae94bba3a6ca96b164437d3fd3a035
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 6f7feb8c84441f97ad52016371284eb91b37478a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877541"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948245"
 ---
 # <a name="project-operations-updates"></a>Project Operations の更新プログラム
 
@@ -49,23 +49,23 @@ Dataverse 環境における Project Operations の更新は毎月入手でき�
 | ステーション   | リージョン        | 現在のバージョン | 次のバージョン | 一般提供 |
 |-----------|---------------|-----------------|--------------|---------------------|
 | ステーション 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | 最初のリリース |  4.9.0.221       | TBD     | 2021 年 4 月 23 日           |
+|   &nbsp;  | 最初のリリース |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
 | ステーション 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | 南米 |  4.9.0.221       | TBD     | 2021 年 4 月 23 日           |
-|    &nbsp; | カナダ        |  4.9.0.221       | TBD     | 2021 年 4 月 23 日           |
-|   &nbsp;  | インド         |  4.9.0.221       | TBD     | 2021 年 4 月 23 日           |
-|   &nbsp;  | フランス         |  4.9.0.221       | TBD     | 2021 年 4 月 23 日           |
-|   &nbsp;  | アラブ首長国連邦         |  4.9.0.221       | TBD     | 2021 年 4 月 23 日           |
-|   &nbsp;  | 南アフリカ         |  4.9.0.221       | TBD     | 2021 年 4 月 23 日           |
+|   &nbsp;  | 南米 |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
+|    &nbsp; | カナダ        |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
+|   &nbsp;  | インド         |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
+|   &nbsp;  | フランス         |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
+|   &nbsp;  | アラブ首長国連邦         |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
+|   &nbsp;  | 南アフリカ         |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
 | ステーション 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | 日本         |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
-|   &nbsp;  | アジア太平洋  |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
-|   &nbsp;  | 英国 |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
-|   &nbsp;  | オセアニア       |  4.9.0.221       | TBD     | 2021 年 4 月 30 日           |
+|   &nbsp;  | 日本         |  4.9.0.221       | TBD     | 2021 年 5 月 7 日           |
+|   &nbsp;  | アジア太平洋  |  4.9.0.221       | TBD     | 2021 年 5 月 7 日           |
+|   &nbsp;  | 英国 |  4.9.0.221       | TBD     | 2021 年 5 月 7 日           |
+|   &nbsp;  | オセアニア       |  4.9.0.221       | TBD     | 2021 年 5 月 7 日           |
 | ステーション 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | 欧州        |  4.8.0.92       | 4.9.0.221     | 2021 年 4 月 16 日           |
+|   &nbsp;  | 欧州        |  4.9.0.221       | TBD     | 2021 年 5 月 14 日           |
 | ステーション 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | 北アメリカ |  4.8.0.92       | 4.9.0.221     | 2021 年 4 月 23 日           |
+|   &nbsp;  | 北アメリカ |  4.9.0.221       | TBD     | 2021 年 5 月 21 日           |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Finance and Operations アプリ環境でのプロジェクト管理および会計のリリース スケジュール
 
@@ -73,15 +73,15 @@ Dataverse 環境における Project Operations の更新は毎月入手でき�
 
 | サポートされるリリース | 一般提供 (自己更新) |
 | --- | --- |
+| 10.0.18 | 2021 年 4 月 16 日 |
 | 10.0.17 | 2021 年 3 月 19 日 |
 | 10.0.16 | 2021 年 1 月 22 日 |
 
 
-リリース予定日は変更される場合があります。 詳細については、[サービス更新プログラムの提供](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json) を参照してください。
+リリース予定日は変更される場合があります。 詳細については、[サービス更新プログラムの提供](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json) を参照してください。
 
 | リリース予定日 | 一般提供 (自己更新) |
 | --- | --- |
-| 10.0.18 | 2021 年 4 月 16 日 |
 | 10.0.19 | 2021 年 6 月 18 日 |
 | 10.0.20 | 2021 年 7 月 16 日 |
 

@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2378ff6affd9bc21b8e9afab4108bca3983a454
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284319"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947930"
 ---
 # <a name="install-and-customize-project-service"></a>インストールおよびカスタマイズ (Project Service)
 
@@ -34,20 +34,20 @@ ms.locfileid: "5284319"
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## <a name="install-project-service"></a>Project Service のインストール  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] は優先ソリューションです。 ソリューションを購入する複数の方法があります。 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [組織とユーザーのオンボーディング](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] は優先ソリューションです。 ソリューションを購入する複数の方法があります。 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [組織とユーザーのオンボーディング](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
   
 ## <a name="customize-pn_project_service_auto-forms-and-reports"></a>[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] のフォームおよびレポートのカスタマイズ  
  [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] のフォーム、ダッシュボード、レポートのいずれかをカスタマイズする場合は、次のリンクからカスタマイズに関する詳細情報を参照できます:  
   
-- [アプリの作成やカスタマイズを開始する](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [アプリの作成やカスタマイズを開始する](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [フォームの作成および設計](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [フォームの作成および設計](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [ダッシュボードの作成および編集](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [ダッシュボードの作成および編集](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [プロセスの作成および編集](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [プロセスの作成および編集](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [レポートおよび分析の概要](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [レポートおよび分析の概要](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### <a name="see-also"></a>関連項目  
  [管理者ガイド](../psa/admin-guide.md)   

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ce9ad1458d338d63469c3d6fddb98b9cbbced31
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277839"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948426"
 ---
 # <a name="manage-project-based-opportunities"></a>プロジェクトベースの営業案件の管理
 
@@ -64,7 +64,7 @@ Project Operations のリードから営業案件の販売プロセスは、Sale
 >
 > プロジェクトベースの取引が営業案件から始まった場合は、営業案件の営業プロセスが優先されます。
 
-製品のビジネス プロセス フローを編集するか、独自のビジネス プロセス フローを作成して、必要に応じて営業プロセスを追跡できます。 ビジネス プロセス フローの詳細については、[ビジネス プロセス フローの概要](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview) を参照してください。
+製品のビジネス プロセス フローを編集するか、独自のビジネス プロセス フローを作成して、必要に応じて営業プロセスを追跡できます。 ビジネス プロセス フローの詳細については、[ビジネス プロセス フローの概要](/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview) を参照してください。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
