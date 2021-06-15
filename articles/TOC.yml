@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: 新機能
       items:
+        - name: 2021 年 5 月 - リソース/非在庫ベースのシナリオ向け Project Operations
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: 2021 年 4 月 - リソース/非在庫ベースのシナリオ向け Project Operations
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: 2021 年 3 月 - リソース/非在庫ベースのシナリオ向け Project Operations
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: 経費カテゴリの設定
               href: expense/set-up-expense-categories.md
+            - name: マイレージ レート階層を使用してマイレージを設定する
+              href: expense/set-up-mileage.md
         - name: 個人経費
           href: expense/personal-expenses-expense-report.md
         - name: 会社間経費
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: 新機能
       items:
+        - name: 2021 年 5 月の新機能 - ライト展開
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: 2021 年 4 月の新機能 - ライト展開
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: 2021 年 3 月の新機能 - ライト展開
@@ -1028,6 +1034,8 @@
       items:
         - name: Project Service 3.x の更新プログラム リリース スケジュール
           href: psa/version-history-ps.md
+        - name: 更新プログラム リリース 32、V3 の最新情報または変更事項
+          href: psa/whats-new-ur-32.md
         - name: 更新プログラム リリース 31、V3 の最新情報または変更事項
           href: psa/whats-new-ur-31.md
         - name: 更新プログラム リリース 30、V3 の最新情報または変更事項
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: 週単位の時間エントリをカスタマイズする
               href: psa/time-entry-extensibility-v3.md
+            - name: 承認セット
+              href: psa/approval-set.md
     - name: よくあるご質問とトラブルシューティング (3.x)
       items:
         - name: 経費実績で価格が既定でゼロになっている理由を教えてください。
