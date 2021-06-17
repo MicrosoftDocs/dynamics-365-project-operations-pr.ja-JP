@@ -2,18 +2,16 @@
 title: プロジェクトベースの営業案件品目 - Lite
 description: このトピックでは、プロジェクトベースの営業案件明細行について説明します。 (Pro)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 90b1b078d51c2842f6406c4455188a4433820a77
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272529"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994412"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>プロジェクトベースの営業案件品目 - Lite
 

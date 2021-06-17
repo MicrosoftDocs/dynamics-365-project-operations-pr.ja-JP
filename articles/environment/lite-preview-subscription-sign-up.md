@@ -2,18 +2,16 @@
 title: プレビューのサブスクリプションにサインアップする (ライト)
 description: このトピックでは、Project Operations ライト デプロイメントの購読および展開方法に関する情報を提供します - 見積もり請求の取引を行います。
 author: sigitac
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4de51277e5a08690cc16497e3916f40498b39fb8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290050"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997427"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>プレビューのサブスクリプションにサインアップする (ライト) 
 

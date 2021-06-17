@@ -2,8 +2,6 @@
 title: プロジェクト営業案件の作成
 description: Project Service でのプロジェクトの営業案件の作成方法
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 9d8a879df6fc1b1c85ba5d856ab1df02ae55cec1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948200"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997337"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>プロジェクト営業案件の作成 (Project Service)
 

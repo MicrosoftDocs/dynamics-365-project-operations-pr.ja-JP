@@ -2,11 +2,9 @@
 title: 経費精算書の転記
 description: このトピックでは、経費精算書を転記する方法について説明します。
 author: suvaidya
-manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af727e8eb91ff49acb3cc34c225a190f30ba97ed
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: acb26ef74c653a70134f13ab3c382f3c80a8ec14
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276256"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995222"
 ---
 # <a name="post-expense-reports"></a>経費精算書の転記
 

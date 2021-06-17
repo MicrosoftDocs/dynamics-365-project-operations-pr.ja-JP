@@ -2,18 +2,16 @@
 title: プロジェクトベースの契約品目の複数の顧客を管理する
 description: このトピックは、複数の顧客を含む契約品目および契約で作業する方法について説明します。
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 205363d2ea5f1f5bf5fa8879cedd5b3e857eb772
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2b302368bcb476527c94d48f7693058d2044c74b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278019"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996437"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>プロジェクトベースの契約品目の複数の顧客を管理する
 

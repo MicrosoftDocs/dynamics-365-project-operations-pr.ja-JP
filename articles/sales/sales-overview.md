@@ -2,18 +2,16 @@
 title: 営業プロセスの概要
 description: このトピックでは、基本的な営業プロセスに関する情報を提供します。
 author: rumant
-manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8300887e7c5fbd78343d16d191775a67e43138e2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a03cb4949cafdf0754a89435542f616c41d65a5f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277389"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996033"
 ---
 # <a name="sales-process-overview"></a>営業プロセスの概要
 

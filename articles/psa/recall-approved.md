@@ -2,8 +2,6 @@
 title: 承認済みの時間または経費エントリの取り消し
 description: このトピックでは、前に承認済みの時間と経費の入力を取り消す方法について説明します。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1a199985099745b2e62b844ef748ea2031054458
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 71f75c1c516ca6e652baf311aa14e0c3fd4ba81e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283464"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998192"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>承認済みの時間または経費エントリの取り消し
 

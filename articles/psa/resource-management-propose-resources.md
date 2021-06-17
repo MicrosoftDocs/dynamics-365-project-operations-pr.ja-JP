@@ -2,8 +2,6 @@
 title: プロジェクト リソースの提案
 description: このトピックでは、プロジェクト リソースを提案する方法について説明します。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2003f6f06912b0c47eb942aae17e509b00e19487
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283014"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997967"
 ---
 # <a name="propose-project-resources"></a>プロジェクト リソースの提案
 
@@ -61,7 +59,7 @@ ms.locfileid: "5283014"
 
 ## <a name="billable-utilization"></a>請求可能な稼働率
 
-リソースは支払請求可能な目標稼働率を持つことができます。 この目標稼働率は、リソースの規定ロールの属性として定義されるか、個々の予約可能なリソースのレコードで設定されます。 稼働率計算は、リソースが承認された時間エントリを使用して報告した実際の時間に基づいています。
+リソースは支払請求可能な目標稼働率を持つことができます。 この目標稼働率は、リソースの規定ロールの属性として定義されるか、個々の予約可能なリソースのレコードで設定されます。 稼働率の計算は、承認された時間エントリを使用してリソースが報告した実際の時間数に基づいて行います。
 
 次の計算式を使用して稼働率を計算します:
 

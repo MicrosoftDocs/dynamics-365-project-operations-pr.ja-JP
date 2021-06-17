@@ -2,18 +2,16 @@
 title: タイム ゾーンの管理
 description: プロジェクトが作成されると、そのタイム ゾーンは、適用する作業時間テンプレートで定義されたタイム ゾーンに基づきます。
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e0cf24a9916f7ceedee0e9d6fa9399a88c3e4b91
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1480d68105be1041e791de567b180178b330d71e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279549"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997742"
 ---
 # <a name="manage-time-zones"></a>タイム ゾーンの管理
 

@@ -2,8 +2,6 @@
 title: アプリ バージョン 2.x でリソースを "仮予約" する方法を教えてください。
 description: この記事では、Project Service でプロジェクト チーム メンバーを仮予約する方法を説明します。
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18a1176c131e233f62f74dc0dd8a6aa3ee561da5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 413783d2386cccd98cfe216a7c7300a5b7f771ab
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286029"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992904"
 ---
 # <a name="how-do-i-soft-book-resources-in-the-web-app-project-service-app-v2x"></a>Web アプリでリソースを "仮予約" する方法を教えてください (Project Service アプリ v2.x)。
 

@@ -2,18 +2,16 @@
 title: プロジェクト契約の設定
 description: このトピックでは、契約品目に影響を与えるフィールドと、すべての品目に要約される契約に関する情報について説明します。
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9ba005d82e0ce4fae58543401e34da5a24345dc4
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 1e6971553bb436ee5bcad2c335d32c929ddc4800
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663870"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996167"
 ---
 # <a name="header-details-for-project-based-contracts"></a>プロジェクトベースの契約のヘッダーの詳細
 

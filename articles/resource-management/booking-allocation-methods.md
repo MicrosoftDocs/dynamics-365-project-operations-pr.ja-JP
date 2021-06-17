@@ -2,11 +2,9 @@
 title: 予約割り当ての方法
 description: このトピックは、プロジェクト オペレーションで予約割り当て方法がどのように機能するかについて説明します。
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 358eb5a6ccf1dd09f8056a20dbf6906e2c3803bd
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 839ef1f1d35c7d900794c0af36e6bc9ea640c497
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5280044"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998777"
 ---
 # <a name="booking-allocation-methods"></a>予約割り当ての方法
 
@@ -42,7 +40,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 - [なし](#none)
 
 ### <a name="full-capacity"></a><a name="full"></a>全キャパシティ 
-全キャパシティでは、指定した開始日および終了日のリソースのすべてのキャパシティが予約されます。 たとえば、あるリソースのカレンダーで1日8時間、1週間に5日の稼働日が設定されている場合、開始日と終了日に5日の稼働日を設定すると、そのリソースの40時間が予約されます。 リソースの残りのキャパシティに関係なく予約が実行されます。 他のプロジェクトでその期間中にリソースが既に予約されている場合、40 時間が追加時間として予約されるため、重複予約につながる可能性があります。
+全キャパシティでは、指定した開始日および終了日のリソースのすべてのキャパシティが予約されます。 たとえば、あるリソースのカレンダーで1日8時間、1週間に5日の稼働日が設定されている場合、開始日と終了日に5日の稼働日を設定すると、そのリソースの40時間が予約されます。 リソースの残りのキャパシティには関係なく予約ができます。 他のプロジェクトでその期間中にリソースが既に予約されている場合、40 時間が追加時間として予約されるため、重複予約につながる可能性があります。
 
 ### <a name="remaining-capacity"></a><a name="remaining"></a>残りのキャパシティ
 この方法は、スケジュール ボードを使用してプロジェクトに直接予約する場合にのみ使用することができます。 この方法は、指定された日付範囲内のリソースの使用可能なキャパシティを予約します。 たとえば、リソースのキャパシティが週40時間で、すでに10時間予約されている場合に、この週に予約すると、その週の残り30時間のキャパシティが予約されます。

@@ -2,18 +2,16 @@
 title: 2020 年 11 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 description: このトピックでは、リソース/非在庫ベースのシナリオ向け Project Operations の 2020 年 11 月リリースで利用可能な品質更新について説明します。
 author: sigitac
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa6530a0eefb1ae6a84a662c6131182d97d49aeb
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: f6b14a1cbe7f3d41c86aedaf863434214f911eaa
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950945"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995627"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 年 11 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 

@@ -2,19 +2,17 @@
 title: 2021 年 4 月の新機能 - Project Operations ライト展開
 description: このトピックは、Project Operations ライト展開の 2021 年 4 月リリースで利用可能な品質アップデートに関する情報を提供します。
 author: sigitac
-manager: tfehr
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bd6fbe8d75fbe9157a97d2edd38d40a97395c924
-ms.sourcegitcommit: 8ff9fe396db6dec581c21cd6bb9acc2691c815b0
+ms.openlocfilehash: 868d6daf8ac3ad9ef4245cef3c74a735137d3903
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5868044"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994097"
 ---
 # <a name="whats-new-april-2021---project-operations-lite-deployment"></a>2021 年 4 月の新機能 - Project Operations ライト展開
 

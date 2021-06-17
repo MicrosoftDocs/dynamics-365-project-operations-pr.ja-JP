@@ -2,8 +2,6 @@
 title: リソース マネージャー ガイド
 description: Project Service でのリソース管理のガイド
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4b9df18e7240450f01271b73eb6ea7e215be38c5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cdfac15c45a1c7b40c05c94da9e523f000218977
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282834"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997877"
 ---
 # <a name="resource-manager-guide-project-service"></a>リソース マネージャー ガイド (Project Service)
 

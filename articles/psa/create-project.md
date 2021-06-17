@@ -2,8 +2,6 @@
 title: プロジェクトの作成
 description: Project Service でのプロジェクトの作成方法
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/13/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 164dff56bb61f6d9bc4cf0b0678a25e0169a31ee
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0ef83873dd902a5ace6400e373a06091280e4df5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285084"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995043"
 ---
 # <a name="create-a-project-project-service"></a>プロジェクトの作成 (Project Service)
 

@@ -2,11 +2,9 @@
 title: 委任の管理
 description: このトピックは、経費委任者が他の従業員の経費精算書を作成および管理する方法に関する情報を提供します。
 author: suvaidya
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ee00b3c6a683aa8daf2823331a1a9638828dad03
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 34b190f9a458c9e2706c5b8c9fdbceea1fbe2621
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276399"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995312"
 ---
 # <a name="manage-delegation"></a>委任の管理
 経費委任者は、他の従業員の経費精算書を作成および管理できます。
@@ -36,7 +34,7 @@ ms.locfileid: "5276399"
 
 機能管理キーの **経費委任一覧ページを有効にする** が有効になっている場合、**自分へ委任された経費** 一覧ページが利用可能になります。 **経費管理** > **自分の経費** > **自分へ委任された経費** に移動します。
 
-委任者は、委任された既存の経費精算書をすばやくフィルター処理および検索できます。 委任者は **新規経費精算書** を選択することで、他のユーザーの新規経費精算書をすばやく作成することもできます。
+委任者は、委任された既存の経費精算書をすばやくフィルター処理および検索できます。 また、**新しい経費精算書** を選択して、他のユーザーの新しい経費清算書をすばやく作成することもできます。
 
 委任者は、**経費管理** > **自分の経費** > **経費精算書** に移動して **他のユーザーの経費を開く** を選択することで、他の従業員の経費精算書を作成および管理できます。
 

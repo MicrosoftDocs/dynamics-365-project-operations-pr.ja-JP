@@ -2,8 +2,6 @@
 title: 作業時間テンプレートの作成
 description: このトピックは、Project Service で作業時間テンプレートを作成する方法について説明しています。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 105e3cb2ef7b904e96dc21013906e0b7444e3b88
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981261"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997202"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>作業時間テンプレートの作成 (Project Service)
 
@@ -51,7 +49,7 @@ ms.locfileid: "5981261"
 
 1. **リソース** \> **リソース** へ移動します。
 2. カレンダーのテンプレートで参照する新しいリソースを作成するか、既存のリソースを選択します。
-3. リソースの **作業時間** タブを選択し、[リソースの作業時間の設定](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource)に記載の手順に従って、カレンダーのルールを設定します。
+3. リソースの **作業時間** タブを選択し、[リソースの作業時間の設定](/dynamics365/field-service/set-work-hours-resource.md)に記載の手順に従って、カレンダーのルールを設定します。
 
 **新しいカレンダーのテンプレートを作成する**
 

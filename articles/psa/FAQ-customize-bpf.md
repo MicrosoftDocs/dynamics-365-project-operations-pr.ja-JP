@@ -1,8 +1,6 @@
 ---
 title: プロジェクト ストレージ業務プロセス フロー内をカスタマイズする方法を教えてください。
 description: プロジェクト ステージ の ビジネス プロセス フロー をカスタマイズする方法
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0f95677c56b745bf7900ad503596c93f1e722281
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286164"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993152"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>プロジェクト ストレージ業務プロセス フロー内をカスタマイズする方法を教えてください。
 
