@@ -2,8 +2,6 @@
 title: Office 365 カレンダーでプロジェクトおよび予約を管理する
 description: Office 365 カレンダーでプロジェクトおよび予約を管理する方法
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,17 +15,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f9ebfadf8a331fd6a8a86a9cc040dc8957db3b82
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 575f3c94f886d12717496445d0e6357fdc01246b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950315"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000397"
 ---
-# <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a><span data-ttu-id="29ea5-103">カレンダーでプロジェクトおよび予約を管理する (Project Service)</span><span class="sxs-lookup"><span data-stu-id="29ea5-103">Manage projects and bookings in your calendar (Project Service)</span></span>
+# <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a><span data-ttu-id="db6bf-103">カレンダーでプロジェクトおよび予約を管理する (Project Service)</span><span class="sxs-lookup"><span data-stu-id="db6bf-103">Manage projects and bookings in your calendar (Project Service)</span></span>
 
 > [!Note]
-> <span data-ttu-id="29ea5-104">廃止: この機能は廃止され、使用できなくなりました。</span><span class="sxs-lookup"><span data-stu-id="29ea5-104">DEPRECATED: This feature has been deprecated and is no longer available.</span></span>
+> <span data-ttu-id="db6bf-104">廃止: この機能は廃止され、使用できなくなりました。</span><span class="sxs-lookup"><span data-stu-id="db6bf-104">DEPRECATED: This feature has been deprecated and is no longer available.</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -35,62 +33,62 @@ ms.locfileid: "5950315"
 
 [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] 
 
-<span data-ttu-id="29ea5-105">[!INCLUDE[pn_office_365](../includes/pn-office-365.md)] カレンダーを使用して個人的な予定、プロジェクト ワークの予約、および Field Service の作業指示書の割り当てを表示します。</span><span class="sxs-lookup"><span data-stu-id="29ea5-105">View personal appointments, project-work bookings, and field service work order assignments using the [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar.</span></span>  
+<span data-ttu-id="db6bf-105">[!INCLUDE[pn_office_365](../includes/pn-office-365.md)] カレンダーを使用して個人的な予定、プロジェクト ワークの予約、および Field Service の作業指示書の割り当てを表示します。</span><span class="sxs-lookup"><span data-stu-id="db6bf-105">View personal appointments, project-work bookings, and field service work order assignments using the [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar.</span></span>  
   
- <span data-ttu-id="29ea5-106">1 つの場所にすべてがあるので、1 日の管理が容易です。</span><span class="sxs-lookup"><span data-stu-id="29ea5-106">With everything in one place, it’s easy to manage your day.</span></span> <span data-ttu-id="29ea5-107">あなたの会議、予定、予約およびタスクはすべて [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] カレンダーで利用できます。</span><span class="sxs-lookup"><span data-stu-id="29ea5-107">Your meetings, appointments, bookings, and tasks are all available in your [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar.</span></span>  
+ <span data-ttu-id="db6bf-106">1 つの場所にすべてがあるので、1 日の管理が容易です。</span><span class="sxs-lookup"><span data-stu-id="db6bf-106">With everything in one place, it’s easy to manage your day.</span></span> <span data-ttu-id="db6bf-107">あなたの会議、予定、予約およびタスクはすべて [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] カレンダーで利用できます。</span><span class="sxs-lookup"><span data-stu-id="db6bf-107">Your meetings, appointments, bookings, and tasks are all available in your [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar.</span></span>  
   
- <span data-ttu-id="29ea5-108">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] を使用している場合、Project Service の時間エントリ ビュー内で個人的な予定も入力できます。</span><span class="sxs-lookup"><span data-stu-id="29ea5-108">If you’re using [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you can also enter your personal appointments in the Project Service time entry view.</span></span> <span data-ttu-id="29ea5-109">これにより、プロジェクトおよびリソースの管理者は、プロジェクトにあなたが参加可能かどうかを知ることができます。</span><span class="sxs-lookup"><span data-stu-id="29ea5-109">This lets project and resource managers know your availability for projects.</span></span> <span data-ttu-id="29ea5-110">これにより、個人の予定を 2 回入力する必要がないために、時間を節約できます。</span><span class="sxs-lookup"><span data-stu-id="29ea5-110">It also saves you time, because you don’t have to enter info about your personal appointments twice.</span></span> <span data-ttu-id="29ea5-111">カレンダーから Project Service の時間エントリ ビューに個人の予定をインポートするだけです。</span><span class="sxs-lookup"><span data-stu-id="29ea5-111">You can simply import your personal appointments from your calendar to Project Service time entry view.</span></span>  
+ <span data-ttu-id="db6bf-108">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] を使用している場合、Project Service の時間エントリ ビュー内で個人的な予定も入力できます。</span><span class="sxs-lookup"><span data-stu-id="db6bf-108">If you’re using [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you can also enter your personal appointments in the Project Service time entry view.</span></span> <span data-ttu-id="db6bf-109">これにより、プロジェクトおよびリソースの管理者は、プロジェクトにあなたが参加可能かどうかを知ることができます。</span><span class="sxs-lookup"><span data-stu-id="db6bf-109">This lets project and resource managers know your availability for projects.</span></span> <span data-ttu-id="db6bf-110">これにより、個人の予定を 2 回入力する必要がないために、時間を節約できます。</span><span class="sxs-lookup"><span data-stu-id="db6bf-110">It also saves you time, because you don’t have to enter info about your personal appointments twice.</span></span> <span data-ttu-id="db6bf-111">カレンダーから Project Service の時間エントリ ビューに個人の予定をインポートするだけです。</span><span class="sxs-lookup"><span data-stu-id="db6bf-111">You can simply import your personal appointments from your calendar to Project Service time entry view.</span></span>  
   
- <span data-ttu-id="29ea5-112">カレンダーは今日から次の 4 週間のプロジェクトと作業指示書の予約を同期します。</span><span class="sxs-lookup"><span data-stu-id="29ea5-112">Your calendar will sync project and work order bookings from today to upcoming four weeks.</span></span> <span data-ttu-id="29ea5-113">この設定は変更できません。</span><span class="sxs-lookup"><span data-stu-id="29ea5-113">This setting can’t be changed.</span></span>  
+ <span data-ttu-id="db6bf-112">カレンダーは今日から次の 4 週間のプロジェクトと作業指示書の予約を同期します。</span><span class="sxs-lookup"><span data-stu-id="db6bf-112">Your calendar will sync project and work order bookings from today to upcoming four weeks.</span></span> <span data-ttu-id="db6bf-113">この設定は変更できません。</span><span class="sxs-lookup"><span data-stu-id="db6bf-113">This setting can’t be changed.</span></span>  
   
- <span data-ttu-id="29ea5-114">同期は、PSA から [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] カレンダーへの 1 方向のみがサポートされています。</span><span class="sxs-lookup"><span data-stu-id="29ea5-114">Syncing is only supported one way, from PSA to your [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar.</span></span> <span data-ttu-id="29ea5-115">逆の順序での同期ができます。</span><span class="sxs-lookup"><span data-stu-id="29ea5-115">You can sync in the reverse order.</span></span> 
+ <span data-ttu-id="db6bf-114">同期は、PSA から [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] カレンダーへの 1 方向のみがサポートされています。</span><span class="sxs-lookup"><span data-stu-id="db6bf-114">Syncing is only supported one way, from PSA to your [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar.</span></span> <span data-ttu-id="db6bf-115">逆の順序での同期ができます。</span><span class="sxs-lookup"><span data-stu-id="db6bf-115">You can sync in the reverse order.</span></span> 
   
- <span data-ttu-id="29ea5-116">[!INCLUDE[pn_office_365](../includes/pn-office-365.md)] カレンダーの使用方法に関する詳細は、「[ビジネス用 Outlook on the web カレンダー](https://support.office.com/article/Calendar-in-Outlook-on-the-web-for-business-5219c457-d1fe-4c2f-9032-1a816b88e936)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="29ea5-116">To learn how to use your [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar, see [Calendar in Outlook on the web for business](https://support.office.com/article/Calendar-in-Outlook-on-the-web-for-business-5219c457-d1fe-4c2f-9032-1a816b88e936).</span></span>  
+ <span data-ttu-id="db6bf-116">[!INCLUDE[pn_office_365](../includes/pn-office-365.md)] カレンダーの使用方法に関する詳細は、「[ビジネス用 Outlook on the web カレンダー](https://support.office.com/article/Calendar-in-Outlook-on-the-web-for-business-5219c457-d1fe-4c2f-9032-1a816b88e936)」を参照してください。</span><span class="sxs-lookup"><span data-stu-id="db6bf-116">To learn how to use your [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar, see [Calendar in Outlook on the web for business](https://support.office.com/article/Calendar-in-Outlook-on-the-web-for-business-5219c457-d1fe-4c2f-9032-1a816b88e936).</span></span>  
   
-## <a name="setup"></a><span data-ttu-id="29ea5-117">セットアップ</span><span class="sxs-lookup"><span data-stu-id="29ea5-117">Setup</span></span>  
- <span data-ttu-id="29ea5-118">[!INCLUDE[pn_office_365](../includes/pn-office-365.md)] カレンダーで予約の表示および管理をする前に、いくつかの事柄を設定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="29ea5-118">Before you can see and manage your bookings on your [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar, you need to set a few things up.</span></span>  
+## <a name="setup"></a><span data-ttu-id="db6bf-117">セットアップ</span><span class="sxs-lookup"><span data-stu-id="db6bf-117">Setup</span></span>  
+ <span data-ttu-id="db6bf-118">[!INCLUDE[pn_office_365](../includes/pn-office-365.md)] カレンダーで予約の表示および管理をする前に、いくつかの事柄を設定する必要があります。</span><span class="sxs-lookup"><span data-stu-id="db6bf-118">Before you can see and manage your bookings on your [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar, you need to set a few things up.</span></span>  
   
-- <span data-ttu-id="29ea5-119">[!INCLUDE[pn_office_365](../includes/pn-office-365.md)] のグローバル管理者、またはシステム管理者の資格情報が必要です。</span><span class="sxs-lookup"><span data-stu-id="29ea5-119">You will need to have [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] Global Administrator or System Administrator credentials.</span></span>  
+- <span data-ttu-id="db6bf-119">[!INCLUDE[pn_office_365](../includes/pn-office-365.md)] のグローバル管理者、またはシステム管理者の資格情報が必要です。</span><span class="sxs-lookup"><span data-stu-id="db6bf-119">You will need to have [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] Global Administrator or System Administrator credentials.</span></span>  
   
-- <span data-ttu-id="29ea5-120">管理者は、電子メール サーバー のプロファイルを設定する必要があります。また各ユーザーは各自のメールボックスを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="29ea5-120">Your Admin will need to configure the email server profile and each user will need to configure their mailbox.</span></span> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] <span data-ttu-id="29ea5-121">[サーバー側の同期による電子メールの処理のセットアップ](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)</span><span class="sxs-lookup"><span data-stu-id="29ea5-121">[Set up email processing through server-side synchronization](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)</span></span>  
+- <span data-ttu-id="db6bf-120">管理者は、電子メール サーバー のプロファイルを設定する必要があります。また各ユーザーは各自のメールボックスを構成する必要があります。</span><span class="sxs-lookup"><span data-stu-id="db6bf-120">Your Admin will need to configure the email server profile and each user will need to configure their mailbox.</span></span> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] <span data-ttu-id="db6bf-121">[サーバー側の同期による電子メールの処理のセットアップ](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)</span><span class="sxs-lookup"><span data-stu-id="db6bf-121">[Set up email processing through server-side synchronization](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)</span></span>  
   
-## <a name="turn-on-synchronization-for-your-organization-admin-task"></a><span data-ttu-id="29ea5-122">自分の組織の同期を有効にする (管理者のタスク)</span><span class="sxs-lookup"><span data-stu-id="29ea5-122">Turn on synchronization for your organization (admin task)</span></span>  
+## <a name="turn-on-synchronization-for-your-organization-admin-task"></a><span data-ttu-id="db6bf-122">自分の組織の同期を有効にする (管理者のタスク)</span><span class="sxs-lookup"><span data-stu-id="db6bf-122">Turn on synchronization for your organization (admin task)</span></span>  
   
-1.  <span data-ttu-id="29ea5-123">メイン メニューから **設定** >  **管理** の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="29ea5-123">From the main menu, click **Settings** > **Administration**.</span></span>  
+1.  <span data-ttu-id="db6bf-123">メイン メニューから **設定** >  **管理** の順にクリックします。</span><span class="sxs-lookup"><span data-stu-id="db6bf-123">From the main menu, click **Settings** > **Administration**.</span></span>  
   
-2.  <span data-ttu-id="29ea5-124">**システムの設定** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="29ea5-124">Click **System Settings**.</span></span>  
+2.  <span data-ttu-id="db6bf-124">**システムの設定** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="db6bf-124">Click **System Settings**.</span></span>  
   
-3.  <span data-ttu-id="29ea5-125">**同期** タブをクリックします。</span><span class="sxs-lookup"><span data-stu-id="29ea5-125">Click the **Synchronization** tab.</span></span>  
+3.  <span data-ttu-id="db6bf-125">**同期** タブをクリックします。</span><span class="sxs-lookup"><span data-stu-id="db6bf-125">Click the **Synchronization** tab.</span></span>  
   
-4.  <span data-ttu-id="29ea5-126">**リソース予約の同期を、何と有効にするかどうかを選択する** で、**リソース予約を Outlook と同期する** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="29ea5-126">Under **Select whether to enable syncing of resource booking with**, check the **Synchronize resource booking with Outlook**.</span></span>  
+4.  <span data-ttu-id="db6bf-126">**リソース予約の同期を、何と有効にするかどうかを選択する** で、**リソース予約を Outlook と同期する** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="db6bf-126">Under **Select whether to enable syncing of resource booking with**, check the **Synchronize resource booking with Outlook**.</span></span>  
   
-## <a name="turn-on-synchronization-for-your-user-profile-user-task"></a><span data-ttu-id="29ea5-127">ユーザー プロファイルに対する同期を有効にする (ユーザー タスク)</span><span class="sxs-lookup"><span data-stu-id="29ea5-127">Turn on synchronization for your user profile (user task)</span></span>  
+## <a name="turn-on-synchronization-for-your-user-profile-user-task"></a><span data-ttu-id="db6bf-127">ユーザー プロファイルに対する同期を有効にする (ユーザー タスク)</span><span class="sxs-lookup"><span data-stu-id="db6bf-127">Turn on synchronization for your user profile (user task)</span></span>  
   
-1.  <span data-ttu-id="29ea5-128">画面の右上にある **設定** ボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="29ea5-128">Click the **Settings** button in the upper-right corner of the screen.</span></span>  
+1.  <span data-ttu-id="db6bf-128">画面の右上にある **設定** ボタンをクリックします。</span><span class="sxs-lookup"><span data-stu-id="db6bf-128">Click the **Settings** button in the upper-right corner of the screen.</span></span>  
   
-2.  <span data-ttu-id="29ea5-129">**オプション** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="29ea5-129">Click **Options**.</span></span>  
+2.  <span data-ttu-id="db6bf-129">**オプション** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="db6bf-129">Click **Options**.</span></span>  
   
-3.  <span data-ttu-id="29ea5-130">**同期** タブをクリックします。</span><span class="sxs-lookup"><span data-stu-id="29ea5-130">Click the **Synchronization** tab.</span></span>  
+3.  <span data-ttu-id="db6bf-130">**同期** タブをクリックします。</span><span class="sxs-lookup"><span data-stu-id="db6bf-130">Click the **Synchronization** tab.</span></span>  
   
-4.  <span data-ttu-id="29ea5-131">**リソース予約を Outlook と同期する** で、**Outlook とリソース予約の同期** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="29ea5-131">Under **Resource booking sync with Outlook**, check the **Synchronization resource booking with Outlook**.</span></span>  
+4.  <span data-ttu-id="db6bf-131">**リソース予約を Outlook と同期する** で、**Outlook とリソース予約の同期** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="db6bf-131">Under **Resource booking sync with Outlook**, check the **Synchronization resource booking with Outlook**.</span></span>  
   
-## <a name="import-your-personal-appointments-user-task"></a><span data-ttu-id="29ea5-132">個人の予定をインポートする (ユーザー タスク)</span><span class="sxs-lookup"><span data-stu-id="29ea5-132">Import your personal appointments (user task)</span></span>  
- <span data-ttu-id="29ea5-133">カレンダーから Project Service Automation の時間エントリ ビューに個人の予定をインポートします。</span><span class="sxs-lookup"><span data-stu-id="29ea5-133">You can import your personal appointments from your calendar to Project Service Automation time entry view.</span></span>  
+## <a name="import-your-personal-appointments-user-task"></a><span data-ttu-id="db6bf-132">個人の予定をインポートする (ユーザー タスク)</span><span class="sxs-lookup"><span data-stu-id="db6bf-132">Import your personal appointments (user task)</span></span>  
+ <span data-ttu-id="db6bf-133">カレンダーから Project Service Automation の時間エントリ ビューに個人の予定をインポートします。</span><span class="sxs-lookup"><span data-stu-id="db6bf-133">You can import your personal appointments from your calendar to Project Service Automation time entry view.</span></span>  
   
-1. <span data-ttu-id="29ea5-134">[!INCLUDE[pn_office_365](../includes/pn-office-365.md)] カレンダーを開き、**データのインポート** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="29ea5-134">Open [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar and click **Import Data**.</span></span>  
+1. <span data-ttu-id="db6bf-134">[!INCLUDE[pn_office_365](../includes/pn-office-365.md)] カレンダーを開き、**データのインポート** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="db6bf-134">Open [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar and click **Import Data**.</span></span>  
   
-2. <span data-ttu-id="29ea5-135">フィルター画面で、**Exchange の予定** を選択し、次に **適用** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="29ea5-135">On the Filters screen, select **Appointments from Exchange** and then click **Apply**.</span></span>  
+2. <span data-ttu-id="db6bf-135">フィルター画面で、**Exchange の予定** を選択し、次に **適用** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="db6bf-135">On the Filters screen, select **Appointments from Exchange** and then click **Apply**.</span></span>  
   
-3. <span data-ttu-id="29ea5-136">システムは、現在の週から推奨されたエントリとして、時間エントリ ビューから予定を取得します。</span><span class="sxs-lookup"><span data-stu-id="29ea5-136">The system will pull appointments into time entry view as suggested entries from the current week.</span></span> <span data-ttu-id="29ea5-137">別の週のためのエントリを追加するには、**前へ** または **次へ** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="29ea5-137">To add entries for another week, click **Previous** or **Next**.</span></span>  
+3. <span data-ttu-id="db6bf-136">システムは、現在の週から推奨されたエントリとして、時間エントリ ビューから予定を取得します。</span><span class="sxs-lookup"><span data-stu-id="db6bf-136">The system will pull appointments into time entry view as suggested entries from the current week.</span></span> <span data-ttu-id="db6bf-137">別の週のためのエントリを追加するには、**前へ** または **次へ** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="db6bf-137">To add entries for another week, click **Previous** or **Next**.</span></span>  
   
-4. <span data-ttu-id="29ea5-138">Project Service Automation の時間エントリ ビューに加える予定を選択して下さい。</span><span class="sxs-lookup"><span data-stu-id="29ea5-138">Select the appointment that you want to add to Project Service Automation time entry view.</span></span>  
+4. <span data-ttu-id="db6bf-138">Project Service Automation の時間エントリ ビューに加える予定を選択して下さい。</span><span class="sxs-lookup"><span data-stu-id="db6bf-138">Select the appointment that you want to add to Project Service Automation time entry view.</span></span>  
   
-5. <span data-ttu-id="29ea5-139">**時間入力** ポップアップ ボックスで、適切なオプションを選択して、Project Service Automation の時間エントリ ビューに予定を変換します。</span><span class="sxs-lookup"><span data-stu-id="29ea5-139">On the **Time Entry** popup box, select the appropriate options to convert the appointment to a Project Service Automation time entry view.</span></span>  
+5. <span data-ttu-id="db6bf-139">**時間入力** ポップアップ ボックスで、適切なオプションを選択して、Project Service Automation の時間エントリ ビューに予定を変換します。</span><span class="sxs-lookup"><span data-stu-id="db6bf-139">On the **Time Entry** popup box, select the appropriate options to convert the appointment to a Project Service Automation time entry view.</span></span>  
   
-6. <span data-ttu-id="29ea5-140">**保存** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="29ea5-140">Click **Save**.</span></span>  
+6. <span data-ttu-id="db6bf-140">**保存** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="db6bf-140">Click **Save**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="29ea5-141">関連項目</span><span class="sxs-lookup"><span data-stu-id="29ea5-141">See Also</span></span>  
- [<span data-ttu-id="29ea5-142">時間、経費、および共同作業ガイド</span><span class="sxs-lookup"><span data-stu-id="29ea5-142">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+### <a name="see-also"></a><span data-ttu-id="db6bf-141">関連項目</span><span class="sxs-lookup"><span data-stu-id="db6bf-141">See Also</span></span>  
+ [<span data-ttu-id="db6bf-142">時間、経費、および共同作業ガイド</span><span class="sxs-lookup"><span data-stu-id="db6bf-142">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

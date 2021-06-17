@@ -2,8 +2,6 @@
 title: Project Service Automation 更新プログラム リリース 27、V3 の新機能と変更点
 description: このトピックには、Project Service Automation 更新プログラム リリース 27、V3 で利用可能な機能と修正をリスト化しています。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
 ms.topic: article
@@ -17,70 +15,70 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7f05b082e7c67937c78c82dcd9e094ee3b989e94
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: e6dd514e573d2ee977010311cd7f7fcb201abc27
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948515"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999227"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-update-release-27-v3"></a><span data-ttu-id="237ba-103">Project Service Automation 更新プログラム リリース 27、V3 の新機能と変更点</span><span class="sxs-lookup"><span data-stu-id="237ba-103">What's new or changed in Project Service Automation Update Release 27, V3</span></span>
+# <a name="whats-new-or-changed-in-project-service-automation-update-release-27-v3"></a><span data-ttu-id="cdeac-103">Project Service Automation 更新プログラム リリース 27、V3 の新機能と変更点</span><span class="sxs-lookup"><span data-stu-id="cdeac-103">What's new or changed in Project Service Automation Update Release 27, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="237ba-104">Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。</span><span class="sxs-lookup"><span data-stu-id="237ba-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="237ba-105">このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。</span><span class="sxs-lookup"><span data-stu-id="237ba-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="237ba-106">このリリースは、Dynamics 365 9.x と互換性があります。</span><span class="sxs-lookup"><span data-stu-id="237ba-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="237ba-107">このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。</span><span class="sxs-lookup"><span data-stu-id="237ba-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="237ba-108">詳細については [優先ソリューションのインストール、更新、または削除](/power-platform/admin/install-remove-preferred-solution) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="237ba-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="cdeac-104">Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。</span><span class="sxs-lookup"><span data-stu-id="cdeac-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="cdeac-105">このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。</span><span class="sxs-lookup"><span data-stu-id="cdeac-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="cdeac-106">このリリースは、Dynamics 365 9.x と互換性があります。</span><span class="sxs-lookup"><span data-stu-id="cdeac-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="cdeac-107">このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。</span><span class="sxs-lookup"><span data-stu-id="cdeac-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="cdeac-108">詳細については [優先ソリューションのインストール、更新、または削除](/power-platform/admin/install-remove-preferred-solution) を参照してください。</span><span class="sxs-lookup"><span data-stu-id="cdeac-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="237ba-109">このトピックには、Project Service Automation V3 更新プログラム 27 の新機能または変更された機能と修正をリスト化しています。</span><span class="sxs-lookup"><span data-stu-id="237ba-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 27.</span></span> <span data-ttu-id="237ba-110">このバージョンのビルド番号は V3.10.45.98 であり、一般的には 2021 年1月 の自己プログラム更新の処理を通じて入手できます。</span><span class="sxs-lookup"><span data-stu-id="237ba-110">This version has a build number of V3.10.45.98 and is generally available through a self-update in January 2021.</span></span>
+<span data-ttu-id="cdeac-109">このトピックには、Project Service Automation V3 更新プログラム 27 の新機能または変更された機能と修正をリスト化しています。</span><span class="sxs-lookup"><span data-stu-id="cdeac-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 27.</span></span> <span data-ttu-id="cdeac-110">このバージョンのビルド番号は V3.10.45.98 であり、一般的には 2021 年1月 の自己プログラム更新の処理を通じて入手できます。</span><span class="sxs-lookup"><span data-stu-id="cdeac-110">This version has a build number of V3.10.45.98 and is generally available through a self-update in January 2021.</span></span>
 
-## <a name="update-release-27"></a><span data-ttu-id="237ba-111">更新プログラム 27</span><span class="sxs-lookup"><span data-stu-id="237ba-111">Update Release 27</span></span>
+## <a name="update-release-27"></a><span data-ttu-id="cdeac-111">更新プログラム 27</span><span class="sxs-lookup"><span data-stu-id="cdeac-111">Update Release 27</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="237ba-112">バグの修正</span><span class="sxs-lookup"><span data-stu-id="237ba-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="cdeac-112">バグの修正</span><span class="sxs-lookup"><span data-stu-id="cdeac-112">Bug fixes</span></span>
 
-<span data-ttu-id="237ba-113">**一般**</span><span class="sxs-lookup"><span data-stu-id="237ba-113">**General**</span></span>
+<span data-ttu-id="cdeac-113">**一般**</span><span class="sxs-lookup"><span data-stu-id="cdeac-113">**General**</span></span>
 
-<span data-ttu-id="237ba-114">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="237ba-114">The following issues have been fixed:</span></span>
+<span data-ttu-id="cdeac-114">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="cdeac-114">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="237ba-115">Project Service Automation のプラグインによって生成されたログが、自動削除に設定されていません。</span><span class="sxs-lookup"><span data-stu-id="237ba-115">Logs generated by plug-ins in Project Service Automation haven't been set to auto-delete.</span></span>
-- <span data-ttu-id="237ba-116">Project Service Automation ソリューションにレガシー null NavBarArea とタイトル要素が含まれているため、自動アップグレードが失敗します。</span><span class="sxs-lookup"><span data-stu-id="237ba-116">Auto-upgrade fails because the Project Service Automation solution contains a legacy null NavBarArea and title element.</span></span>
+- <span data-ttu-id="cdeac-115">Project Service Automation のプラグインによって生成されたログが、自動削除に設定されていません。</span><span class="sxs-lookup"><span data-stu-id="cdeac-115">Logs generated by plug-ins in Project Service Automation haven't been set to auto-delete.</span></span>
+- <span data-ttu-id="cdeac-116">Project Service Automation ソリューションにレガシー null NavBarArea とタイトル要素が含まれているため、自動アップグレードが失敗します。</span><span class="sxs-lookup"><span data-stu-id="cdeac-116">Auto-upgrade fails because the Project Service Automation solution contains a legacy null NavBarArea and title element.</span></span>
 
-<span data-ttu-id="237ba-117">**時間と経費**</span><span class="sxs-lookup"><span data-stu-id="237ba-117">**Time and Expense**</span></span>
+<span data-ttu-id="cdeac-117">**時間と経費**</span><span class="sxs-lookup"><span data-stu-id="cdeac-117">**Time and Expense**</span></span>
 
-<span data-ttu-id="237ba-118">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="237ba-118">The following issues have been fixed:</span></span>
+<span data-ttu-id="cdeac-118">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="cdeac-118">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="237ba-119">**時間エントリ** グリッドで、**タイム ゾーン非依存** 日付動作に対して誤ったデータが表示されます。</span><span class="sxs-lookup"><span data-stu-id="237ba-119">The **Time Entry** grid displays incorrect data for **TimeZone Independent** date behavior.</span></span>
-- <span data-ttu-id="237ba-120">**時間エントリ** グリッドで、**タイム ゾーン非依存** 日付動作に対して誤った時間が作成されます。</span><span class="sxs-lookup"><span data-stu-id="237ba-120">The **Time Entry** grid creates incorrect time for **TimeZone Independent** date behavior.</span></span>
-- <span data-ttu-id="237ba-121">タスク検索が、**時間エントリの編集** ページで選択したプロジェクトに限定されません。</span><span class="sxs-lookup"><span data-stu-id="237ba-121">Task lookup isn't limited to the selected project on the **Edit Time Entry** page.</span></span>
-- <span data-ttu-id="237ba-122">非プロジェクト時間エントリの承認が、プロジェクト承認者の検索時にブロックされます。</span><span class="sxs-lookup"><span data-stu-id="237ba-122">Time approval for non-project time entries is blocked because the system is looking for a project approver.</span></span>
-- <span data-ttu-id="237ba-123">実績に正しい値を入力しても、誤ったエラー メッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="237ba-123">Correct entries on Actuals displays an incorrect error message.</span></span>
-- <span data-ttu-id="237ba-124">タスクに実際のコストの null 値が含まれていて、プロジェクトの合計が更新されると、「指定されたキーが辞書に存在しません」というエラーが発生します。</span><span class="sxs-lookup"><span data-stu-id="237ba-124">When a task contains a null value for actual cost and the project totals are refreshed, the following error occurs, "Given key not present in dictionary".</span></span>
-- <span data-ttu-id="237ba-125">具体的な例としては、**プロジェクトの見積もり** タブの **グループ別** フィルターに経費の見積もりが表示されません。</span><span class="sxs-lookup"><span data-stu-id="237ba-125">In specific instances, **Group By** filters on the **Project Estimate** tab does not display expense estimates.</span></span>
-- <span data-ttu-id="237ba-126">時間エントリで、**夏時間** の間隔が正しくありません。</span><span class="sxs-lookup"><span data-stu-id="237ba-126">**Daylight Saving Time** interval isn't correct for time entries.</span></span>
+- <span data-ttu-id="cdeac-119">**時間エントリ** グリッドで、**タイム ゾーン非依存** 日付動作に対して誤ったデータが表示されます。</span><span class="sxs-lookup"><span data-stu-id="cdeac-119">The **Time Entry** grid displays incorrect data for **TimeZone Independent** date behavior.</span></span>
+- <span data-ttu-id="cdeac-120">**時間エントリ** グリッドで、**タイム ゾーン非依存** 日付動作に対して誤った時間が作成されます。</span><span class="sxs-lookup"><span data-stu-id="cdeac-120">The **Time Entry** grid creates incorrect time for **TimeZone Independent** date behavior.</span></span>
+- <span data-ttu-id="cdeac-121">タスク検索が、**時間エントリの編集** ページで選択したプロジェクトに限定されません。</span><span class="sxs-lookup"><span data-stu-id="cdeac-121">Task lookup isn't limited to the selected project on the **Edit Time Entry** page.</span></span>
+- <span data-ttu-id="cdeac-122">非プロジェクト時間エントリの承認が、プロジェクト承認者の検索時にブロックされます。</span><span class="sxs-lookup"><span data-stu-id="cdeac-122">Time approval for non-project time entries is blocked because the system is looking for a project approver.</span></span>
+- <span data-ttu-id="cdeac-123">実績に正しい値を入力しても、誤ったエラー メッセージが表示されます。</span><span class="sxs-lookup"><span data-stu-id="cdeac-123">Correct entries on Actuals displays an incorrect error message.</span></span>
+- <span data-ttu-id="cdeac-124">タスクに実際のコストの null 値が含まれていて、プロジェクトの合計が更新されると、「指定されたキーが辞書に存在しません」というエラーが発生します。</span><span class="sxs-lookup"><span data-stu-id="cdeac-124">When a task contains a null value for actual cost and the project totals are refreshed, the following error occurs, "Given key not present in dictionary".</span></span>
+- <span data-ttu-id="cdeac-125">具体的な例としては、**プロジェクトの見積もり** タブの **グループ別** フィルターに経費の見積もりが表示されません。</span><span class="sxs-lookup"><span data-stu-id="cdeac-125">In specific instances, **Group By** filters on the **Project Estimate** tab does not display expense estimates.</span></span>
+- <span data-ttu-id="cdeac-126">時間エントリで、**夏時間** の間隔が正しくありません。</span><span class="sxs-lookup"><span data-stu-id="cdeac-126">**Daylight Saving Time** interval isn't correct for time entries.</span></span>
 
-<span data-ttu-id="237ba-127">**プロジェクト管理**</span><span class="sxs-lookup"><span data-stu-id="237ba-127">**Project Management**</span></span>
+<span data-ttu-id="cdeac-127">**プロジェクト管理**</span><span class="sxs-lookup"><span data-stu-id="cdeac-127">**Project Management**</span></span>
 
-<span data-ttu-id="237ba-128">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="237ba-128">The following issues have been fixed:</span></span>
+<span data-ttu-id="cdeac-128">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="cdeac-128">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="237ba-129">キャッシングが改善され、**プロジェクト** ページのロードに関連するパフォーマンスが向上しました。</span><span class="sxs-lookup"><span data-stu-id="237ba-129">Caching improvements, which enhances performance related to loading the **Project** page.</span></span>
-- <span data-ttu-id="237ba-130">廃止されたビジネス ルールにより、プロジェクト タスクが完了できなくなっています。</span><span class="sxs-lookup"><span data-stu-id="237ba-130">Obsolete business rule preventing project tasks from being completed.</span></span>
-- <span data-ttu-id="237ba-131">Microsoft Project アドインのコントーがアドインのカレンダーに沿っていないため、リソース要件が正しくなくなっています。</span><span class="sxs-lookup"><span data-stu-id="237ba-131">Microsoft Project Add-in contours aren't respecting the add-in’s calendar resulting in incorrect resource requirements.</span></span>
-- <span data-ttu-id="237ba-132">テンプレートからプロジェクトを作成すると、割り当て日が誤って設定され、リソース要件を生成できなくなります。</span><span class="sxs-lookup"><span data-stu-id="237ba-132">Creating projects from templates incorrectly sets assignment dates and prevents the ability to generate resource requirements.</span></span>
-- <span data-ttu-id="237ba-133">ユーザーがキーボードを使って **カテゴリ**、**説明**、**ステータス** オプションにアクセスできません。</span><span class="sxs-lookup"><span data-stu-id="237ba-133">User can't access **Category**, **Description**, **Status** options using the keyboard.</span></span>
-- <span data-ttu-id="237ba-134">プロジェクトの実際の販売額に、料金や資材の販売額が含まれていません。</span><span class="sxs-lookup"><span data-stu-id="237ba-134">Actual sales values of the project aren't including fee and materials sales values.</span></span>
-- <span data-ttu-id="237ba-135">異なる為替レートを使うと、実際の売上と実際のコストの集計が正しくなくなります。</span><span class="sxs-lookup"><span data-stu-id="237ba-135">Aggregation of actual sales and actual cost happens incorrectly with different exchange rates.</span></span>
-- <span data-ttu-id="237ba-136">**既定の作業時間テンプレート** の説明が誤解を招く内容です。</span><span class="sxs-lookup"><span data-stu-id="237ba-136">The description in the **Default Work Hour Template** is misleading.</span></span>
-- <span data-ttu-id="237ba-137">ユーザー インターフェイスを更新するまで、タスクをインデントしても **カテゴリー** が削除されません。</span><span class="sxs-lookup"><span data-stu-id="237ba-137">Indenting a task doesn't remove **Category** in the user interface until it is refreshed.</span></span>
-- <span data-ttu-id="237ba-138">プロジェクトが終了日を超えて移動することを禁止するための検証が欠落しています。</span><span class="sxs-lookup"><span data-stu-id="237ba-138">Missing validation to ensure moving a project beyond its end date isn't permitted.</span></span>
+- <span data-ttu-id="cdeac-129">キャッシングが改善され、**プロジェクト** ページのロードに関連するパフォーマンスが向上しました。</span><span class="sxs-lookup"><span data-stu-id="cdeac-129">Caching improvements, which enhances performance related to loading the **Project** page.</span></span>
+- <span data-ttu-id="cdeac-130">廃止されたビジネス ルールにより、プロジェクト タスクが完了できなくなっています。</span><span class="sxs-lookup"><span data-stu-id="cdeac-130">Obsolete business rule preventing project tasks from being completed.</span></span>
+- <span data-ttu-id="cdeac-131">Microsoft Project アドインのコントーがアドインのカレンダーに沿っていないため、リソース要件が正しくなくなっています。</span><span class="sxs-lookup"><span data-stu-id="cdeac-131">Microsoft Project Add-in contours aren't respecting the add-in’s calendar resulting in incorrect resource requirements.</span></span>
+- <span data-ttu-id="cdeac-132">テンプレートからプロジェクトを作成すると、割り当て日が誤って設定され、リソース要件を生成できなくなります。</span><span class="sxs-lookup"><span data-stu-id="cdeac-132">Creating projects from templates incorrectly sets assignment dates and prevents the ability to generate resource requirements.</span></span>
+- <span data-ttu-id="cdeac-133">ユーザーがキーボードを使って **カテゴリ**、**説明**、**ステータス** オプションにアクセスできません。</span><span class="sxs-lookup"><span data-stu-id="cdeac-133">User can't access **Category**, **Description**, **Status** options using the keyboard.</span></span>
+- <span data-ttu-id="cdeac-134">プロジェクトの実際の販売額に、料金や資材の販売額が含まれていません。</span><span class="sxs-lookup"><span data-stu-id="cdeac-134">Actual sales values of the project aren't including fee and materials sales values.</span></span>
+- <span data-ttu-id="cdeac-135">異なる為替レートを使うと、実際の売上と実際のコストの集計が正しくなくなります。</span><span class="sxs-lookup"><span data-stu-id="cdeac-135">Aggregation of actual sales and actual cost happens incorrectly with different exchange rates.</span></span>
+- <span data-ttu-id="cdeac-136">**既定の作業時間テンプレート** の説明が誤解を招く内容です。</span><span class="sxs-lookup"><span data-stu-id="cdeac-136">The description in the **Default Work Hour Template** is misleading.</span></span>
+- <span data-ttu-id="cdeac-137">ユーザー インターフェイスを更新するまで、タスクをインデントしても **カテゴリー** が削除されません。</span><span class="sxs-lookup"><span data-stu-id="cdeac-137">Indenting a task doesn't remove **Category** in the user interface until it is refreshed.</span></span>
+- <span data-ttu-id="cdeac-138">プロジェクトが終了日を超えて移動することを禁止するための検証が欠落しています。</span><span class="sxs-lookup"><span data-stu-id="cdeac-138">Missing validation to ensure moving a project beyond its end date isn't permitted.</span></span>
 
-<span data-ttu-id="237ba-139">**営業**</span><span class="sxs-lookup"><span data-stu-id="237ba-139">**Sales**</span></span>
+<span data-ttu-id="cdeac-139">**営業**</span><span class="sxs-lookup"><span data-stu-id="cdeac-139">**Sales**</span></span>
 
-<span data-ttu-id="237ba-140">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="237ba-140">The following issues have been fixed:</span></span>
+<span data-ttu-id="cdeac-140">以下の問題が修正されました:</span><span class="sxs-lookup"><span data-stu-id="cdeac-140">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="237ba-141">プロジェクトが選択されていない場合に、**プロジェクトの見積もりからインポート** が表示されるため、null 参照例外がプロジェクトの見積もり行で生成されます。</span><span class="sxs-lookup"><span data-stu-id="237ba-141">A null reference exception is generated on a project quote line because **Import from Project Estimation** is visible when a project hasn't been selected.</span></span>
-- <span data-ttu-id="237ba-142">見積もりを **受注** としてクローズすると、「オブジェクト参照がオブジェクトのインスタンスに設定されていません」というエラーが発生します。</span><span class="sxs-lookup"><span data-stu-id="237ba-142">The following error, "Object reference not set to an instance of an object" occurs when closing a quote as **Won**.</span></span>
-- <span data-ttu-id="237ba-143">プロジェクトと契約品目のリンクを解除する際、実際の取消時に調整ステータスが設定されません。</span><span class="sxs-lookup"><span data-stu-id="237ba-143">Adjustment status isn't set during an actual reversal while unlinking a project from a contract line.</span></span>
-- <span data-ttu-id="237ba-144">Dynamics 365 Field Service と Project Service Automationの 両方がインストールされている場合、**請求書** ページに **価格のロック** と **現在の値付けを​​使用** オプションが同時に表示されません。</span><span class="sxs-lookup"><span data-stu-id="237ba-144">When Dynamics 365 Field Service and Project Service Automation are both installed, the **Lock pricing** and **Use Current Pricing** options are not displayed at a same time on the **Invoice** page.</span></span>
-- <span data-ttu-id="237ba-145">日本語の場合、他のカレンダー ベースのページとの翻訳に一貫性がありません。</span><span class="sxs-lookup"><span data-stu-id="237ba-145">For the Japanese language, there is inconsistent translation with other calendar-based pages.</span></span>
-- <span data-ttu-id="237ba-146">**アクティブ化** と **非アクティブ化** が、Project Service Automation の **価格表の関連付け** エンティティから削除されました。</span><span class="sxs-lookup"><span data-stu-id="237ba-146">**Activate** and **Deactivate** have been removed from **Price List Association** entities in Project Service Automation.</span></span>
+- <span data-ttu-id="cdeac-141">プロジェクトが選択されていない場合に、**プロジェクトの見積もりからインポート** が表示されるため、null 参照例外がプロジェクトの見積もり行で生成されます。</span><span class="sxs-lookup"><span data-stu-id="cdeac-141">A null reference exception is generated on a project quote line because **Import from Project Estimation** is visible when a project hasn't been selected.</span></span>
+- <span data-ttu-id="cdeac-142">見積もりを **受注** としてクローズすると、「オブジェクト参照がオブジェクトのインスタンスに設定されていません」というエラーが発生します。</span><span class="sxs-lookup"><span data-stu-id="cdeac-142">The following error, "Object reference not set to an instance of an object" occurs when closing a quote as **Won**.</span></span>
+- <span data-ttu-id="cdeac-143">プロジェクトと契約品目のリンクを解除する際、実際の取消時に調整ステータスが設定されません。</span><span class="sxs-lookup"><span data-stu-id="cdeac-143">Adjustment status isn't set during an actual reversal while unlinking a project from a contract line.</span></span>
+- <span data-ttu-id="cdeac-144">Dynamics 365 Field Service と Project Service Automationの 両方がインストールされている場合、**請求書** ページに **価格のロック** と **現在の値付けを​​使用** オプションが同時に表示されません。</span><span class="sxs-lookup"><span data-stu-id="cdeac-144">When Dynamics 365 Field Service and Project Service Automation are both installed, the **Lock pricing** and **Use Current Pricing** options are not displayed at a same time on the **Invoice** page.</span></span>
+- <span data-ttu-id="cdeac-145">日本語の場合、他のカレンダー ベースのページとの翻訳に一貫性がありません。</span><span class="sxs-lookup"><span data-stu-id="cdeac-145">For the Japanese language, there is inconsistent translation with other calendar-based pages.</span></span>
+- <span data-ttu-id="cdeac-146">**アクティブ化** と **非アクティブ化** が、Project Service Automation の **価格表の関連付け** エンティティから削除されました。</span><span class="sxs-lookup"><span data-stu-id="cdeac-146">**Activate** and **Deactivate** have been removed from **Price List Association** entities in Project Service Automation.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
