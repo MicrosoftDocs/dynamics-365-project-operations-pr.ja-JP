@@ -2,11 +2,9 @@
 title: 経費精算書の転記
 description: このトピックでは、経費精算書を転記する方法について説明します。
 author: suvaidya
-manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,22 +13,22 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af727e8eb91ff49acb3cc34c225a190f30ba97ed
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: acb26ef74c653a70134f13ab3c382f3c80a8ec14
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276256"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995222"
 ---
-# <a name="post-expense-reports"></a><span data-ttu-id="aeaab-103">経費精算書の転記</span><span class="sxs-lookup"><span data-stu-id="aeaab-103">Post expense reports</span></span>
+# <a name="post-expense-reports"></a><span data-ttu-id="c7228-103">経費精算書の転記</span><span class="sxs-lookup"><span data-stu-id="c7228-103">Post expense reports</span></span>
 
-<span data-ttu-id="aeaab-104">経費精算書は、承認されて一般仕訳帳に転送された後、転記することができます。</span><span class="sxs-lookup"><span data-stu-id="aeaab-104">After an expense report has been approved and transferred to the general journal, it can be posted.</span></span> <span data-ttu-id="aeaab-105">経費清算書を転記すると、付加価値税 (VAT) の還付に適用できる経費が特定されます。</span><span class="sxs-lookup"><span data-stu-id="aeaab-105">When you post an expense report, expenses that are eligible for recovery of value-added tax (VAT) are identified.</span></span> <span data-ttu-id="aeaab-106">VAT の支払いの確認および還付のタスクは、経費清算書の確認を担当する従業員に割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="aeaab-106">The task of verifying and recovering VAT payments is assigned to the employee who is responsible for verifying the expense report.</span></span>
+<span data-ttu-id="c7228-104">経費精算書は、承認されて一般仕訳帳に転送された後、転記することができます。</span><span class="sxs-lookup"><span data-stu-id="c7228-104">After an expense report has been approved and transferred to the general journal, it can be posted.</span></span> <span data-ttu-id="c7228-105">経費清算書を転記すると、付加価値税 (VAT) の還付に適用できる経費が特定されます。</span><span class="sxs-lookup"><span data-stu-id="c7228-105">When you post an expense report, expenses that are eligible for recovery of value-added tax (VAT) are identified.</span></span> <span data-ttu-id="c7228-106">VAT の支払いの確認および還付のタスクは、経費清算書の確認を担当する従業員に割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="c7228-106">The task of verifying and recovering VAT payments is assigned to the employee who is responsible for verifying the expense report.</span></span>
 
-<span data-ttu-id="aeaab-107">経費報告書の経費が従業員の採用会社以外の会社に請求される場合は、経費の支払先会社と経費の支払元会社を確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="aeaab-107">If expenses on an expense report are charged to a company other than the company that employs the employee, you must verify both the company that those expenses are owed to and the company that they are owed from.</span></span> <span data-ttu-id="aeaab-108">たとえば、経費清算書を送信した従業員は DAT 社に勤務しているが、DIR 社への経費を請求されたとします。</span><span class="sxs-lookup"><span data-stu-id="aeaab-108">For example, the employee who submitted an expense report works for the DAT company but charged an expense to the DIR company.</span></span> <span data-ttu-id="aeaab-109">この場合、DAT は経費の支払先会社、DIR は経費の支払元会社です。</span><span class="sxs-lookup"><span data-stu-id="aeaab-109">In this case, DAT is the company that the expense is owed to, and DIR is the company that the expense is owed from.</span></span> <span data-ttu-id="aeaab-110">これらの仕訳帳明細行を確認した後は、経費明細行を一般会計に転記できます。</span><span class="sxs-lookup"><span data-stu-id="aeaab-110">After you verify these journal lines, you can post the expense lines to the general ledger.</span></span>
+<span data-ttu-id="c7228-107">経費報告書の経費が従業員の採用会社以外の会社に請求される場合は、経費の支払先会社と経費の支払元会社を確認する必要があります。</span><span class="sxs-lookup"><span data-stu-id="c7228-107">If expenses on an expense report are charged to a company other than the company that employs the employee, you must verify both the company that those expenses are owed to and the company that they are owed from.</span></span> <span data-ttu-id="c7228-108">たとえば、経費清算書を送信した従業員は DAT 社に勤務しているが、DIR 社への経費を請求されたとします。</span><span class="sxs-lookup"><span data-stu-id="c7228-108">For example, the employee who submitted an expense report works for the DAT company but charged an expense to the DIR company.</span></span> <span data-ttu-id="c7228-109">この場合、DAT は経費の支払先会社、DIR は経費の支払元会社です。</span><span class="sxs-lookup"><span data-stu-id="c7228-109">In this case, DAT is the company that the expense is owed to, and DIR is the company that the expense is owed from.</span></span> <span data-ttu-id="c7228-110">これらの仕訳帳明細行を確認した後は、経費明細行を一般会計に転記できます。</span><span class="sxs-lookup"><span data-stu-id="c7228-110">After you verify these journal lines, you can post the expense lines to the general ledger.</span></span>
 
-<span data-ttu-id="aeaab-111">経費清算書を転記するには、**承認された経費清算書** ページで経費清算書を選択し、アクション ウィンドウで **転記** を選択します。</span><span class="sxs-lookup"><span data-stu-id="aeaab-111">To post an expense report, on the **Approved expense reports** page, select the expense report, and then, on the Action Pane, select **Post**.</span></span>
+<span data-ttu-id="c7228-111">経費清算書を転記するには、**承認された経費清算書** ページで経費清算書を選択し、アクション ウィンドウで **転記** を選択します。</span><span class="sxs-lookup"><span data-stu-id="c7228-111">To post an expense report, on the **Approved expense reports** page, select the expense report, and then, on the Action Pane, select **Post**.</span></span>
 
-<span data-ttu-id="aeaab-112">同時にリストですべての経費清算書を転記することもできます。</span><span class="sxs-lookup"><span data-stu-id="aeaab-112">You can also post all the expense reports in the list at the same time.</span></span> <span data-ttu-id="aeaab-113">すべての経費清算書を選択し、**転記** を選択します。</span><span class="sxs-lookup"><span data-stu-id="aeaab-113">Select all the expense reports, and then select **Post**.</span></span>
+<span data-ttu-id="c7228-112">同時にリストですべての経費清算書を転記することもできます。</span><span class="sxs-lookup"><span data-stu-id="c7228-112">You can also post all the expense reports in the list at the same time.</span></span> <span data-ttu-id="c7228-113">すべての経費清算書を選択し、**転記** を選択します。</span><span class="sxs-lookup"><span data-stu-id="c7228-113">Select all the expense reports, and then select **Post**.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
