@@ -2,11 +2,9 @@
 title: 提案されたリソースの確認
 description: このトピックでは、プロジェクト リソースを提案する方法について説明します。
 author: ruhercul
-manager: AnnBe
 ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fa0515b9d6a0023c05c37d2bcfa6a403f48927cb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 987ea08c77c1824182856c0d52ee0cd15e7029b9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279279"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000757"
 ---
 # <a name="review-proposed-resources"></a>提案されたリソースの確認
 
@@ -33,10 +31,10 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 1. その要求のグリッドまたは要求自体から、**リソースの検索** を選択します。
 2. **アシスタントをスケジュール** ページで、リソースを選択した後、**リソース予約の作成** ウィンドウの、**予約状態** フィールドで、**予約** を選択します。
 
-次のステータス更新がおこなわれます:
+次のようなステータスの更新が発生します。
 
-- **スケジュール アシスタント** ページで、状態インジケーターが、予約が本予約ではなく、提案されたことを示すように更新されます。
-- リソース要求で、状態が **要レビュー** に変更されます。
+- **スケジュール アシスタント** ページでステータス インジケーターが更新され、予約が「本予約」ではなく「提案」と表示されます。
+- リソース要求で、ステータスが **レビューが必要** に変更されます。
 - プロジェクトの **チーム** タブで、汎用チーム メンバーの **要求の状態** 値が **要確認** に変更されます。
 
 プロジェクト マネージャーは、提案を承認または拒否することができます。

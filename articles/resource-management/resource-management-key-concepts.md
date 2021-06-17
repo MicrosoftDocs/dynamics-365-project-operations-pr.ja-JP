@@ -2,18 +2,16 @@
 title: リソース管理の重要な概念
 description: このトピックは、Microsoft Dynamics Project Operations でのリソース管理機能に関する情報を提供します。
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: bcdfc7296ec09421668673d8502e7103c887d667
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6362daab7e2e01c7b7b2c2b801fe7e258b21ef16
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279504"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000982"
 ---
 # <a name="resource-management-key-concepts"></a>リソース管理の重要な概念
 

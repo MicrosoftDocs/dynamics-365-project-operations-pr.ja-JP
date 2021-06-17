@@ -2,27 +2,25 @@
 title: プロジェクトベースの契約品目の概要
 description: このトピックでは、プロジェクトベースの契約品目を使用した作業について解説します。
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 824fdd54d7b513b49afd1a6d76d3387df81418e2
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 8af32b0475650db9c5862ea23d185588a631ade6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858164"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003142"
 ---
 # <a name="project-based-contract-lines-overview"></a>プロジェクトベースの契約品目の概要
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-Dynamics 365 Project Operations のプロジェクトベースの契約品目は、エンゲージメントに関するプロジェクト作業の特定のコンポーネントの見積もりおよび請求契約を保持するように設計されています。 プロジェクトベースの契約品目の構造は、次の概念を使用してプロジェクトの見積もりと請求シナリオに拡張されます :
+Dynamics 365 Project Operations のプロジェクトベースの契約品目は、エンゲージメントに関するプロジェクト作業の特定のコンポーネントの見積もりおよび請求契約を保持するように設計されています。 プロジェクトベースの契約品目の構造は、次の概念によりプロジェクト見積および請求シナリオに対して拡張されます。
 
 - 請求方法
-- プロジェクトとタスクのマッピング
+- プロジェクトとタスクのスケジュール
 - 含まれるトランザクションのクラス
 - 上限
 - 請求可否の設定

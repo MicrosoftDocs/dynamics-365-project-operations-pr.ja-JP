@@ -2,18 +2,16 @@
 title: プロジェクトベースの見積依頼明細行の見積もり
 description: このトピックでは、プロジェクトベースの見積依頼明細行で見積もりを作成する方法について説明します。
 author: rumant
-manager: Annbe
 ms.date: 04/01/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ef30df2921df7464aa2173161898121dc8e4f440
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.openlocfilehash: 20a318c9f288b08a0984f9c29dced05997622f47
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858209"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003322"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>プロジェクトベースの見積依頼明細行の見積もり
 

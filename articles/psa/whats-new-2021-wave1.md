@@ -2,8 +2,6 @@
 title: Project Service Automation 早期アクセス ウェーブ 1 2021、V3 の最新情報または変更事項
 description: このトピックは、Project Service Automation 早期アクセス ウェーブ 1 2021、V3 で利用可能な機能と修正をリストしています。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2021
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ceba31934f021b4a18766eca314d68b69dd6a8ff
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 3a11c5a033c6b7f1f4d7b5146dc8695c9e017d6e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949595"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002404"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a>Project Service Automation 早期アクセス ウェーブ 1 2021、V3 の最新情報または変更事項
 

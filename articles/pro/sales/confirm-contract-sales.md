@@ -2,18 +2,16 @@
 title: プロジェクト契約の確認
 description: このトピックは、Project Operations で契約を確認する方法について説明します。
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d807d3631f40a93ec7dbd918b64c287fd4875c79
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b5eabcad028a8282f552f3571b170d9b933a7b88
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273834"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003682"
 ---
 # <a name="confirm-a-project-contract"></a>プロジェクト契約の確認
 
@@ -21,9 +19,9 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 Dynamics 365 Project Operations のプロジェクト契約は、**確認済み** という理由でアクティブにするか、または **失注** という理由でクローズすることができます。 プロジェクト契約を確認すると、状態が **下書き** から **アクティブ** に更新され、状態の理由が **確認済み** になります。 アクティブまたはクローズされた契約は、編集や再開することはできません。 
 
-### <a name="financial-impact-of-confirming-a-project-contract"></a>プロジェクト契約の確認による財務上の影響
+### <a name="financial-impact-of-confirming-a-project-contract"></a>プロジェクト契約の確認による財務的影響
 
-プリジェクト契約が確認された後、アプリケーションは、古いコスト実績を元に戻し、新しいコスト実績を再作成することにより、コストを再計算します。 新たなコストの実績は、関連するプロジェクト契約品目の請求方法に基づいて処理されます。 コスト実績が時間と材料の契約品目を参照している場合、アプリケーションは自動的に対応する未請求の売上実績を再作成します。 コスト実績が固定価格契約品目を参照している場合、アプリケーションはコスト実績の再処理を停止します。
+プロジェクト契約が確認された後、アプリケーションでは、古い原価実績を逆仕訳して新しい原価実績を作成することで、原価を再計算します。 新しい原価実績は、関連付けられているプロジェクト契約品目の請求方法に基づいて処理されます。 コスト実績が時間と材料の契約品目を参照している場合、アプリケーションは自動的に対応する未請求の売上実績を再作成します。 コスト実績が固定価格契約品目を参照している場合、アプリケーションはコスト実績の再処理を停止します。
 
 限度額、課金設定、実績上の価格設定、原価計算を評価し、確認作業の一環として更新されます。
 

@@ -2,18 +2,16 @@
 title: 在庫/製造ベース シナリオ展開の概要向け Project Operations
 description: このトピックでは、展開の種類、在庫/製造ベースのシナリオ向け Project Operations について説明します。
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8ffbcb326e5cd86c49b3b3b27ce7d68404a6842b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7b2a606bc587b99c16d45b19689ba90b422c3c62
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289240"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999407"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>在庫/製造ベース シナリオ展開の概要向け Project Operations
 

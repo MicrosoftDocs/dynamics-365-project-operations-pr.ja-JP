@@ -2,11 +2,9 @@
 title: 見積をプロジェクトに転送する
 description: このトピックは、見積もりを新規または既存のプロジェクトに転送する方法に関する情報を提供します。
 author: kfend
-manager: AnnBe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 9952336c395d98eb776190f92062fffcfb31556b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d4d7ecfd8685c56cd73a780727f939eb58a8755
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288099"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002737"
 ---
 # <a name="transfer-a-quotation-to-a-project"></a>見積をプロジェクトに転送する
 

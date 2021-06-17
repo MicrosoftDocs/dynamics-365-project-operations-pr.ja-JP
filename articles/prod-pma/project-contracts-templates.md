@@ -2,11 +2,9 @@
 title: プロジェクト契約とプロジェクトを、Project Service Automation から Finance に直接同期します
 description: このトピックでは、Microsoft Dynamics 365 Project Service Automation から Dynamics 365 Finance へのプロジェクト契約およびプロジェクトを直接同期するために使用されるテンプレートと基礎となるタスクについて説明します。
 author: Yowelle
-manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 2f5fa0143c903f08b3937426805cb43d5d6109e3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950405"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999812"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>プロジェクト契約とプロジェクトを、Project Service Automation から Finance に直接同期します 
 
@@ -116,7 +114,7 @@ Project Service Automation から Finance への統合ソリューションが�
 
     | Value | 内容   |
     |-------|---------------|
-    | 6     | 支払期限 30 日以内        |
+    | 1     | 支払期限 30 日以内        |
     | 2     | 10 日以内支払割引 2%、支払期限 30 日以内 |
     | 3     | 支払期限 45 日以内        |
     | 4     | 支払期限 60 日以内        |

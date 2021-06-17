@@ -2,24 +2,22 @@
 title: リソース稼働率の概要
 description: このトピックでは、Project Operations でのリソース稼働率について説明します。
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4d66b5fc642ef53adf1169ce891a7a5fa26b07d6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a683931bcd6a357c5feec9198b190b948ad17a40
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279324"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000802"
 ---
 # <a name="resource-utilization-overview"></a>リソース稼働率の概要
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-リソースは支払請求可能な目標稼働率を持つことができます。 この目標稼働率は、リソースの既定ロールの属性として定義されるか、個々の予約可能リソースのレコードで設定されます。 稼働率計算は、リソースが承認された時間エントリを使用して報告した実際の時間に基づいています。
+リソースは支払請求可能な目標稼働率を持つことができます。 この目標稼働率は、リソースの既定ロールの属性として定義されるか、個々の予約可能リソースのレコードで設定されます。 稼働率の計算は、承認された時間エントリを使用してリソースが報告した実際の時間数に基づいて行います。
 
 次の計算式を使用して稼働率を計算します:
 

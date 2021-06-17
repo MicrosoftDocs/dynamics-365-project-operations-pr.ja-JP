@@ -2,11 +2,9 @@
 title: iOS および Android 上の Microsoft Dynamics 365 Project Timesheet モバイル アプリのカスタム フィールドを実装する
 description: このトピックでは、拡張機能を使用してカスタム フィールドを実装するための一般的なパターンについて説明します。
 author: Yowelle
-manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270999"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003044"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>iOS および Android 上の Microsoft Dynamics 365 Project Timesheet モバイル アプリのカスタム フィールドを実装する
 
@@ -54,7 +52,7 @@ ms.locfileid: "5270999"
 | 種類の値 | 型              | メモ​​ |
 |-------------|-------------------|-------|
 | 0           | 文字列 (列挙型) | フィールドはテキスト フィールドとして表示されます。 |
-| 6           | Integer           | 値は、小数点以下の桁数がない数値として表示されます。 |
+| 1           | Integer           | 値は、小数点以下の桁数がない数値として表示されます。 |
 | 2           | 実数              | 値は、小数点以下の桁数を含む数値として表示されます。<p>アプリで通貨として実数値を表示するには、**fieldExtenededType** プロパティを使用します。 **numberOfDecimals** プロパティを使用し、表示される小数点以下の桁数を設定することができます。</p> |
 | 3           | 日              | 日付の書式は、ユーザーが **ユーザー オプション** の **言語と国/地域の基本設定** の下で指定した **日付、時間、および数値書式** により決定されます。 |
 | 4           | Boolean           | |

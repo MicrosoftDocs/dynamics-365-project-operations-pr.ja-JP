@@ -2,18 +2,16 @@
 title: 出張申請書
 description: このトピックでは、出張申請書について説明します。
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: fa612696944082e179ab2484e2fdd76d1696b889
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e05f54349eaa09dd22331ff07950542dd326e711
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275994"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001747"
 ---
 # <a name="travel-requisitions"></a>出張申請書
 
