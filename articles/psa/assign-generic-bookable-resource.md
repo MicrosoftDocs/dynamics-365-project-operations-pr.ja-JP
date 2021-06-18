@@ -2,8 +2,6 @@
 title: 一般的な予約可能なリソースをタスクとプロジェクト チームに割り当てる
 description: このトピックでは、タスクとプロジェクト チームへの汎用リソースの予約に関する情報を提供します。
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,44 +16,44 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b4c47513b96310745fd2cdb296988a57df0e966
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a1e22337d3fd3e7ff4147a9547fd3c272f4185d3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291400"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009397"
 ---
-# <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a><span data-ttu-id="ca78b-103">予約可能な汎用リソースをタスクに割り当て、リソース要件を生成する</span><span class="sxs-lookup"><span data-stu-id="ca78b-103">Assign generic bookable resources to a task and generate resource requirements</span></span> 
+# <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a><span data-ttu-id="bf4d4-103">予約可能な汎用リソースをタスクに割り当て、リソース要件を生成する</span><span class="sxs-lookup"><span data-stu-id="bf4d4-103">Assign generic bookable resources to a task and generate resource requirements</span></span> 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="ca78b-104">プロジェクトに名前付きリソースや実リソースを予約して割り当てることに加えて、プロジェクト タスクに汎用リソースを割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="ca78b-104">In addition to booking and assigning named or real resources to your project, you can assign generic resources to project tasks.</span></span> <span data-ttu-id="ca78b-105">これらのリソースは、プロジェクトに名前付きリソースを配置する準備ができるまで、名前付きリソースのプレースホルダーとして機能します。</span><span class="sxs-lookup"><span data-stu-id="ca78b-105">These resources can serve as placeholders for named resources until you are ready to staff your project with named resources.</span></span> 
+<span data-ttu-id="bf4d4-104">プロジェクトに名前付きリソースや実リソースを予約して割り当てることに加えて、プロジェクト タスクに汎用リソースを割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="bf4d4-104">In addition to booking and assigning named or real resources to your project, you can assign generic resources to project tasks.</span></span> <span data-ttu-id="bf4d4-105">これらのリソースは、プロジェクトに名前付きリソースを配置する準備ができるまで、名前付きリソースのプレースホルダーとして機能します。</span><span class="sxs-lookup"><span data-stu-id="bf4d4-105">These resources can serve as placeholders for named resources until you are ready to staff your project with named resources.</span></span> 
 
-1. <span data-ttu-id="ca78b-106">Project Service Automation (PSA) で **プロジェクト** ページを開き、**スケジュール** タブで、スケジュールの **リソース** セルに汎用リソースの位置名を入力します。</span><span class="sxs-lookup"><span data-stu-id="ca78b-106">In Project Service Automation (PSA), open the **Project** page and on the **Schedule** tab, enter the position name of the generic resource in the **Resource** cell of the schedule.</span></span> <span data-ttu-id="ca78b-107">または、セルの **リソース** アイコンをクリックしてリソース ピッカーを開き、作成する汎用リソースの名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="ca78b-107">Or, click the **Resource** icon in the cell to open the resource picker and then enter the name of the generic resource that you want to create.</span></span>
+1. <span data-ttu-id="bf4d4-106">Project Service Automation (PSA) で **プロジェクト** ページを開き、**スケジュール** タブで、スケジュールの **リソース** セルに汎用リソースの位置名を入力します。</span><span class="sxs-lookup"><span data-stu-id="bf4d4-106">In Project Service Automation (PSA), open the **Project** page and on the **Schedule** tab, enter the position name of the generic resource in the **Resource** cell of the schedule.</span></span> <span data-ttu-id="bf4d4-107">または、セルの **リソース** アイコンをクリックしてリソース ピッカーを開き、作成する汎用リソースの名前を入力します。</span><span class="sxs-lookup"><span data-stu-id="bf4d4-107">Or, click the **Resource** icon in the cell to open the resource picker and then enter the name of the generic resource that you want to create.</span></span>
 
 ![汎用チーム メンバーの作成と割り当て](media/RM-how-to-9.png)
 
-<span data-ttu-id="ca78b-109">これで **簡易作成: プロジェクト チーム メンバー** パネルが開きます。</span><span class="sxs-lookup"><span data-stu-id="ca78b-109">This will open the **Quick Create: Project Team Member** panel.</span></span> 
+<span data-ttu-id="bf4d4-109">これで **簡易作成: プロジェクト チーム メンバー** パネルが開きます。</span><span class="sxs-lookup"><span data-stu-id="bf4d4-109">This will open the **Quick Create: Project Team Member** panel.</span></span> 
 
-2. <span data-ttu-id="ca78b-110">汎用リソース チーム メンバーの役割と組織単位を入力して **保存** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="ca78b-110">Enter the role and organization unit of the generic resource team member and then click **Save**.</span></span>
+2. <span data-ttu-id="bf4d4-110">汎用リソース チーム メンバーの役割と組織単位を入力して **保存** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="bf4d4-110">Enter the role and organization unit of the generic resource team member and then click **Save**.</span></span>
 
 ![汎用チーム メンバーの簡易作成](media/RM-how-to-10.png)
 
-3. <span data-ttu-id="ca78b-112">新しい汎用リソース チーム メンバーを作成が完了すると、タスクに割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="ca78b-112">After you have created the new generic resource team member, it is assigned to the task.</span></span> <span data-ttu-id="ca78b-113">タスク スケジュール内の他のタスクに、その汎用リソースを引き続き割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="ca78b-113">You can continue to assign that generic resource to other tasks in the task schedule.</span></span>
+3. <span data-ttu-id="bf4d4-112">新しい汎用リソース チーム メンバーを作成が完了すると、タスクに割り当てられます。</span><span class="sxs-lookup"><span data-stu-id="bf4d4-112">After you have created the new generic resource team member, it is assigned to the task.</span></span> <span data-ttu-id="bf4d4-113">タスク スケジュール内の他のタスクに、その汎用リソースを引き続き割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="bf4d4-113">You can continue to assign that generic resource to other tasks in the task schedule.</span></span>
 
 ![既存の汎用チーム メンバーをタスクに割り当てる](media/RM-how-to-11.png)
 
-4. <span data-ttu-id="ca78b-115">汎用リソースを割り当てた後、リソース要求を生成して、リソース マネージャーに直接予約または送信してリソース要求を満たすことができます。</span><span class="sxs-lookup"><span data-stu-id="ca78b-115">After you have assigned the generic resource, you can generate a resource requirement and fulfill it by directly booking or submitting a resource request to a resource manager.</span></span>
+4. <span data-ttu-id="bf4d4-115">汎用リソースを割り当てた後、リソース要求を生成して、リソース マネージャーに直接予約または送信してリソース要求を満たすことができます。</span><span class="sxs-lookup"><span data-stu-id="bf4d4-115">After you have assigned the generic resource, you can generate a resource requirement and fulfill it by directly booking or submitting a resource request to a resource manager.</span></span>
 
 ![汎用チーム メンバーの要件の生成](media/RM-how-to-12.png)
 
-<span data-ttu-id="ca78b-117">チーム メンバー グリッドでは、上述したリソース ピッカーを使用できることに加え、汎用リソースを直接追加できます。</span><span class="sxs-lookup"><span data-stu-id="ca78b-117">On the team member grid, in addition to being able to use the resource picker as mentioned above, you can add generic resources directly.</span></span> <span data-ttu-id="ca78b-118">リソースは **簡易作成: プロジェクト チーム メンバー** パネルで指定した開始/終了日と割り当て方法に基づいたリソース要件で追加されます。</span><span class="sxs-lookup"><span data-stu-id="ca78b-118">The resources are added with a resource requirement that is based on the start/end dates and allocation method specified in the **Quick Create: Project Team Member** panel.</span></span>
+<span data-ttu-id="bf4d4-117">チーム メンバー グリッドでは、上述したリソース ピッカーを使用できることに加え、汎用リソースを直接追加できます。</span><span class="sxs-lookup"><span data-stu-id="bf4d4-117">On the team member grid, in addition to being able to use the resource picker as mentioned above, you can add generic resources directly.</span></span> <span data-ttu-id="bf4d4-118">リソースは **簡易作成: プロジェクト チーム メンバー** パネルで指定した開始/終了日と割り当て方法に基づいたリソース要件で追加されます。</span><span class="sxs-lookup"><span data-stu-id="bf4d4-118">The resources are added with a resource requirement that is based on the start/end dates and allocation method specified in the **Quick Create: Project Team Member** panel.</span></span>
 
-<span data-ttu-id="ca78b-119">汎用チーム メンバーを直接追加して、カバーするのに必要な時間よりも多くのタスクを汎用リソースに割り当てると、違いがわかります。</span><span class="sxs-lookup"><span data-stu-id="ca78b-119">You can see a difference if you add the generic team member directly and then assign more tasks to the generic resource than they have required hours to cover.</span></span> <span data-ttu-id="ca78b-120">**要件の生成** をクリックして要件を再生成し、必要な時間と割り当てのバランスを取ります。</span><span class="sxs-lookup"><span data-stu-id="ca78b-120">Click **Generate Requirement** to regenerate the requirement to balance the required hours against assignments.</span></span>
+<span data-ttu-id="bf4d4-119">汎用チーム メンバーを直接追加して、カバーするのに必要な時間よりも多くのタスクを汎用リソースに割り当てると、違いがわかります。</span><span class="sxs-lookup"><span data-stu-id="bf4d4-119">You can see a difference if you add the generic team member directly and then assign more tasks to the generic resource than they have required hours to cover.</span></span> <span data-ttu-id="bf4d4-120">**要件の生成** をクリックして要件を再生成し、必要な時間と割り当てのバランスを取ります。</span><span class="sxs-lookup"><span data-stu-id="bf4d4-120">Click **Generate Requirement** to regenerate the requirement to balance the required hours against assignments.</span></span>
 
-<span data-ttu-id="ca78b-121">チーム グリッドの **リソース要件** リンクをクリックして、要件を開き、スキル、優先リソースなどを追加することもできます。</span><span class="sxs-lookup"><span data-stu-id="ca78b-121">You can also click the **Resource requirement** link in the team grid to open the requirement and add skills, preferred resources, etc.</span></span>
+<span data-ttu-id="bf4d4-121">チーム グリッドの **リソース要件** リンクをクリックして、要件を開き、スキル、優先リソースなどを追加することもできます。</span><span class="sxs-lookup"><span data-stu-id="bf4d4-121">You can also click the **Resource requirement** link in the team grid to open the requirement and add skills, preferred resources, etc.</span></span>
 
 ![リソース要件](media/RM-how-to-13.png)
 

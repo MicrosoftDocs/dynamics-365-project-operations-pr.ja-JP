@@ -2,8 +2,6 @@
 title: プロジェクトのリソース ホームページ
 description: このトピックでは、Project Service Automation (PSA) for Dynamics 365 のリソース管理機能について説明します。
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,41 +16,41 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7fb1e2fbe08c3b2885b690915904d172f14fdb54
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b806b111e579609092239518ebae14b1355941e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282879"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008632"
 ---
-# <a name="resourcing-projects-home-page"></a><span data-ttu-id="71bb3-103">プロジェクトのリソース ホームページ</span><span class="sxs-lookup"><span data-stu-id="71bb3-103">Resourcing projects home page</span></span>
+# <a name="resourcing-projects-home-page"></a><span data-ttu-id="46493-103">プロジェクトのリソース ホームページ</span><span class="sxs-lookup"><span data-stu-id="46493-103">Resourcing projects home page</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="71bb3-104">リソースとは、サービス ベース組織の最も重要な資産です。</span><span class="sxs-lookup"><span data-stu-id="71bb3-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="71bb3-105">適切なリソースを必要なな時に検索し、これらのリソースをプロジェクトに予約して、それを利用する機能は、組織が売上目標と顧客満足度目標を達成するのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="71bb3-105">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="71bb3-106">Project Service Automation (PSA) のプロジェクトリソース機能を使用して、以下のことを実行できます:</span><span class="sxs-lookup"><span data-stu-id="71bb3-106">You can use the project resourcing functionality in Project Service Automation (PSA) to do the following:</span></span>
+<span data-ttu-id="46493-104">リソースとは、サービス ベース組織の最も重要な資産です。</span><span class="sxs-lookup"><span data-stu-id="46493-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="46493-105">適切なリソースを必要なな時に検索し、これらのリソースをプロジェクトに予約して、それを利用する機能は、組織が売上目標と顧客満足度目標を達成するのに役立ちます。</span><span class="sxs-lookup"><span data-stu-id="46493-105">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="46493-106">Project Service Automation (PSA) のプロジェクトリソース機能を使用して、以下のことを実行できます:</span><span class="sxs-lookup"><span data-stu-id="46493-106">You can use the project resourcing functionality in Project Service Automation (PSA) to do the following:</span></span>
 
-- <span data-ttu-id="71bb3-107">予約および資格を満たすリソース別にプロジェクト チームを形成します。</span><span class="sxs-lookup"><span data-stu-id="71bb3-107">Form project teams by booking available and qualified resources.</span></span>
-- <span data-ttu-id="71bb3-108">汎用チーム メンバ レコードを作成し、そのチームのロールやリソース組織単位を定義します。</span><span class="sxs-lookup"><span data-stu-id="71bb3-108">Create generic team member records and define their roles and resource organization unit.</span></span>
-- <span data-ttu-id="71bb3-109">汎用チーム メンバーのタスク割り当てから、彼らのリソース要件を生成します。</span><span class="sxs-lookup"><span data-stu-id="71bb3-109">Generate resource requirements for generic team members from their task assignments.</span></span>
-- <span data-ttu-id="71bb3-110">使用可能なリソース スキルに対してリソース要求で定義されたスキルを識別することでスキルを一致させます。</span><span class="sxs-lookup"><span data-stu-id="71bb3-110">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
-- <span data-ttu-id="71bb3-111">リソースを代用する。</span><span class="sxs-lookup"><span data-stu-id="71bb3-111">Substitute resources.</span></span>
-- <span data-ttu-id="71bb3-112">プロジェクト スケジュールの割り当てとリソースの予約を調整する。</span><span class="sxs-lookup"><span data-stu-id="71bb3-112">Align project schedule assignments and resource bookings.</span></span>
-- <span data-ttu-id="71bb3-113">予約と割り当ての差異を調整する。</span><span class="sxs-lookup"><span data-stu-id="71bb3-113">Reconcile differences in bookings and assignments.</span></span>
-- <span data-ttu-id="71bb3-114">不在状態ステータスに応じてリソース予約を変更する。</span><span class="sxs-lookup"><span data-stu-id="71bb3-114">Change resource bookings in response to out-of-office status.</span></span>
-- <span data-ttu-id="71bb3-115">プロジェクト マネージャーとリソース マネージャーで共同作業します。</span><span class="sxs-lookup"><span data-stu-id="71bb3-115">Collaborate between project managers and resource managers.</span></span>
-- <span data-ttu-id="71bb3-116">リソースの時間がどのように利用されたかなどの内訳を含む、目標に対してリソースの稼働率の履歴を表示します。</span><span class="sxs-lookup"><span data-stu-id="71bb3-116">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
-- <span data-ttu-id="71bb3-117">スキルと能力リポジトリを維持します。</span><span class="sxs-lookup"><span data-stu-id="71bb3-117">Maintain a skills and proficiency repository.</span></span>
+- <span data-ttu-id="46493-107">予約および資格を満たすリソース別にプロジェクト チームを形成します。</span><span class="sxs-lookup"><span data-stu-id="46493-107">Form project teams by booking available and qualified resources.</span></span>
+- <span data-ttu-id="46493-108">汎用チーム メンバ レコードを作成し、そのチームのロールやリソース組織単位を定義します。</span><span class="sxs-lookup"><span data-stu-id="46493-108">Create generic team member records and define their roles and resource organization unit.</span></span>
+- <span data-ttu-id="46493-109">汎用チーム メンバーのタスク割り当てから、彼らのリソース要件を生成します。</span><span class="sxs-lookup"><span data-stu-id="46493-109">Generate resource requirements for generic team members from their task assignments.</span></span>
+- <span data-ttu-id="46493-110">使用可能なリソース スキルに対してリソース要求で定義されたスキルを識別することでスキルを一致させます。</span><span class="sxs-lookup"><span data-stu-id="46493-110">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
+- <span data-ttu-id="46493-111">リソースを代用する。</span><span class="sxs-lookup"><span data-stu-id="46493-111">Substitute resources.</span></span>
+- <span data-ttu-id="46493-112">プロジェクト スケジュールの割り当てとリソースの予約を調整する。</span><span class="sxs-lookup"><span data-stu-id="46493-112">Align project schedule assignments and resource bookings.</span></span>
+- <span data-ttu-id="46493-113">予約と割り当ての差異を調整する。</span><span class="sxs-lookup"><span data-stu-id="46493-113">Reconcile differences in bookings and assignments.</span></span>
+- <span data-ttu-id="46493-114">不在状態ステータスに応じてリソース予約を変更する。</span><span class="sxs-lookup"><span data-stu-id="46493-114">Change resource bookings in response to out-of-office status.</span></span>
+- <span data-ttu-id="46493-115">プロジェクト マネージャーとリソース マネージャーで共同作業します。</span><span class="sxs-lookup"><span data-stu-id="46493-115">Collaborate between project managers and resource managers.</span></span>
+- <span data-ttu-id="46493-116">リソースの時間がどのように利用されたかなどの内訳を含む、目標に対してリソースの稼働率の履歴を表示します。</span><span class="sxs-lookup"><span data-stu-id="46493-116">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
+- <span data-ttu-id="46493-117">スキルと能力リポジトリを維持します。</span><span class="sxs-lookup"><span data-stu-id="46493-117">Maintain a skills and proficiency repository.</span></span>
 
 
-<span data-ttu-id="71bb3-118">PSA の汎用または名前の付いたリソースでプロジェクトにスタッフを配置できます。</span><span class="sxs-lookup"><span data-stu-id="71bb3-118">You can staff your project with a team of generic or named resources in PSA.</span></span> <span data-ttu-id="71bb3-119">チーム メンバーの追加や割り当て、メンバーの予約や割り当ての管理をおこなうためにさまざまなメソッドを使用できます。</span><span class="sxs-lookup"><span data-stu-id="71bb3-119">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> <span data-ttu-id="71bb3-120">追加の情報については、次のトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="71bb3-120">For additional information, see the following topics:</span></span>
+<span data-ttu-id="46493-118">PSA の汎用または名前の付いたリソースでプロジェクトにスタッフを配置できます。</span><span class="sxs-lookup"><span data-stu-id="46493-118">You can staff your project with a team of generic or named resources in PSA.</span></span> <span data-ttu-id="46493-119">チーム メンバーの追加や割り当て、メンバーの予約や割り当ての管理をおこなうためにさまざまなメソッドを使用できます。</span><span class="sxs-lookup"><span data-stu-id="46493-119">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> <span data-ttu-id="46493-120">追加の情報については、次のトピックを参照してください。</span><span class="sxs-lookup"><span data-stu-id="46493-120">For additional information, see the following topics:</span></span>
 
-- [<span data-ttu-id="71bb3-121">名前付き予約可能リソースをプロジェクト チームに予約して、タスクを割り当てる</span><span class="sxs-lookup"><span data-stu-id="71bb3-121">Book named bookable resources to a project team and assigning them tasks</span></span>](assign-named-bookable-resource.md)
-- [<span data-ttu-id="71bb3-122">予約可能な汎用リソースをタスクに割り当て、リソース要件を生成する</span><span class="sxs-lookup"><span data-stu-id="71bb3-122">Assign generic bookable resources to a task and generate resource requirements</span></span>](assign-generic-bookable-resource.md)
-- [<span data-ttu-id="71bb3-123">リソース要件から名前付きリソースを予約する</span><span class="sxs-lookup"><span data-stu-id="71bb3-123">Book named resources from resource requirements</span></span>](book-named-resource.md)
-- [<span data-ttu-id="71bb3-124">リソース要求の送信</span><span class="sxs-lookup"><span data-stu-id="71bb3-124">Submit a resource request</span></span>](submit-resource-request.md)
-- [<span data-ttu-id="71bb3-125">リソース要求から提案されたプロジェクト リソースの承諾または拒否</span><span class="sxs-lookup"><span data-stu-id="71bb3-125">Accept or reject a proposed project resource from a resource request</span></span>](accept-reject-proposed-resource.md)
+- [<span data-ttu-id="46493-121">名前付き予約可能リソースをプロジェクト チームに予約して、タスクを割り当てる</span><span class="sxs-lookup"><span data-stu-id="46493-121">Book named bookable resources to a project team and assigning them tasks</span></span>](assign-named-bookable-resource.md)
+- [<span data-ttu-id="46493-122">予約可能な汎用リソースをタスクに割り当て、リソース要件を生成する</span><span class="sxs-lookup"><span data-stu-id="46493-122">Assign generic bookable resources to a task and generate resource requirements</span></span>](assign-generic-bookable-resource.md)
+- [<span data-ttu-id="46493-123">リソース要件から名前付きリソースを予約する</span><span class="sxs-lookup"><span data-stu-id="46493-123">Book named resources from resource requirements</span></span>](book-named-resource.md)
+- [<span data-ttu-id="46493-124">リソース要求の送信</span><span class="sxs-lookup"><span data-stu-id="46493-124">Submit a resource request</span></span>](submit-resource-request.md)
+- [<span data-ttu-id="46493-125">リソース要求から提案されたプロジェクト リソースの承諾または拒否</span><span class="sxs-lookup"><span data-stu-id="46493-125">Accept or reject a proposed project resource from a resource request</span></span>](accept-reject-proposed-resource.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

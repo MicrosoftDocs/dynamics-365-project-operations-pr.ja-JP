@@ -2,8 +2,6 @@
 title: 名前付き予約可能リソースをプロジェクト チームに予約して、タスクを割り当てる
 description: このトピックでは、プロジェクト チームに名前付きリソースを予約し、タスクに割り当てる方法を説明します。
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,56 +16,56 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6169f2bdc107e63d666fb32d34f531fd5d472c2f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e0f3957936e699fb2a9f570b9789924c55e12cc2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291445"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009352"
 ---
-# <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a><span data-ttu-id="b24f2-103">名前付き予約可能リソースをプロジェクト チームに予約して、タスクを割り当てる</span><span class="sxs-lookup"><span data-stu-id="b24f2-103">Book named bookable resources to a project team and assign tasks</span></span> 
+# <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a><span data-ttu-id="a3e32-103">名前付き予約可能リソースをプロジェクト チームに予約して、タスクを割り当てる</span><span class="sxs-lookup"><span data-stu-id="a3e32-103">Book named bookable resources to a project team and assign tasks</span></span> 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="b24f2-104">チームに直接予約することで、プロジェクト チームに名前付きリソースを追加できます。</span><span class="sxs-lookup"><span data-stu-id="b24f2-104">You can  add a named resource to your project team by booking them directly onto the team.</span></span> <span data-ttu-id="b24f2-105">それには、次の手順を完了します。</span><span class="sxs-lookup"><span data-stu-id="b24f2-105">To do this, complete the following steps.</span></span>
+<span data-ttu-id="a3e32-104">チームに直接予約することで、プロジェクト チームに名前付きリソースを追加できます。</span><span class="sxs-lookup"><span data-stu-id="a3e32-104">You can  add a named resource to your project team by booking them directly onto the team.</span></span> <span data-ttu-id="a3e32-105">それには、次の手順を完了します。</span><span class="sxs-lookup"><span data-stu-id="a3e32-105">To do this, complete the following steps.</span></span>
 
-1. <span data-ttu-id="b24f2-106">Project Service Automation で **プロジェクト** に移動して、予約するプロジェクトを開きます。</span><span class="sxs-lookup"><span data-stu-id="b24f2-106">In  Project Service Automation, go to **Projects**, and select the open the project that you are booking for.</span></span>
-2. <span data-ttu-id="b24f2-107">**プロジェクト** ページの **チーム** タブで **新規** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b24f2-107">On the **Project** page, on the **Team** tab, click **New**.</span></span> 
+1. <span data-ttu-id="a3e32-106">Project Service Automation で **プロジェクト** に移動して、予約するプロジェクトを開きます。</span><span class="sxs-lookup"><span data-stu-id="a3e32-106">In  Project Service Automation, go to **Projects**, and select the open the project that you are booking for.</span></span>
+2. <span data-ttu-id="a3e32-107">**プロジェクト** ページの **チーム** タブで **新規** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a3e32-107">On the **Project** page, on the **Team** tab, click **New**.</span></span> 
 
 ![チームタブからチーム メンバーを追加する](media/RM-how-to-1.png)
 
-3. <span data-ttu-id="b24f2-109">**プロジェクト チーム メンバーの簡易作成** ダイアログ ボックスで、予約可能リソースを選択します。</span><span class="sxs-lookup"><span data-stu-id="b24f2-109">In the **Quick Create Project Team Member** dialog box, select the bookable resource.</span></span> <span data-ttu-id="b24f2-110">リソースのデフォルトの役割が割り当てられている場合、**役割** フィールドにその役割が入力されます。</span><span class="sxs-lookup"><span data-stu-id="b24f2-110">The **Role** field will populate with the resource's default role if they have one assigned.</span></span> <span data-ttu-id="b24f2-111">必要に応じて役割を変更できます。</span><span class="sxs-lookup"><span data-stu-id="b24f2-111">You can change the role if needed.</span></span> 
-4. <span data-ttu-id="b24f2-112">リソースが必要な開始日と終了日を選択し、リソースの容量の割り当て方法を選択します。</span><span class="sxs-lookup"><span data-stu-id="b24f2-112">Select the from and to dates that the resource will be needed and select the allocation method of the resource's capacity.</span></span> 
-5. <span data-ttu-id="b24f2-113">チーム メンバーをプロジェクト承認者にしたい場合は **プロジェクト承認者** フィールドで **はい** を選択します。</span><span class="sxs-lookup"><span data-stu-id="b24f2-113">If you want the team member to be a project approver, select **Yes** in the **Project Approver** field.</span></span> <span data-ttu-id="b24f2-114">これで、そのチーム メンバーがこのプロジェクトに提出された時間と費用のエントリを承認できるようになります。</span><span class="sxs-lookup"><span data-stu-id="b24f2-114">This will mean that the team member can approve submitted time and expense entries for this project.</span></span> 
-6. <span data-ttu-id="b24f2-115">**保存** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="b24f2-115">Click **Save**.</span></span>
+3. <span data-ttu-id="a3e32-109">**プロジェクト チーム メンバーの簡易作成** ダイアログ ボックスで、予約可能リソースを選択します。</span><span class="sxs-lookup"><span data-stu-id="a3e32-109">In the **Quick Create Project Team Member** dialog box, select the bookable resource.</span></span> <span data-ttu-id="a3e32-110">リソースのデフォルトの役割が割り当てられている場合、**役割** フィールドにその役割が入力されます。</span><span class="sxs-lookup"><span data-stu-id="a3e32-110">The **Role** field will populate with the resource's default role if they have one assigned.</span></span> <span data-ttu-id="a3e32-111">必要に応じて役割を変更できます。</span><span class="sxs-lookup"><span data-stu-id="a3e32-111">You can change the role if needed.</span></span> 
+4. <span data-ttu-id="a3e32-112">リソースが必要な開始日と終了日を選択し、リソースの容量の割り当て方法を選択します。</span><span class="sxs-lookup"><span data-stu-id="a3e32-112">Select the from and to dates that the resource will be needed and select the allocation method of the resource's capacity.</span></span> 
+5. <span data-ttu-id="a3e32-113">チーム メンバーをプロジェクト承認者にしたい場合は **プロジェクト承認者** フィールドで **はい** を選択します。</span><span class="sxs-lookup"><span data-stu-id="a3e32-113">If you want the team member to be a project approver, select **Yes** in the **Project Approver** field.</span></span> <span data-ttu-id="a3e32-114">これで、そのチーム メンバーがこのプロジェクトに提出された時間と費用のエントリを承認できるようになります。</span><span class="sxs-lookup"><span data-stu-id="a3e32-114">This will mean that the team member can approve submitted time and expense entries for this project.</span></span> 
+6. <span data-ttu-id="a3e32-115">**保存** をクリックします。</span><span class="sxs-lookup"><span data-stu-id="a3e32-115">Click **Save**.</span></span>
 
 ![クイック作成フォームにチーム メンバーを追加する](media/RM-how-to-2.png)
 
 
-<span data-ttu-id="b24f2-117">これで、予約したリソースをプロジェクトのタスクに割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="b24f2-117">You can now assign the booked resource to tasks on the project.</span></span> <span data-ttu-id="b24f2-118">**プロジェクト** ページで **スケジュール** タブをクリックして、タスクを新しいリソースに割り当てます。</span><span class="sxs-lookup"><span data-stu-id="b24f2-118">On the **Project** page, click the **Schedule** tab to assign tasks to the new resource.</span></span> <span data-ttu-id="b24f2-119">タスク グリッドの **リソース** フィールドから起動するリソース ピッカーに、選択可能なチーム メンバーが表示されます。</span><span class="sxs-lookup"><span data-stu-id="b24f2-119">The resource picker that is launched from the **Resources** field in the task grid will show the team members that you can select.</span></span>
+<span data-ttu-id="a3e32-117">これで、予約したリソースをプロジェクトのタスクに割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="a3e32-117">You can now assign the booked resource to tasks on the project.</span></span> <span data-ttu-id="a3e32-118">**プロジェクト** ページで **スケジュール** タブをクリックして、タスクを新しいリソースに割り当てます。</span><span class="sxs-lookup"><span data-stu-id="a3e32-118">On the **Project** page, click the **Schedule** tab to assign tasks to the new resource.</span></span> <span data-ttu-id="a3e32-119">タスク グリッドの **リソース** フィールドから起動するリソース ピッカーに、選択可能なチーム メンバーが表示されます。</span><span class="sxs-lookup"><span data-stu-id="a3e32-119">The resource picker that is launched from the **Resources** field in the task grid will show the team members that you can select.</span></span>
 
 ![スケジュール タブでタスクにチーム メンバーを割り当てる](media/RM-how-to-3.png)
 
-<span data-ttu-id="b24f2-121">Project Service Automation (PSA) のバージョン 3 では、リソースの予約とタスクの割り当ては緊密に結び付いていません。</span><span class="sxs-lookup"><span data-stu-id="b24f2-121">In version 3 for Project Service Automation (PSA), resource bookings and task assignments are not tightly coupled.</span></span> <span data-ttu-id="b24f2-122">つまり、スケジュールでリソース ピッカーを使用すると、プロジェクトで予約がカバーする時間よりも長い時間タスクをチーム メンバーに割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="b24f2-122">This means that when you use the resource picker in the schedule, you can assign tasks to team members for more hours than their bookings cover on the project.</span></span>
-<span data-ttu-id="b24f2-123">チーム メンバーの予約と割り当ての違いは **チーム** タブや **リソースの調整** タブで確認できます。また、リソースの予約と割り当ての違いをより詳細なレベルで調整することもできます。</span><span class="sxs-lookup"><span data-stu-id="b24f2-123">You can see the differences between team member bookings and assignments on the **Team** tab or on the **Resource Reconciliation** tab. You can also reconcile the differences between bookings and assignments for resources at a more detailed level.</span></span>
+<span data-ttu-id="a3e32-121">Project Service Automation (PSA) のバージョン 3 では、リソースの予約とタスクの割り当ては緊密に結び付いていません。</span><span class="sxs-lookup"><span data-stu-id="a3e32-121">In version 3 for Project Service Automation (PSA), resource bookings and task assignments are not tightly coupled.</span></span> <span data-ttu-id="a3e32-122">つまり、スケジュールでリソース ピッカーを使用すると、プロジェクトで予約がカバーする時間よりも長い時間タスクをチーム メンバーに割り当てることができます。</span><span class="sxs-lookup"><span data-stu-id="a3e32-122">This means that when you use the resource picker in the schedule, you can assign tasks to team members for more hours than their bookings cover on the project.</span></span>
+<span data-ttu-id="a3e32-123">チーム メンバーの予約と割り当ての違いは **チーム** タブや **リソースの調整** タブで確認できます。また、リソースの予約と割り当ての違いをより詳細なレベルで調整することもできます。</span><span class="sxs-lookup"><span data-stu-id="a3e32-123">You can see the differences between team member bookings and assignments on the **Team** tab or on the **Resource Reconciliation** tab. You can also reconcile the differences between bookings and assignments for resources at a more detailed level.</span></span>
 
 ![リソースの調整タブ](media/RM-how-to-4.png)
 
-<span data-ttu-id="b24f2-125">**スケジュール** タブのリソース ピッカーを使用して、プロジェクト チームにまだ含まれていない予約可能リソースを検索して選択することもできます。</span><span class="sxs-lookup"><span data-stu-id="b24f2-125">You can also use the resource picker on the **Schedule** tab to search for and select bookable resources that are not already part of the project team.</span></span> <span data-ttu-id="b24f2-126">これらは **そのほかのリソース** としてリソース ピッカーに表示されます。</span><span class="sxs-lookup"><span data-stu-id="b24f2-126">These are shown in the resource picker as **Other Resources**.</span></span>
+<span data-ttu-id="a3e32-125">**スケジュール** タブのリソース ピッカーを使用して、プロジェクト チームにまだ含まれていない予約可能リソースを検索して選択することもできます。</span><span class="sxs-lookup"><span data-stu-id="a3e32-125">You can also use the resource picker on the **Schedule** tab to search for and select bookable resources that are not already part of the project team.</span></span> <span data-ttu-id="a3e32-126">これらは **そのほかのリソース** としてリソース ピッカーに表示されます。</span><span class="sxs-lookup"><span data-stu-id="a3e32-126">These are shown in the resource picker as **Other Resources**.</span></span>
 
 ![チーム メンバー以外のリソースをタスクに割り当てる](media/RM-how-to-5.png)
 
-<span data-ttu-id="b24f2-128">これを行った場合、リソースをプロジェクト チームに追加してタスクに割り当てますが、予約は生成しません。</span><span class="sxs-lookup"><span data-stu-id="b24f2-128">When you do this, the resource is added to the project team and assigned to the task, but no bookings are generated.</span></span>
+<span data-ttu-id="a3e32-128">これを行った場合、リソースをプロジェクト チームに追加してタスクに割り当てますが、予約は生成しません。</span><span class="sxs-lookup"><span data-stu-id="a3e32-128">When you do this, the resource is added to the project team and assigned to the task, but no bookings are generated.</span></span>
 
 ![割り当てがあり、予約がないチーム メンバー](media/RM-how-to-6.png)
 
-<span data-ttu-id="b24f2-130">**調整** タブの拡張予約機能や **スケジュール ボード** を使用して、リソースの容量をプロジェクトに予約できます。</span><span class="sxs-lookup"><span data-stu-id="b24f2-130">You can use the **Reconciliation** tab’s extend booking capability or the **Schedule Board** to book the resource’s capacity to the project.</span></span>
+<span data-ttu-id="a3e32-130">**調整** タブの拡張予約機能や **スケジュール ボード** を使用して、リソースの容量をプロジェクトに予約できます。</span><span class="sxs-lookup"><span data-stu-id="a3e32-130">You can use the **Reconciliation** tab’s extend booking capability or the **Schedule Board** to book the resource’s capacity to the project.</span></span>
 
 ![リソース調整 タブでのチーム メンバーの予約の延長](media/RM-how-to-7.png)
 
-<span data-ttu-id="b24f2-132">チーム メンバーをプロジェクトに予約した後で、予約の管理を使用するかスケジュール ボードを直接使用して予約を管理できます。</span><span class="sxs-lookup"><span data-stu-id="b24f2-132">After a team member is booked on your project, you can use maintain bookings or use the Schedule Board directly to manage their bookings.</span></span>
+<span data-ttu-id="a3e32-132">チーム メンバーをプロジェクトに予約した後で、予約の管理を使用するかスケジュール ボードを直接使用して予約を管理できます。</span><span class="sxs-lookup"><span data-stu-id="a3e32-132">After a team member is booked on your project, you can use maintain bookings or use the Schedule Board directly to manage their bookings.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
