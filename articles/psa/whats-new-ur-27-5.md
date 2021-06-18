@@ -2,8 +2,6 @@
 title: Project Service Automation 更新プログラム リリース 27.5 ホットフィックス、V3 の新機能と変更点
 description: このトピックには、Project Service Automation 更新プログラム 27.5 ホットフィックス、V3 で利用可能な機能と修正をリスト化しています。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2021
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a12effe3af1c1c5596710af658a2811ba9496438
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: e8560fe00692767ea6e56594f402c967ef2ec107
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948785"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010657"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-275-v3"></a>Project Service Automation 更新プログラム リリース 27.5、V3 の新機能と変更点
 

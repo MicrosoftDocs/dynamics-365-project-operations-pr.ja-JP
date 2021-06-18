@@ -2,19 +2,17 @@
 title: 2020 年 12 月の新機能 - 在庫/製造ベースのシナリオ向け Project Operations
 description: このトピックでは、在庫/製造ベースのシナリオ向け Project Operations の 2020 年 12 月リリースで利用可能な品質更新について説明します。
 author: Yowelle
-manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 4a208ed98a5549030bd663e18b1b490d1a42ee33
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 6194dfc9f8983b048f69605ee12036904c3c5e69
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950225"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007237"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>在庫/製造ベースのシナリオ向け Project Operations、2020 年 12 月の最新情報または変更事項
 

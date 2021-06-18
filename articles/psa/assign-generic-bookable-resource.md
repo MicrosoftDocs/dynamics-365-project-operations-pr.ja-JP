@@ -2,8 +2,6 @@
 title: 一般的な予約可能なリソースをタスクとプロジェクト チームに割り当てる
 description: このトピックでは、タスクとプロジェクト チームへの汎用リソースの予約に関する情報を提供します。
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b4c47513b96310745fd2cdb296988a57df0e966
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a1e22337d3fd3e7ff4147a9547fd3c272f4185d3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291400"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009397"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>予約可能な汎用リソースをタスクに割り当て、リソース要件を生成する 
 

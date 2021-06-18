@@ -2,18 +2,16 @@
 title: 営業案件からプロジェクトの見積もりを作成する
 description: このトピックは、営業案件からプロジェクトの見積もりを作成するための情報を提供します。
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f0327a2823490081b3718caf6530461dadf20bf4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d678fce7a6b52522500a77daecc46353ff17fbf2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278199"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009802"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>営業案件からプロジェクトの見積もりを作成する
 

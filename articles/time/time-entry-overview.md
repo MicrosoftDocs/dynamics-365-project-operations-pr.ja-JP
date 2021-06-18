@@ -2,18 +2,16 @@
 title: 時間の概要
 description: このトピックは、Dynamics 365 Project Operations の時間機能に関する情報を提供します。
 author: stsporen
-manager: AnnBe
 ms.date: 10/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e27311f7dda1c3c713dc3ad6c0e63f395264808d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3d6bee3bbcf96002c1951733bbacc94c6fc9d888
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277119"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011107"
 ---
 # <a name="time-overview"></a>時間の概要
 
@@ -21,7 +19,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 時間エントリは、リソースが消費する実際の時間を記録するプロセスです。 Dynamics 365 Project Operations の時間エントリを使用すると、タスクの進捗に合わせて原価と販売価格を計算できます。 これらのエントリは、プロジェクト管理者がプロジェクトおよびタスクの最新情報を把握するのに役立ちます。 時間エントリは、スケジュール ボードに **不在** として表示される休暇または欠勤の可能性についてもリソース管理者に通知します。これらの通知により、リソース管理者はそれらのイベントについて計画できます。
 
-Project Operations で時間を記録する場合、ユーザーはプロジェクトの任意のレベルと対比させて追跡できます。 これには、タスク、概要、またはプロジェクト レベルが含まれます。
+Project Operations で時間を記録する場合、ユーザーはプロジェクトの任意のレベルと対比させて追跡できます。 これには、タスク、集計、またはプロジェクト レベルが含まれます。
 
 プロジェクト チーム メンバーは承認のために時間エントリを作成して送信し、プロジェクト承認者がエントリを承認します。 プロジェクト チーム メンバーは、修整のために時間エントリを取り消すことがあります。
 

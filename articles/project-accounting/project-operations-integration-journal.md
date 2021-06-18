@@ -2,24 +2,22 @@
 title: Project Operations の統合仕訳帳
 description: このトピックでは、Project Operations での統合仕訳帳の使用方法について説明します。
 author: sigitac
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 3ebdb543560027d223715d0e5c70c864b706cb2c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948336"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007147"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations の統合仕訳帳
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-時間と費用のエントリは、プロジェクトに対して完了した作業の運用ビューを表す **実際** のトランザクションを作成します。 Dynamics 365 Project Operations は、取引を確認し、必要に応じて会計上の属性を調整するツールを経理担当者に提供します。 レビューと調整が完了すると、トランザクションはプロジェクト補助元帳と総勘定元帳に転記されます。 会計士は、**Project Operations の統合** 仕訳帳 (**Dynamics 365 Finance** > **プロジェクト管理および会計** > **仕訳帳** > **Project Operations の統合** 仕訳帳) を使用して、これらの活動を実行できます。
+時間と費用のエントリは、プロジェクトに対して完了した作業の運用ビューを表す **実際** のトランザクションを作成します。 Dynamics 365 Project Operations は、取引を確認し、必要に応じて会計上の属性を調整するツールを経理担当者に提供します。 確認と調整が完了すると、取引はプロジェクトの補助元帳および総勘定元帳に転記されます。 会計士は、**Project Operations の統合** 仕訳帳 (**Dynamics 365 Finance** > **プロジェクト管理および会計** > **仕訳帳** > **Project Operations の統合** 仕訳帳) を使用して、これらの活動を実行できます。
 
 ![統合仕訳帳フロー](./media/IntegrationJournal.png)
 

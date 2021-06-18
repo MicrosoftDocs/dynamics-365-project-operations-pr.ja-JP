@@ -2,25 +2,23 @@
 title: プロジェクト ベースの契約品目で作業する
 description: このトピックでは、プロジェクトベースの契約品目の見積もりについて解説します。
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b856e280ac56c1cedd7d4966aca7e7f234bc520
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2072692296308a08756ec3e0f381c792745dd3e2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278109"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011512"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>プロジェクト ベースの契約品目で作業する
 
-Dynamics 365 Project Operations のプロジェクトベースの契約品目は、エンゲージメントに関するプロジェクト作業の特定のコンポーネントの見積もりおよび請求契約を保持するように設計されています。 プロジェクトベースの契約品目の構造は、次の概念を使用してプロジェクトの見積もりと請求シナリオに拡張されます :
+Dynamics 365 Project Operations のプロジェクトベースの契約品目は、エンゲージメントに関するプロジェクト作業の特定のコンポーネントの見積もりおよび請求契約を保持するように設計されています。 プロジェクトベースの契約品目の構造は、次の概念によりプロジェクト見積および請求シナリオに対して拡張されます。
 
 - 請求方法
-- プロジェクトとタスクのマッピング
+- プロジェクトとタスクのスケジュール
 - 含まれるトランザクションのクラス
 - 上限
 - 請求可否の設定

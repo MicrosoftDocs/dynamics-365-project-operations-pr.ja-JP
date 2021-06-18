@@ -2,8 +2,6 @@
 title: 出荷単位一覧および出荷単位
 description: このトピックでは、単位グループと単位に関する情報を提供します。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 45e4a95b429cd9d1f174653bd28cf567f690676d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291625"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009577"
 ---
 # <a name="unit-groups-and-units"></a>出荷単位一覧および出荷単位
 
@@ -86,9 +84,9 @@ Dynamics 365 Project Service Automation は単位と単位グループを使用�
     - **既定の時間単位**: 日 
     - **通貨**: GBP
 
-| ロール      | 単位グループ | 出荷単位 | 組織単位 | 価格   |
+| ロール      | 単位グループ | 単位 | 組織単位 | 価格   |
 |-----------|------------|------|---------------------|---------|
-| 開発者 | Time       | Day  | Contoso UK          | 800 GBP |
+| 開発者 | 時間       | 曜日  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>時間エントリ
 

@@ -2,8 +2,6 @@
 title: Project Service Automation 更新プログラム リリース 18、V3 の新機能と変更点
 description: このトピックには、Project Service Automation 更新プログラム リリース 18、V3 で利用可能な機能と修正をリスト化しています。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bd6038b3594e8507c4a441b00ddc2eb240f796dc
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: f7def50e77a83fd790b81b1b4fd36008ce293b0c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949190"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006652"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Project Service Automation 更新プログラム リリース 18、V3
 

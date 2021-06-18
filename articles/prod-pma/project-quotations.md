@@ -2,11 +2,9 @@
 title: プロジェクト見積
 description: この記事では、プロジェクト フェーズの最初のステップとして、顧客に魅力的なオファーを提供するために使用できるプロジェクト見積の概念を紹介します。 プロジェクト見積には、見積もられたアイテムやサービス、基本的な連絡先情報、特別な売買契約や割引き、税金や割増金が含まれる場合があります。
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationProjTable
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8f86c86aac8ebae9a77bacbb5275f1f7e6609f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 322c2403543b9eaebbd4bad56cfbe6f7c42b682a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289150"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009757"
 ---
 # <a name="project-quotations"></a>プロジェクト見積
 
@@ -35,7 +33,7 @@ ms.locfileid: "5289150"
 
 プロジェクト見積には、プロジェクトのサービス、基本的な連絡先情報、特別な売買契約や割引き、税金や割増金の見積額を入力します。 プロジェクトの活動またはタスクを選択して、タスクとサブタスクの階層を作成することもできます。 活動ごとに、活動のタイミングと期間に関する詳細、および活動を実行する作業者に必要なスキルと経験に関する詳細を入力できます。 
 
-プロジェクトの見積は、実行する必要がある作業の非バインド見積です。 ただし、見積の情報がプロジェクト契約に関連付けられているプロジェクトにコピーされた場合、その情報は両当事者間のバインド アグリーメントの一部になります。 
+プロジェクトの見積は、実行する必要がある作業の非バインド見積です。 ただし、プロジェクト契約に関連付けられているプロジェクトに見積書の情報がコピーされる場合、その情報は関係者間の拘束力のある契約の一部になります。 
 
 顧客がプロジェクト見積を承認した場合、プロジェクト見積の情報をプロジェクトにコピーできます。 プロジェクト見積の情報をプロジェクト予測に同時にコピーすることもできます。
 

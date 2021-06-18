@@ -2,10 +2,8 @@
 title: 承認された時間と経費の入力によって作成された実績の一括修正
 description: このトピックでは、請求が完了していない場合に、以前承認された時間または経費の入力を、管理者が単一または一括で修正する方法について説明します。
 author: rumant
-manager: AnnBe
 ms.date: 04/02/2020
 ms.topic: article
-ms.service: dynamics-ax-applications
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -18,12 +16,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 17d6648840e27a4e573985af2cdd74c4adf878e1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c6d849e4be9e3687396cd6a0c4158d92f25c7879
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290905"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012052"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>承認された時間と経費の入力によって作成された実績の一括修正
 

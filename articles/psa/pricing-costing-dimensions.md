@@ -2,12 +2,10 @@
 title: 価格とコストのディメンションのホーム ページ
 description: このトピックでは、価格ディメンションの概要を説明します。
 author: rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 137fee27dd2302d47ae12faccde1682cff43db93
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9a2e2f7ed394229bbc553af9e616a6f322857195
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284139"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009262"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>価格とコストのディメンションのホーム ページ
 
@@ -65,18 +63,18 @@ PSAには、価格ディメンションの既定セットが付属していま�
 
 **サンプル請求レート**
 
-| ロール        | 組織単位    |出荷単位      |価格      |[通貨]  |
+| ロール        | 組織単位    |単位      |価格      |通貨  |
 | ------------|-------------|----------|----------:|----------|
-| 開発者   | Contoso US  |Hour | 200|USD     |
-| 開発者   | Contoso India社 |Hour|   112|USD     |
+| 開発者   | Contoso US  |時 | 200|USD     |
+| 開発者   | Contoso India |時|   112|USD     |
 
 
 **サンプル コスト レート**
 
-| 給与範囲     | 組織単位    |出荷単位      |価格      |[通貨]  |
+| 給与範囲     | 組織単位    |単位      |価格      |通貨  |
 | ----------------|-------------|----------|----------:|----------|
-| 自分の会社_Band1 | Contoso US  |Hour | 145|USD     |
-| 自分の会社_Band2 | Contoso India社 |Hour|   67|USD     |
+| 自分の会社_Band1 | Contoso US  |時 | 145|USD     |
+| 自分の会社_Band2 | Contoso India |時|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

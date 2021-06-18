@@ -2,18 +2,16 @@
 title: リソース割り当ての作成
 description: このトピックでは、汎用および名前付きリソース割り当ての作成について説明します。
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a6f4f12a962cb570e8b83d8ee7a01fc0cc2c6155
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 610d9f7abbe7bc2eea8cc9a238dd7cfa1c626787
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287109"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006967"
 ---
 # <a name="create-resource-assignments"></a>リソース割り当ての作成
 

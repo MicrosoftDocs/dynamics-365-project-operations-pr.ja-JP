@@ -2,11 +2,9 @@
 title: 新しいプロジェクトの作成
 description: このトピックでは、新規プロジェクトの作成方法に関する情報を提供します。
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b29340dc88aea888ea2f5ea975eaea59d014279
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270729"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006247"
 ---
 # <a name="create-a-new-project"></a>新しいプロジェクトの作成
 
@@ -55,7 +53,7 @@ ms.locfileid: "5270729"
 
 [![ロールの例](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
-**シナリオ:** Contoso は、承認されたプロジェクト チャートを含む時間と材料のプロジェクトを完了するために雇われました。 ジュニア プロジェクト マネージャーはまだプロジェクトの範囲を完了しています。 リソース マネージャーは現在、新しいプロジェクトで作業するために予約される特定のリソースを識別しています。 プロジェクトの重要な性質のため、プロジェクト スポンサーは、ロールの 1 つとしてシニア プロジェクト マネージャーを要求しました。 リソース マネージャーは、プロジェクトの計画中にジュニア プロジェクト マネージャーがリソース情報を必要とする場合に備えて、新しいリソースを取得し、システムでのロールを定義する必要があります。
+**シナリオ:** Contoso が、承認されたプロジェクト憲章がある時間および材料プロジェクトを完了するために採用されました。 ジュニア プロジェクト マネージャーはまだプロジェクトの範囲を完了しています。 リソース マネージャーは現在、新しいプロジェクトで作業するために予約される特定のリソースを識別しています。 プロジェクトの重要な性質のため、プロジェクト スポンサーは、ロールの 1 つとしてシニア プロジェクト マネージャーを要求しました。 リソース マネージャーは、プロジェクトの計画中にジュニア プロジェクト マネージャーがリソース情報を必要とする場合に備えて、新しいリソースを取得し、システムでのロールを定義する必要があります。
 
 次の手順は、リソース マネージャーがシニア プロジェクト マネージャーのロールを設定し、リソースの特性を関連付ける方法を示しています。 後で、ロールを使用して、必要なリソース コンピテンシーに一致する使用可能なリソースを検索できます。
 

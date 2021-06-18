@@ -2,8 +2,6 @@
 title: リソース管理に関するよくある質問
 description: このトピックでは、リソース管理についてのよくある質問への回答を提供します。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20562b98ccc8451ab57dd42fb8c2f9f303811dbe
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 25e069beaffc9081a5516449d55b5c9304c23b0f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283149"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008767"
 ---
 # <a name="resource-management-faq"></a>リソース管理に関するよくある質問
 

@@ -2,18 +2,16 @@
 title: プロジェクトの見積もりベース請求の確認
 description: このトピックは、見積もりプロジェクトベース請求書の確認に関する情報を提供します。
 author: rumant
-manager: AnnBe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 53c647dca506822312053fb5c9b086a2947974c2
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 1e4591d97e9d895dade42b2bcce57f22208cba96
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867137"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012142"
 ---
 # <a name="confirm-a-proforma-project-based-invoice"></a>プロジェクトの見積もりベース請求の確認
 

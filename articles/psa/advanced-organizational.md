@@ -2,8 +2,6 @@
 title: 組織単位
 description: このトピックでは Dynamics 365 Project Service Automation の組織単位に関する情報を提供します。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/04/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89ff652e186601ccdf75d99dc08a4f082e576cb0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291670"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009622"
 ---
 # <a name="organizational-units"></a>組織単位 
 
@@ -98,7 +96,7 @@ Dynamics 365 と PSA を使用して、このシナリオを設計する最適�
 
 Contoso, Ltd. 社には Contoso US と Contoso India の 2 つの開発センターがあります。 これらの 2 つの開発センターでは、リソースのコストが大きく異なります。
 
-Contoso 社は、ラテン アメリカ、北米、アジア太平洋、西ヨーロッパ、中東など、多くの国際市場で IT サービスを販売しています。 同じプロジェクトの役割の請求レートは、これらの市場ごとに大きく異なる可能性があります。
+Contoso は、ラテン アメリカ、北米、アジア太平洋、西ヨーロッパ、中東など、多くの国際市場で IT サービスを販売しています。 同じプロジェクトの役割の請求レートは、これらの市場ごとに大きく異なる可能性があります。
 
 Contoso US と Contoso India を組織単位として設定し、それぞれの組織単位に独自の原価価格表を設定する必要があります。 アジア太平洋、ラテン アメリカ、北米、西ヨーロッパ、中東を販売地域として設定し、それぞれの販売地域に独自の販売価格表を設定する必要があります。
 
@@ -124,7 +122,7 @@ PSA では販売価格表を顧客と販売地域に関連付けることがで�
 コスト センター、部門、請求オフィスなどの複雑な階層がある場合、その階層のリーフ ノードを個別の組織単位として設定します。
 典型的な階層を次の例で示します。
 
-**Contoso India**
+**Contosoインド**
 
   - SAP の実践 
 

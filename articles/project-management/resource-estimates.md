@@ -2,18 +2,16 @@
 title: プロジェクトのリソース時間の財務見積もり
 description: このトピックは、時間の財務見積もりがどのように計算されるかについての情報を提供します。
 author: rumant
-manager: Annbe
 ms.date: 03/19/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 91156c5cf79af8c66c12b84a6d2b17aa7fe09ed1
-ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
+ms.openlocfilehash: e79e33da618c4ab32b1ba13f33e50f60a550ff0b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "5701832"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010792"
 ---
 # <a name="financial-estimates-for-resource-time-on-projects"></a>プロジェクトのリソース時間の財務見積もり
 
