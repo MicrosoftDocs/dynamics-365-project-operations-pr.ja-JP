@@ -2,8 +2,6 @@
 title: プロジェクトの進捗状況とコストの追跡
 description: Project Service 内のプロジェクトの進捗状況とコストの追跡方法
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,28 +16,28 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4040df9b6cad29b4034660c7be57b6d81044eb31
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ef2db198716f5c8a18aae2b37624b0aece766d83
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281979"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012997"
 ---
-# <a name="track-project-progress-and-cost-project-service"></a><span data-ttu-id="05571-103">プロジェクトの進捗状況とコストの追跡 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="05571-103">Track project progress and cost (Project Service)</span></span>
+# <a name="track-project-progress-and-cost-project-service"></a><span data-ttu-id="a6bcc-103">プロジェクトの進捗状況とコストの追跡 (Project Service)</span><span class="sxs-lookup"><span data-stu-id="a6bcc-103">Track project progress and cost (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="05571-104">仕事分解構造に対する進捗状況追跡の必要性は、業界の垂直構造間で異なります。</span><span class="sxs-lookup"><span data-stu-id="05571-104">The need for tracking progress against a work breakdown structure varies across industry verticals.</span></span> <span data-ttu-id="05571-105">業種によっては、作業分解構造をきわめて詳細なレベルで勤勉に実施しているところがある一方で、作業分解構造をより高いレベルで追跡しているところもあります。</span><span class="sxs-lookup"><span data-stu-id="05571-105">Some industries do it more diligently at a very granular level of the work breakdown structure, while others might track at a higher level of the work breakdown structure.</span></span>  
+<span data-ttu-id="a6bcc-104">仕事分解構造に対する進捗状況追跡の必要性は、業界の垂直構造間で異なります。</span><span class="sxs-lookup"><span data-stu-id="a6bcc-104">The need for tracking progress against a work breakdown structure varies across industry verticals.</span></span> <span data-ttu-id="a6bcc-105">業種によっては、作業分解構造をきわめて詳細なレベルで勤勉に実施しているところがある一方で、作業分解構造をより高いレベルで追跡しているところもあります。</span><span class="sxs-lookup"><span data-stu-id="a6bcc-105">Some industries do it more diligently at a very granular level of the work breakdown structure, while others might track at a higher level of the work breakdown structure.</span></span>  
   
-## <a name="effort-tracking-view"></a><span data-ttu-id="05571-106">工数の追跡の表示</span><span class="sxs-lookup"><span data-stu-id="05571-106">Effort tracking view</span></span>  
-<span data-ttu-id="05571-107">工数の追跡の表示では、作業分解構造内のタスクの進捗状況の追跡が表示されます。</span><span class="sxs-lookup"><span data-stu-id="05571-107">The effort tracking view shows the tracking of progress for tasks in the work breakdown structure.</span></span> <span data-ttu-id="05571-108">タスクの工数計画期限までの予想時間と、実際に費やされた作業時間が比較されます。</span><span class="sxs-lookup"><span data-stu-id="05571-108">It compares the actual effort hours spent against a task till date to the planned effort hours on a task.</span></span>  
+## <a name="effort-tracking-view"></a><span data-ttu-id="a6bcc-106">工数の追跡の表示</span><span class="sxs-lookup"><span data-stu-id="a6bcc-106">Effort tracking view</span></span>  
+<span data-ttu-id="a6bcc-107">工数の追跡の表示では、作業分解構造内のタスクの進捗状況の追跡が表示されます。</span><span class="sxs-lookup"><span data-stu-id="a6bcc-107">The effort tracking view shows the tracking of progress for tasks in the work breakdown structure.</span></span> <span data-ttu-id="a6bcc-108">タスクの工数計画期限までの予想時間と、実際に費やされた作業時間が比較されます。</span><span class="sxs-lookup"><span data-stu-id="a6bcc-108">It compares the actual effort hours spent against a task till date to the planned effort hours on a task.</span></span>  
   
-<span data-ttu-id="05571-109">タスクの元の見積もりを見直す必要がある場合があります。</span><span class="sxs-lookup"><span data-stu-id="05571-109">Sometimes you might need to revise the original estimates on a task.</span></span> <span data-ttu-id="05571-110">スコープ変更や作業員の熟練度が低いため、タスクの実行速度は元の期待値より速かったり遅かったりする場合があります。</span><span class="sxs-lookup"><span data-stu-id="05571-110">The task might be moving faster or slower than originally anticipated because of changes in scope or having less experienced people than originally planned for.</span></span> <span data-ttu-id="05571-111">プロジェクト ベースラインは、プロジェクト スケジュールおよびコスト見積もりに関する公表済みのソースであり、プロジェクトのすべての利害関係者が合意しているため、ベースライン値の変更は推奨されません。</span><span class="sxs-lookup"><span data-stu-id="05571-111">We don't recommend changing your baseline numbers, because the project baseline is the published source for the project’s schedule and cost estimates that all stakeholders on the project have agreed to.</span></span>  
+<span data-ttu-id="a6bcc-109">タスクの元の見積もりを見直す必要がある場合があります。</span><span class="sxs-lookup"><span data-stu-id="a6bcc-109">Sometimes you might need to revise the original estimates on a task.</span></span> <span data-ttu-id="a6bcc-110">スコープ変更や作業員の熟練度が低いため、タスクの実行速度は元の期待値より速かったり遅かったりする場合があります。</span><span class="sxs-lookup"><span data-stu-id="a6bcc-110">The task might be moving faster or slower than originally anticipated because of changes in scope or having less experienced people than originally planned for.</span></span> <span data-ttu-id="a6bcc-111">プロジェクト ベースラインは、プロジェクト スケジュールおよびコスト見積もりに関する公表済みのソースであり、プロジェクトのすべての利害関係者が合意しているため、ベースライン値の変更は推奨されません。</span><span class="sxs-lookup"><span data-stu-id="a6bcc-111">We don't recommend changing your baseline numbers, because the project baseline is the published source for the project’s schedule and cost estimates that all stakeholders on the project have agreed to.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="05571-112">関連項目</span><span class="sxs-lookup"><span data-stu-id="05571-112">See Also</span></span>  
- [<span data-ttu-id="05571-113">プロジェクト管理者ガイド</span><span class="sxs-lookup"><span data-stu-id="05571-113">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
+### <a name="see-also"></a><span data-ttu-id="a6bcc-112">関連項目</span><span class="sxs-lookup"><span data-stu-id="a6bcc-112">See Also</span></span>  
+ [<span data-ttu-id="a6bcc-113">プロジェクト管理者ガイド</span><span class="sxs-lookup"><span data-stu-id="a6bcc-113">Project Manager Guide</span></span>](../psa/project-manager-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
