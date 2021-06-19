@@ -2,19 +2,17 @@
 title: 2021 年 4 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 description: このトピックは、リソース/非在庫ベースのシナリオ向け Project Operations の 2021 年 4 月リリースで利用可能な品質アップデートに関する情報を提供します。
 author: sigitac
-manager: tfehr
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 339a488908add09c5e4f62568bb83b78450e7082
-ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
+ms.openlocfilehash: 518d795cf7fd2e172a1ce54e2483881d35cea1da
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935480"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012682"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 4 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 

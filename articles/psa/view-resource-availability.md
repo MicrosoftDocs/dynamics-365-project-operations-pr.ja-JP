@@ -2,8 +2,6 @@
 title: ビュー リソースの空き時間
 description: Project Service でリソースの空き時間を表示する方法
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b7890b9036817f7427adaa838b39163f3295d261
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e71fa745103b5d40d8a0056fe894d791c1213dac
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281349"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012907"
 ---
 # <a name="view-resource-availability-project-service"></a>リソースの空き時間の表示 (Project Service)
 

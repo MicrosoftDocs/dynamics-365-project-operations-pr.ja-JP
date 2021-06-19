@@ -2,18 +2,16 @@
 title: 財務分析コードの既定値
 description: このトピックは、財務分析コードの規定値を設定する方法について説明します。
 author: sigitac
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0a76447bb1a81a7157fccc0cd58eddd1eb5995de
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: d2509f74d34ac3dce4c6915ca860283750eb50b1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950135"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013312"
 ---
 # <a name="financial-dimension-defaults"></a>財務分析コードの既定値
 
@@ -40,7 +38,7 @@ Dynamics 365 Project Operations は Dynamics 365 Finance の [財務分析コー
 
 1. **プロジェクト管理および会計** > **プロジェクト** > **プロジェクト契約** の順に移動します。
 2. 更新するレコードを選択し、**プロジェクト契約** タブで、**既定の会計を表示する** を選択します。
-3. **関連情報** を展開し、**資金源** タブを選択します。
+3. **関連情報** を展開し、**資金調達ソース** タブを選択します。
 4. 財務分析コードの既定値を設定します。 財務分析コードは顧客アカウントから既定に設定されていることに注意してください。
 
 ### <a name="set-financial-dimensions-for-a-project-contract-line"></a>プロジェクトの契約品目の財務分析コードを設定する
@@ -50,7 +48,7 @@ Dynamics 365 Project Operations は Dynamics 365 Finance の [財務分析コー
 3. **関連情報** を展開し、**契約品目** タブを選択します。
 4. 財務分析コードの既定値を設定します。 財務分析コードの既定が適用され、固定価格 (マイルストーン) 契約品目でのみ使用できます。
 
-これらの既定は、関連するプロジェクトの当座預金取引および請求書明細で使用されます。
+これらの既定値は、関連するプロジェクトの分割払トランザクションおよび請求明細行で使用されます。
 
 ## <a name="define-default-financial-dimensions-for-projects"></a>プロジェクトで使用する既定の財務分析コードを定義する
 
@@ -59,9 +57,9 @@ Dynamics 365 Project Operations は Dynamics 365 Finance の [財務分析コー
 1. **プロジェクト管理および会計** > **プロジェクト** > **すべてのプロジェクト** に移動します。
 2. 更新するレコードを選択し、**プロジェクト** タブで、**既定の会計を表示する** を選択します。
 3. **関連情報** を展開し、**設定** タブを選択します。
-4. 財務分析コードの既定値を設定します。 財務分析コードは顧客アカウントから既定に設定されていることに注意してください。 プロジェクトが複数のプロジェクト契約顧客を持つ契約品目に関連付けられている場合、プライマリ顧客は、既定の財務分析コードに使用されます。
+4. 財務分析コードの既定値を設定します。 顧客アカウントから財務分析コードの既定値が設定されていることを確認します。 プロジェクトが複数のプロジェクト契約顧客との契約品目に関連付けられている場合、主要顧客が財務分析コードの既定値に使用されます。
 
-プロジェクトの既定の財務分析コードは、**プロジェクト運用統合ジャーナル** の時間、費用、手数料のトランザクションと関連するプロジェクトの請求書明細のジャーナル ラインの既定を設定するために使用されます。
+プロジェクトの既定の財務分析コードを使用して、**Project Operations の統合仕訳帳** および関連するプロジェクト請求明細行の時間トランザクション、経費トランザクション、および手数料トランザクションの仕訳帳明細行の既定値を設定します。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
