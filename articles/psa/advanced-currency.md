@@ -2,8 +2,6 @@
 title: 複数通貨のシナリオ (バージョン 3.x)
 description: このトピックでは、複数通貨のシナリオに関する情報を説明します。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 70f27d29c74a82f0307bd0724347960e5755e3a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291715"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014797"
 ---
 # <a name="multiple-currency-scenarios"></a>複数通貨のシナリオ
 
@@ -73,7 +71,7 @@ PSA は以下の方法でコストと販売の取引通貨の概念を拡張し�
 1. GBP と日本円 (JPY) を **設定** \> **業務管理** \> **通貨** から設定します。 
 2. **Fabrikam - 日本** という名前の顧客アカウントが設定され、日本円がアカウントの通貨として選択されます。
 3. **Contoso UK** という名前の組織単位が設定され、通貨として GBP が選択されます。
-4. プロジェクト契約が作成されます。**Contoso UK** は契約単位として指定され、**Fabrikam – 日本** が顧客として指定されます。
+4. プロジェクト契約が作成され、**Contoso UK** は契約単位として指定され、**Fabrikam – 日本** が顧客として指定されます。
 5. プロジェクト契約品目は、時間の請求と費用の請求など、プロジェクトのさまざまなトランザクション クラスの請求契約に基づいて作成されます。
 6. **Contoso UK** が契約単位として指定されたプロジェクトが作成されます。 このプロジェクトを作成してプロジェクト契約品目にマップします。
 

@@ -2,18 +2,16 @@
 title: リソース要件の編集
 description: このトピックでは、リソース要件情報の更新に関する情報を提供します。
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 67fb536f91bdf156e9437cd993e93a4eeb2df84f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 12d14167d5dcb9b43dee854981c551c6e5b734ee
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279099"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013987"
 ---
 # <a name="edit-a-resource-requirement"></a>リソース要件の編集
 
@@ -32,9 +30,9 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 - 役割
 - リソースの基本設定
 - 優先する組織単位
-- リソース会社
+- 調達先の会社
 
-## <a name="edit-resource-assignment-contours"></a>リソース割り当ての配分型の編集
+## <a name="edit-resource-assignment-contours"></a>リソース要件の配分型の編集
 
 リソース要件詳細の編集に加え、プロジェクト管理者は、**パターンの指定** 機能を使用して、リソース要件の個々の配分型を更新できます。 **パターンの指定** を選択すると、ページが開き、日、週、または月のタイム スケールで配分型が表示されます。 各配分型は、特定の期間の開始時間、終了時間、および合計工数に合わせて調整することができます。
 
