@@ -2,18 +2,16 @@
 title: スケジュール API を使用して、スケジューリング エンティティで操作を実行する
 description: このトピックは、スケジュール API を使用するための情報とサンプルを提供します。
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950810"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116803"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>スケジュール API を使用して、スケジューリング エンティティで操作を実行する
 
@@ -268,7 +266,6 @@ ID プロパティは省略可能です。 提供されている場合、シス�
 - 各ユーザーが持つことができるのは、最大 10 件のオープン **OperationSet** です。
 - Project Operations は現在、プロジェクトで最大 500 件の合計タスクをサポートしています。
 - **OperationSet** 障害ステータスと障害ログは現在利用できません。
-- スケジュール API はパブリック プレビューにあります。 実稼働環境におけるこれらの API の使用は、Microsoft ではサポートされていません。
 - [プロジェクトとタスクの制限と境界](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>エラー処理
