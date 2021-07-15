@@ -2,7 +2,7 @@
 title: プロジェクトの仮発行請求書のパフォーマンス
 description: このトピックは、プロジェクトの仮発行請求書のパフォーマンス向上に関する情報を提供します。
 author: Yowelle
-ms.date: 04/20/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0e7a9eedc80a88e80b7788be4fe4b2f969be8ba1
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5a14acf51d277b16896d64c4b12ee00bfb326910
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999497"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269796"
 ---
 # <a name="project-invoice-proposal-performance"></a>プロジェクトの仮発行請求書のパフォーマンス
 
@@ -44,4 +44,6 @@ ms.locfileid: "5999497"
 3.  ブラウザーを最新の情報に更新します。
 
 > [!NOTE]
-> 請求ルールが有効になっている場合、またはバッチ プロセスが実行されている場合、仮発行請求書のパフォーマンスは適用できません。
+> 請求ルールが有効な場合、請求書の提案パフォーマンスが適用できません。
+> 
+> 請求書案を作成するバッチ処理では、サブタスクの数は、入力した内容にかかわらず、請求書発行可能な取引のある契約数に応じた最大数にタスクが分割されます。 たとえば、一括で請求書案を作成するサブタスクの数に **3** を入力した場合でも、請求書発行可能な取引がある契約が 2 つしかないと、サブタスクは 2 つしか作成されません。

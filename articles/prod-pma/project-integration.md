@@ -2,7 +2,7 @@
 title: Microsoft Project Client の統合
 description: プロジェクト スケジュールの計画と管理は複雑になる可能性があるため、プロジェクト マネージャーはこのタスクの管理に役立つツールを使用する必要があります。 Microsoft Project Client との統合により、プロジェクトの WBS (作業分解構造) を開いて管理するためのサポートが提供されます。
 author: Yowelle
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 032d726bb6206c563b573f30d13fe2697a13c949
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b312ec5b1f4e6a98a2cbf1667b2f55b758b2d613
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999452"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269841"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client の統合
 
@@ -126,5 +126,12 @@ Microsoft Project Client を使用して新しい WBS (作業分解構造) を�
 
 11. **OK** をクリックします。
 
+> [!NOTE]
+> Project Client アドインは、プロジェクト ID 形式の次の文字には対応していません:
+> 
+>   - アンダースコア
+>   - ピリオド
+>   - Space キー
+>   - スラッシュ
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

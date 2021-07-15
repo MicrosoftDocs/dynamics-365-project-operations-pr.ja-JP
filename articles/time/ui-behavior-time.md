@@ -6,12 +6,12 @@ ms.date: 03/03/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0cb62231eb3b387b610b7510023994dce66b1cc9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd62fb1d8e0b2d859cb7da8b99cb725af587ff2f
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995897"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304307"
 ---
 # <a name="time-entry-ui-behavior"></a>時間エントリ の UI の動作
 
@@ -27,7 +27,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 | 行のコピー      | Alt + Shift + c           |
 | エントリの編集    | Alt + Shift + e           |
 | 行の編集      | Alt + Shift + Ctrl + e    |
-| エントリを開く    | Alt + Shift + o           |
+| オープンしているエントリ    | Alt + Shift + o           |
 | 提出​​        | Alt + Shift + s           |
 | 取り消し        | Alt + Shift + r           |
 | Delete キー        | Alt + Shift + d           |

@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: 環境を展開する
           items:
+            - name: 二重書き込みをサポートする Project Operations Dataverse を手動で展開する
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: 新しい環境をプロビジョニングする
               href: environment/resource-provision-new-environment.md
             - name: セキュリティ モデル
@@ -52,6 +54,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: 新機能
       items:
+        - name: 2021 年 7 月 - リソース/非在庫ベースのシナリオ向け Project Operations
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: 2021 年 6 月 - リソース/非在庫ベースのシナリオ向け Project Operations
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: 2021 年 5 月 - リソース/非在庫ベースのシナリオ向け Project Operations
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: 2021 年 4 月 - リソース/非在庫ベースのシナリオ向け Project Operations
@@ -282,7 +288,7 @@
           items:
             - name: プロジェクトのコピーを使用してプロジェクト テンプレートを開発する
               href: project-management/dev-copy-project.md
-            - name: スケジュール API を使用する (パブリック プレビュー)
+            - name: プロジェクト スケジュール API を使用する (パブリック プレビュー)
               href: project-management/schedule-api-preview.md
     - name: リソース管理
       items:
@@ -436,8 +442,6 @@
       items:
         - name: 請求処理の概要
           href: invoicing/post-project-invoices.md
-        - name: プロジェクトの仮発行請求書の管理
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: 見積もり請求
           items:
             - name: プロジェクトベースの請求バックログの管理
@@ -456,20 +460,12 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: プロジェクトベース請求書の自動化の構成
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: プロジェクトの仮発行請求書の管理
-          href: invoicing/format-update-project-invoice-proposals.md
-    - name: プロジェクト会計
-      items:
-        - name: 財務分析コードの既定値
-          href: project-accounting/financial-dimension-defaults.md
-        - name: プロジェクト カテゴリの構成
-          href: project-accounting/configure-project-categories.md
-        - name: 内部プロジェクトの会計の構成
-          href: project-accounting/configure-accounting-internal-projects.md
-        - name: 課金プロジェクトの会計の構成
-          href: project-accounting/configure-accounting-billable-projects.md
-        - name: Project Operations の統合仕訳帳
-          href: project-accounting/project-operations-integration-journal.md
+        - name: 顧客請求書
+          items:
+            - name: プロジェクトの仮発行請求書の管理
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: プロジェクトの仮発行請求書のドラフトの会計を修正する
+              href: invoicing/correct-project-invoice-proposals.md
         - name: 会社間請求
           items:
             - name: 会社間請求の概要
@@ -480,6 +476,18 @@
               href: project-accounting/create-intercompany-transactions.md
             - name: 会社間で顧客およびベンダーの請求書を作成する
               href: project-accounting/create-intercompany-customer-vendor-invoices.md
+    - name: プロジェクト会計
+      items:
+        - name: 財務分析コードの既定値
+          href: project-accounting/financial-dimension-defaults.md
+        - name: 経費カテゴリの構成
+          href: project-accounting/configure-project-categories.md
+        - name: 内部プロジェクトの会計の構成
+          href: project-accounting/configure-accounting-internal-projects.md
+        - name: 課金プロジェクトの会計の構成
+          href: project-accounting/configure-accounting-billable-projects.md
+        - name: Project Operations の統合仕訳帳
+          href: project-accounting/project-operations-integration-journal.md
     - name: 売上認識
       items:
         - name: 売上認識の概要
@@ -512,6 +520,10 @@
           href: environment/security-model.md
     - name: 新機能
       items:
+        - name: 2021 年 7 月の新機能 - ライト展開
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: 2021 年 6 月の新機能 - ライト展開
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: 2021 年 5 月の新機能 - ライト展開
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: 2021 年 4 月の新機能 - ライト展開
@@ -762,7 +774,7 @@
           items:
             - name: プロジェクトのコピーを使用してプロジェクト テンプレートを開発する
               href: project-management/dev-copy-project.md
-            - name: スケジュール API を使用する (パブリック プレビュー)
+            - name: プロジェクト スケジュール API を使用する (パブリック プレビュー)
               href: project-management/schedule-api-preview.md
     - name: リソース管理
       items:
@@ -882,6 +894,10 @@
   items:
     - name: 新機能
       items:
+        - name: 2021 年 7 月の新機能 - 在庫/製造ベースのシナリオ向け Project Operations
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: 2021 年 5 月の新機能 - 在庫/製造ベースのシナリオ向け Project Operations
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: 2021 年 4 月の新機能 - 在庫/製造ベースのシナリオ向け Project Operations
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: 2021 年 3 月の新機能 - 在庫/製造ベースのシナリオ向け Project Operations
@@ -1034,6 +1050,10 @@
       items:
         - name: Project Service 3.x の更新プログラム リリース スケジュール
           href: psa/version-history-ps.md
+        - name: 更新プログラム リリース 33、V3 の最新情報または変更事項
+          href: psa/whats-new-ur-33.md
+        - name: 更新プログラム リリース 32.5、V3 の最新情報または変更事項
+          href: psa/whats-new-ur-32-5.md
         - name: 更新プログラム リリース 32、V3 の最新情報または変更事項
           href: psa/whats-new-ur-32.md
         - name: 更新プログラム リリース 31、V3 の最新情報または変更事項

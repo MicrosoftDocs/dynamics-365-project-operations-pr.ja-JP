@@ -2,16 +2,16 @@
 title: リソース/在庫のないシナリオ向け Project Operations プレビュー サブスクリプションにサインアップします
 description: このトピックは、リソース/非在庫ベースのシナリオ向け Project Operations をサブスクライブして展開する方法について説明します。
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1b8c8982ede83191ce346e76718322d47abf0dd8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da93fcf23ee3f255812842e31cb22b5d39daa963
+ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000442"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334833"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>リソース/在庫のないシナリオ向け Project Operations プレビュー サブスクリプションにサインアップします
 
@@ -19,48 +19,30 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-このトピックは、プレビュー/パートナー オファーをサブスクライブし、リソース/非在庫ベースのシナリオ向け Project Operations 環境を展開する方法を説明しています。
+このトピックでは、試用版のオファーに登録して、リソース/非ストックベースのシナリオ用に Project Operations 環境をデプロイする方法について説明します。
 
 ## <a name="prerequisites"></a>前提条件
-
-- プレビューへの参加を招待するメールが届きます。 [Project Operations Web サイト](https://dynamics.microsoft.com/en-us/project-operations/overview/) でプレビューを要求できます。
-- プレビューを展開するユーザーは、Azure テナント グローバル 管理者権限を持っている必要があります。
+- プレビューを展開するユーザーは、Azure テナント グローバル 管理者権限を持っている必要があります。 最初のオファーの引き換え時にテナントを作成できます。 
 - Finance 環境を展開するには、環境ごとに請求される有効な Azure サブスクリプションが必要です。 組織の既存のサブスクリプションを使用するか、[Azure トライアル](https://azure.microsoft.com/en-us/free/) を使用して開始できます。 CDS 環境は、30 日間限定で無料で提供されます。
-
-## <a name="subscribe"></a>購読
-
-[プレビュー要求](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) が承認されると、メールで Microsoft から 3 つのオファーが送信されますを受け取ります。 これらのオファーを使用すると、Project Operations プレビューを展開できます。
-
-- Dynamics 365 Project Operations (CRM) - プレビュー試用版
-- Office 365 Project Operations - プレビュー試用版
-- Dynamics 365 Finance - プレビュー 試用版
 
 > [!IMPORTANT]
 > このタスクを実行する必要があるのは、組織内の 1 人のテナント管理者だけです。 このリリースのサブスクライバーでない場合は、組織がサインアップしてユーザー資格情報を受け取るまで待ちます。
+> 
+> 試用版はテナントでの単一回の使用となります。 試用版は 1 度しか実行できません。 試用版に特化した、新しいテナントを作成することをお勧めします。
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) - プレビュー試用版 
+
+### <a name="dynamics-365-project-operations-ce---preview-trial"></a>Dynamics 365 Project Operations (CE) - プレビュー試用版 
 
 開始する前に、Project Operations のプレビューが必要なテナントでユーザーの業務用アカウントを使用してブラウザーにログインしていることを確認してください。
 
-1. ブラウザの URL 欄に貼り付けて最初のオファー コード **Dynamics 365 Project Operations (CRM) - プレビュー試用版** を引き換えます。
-
-![オファーの引き換え](./media/16RedeemFirstOfferNew.png)
-
+1. [Project Operations 試用版](https://aka.ms/try-po)にアクセスし、 最初のオファーコードを **Dynamics 365 Project Operations** こちらで引き換えます。
 2. 注文を確認します。
 
-![注文を確認する](./media/17ConfirmOrderNew.png)
-
-オファーが正常に引き換えられたことを確認します。
-
-![確認](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations - プレビュー試用版
-
-最初のオファー コードと同じ手順を繰り返します。 最初のオファー コードで使用したのと同じユーザー アカウントを使用して、2 番目のオファー コードを必ず追加してください。
+  オファーが正常に引き換えられたことを確認します。
 
 ### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance プレビュー 試用版
 
-歓迎メールから最後のオファーで同じ手順を繰り返します。
+[Dynamics 365 for Finance プレビューの試用版](https://aka.ms/trypoche)にアクセスし、「クラウドホスト環境に登録する」のオファーを使用して、前述のセクションに記載の手順を繰り返します。  
 
 ## <a name="assign-licenses"></a>ライセンスの割り当て
 
@@ -69,13 +51,9 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 1. [Microsoft 365 管理センター](https://portal.office.com/) に移動し、ユーザーにライセンスを割り当てます。
 
-![管理センター ホーム ページ](./media/14AdminPortal.png)
-
 2. **アクティブ ユーザー** ページで、ライセンスを割り当てるユーザーを選択します。
 
-![ライセンスの割り当て](./media/15AssignLicenses.png)
-
-3. **Dynamics 365 Project Operations (CRM) プレビュー** と **Office 365 Project Operations - プレビュー** のライセンスを選択したことを確認し、**変更を保存する** を選択します。
+3. **Dynamics 365 Project Operations** のライセンスが選択されていることを確認し、**変更を保存** を選択します。
 
 > [!NOTE]
 > Finance 試用版オファーをユーザーに割り当てる必要はありません。
@@ -95,7 +73,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 ## <a name="install-cds-setup-and-configuration-data"></a>CDS 設定および構成データをインストールする
 
 トピック[Common Data Service で構成データを設定および適用](resource-apply-pro-setup-config-data.md) の説明に従って、CDS の設定および構成データをインストールします。
-このステップは、Finance デモ環境がデプロイされ、FO のデモデータの準備ができた後でのみ完了してください。
+この手順は、Finance のデモ環境がデプロイされ、デモデータの準備ができてから行ってください。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

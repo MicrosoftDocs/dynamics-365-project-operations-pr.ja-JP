@@ -2,17 +2,17 @@
 title: 非在庫材料と保留中の仕入先請求書を構成する
 description: このトピックでは、在庫のない資材と保留中のベンダーの請求書を有効にする方法を説明しています。
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 41191384c688c3b77d08a0e7990ddf0d9a48545c
+ms.sourcegitcommit: 2f16c2bc7c8350676a6a380c61fffa9958db6a0b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993917"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6293053"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>非在庫材料と保留中の仕入先請求書を構成する
 
@@ -59,11 +59,11 @@ Dynamics 365 Finance:
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>ワークフローをアクティブ化して、ベンダーエンティティに基づくアカウントを作成します
 
-二重書き込みのオーケストレーション ソリューションにより、[ベンダーマスター統合](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md) が実現します。 この機能を使用する前提として、**アカウント** エンティティにベンダー データが作成されている必要があります。 [ベンダー デザインの切り替え](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type) で解説されているように、**アカウント** テーブルにベンダーを作成するテンプレート ワークフロー プロセスを有効にします。
+二重書き込みのオーケストレーション ソリューションにより、[ベンダーマスター統合](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping) が実現します。 この機能を使用する前提として、**アカウント** エンティティにベンダー データが作成されている必要があります。 [ベンダー デザインの切り替え](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch) で解説されているように、**アカウント** テーブルにベンダーを作成するテンプレート ワークフロー プロセスを有効にします。
 
 ### <a name="set-products-to-be-created-as-active"></a>作成する製品をアクティブに設定する
 
-在庫のない材料については、Finance で **発売済み商品** として構成する必要があります。 二重書き込みオーケストレーション ソリューションは、既成の[Dataverse 製品カタログへのリリース製品の統合](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md)を提供します。 既定では、Finance の製品はドラフト状態で Dataverse に同期されます。 製品をアクティブな状態に同期して、材料使用のドキュメントやベンダーの保留中の請求書に直接使用できるようにするには、**システム** > **管理** > **システム管理** > **システム設定** にアクセスし、**営業** タブで、**アクティブな状態で製品を作成する** を **はい** に設定します。
+在庫のない材料については、Finance で **発売済み商品** として構成する必要があります。 二重書き込みオーケストレーション ソリューションは、既成の[Dataverse 製品カタログへのリリース製品の統合](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping)を提供します。 既定では、Finance の製品はドラフト状態で Dataverse に同期されます。 製品をアクティブな状態に同期して、材料使用のドキュメントやベンダーの保留中の請求書に直接使用できるようにするには、**システム** > **管理** > **システム管理** > **システム設定** にアクセスし、**営業** タブで、**アクティブな状態で製品を作成する** を **はい** に設定します。
 
 ## <a name="configure-prerequisites-in-finance"></a>Finance で前提条件を構成する
 
@@ -88,7 +88,7 @@ Project Operations では、リリースされた製品カタログに設定さ�
 2. **製品タイプ** フィールドで、**項目** を選択し、**製品のサブタイプ** フィールドで、**製品** を選択します。
 3. 製品番号 (WRITEIN) と製品名 (書き込み式の製品) を入力します。
 4. 項目のモデル グループを選択します。 選択した項目モデルのグループで、**在庫ポリシーの「在庫あり」製品** フィールドが **False** に設定されていることを確認してください。
-5. **項目グループ**、**ストレージ ディメンション グループ**、**ディメンショングループの追跡** フィールドの値を選択します。 **サイト** には **ストレージ ディメンション** のみを使用し、追跡ディメンションは設定しないでください。
+5. **項目グループ**、**ストレージ ディメンション グループ**、**ディメンショングループの追跡** フィールドの値を選択します。 **ストレージ ディメンション** は **サイト** にのみ使用します。**トラッキング ディメンション** フィールドには、**無し** を選択します。
 6. **在庫単位**、**購入ユニット**、**販売単位** フィールドの値を選択し、変更を保存します。
 7. **予定** タブで、既定の順序設定を行い、**在庫** タブで、既定のサイトとウェアハウスを設定します。
 8. **プロジェクト管理と会計** > **設定** > **プロジェクト管理と会計パラメータ** に移動し、**Dynamics 365 Dataverse の Project Operations** を開きます。 

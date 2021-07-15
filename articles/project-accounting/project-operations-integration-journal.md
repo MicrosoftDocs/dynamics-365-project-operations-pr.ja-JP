@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ebdb543560027d223715d0e5c70c864b706cb2c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007147"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304262"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations の統合仕訳帳
 
@@ -26,7 +26,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 Project Operations の統合仕訳帳のレコードは、定期的なプロセス **ステージング テーブルからインポート** を使用して作成されます。 このプロセスを実行するには、**Dynamics 365 Finance** > **プロジェクト管理および会計** > **定期処理** > **Project Operations の統合** > **ステージング テーブルからインポート** に移動します。 必要に応じて、プロセスを対話形式で実行することも、バックグラウンドで実行するようにプロセスを構成することもできます。
 
 定期的なプロセスが実行されると、Project Operations の統合仕訳帳にまだ追加されていない実績が検出されます。 実際のトランザクションごとに仕訳帳明細行が作成されます。
-システムは、**Project Operations の統合仕訳帳の期間単位** フィールド (**財務** > **プロジェクト管理および会計** > **設定** > **プロジェクト管理および会計パラメーター**、**Dynamics 365 Customer Engagement の Project Operations** タブ) で選択された値に基づいて、仕訳帳明細行を個別の仕訳帳にグループ化します。 このフィールドに指定できる値は次のとおりです:
+**Project Operations の統合仕訳帳の期間単位** フィールドで選択された値に基づいて、システムは仕訳帳明細行を別々の仕訳帳にグループ化します。(**財務** > **プロジェクト管理と会計** > **設定** > **プロジェクト管理と会計パラメーター**、**Dynamics 365 Customer Engagement タブの Project Operations**)。 このフィールドに考えられる値は次のとおりです。
 
   - **日数**: 実績はトランザクションの日付ごとにグループ化されます。 毎日個別の仕訳帳が作成されます。
   - **月**: 実績はカレンダー月ごとにグループ化されます。 毎月個別の仕訳帳が作成されます。
