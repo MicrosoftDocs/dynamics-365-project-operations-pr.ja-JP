@@ -832,6 +832,16 @@
           items:
             - name: リソース稼働率の概要
               href: resource-management/resource-utilization-overview.md
+    - name: Project Operations での外注管理
+      items:
+        - name: 外注管理の概要
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: 外注に関する重要な概念
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: ベンダーとプロジェクト価格表の管理
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: 予約可能リソースとして扱う外注
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: 時間
       items:
         - name: 時間の概要
@@ -1050,6 +1060,8 @@
       items:
         - name: Project Service 3.x の更新プログラム リリース スケジュール
           href: psa/version-history-ps.md
+        - name: 更新プログラム リリース 34、V3 の最新情報または変更事項
+          href: psa/whats-new-ur-34.md
         - name: 更新プログラム リリース 33、V3 の最新情報または変更事項
           href: psa/whats-new-ur-33.md
         - name: 更新プログラム リリース 32.5、V3 の最新情報または変更事項
