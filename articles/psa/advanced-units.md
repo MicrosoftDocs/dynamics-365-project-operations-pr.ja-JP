@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e981f39bbb6ca4277778382a5816952df2a8a1fb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009577"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987577"
 ---
 # <a name="unit-groups-and-units"></a>出荷単位一覧および出荷単位
 
@@ -44,7 +44,7 @@ ms.locfileid: "6009577"
 
 次の図は、**日** 単位の設定例を示しています。**数量** フィールドに 1 日の時間数が表示され、**週** には **数量** フィールドに 1 週間の日数が表示されています。
 
-> ![単位グループ: 情報ページ](media/advanced-2.png)
+> ![単位グループ: 情報ページ。](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>単位と単位グループの使用
 

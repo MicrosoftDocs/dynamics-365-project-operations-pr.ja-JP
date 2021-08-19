@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999902"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988117"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Finance and Operations に転記するため、プロジェクトの実績を Project Service Automation から直接プロジェクト総合ジャーナルへ同期する
 
@@ -42,7 +42,7 @@ Project Service Automation から Finance への統合ソリューションは�
 
 次の図は、Project Service Automation と Finance 間でデータを同期する方法を示します。
 
-[![Finance and Operations との Project Service Automation 統合用データ フロー](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Project Service Automation と Finance and Operations の統合用データ フロー。](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Project Service Automation からのプロジェクトの実績
 
@@ -93,9 +93,9 @@ Project Service Automation から Finance への統合ソリューションは�
 
 次の図は、データ統合のテンプレート タスク マッピングの一例を示しています。 マッピングには、Project Service Automation から Finance に同期されるフィールド情報が表示されます。
 
-[![テンプレート マッピング - 実績](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![テンプレート マッピング - 実績。](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![テンプレート マッピング - トランザクション接続](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![テンプレート マッピング - トランザクション接続。](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>Project Service Automation からの統合後のステージング テーブルからのインポート
 
@@ -135,9 +135,9 @@ Project Service Automation から Finance への統合ソリューションは�
 
 次の図は、データ統合のテンプレート タスク マッピングの例を示しています。 マッピングには、Finance から Project Service Automation に同期されるフィールド情報が表示されます。
 
-[![テンプレート マッピング - 実績の更新](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![テンプレート マッピング - 実績の更新。](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![テンプレート マッピング - トランザクションの更新](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![テンプレート マッピング - トランザクションの更新。](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

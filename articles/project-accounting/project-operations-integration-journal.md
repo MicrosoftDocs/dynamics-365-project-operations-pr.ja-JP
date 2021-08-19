@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304262"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987937"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations の統合仕訳帳
 
@@ -19,7 +19,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 時間と費用のエントリは、プロジェクトに対して完了した作業の運用ビューを表す **実際** のトランザクションを作成します。 Dynamics 365 Project Operations は、取引を確認し、必要に応じて会計上の属性を調整するツールを経理担当者に提供します。 確認と調整が完了すると、取引はプロジェクトの補助元帳および総勘定元帳に転記されます。 会計士は、**Project Operations の統合** 仕訳帳 (**Dynamics 365 Finance** > **プロジェクト管理および会計** > **仕訳帳** > **Project Operations の統合** 仕訳帳) を使用して、これらの活動を実行できます。
 
-![統合仕訳帳フロー](./media/IntegrationJournal.png)
+![統合仕訳帳フロー。](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Project Operations の統合仕訳帳でレコードを作成
 

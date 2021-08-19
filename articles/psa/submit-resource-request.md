@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: acdd228a9eb9d6c6c56f126ccca416613332a838
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013177"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985012"
 ---
 # <a name="submitting-a-resource-request"></a>リソース要求を送信する
 
@@ -34,9 +34,9 @@ ms.locfileid: "6013177"
 1. Project Service Automation (PSA) の **プロジェクト** ページで、 **チーム** タブをクリックして一覧の予約可能リソースを表示します。 
 2. 一覧からリソース要件を持つ汎用リソースを選択して、**要求を送信する** をクリックします。
 
-![リソース要求を送信する](media/RM-how-to-18.png)
+![リソース要求を送信する。](media/RM-how-to-18.png)
 
-汎用要求チーム メンバーの要求の状態が **送信済み** に変更されます。
+汎用的なチーム メンバーの要求ステータスが **送信済** に変わります。
 
 リソース マネージャーによって要求が満たされた後、名前付きリソースの予約を使用してリソース マネージャーが要求を満たすと、汎用リソースは名前付きリソースに置き換えられます。 それ以外の場合は、リソース マネージャーが名前付きリソースを提案した場合は汎用リソースはチームに残り、要求の状態が **レビューが必要** に変更されます。
 

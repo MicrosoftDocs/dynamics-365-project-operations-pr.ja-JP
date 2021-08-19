@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: a6955dcd1ebe494e0171c30ac4384089da6a8745
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999722"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988207"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Project Service Automation から Finance and Operations へのプロジェクト見積もりの直接同期
 
@@ -38,7 +38,7 @@ Project Service Automation から Finance への統合ソリューションは�
 
 次の図は、Project Service Automation と Finance 間でデータを同期する方法を示します。
 
-[![Finance との Project Service Automation 統合用データ フロー](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
+[![Project Service Automation と Finance の統合用データ フロー。](./media/ProjectEstimatesFlow.png)](./media/ProjectEstimatesFlow.png)
 
 ## <a name="project-hour-estimates"></a>プロジェクト時間の見積もり
 
@@ -95,7 +95,7 @@ Project Service Automation から Finance への統合ソリューションは�
 
 次の図は、データ統合のテンプレート タスク マッピングの例を示しています。 マッピングには、Project Service Automation から Finance に同期されるフィールド情報が表示されます。
 
-[![データ統合におけるテンプレート タスク マッピング](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
+[![データ統合におけるテンプレート タスク マッピング。](./media/ProjectHourEstimatesMapping.jpg)](./media/ProjectHourEstimatesMapping.jpg)
 
 ## <a name="project-expense-estimates"></a>プロジェクト経費の見積もり
 
@@ -165,9 +165,9 @@ Project Service Automation から Finance への統合ソリューションは�
 
 次の図は、データ統合のテンプレート タスク マッピングの例を示しています。 マッピングには、Project Service Automation から Finance に同期されるフィールド情報が表示されます。
 
-[![経費見積もりトランザクションのテンプレートマッピング](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
+[![経費見積もりトランザクションのテンプレート マッピング。](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
-[![経費見積もりのテンプレートマッピング](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+[![経費見積もりのテンプレート マッピング。](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

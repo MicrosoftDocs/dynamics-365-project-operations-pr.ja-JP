@@ -2,17 +2,17 @@
 title: タスク グリッドでの作業のトラブルシューティング
 description: このトピックでは、タスク グリッドで作業するときに必要なトラブルシューティング情報を提供します。
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213406"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989107"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>タスク グリッドでの作業のトラブルシューティング 
 
@@ -24,7 +24,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 Project Operations では、WBS (作業分解構造) をレンダリングするためにサードパーティの Cookie を有効にする必要があります。 サードパーティの Cookie が有効になっていない場合、**プロジェクト** ページの **タスク** タブを選択するとタスクではなく空白のページが表示されます。
 
-![サードパーティの Cookie が有効になっていない場合の空白タブ](media/blankschedule.png)
+![サード パーティの Cookie が有効になっていない場合の空白タブ。](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>回避策
@@ -52,11 +52,22 @@ Microsoft Edge または Google Chrome ブラウザの場合、次の手順で�
 Project Operations では、プロジェクト パラメーターが PEX エンドポイントを参照する必要があります。 このエンドポイントは、WBS (作業分解構造) のレンダリングに使用されるサービスと通信するために必要です。 パラメーターが有効になっていない場合、「プロジェクト パラメーターが無効です」というエラーが表示されます。 
 
 ### <a name="workaround"></a>回避策
- ![プロジェクト パラメーターの PEX エンドポイント フィールド](media/projectparameter.png)
 
 1. **PEX エンドポイント** フィールドを **プロジェクト パラメーター** ページに追加します。
-2. フィールドを`https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2` フィールドの値で更新します。
-3. **プロジェクト パラメーター** ページからフィールドを削除します。
+2. 使用している製品タイプを特定します。 この値は、PEX エンドポイントが設定されている場合に使用されます。 取得時に、製品タイプは PEX エンドポイントですでに定義されています。 その値を維持します。 
+   
+    ![プロジェクト パラメーターの PEX エンドポイント フィールド。](media/pex-endpoint.png)
+
+3. 以下の値でフィールドを更新する: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`。
+
+   
+   | 製品の種類                         | パラメーターの種類 |
+   |--------------------------------------|----------------|
+   | 既定の組織の Project for the Web   | タイプ=0         |
+   | CDS の Project for the Web が組織の名前を付けました | タイプ=1         |
+   | Project Operations                   | タイプ=2         |
+   
+4. **プロジェクト パラメーター** ページからフィールドを削除します。
 
 ## <a name="privileges-for-project-for-the-web"></a>Web の Project の特権
 
@@ -67,7 +78,7 @@ Project Operations は、外部のスケジューリング サービスに依存
 
 1. **設定 > セキュリティ > ユーザー > アプリケーション ユーザー** に移動します。  
 
-   ![アプリケーション リーダー](media/applicationuser.jpg)
+   ![アプリケーション リーダー。](media/applicationuser.jpg)
    
 2. アプリケーション ユーザー レコードをダブルクリックして次の項目を確認します。
 
@@ -76,7 +87,7 @@ Project Operations は、外部のスケジューリング サービスに依存
  
 3. このユーザーが存在しない場合は、新規ユーザー レビューを作成できます。 **新しいユーザー** を選択します。 入力フォームを **アプリケーション ユーザー** に変更してから、**アプリケーション ID** を追加します。
 
-   ![アプリケーション ユーザー詳細](media/applicationuserdetails.jpg)
+   ![アプリケーション ユーザー詳細。](media/applicationuserdetails.jpg)
 
 4. ユーザーに正しいライセンスが割り当てられていること、およびライセンスのサービス プラン詳細でサービスが有効になっていることを確認してください。
 5. ユーザーが project.microsoft.com を開けることを確認します。

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7fff69f062bf09fe7ceca61d951b535d2e010bfd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999992"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986587"
 ---
 # <a name="expense-management-integration"></a>経費管理統合
 
@@ -28,7 +28,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 2. Finance で、**経費管理** > **設定** > **共有カテゴリ** に移動し、トランザクション クラスが **費用** となっている共有カテゴリを選択します。 **経費で使用可能** パラメータを **True** に設定し、使用する経費のタイプを定義します。
 3. この共有カテゴリ レコードを使用して、次に移動して新しい経費のカテゴリを作成します : **経費管理** > **設定** > **経費管理** に移動して **新規** を選択します。 レコードが保存されると、二重書き込みはテーブル マッピングを使用します。**Project Operations の統合 プロジェクト経費のカテゴリーのエクスポート エンティティ (msdyn\_expensecategories)** で Dataverse にこのレコードを同期します。
 
-  ![経費カテゴリの統合](./media/DW6ExpenseCategories.png)
+  ![経費カテゴリの統合。](./media/DW6ExpenseCategories.png)
 
 Finance and Operations アプリの経費カテゴリは、会社や法人によって異なります。 Dataverse には、対応する法人別のレコードがあります。 プロジェクト マネージャーが経費を見積もる際は、自分が担当しているプロジェクトを所有している会社とは別の会社が所有しているプロジェクト用に作成された経費カテゴリーを選択することはできません。 
 
@@ -40,7 +40,7 @@ Finance and Operations アプリの経費カテゴリは、会社や法人によ
   - 二重書き込みは Dataverse に同期され、これは **Project Operations 統合 プロジェクト 経費エクスポート エンティティ (msdyn\_expenses)** テーブル マッピングを使用して行われます。
   - 税補助元帳、仕入先補助元帳、その他の財務転記は、経費報告書の転記時に該当する場合に記録されます。
 
-  ![経費報告書の統合](./media/DW6ExpenseReports.png)
+  ![経費報告書の統合。](./media/DW6ExpenseReports.png)
 
 レコードが Dataverse の **費用** エンティティに書き込まれる際、システムはレコードの自動承認プロセスをトリガーします。 必要に応じて、次にアクセスすることで、Dataverse の自動承認プロセスの状態を確認できます : **高度な設定** > **システム** > **システム ジョブ**。 承認が完了すると、経費トランザクション クラスのレコードが **実績** エンティティ に作成されます。
 

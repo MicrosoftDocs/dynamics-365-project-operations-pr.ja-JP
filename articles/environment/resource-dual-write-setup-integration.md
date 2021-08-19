@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1e9ca9407404274648f359be42d350137775ae55
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001072"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986542"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operations のセットアップと構成データの統合
 
@@ -24,7 +24,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 プロジェクト契約、契約品目、プロジェクトは、Dataverse で作成され、追加の会計のために Finance and Operations アプリに同期されます。 これらのエンティティのレコードは、Dataverseでのみ作成、削除できます。 しかし、消費税のグループの既定値や財務分析コードなどの会計属性は、Finance and Operations アプリでこれらのレコードに追加することができます。
 
-  ![プロジェクト契約統合の概念](./media/1ProjectContract.jpg)
+  ![プロジェクト契約統合の概念。](./media/1ProjectContract.jpg)
 
 営業活動のリード、営業案件、見積もりは Dataverse で追跡され、この活動に関連するダウンストリームの会計がないため Finance and Operations のアプリには同期されません。
 
@@ -51,7 +51,7 @@ Dataverse のプロジェクト契約品目は、**プロジェクト契約品�
 
 固定価格での請求方法を採用しているプロジェクト契約品目は、請求のマイルストーンを通じて請求されます。 請求のマイルストーンは、**Project Operations 統合の契約品目マイルストーン (msdyn\_contractlinescheduleofvalues)** テーブル マッピングを使用して、Finance and Operations アプリのプロジェクトの当座預金トランザクションに同期します。
 
-  ![請求マイルストーンの統合](./media/2Milestones.jpg)
+  ![請求マイルストーンの統合。](./media/2Milestones.jpg)
 
 経理担当者は、当座預金取引を確認し、その取引の会計属性を調整するには、**プロジェクト管理と会計** > **プロジェクト契約** > **管理** > **当座預金取引** または **プロジェクト管理と会計** > **すべてのプロジェクト** > **管理** > **当座預金取引** にアクセスします。
 
@@ -61,13 +61,13 @@ Dataverse のプロジェクト契約品目は、**プロジェクト契約品�
 
 プロジェクトのタスクは、参照用の **プロジェクト タスク (msdyn\_projecttasks)** テーブル マッピングを通じて、Finance and Operations アプリに同期されます。 Finance and Operations アプリでは、作成、更新、削除の操作には対応していません。
 
-  ![プリジェクト タスクの統合](./media/3Tasks.jpg)
+  ![プロジェクト タスクの統合。](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>プロジェクト リソース
 
 **プロジェクト リソースの役割** のエンティティは、参照用にFinance and Operations のテーブルマッピングを使って **すべての会社のプロジェクトリソースの役割 (bookableresourcecategories)** のアプリと同期しています。 Dataverse のリソースの役割は会社固有のものではないため、システムは、二重書きの統合範囲に含まれるすべての法人について、Finance and Operations アプリにそれぞれの会社固有のリソースの役割のレコードを自動的に作成します。
 
-![リソース ロールの統合](./media/5Resources.jpg)
+![リソース ロールの統合。](./media/5Resources.jpg)
 
 Project Operations のプロジェクト リソースは Dataverse で管理されており、Finance and Operations のアプリには同期されていません。
 
@@ -75,6 +75,6 @@ Project Operations のプロジェクト リソースは Dataverse で管理さ�
 
 トランザクションのカテゴリーは Dataverse に保持され、**プロジェクト トランザクション カテゴリ (msdyn\_transactioncategories)** のテーブル マッピングを使って Finance and Operations のアプリに同期されます。 トランザクションのカテゴリー レコードが同期されると、システムは自動的に 4 つの共有カテゴリー レコードを作成します。 各レコードは Finance and Operations アプリのトランザクション タイプに対応しており、トランザクション カテゴリのレコードにリンクしています。
 
-![トランザクション カテゴリの統合](./media/4TransactionCategories.jpg)
+![トランザクション カテゴリの統合。](./media/4TransactionCategories.jpg)
 
 見積もりと実績にトランザクション カテゴリーを使用する場合は、プロジェクトの会計士またはシステム管理者は、すべての法人に対応するプロジェクト カテゴリーを作成する必要があります。 詳細については、[プロジェクト　カテゴリの構成](../project-accounting/configure-project-categories.md) を参照してください。

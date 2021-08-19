@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011062"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986767"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Finance 環境で Project Operations を更新する
 
@@ -33,7 +33,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 4. 環境が実行されていることを確認します。 起動していない場合は、環境を起動してください。
 5. **利用可能な更新プログラム** の **新しいリリース** 下のセクションで、 10.0.15 に対する **更新の表示** を選択します。
 
-![更新の表示ボタン](media/view-update.png)
+![[更新] ボタンを表示する。](media/view-update.png)
 
 6. **バイナリ更新** ページで、**パッケージの保存** を選択します。
 7. **更新のレビューと保存** ページで、**パッケージの保存** を選択します。
@@ -47,11 +47,11 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 2. リストから、前に保存したパッケージを選択してから、**適用** を選択します。
 3. **はい** をクリックして、パッケージを展開することを確認します。
 
-![パッケージ展開の確認ダイアログボックス](media/confirm-package-deployment.png)
+![パッケージ展開ダイアログ ボックスを確認する。](media/confirm-package-deployment.png)
 
 4. **はい** をクリックして、アプリケーションを更新することを確認します。
 
-![アプリケーション更新の確認ダイアログボックス](media/confirm-application-update.png)
+![アプリケーションの更新ダイアログ ボックスを確認する。](media/confirm-application-update.png)
 
 展開とアプリケーションの更新が開始されます。 
 
@@ -84,7 +84,7 @@ UR5 の更新の一部として、エンティティのセキュリティ権限�
 
 1. Dataverse 環境で、**設定** に移動し、**システム** グループで **セキュリティ** を選択します。
 
-![Dataverse 環境の設定](media/Picture21.png)
+![Dataverse 環境の設定。](media/Picture21.png)
 
 2. **セキュリティ ロール** を選択します。
 3. ロール リストから、**二重書き込みアプリ ユーザー** を選択してから、**カスタム エンティティ** タブを選択します。 
@@ -121,7 +121,7 @@ UR5 の更新の一部として、エンティティのセキュリティ権限�
 6. マップのリストから、すべての前提条件を満たす **元帳 (msdyn_ledgers)** マップを選択し、**初期同期** チェック ボックスをオンにします。 
 7. **初期同期のマスター** フィールドで、**Finance and Operations アプリ** を選び、次に **実行** を選択します。
  
- ![元帳マップの同期](media/DW6.png)
+ ![台帳マップの同期。](media/DW6.png)
  
 
 

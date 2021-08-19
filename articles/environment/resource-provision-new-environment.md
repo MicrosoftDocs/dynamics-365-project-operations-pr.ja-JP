@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995492"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988567"
 ---
 # <a name="provision-a-new-environment"></a>新しい環境をプロビジョニングする
 
@@ -52,12 +52,12 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 6. 展開の環境タイプを選択します。 サブスクリプション ベースのトライアルでは、CDS 環境を 30 日間展開できます。 
 
-![展開の設定](./media/1DeploymentSettings.png)
+![展開の設定。](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > **同意する** を選択して利用規約サービスの利用条件を確認し、**完了** を選択して展開の設定に戻ります。
 
-![展開の同意](./media/2DeploymentConsent.png)
+![展開の同意。](./media/2DeploymentConsent.png)
 
 7. オプション - デモ データを環境に適用します。 **高度な設定** に移動して、**SQL データベース構成のカスタマイズ** を選択して、**アプリケーション データベースにデータセットを指定する** を **デモ** に設定します。
 
@@ -67,7 +67,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 9. 環境が正常に展開されたことを確認するには、**ログイン** を選択して、確認のために環境にログオンします。
 
-![ 環境の詳細](./media/3EnvironmentDetails.png)
+![環境の詳細。](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Finance 環境に更新を適用する
 
@@ -77,19 +77,19 @@ Project Operations には、**10.0.13 (10.0.569.20009)** 以上のアプリケ�
 
 1. LCS では、**環境の詳細** ページの、**利用可能な更新** セクションで、**更新の表示** を選択します。
 
-![ビューの更新](./media/5ViewUpdates.png)
+![ビューの更新。](./media/5ViewUpdates.png)
 
 2. **バイナリ更新** ページで、**パッケージの保存** を選択します。
 
-![パッケージの保存](./media/6SavePackage.png)
+![パッケージの保存。](./media/6SavePackage.png)
 
 3. **すべて選択** をクリックし、**パッケージの保存** を選択します。
 
-![レビューと更新の保存](./media/7ReviewAndSaveUpdates.png)
+![更新をレビューして保存。](./media/7ReviewAndSaveUpdates.png)
 
 4. パッケージの名前と説明を入力し、**保存** を選択します。 インターネット接続によっては、このプロセスに時間がかかる場合があります。
 
-![パッケージを資産ライブラリにアップロード](./media/8UploadPackageToAssetsLibrary.png)
+![パッケージを資産ライブラリにアップロード。](./media/8UploadPackageToAssetsLibrary.png)
 
 5. パッケージが保存されたら、**完了** を選択し、このパッケージを LCS プロジェクトの資産ライブラリに保存します。
 
@@ -97,15 +97,15 @@ Project Operations には、**10.0.13 (10.0.569.20009)** 以上のアプリケ�
 
 6. 更新を適用するには、LCS の **環境の詳細** ページで、**メンテナンス** > **更新の適用** を選択します。
 
-![環境のメンテナンス](./media/9MaintainEnvironment.png)
+![環境のメンテナンス。](./media/9MaintainEnvironment.png)
 
 7. 更新リストで、作成したパッケージを選択し、**適用** を選択します。
 
-![更新の適用する](./media/10ApplyUpdates.png)
+![更新を適用する。](./media/10ApplyUpdates.png)
 
 環境サービスには時間がかかります。 完了すると、環境は展開された状態に戻ります。
 
-![展開された環境](./media/11EnvironmentDeployed.png)
+![展開された環境。](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>二重書き込み接続の確立 
 
@@ -113,41 +113,41 @@ Project Operations には、**10.0.13 (10.0.569.20009)** 以上のアプリケ�
 2. **Common Data Service 環境情報** で、**アプリの CDS へのリンク** を選択します。
 3. リンクが完了したら、もう一度 **アプリの CDS へのリンク** を選択します。 Finance の二重書き込みにリダイレクトされます。
 
-![CDS にリンク](./media/12LinktoCDS.png)
+![CDS にリンク。](./media/12LinktoCDS.png)
 
 4. **ソリューションの適用** を選択し、統合でマップされるエンティティにアクセスします。
 
-![ソリューションを適用する](./media/13ApplySolutions.png)
+![ソリューションを適用する。](./media/13ApplySolutions.png)
 
 5. **Dynamics 365 Finance and Operations 二重書き込みエンティティ マップ** と **Dynamics 365 Project Operations 二重書き込みエンティティ マップ** のソリューションを両方選択してから **適用** を選択します。
 
-![ソリューションの確認](./media/14ConfirmSolutions.png)
+![ソリューションの確認。](./media/14ConfirmSolutions.png)
 
 ソリューションが適用された後、二重書き込みエンティティが環境に適用されます。
 
-![ソリューションの適用](./media/15ApplyingSolutions.png)
+![ソリューションの適用。](./media/15ApplyingSolutions.png)
 
 エンティティが適用されると、使用可能なすべてのマッピングが環境に一覧表示されます。
 
-![二重書き込みマップ](./media/15DWMappings.png)
+![二重書き込みマップ。](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>更新後にデータ エンティティを最新の情報に更新
 
 1. Finance で、**データ管理** ワークスペースに移動します。
 
-![データ管理のワークスペース](./media/16DataManagement.png)
+![データ管理のワークスペース。](./media/16DataManagement.png)
 
 2. **フレームワーク パラメータ** タイルを選択します。
 
-![フレームワーク パラメータ](./media/17FrameworkParameters.png)
+![フレームワーク パラメーター。](./media/17FrameworkParameters.png)
 
 3. **エンティティ設定** ページで、**エンティティ　リストを最新の情報に更新** を選択します。
 
-![エンティティ リストを最新の情報に更新](./media/18RefreshEntityList.png)
+![エンティティ リストを最新の情報に更新。](./media/18RefreshEntityList.png)
 
 最新の情報に更新するには約 20 分かかります。 完了するとアラート通知が表示されます。
 
-![最新の情報に更新を確認](./media/19RefreshConfirmation.png)
+![確認を最新の情報に更新する。](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Dataverse 上の Project Operations のセキュリティ設定を更新する
 
@@ -188,17 +188,17 @@ Project Operations には、**10.0.13 (10.0.569.20009)** 以上のアプリケ�
 4. エンティティを最新の情報に更新するには、マップ名を選択してから、**エンティティを最新の状態に更新** を選択します。 
 
 
-![マップを最新の情報に更新](./media/20RefreshMapping.png)
+![マップを最新の情報に更新する。](./media/20RefreshMapping.png)
 
 5. 最新の情報に更新が完了したら、マップを実行します。 次のマップを有効にする前に、テーブル内のマップが **実行** の状態にあることを確認してください。 前提条件の数が多いマップの実行には、時間がかかる場合があります。
 
 前提条件を使用してマップを実行するには、**関連するエンティティ マップの表示** 切り替えを有効にします。 テーブルに **前提条件の初期同期** が **いいえ** を示している場合、実行する前に、すべての前提条件マップで **初期同期** フラグが **オフ** であることを確認してください。
 
-![マップを実行](./media/21RunMap.png)
+![マップを実行する。](./media/21RunMap.png)
 
 6. プロジェクトに関連するすべてのマップが実行状態にあることを検証します。
 
-![実行中のすべてのマップ](./media/22AllMapsRunning.png)
+![実行中のすべてのマップ。](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Project Operations 用の CDS で構成データを適用する (オプション)

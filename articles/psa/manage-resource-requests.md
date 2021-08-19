@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7c7ca0dbaeb8938fc2254da782b359a5dd29e6da
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015022"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985147"
 ---
 # <a name="manage-resource-requests-project-service"></a>リソース要求の管理 (Project Service)
 
@@ -43,7 +43,7 @@ ms.locfileid: "6015022"
   
    -   **フィルター** をクリックして **フィルター** ウィンドウを表示します。このウィンドウを使用して、組織単位、役割、スキル、またはその他の属性によって、結果をフィルターすることができます。  
   
-       ![Project Service リソースの要求画面](../psa/media/project-service-resource-request-screen.png "Project Service リソースの要求画面")  
+       ![Project Service リソースの要求画面。](../psa/media/project-service-resource-request-screen.png "Project Service リソースの要求画面")  
   
 3. 予約するリソースのカレンダーで、そのリソースを予約する期間を選択してから、**予約** をクリックしてリソースを予約するか、または **予約の提案** をクリックして予約を提案し、要求者はその予約を確認します。 リソースを予約するとき、ソフト予約またはハード予約することができます。  
   

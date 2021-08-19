@@ -6,12 +6,12 @@ ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6daa86d453ec5022cdd75dff0394c8818292406c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000622"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986677"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>LCS プロジェクトに Azure サブスクリプションを追加する
 
@@ -23,35 +23,35 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 1. LCS プロジェクトの、**環境** セクションで、**Microsoft Azure 設定** を選択します。
 
-![Microsoft Azure の設定](./media/1MicrosoftAzureSettings.png)
+![Microsoft Azure の設定。](./media/1MicrosoftAzureSettings.png)
 
 2. **プロジェクト設定** ページの、**Azure コネクタ** タブで、**承認** を選択します。 これにより、環境をこのプロジェクトに展開できます。
 
-![Azure コネクタ](./media/2AzureConnectors.png)
+![Azure コネクタ。](./media/2AzureConnectors.png)
 
 3. もう一度 **承認** を選択して、管理者の同意を提供します。
 
-![管理者の同意を与える](./media/3GrantAdminConsent.png)
+![管理者の同意を与える。](./media/3GrantAdminConsent.png)
 
 4. アクセス許可の要求を受け入れます。
 
-![アクセス許可の要求を受け入れます](./media/4AcceptPermissionRequest.png)
+![アクセス許可の要求を受け入れます。](./media/4AcceptPermissionRequest.png)
 
 これで承認は完了です。 
 
-![承認に成功しました](./media/5AuthorizationComplete.png)
+![承認に成功しました。](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a> Dynamics Deployment Services に Azure サブスクリプションへのアクセスを提供します
 
 1. [Microsoft Azure 請求](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) に移動し、サブスクリプションを選択します。 Dynamics Deployment Servicesは、環境を展開できるようにするために、このサブスクリプションにアクセスする必要があります。
 
-![Azure のサブスクリプションの詳細](./media/6AzureSubscription.png)
+![Azure サブスクリプションの詳細。](./media/6AzureSubscription.png)
 
 2. ナビゲーション ウィンドウで **アクセス制御 (IAM)** を選択し、**ロールの割り当ての追加** を選択します。
 3. 右側のスライダーで、**共同作成者ロール** を選択し、提供されたリストで、**Dynamics Deployment Services** を検索して選択します。 
 4. **保存** を選択します。
 
-![サブスクリプション アクセス](./media/7SubscriptionAccess.png)
+![サブスクリプション アクセス。](./media/7SubscriptionAccess.png)
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>LCS プロジェクトにサブスクリプション コネクタを追加する
 

@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015067"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985507"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Project Service Automation での 請求
 
@@ -50,17 +50,17 @@ PSAは、次の理由により、顧客向け請求書を生成するように�
 
 - **プロジェクト契約** リスト ページで、プロジェクト契約を開き、 **請求書の​​作成** を選択します。
 
-    ![特定のプロジェクト契約に対するプロジェクト請求書の作成](media/CreateProjectInvoicesOneByOne.png)
+    ![特定のプロジェクト契約に対するプロジェクト請求書の作成。](media/CreateProjectInvoicesOneByOne.png)
 
-    ステータスが **請求準備完了** の選択したプロジェクト契約の全トランザクションに対して請求書が生成されます。 これらのトランザクションには、時間、経費、マイルストーン、製品ベースの契約品目が含まれます。
+    状態が **請求準備完了** になっている、選択済みプロジェクト契約のすべてのトランザクションに対して請求書が生成されます。 これらのトランザクションには、時間、経費、マイルストーン、製品ベースの契約品目が含まれます。
 
 請求書を一括して作成するには、次の手順に従います。
 
-1. **プロジェクト契約** 一覧ページで、請求書を作成する必要のあるプロジェクト契約を 1 つ以上選択し、 **プロジェクト請求書の作成** を選択します。
+1. **プロジェクト契約** リスト ページで、請求書を作成する必要がある 1 つ以上のプロジェクト契約を選択し、**プロジェクト請求書の作成** を選択します。
 
-    ![プロジェクト請求書の一括作成](media/CreateProjectInvoicesBulk.png)
+    ![プロジェクト請求書の一括作成。](media/CreateProjectInvoicesBulk.png)
 
-    警告メッセージは、請求書が作成される前に遅延が発生する可能性があることを通知します。 プロセスも表示されます。
+    請求書が作成されるまでに遅延が生じる場合があることを伝える警告メッセージが表示されます。 プロセスも表示されます。
 
 2. **OK** を選択してメッセージ ボックスを閉じます。
 
