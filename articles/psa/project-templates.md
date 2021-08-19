@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bedcbc76d932a81e0c78bb58ce6a161446a26dde
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998282"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002517"
 ---
 # <a name="project-templates"></a>プロジェクト テンプレート 
 
@@ -47,7 +47,7 @@ ms.locfileid: "5998282"
 
 - 見積もりからプロジェクトを作成した場合は、**簡易作成 : プロジェクト** のダイアログボックス内でプロジェクト テンプレートを選択できます。
 
-> ![簡易作成: プロジェクト ダイアログ ボックス](media/project-11.png)
+> ![簡易作成: プロジェクト ダイアログ ボックス。](media/project-11.png)
 
 - **新規プロジェクト** を選択してプロジェクトを作成する場合、**プロジェクト** ページは、レコードが保存される前に表示されます。 **テンプレートの選択** フィールドで、組織内の慈善定義済みプロジェクト テンプレートの一つを選択します。
 - **テンプレート エンティティ** ページで、**テンプレートからプロジェクトを作成** を使用します。

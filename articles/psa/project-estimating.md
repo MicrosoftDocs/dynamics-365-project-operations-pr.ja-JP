@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009172"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002562"
 ---
 # <a name="project-costs-and-revenue"></a>プロジェクトコストと売上
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009172"
 
 プロジェクト見積もりは、プロジェクト スケジュールで見積もられ、スケジュールされた作業の財務ビューを提供します。 **プロジェクト** ページの **見積もり** タブは、計画している作業のコスト、売上の影響を示します。 また、多くの定義済みディメンションについての情報も提供します。 
 
-> ![見積もりタブ](media/project-5.png)
+> ![[見積もり] タブ。](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>プロジェクトのコストと販売額
 
@@ -66,13 +66,13 @@ ms.locfileid: "6009172"
 
 **見積もり** タブには、見積り明細行を示すグリッド ビューがあります。 このグリッドは、次の図に示すように、単位、総コスト価格、および販売価格の列が含まれています。 
 
-> ![見積りタブのグリッド ビュー](media/project-6.png)
+> ![[見積り] タブのグリッド ビュー。](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>プロジェクト見積もりの時間フェーズ ビュー
 
 プロジェクトの時間フェーズ ビューは、タイムライン全体のグリッド ビューから見積もりデータを示します。 既定では、見積もりデータは **ロール** ディメンションでピボットされます。
 
-> ![プロジェクト見積りの時間フェーズ ビュー](media/project-7.png)
+> ![プロジェクト見積りの時間フェーズ ビュー。](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>タスク モードに基づく推定労力の割り当て
 

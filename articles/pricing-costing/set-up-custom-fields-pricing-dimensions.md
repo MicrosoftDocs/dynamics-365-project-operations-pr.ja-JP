@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d40a80f80bd766bfc19e831ea805a4043baf0030
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6004717"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003597"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>価格ディメンションとしてカスタム フィールドを設定する
 
@@ -42,11 +42,11 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 - **価格ディメンション** テーブルに行が作成されました たとえば、次のグラフィックに示すように、価格ディメンションの行を追加します。 
 
-![金額ベースの価格ディメンションの行](media/Amt-based-PD.png)
+![合計金額ベースの価格ディメンションの行。](media/Amt-based-PD.png)
 
 リソースの作業時間 (**msdyn_resourceworkhours**)は 利幅ベースのディメンションとして追加され、また、 **利幅ベースの価格ディメンション** タブに追加されています。
 
-![利幅ベースの価格ディメンションの行](media/Markup-based-PD.png)
+![利幅ベースの価格ディメンションの行。](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]

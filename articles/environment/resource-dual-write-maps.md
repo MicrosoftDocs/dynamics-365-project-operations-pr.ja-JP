@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025780"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003822"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 二重書き込みマッピングのバージョン
 
@@ -32,7 +32,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 1. マップのリストから、すべての前提条件を満たす元帳 **(msdyn\_ledgers)** マッピングを選択し、**初期同期** チェック ボックスをオンにします。 **初期同期のマスター** フィールドで、**Finance and Operationsアプリ** 元帳マッピングとすべての前提条件マップの両方を選択します。 **実行** を選択します。
 
-![元帳マップの同期](media/DW6.png)
+![台帳マップの同期。](media/DW6.png)
 
 2. 上の表に記載されている残りのすべてのテーブル マッピングについても、同じ手順に従います。 これらのマッピングを実行する際には、**初期同期** のチェック ボックスを選択しないでください。
 
@@ -65,7 +65,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 1. **all companies (bookableresourcecategories)** テーブル マッピングのプロジェクト リソース ロールを有効にします。**初期同期のマスター** フィールドで **Common data service** を選択します。 
 
- ![リソース ロールテーブル マッピングの同期](media/6ResourceInitialSync.jpg)
+ ![リソース ロールテーブル マッピングの同期。](media/6ResourceInitialSync.jpg)
 
  マッピングの状態が **実行中** になるまで待機してから次のステップに進みます。
 

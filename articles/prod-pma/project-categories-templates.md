@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 2816d363dbfe6ef2d98a584b214f72d9b30c49bb
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999857"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001122"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>プロジェクト経費カテゴリを Finance and Operations と Project Service Automation 間で同期する
 
@@ -56,7 +56,7 @@ Project Service Automation と Finance の統合ソリューションは、デ�
 
 次の図は、Project Service Automation と Finance 間でデータを同期する方法を示します。
 
-[![Finance を使用した Project Service Automation 統合用データ フロー](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
+[![Project Service Automation と Finance の統合用データ フロー。](./media/ProjectExpenseCategoriesFlow.png)](./media/ProjectExpenseCategoriesFlow.png)
 
 ## <a name="project-expense-category-synchronization-from-finance-to-project-service-automation"></a>プロジェクト経費カテゴリを Finance と Project Service Automation 間で同期
 
@@ -93,7 +93,7 @@ Project Service Automation に同期する場合は、Microsoft Power Query for 
 
 次の図は、データ統合のテンプレート タスク マッピングの例を示しています。 マッピングには、Finance から Project Service Automation に同期されるフィールド情報が表示されます。
 
-[![プロジェクト経費カテゴリから Project Service Automation へのテンプレート マッピング](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![プロジェクト経費カテゴリから Project Service Automation へのテンプレート マッピング。](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>プロジェクト経費カテゴリを Project Service Automation から Finance へ同期
 
@@ -121,7 +121,7 @@ Project Service Automation に同期する場合は、Microsoft Power Query for 
 > [!NOTE]
 > マッピングには、Project Service Automation から Finance に同期されるフィールド情報が表示されます。
 
-[![Project Service Automation から Finance へのテンプレート マッピング](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+[![Project Service Automation から Finance へのテンプレート マッピング。](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3be18adfa1d346bdabae7e89375ca2c5a2dbda95
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009622"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005082"
 ---
 # <a name="organizational-units"></a>組織単位 
 
@@ -53,7 +53,7 @@ PSA で、PSA の組織単位は特定の通貨と特定の原価価格リスト
 - **契約単位** – 営業の獲得、納品、顧客サービスの提供の管理を主に担当する企業グループや部門を表す組織単位。 契約単位は **営業案件**、**見積もり**、**プロジェクト契約**、**プロジェクト** の各ページのヘッダーセクションの **契約単位** フィールドによって識別されます。
 - **リソース単位** – リソースが属するまたは割り当てられている組織単位。 この組織単位は、所有する作業指示書 (SOW) とプロジェクトのいくつかの役割にリソースを提供できます。
 
-> ![契約単位とリソース単位](media/advanced-1.png)
+> ![契約単位とリソース単位。](media/advanced-1.png)
 
 ## <a name="organizational-unit-faqs"></a>組織単位に関するよくある質問
 

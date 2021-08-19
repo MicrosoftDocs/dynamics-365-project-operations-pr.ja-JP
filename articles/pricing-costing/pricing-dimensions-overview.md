@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368482"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001977"
 ---
 # <a name="pricing-dimensions-overview"></a>価格ディメンションの概要
 
@@ -33,7 +33,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 Dynamics 365 Project Operations には、価格ディメンションの既定セットが付属しています。 これらの価格設定ディメンション表示するには、 **プロジェクト サービス** > **パラメーター** に移動します。 パラメーター レコードの **金額ベースの価格ディメンション** タブで、ロール **msdyn_resourcecategory** と リソース組織単位 **msdyn_organizationalunit** のフィールド **営業に適用可能** と **コストに適用可能** が **はい** に設定されていることを確認します。 これらのフィールドを有効化することで、各ロールや組織単位の組み合わせの価格とコストを設定することができます。
 
-![強調表示された 「営業に適用可能」 の Project Service パラメーターのスクリーンショット](media/PS-OOB-parameters.png)
+!["営業に適用可能" が強調表示された Project Service パラメーターのスクリーンショット。](media/PS-OOB-parameters.png)
 
 追加の属性を使用してリソースの価格やコストを設定する必要がある場合は、カスタマイズしたフィールド、エンティティおよびディメンションを作成できます。 詳細については、次のトピックを参照してください。 
   

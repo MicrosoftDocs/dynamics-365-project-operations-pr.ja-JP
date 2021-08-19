@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008317"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002337"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>価格ディメンションとしてカスタム フィールドを設定する 
 
@@ -41,11 +41,11 @@ ms.locfileid: "6008317"
 - **ロール価格** および **ロール価格の利幅** エンティティでフィールドを作成します。 この方法についての詳細は、[価格設定とトランザクション エンティティに対してカスタム フィールドを追加する](field-references.md)を参照してください。
 - **価格ディメンション** テーブルに行が作成されました たとえば、次のグラフィックに示すように、価格ディメンションの行を追加します。 
 
-![金額ベースの価格ディメンションの行](media/Amt-based-PD.png)
+![合計金額ベースの価格ディメンションの行。](media/Amt-based-PD.png)
 
 注意: リソースの作業時間 (**msdyn_resourceworkhours**)は 利幅ベースのディメンションとして追加され、また、 **利幅ベースの価格ディメンション** タブに追加されました。
 
-![利幅ベースの価格ディメンションの行](media/Markup-based-PD.png)
+![利幅ベースの価格ディメンションの行。](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > このテーブルの価格ディメンション データに対する変更は、既存か新規かに関わらず、キャッシュを更新した後、Project Service 価格設定のビジネス ロジックに伝播されます。 キャッシュの更新時間は最大で10分かかる場合があります。 この時間を使って、価格ディメンション データに対する変更に明らかに起因する既定の価格設定ロジックの変更を確認します。

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 2f5fa0143c903f08b3937426805cb43d5d6109e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999812"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001077"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>プロジェクト契約とプロジェクトを、Project Service Automation から Finance に直接同期します 
 
@@ -42,7 +42,7 @@ Project Service Automation から Finance への統合ソリューションは�
 
 次の図は、Project Service Automation と Finance 間でデータを同期する方法を示します。
 
-[![Finance との Project Service Automation 統合用データ フロー](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Project Service Automation と Finance の統合用データ フロー。](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>テンプレートおよびタスク
 
@@ -140,17 +140,17 @@ Power Query を使用する必要がある場合は、これらのガイドラ�
 
 次の図は、データ統合のテンプレート タスク マッピングの例を示しています。 マッピングには、Project Service Automation から Finance に同期されるフィールド情報が表示されます。
 
-[![プロジェクト契約テンプレート マッピング](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![プロジェクト契約テンプレート マッピング。](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![プロジェクト テンプレート マッピング](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![プロジェクト テンプレート マッピング。](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![プロジェクト契約品目テンプレート マッピング](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![プロジェクト契約品目テンプレート マッピング。](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![プロジェクト契約品目マイルストーンのテンプレート マッピング](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![プロジェクト契約品目マイルストーンのテンプレート マッピング。](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>プロジェクトおよび契約におけるプロジェクト契約品目のマイルストーン マッピング (PSA 3.x から Dynamics へ) - v2 テンプレート:
 
-[![バージョン 2 テンプレートを使用したプロジェクト契約品目マイルストーン マッピング](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+[![バージョン 2 テンプレートを使用したプロジェクト契約品目マイルストーン マッピング。](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
