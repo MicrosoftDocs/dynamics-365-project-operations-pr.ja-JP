@@ -16,12 +16,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: c6d849e4be9e3687396cd6a0c4158d92f25c7879
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012052"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995407"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>承認された時間と経費の入力によって作成された実績の一括修正
 
@@ -62,7 +62,7 @@ ms.locfileid: "6012052"
 
 たとえば、次の図では、数量が 8.00 となっている 2 つの明細があり、[金額] 列に借方がリストされています。 さらに、[金額] 列に貸し方の数量を示す、-8.00 となっている 2 つの明細があります。 この修正を行うことで、数量はゼロになります。
 
-![実績に関連するビューのリスト](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
+![実績に関連するビューのリスト。](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
  
 ## <a name="correct-approved-expense-entries"></a>承認済みの経費入力を修正する
 
@@ -87,7 +87,7 @@ ms.locfileid: "6012052"
 
 8. プロジェクト ページの **実績** タブ、**実際の関連ビュー** を確認します。 元の入力値と修正された入力値が一覧表示されます。 以下の図は、元の経費入力金額と、それに対応する修正後の経費入力金額を示しています。 
 
-![実際の経費](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+![実際の経費。](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997967"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995047"
 ---
 # <a name="propose-project-resources"></a>プロジェクト リソースの提案
 
@@ -32,21 +32,21 @@ ms.locfileid: "5997967"
 1. その要求のグリッドまたは要求自体から、**リソースの検索** を選択します。
 2. **アシスタントをスケジュール** ページで、リソースを選択した後、**リソース予約の作成** ウィンドウの、**予約状態** フィールドで、**予約** を選択します。
 
-    ![選択された提案リソース](media/Resource-Management-image62.png)
+    ![選択された提案リソース。](media/Resource-Management-image62.png)
 
-次のステータス更新がおこなわれます:
+次のようなステータスの更新が発生します。
 
-- **スケジュール アシスタント** ページで、状態インジケーターが、予約が本予約ではなく、提案されたことを示すように更新されます。
+- **スケジュール アシスタント** ページでステータス インジケーターが更新され、予約が「本予約」ではなく「提案」と表示されます。
 
-    ![スケジュール アシスタント ページの提案済み予約の状態インジケーター](media/Resource-Management-image63.png)
+    ![スケジュール アシスタント ページの提案済み予約の状態インジケーター。](media/Resource-Management-image63.png)
 
-- リソース要求で、状態が **要レビュー** に変更されます。
+- リソース要求で、ステータスが **レビューが必要** に変更されます。
 
-    ![リソース要求状態が要レビューに変更されます。](media/Resource-Management-image64.png)
+    ![リソース要求状態が「要レビュー」に変更されます。](media/Resource-Management-image64.png)
 
-- プロジェクトの **チーム** タブで、汎用チーム メンバーの **要求の状態** 値が **要確認** に変更されます。
+- プロジェクトの **チーム** タブで、汎用的なチーム メンバーの **要求のステータス** の値が **レビューが必要** に変更されます。
 
-    ![チームタブで、汎用チーム メンバーの要求の状態値が要確認に変更されます。](media/Resource-Management-image48.png)
+    ![[チーム] タブで、汎用チーム メンバーの要求の状態値が「要確認」に変更されます。](media/Resource-Management-image48.png)
 
 プロジェクト マネージャーは、提案を承認または拒否することができます。
 
@@ -68,11 +68,11 @@ ms.locfileid: "5997967"
 - 内部 = 販売契約なしの実際の時間 ÷ リソース キャパシティ
 - リソース キャパシティ = リソース作業時間 – 外出中 – 非勤務日
 
-**リソース** ウィンドウの **リソース稼働率** ビューがあります。
+**リソース稼働率** ビューは、**リソース** ウィンドウにあります。
 
-![リソース稼働率ビュー](media/Resource-Management-image65.png)
+![リソース稼働率の表示。](media/Resource-Management-image65.png)
 
-グリッド内の各セルは、日、週、または月などの期間でのリソースの支払請求可能な稼働率パーセントを表します。 セルの色付けには次の計算式が使用されます:
+グリッドの各セルは、日、週、または月などの期間におけるリソースの支払請求可能な稼働率を表します。 セルの色付けには次の計算式が使用されます:
 
 - **緑:** 支払請求可能な稼働率 \>= リソースの目標稼働率
 - **黄色:** 目標稼働率 – 20 \<= 支払請求可能な稼働率 \< 目標稼働率
@@ -84,7 +84,7 @@ ms.locfileid: "5997967"
 
 さらに、既定ロールは各予約可能リソースに割り当てられる必要があります。 **リソース** \> **リソース** へ移動します。 **Project Service** タブでは、リソース ロールが定義され、**既定** フィールドが **はい** に設定されていることを確認します。 **規定 = いいえ** のところにはその他のロールを追加できます。 **規定 = はい** のところのロールは、そのロールの目標に対するリソースの稼働率を評価するために使用されます。
 
-![既定ロールの設定](media/Resource-Management-image67.png)
+![既定ロールの設定。](media/Resource-Management-image67.png)
 
 **Project Service** タブでは、リソースの個々の目標リソース稼働率も設定できます。 その後、稼働率計算を使って、リソースの既定ロールの目標の代わりに、リソースの目標を評価します。
 
@@ -96,21 +96,21 @@ ms.locfileid: "5997967"
 
 リソースの作業時間は、リソースの空き時間を計算するための基本として使用されます。 リソースの予約は、リソースのキャパシティを消費します。
 
-![スケジュール ボード](media/Resource-Management-image68.png)
+![スケジュール ボード。](media/Resource-Management-image68.png)
 
 スケジュール ボードは、色と影を使用して、予約、空き時間、予約超過、さらに予約状況も表示します。 スケジュール ボード設定の設定は凡例を表示することができます。
 
 スケジュール ボードの個々の予約可能リソースの横に右向きの矢印が表示されている場合は、そのリソースは予約された作業の詳細表示を展開することができます。
 
-![スケジュール ボードで展開された予約可能リソース](media/Resource-Management-image69.png)
+![スケジュール ボードで展開された予約可能リソース。](media/Resource-Management-image69.png)
 
 Dynamics 365 Project Service Automation は Universal Resource Scheduling エンジンを使用していることから、Dynamics 365 Field Service がインストールされている場合は、プロジェクトの予約、作業指示書、スケジュールするために拡張したその他のエンティティの詳細を表示することができます。
 
-![プロジェクトおよび作業指示書のリソース予約の詳細](media/Resource-Management-image70.png)
+![プロジェクトおよび作業指示書のリソース予約の詳細。](media/Resource-Management-image70.png)
 
 個々のリソースに関する詳細を表示するには、右クリックしてリソース カードを開きます。
 
-![リソース カード](media/Resource-Management-image71.png)
+![リソース カード。](media/Resource-Management-image71.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

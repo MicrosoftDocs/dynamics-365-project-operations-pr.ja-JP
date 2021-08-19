@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 400d817ee7cbae6f6da95db4286ad6c4d6ff349a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008002"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995227"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>新しいカスタム エンティティ フォームを追加する (Project Service Automation 2.x)
 
@@ -57,7 +57,7 @@ Dynamics 365 Project Service Automation は営業案件、見積もり、受注�
     - アンマネージド ソリューションの一部として **自分のプロジェクト情報** フォームをエクスポートし、エクスポートされたソリューションの「customization.xml」ファイルで **formId** 値を検索します。
     - 次の図に示すように、フォーム エディターで **自分のプロジェクト情報** フォームを開き、URL の **fromId** パラメータの横にあるグローバル一意識別子 (GUID) を探します。
 
-    ![URL の新しいフォームの formId 値](media/how-to-add-custom-forms-in-v2.0.png)
+    ![URL の新しいフォームの formId 値。](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js Webリソースを編集して、**formId** 値の **msdyn\_ordertype** マッピングを作成します。 リソースからコードを削除し、次のコードに置き換えます。
 

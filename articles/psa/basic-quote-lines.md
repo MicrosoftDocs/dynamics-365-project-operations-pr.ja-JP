@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014931"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995452"
 ---
 # <a name="quotes-and-quote-lines"></a>見積もりおよび見積依頼明細行
 
@@ -84,7 +84,7 @@ PSA は、固定価格の見積依頼明細行の 3 種類すべての請求書�
 
 これらのトランザクション分類の 1 つ以上を見積依頼明細行に関連付けることができます。 見積もりが成立した後、トランザクション分類と見積依頼明細行の間のマッピングは契約品目に転送されます。
  
-> ![トランザクション タイプを見積依頼明細行および契約品目にマッピングするスクリーンショット](media/basic-guide-5.png)
+> ![トランザクション タイプを見積依頼明細行および契約品目にマッピングするスクリーンショット。](media/basic-guide-5.png)
   
 たとえば、見積もりには次の 2 つの見積依頼明細行が含まれる場合があります。 
 - 時間と材料の請求方法を使用するコンサルティング作業。ここでは、時間と料金のトランザクション分類が適用されます。 たとえば、**Dynamics AX 実装** (プロジェクト例) のすべての時間と料金のトランザクションは、使用される時間と材料に基づいて顧客に請求されます。 

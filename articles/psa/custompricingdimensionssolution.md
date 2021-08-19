@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012322"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995272"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>価格設定ディメンションのカスタム ソリューションを作成する
 
@@ -32,7 +32,7 @@ ms.locfileid: "6012322"
 1. **設定** > **ソリューション** を選択し、次に **新規** を選択します。 
 2. **\<your organization name> 価格設定ディメンション** ソリューションの名称を決定し、その他必要な情報を入力し、 **保存** を選択します。
 
-> ![価格設定ディメンションのカスタムソリューションを作成する](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![価格設定ディメンションのカスタム ソリューションを作成する。](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>価格設定ディメンション ソリューションにすべての必須エンティティと、関連するコンポーネントを追加する
 価格設定ソリューションには、以下の Project Service エンティティを追加する必要があります。 この手順を完了して、エンティティが新しい価格設定ディメンションを認識できるよう、価格設定ソリューションで重要なスキーマ変更を行います。
@@ -52,18 +52,18 @@ ms.locfileid: "6012322"
 - 見積依頼明細行の詳細
 - ロール価格利幅
 - ロール価格 
-- 時間入力 
+- 時間エントリ 
 
 > ![価格設定ディメンション ソリューションに既存のエンティティを追加します。](media/Existing-entities-to-PD-solution.png)
 
-> ![ソリューション コンポーネントの選択](media/Dimension-Components.png)
+> ![ソリューション コンポーネントの選択。](media/Dimension-Components.png)
 
 > [!NOTE]
 > 選択した各エンティティのすべてのフォームとビューが含まれていることを確認してください。
 
 4. 選択したエンティティの依存エンティティを含めるかどうかを確認するダイアログが表示された場合、**いいえ** を選択してください。
 
-> ![すべての関連コンポーネントを含めない](media/Do-not-include-required.png)
+> ![すべての関連コンポーネントを含めない。](media/Do-not-include-required.png)
 
 
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49d109be3d55e7f208edb2698e420f40bb7843df
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998417"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995182"
 ---
 # <a name="sales-estimates-and-projects"></a>売上予測とプロジェクト
 
@@ -35,11 +35,11 @@ ms.locfileid: "5998417"
 
 プロジェクトベースの見積依頼明細行を作成する場合、新規プロジェクトの作成や、**見積依頼明細行** ページの既存のプロジェクトと関連付けることができます。 
 
-> ![見積依頼明細行フォーム](media/project-8.png)
+> ![見積依頼明細行フォーム。](media/project-8.png)
  
 見積依頼明細行の詳細で新規プロジェクトを作成する場合、プロジェクト テンプレートを利用できます。 プロジェクト テンプレートは、標準プロジェクト計画と組織内の一般的な会計の予測を表すモデル プロジェクトです。 過去のプロジェクトからのプロジェクト計画や予測のコピーも表すことができます。
 
-> ![見積依頼明細行の詳細](media/project-9.png)
+> ![見積依頼明細行の詳細。](media/project-9.png)
   
 見積からプロジェクトを作成する場合、プロジェクトは自動的に見積依頼明細行と関連付けられます。
 
