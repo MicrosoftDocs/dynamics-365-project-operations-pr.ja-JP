@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d348515f8bd64df8aaab3a8a6dbee09237973f11
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 425cd38c204a67cda9ce03bdc96b728e03499c87aeddd6f62924b57e16b21167
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995582"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989962"
 ---
 # <a name="start-a-new-lcs-project"></a>新しい LCS プロジェクトを開始する
 
@@ -24,13 +24,13 @@ Lifecycle Services (LCS) を使用して Dynamics 365 Project Operations 環境�
 3. プラス記号 ( **+** ) を選択して、新しいプロジェクトを作成します。
 4. プレビューの目的で、**移行、ソリューションの作成、および学習** プロジェクトの種類を選択します。
 
-  ![LCS プロジェクトの種類を選択](./media/create-lcs-1.png)
+  ![LCS プロジェクトの種類を選択。](./media/create-lcs-1.png)
 
 5. プロジェクトに名前を付けます。 
 6. **Finance and Operations** を製品名として選択し、業種と手法を選択します。 
-7. **作成** を選びます。
+7. **作成** を選択します。
 
-![LCS プロジェクトの作成](./media/create-lcs-2.png)
+![LCS プロジェクトを作成する。](./media/create-lcs-2.png)
 
 この LCS プロジェクトを使用して、Project Operations 環境を展開します。
 

@@ -6,12 +6,12 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012592"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991041"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>課金プロジェクトの会計の構成
 
@@ -101,23 +101,23 @@ Dynamics 365 Project Operations では、時間と材料と固定価格での取
 
 時間と材料 - 仕掛品なし
 
-![コストと売上プロファイル: 時間と材料 - 仕掛品なし](media/time-material-no-wip.png)
+![コストと売上プロファイル: 時間と材料 - 仕掛品なし。](media/time-material-no-wip.png)
 
 時間と材料 – 仕掛品 (売上)
 
-![コストと売上プロファイル: 時間と材料 - 仕掛品](media/time-material-with-wip.png)
+![コストと売上プロファイル: 時間と材料 - 仕掛品。](media/time-material-with-wip.png)
 
 固定価格 – 仕掛品なし
 
-![コストと売上プロファイル: 固定価格 - 仕掛品なし](media/fixed-price-no-wip.png)
+![コストと売上プロファイル: 固定価格 - 仕掛品なし。](media/fixed-price-no-wip.png)
 
 固定価格 – 完了した契約
 
-![コストと売上プロファイル: 固定価格 - 完了した契約](media/fixed-price-completed-contract.png)
+![コストと売上プロファイル: 固定価格 - 完了した契約。](media/fixed-price-completed-contract.png)
 
 固定価格 – 完了率
 
-![コストと売上プロファイル: 固定価格 - 完了率](media/fixed-price-completed-percentage.png)
+![コストと売上プロファイル: 固定価格 - 完了率。](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>プロジェクト コストおよび売上プロファイルのサンプルの会計イベント例。

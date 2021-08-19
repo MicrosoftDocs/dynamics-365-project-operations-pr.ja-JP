@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007597"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992392"
 ---
 # <a name="estimates"></a>見積もり
 
@@ -83,24 +83,24 @@ PSAでは、契約またはプロジェクトの受注変更に対応してい�
 1. PluginRegistrationTool を開いて、オンライン インスタンスに接続します。
 2. **検索** を選択し、更新するプラグインを検索します。
 
-    ![ツリーのダイアログ ボックスを検索する](media/basic-guide-19.png)
+    ![ツリーのダイアログ ボックスを検索する。](media/basic-guide-19.png)
 
 3. プラグインを選択し、メイン ページで **選択する** を選択します。
 4. 更新をするプラグインのステップを選んで右クリックし、 **更新** を選択します。
 
-    ![プラグインのステップを選択する](media/basic-guide-20.png)
+    ![プラグインのステップを選択する。](media/basic-guide-20.png)
 
 5. **既存の手順の更新** ダイアログ ボックスで、 **属性をフィルタする** フィールドの省略記号(...)ボタン (**...**) を選択します:
  
-    ![既存の手順の更新 ダイアログボックス](media/basic-guide-21.png)
+    ![既存の手順ダイアログ ボックスを更新する。](media/basic-guide-21.png)
 
 6. **属性の選択** ダイアログ ボックスで、カスタム属性のチェックボックスを選択します。
 
-    ![属性を選択ダイアログボックス](media/basic-guide-22.png)
+    ![属性ダイアログ ボックスを選択する。](media/basic-guide-22.png)
 
 7. **OK** を選択してダイアログボックスを閉じ、 **手順の更新** を選択します。
  
-    ![手順ボタンの更新](media/basic-guide-23.png)
+    ![手順ボタンの更新。](media/basic-guide-23.png)
 
 8. さらにプラグインを更新するには、手順1 から 7を繰り返します。
 9. プラグイン登録ツールを閉じます。

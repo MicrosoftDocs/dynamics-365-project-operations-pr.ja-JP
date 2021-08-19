@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9fc49211f3c2c79e18f6dd18e9a687091793cad0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996752"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991762"
 ---
 # <a name="link-actuals-to-original-records"></a>実績を元のレコードにリンクする
 
@@ -77,7 +77,7 @@ Project Operations はこれら 5 つのエンティティ レコードをビジ
 
 次の例は、Project Operations プロジェクトのライフサイクルにおける時間エントリの一般的な処理を示しています。
 
-> ![Project Service ライフサイクルの処理時間エントリ](media/basic-guide-17.png)
+> ![Project Service ライフ サイクルの時間エントリ処理。](media/basic-guide-17.png)
  
 1. 時間エントリを送信すると、2 つの仕訳入力が作成されます。1 行は原価用、もう 1 行は未請求販売用です。
 2. 時間入力の最終承認により 2 つの実績が作成されます。1 つの実績は原価用、もう 1 つの実績は未請求販売用です。

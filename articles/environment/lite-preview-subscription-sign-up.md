@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334788"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991537"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>プレビュー サブスクリプションにサインアップする (ライト) 
 
@@ -52,16 +52,16 @@ ms.locfileid: "6334788"
 
 1. トピック [Dataverse デプロイ モデル](lite-deployment.md) の指示に従って、新しい Project Operations Dataverse デプロイ環境をプロビジョニングします。 環境タイプを選択するときは、**試用 (サブスクリプション ベース)** を必ず使用してください。
 
-  ![新しい環境](./media/19CreateEnvironment.png)
+  ![新しい環境。](./media/19CreateEnvironment.png)
 
 2. **Dynamics 365 アプリを有効にする** の設定を選択し、**これらのアプリを自動的に展開** を空白のままにします。  
 3. **保存** を選択して、環境を作成します。
 
-  ![データベースの追加](./media/20CreateEnvironment1.png)
+  ![データベースの追加。](./media/20CreateEnvironment1.png)
 
 4. 環境が作成されたら、**Microsoft Dynamics 365 Project Operations** ソリューションをインストールします。 
 
-![ソリューションのインストール](./media/21InstallSolution.png)
+![ソリューションのインストール。](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS コンフィグレーションをインストールし、デモ データを設定する
 

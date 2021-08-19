@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996572"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993247"
 ---
 # <a name="project-invoice-integration"></a>プロジェクト請求書統合
 
@@ -20,7 +20,7 @@ ms.locfileid: "5996572"
 
 Project Operations では、プロジェクト マネージャーがプロジェクトの請求書のバックログを管理し、Microsoft Dataverse の顧客への仮の請求書を作成します。 仮の請求書に基づいて、売掛金担当者やプロジェクト会計士が顧客向けの請求書を作成します。 二重書き込みの統合により、仮の請求書の詳細が Finance and Operations アプリに同期されます。 顧客向けの請求書が転記された後、システムは Dataverse の関連するプロジェクトの実績を会計の詳細に合わせて更新します。 次の図は、この統合の高レベルの概念的概要を示しています。
 
-   ![プロジェクト請求書統合](./media/DW5Invoicing.png)
+   ![プロジェクト請求書統合。](./media/DW5Invoicing.png)
 
 プロジェクト マネージャーが Dataverse で仮の請求書を確認した後、仮の請求書のヘッダー情報は、二重書き込みテーブル マッピング **ロジェクト請求書提案 V2 (invoices)** を使って Finance and Operations アプリに同期されます。 これは Dataverse アプリから Finance and Operations アプリへの一方通行の統合です。 Finance and Operations アプリで直接プロジェクトの請求書案を作成や削除はサポートされていません。
 
