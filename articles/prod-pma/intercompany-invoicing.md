@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1debf8f67b7dbe7752075c6f8e5f2cdd37a3ae
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002782"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995812"
 ---
 # <a name="intercompany-invoicing"></a>会社間請求
 
@@ -33,7 +33,7 @@ ms.locfileid: "6002782"
 
 次の図は、SI FR (借入法人)と SI USA (融資法人) の 2 つの法人がリソースを共有して、顧客 A にプロジェクトを提供する典型的なシナリオを示しています。このシナリオでは、SI FR が顧客 A に働きかけます。 
 
-[![会社間請求の例](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![会社間請求の例。](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 目標は、会社間プロジェクト トランザクションのコスト管理、収益認識、税額、移転価格をより柔軟で強力なものににすることです。 さらに、次の機能も提供されます。
 

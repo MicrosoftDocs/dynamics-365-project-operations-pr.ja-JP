@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368887"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998467"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>価格とコストのディメンションのホーム ページ
 
@@ -41,7 +41,7 @@ ms.locfileid: "6368887"
 
 PSAには、価格ディメンションの既定セットが付属しています。 これらを表示するには、 **Project Service** > **パラメーター** に移動します。 パラメーター レコードの **金額ベースの価格ディメンション** タブで、ロール **msdyn_resourcecategory** と リソース組織単位 **msdyn_organizationalunit** のフィールド **営業に適用可能** と **コストに適用可能** が **はい** に設定されていることを確認します。 これによって各ロールや組織単位の組み合わせの価格とコストを設定することができます。
 
-![強調表示された 「営業に適用可能」 の Project Service パラメーターのスクリーンショット](media/PS-OOB-parameters.png)
+!["営業に適用可能" が強調表示された Project Service パラメーターのスクリーンショット。](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > PSAのバージョン 3 よりも前に、価格ディメンションとしてロールと組織単位の標準フィールドを使用していた場合、注目すべき変更はありません。 通常どおり Project Service を引き続き使用できます。 

@@ -6,12 +6,12 @@ ms.date: 03/19/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e79e33da618c4ab32b1ba13f33e50f60a550ff0b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e4be4c8087005ae66a54d40ac88017df591c56eca64f04b00cf34b0e5a8a09ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010792"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998692"
 ---
 # <a name="financial-estimates-for-resource-time-on-projects"></a>プロジェクトのリソース時間の財務見積もり
 
@@ -37,7 +37,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 サマリーまたは親タスクの時間の財務見積もりは、そのすべての子タスクの財務見積もりの合計です。 これは、プロジェクトの見積もり労務コストです。 
 
-![リソースの見積もり](./media/navigation12.png)
+![リソースの見積もり。](./media/navigation12.png)
 
 ## <a name="default-cost-price-and-cost-currency"></a>既定の原価価格と原価通貨
 

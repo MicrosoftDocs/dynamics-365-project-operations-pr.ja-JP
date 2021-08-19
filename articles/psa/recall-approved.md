@@ -15,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71f75c1c516ca6e652baf311aa14e0c3fd4ba81e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998192"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998332"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>承認済みの時間または経費エントリの取り消し
 
@@ -98,13 +98,13 @@ ms.locfileid: "5998192"
 
 次の図は承認済みの時間エントリが取り消された場合に発生する変更を示します。
 
-![時間エントリ状態の切り替え](media/TimeEntryStateTransitions.png)
+![時間エントリ状態の切り替え。](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>経費エントリ レコードへの変更
 
 次の図は承認済みの経費エントリが取り消された場合に発生する変更を示します。
 
-![経費エントリ状態の切り替え](media/ExpenseEntryStateTransitions.png)
+![経費エントリ状態の切り替え。](media/ExpenseEntryStateTransitions.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

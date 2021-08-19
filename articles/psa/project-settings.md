@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 24032a77834005c444972f8d234d3acb33d19135
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998327"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996937"
 ---
 # <a name="project-settings"></a>プロジェクト設定
 
@@ -43,11 +43,11 @@ ms.locfileid: "5998327"
   
 3. **月単位ビュー** タブで、**設定** をクリックします。 次の 3 つのオプションが表示されます。 
 
-  - 新しい週単位スケジュール
+  - 新しい週単位のスケジュール
   - 1 日の作業スケジュール
   - 休暇
 
-> ![オプションの設定](media/project-13.png)
+> ![オプションの設定。](media/project-13.png)
 
 4. **新規週単位スケジュール** を選択し、このリソース スケジュールのオプションを設定します。 定期的な週単位のスケジュール、毎日の時間パラメーター、休業日の設定などを設定できます。
 5. 日付の範囲を設定して、**保存** を選択し、**閉じる** をクリックします。 
