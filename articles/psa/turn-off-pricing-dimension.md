@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da8615fa147838d9088c639039d5a2534e662e82
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014302"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006792"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>価格設定のディメンションをオフにする
 
@@ -32,7 +32,7 @@ ms.locfileid: "6014302"
 
 ただし、これを実行すると、次のエラー メッセージが表示される場合があります。
 
-![価格設定のディメンションを停止したとき、生じる可能性が高いビジネス プロセス エラー](media/Business-Process-Error.png)
+![価格設定のディメンションを停止したときに生じる可能性が高いビジネス プロセス エラー。](media/Business-Process-Error.png)
 
 
 このエラー メッセージは、停止されているディメンションに対して過去に設定済みの価格のレコードが存在することを示します。 ディメンションを参照するすべての **ロール価格** および **ロール価格利幅** レコード は、ディメンションの適用領域を **いいえ** に設定する可能性があればその前に削除する必要があります。 このルールは、作成済みの双方の標準価格ディメンションおよび任意のカスタム価格ディメンションに適用されます。 この検証を行うのは、Project Service では **ロール価格** の各レコードに、制約上、一意のディメンションの組み合わせが必要であるためです。 たとえば、**US Cost Rates 2018** と呼ばれる価格表には、次の **ロール価格** 行があります。 

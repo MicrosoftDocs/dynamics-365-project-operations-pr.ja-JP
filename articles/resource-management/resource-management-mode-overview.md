@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.custom: intro-internal
-ms.openlocfilehash: 41265534661e51565bf31105ef69cec9b3b181c3
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6367897"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008232"
 ---
 # <a name="resource-management-modes-overview"></a>リソース管理モードの概要
 
@@ -24,7 +24,7 @@ Dynamics 365 Project Operations は、全体的な予約フローを実行する
 ## <a name="central-mode"></a>セントラル モード
 プロジェクトへのリソースの割り当てを一元管理する組織の場合、セントラル モードは、プロジェクト マネージャーがプロジェクト レベルでリソース要件を定義できるようにする方法を提供します。 リソース要件の履行は、リソース マネージャーに委任されます。 プロジェクト マネージャーは、リソース マネージャーによって提案されたリソースを承認または拒否できます。
 
-![セントラル モード](./media/resource-management-central.png)
+![中央モード。](./media/resource-management-central.png)
 
 セントラル モードでリソースを管理するには、以下を参照してください。
 
@@ -37,7 +37,7 @@ Dynamics 365 Project Operations は、全体的な予約フローを実行する
 ## <a name="hybrid-mode"></a>ハイブリッド モード
 リソースの割り当てに柔軟性が必要な組織の場合、ハイブリッド モードでは、プロジェクト マネージャーとリソース マネージャーの両方がリソースを予約できます。
 
-![ハイブリッド モード](./media/resource-management-hybrid.png)
+![ハイブリッド モード。](./media/resource-management-hybrid.png)
 
 サポートされているセントラル モード プロセスに加えて、ハイブリッド モードでサポートされている他のすべての予約フローを管理するには、次のトピックを参照してください。
 

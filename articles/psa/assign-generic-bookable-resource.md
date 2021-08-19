@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1e22337d3fd3e7ff4147a9547fd3c272f4185d3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d9a81d7242e78dafad871bb07c03459f1de21884d196c6ee7dd9619b2c410404
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009397"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007107"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>予約可能な汎用リソースをタスクに割り当て、リソース要件を生成する 
 
@@ -33,21 +33,21 @@ ms.locfileid: "6009397"
 
 1. Project Service Automation (PSA) で **プロジェクト** ページを開き、**スケジュール** タブで、スケジュールの **リソース** セルに汎用リソースの位置名を入力します。 または、セルの **リソース** アイコンをクリックしてリソース ピッカーを開き、作成する汎用リソースの名前を入力します。
 
-![汎用チーム メンバーの作成と割り当て](media/RM-how-to-9.png)
+![汎用チーム メンバーの作成と割り当て。](media/RM-how-to-9.png)
 
 これで **簡易作成: プロジェクト チーム メンバー** パネルが開きます。 
 
 2. 汎用リソース チーム メンバーの役割と組織単位を入力して **保存** をクリックします。
 
-![汎用チーム メンバーの簡易作成](media/RM-how-to-10.png)
+![汎用チーム メンバーの簡易作成。](media/RM-how-to-10.png)
 
 3. 新しい汎用リソース チーム メンバーを作成が完了すると、タスクに割り当てられます。 タスク スケジュール内の他のタスクに、その汎用リソースを引き続き割り当てることができます。
 
-![既存の汎用チーム メンバーをタスクに割り当てる](media/RM-how-to-11.png)
+![既存の汎用チーム メンバーをタスクに割り当てる。](media/RM-how-to-11.png)
 
 4. 汎用リソースを割り当てた後、リソース要求を生成して、リソース マネージャーに直接予約または送信してリソース要求を満たすことができます。
 
-![汎用チーム メンバーの要件の生成](media/RM-how-to-12.png)
+![汎用チーム メンバーの要件の生成。](media/RM-how-to-12.png)
 
 チーム メンバー グリッドでは、上述したリソース ピッカーを使用できることに加え、汎用リソースを直接追加できます。 リソースは **簡易作成: プロジェクト チーム メンバー** パネルで指定した開始/終了日と割り当て方法に基づいたリソース要件で追加されます。
 
@@ -55,7 +55,7 @@ ms.locfileid: "6009397"
 
 チーム グリッドの **リソース要件** リンクをクリックして、要件を開き、スキル、優先リソースなどを追加することもできます。
 
-![リソース要件](media/RM-how-to-13.png)
+![リソース要件。](media/RM-how-to-13.png)
 
 
 

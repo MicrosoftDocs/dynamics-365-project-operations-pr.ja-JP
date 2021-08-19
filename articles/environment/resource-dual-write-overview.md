@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 540b6f74d8e79116e5fdb2ceffaa4bbb487ff08f
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: b65c40e8aaa9524c1c634738dadd23f21e86e2ec095c47bc849467c8806addbc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368437"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007917"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Project Operations の二重書き込みの統合の概要
 
@@ -23,7 +23,7 @@ Project Operations は[二重書き込み機能](/dynamics365/fin-ops-core/dev-i
 
 次の図は、この Dataverse と Finance の統合の一環としてデータが同期される様子を示しています。
 
-![Project Operations データフローの概要](./media/ProjectOperationsFlows.jpg)
+![Project Operations データ フローの概要。](./media/ProjectOperationsFlows.jpg)
 
 Dataverse での Project Operations は、最新のユーザーインターフェース (UI) と、Power Platform の機能を使った簡単なノーコード/ローコードの拡張性を提供します。 プロジェクト マネージャー、リソース マネージャー、プロジェクト チームのメンバーなどのフロント オフィスのペルソナは、Project Operations on Dataverse で自身の活動を行います。
 

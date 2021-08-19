@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bc58c805bfe1a3087600b8d4a6be2d1bcdd18188
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 95f064e0f83d2052ac4ae9673b4fcdcd16a2574246d3320e1ed3798cd6ff062b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997922"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007017"
 ---
 # <a name="soft-book-requirements"></a>仮予約の要件
 
@@ -29,30 +29,30 @@ ms.locfileid: "5997922"
 
 リソース要件は本予約できます。 本予約では、リソースの容量を使用する提案を作成できます。 提案が承認のために要求者に返されます。 仮予約でプロジェクト チームに一時的にリソースが追加され、スケジュール ボードに別の状態が示されますが、リソースの容量は消費されません。 スケジュール ボードの仮予約リソースに対して、**予約の状態** フィールドを **仮予約** に設定します。
 
-![ [仮予約] に設定された予約の状態](media/Resource-Management-image77.png)
+![[仮予約] に設定された予約の状態。](media/Resource-Management-image77.png)
 
 **チーム** タブが **名前付きチーム メンバー** ビューにある場合は、リソースは常にそこに表示されます。 仮予約された時間は **仮予約時間** 列に報告されます。
 
-![[名前付きチーム メンバー] ビューの仮予約時間](media/Resource-Management-image78.png)
+![[名前付きチーム メンバー] ビューの仮予約時間。](media/Resource-Management-image78.png)
 
 仮予約済みのチーム メンバーはタスクに割り当てることができます。
 
-![タスクに割り当てられた仮予約済みのチーム メンバー](media/Resource-Management-image79.png)
+![タスクに割り当てられた仮予約済みのチーム メンバー。](media/Resource-Management-image79.png)
 
 **調整** タブについて、**調整** タブは本予約のみを対象とするため、仮予約リソースについては表示されません。
 
-![調整タブの、仮予約済みで予約なしのリソース](media/Resource-Management-image80.png)
+![[調整] タブの、仮予約済みで予約なしのリソース。](media/Resource-Management-image80.png)
 
 > [!NOTE]
 > 汎用チーム メンバーから生成される要件内のリソースは仮予約できません。
 
 スケジュール ボードで、別のカラリングは、リソースの仮予約のために使用されます。
 
-![スケジュール ボードで仮予約](media/Resource-Management-image81.png)
+![スケジュール ボードで仮予約。](media/Resource-Management-image81.png)
 
 仮予約を本予約に変換するには、スケジュール ボードで [仮予約] を右クリックし、**状態を変更する**\> **本予約**\>**本予約** を選択します。
 
-![予約の状態を [本予約] に変更する](media/Resource-Management-image82.png)
+![予約の状態を [本予約] に変更する。](media/Resource-Management-image82.png)
 
 予約が変更され、状態はスケジュール ボードで変更されます。 現在の予約の状態が **本予約** である場合は、リソースが予約済みであることを示しています。また、容量と可用性が調整されます。
 
@@ -60,7 +60,7 @@ ms.locfileid: "5997922"
 
 プロジェクトの **チーム** タブで仮予約済みのリソースを本予約済みに変換するには、リソースを選び、**確認する** を選択します。
 
-![コマンドを確認する](media/Resource-Management-image83.png)
+![コマンドを確認する。](media/Resource-Management-image83.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d8aa1541a3560db175acead1d000895312b299db
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c558ab1eb5070f6d1a2db06b630e8807cc67819f9bdd57c15ec346f484e04fe9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000037"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006297"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>プロジェクトの見積もりと実績の統合
 
@@ -30,7 +30,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 労働力の見積もりは、プロジェクト マネージャーまたはリソース マネージャーが作成します。これらのマネージャーは、一般的なリソースまたは名前付きリソースもプロジェクト タスクに割り当てます。 リソース割り当てレコードは、Dataverse の **リソースの割り当て** のタブにある **プロジェクトの詳細** のページで確認できます。 Dataverse のリソース割り当てレコードは、**時間見積もりに使用する Project Operations 統合エンティティ (msdyn\_resourceassignments)** を使って Finance and Operations のアプリの時間予測レコードを作成します。
 
-   ![労働力の見積もりを統合する](./Media/DW4LaborEstimates.png)
+   ![労働力の見積もりの統合。](./Media/DW4LaborEstimates.png)
 
 二重書き込みでは、リソースの割り当てレコードをステージング テーブル (**ProjCDSEstimateHoursImport**) に同期させた後、ビジネス ロジックを使って時間予測レコード (**ProjForecastEmpl**) を作成、更新します。
 
@@ -40,7 +40,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 経費の見積もりは、プロジェクト マネージャーがDataverse の **プロジェクトの詳細** ページの **経費の見積もり** タブで作成します。 経費の見積もり記録は、Dataverse の **見積もり明細** エンティティに保存されます。 これらの見積もりレコードは、トランザクション クラス **費用** を持ち、Finance and Operations アプリの経費予測レコードに **Project Operations の費用見積もりの統合エンティティ (msdyn\_estimatelines)** を使って同期されます。
 
-   ![経費の見積もりを統合する](./Media/DW4ExpenseEstimates.png)
+   ![経費の見積もりの統合。](./Media/DW4ExpenseEstimates.png)
 
 二重書き込みでは、経費の見積もりレコードをステージング テーブル (**ProjCDSEstimateExpenseImport**) に同期させた後、ビジネス ロジックを使って経費予測レコード (**ProjForecastCost**) を作成、更新します。 見積もり明細には、売上の見積もりと原価の見積もりレコードが別々に格納されます。 Finance and Operations アプリのビジネス ロジックは、ステージング テーブルのこの詳細を使用して、ひとつの経費予測レコードを生成します。
 
@@ -50,7 +50,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 材料の見積もりは、プロジェクト マネージャーがDataverse の **プロジェクトの詳細** ページの **材料の見積もり** タブで作成します。 材料の見積もり記録は、Dataverse の **見積もり明細** エンティティに保存されます。 これらの見積もりレコードは、トランザクション クラス **材料** を持ち、Finance and Operations アプリの品目予測レコードに **Project 統合テーブルの素材見積もりの統合エンティティ (msdyn\_estimatelines)** を使って同期されます。
 
-   ![材料の見積もりを統合する](./Media/DW4MaterialEstimates.png)
+   ![材料の見積もりの統合。](./Media/DW4MaterialEstimates.png)
 
 二重書き込みでは、材料の見積もりレコードをステージング テーブル (**ProjForecastSalesImpor**) に同期させた後、ビジネス ロジックを使って品目予測レコード (**ForecastSales**) を作成、更新します。 見積もり明細には、売上の見積もりと原価の見積もりレコードが別々に格納されます。 Finance and Operations アプリのビジネス ロジックは、ステージング テーブルのこの詳細を使用して、ひとつの品目予測レコードを生成します。
 
@@ -60,7 +60,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 プロジェクトの実績は Dataverse で作成されます、これは、時間、費用、材料、請求活動に基づきます。 数量、原価、販売価格、プロジェクトなど、これらの取引のすべてのオペレーション属性がこの Dataverse エンティティに取り込まれます。 詳細については、[実績](../actuals/actuals-overview.md) を参照してください。 実際のレコードは、ダウンストリームの会計のための二重書き込みテーブルマップ **Project Operations 統合実績 (msdyn\_actuals)** を使用して Finance and Operations アプリに同期されます。
 
-   ![実績の統合](./Media/DW4Actuals.png)
+   ![実績の統合。](./Media/DW4Actuals.png)
 
 **Project Operations 統合の実績** テーブルマップは、属性 **同期のスキップ (内部使用のみ)** が **False** に設定されている Dataverse の **実績** エンティティからのすべてのレコードを同期させます。 この属性値は、レコード作成時に自動的に Dataverse に設定されます。 この属性が **True** に設定されている例:
 

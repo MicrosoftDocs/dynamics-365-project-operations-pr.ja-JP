@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6003044"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005757"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>iOS および Android 上の Microsoft Dynamics 365 Project Timesheet モバイル アプリのカスタム フィールドを実装する
 
@@ -153,13 +153,13 @@ ms.locfileid: "6003044"
 
 タイムシート エントリ作成のモバイル アプリのスクリーンショットを次に示します。 すでに設定されている「2 番目のオプション」の列挙値と「テスト文字列」と呼ばれる「時間エントリ」セクションの標準フィールドとカスタム フィールドを示しています。
 
-![アプリのテスト文字列のカスタム フィールド](media/timesheet-entry.jpg)
+![アプリのテスト文字列のカスタム フィールド。](media/timesheet-entry.jpg)
 
 
 
 「テスト文字列」のカスタム フィールドで使用可能な列挙型のオプションの 1 つを選択しているユーザーのモバイル アプリのスクリーンショットを次に示します。  ラジオ ボタンとして表示されている「最初のオプション」と「2 番目のオプション」の 2 つのオプションがあります。 現在、2 番目のオプションが選択されています。
 
-![テスト文字列のカスタムフィールドのオプション ボタン (ラジオ ボタン)](media/enum-option.jpg)
+![テスト文字列のカスタムフィールドのオプション ボタン (ラジオ ボタン)。](media/enum-option.jpg)
 
 
 
@@ -171,7 +171,7 @@ ms.locfileid: "6003044"
 
 アプリケーション オブジェクト ツリーの Visual Studio のスクリーンショットを次に示します。 カスタム フィールドとして追加されている TestLineString フィールドのある、TSTimesheetLine テーブルの拡張機能を示しています。
 
-![明細行の文字列](media/b6756b4a3fc5298093327a088a7710fd.png)
+![明細行の文字列。](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>TSTimesheetSettings クラスの buildCustomFieldList メソッドのコマンド チェーンを使用して、タイムシート エントリ セクションのフィールドを表示する
 
@@ -317,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 タイムシートを確認しているユーザーのモバイル アプリのスクリーンショットを次に示します。 右上隅で「詳細」ボタンが選択され、「詳細を表示」オプションが表示されています。  
 
-![詳細を表示コマンド](media/show-more.png)
+![その他の詳細コマンドを表示する。](media/show-more.png)
 
 タイムシートの「詳細」セクションを表示しているモバイル アプリのスクリーンショットを次に示します。 「このタイムシートの稼働率 (計算されたカスタム フィールド)」と呼ばれるカスタム フィールドがタイムシート ヘッダー セクションに追加されました。 カスタム フィールドに読み取り専用の値「0.667」が設定されています。
 
-![詳細セクション](media/more-section.jpg)
+![詳細セクション。](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>カスタム フィールドを持つように TSTimesheetTable テーブルを拡張する
 
@@ -414,7 +414,7 @@ final class TSTimesheetDetails_Extension
 
 プロジェクト パラメーターから、標準フィールドを読み取り専用にするか、モバイル アプリで非表示にすることができます。 **プロジェクト管理および会計パラメーター** ページの **タイムシート** タブにある **モバイル タイムシート** のセクションのオプションを設定します。
 
-![プロジェクト パラメーター](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![プロジェクト パラメーター。](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>拡張機能を介して選択できる活動を変更する
 
