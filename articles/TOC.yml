@@ -4,6 +4,8 @@
   items:
     - name: 展開の種類を決定する
       href: environment/determine-deployment-type.md
+    - name: Project Operations の試用版にサインアップする
+      href: environment/admin-trials.md
     - name: Project Operations の更新プログラム
       href: whats-new/project-operations-updates.md
 - name: リソース/非在庫ベースのシナリオ向け Project Operations
@@ -54,6 +56,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: 新機能
       items:
+        - name: 2021 年 8 月 - リソース/非在庫ベースのシナリオ向け Project Operations
+          href: whats-new/whats-new-august-2021-resource-based.md
         - name: 2021 年 7 月 - リソース/非在庫ベースのシナリオ向け Project Operations
           href: whats-new/whats-new-july-2021-resource-based.md
         - name: 2021 年 6 月 - リソース/非在庫ベースのシナリオ向け Project Operations
@@ -418,6 +422,8 @@
       items:
         - name: 承認の概要
           href: approvals/approvals-overview.md
+        - name: 承認セット
+          href: approvals/approval-sets.md
         - name: 開発者用メモ
           items:
             - name: 承認のための開発者用メモ
@@ -520,6 +526,10 @@
           href: environment/security-model.md
     - name: 新機能
       items:
+        - name: 2021 年サイクル 2 早期アクセスの新機能 - ライト展開
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021 年 8 月の新機能 - ライト展開
+          href: pro/whats-new/whats-new-august-2021-lite.md
         - name: 2021 年 7 月の新機能 - ライト展開
           href: pro/whats-new/whats-new-july-2021-lite.md
         - name: 2021 年 6 月の新機能 - ライト展開
@@ -834,14 +844,28 @@
               href: resource-management/resource-utilization-overview.md
     - name: Project Operations での外注管理
       items:
-        - name: 外注管理の概要
+        - name: Project Operations での外注管理
           href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: 2021 年 10 月の早期アクセスの外注
+          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: 外注に関する重要な概念
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: ベンダーとプロジェクト価格表の管理
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: 予約可能リソースとして扱う外注
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: 外注のヘッダーの詳細
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: 時間の外注品目
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: 経費の外注品目
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: 製品の外注品目
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: 外注品目リソース
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: 外注品目マイルストーン
+          href: pro/subcontracting/subcontract-line-milestones.md
     - name: 時間
       items:
         - name: 時間の概要
@@ -868,6 +892,8 @@
       items:
         - name: 承認の概要
           href: approvals/approvals-overview.md
+        - name: 承認セット
+          href: approvals/approval-sets.md
         - name: 開発者用メモ
           items:
             - name: 承認のための開発者用メモ
@@ -1060,6 +1086,8 @@
       items:
         - name: Project Service 3.x の更新プログラム リリース スケジュール
           href: psa/version-history-ps.md
+        - name: 更新プログラム リリース 35、V3 の最新情報または変更事項
+          href: psa/whats-new-ur-35.md
         - name: 更新プログラム リリース 34、V3 の最新情報または変更事項
           href: psa/whats-new-ur-34.md
         - name: 更新プログラム リリース 33、V3 の最新情報または変更事項
@@ -1306,7 +1334,7 @@
               href: psa/time-entry-calendar.md
             - name: 週単位の時間エントリをカスタマイズする
               href: psa/time-entry-extensibility-v3.md
-            - name: 承認セット
+            - name: Project Service Automation の承認セット
               href: psa/approval-set.md
     - name: よくあるご質問とトラブルシューティング (3.x)
       items:
