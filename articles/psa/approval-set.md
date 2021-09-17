@@ -1,5 +1,5 @@
 ---
-title: 承認セット
+title: Project Service Automation の承認セット
 description: このトピックでは、承認セット、要求、およびそれらの操作のサブセットについて説明します。
 author: stsporen
 manager: tfehr
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e57944b3031ff8b6da163125bb6668875ae77bd06f23a5b8c4ef06f396210e4f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9a7a9efbd8615f4923c6795a16c9cf98a40362b6
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995497"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323557"
 ---
-# <a name="approval-sets"></a>承認セット
+# <a name="approval-sets-in-project-service-automation"></a>Project Service Automation の承認セット
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 

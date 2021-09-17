@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 75ee31e67018fe2a7655d8a8f11e40b433a9a5db6f8f2addac27844f18fffe8d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007872"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323422"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>リソース/在庫のないシナリオ向け Project Operations プレビュー サブスクリプションにサインアップします
 
@@ -23,7 +23,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ## <a name="prerequisites"></a>前提条件
 - プレビューを展開するユーザーは、Azure テナント グローバル 管理者権限を持っている必要があります。 最初のオファーの引き換え時にテナントを作成できます。 
-- Finance 環境を展開するには、環境ごとに請求される有効な Azure サブスクリプションが必要です。 組織の既存のサブスクリプションを使用するか、[Azure トライアル](https://azure.microsoft.com/en-us/free/) を使用して開始できます。 CDS 環境は、30 日間限定で無料で提供されます。
+- Finance 環境を展開するには、環境ごとに請求される有効な Azure サブスクリプションが必要です。 組織の既存のサブスクリプションを使用するか、[Azure トライアル](https://azure.microsoft.com/free/) を使用して開始できます。 CDS 環境は、30 日間限定で無料で提供されます。
 
 > [!IMPORTANT]
 > このタスクを実行する必要があるのは、組織内の 1 人のテナント管理者だけです。 このリリースのサブスクライバーでない場合は、組織がサインアップしてユーザー資格情報を受け取るまで待ちます。
