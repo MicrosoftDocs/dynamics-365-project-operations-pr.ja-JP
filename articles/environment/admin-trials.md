@@ -2,16 +2,16 @@
 title: Project Operations の試用版にサインアップする
 description: このトピックは、Dynamics 365 Project Operations の試用版をデプロイする方法に関する情報を提供します。
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418463"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599219"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Project Operations の試用版にサインアップする 
 
@@ -85,15 +85,9 @@ Dynamics 365 Project Operations の試用版を展開するには、次の前提
 
    プロビジョニングが開始されると、Power Platform 管理センターの環境リストにリダイレクトされます。 プロビジョニングの進行中、環境の状態は **PreparingInstance** になります。
  
-  プロビジョニングが完了すると、環境の状態は **準備完了** になります。
+  プロビジョニングが完了すると、環境の状態は **準備完了** になります。 環境のプロビジョニングには、デモ データの展開が含まれます。
  
-4.  プロビジョニングが完了したら、対応する Microsoft Dataverse URL と Finance and Operations アプリ URL を選択して展開を検証します。
-
-## <a name="demo-data-installation"></a>デモ データのインストール
-
-次のリンクを使用して、非在庫材料とライト展開シナリオの両方のデモ データ パッケージにアクセスします。 
-- [非在庫材料デモ データ](resource-apply-pro-setup-config-data.md)
-- [ライト デモ データ](lite-apply-demo-setup-config-data.md)
+4.  Microsoft Dataverse URL と Finance and Operations アプリのURL のそれぞれを選択してデプロイを検証します。
 
 ## <a name="configuring-dual-write"></a>二重書き込みの構成
 非在庫材料の展開の場合のみ、二重書き込みマッピングを構成します。 詳細については、[Project Operations 二重書き込みマップ バージョン](resource-dual-write-maps.md)を参照してください。

@@ -2,23 +2,22 @@
 title: プロジェクト スケジュール API を使用して、スケジュール エンティティで操作を実行する
 description: このトピックでは、プロジェクト スケジュール API を使用するための情報と使用例について解説します。
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 55bd9020275fbb72761b45ba09294f57266b418c0e5b506ba55a2a498aff24e5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
+ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008772"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487691"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>プロジェクト スケジュール API を使用して、スケジュール エンティティで操作を実行する
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-> [!IMPORTANT] 
-> このトピックに記載されている機能の一部または全部は、プレビュー リリースの一部として提供されています。 コンテンツおよび機能は変更される場合があります。 
+
 
 ## <a name="scheduling-entities"></a>スケジューリング エンティティ
 

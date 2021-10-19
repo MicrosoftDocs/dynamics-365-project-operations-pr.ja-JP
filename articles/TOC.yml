@@ -50,12 +50,16 @@
               href: environment/resource-dual-write-estimates-actuals.md
             - name: プロジェクト請求書統合
               href: environment/resource-dual-write-project-invoice.md
-            - name: 経費管理統合
+            - name: 経費管理の統合
               href: environment/resource-dual-write-expense.md
-            - name: 仕入先請求書統合
+            - name: ベンダー請求書の統合
               href: environment/resource-dual-write-vendor-invoice.md
     - name: 新機能
       items:
+        - name: 2021 年 10 月 - リソース/非在庫ベースのシナリオ向け Project Operations
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: 2021 年 9 月 - リソース/非在庫ベースのシナリオ向け Project Operations
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: 2021 年 8 月 - リソース/非在庫ベースのシナリオ向け Project Operations
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: 2021 年 7 月 - リソース/非在庫ベースのシナリオ向け Project Operations
@@ -290,9 +294,9 @@
               href: project-management/collaboration-groups.md
         - name: 開発者用メモ
           items:
-            - name: プロジェクトのコピーを使用してプロジェクト テンプレートを開発する
+            - name: プロジェクトのコピーを使用してプロジェクト テンプレートを作成する
               href: project-management/dev-copy-project.md
-            - name: プロジェクト スケジュール API を使用する (パブリック プレビュー)
+            - name: プロジェクト スケジュール API を使用する
               href: project-management/schedule-api-preview.md
     - name: リソース管理
       items:
@@ -442,8 +446,16 @@
       items:
         - name: 非在庫材料と保留中の仕入先請求書を構成する
           href: procurement/configure-materials-nonstocked.md
-        - name: 保留中の仕入先請求書を使用してプロジェクトの非在庫材料を調達する
+        - name: 保留中のベンダー請求書を使用してプロジェクトの非在庫材料を調達する
           href: procurement/pending-vendor-invoices.md
+        - name: プロジェクトの発注書を使用してプロジェクトの非在庫材料を注文する
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: ベンダーのリテンション期間
+          items:
+            - name: ベンダーのリテンション期間の概要
+              href: procurement/vendor-retention-overview.md
+            - name: ベンダーのリテンション期間を設定する
+              href: procurement/set-up-vendor-retention.md
     - name: 請求
       items:
         - name: 請求処理の概要
@@ -526,8 +538,12 @@
           href: environment/security-model.md
     - name: 新機能
       items:
-        - name: 2021 年サイクル 2 早期アクセスの新機能 - ライト展開
+        - name: 2021 年サイクル 2 の早期アクセスの新機能 - ライト展開
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021 年 10 月の新機能 - ライト展開
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: 2021 年 9 月の新機能 - ライト展開
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: 2021 年 8 月の新機能 - ライト展開
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: 2021 年 7 月の新機能 - ライト展開
@@ -782,9 +798,9 @@
               href: project-management/collaboration-groups.md
         - name: 開発者用メモ
           items:
-            - name: プロジェクトのコピーを使用してプロジェクト テンプレートを開発する
+            - name: プロジェクトのコピーを使用してプロジェクト テンプレートを作成する
               href: project-management/dev-copy-project.md
-            - name: プロジェクト スケジュール API を使用する (パブリック プレビュー)
+            - name: プロジェクト スケジュール API を使用する
               href: project-management/schedule-api-preview.md
     - name: リソース管理
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: 時間の外注品目
           href: pro/subcontracting/subcontract-line-time.md
-        - name: 経費の外注品目
+        - name: 経費カテゴリの外注品目
           href: pro/subcontracting/subcontract-line-expense.md
         - name: 製品の外注品目
           href: pro/subcontracting/subcontract-line-products.md
@@ -1084,8 +1100,10 @@
       href: psa/overview.md
     - name: 新機能
       items:
-        - name: Project Service 3.x の更新プログラム リリース スケジュール
+        - name: Project Service 3.x 更新プログラム リリースのスケジュール
           href: psa/version-history-ps.md
+        - name: 更新プログラム リリース 36、V3 の最新情報または変更事項
+          href: psa/whats-new-ur-36.md
         - name: 更新プログラム リリース 35、V3 の最新情報または変更事項
           href: psa/whats-new-ur-35.md
         - name: 更新プログラム リリース 34、V3 の最新情報または変更事項
