@@ -54,9 +54,11 @@
               href: environment/resource-dual-write-expense.md
             - name: ベンダー請求書の統合
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Dynamics 365 Project Operations をアンインストールする
+          href: environment/uninstall-project-operations.md
     - name: 新機能
       items:
-        - name: 2021 年 10 月 - リソース/非在庫ベースのシナリオ向け Project Operations
+        - name: 2021 年 10 月 - リソース/非在庫ベースのシナリオに対応した Project Operations
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: 2021 年 9 月 - リソース/非在庫ベースのシナリオ向け Project Operations
           href: whats-new/whats-new-sept-2021-resource-based.md
@@ -294,15 +296,17 @@
               href: project-management/collaboration-groups.md
         - name: 開発者用メモ
           items:
-            - name: プロジェクトのコピーを使用してプロジェクト テンプレートを作成する
+            - name: プロジェクトのコピーでプロジェクト テンプレートを作成する
               href: project-management/dev-copy-project.md
             - name: プロジェクト スケジュール API を使用する
               href: project-management/schedule-api-preview.md
+            - name: プロジェクト スケジュール API のパフォーマンス
+              href: project-management/project-schedule-api-performance.md
     - name: リソース管理
       items:
         - name: 重要な概念
           href: resource-management/resource-management-key-concepts.md
-        - name: 予約と割り当て
+        - name: 予約と割り当ての比較
           href: resource-management/booking-vs-assignment.md
         - name: リソース管理モードの概要
           href: resource-management/resource-management-mode-overview.md
@@ -798,15 +802,17 @@
               href: project-management/collaboration-groups.md
         - name: 開発者用メモ
           items:
-            - name: プロジェクトのコピーを使用してプロジェクト テンプレートを作成する
+            - name: プロジェクトのコピーでプロジェクト テンプレートを作成する
               href: project-management/dev-copy-project.md
             - name: プロジェクト スケジュール API を使用する
               href: project-management/schedule-api-preview.md
+            - name: プロジェクト スケジュール API のパフォーマンス
+              href: project-management/project-schedule-api-performance.md
     - name: リソース管理
       items:
         - name: 重要な概念
           href: resource-management/resource-management-key-concepts.md
-        - name: 予約と割り当て
+        - name: 予約と割り当ての比較
           href: resource-management/booking-vs-assignment.md
         - name: リソース管理モードの概要
           href: resource-management/resource-management-mode-overview.md
@@ -1102,6 +1108,8 @@
       items:
         - name: Project Service 3.x 更新プログラム リリースのスケジュール
           href: psa/version-history-ps.md
+        - name: 更新プログラム リリース 37、V3 の最新情報または変更事項
+          href: psa/whats-new-ur-37.md
         - name: 更新プログラム リリース 36、V3 の最新情報または変更事項
           href: psa/whats-new-ur-36.md
         - name: 更新プログラム リリース 35、V3 の最新情報または変更事項

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 483992768f8b8a02dd0d56b9479c7d591fa676d1eca41161e68b7cf3f97107af
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
+ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003867"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7679215"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 6 月の新機能 - リソース/非在庫のシナリオ向け Project Operations
 
@@ -30,6 +30,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 - [調整シナリオのプロジェクト請求書提案ライン](../invoicing/correct-project-invoice-proposals.md)を削除する機能。
 - 項目別の経費明細は、経費レポート: [再考された経費報告書-新機能](../expense/expense-reports-reimagined.md#new-features)のサブカテゴリ名を反映しています。
 - 支払い方法は、新規支出を作成する際に、新規支出ペインに表示されます。
+- プロジェクト スケジュール API の一般提供。 この新機能により、顧客はプロジェクト タスク、リソースの割り当て、タスクの依存関係、プロジェクト チーム メンバーのレコードに対して、プログラムによる作成、更新、削除の操作を行うことができます。 詳細については、[プロジェクト スケジュール API を使用して、スケジュール設定エンティティで操作を行う](../project-management/schedule-api-preview.md)を参照してください。
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations の二重書き込みのマッピングの更新
 

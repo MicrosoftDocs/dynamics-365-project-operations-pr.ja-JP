@@ -2,17 +2,17 @@
 title: 2021 年 10 月 の最新情報 - リソース/非在庫ベースのシナリオ向け Project Operations
 description: このトピックは、リソース/非在庫ベースのシナリオの Project Operations の 2021 年 10 月リリースで利用可能な品質更新に関する情報を提供します。
 author: sigitac
-ms.date: 10/05/2021
+ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5eb663f8b7450e4b7add6717aa717050ae94d571
-ms.sourcegitcommit: 6d9fc4dc851814664bf71729904ab4bedd85fe70
+ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
+ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7606780"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7753298"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 10 月 の最新情報 - リソース/非在庫ベースのシナリオ向け Project Operations
 

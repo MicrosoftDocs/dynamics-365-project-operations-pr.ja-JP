@@ -2,16 +2,16 @@
 title: WBS (作業分解構造) の作成
 description: このトピックは、新しいスケジューリング インターフェイスの基本コントロールを含む WBS (作業分解構造) を作成する方法を説明しています。
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998737"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655423"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>WBS (作業分解構造) の作成
 
@@ -117,5 +117,26 @@ Project Operations のスケジュールを使用して、タスク間に先行�
 
 **スケジュール** グリッドは、完全にアクセスでき、ナレーター、JAWS、またはNVDAなどのスクリーン リーダーで使用できます。 矢印キー (Microsoft Excel のように) を使用してグリッド領域内を移動したり、 Tab キーを使用して対話型ユーザー インターフェイス要素間を移動したり、下方向キー、Enter キー、または Space キーを使用して、ドロップダウン メニューを開く選択して開くことができます。
 
+## <a name="project-limitations"></a>プロジェクトの制限 
+Project Operations で WBS (作業分解構造) を使用する場合、以下の制限事項に注意する必要があります。 これらの制限は、プロジェクトとタスクに適用されます。 詳細については、[Project for the Web の制限と限界](/project-for-the-web/project-for-the-web-limits-and-boundaries)を参照してください。
+
+| **フィールド**                                          |  **限度**           |
+|----------------------------------------------------|----------------------|
+| プロジェクトの最大合計タスク                  | 500                  |
+| プロジェクトの最大合計期間               | 3650 日 (10 年) |
+| プロジェクトの最大総リソース              | 150                  |
+| プロジェクトの最大総リンク数 (後継のみ) | 600                  |
+| 1 つのプロジェクトにおけるカスタム フィールドの最大合計数          | 10                   |
+
+**タスクの制限**
+
+| **フィールド**                               |   **限度**           |
+|-----------------------------------------|-----------------------|
+| 最大階層レベル                 | 10 レベル             |
+| 最大リンク数 (後続 + 先行) | 20                    |
+| リーフ タスクの最大期間           | 1250 日             |
+| サマリー タスクの最大期間      | 3650 日 (10 年)  |
+| タスクに割り当てられる最大リソース    | 20 リソース          |
+| タスクでサポートされている日付範囲         | 2000/1/1 - 2149/12/31 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
