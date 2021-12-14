@@ -2,7 +2,7 @@
 title: モバイル経費アプリ
 description: このトピックでは、経費管理モバイル ワークスペースに関する説明をします。
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 88251552a937f0a3a066e08b87dbd5f7b73c46c69776fbc788d37cc21fe73541
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993202"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818189"
 ---
 # <a name="mobile-expense-app"></a>モバイル経費アプリ
 
@@ -47,42 +47,9 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 - 経費報告書を提出して承認、精算を行う。
 - 承認者として指定されている経費報告書を承認または拒否する。
 
-## <a name="prerequisites"></a>前提条件
-前提条件は、導入されていのバージョンによって異なります。
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Dynamics 365 Finance を使用する場合の前提条件
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Dynamics 365 Finance を使用する場合の前提条件 
 Finance が展開されている場合は、システム管理者は **経費管理** モバイル ワークスペースを発行する必要があります。 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Platform update 3 以降のバージョン 1611 を使用する場合の前提条件
-プラットフォーム更新プログラム 3 以降のバージョン 1611 が展開されている場合、システム管理者は次の前提条件を満たす必要があります。 
-
-<table>
-<thead>
-<tr class="header">
-<th>前提条件</th>
-<th>ロール</th>
-<th>内容</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>サポート情報 4019015 を実装する。</td>
-<td>システム管理者</td>
-<td>サポート情報記事 4019015 は、<strong>経費管理</strong>モバイル ワークスペースを含む X++ 更新またはメタデータ修正プログラムです。 サポート情報 4019015 を実装するには、システム管理者は次の手順に従う必要があります。
-<ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Lifecycle Services から更新プログラムをダウンロードする</a>。</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">メタデータ修正プログラムをインストールします</a>。</li>
-<li><strong>ApplicationSuite</strong> および <strong>経費管理</strong> モデルを含む<a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">展開可能なパッケージを作成</a>し、展開可能なパッケージを LCS にアップロードします。</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">展開可能なパッケージを適用します</a>。</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td><strong>経費管理</strong>モバイル ワークスペースを公開する。</td>
-<td>システム管理者</td>
-<td><a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">モバイル ワークスペースの発行</a>を参照してください。</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Dynamics 365 Unified Ops モバイル アプリをダウンロードしてインストールする
 Dynamics 365 Unified Ops モバイル アプリをダウンロードしてインストールする :
@@ -103,11 +70,11 @@ Dynamics 365 Unified Ops モバイル アプリをダウンロードしてイン
 3. **写真を撮る** または **画像を選択** を選択します。
 4. 次のいずれかの手順に従います :
 
-   - **写真を撮る** 選択した場合、次の手順を実行します :
+    - **写真を撮る** 選択した場合、次の手順を実行します :
 
-      1. モバイル デバイスのカメラに移動し、領収書の写真を撮ることができます。 
-      2. 写真の撮影が終わったら、**OK** を選択して写真を確定します。
-      3. オプション : 写真の名前とメモを入力します。
+        1. モバイル デバイスのカメラに移動し、領収書の写真を撮ることができます。 
+        2. 写真の撮影が終わったら、**OK** を選択して写真を確定します。
+        3. オプション : 写真の名前とメモを入力します。
 
     - **画像を選択** を選択した場合、次の手順を実行します :
 
@@ -133,20 +100,20 @@ Dynamics 365 Unified Ops モバイル アプリをダウンロードしてイン
 
 10. **完了** を選択します。
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>経費管理モバイル ワークスペースを使用して経費レポートを承認する (2017年7月の更新プログラムを適用している場合)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>経費管理モバイル ワークスペースを使用して、経費レポートを承認する
 
 1. モバイル デバイスで **経費管理** ワークスペースを開きます。
 2. **経費承認** は、自分が承認者に割り当てられている経費報告書の件数を示しています。 この件数は約 30 分ごとに更新されます。 **経費承認** を選択します。
 
     経費報告書のリストは、自分が承認者に割り当てられている経費報告書が表示されます。
-    
+
 3. 経費報告書を選択して、経費の詳細を表示します。
 4. 経費報告書を選択して、経費の詳細を表示します。 経費について表示される情報には、領収書、ゲスト、項目別の詳細が含まれます。
 5. **経費報告書** ページに戻り、経費報告書を承認または却下を選択します。
 6. 承認アクションについてのコメントを入力します。
 7. **完了** を選択します。
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>経費管理モバイル ワークスペースを使用して新たな経費報告書を作成し、提出する (2017年7月の更新プログラムを適用している場合)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>経費管理モバイル ワークスペースを使用して、新しい経費精算書を作成し、承認の申請を送信する
 
 1. モバイル デバイスで **経費管理** ワークスペースを開きます。
 2. **経費の入力** を選択します。
@@ -184,12 +151,12 @@ Dynamics 365 Unified Ops モバイル アプリをダウンロードしてイン
                     1. リスト内の画像を選択します。
                     2. オプション : 画像の名前とメモを入力します。
 
-            3.  **完了** を選択します。
+            3. **完了** を選択します。
 
         - **領収書を添付** を選択した場合は、次の手順に従ってください :
 
-            1.  一覧で、1 つ以上の画像を選択します。
-            2.  **完了** を選択します。
+            1. 一覧で、1 つ以上の画像を選択します。
+            2. **完了** を選択します。
 
     3. **戻る**  ボタンをクリックして経費の詳細に戻ります。
 
@@ -235,5 +202,30 @@ Dynamics 365 Unified Ops モバイル アプリをダウンロードしてイン
 23. 承認者に向けたコメントを入力します。
 24. **完了** を選択します。
 
+## <a name="frequently-asked-questions"></a>よく寄せられる質問
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>経費モバイル アプリはなぜ規定で支払い方法を入力しないのですか?
+
+組織は **既定の支払い方法** 設定を、作成時に各経費カテゴリに対してカスタマイズ可能です。 さらに、支払い方法を設定するときに、**既定のお支払い方法** フィールドを **インポートのみ** に設定できます。
+
+**インポートのみ** が支払い方法に対して有効になっている場合、規定では支払い方法は入力されません。 この支払い方法が設定されている経費カテゴリは空白になります。 この動作は、Web エクスペリエンスとモバイル エクスペリエンスの両方で一致しています。
+    
+**インポートのみ** が支払方法で有効になっていない場合、この支払方法が設定されている経費カテゴリの設定値が規定で入力されます。 ただし、経費モバイル アプリに規定値が入力されないという既知の問題があります。 この問題を回避するには、経費報告書を保存する前に手動で支払い方法を選択してください。 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>経費モバイルアプリで財務分析コードを追加または編集できないのはなぜですか?
+
+ディメンションと分布の入力はサポートされていません。 この制限を回避するには、プロジェクトまたは従業員ごとに規定の財務ディメンションを設定することにより、モバイル アプリでこれらのフィールドを規定設定できます。
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>経費モバイル アプリで同期エラーが発生することがあるのはなぜですか?
+
+経費明細がポリシー要件を満たしていない場合、ユーザーがポリシー警告に対処せずに経費報告書を送信すると、モバイル データがサーバーに同期されず、同期エラーが発生します。 同期の失敗が発生した後に送信されるすべての経費報告書は、失敗した状態のままになり、さらに多くの同期の失敗を引き起こします。 この状況を修正する唯一の方法は、同期の通知を手動で削除することになります。 この問題は、ポリシーの警告が処理されていないときに経費報告書の送信を停止することで解決され、同期エラーが回避されます。
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>プロジェクトとカテゴリの検証が経費モバイル アプリに正しく反映されないのはなぜですか ?
+
+この検証は、現在サポートされていません。 ただし、将来的にサポートが追加される可能性があります。 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>経費モバイル アプリでサポートされているドキュメント タイプは何ですか ?
+
+経費モバイル アプリは画像のみをサポートします。 現在、PDF やその他のドキュメントはサポートされていません。
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

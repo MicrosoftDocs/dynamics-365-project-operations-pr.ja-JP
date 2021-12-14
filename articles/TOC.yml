@@ -58,7 +58,9 @@
           href: environment/uninstall-project-operations.md
     - name: 新機能
       items:
-        - name: 2021 年 10 月 - リソース/非在庫ベースのシナリオに対応した Project Operations
+        - name: 2021 年 11 月 - リソース/非在庫ベースのシナリオ向け Project Operations
+          href: whats-new/whats-new-nov-2021-resource-based.md
+        - name: 2021 年 10 月 - リソース/非在庫ベースのシナリオ向け Project Operations
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: 2021 年 9 月 - リソース/非在庫ベースのシナリオ向け Project Operations
           href: whats-new/whats-new-sept-2021-resource-based.md
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: プロジェクト スケジュール API のパフォーマンス
               href: project-management/project-schedule-api-performance.md
+            - name: プロジェクト スケジュールのログ
+              href: project-management/schedule-api-logs.md
     - name: リソース管理
       items:
         - name: 重要な概念
@@ -542,8 +546,10 @@
           href: environment/security-model.md
     - name: 新機能
       items:
-        - name: 2021 年サイクル 2 の早期アクセスの新機能 - ライト展開
+        - name: 2021 年サイクル 2 早期アクセスの新機能 - ライト展開
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021 年 11 月の新機能 - ライト展開
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: 2021 年 10 月の新機能 - ライト展開
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: 2021 年 9 月の新機能 - ライト展開
@@ -952,6 +958,10 @@
   items:
     - name: 新機能
       items:
+        - name: 2021 年 10 月の新機能 - 在庫/製造ベースのシナリオ向け Project Operations
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: 2021 年 9 月の新機能 - 在庫/製造ベースのシナリオ向け Project Operations
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: 2021 年 7 月の新機能 - 在庫/製造ベースのシナリオ向け Project Operations
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: 2021 年 5 月の新機能 - 在庫/製造ベースのシナリオ向け Project Operations
@@ -1106,8 +1116,10 @@
       href: psa/overview.md
     - name: 新機能
       items:
-        - name: Project Service 3.x 更新プログラム リリースのスケジュール
+        - name: Project Service 3.x 更新プログラムのリリース スケジュール
           href: psa/version-history-ps.md
+        - name: 更新プログラム リリース 37.5、V3 の最新情報または変更事項
+          href: psa/whats-new-ur-37-5.md
         - name: 更新プログラム リリース 37、V3 の最新情報または変更事項
           href: psa/whats-new-ur-37.md
         - name: 更新プログラム リリース 36、V3 の最新情報または変更事項

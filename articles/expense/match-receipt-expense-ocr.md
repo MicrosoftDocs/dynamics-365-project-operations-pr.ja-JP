@@ -2,7 +2,7 @@
 title: OCR を使用して領収書を取り込む
 description: このトピックでは、領収書の光学式文字認識 (OCR) 処理に関する説明をします。
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3cfd88acec9df8468668bedbb55b399d100650e765a6ed647ed528ecca9f1554
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007737"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798046"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>OCR を使用して領収書を取り込む
 
@@ -85,7 +85,18 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 **この機能はどこで利用および処理できますか？**
 
-現在、米国がサポートされています。
+次のテーブルに、さまざまな地域でこの機能が利用可能かどうかを示します。 お住まいの地域が現在サポートされていない場合は、お住まいの地域で OCR サービスが利用可能になることを優先させるようにリクエストを送信してください。 
+
+| リージョン | サポート対象                         |
+|--------|-----------------------------------|
+| USA    | 有効                               |
+| CAN    | 有効                               |
+| 英国     | 有効                               |
+| オーストラリア    | 有効                               |
+| 欧州     | 部分的に可能です。 英語の領収書のみ。 |
+| アジア   | 無効                                |
+| 日本  | 無効                                |
+| アフリカ | 無効                                |
 
 **領収書はどこに行きますか？**
 

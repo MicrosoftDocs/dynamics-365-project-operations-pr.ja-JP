@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71cb8d0d9111e84bbd85dd116ce39465081f1653
-ms.sourcegitcommit: 95c0a30142fbacfd0c2ef63f42066f3a3534b832
+ms.openlocfilehash: e985fc4150044a0146aac752bdbad685c562a13c
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "7773596"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892191"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Project Service 3.x のリリース スケジュールの更新
 
@@ -35,9 +35,9 @@ ms.locfileid: "7773596"
 
 ## <a name="latest-version-availability"></a>最新バージョンの利用可能性
 
-| ソリューション   | 最新バージョン |
+| Solution  | 最新バージョン |
 |-------|----|
-| Project Service Automation    | 3.10.58.120 |
+| Project Service Automation    | 3.10.58.130 |
 | Project Service Automation デスクトップ アドイン                | 3.15          |
 
 Project Service の更新については、[Dynamics 365 リリース計画](/dynamics365/release-plans/) を参照してください。 
@@ -55,18 +55,18 @@ Project Service の更新については、[Dynamics 365 リリース計画](/dy
 | | <i>ドイツ</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 年 12 月 10 日
 | | <i>スイス</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 年 12 月 10 日
 |<strong>ステーション 3</strong> | |  |  | |
-| | <i>日本</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 年 11 月 12 日
-| | <i>アジア太平洋</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 年 11 月 12 日
-| | <i>英国</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 年 11 月 12 日
-| | <i>オセアニア</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 年 11 月 12 日
-| | <i>アラブ首長国連邦</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 年 11 月 12 日
+| | <i>日本</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021 年 12 月 17 日
+| | <i>アジア太平洋</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021 年 12 月 17 日
+| | <i>英国</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021 年 12 月 17 日
+| | <i>オセアニア</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021 年 12 月 17 日
+| | <i>アラブ首長国連邦</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021 年 12 月 17 日
 |<strong>ステーション 4</strong> | |  |  | |
-| | <i>欧州</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 年 11 月 19 日
+| | <i>欧州</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2022 年 1 月 7 日
 |<strong>ステーション 5</strong> | |  |  | |
-| | <i>北アメリカ</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 年 12 月 3 日
+| | <i>北アメリカ</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2022 年 1 月 14 日
 |<strong>ステーション 6</strong> | |  |  | |
-| | <i>政府コミュニティ クラウド</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 年 12 月 3 日
-| | <i>専用スケール グループ</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 2021 年 12 月 10 日
+| | <i>政府コミュニティ クラウド</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2022 年 1 月 14 日
+| | <i>専用スケール グループ</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | 2021 年 12 月 10 日
 
 
 

@@ -1,18 +1,18 @@
 ---
-title: Project Operations の更新
+title: Project Operations の更新プログラム
 description: このトピックでは、Dynamics 365 Project Operations のリリース版について情報を提供します。
 author: sigitac
-ms.date: 10/04/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
-ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
+ms.openlocfilehash: e4cafde5e866690f31452eceffdd81ffeb14e635
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783429"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892196"
 ---
 # <a name="project-operations-updates"></a>Project Operations の更新プログラム
 
@@ -28,17 +28,17 @@ Dynamics 365 Project Operations は 2 つのコンポーネントで構成され
 - Dynamics 365 Finance 環境でのプロジェクト管理および会計は、経費管理機能、プロジェクト会計、および収益認識をカバーします。 Finance and Operations アプリ環境は、リソース/非在庫ベースのシナリオ向け Project Operations と、在庫/製造ベースのシナリオ向け Project Operations で使用されます。
 
 ## <a name="project-operations-release-notes"></a>Project Operations リリース ノート
-- [リソース/在庫なし](whats-new-oct-2021-resource-based.md) シナリオに関する Project Operations 最新リリース ノート。
-- [ライト展開](../pro/whats-new/whats-new-oct-2021-lite.md) シナリオに関する Project Operations 最新リリース ノート。
-- [在庫/製造](../prod-pma/whats-new/whats-new-jul-2021-stocked.md) シナリオに関する Project Operations 最新リリース ノート。
+- [リソース/在庫なし](whats-new-nov-2021-resource-based.md) シナリオに関する Project Operations 最新リリース ノート。
+- [ライト展開](../pro/whats-new/whats-new-nov-2021-lite.md) シナリオに関する Project Operations 最新リリース ノート。
+- [在庫/製造](../prod-pma/whats-new/whats-new-oct-2021-stocked.md) シナリオに関する Project Operations 最新リリース ノート。
 
 ## <a name="project-operations-latest-version"></a>Project Operations の最新バージョン
 
 | Dataverse 環境での Project Operations | Finance and Operations アプリ環境でのプロジェクト管理および会計 | 
 | --- | --- |
-| 4.26.0.145 | 10.0.21 |
+| 4.26.0.150 | 10.0.22 |
 
-Project Operations リソース/非在庫シナリオでは、デュアル書き込みオーケストレーション バージョン 2.2.2.83 以降を使用することをお勧めします。
+Project Operations リソース/非在庫シナリオでは、デュアル書き込みオーケストレーション バージョン 2.3.1.15 以降を使用することをお勧めします。
 
 ## <a name="release-schedule-for-project-operations-on-dataverse-environment"></a>Dataverse 環境における Project Operations のリリース スケジュール
 
@@ -47,23 +47,23 @@ Dataverse 環境における Project Operations の更新は毎月入手でき�
 | ステーション | リージョン | 現在のバージョン番号 | ライト展開の自動更新 | リソース/非在庫展開の自動更新 | 次のバージョン番号 | 次のバージョンを一般提供 |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | ステーション 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 最初のリリース         |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 3 日   |
+|   &nbsp;  | 最初のリリース         |  4.26.0.150     | 完了           | 完了            | TBD                 | 2021 年 12 月 6 日   |
 | ステーション 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 南米         |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 3 日   |
-|   &nbsp;  | カナダ                |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 3 日   |
-|   &nbsp;  | インド                 |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 3 日   |
-|   &nbsp;  | フランス                |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 3 日   |
-|   &nbsp;  | 南アフリカ          |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 3 日   |
+|   &nbsp;  | 南アメリカ         |  4.26.0.150     | 完了           | 完了            | TBD                 | 2021 年 12 月 6 日   |
+|   &nbsp;  | カナダ                |  4.26.0.150     | 完了           | 完了            | TBD                 | 2021 年 12 月 6 日   |
+|   &nbsp;  | インド                 |  4.26.0.150     | 完了           | 完了            | TBD                 | 2021 年 12 月 6 日   |
+|   &nbsp;  | フランス                |  4.26.0.150     | 完了           | 完了            | TBD                 | 2021 年 12 月 6 日   |
+|   &nbsp;  | 南アフリカ          |  4.26.0.150     | 完了           | 完了            | TBD                 | 2021 年 12 月 6 日   |
 | ステーション 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 日本                 |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 10 日   |
-|   &nbsp;  | アジア太平洋          |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 10 日   |
-|   &nbsp;  | 英国         |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 10 日   |
-|   &nbsp;  | オセアニア               |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 10 日   |
-|   &nbsp;  | アラブ首長国連邦  |  4.26.0.145     | 2021 年 11 月 12 日  | 2021 年 11 月 19 日   | TBD                 | 2021 年 12 月 10 日   |
+|   &nbsp;  | 日本                 |  4.26.0.150     | 完了           | 完了            | TBD                 | 2021 年 12 月 10 日   |
+|   &nbsp;  | アジア太平洋          |  4.26.0.150     | 完了           | 完了            | TBD                 | 2021 年 12 月 10 日   |
+|   &nbsp;  | 英国         |  4.26.0.150     | 完了           | 完了            | TBD                 | 2021 年 12 月 10 日   |
+|   &nbsp;  | オセアニア               |  4.26.0.150     | 完了           | 完了            | TBD                 | 2021 年 12 月 10 日   |
+|   &nbsp;  | アラブ首長国連邦  |  4.26.0.150     | 完了           | 完了            | TBD                 | 2021 年 12 月 10 日   |
 | ステーション 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 欧州                |  4.25.0.91      | 完了           | 完了            | 4.26.0.145          | 2021 年 11 月 12 日   |
+|   &nbsp;  | 欧州                |  4.26.0.150     | 完了           | 2021 年 12 月 10 日   | TBD                 | 2021 年 12 月 17 日   |
 | ステーション 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 北アメリカ         |  4.25.0.91      | 完了           | 完了            | 4.26.0.145          | 2021 年 11 月 19 日   |
+|   &nbsp;  | 北アメリカ         |  4.26.0.150     | 2021 年 12 月 10 日  | 2021 年 12 月 17 日   | TBD                 | 2022 年 1 月 7 日    |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Finance and Operations アプリ環境でのプロジェクト管理および会計のリリース スケジュール
