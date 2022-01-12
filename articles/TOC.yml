@@ -1,6 +1,6 @@
 - name: Dynamics 365 Project Operations
   href: index.md
-- name: 開始する
+- name: 概要
   items:
     - name: 展開の種類を決定する
       href: environment/determine-deployment-type.md
@@ -8,9 +8,13 @@
       href: environment/admin-trials.md
     - name: Project Operations の更新プログラム
       href: whats-new/project-operations-updates.md
+    - name: 廃止または非推奨の機能
+      items:
+        - name: Project Operations の廃止または非推奨の機能
+          href: whats-new/removed-depreciated-features-project.md
 - name: リソース/非在庫ベースのシナリオ向け Project Operations
   items:
-    - name: 開始する
+    - name: 概要
       items:
         - name: リソース/非在庫ベースのシナリオ向け Project Operations 展開の概要
           href: environment/project-operations-integrated-deployment-overview.md
@@ -58,6 +62,8 @@
           href: environment/uninstall-project-operations.md
     - name: 新機能
       items:
+        - name: 2021 年 12 月 - リソース/非在庫ベースのシナリオ向け Project Operations
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: 2021 年 11 月 - リソース/非在庫ベースのシナリオ向け Project Operations
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: 2021 年 10 月 - リソース/非在庫ベースのシナリオ向け Project Operations
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: マイレージ レート階層を使用してマイレージを設定する
               href: expense/set-up-mileage.md
+        - name: 経費の箇条書き
+          href: prod-exp/expense-itemization.md
         - name: 個人経費
           href: expense/personal-expenses-expense-report.md
         - name: 会社間経費
@@ -530,9 +538,15 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: 売上の見積もりの管理
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: トラブルシューティング
+      items:
+        - name: プロジェクトの営業プロセス
+          items:
+            - name: プロジェクト、契約、見積もり、予約可能なリソースを作成する際に発生する通貨の不一致エラー
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: ライト展開 - 見積もり請求の取引
   items:
-    - name: 開始する
+    - name: 概要
       items:
         - name: ライト展開の概要
           href: pro/project-operations-overview-lite.md
@@ -548,6 +562,8 @@
       items:
         - name: 2021 年サイクル 2 早期アクセスの新機能 - ライト展開
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: 2021 年 12 月の新機能 - ライト展開
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: 2021 年 11 月の新機能 - ライト展開
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: 2021 年 10 月の新機能 - ライト展開
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: 外注品目マイルストーン
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: 外注プロジェクト チーム メンバー
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: プロジェクト チーム メンバーの外注オプション
+          href: pro/subcontracting/subcon-options.md
+        - name: 外注リソース割り当てのコスト見積もり
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: スケジュール ボードを構成して請負社員と外注キャパシティを表示する
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: 請負社員と外注キャパシティをプロジェクトに割り当てる
+          href: pro/subcontracting/staffing-cw.md
+        - name: 外注コンポーネントの時間、経費、材料使用量を記録する
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: 外注の状態遷移
+          href: pro/subcontracting/subcon-states.md
     - name: 時間
       items:
         - name: 時間の概要
@@ -1118,6 +1148,8 @@
       items:
         - name: Project Service 3.x 更新プログラムのリリース スケジュール
           href: psa/version-history-ps.md
+        - name: 更新プログラム リリース 38、V3 の最新情報または変更事項
+          href: psa/whats-new-ur-38.md
         - name: 更新プログラム リリース 37.5、V3 の最新情報または変更事項
           href: psa/whats-new-ur-37-5.md
         - name: 更新プログラム リリース 37、V3 の最新情報または変更事項
@@ -1204,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: レポート ガイド
           href: psa/implementation-guides/reporting-guide.md
+    - name: Project Service Automation から Project Operations へのアップグレード - ライト
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Project Service Automation アップグレード (アプリ バージョン 3.x)
       items:
         - name: Project Service Automation アップグレード
