@@ -2,16 +2,16 @@
 title: Project Operations の試用版にサインアップする
 description: このトピックは、Dynamics 365 Project Operations の試用版をデプロイする方法に関する情報を提供します。
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599219"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901623"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Project Operations の試用版にサインアップする 
 
@@ -90,7 +90,8 @@ Dynamics 365 Project Operations の試用版を展開するには、次の前提
 4.  Microsoft Dataverse URL と Finance and Operations アプリのURL のそれぞれを選択してデプロイを検証します。
 
 ## <a name="configuring-dual-write"></a>二重書き込みの構成
-非在庫材料の展開の場合のみ、二重書き込みマッピングを構成します。 詳細については、[Project Operations 二重書き込みマップ バージョン](resource-dual-write-maps.md)を参照してください。
+- デュアルライトのセキュリティ ロールを構成するには、[Dataverse で Project Operations のセキュリティ設定を更新する](resource-provision-new-environment.md)を参照してください。
+- デュアルライトのマッピングを構成するには、[Project Operations のデュアルライトのマッイングを実行する](resource-provision-new-environment.md#run-project-operations-dual-write-maps)を参照してください。
 
 ## <a name="assign-licenses"></a>ライセンスの割り当て
 

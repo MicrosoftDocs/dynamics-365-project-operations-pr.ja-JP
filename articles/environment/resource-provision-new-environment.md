@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7f63b144b6fe3eb848d0c303b64237516a97cb56
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501422"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928667"
 ---
 # <a name="provision-a-new-environment"></a>新しい環境をプロビジョニングする
 
@@ -159,7 +159,6 @@ Project Operations には、**10.0.13 (10.0.569.20009)** 以上のアプリケ�
       - **会計カレンダー**
       - **Ledger**
       - **会社**
-      - **通貨為替レートのタイプ**
       - **経費**
 
 5. セキュリティ ロールが更新されたら、**設定** > **セキュリティ** > **チーム** に移動し、**ローカル ビジネス オーナー** チーム ビューで既定のチームを選択します。

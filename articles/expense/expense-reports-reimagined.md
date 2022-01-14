@@ -1,8 +1,8 @@
 ---
-title: 刷新された経費報告書
+title: 刷新された経費報告書 (動画を含む)
 description: このトピックでは、経費精算書エントリの再設計および再考されたエクスペリエンスについて説明しています。
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997837"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941032"
 ---
 # <a name="expense-reports-reimagined"></a>刷新された経費報告書
 
@@ -58,6 +58,7 @@ ms.locfileid: "6997837"
 | 新しい経費明細の保存および追加 | **保存** および **新規** ボタンは新しい経費を入力するときに使用でき、経費明細をすばやく入力するのに役立ちます。 |
 | 分割および項目別された行の可視性の向上 | 項目別および分割された行は経費のリストに直接追加され、可視性を向上し、エラーがあるかどうかを簡単に判断するのに役立ちます。 |
 | サブカテゴリーの詳細を項目別に表示する | 親経費の項目化された明細行は、経費レポートのサブカテゴリ ラベルを示しています。 項目化により、詳細を一目で確認できます。|
+|経常経費を迅速に明細化する | 改良された経費ワークスペースでは、サブカテゴリー、開始日、数量を追加することで、繰り返し発生する支出を素早く項目化することができます。 数量とは、連続した期間に繰り返される課金の回数を意味します。 |
 | 項目別化中に領収書を表示する | 領収書は項目別化中に表示できます。 |
 | 現金前払いの選択 | 単一の経費トランザクションを実行するために、1 つ以上の現金前払いを選択します。 |
 | 現金前払い残高 | 承認済みかつ支払済み現金前払いに対して経費エントリを作成する際に、現金前払い残高をリアルタイムでレビューします。 |

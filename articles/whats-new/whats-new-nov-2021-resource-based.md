@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 20f277bc9b6f571c0144eaaa867bb97c0cf30ddb
-ms.sourcegitcommit: 04ebe764afa22742b3fbf8f12af31e8eea93682e
+ms.openlocfilehash: fb9dad5b04ef2933ed8a8d8211f888f13df5ba40
+ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7827332"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "7942891"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 11 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 
@@ -20,7 +20,7 @@ ms.locfileid: "7827332"
 
 このトピックは、Microsoft Dynamics 365 Project Operations の次のコンポーネントとバージョンに適用されます:
 
-- Dataverse 環境バージョン 4.26.0.145、4.26.0.148、または 4.26.0.150 の Project Operations
+- Dataverse 環境のバージョン 4.26.0.145、4.26.0.148、4.26.0.150、4.26.0.155 の Project Operations
 - Dynamics 365 Finance 環境でのプロジェクト管理と会計 バージョン 10.0.22
 
 ## <a name="features-included-in-this-release"></a>このリリースが含む機能
