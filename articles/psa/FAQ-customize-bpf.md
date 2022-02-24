@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002967"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993152"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>プロジェクト ストレージ業務プロセス フロー内をカスタマイズする方法を教えてください。
 
@@ -60,11 +60,11 @@ ms.locfileid: "7002967"
 1. **Quote**、**Plan**、**Close** の英語ステージ名を保持したまま、既定の構成に追加ステージを追加します。
 
 
-![既定の構成にステージを追加しているスクリーンショット。](media/FAQ-Customize-BPF-1.png)
+![既定の構成にステージを追加する方法のスクリーンショット](media/FAQ-Customize-BPF-1.png)
  
 2. 独自のビジネス プロセス フローを作成し、必要なステージ名にできるプロジェクト エンティティの主な業務プロセス フローを作成します。 ただし、同じ標準プロジェクト ステージの **Quote**、**Plan**、**Close** を使用する場合、カスタム ステージ名から削除されるいくつかのカスタマイズを実行する必要があります。 複雑なロジックは、プロジェクトの完了にあります。ただし、プロジェクト レコードを非アクティブ化することによってトリガーできます。
 
-![BPF カスタマイズ。](media/FAQ-Customize-BPF-2.png)
+![BPF のカスタマイズ](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>プラットフォーム 9.0 の Project Service アプリ バージョン 2.4.4.30 以前の追加の考慮事項
 
@@ -80,11 +80,11 @@ ms.locfileid: "7002967"
 
 1. **設定** > **プロセス センター** に移動します。 Project Service ビジネス ロジックもコピーされるため、プロジェクト ステージ業務プロセス フローをコピーしないでください。
 
-  ![プロセスを作成します。](media/FAQ-Customize-BPF-3.png)
+  ![プロセスの作成](media/FAQ-Customize-BPF-3.png)
 
 2. プロセス デザイナーを使用して必要なステージ名を作成します。 **Quote**、**Plan**、**Close** の既定のステージと同じ機能が必要な場合、カスタム業務プロセス フローのステージ名に基づいてこのフォルダーを作成する必要があります。
 
-   ![BPF をカスタマイズするのに使用されるプロセス デザイナーのスクリーンショット。](media/FAQ-Customize-BPF-4.png) 
+   ![BPF をカスタマイズするのに使用されるプロセス デザイナーのスクリーンショット](media/FAQ-Customize-BPF-4.png) 
 
 3. プロセス デザイナーで、一覧の上部にプロジェクト ステージ業務プロセス フローを移動することで、**受注プロセス フロー** をクリックしてカスタム業務プロセス フローをプロジェクト エンティティの主業務プロセス フローにします。
 
@@ -95,15 +95,15 @@ ms.locfileid: "7002967"
 
 4. カスタム業務プロセス フローのカスタム ステージを取得するためにプロジェクト エンティティに新しいユーザー定義フィールドを追加します。 カスタム業務プロセス フローでステージが更新されたときに、このフィールドを更新するようにビジネス ロジック (プラグイン/ワークフロ) を追加する必要があります。
 
-   ![プロジェクト エンティティのカスタマイズのスクリーンショット。](media/FAQ-Customize-BPF-6-720.png)
+   ![プロジェクト エンティティのカスタマイズのスクリーンショット](media/FAQ-Customize-BPF-6-720.png)
 
 5. ステージに対して新しいカスタム フィールドを使用するために、**ステージ別プロジェクト** グラフを変更します。
 
-   ![ステージ別プロジェクト グラフを使用しているスクリーンショット。](media/FAQ-Customize-BPF-7-720.png)
+   ![[ステージ別プロジェクト] グラフの使用のスクリーンショット](media/FAQ-Customize-BPF-7-720.png)
 
 6. ステージの新しいカスタム フィールドを含めるにはプロジェクト エンティティのビューを変更します。
 
-   ![プロジェクト エンティティでのビューを変更しているスクリーンショット。](media/FAQ-Customize-BPF-8-720.png)
+   ![プロジェクト エンティティでのビューの変更のスクリーンショット](media/FAQ-Customize-BPF-8-720.png)
 
 
 

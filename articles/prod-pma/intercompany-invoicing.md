@@ -2,9 +2,11 @@
 title: 会社間請求
 description: この記事では、プロジェクトの会社間請求に関する情報と例を示します。
 author: Yowelle
+manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995812"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270774"
 ---
 # <a name="intercompany-invoicing"></a>会社間請求
 
@@ -33,7 +35,7 @@ ms.locfileid: "6995812"
 
 次の図は、SI FR (借入法人)と SI USA (融資法人) の 2 つの法人がリソースを共有して、顧客 A にプロジェクトを提供する典型的なシナリオを示しています。このシナリオでは、SI FR が顧客 A に働きかけます。 
 
-[![会社間請求の例。](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![会社間請求の例](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 目標は、会社間プロジェクト トランザクションのコスト管理、収益認識、税額、移転価格をより柔軟で強力なものににすることです。 さらに、次の機能も提供されます。
 

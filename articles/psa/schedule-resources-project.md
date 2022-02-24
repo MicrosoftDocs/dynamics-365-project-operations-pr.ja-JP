@@ -2,6 +2,8 @@
 title: プロジェクトのリソースをスケジュールする
 description: Project Service でのプロジェクトのリソースをスケジュールする方法
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998152"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150449"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>プロジェクトのリソースをスケジュールする (Project Service)
 
@@ -33,7 +35,7 @@ ms.locfileid: "6998152"
   
 スケジュール ボードにはリソースと可用性が一覧表示されます。 ビュー モードを選択し、**時間**、**日**、**週**、または **月** 別に可用性を表示します。  
   
-スケジュール ボードを使用する前に、それをセットすることは重要です。 詳細については、 [スケジュール ボードの構成 (Field Service または Project Service Automation)](/dynamics365/field-service/configure-schedule-board) を参照してください。
+スケジュール ボードを使用する前に、それをセットすることは重要です。 詳細については、 [スケジュール ボードの構成 (Field Service または Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board) を参照してください。
   
 リソースの可用性の目的で、古いバージョンを使用している場合は、[ビュー リソースの可用性](../psa/view-resource-availability.md) を参照してください。  
 
@@ -81,6 +83,3 @@ ms.locfileid: "6998152"
   
 ### <a name="additional-resources"></a>その他のリソース  
  [リソース マネージャー ガイド](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

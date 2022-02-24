@@ -2,6 +2,8 @@
 title: プロジェクトに特化した Office 365 グループを作成する
 description: Project Service で Office 365 グループを作成する方法
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 88ae5eb298e802fdcff24bae378e406d1bc478a63ea37e5bc5d477d137826877
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8fc01ffc48d185055fd9a70da12dbb4333b90b96
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004992"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144779"
 ---
 # <a name="create-an-office-365-group-for-a-project-project-service"></a>プロジェクト (Project Service)に特化した Office 365 グループの作成
 
@@ -41,6 +43,3 @@ ms.locfileid: "7004992"
   
 ### <a name="see-also"></a>関連項目  
  [プロジェクト管理者ガイド](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

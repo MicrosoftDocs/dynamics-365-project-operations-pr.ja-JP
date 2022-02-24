@@ -2,6 +2,8 @@
 title: 見積もりおよび見積依頼明細行
 description: このトピックでは、見積もりおよび見積依頼明細行について説明します。
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995452"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145135"
 ---
 # <a name="quotes-and-quote-lines"></a>見積もりおよび見積依頼明細行
 
@@ -84,7 +86,7 @@ PSA は、固定価格の見積依頼明細行の 3 種類すべての請求書�
 
 これらのトランザクション分類の 1 つ以上を見積依頼明細行に関連付けることができます。 見積もりが成立した後、トランザクション分類と見積依頼明細行の間のマッピングは契約品目に転送されます。
  
-> ![トランザクション タイプを見積依頼明細行および契約品目にマッピングするスクリーンショット。](media/basic-guide-5.png)
+> ![トランザクション タイプを見積依頼明細行および契約品目にマッピングするスクリーンショット](media/basic-guide-5.png)
   
 たとえば、見積もりには次の 2 つの見積依頼明細行が含まれる場合があります。 
 - 時間と材料の請求方法を使用するコンサルティング作業。ここでは、時間と料金のトランザクション分類が適用されます。 たとえば、**Dynamics AX 実装** (プロジェクト例) のすべての時間と料金のトランザクションは、使用される時間と材料に基づいて顧客に請求されます。 
@@ -129,6 +131,3 @@ PSA はこれら 3 つの属性値を使用して暫定的な日付セットを�
 - 均等に分割された請求マイルストーンを作成するには、請求頻度を選択して、見積依頼明細行に請求開始日を入力し、見積もりヘッダーの **概要** セクションの見積もりに対して **要求された完了日** を選択します 。 次に、**定期マイルストーンの生成** を選択して、選択した請求頻度に基づいて均等に分割されたマイルストーンを作成します。 
 - 一括請求マイルストーンを作成するには、マイルストーンを作成し、マイルストーン金額として見積依頼明細行の値を入力します。
 - プロジェクト計画の特定のタスクに基づく請求マイルストーンを作成するには、マイルストーンを作成し、請求マイルストーン UI でプロジェクトのスケジュール要素にマッピングします。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: 価格ディメンションとして予約可能リソースを使用する
 description: このトピックでは、価格設定ディメンションとして予約可能リソースを使用する方法を説明します。
 author: Rumant
+manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b0c5cb85f7c43f7b2fd9c367d7f7ac9c3250e0a1
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996262"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643089"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>価格ディメンションとして予約可能リソースを使用する
 
@@ -64,18 +66,15 @@ ms.locfileid: "6996262"
 1. **価格ディメンション** グリッドの行をダブルクリックして **msdyn_bookableresource** のディメンション ページを開きます。
 2. ディメンション ページの **関連** タブで **価格ディメンションのフィールド名** を選択します。
 
-  ![価格ディメンションのフィールド名のタブ。](media/PD-fieldname.png)
+  ![価格ディメンションのフィールド名のタブ](media/PD-fieldname.png)
 
 3. 開いた関連ビューで **新しい価格ディメンションのフィールド名を追加** を選択します。
 
-  ![新たな価格ディメンション フィールド名を追加する。](media/Add-NewPD-fieldname.png)
+  ![新たな価格ディメンション フィールド名を追加する](media/Add-NewPD-fieldname.png)
 
   **msdyn_bookableresource** の **新規価格ディメンションフィールド名** ページが起動します。 
 
 4. **新しい価格ディメンションのフィールド名** ページで **msdyn_projectteam** を **エンティティの論理名** に追加します。
 5. **msdyn_bookableresourceid** を **Field Name** に追加します。
 
- ![新規価格ディメンション フィールド名のフォーム。](media/PD-fieldname-Added.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![新規価格ディメンション フィールド名の追加フォーム](media/PD-fieldname-Added.png)

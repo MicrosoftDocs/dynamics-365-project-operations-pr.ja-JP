@@ -2,17 +2,19 @@
 title: 経費精算書の個人経費の処理
 description: このトピックでは、出張中に従業員が負担する個人的な経費を処理する方法に関する情報を説明します。
 author: suvaidya
-ms.date: 05/11/2021
+manager: tfehr
+ms.date: 11/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 5e1162133eec5a85675bf686855d420c50de0eaf045d81c4b417b6fe66ee19fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 68dc91db331c5214b5d0ad1109fa4e9bd9d0918e
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993157"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727979"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>経費精算書の個人経費の処理
 
@@ -26,15 +28,3 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
   - **会社による支払い**: 組織が会社のクレジット カードの全額を支払い、その後、個人経費を作業者の口座から引き落とします。
 
 **経費管理パラメーター** ページで、組織が使用する方法を選択できます。
-
-
-## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>個人金額フィールドに値が定義されている場合に経費分割機能を有効にする
-
-機能 **個人金額フィールドに値が定義されている場合に経費分割機能を有効にする** は、明細行レベルのワークフローを使用して承認された経費精算書にのみ適用されます。 レポートは、**経費精算書の処理** > **自分に割り当てられた経費精算書** > **経費精算書を開く** の順に進んで承認します。 
-
-この機能を有効にするには、**ワークスペース** > **機能管理** に移動し、**個人金額フィールドに値が定義されている場合に経費分割機能を有効にする** を選択し、**今すぐ有効にする** を選択します。 
-
-この機能を有効にすると、この機能を使用した経費明細行は、レポートの送信時に 2 つの明細行を生成します。 承認者が各明細行を個別に承認できるように、2 つの明細行が生成されます。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

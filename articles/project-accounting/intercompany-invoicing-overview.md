@@ -2,17 +2,18 @@
 title: 会社間請求の概要
 description: このトピックでは、プロジェクトの会社間請求に関する情報と例を提供します。
 author: sigitac
+manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005397"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595499"
 ---
 # <a name="intercompany-invoicing-overview"></a>会社間請求の概要
 
@@ -20,9 +21,9 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 組織には、プロジェクトのために製品とサービスを相互に転送する複数の部署、子会社、およびその他の法人が存在する場合があります。 サービスや製品を提供する法人は *貸付法人* と呼ばれます。 サービスや製品を受領する法人は *借入法人* と呼ばれます。
 
-次の図は、Contoso Robotics USA (借入法人) と Contoso Robotics UK (貸付法人) の 2 つの法人がリソースを共有し、Adventure Works という顧客のためにプロジェクトを遂行するという典型的なシナリオを示しています。 このシナリオでは、Contoso Robotics USAは、Adventure Works に作業を提供する契約を結んでいます。
+次の図は、2 つの法人で典型的なシナリオを示します。Contoso Robotics USA (借入法人) と Contoso Robotics UK (貸付法人) リソースを共有して顧客である Adventure works にプロジェクトを提供します。 このシナリオでは、Contoso Robotics USA が Adventure Works に納品する契約を結んでいます。
 
-![会社間請求。](./media/IntercompanyScenario.png) 
+![会社間請求](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations は会社間取引の処理に次のフローを使用します。
 
@@ -35,13 +36,10 @@ Dynamics 365 Project Operations は会社間取引の処理に次のフローを
 
 次の図は、会計イベントと一般会計への予測転記に関連する会社間請求を示します。
 
-![会社間のフロー。](./media/IntercompanyFlow.png)
+![会社間のフロー](./media/IntercompanyFlow.png)
 
-## <a name="additional-resources"></a>追加リソース
+## <a name="additional-resources"></a>その他のリソース
 
 - [会社間請求の構成](configure-intercompany-invoicing.md)
 - [会社間トランザクションの記録](create-intercompany-transactions.md)
 - [会社間で顧客およびベンダーの請求書を作成する](create-intercompany-customer-vendor-invoices.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

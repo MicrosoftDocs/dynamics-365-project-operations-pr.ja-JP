@@ -2,6 +2,8 @@
 title: リソース要求の送信
 description: Project Service でのリソース要求の送信方法
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dae9bcddb87324e6614e8663fbfc693c8e994cd3f33839680531cd17269d764b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5b8b136e8d1b8c7acbb8616789ad274c89438e7d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000132"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150224"
 ---
 # <a name="submit-resource-requests-project-service"></a>リソース要求の送信 (Project Service)
 
@@ -53,6 +55,3 @@ ms.locfileid: "7000132"
   
 ### <a name="see-also"></a>関連項目  
  [プロジェクト管理者ガイド](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

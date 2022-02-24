@@ -2,16 +2,18 @@
 title: 汎用リソース要件への対応
 description: このトピックでは、汎用的なリソース要件における、名前付きリソースを予約する方法について説明します。
 author: ruhercul
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4ff8f74fdaeac9757af8df4803e58a006ebb9fe21a460cf0ffcb35f1a4d6308f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008277"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130314"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>汎用リソース要件への対応
 
@@ -37,6 +39,3 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 このシナリオの主な違いは、汎用リソースはタスクに割り当てられたチームに残り、予約された名前付きリソースチームメンバーは職階の一部として割り当てられないことです。 プロジェクト管理者は、指定したリソースに必要に応じて作業を割り当てることができます。 **調整** ビューを使用すると、プロジェクト管理者は複数のリソースからタスクへの割り当てを分割できます。 この処理は自動的には実行されません。要件を構成するタスクのバンドルがある場合や、プロジェクト マネージャが行う割り当ての判断基準など、上記のような単純な例よりも複雑なケースではシステムによる想定が必要となるためです。 システムは意図を理解できないため、想定していたことと意図していたことが異なる可能性が高く、誤った、または予測できない結果が生じる可能性があります。 予測可能な結果は、プロジェクトマネージャが **調整** ビューのサポートを受けて割り当てを行うまで、汎用的なリソースが割り当てられた状態になることです。
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: 着手金または前払金を請求する
 description: このトピックは、Project Operations で着手金または前払金を請求する方法について説明します。
 author: rumant
+manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997477"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596198"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>前払いまたは着手金の請求
 
@@ -49,6 +51,3 @@ Dynamics 365 Project Operations は着手金ベースの契約と 1 回限りの
 | 使用した金額 | **プロジェクトの請求書** ページの **適用した前払金と着手金** グリッド  | この読み取り専用フィールドには、着手金または前払金がどれだけ使用されたかを集計した計算値があります。 | このフィールドは、印刷された請求書で顧客に表示され、すでに使用されたこの着手金または前払金からの金額を示すことができます。 |
 | 合計額 | **プロジェクトの請求書** ページの **適用した前払金と着手金** グリッド  | この編集可能フィールドには、このプロジェクト請求書で使用されている着手金または前払金の金額があります。 この金額は、前払金で利用可能な金額を超えることはできません。 システムは、これをグリッド上の **金額** と **使用額** フィールドの差として自動的に計算します。 この金額を減らして使用可能な金額より少なく使用することができますが、使用する金額を増やして使用可能な金額より多く使用することはできません。 | このフィールドは、印刷された請求書で顧客に表示され、請求書で使用されているこの着手金または前払金からの金額を示すことができます。 |
 | 着手金の残高金額。 | **プロジェクトの請求書** ページの **適用した前払金と着手金** グリッド  | この読み取り専用フィールドには、請求書が確定した後に残っている着手金または前払金の金額があります。 | このフィールドは、印刷された請求書で顧客に表示され、請求書が確定して支払われた後に、この着手金または前払金から残される金額を示すことができます。 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

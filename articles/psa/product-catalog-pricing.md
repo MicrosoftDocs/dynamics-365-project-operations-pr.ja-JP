@@ -2,6 +2,8 @@
 title: 製品カタログの価格
 description: このトピックでは、 Dynamics 365 Project Service Automation で製品カタログの価格がどのように機能するかについて説明します (PSA)。
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000177"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151214"
 ---
 # <a name="product-catalog-pricing"></a>製品カタログの価格 
 
@@ -44,7 +46,7 @@ ms.locfileid: "7000177"
 
 PSAは、価格が、リスト定価、標準コスト、または現在のコストとして構成されている場合、さまざま丸めオプションをサポートします。 複数の価格設定方法と丸めオプションを使用することに加えて、価格表品目に値引き表を関連付けることができます。 
 
-> ![カタログの製品をさまざまな価格表に追加する。](media/basic-guide-16.png)
+> ![カタログの製品をさまざまな価格表に追加する](media/basic-guide-16.png)
 
 **プロジェクト見積もり** ページで **カスタム価格の作成** を選択して、見積の新しいカスタム価格表を作成すると、PSAは価格表のコピーを作成し、新しい価格表のヘッダーの **エンティティ** フィールドは **営業エンティティ** に設定されます。 新しい価格表の名前には、見積名とタイムスタンプが追加されます。 カスタム ワークフローで新しい価格表の名前と見積の名前を使用して、カスタム価格を使用する見積の追加レビューと承認をトリガーすることもできます。
 
@@ -62,6 +64,3 @@ PSAは、価格が、リスト定価、標準コスト、または現在のコ�
 既定では、見積依頼明細行の **製品** フィールドには、見積の製品価格表内のすべてのアクティブな製品がリストされます。 製品が非アクティブ化されている場合、またはドラフト製品の場合は、価格表に含まれていてもリストされません。 
 
 製品カタログ品目には、プロジェクト契約で作成された最初の請求書に請求明細行として追加されます。 下書き請求書では、それらの請求明細行を削除できます。 その場合は、明細行は請求書が発行されるまで、または請求書が顧客に送信されるまで、それ以降の請求書に表示されます。 PSAでは、製品の請求明細行の部分的な数量を請求することはできません。 プロジェクト契約の製品明細行が請求されると、実績が作成されます。 ただし、それらの実績は関連するプロジェクト エンティティにリンクされていません。 つまり、製品ベースのプロジェクト契約品目は、プロジェクト ベースの使用から独立しています。 PSAは、プロジェクトの物的消費を追跡しません。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

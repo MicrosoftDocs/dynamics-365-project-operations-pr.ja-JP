@@ -2,9 +2,11 @@
 title: プロジェクト ステージ
 description: このトピックでは、 Microsoft Dynamics プロジェクト オペレーションで利用可能なプロジェクトのステージについて説明します。
 author: ruhercul
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ea8b74813e8a51930a03571eab0d962e14f66a8fd6cb978d3435570a01ce5c5d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aa3d692a46165b01eafbd7619578cead8dd912d6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003059"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127479"
 ---
 # <a name="project-stages"></a>プロジェクト ステージ
 
@@ -61,6 +63,3 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 プロジェクトのすべてのトランザクションが記録されたら、プロジェクト管理者はステージを **閉じる** に更新できます。 この時点で、トランザクションの記録はできなくなり、プロジェクトは読み取り専用に設定されます。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

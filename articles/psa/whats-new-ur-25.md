@@ -2,6 +2,8 @@
 title: Project Service Automation 更新プログラム リリース 25、V3 の新機能と変更点
 description: このトピックには、Project Service Automation 更新プログラム リリース 25、V3 で利用可能な機能と修正をリスト化しています。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/26/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9d8ac559be2c23396604c61caae83c8a5328869d76218c6d8b3b6a6a6b32c1eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aabee3fe755e33d2c0f01a96b6f53a68957bc041
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996577"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143761"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-25-v3"></a>Project Service Automation 更新プログラム リリース 25、V3 の新機能と変更点
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](/power-platform/admin/install-remove-preferred-solution) を参照してください。
+Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution) を参照してください。
 
 このトピックでは、Project Service Automation V3、更新プログラム リリース 25 で新規または変更された機能と修正の一覧を示します。このバージョンのビルド番号は V 3.10.43.76 で、2020 年 10 月に自己更新で一般提供されます。
 
@@ -68,6 +70,3 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 - **プロジェクトのコピー: HelperResource 管理の見積もり** から生成される Null 参照例外に対処するためのエラー処理が改善されました。
 - **時間と材料の請求バックログ** の **請求準備未完了** では、請求の状態がクリアされません。
 - **ロール価格** と **カタログ品目** タブの誤ってラベル付けされた **価格** ボタンが修正されました。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

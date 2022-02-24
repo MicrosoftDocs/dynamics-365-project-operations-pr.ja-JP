@@ -2,9 +2,11 @@
 title: 経費精算書を転記する
 description: このトピックでは、総勘定元帳に経費精算書を転記する方法について説明します。
 author: saraschi2
+manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6df49bb6831b08611b05e02bbb1a5a2a80a34193497e3020ccddd5370cf37a4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 36be76c0c9f25cb93921acee36a820e276cad625
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993022"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271314"
 ---
 # <a name="post-an-expense-report"></a>経費精算書を転記する
 

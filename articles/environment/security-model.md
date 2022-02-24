@@ -2,16 +2,18 @@
 title: セキュリティ モデル
 description: このトピックは Dynamics 365 Project Operations のセキュリティ モデルに関する情報を提供します。
 author: stsporen
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991492"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642909"
 ---
 # <a name="security-model"></a>セキュリティ モデル
 
@@ -56,9 +58,9 @@ Web 向けの Project は、割り当て時にユーザーをグループに自�
 
 Project Operations は、暗黙的なアクションによってグループを作成するのではなく、グループを押すという明示的なアクションを介してのみ作成します。
 
-**グループ管理** ダイアログでのグループ メンバーの検索は、環境のセキュリティ グループの一部として設定されているユーザーに限定されています。 詳細については、[環境へのユーザー アクセスのコントロール: セキュリティ グループおよびライセンス](/power-platform/admin/control-user-access) を参照してください。
+**グループ管理** ダイアログでのグループ メンバーの検索は、環境のセキュリティ グループの一部として設定されているユーザーに限定されています。 詳細については、[環境へのユーザー アクセスのコントロール: セキュリティ グループおよびライセンス](https://docs.microsoft.com/power-platform/admin/control-user-access) を参照してください。
 
-![グループ モード。](./media/groupsmode.png)
+![グループモード](./media/groupsmode.png)
 
 1. プロジェクトは、作成するユーザーによって作成および所有されます。
 2. プロジェクトの所有者がチームに更新されます。
@@ -68,7 +70,7 @@ Project Operations は、暗黙的なアクションによってグループを�
 ## <a name="deployment-recommendation"></a>展開に関する推奨事項
 Office グループのコラボレーション モデルが拡張するにつれて、時間の経過とともにより詳細なコントロールを提供する機能が追加されます。 今日 Project Operations を展開しているお客様は、従来の Microsoft Dynamics 365 セキュリティ モデルに集中することをお勧めします。
 
-詳細については、[Common Data Service のセキュリティ](/power-platform/admin/wp-security) を参照してください。
+詳細については、[Common Data Service のセキュリティ](https://docs.microsoft.com/power-platform/admin/wp-security) を参照してください。
 
 ## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations と Microsoft Dynamics 365 Finance セキュリティ
 Project Operations には次のロールが含まれます:
@@ -76,9 +78,6 @@ Project Operations には次のロールが含まれます:
 - プロジェクト マネージャー
 - プロジェクト経理担当者
 
-Finance のセキュリティの詳細については、[ロールベースのセキュリティ](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security) を参照してください。
+Finance のセキュリティの詳細については、[ロールベースのセキュリティ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security) を参照してください。
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

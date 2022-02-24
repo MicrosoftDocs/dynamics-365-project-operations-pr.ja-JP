@@ -2,22 +2,24 @@
 title: 見積もりをプロジェクトベースの契約品目にインポートする (ライト)
 description: このトピックでは、財務見積もりをプロジェクトから契約品目にインポートする方法について説明します。
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b462af163fef1bfcbbc4f945df722d4e8a71fb1a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997252"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177472"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>見積もりをプロジェクトベースの契約品目にインポートする (ライト)
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
-Dynamics 365 Project Operations では、プロジェクトの見積もりをプロジェクトベースの契約品目にインポートできます。
+Dynamics 365 Project Operationsでは、見積もりをプロジェクトからプロジェクトベースの契約品目にインポートできます。
 
 1. プロジェクトベースの契約品目にある **プロジェクト** フィールドが入力されていることを確認します。
 2. **契約品目の詳細** タブのサブグリッドで、**ププロジェクトの見積もりからインポート** を選択します。 集計オプションのあるダイアログ ページが開きます。 使用可能な集計オプションは、**トランザクション クラス**、**カテゴリ**、**ロール**、**プロジェクト タスク** です。
@@ -58,6 +60,3 @@ Dynamics 365 Project Operations では、プロジェクトの見積もりをプ
 | タスク A | 航空運賃 | 10/1/2020 | 4 | 400 | 1600 |
 | タスク B | 宿泊 | 10/1/2020 | 4 | 200 | 800 |
 | タスク C | 宿泊 | 11/1/2020 | 2 | 200 | 400 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

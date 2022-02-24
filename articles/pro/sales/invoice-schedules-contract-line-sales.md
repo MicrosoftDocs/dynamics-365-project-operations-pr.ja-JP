@@ -2,16 +2,18 @@
 title: プロジェクトベースの契約品目の請求スケジュールを作成する (ライト)
 description: このトピックは、請求書のスケジュールとマイルストーンの作成に関する情報を提供します。
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: dc0cf92ed7af0353baa0f93fc7fb69e02905f805eb04a7b4c7bc99cfe59da62a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006072"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180333"
 ---
 # <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>プロジェクトベースの契約品目の請求スケジュールを作成する (ライト)
 
@@ -72,6 +74,3 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 | 税額 | 簡易作成 | マイルストーンに適用される税額。 | これは、プロジェクト契約品目のマイルストーンと請求書に含まれています。 |
 
 4. **保存して閉じる** を選択します。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

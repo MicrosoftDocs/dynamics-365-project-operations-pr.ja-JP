@@ -2,9 +2,11 @@
 title: iOS および Android 上の Microsoft Dynamics 365 Project Timesheet モバイル アプリのカスタム フィールドを実装する
 description: このトピックでは、拡張機能を使用してカスタム フィールドを実装するための一般的なパターンについて説明します。
 author: Yowelle
+manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005757"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270999"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>iOS および Android 上の Microsoft Dynamics 365 Project Timesheet モバイル アプリのカスタム フィールドを実装する
 
@@ -52,7 +54,7 @@ ms.locfileid: "7005757"
 | 種類の値 | 型              | メモ​​ |
 |-------------|-------------------|-------|
 | 0           | 文字列 (列挙型) | フィールドはテキスト フィールドとして表示されます。 |
-| 1           | Integer           | 値は、小数点以下の桁数がない数値として表示されます。 |
+| 6           | Integer           | 値は、小数点以下の桁数がない数値として表示されます。 |
 | 2           | 実数              | 値は、小数点以下の桁数を含む数値として表示されます。<p>アプリで通貨として実数値を表示するには、**fieldExtenededType** プロパティを使用します。 **numberOfDecimals** プロパティを使用し、表示される小数点以下の桁数を設定することができます。</p> |
 | 3           | 日              | 日付の書式は、ユーザーが **ユーザー オプション** の **言語と国/地域の基本設定** の下で指定した **日付、時間、および数値書式** により決定されます。 |
 | 4           | Boolean           | |
@@ -153,13 +155,13 @@ ms.locfileid: "7005757"
 
 タイムシート エントリ作成のモバイル アプリのスクリーンショットを次に示します。 すでに設定されている「2 番目のオプション」の列挙値と「テスト文字列」と呼ばれる「時間エントリ」セクションの標準フィールドとカスタム フィールドを示しています。
 
-![アプリのテスト文字列のカスタム フィールド。](media/timesheet-entry.jpg)
+![アプリのテスト文字列のカスタム フィールド](media/timesheet-entry.jpg)
 
 
 
 「テスト文字列」のカスタム フィールドで使用可能な列挙型のオプションの 1 つを選択しているユーザーのモバイル アプリのスクリーンショットを次に示します。  ラジオ ボタンとして表示されている「最初のオプション」と「2 番目のオプション」の 2 つのオプションがあります。 現在、2 番目のオプションが選択されています。
 
-![テスト文字列のカスタムフィールドのオプション ボタン (ラジオ ボタン)。](media/enum-option.jpg)
+![テスト文字列のカスタムフィールドのオプション ボタン (ラジオ ボタン)](media/enum-option.jpg)
 
 
 
@@ -171,7 +173,7 @@ ms.locfileid: "7005757"
 
 アプリケーション オブジェクト ツリーの Visual Studio のスクリーンショットを次に示します。 カスタム フィールドとして追加されている TestLineString フィールドのある、TSTimesheetLine テーブルの拡張機能を示しています。
 
-![明細行の文字列。](media/b6756b4a3fc5298093327a088a7710fd.png)
+![明細行の文字列](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>TSTimesheetSettings クラスの buildCustomFieldList メソッドのコマンド チェーンを使用して、タイムシート エントリ セクションのフィールドを表示する
 
@@ -317,11 +319,11 @@ final class TSTimesheetEntryService_Extension
 
 タイムシートを確認しているユーザーのモバイル アプリのスクリーンショットを次に示します。 右上隅で「詳細」ボタンが選択され、「詳細を表示」オプションが表示されています。  
 
-![その他の詳細コマンドを表示する。](media/show-more.png)
+![詳細を表示コマンド](media/show-more.png)
 
 タイムシートの「詳細」セクションを表示しているモバイル アプリのスクリーンショットを次に示します。 「このタイムシートの稼働率 (計算されたカスタム フィールド)」と呼ばれるカスタム フィールドがタイムシート ヘッダー セクションに追加されました。 カスタム フィールドに読み取り専用の値「0.667」が設定されています。
 
-![詳細セクション。](media/more-section.jpg)
+![詳細セクション](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>カスタム フィールドを持つように TSTimesheetTable テーブルを拡張する
 
@@ -414,7 +416,7 @@ final class TSTimesheetDetails_Extension
 
 プロジェクト パラメーターから、標準フィールドを読み取り専用にするか、モバイル アプリで非表示にすることができます。 **プロジェクト管理および会計パラメーター** ページの **タイムシート** タブにある **モバイル タイムシート** のセクションのオプションを設定します。
 
-![プロジェクト パラメーター。](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![プロジェクト パラメーター](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>拡張機能を介して選択できる活動を変更する
 

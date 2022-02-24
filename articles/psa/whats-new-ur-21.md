@@ -2,6 +2,8 @@
 title: Project Service Automation 更新プログラム リリース 21、V3 の新機能と変更点
 description: このトピックには、Project Service Automation 更新プログラム リリース 21、V3 で利用可能な機能と修正をリスト化しています。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e7bf9d5c85d2fab0d17c435bdd96057c0c80be8f41b16f94afe6b1f554e7a9fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b1194c1cf1997b68030fe88360c6ebb756c715fd
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984743"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147029"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Project Service Automation 更新プログラム リリース 21、V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](/power-platform/admin/install-remove-preferred-solution) を参照してください。
+Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution) を参照してください。
 
 このトピックには、Project Service Automation V3 更新プログラム 21 の新機能または変更された機能と修正をリスト化しています。 このバージョンのビルド番号は V 3.10.32.50 であり、2020 年 6 月のセルフ アップデートを通じて一般提供されました。
 
@@ -75,6 +77,3 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 - **販売価格表の解決** ロジックがタイムゾーンを不適切に処理するため、価格表の選択が正しく行われません。
 - プロジェクトの **実際の合計コスト** は、1 回の時間エントリが承認された後、端数でオフにすることができます。
 - **価格解決** ロジックでは、**取得した RolePrice** が **'標準出荷単位'** と **'標準出荷単位の価格'** フィールドに値を持たない場合、ユーザー フレンドリなエラー メッセージを提供しません。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

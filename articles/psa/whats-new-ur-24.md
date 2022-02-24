@@ -2,6 +2,8 @@
 title: Project Service Automation 更新プログラム リリース 24、V3 の新機能と変更点
 description: このトピックには、Project Service Automation 更新プログラム リリース 24、V3 で利用可能な機能と修正をリスト化しています。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 51d08dd147b7804cb5c9255159aeab2ecd94f4597d6e99c5fa92efe1246c44d0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 15fe1c3482de66331dd543ee73391638919b2595
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998062"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146714"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Project Service Automation 更新プログラム リリース 24、V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](/power-platform/admin/install-remove-preferred-solution) を参照してください。
+Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution) を参照してください。
 
 このトピックには、Project Service Automation V3 更新プログラム 24 の新機能または変更された機能と修正をリスト化しています。 このバージョンのビルド番号は V 3.10.42.43 であり、一般的には 2020 年 10 月の自己プログラム更新の処理を通じて入手できます。
 
@@ -79,6 +81,3 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 - **実績の更新** ボタンは、誤ってサマリー タスクを計算します。
 - Microsoft Project アドイン: チーム メンバーのいずれかに空のリソース単位がある場合、Null 参照エラーを修正します。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

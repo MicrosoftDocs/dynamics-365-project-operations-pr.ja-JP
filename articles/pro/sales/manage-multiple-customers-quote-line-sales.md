@@ -2,16 +2,18 @@
 title: プロジェクトベースの見積依頼明細行の複数の顧客を管理する (ライト)
 description: このトピックでは、プロジェクトベースの見積依頼明細行で複数の顧客を管理する方法について説明します。
 author: rumant
+manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d015e9107741fd496f7d3639731f33fcdcc9b9bdd5f501c9ad2617e37a707f35
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001707"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176482"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>プロジェクトベースの見積依頼明細行の複数の顧客を管理する (ライト)
 
@@ -41,6 +43,3 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 請求分割率はインラインで編集できます。 請求分割率の合計が 100% でない場合、エラーが発生します。 請求分割率を編集した後、見積依頼明細行ページを更新してエラーを削除します。
 
 見積依頼明細行の顧客サブグリッドで均等配分アクションを使用して、すべての見積依頼明細行の顧客に請求分割を割り当てます。 丸め要素がある場合、それは丸め顧客に追加されます。 見積依頼明細行の顧客の 1 人は、常に丸め顧客としてタグ付けされます。つまり、見積依頼明細行の顧客レコードでは、丸めフラグが **はい** に設定されています。 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

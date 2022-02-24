@@ -2,16 +2,18 @@
 title: 会社間請求の構成
 description: このトピックでは、プロジェクトの会社間請求を構成する方法ついて情報と例を提供します。
 author: sigitac
-ms.date: 04/12/2021
+manager: tfehr
+ms.date: 11/20/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bdb6122d8aba84d2b449f9f17a4093388b585614
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994057"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595502"
 ---
 # <a name="configure-intercompany-invoicing"></a>会社間請求の構成
 
@@ -21,9 +23,9 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ## <a name="example-configure-intercompany-invoicing"></a>例: 会社間請求の構成
 
-以下の例では、Contoso Robotics USA (USPM) が が借り手の法人であり、Contoso Robotics UK (GBPM) が貸し手の法人です。 
+次の例では、Contoso Robotics USA (USPM) が借入法人であり、Contoso Robotics UK (GBPM) が貸付法人です。 
 
-1. **法人間に会社間会計を構成します**。 借入法人と貸付法人の各ペアは、一般会計の [会社間会計](/dynamics365/finance/general-ledger/intercompany-accounting-setup) ページで構成する必要があります。
+1. **法人間に会社間会計を構成します**。 借入法人と貸付法人の各ペアは、一般会計の [会社間会計](https://docs.microsoft.com/dynamics365/finance/general-ledger/intercompany-accounting-setup) ページで構成する必要があります。
     
     1. Dynamics 365 Finance で **一般会計** > **転記の設定** > **会社間会計** の順に移動します。 以下の情報を使用してレコードを作成します。
 
@@ -35,17 +37,17 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
      1. Finance で法人 **GBPM** を選択します。
      2. **売掛金勘定** > **顧客** > **すべての顧客** に移動します。 法人 **USPM** に新しいレコードを作成します。
      3. **名前** を展開して **タイプ** でレコードをフィルターし、**法人** を選択します。 
-     4. **Contoso Robotics USA (USPM)** の顧客レコードを探して選択します。
+     4. **Contoso Robotics USA (USPM)** の顧客レコードを見つけて選択します。
      5. **照合の使用** を選択します。 
-     6. 顧客グループ **50 - 企業間取引の顧客** を選択して、レコードを保存します。
+     6. 顧客グループを選択してレコードを保存します。
      7. 法人 **USPM** を選択します。
      8. **買掛金勘定** > **ベンダー** > **すべてのベンダー** に移動します。 法人 **GBPM** に新しいレコードを作成します。
      9. **名前** を展開して **タイプ** でレコードをフィルターし、**法人** を選択します。 
-     10. **Contoso Robotics UK (GBPM)** の顧客レコードを探して選択します。
+     10. **Contoso Robotics UK (GBPM)** の顧客レコードを見つけて選択します。
      11. **照合を使用する** を選択してベンダー グループを選択し、このレコードを保存します。
      12. ベンダー レコードで **一般** > **設定** > **会社間** を順に選択します。
      13. **取引関係** タブで **アクティブ** を **はい** に設定します。
-     14. **顧客の会社** フィールドを **GBPM** に設定し、**マイ アカウント レコード** で、前述の手順で作成した顧客レコードを選択します。
+     14. ベンダー企業 **GBPM** を選択し、この手順の前半で作成した顧客レコードを **自分の会計レコード** で選択します。
 
 3. **プロジェクト管理と会計パラメーターで会社間の設定を構成します**。 
 
@@ -57,7 +59,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
     6. **リソースの貸付時** グループで **...** > **新規** を選択します。 
     7. グリッドから次の情報を選択します。
 
-          - **借入法人** = **USPM**
+          - **借入法人** = **GBPM**
           - **売上計上** = **はい**
           - **既定のタイムシート カテゴリ** = **既定 – 時間**
           - **既定の経費カテゴリ** = **既定 – 経費**
@@ -69,36 +71,33 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
      3. **コスト勘定** タブの **元帳勘定タイプ** で **会社間コスト** を選択します。 以下の情報を使用して新規レコードを作成します。
       
         - **貸付法人** = **GBPM**
-        - **主勘定** = 会社間コストの主勘定を選択します。 この設定は必須です。 この設定は、Finance の会社間フローでは使用されますが、プロジェクト関連の会社間フローでは使用されません。 この選択によるダウンストリームへの影響はありません。 
+        - **主勘定** = 会社間コストの主勘定を選択する
         
      4. 貸付法人 **GBPM** を選択します。 
      5. **プロジェクトの管理と会計** > **設定** > **転記** > **元帳転記設定** に移動します。 
      6. **売上勘定** タブの **元帳勘定タイプ** で **会社間売上** を選択します。 以下の情報を使用して新規レコードを作成します。
 
         - **借入法人** = **USPM**
-        - **主勘定** = 会社間売上の主勘定を選択します。 この設定は必須です。 この設定は、Finance の会社間フローでは使用されますが、プロジェクト関連の会社間フローでは使用されません。 この選択によるダウンストリームへの影響はありません。 
+        - **主勘定** = 会社間売上の主勘定を選択する 
 
 5. **労務の振替価格を設定します**。 会社間の振替価格は Dataverse の Project Operations で設定します。 会社間の請求に対して [労務の原価率](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) と [労務の請求レート](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) を構成します。 会社間の経費トランザクションは振替価格をサポートしていません。 組織間の販売単価は、常にリソース単位原価の値段と同じ値に設定します。
 
-      Contoso Robotics UK の開発者のリソースコストは 1 時間あたり 88 GBP です。 Contoso Robotics UK は Contoso Robotics USA に対し、このリソースが米国のプロジェクトで働いた 1 時間ごとに 120 米ドルを請求します。 Contoso Robotics USA は、Contoso Robotics UK の開発リソースが行った作業に対して、Adventure Works 200 USD を顧客に請求します。
+      Contoso Robotics UK の開発者リソース コストは 1 時間あたり 88 GBP です。 Contoso Robotics UK は、このリソースが米国のプロジェクトに取り組んだ時間ごとに Contoso Robotics USA に 120 USD を請求します。 Contoso Robotics USA は、Contoso Robotics UK の開発者リソースが行った作業に対して顧客である Adventure Works に 200 USD を請求します。
 
-      1. Dataverse の Project Operations で **販売** > **価格表** に移動します。 新しい原価リスト **Contoso Robotics UK のコスト率** を作成します。 
+      1. Dataverse の Project Operations で **販売** > **価格表** に移動します。 **Contoso Robotics UK の原価率** という名前の新しい原価価格表を作成します。 
       2. 原価価格表に、以下の情報を使用してレコードを作成します。
          - **ロール** = **開発者**
          - **コスト** = **88 GBP**
-      3. **設定** > **組織単位** に移動し、このコスト価格表を **Contoso Robotics UK** の組織単位に添付します。
-      4. **販売** > **価格表** に移動します。 新しい原価リスト **Contoso Robotics USA のコスト率** を作成します。 
+      3. **設定** > **組織単位** に移動して、この原価価格表を **Contoso Robotics UK** 組織単位に添付します。
+      4. **販売** > **価格表** に移動します。 **Contoso Robotics USA の原価率** という名前で原価価格表を作成します。 
       5. 原価価格表に、以下の情報を使用してレコードを作成します。
           - **ロール** = **開発者**
           - **リソース会社** = **Contoso Robotics UK**
           - **コスト** = **120 USD**
-      6. **設定** > **組織単位** に移動し、**Contoso Robotics USA** の組織単位に **Contosoのコスト率** のコスト価格表を添付します。
+      6. **設定** > **組織単位** に移動して **Contoso Robotics USA の原価率** 原価価格表を **Contoso Robotics USA** 組織単位に添付します。
       7. **販売** > **価格表** に移動します。 **Adventure Works の請求レート** という名前で販売価格表を作成します。 
       8. 販売価格表に、以下の情報を使用してレコードを作成します。
           - **ロール** = **開発者**
           - **リソース会社** = **Contoso Robotics UK**
           - **請求レート** = **200 USD**
       9. **販売** > **プロジェクト契約** に移動して、**Adventure Works の請求レート** 価格表をプロジェクト契約の Adventure Works プロジェクト価格表に添付します。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

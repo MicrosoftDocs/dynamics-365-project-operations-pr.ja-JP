@@ -2,18 +2,19 @@
 title: 価格ディメンションの概要
 description: このトピックは Dynamics 365 Project Operations の価格ディメンションに関する情報を提供します。
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001977"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650203"
 ---
 # <a name="pricing-dimensions-overview"></a>価格ディメンションの概要
 
@@ -33,7 +34,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 Dynamics 365 Project Operations には、価格ディメンションの既定セットが付属しています。 これらの価格設定ディメンション表示するには、 **プロジェクト サービス** > **パラメーター** に移動します。 パラメーター レコードの **金額ベースの価格ディメンション** タブで、ロール **msdyn_resourcecategory** と リソース組織単位 **msdyn_organizationalunit** のフィールド **営業に適用可能** と **コストに適用可能** が **はい** に設定されていることを確認します。 これらのフィールドを有効化することで、各ロールや組織単位の組み合わせの価格とコストを設定することができます。
 
-!["営業に適用可能" が強調表示された Project Service パラメーターのスクリーンショット。](media/PS-OOB-parameters.png)
+![強調表示された 「営業に適用可能」 の Project Service パラメーターのスクリーンショット](media/PS-OOB-parameters.png)
 
 追加の属性を使用してリソースの価格やコストを設定する必要がある場合は、カスタマイズしたフィールド、エンティティおよびディメンションを作成できます。 詳細については、次のトピックを参照してください。 
   
@@ -58,18 +59,15 @@ Dynamics 365 Project Operations には、価格ディメンションの既定セ
 
 **サンプル請求レート**
 
-| ロール        | 組織単位    |単位      |価格      |通貨  |
+| ロール        | 組織単位    |出荷単位      |価格      |[通貨]  |
 | ------------|-------------|----------|----------:|----------|
-| 開発者   | Contoso US  |時 | 200|USD     |
-| 開発者   | Contoso India |時|   112|USD     |
+| 開発者   | Contoso US  |Hour | 200|USD     |
+| 開発者   | Contoso India社 |Hour|   112|USD     |
 
 
 **サンプル コスト レート**
 
-| 給与範囲     | 組織単位    |単位      |価格      |通貨  |
+| 給与範囲     | 組織単位    |出荷単位      |価格      |[通貨]  |
 | ----------------|-------------|----------|----------:|----------|
-| 自分の会社_Band1 | Contoso US  |時 | 145|USD     |
-| 自分の会社_Band2 | Contoso India |時|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| 自分の会社_Band1 | Contoso US  |Hour | 145|USD     |
+| 自分の会社_Band2 | Contoso India社 |Hour|   67|USD     |

@@ -2,26 +2,28 @@
 title: プロジェクト見積もりの管理
 description: このトピックでは、プロジェクトの見積もりについて説明します。
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3c33adabbd03cca19ae5e7f401f08a716e9242b2
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001527"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177832"
 ---
 # <a name="manage-project-quotes"></a>プロジェクト見積もりの管理
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-Dynamics 365 Project Operations では、プロジェクト見積が、プロジェクト作業の提案を構築するのに役立つように設計されています。 Project Operations のプロジェクト見積の構造は、次のコンポーネントを含むプロジェクト提案のために構成されています。
+Dynamics 365 Project Operations では、プロジェクトの見積もりは、プロジェクト作業の提案を作成を簡易化する意図で設計されています。 Project Operations におけるプロジェクト見積もりの構造は、以下のようなコンポーネントを使用したプロジェクト提案の構造となっています。
 
-  - 上位レベルのコンポーネントとして表示される作業の個別のコンポーネントを識別する見積明細行。
-  - 各上位レベルのコンポーネントまたは見積明細行の作業を識別して見積もる見積明細行の詳細。 作業のスケジュールまたは日付見積、および財務的な側面は、その見積明細行に関連づけられています。
-  - 契約モデルと課金可能コンポーネントは、見積明細行ごとに設定されます。 この設定をすることで、各見積品目の収益、費用、利益のスプレッドと見積書全体の見積もりを行うことができます。
+  - プロジェクトの請求書に高レベルのコンポーネントとして表示される作業の個別のコンポーネントを識別する見積もり品目です。
+  - 高レベルのコンポーネント、または見積品目ごとに作業内容を特定して見積もる見積ラインの詳細です。 スケジュールや日付の見積もりと作業のための財務的な側面は、その見積もり品目に結び付けられています。
+  - 契約モデルと有料コンポーネントは、見積もり品目ごとに設定されます。 この設定をすることで、各見積品目の収益、費用、利益のスプレッドと見積書全体の見積もりを行うことができます。
 
 ## <a name="view-all-project-based-quotes"></a>プロジェクトベースの見積をすべて表示する
 
@@ -31,6 +33,3 @@ Dynamics 365 Project Operations では、プロジェクト見積が、プロジ
 2. **ビュー スイッチャー** を使用して、フィルター処理された見積もりを選択します。 カスタム フィルター条件を使用して、独自のビューとナビゲーション オプションを構成できます。
 
 見積もりは、この一覧ページや詳細のページから作成、削除できます。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

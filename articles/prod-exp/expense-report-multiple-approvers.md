@@ -2,9 +2,11 @@
 title: 経費精算書における複数の承認者
 description: このトピックでは、複数の人物による承認を行う経費報告書について説明します。
 author: saraschi2
+manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvExpensesReportList
 audience: Application User
@@ -14,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 437f782d6a30cb6369fb7c7a2b79e59509ef603446098389ce946be6427dee9d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0fbe1c93c5359a6be493e3c4e1b27b06dbb48002
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995902"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271719"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>経費精算書における複数の承認者
 
@@ -27,14 +29,14 @@ ms.locfileid: "6995902"
 
 複数の経費報告書承認者を必要とする場合は、以下のいずれかの方法でワークフロー要素を追加できます:
 
-- 1 つのステップを持つ承認要素を 1 つ追加する。 たとえば、このステップでは、経費精算書をユーザー グループに割り当て、ユーザー グループのメンバーの 50% がこれを承認する必要があると設定することができます。
-- 複数のステップを含む承認要素を 1 つ追加する。 たとえば、承認要素には次のステップが含まれる場合があります。
+- 1 つの承認段階を持つ、 1 つの承認要素を追加します。 たとえば、このステップでは、経費報告書をユーザー グループに割り当て、ユーザー グループのメンバーの 50％ の承認を必要とする場合があります。
+- 複数の承認段階を持つ 1 つの承認要素を追加します。 たとえば、承認要素には次のステップがあります :
 
-    1. 経費精算書を提出した従業員の上司が精算書を承認する。
-    2. 買掛金勘定の事務員が領収書と経費精算書の品目を確認する。
-    3. 予算の所有者が経費精算書を承認する。
+    1. 経費報告書を提出した従業員の上司が承認する。
+    2. 買掛金担当者が領収書と経費精算書を確認する。
+    3. 予算所有者が経費報告書を承認する。
 
-- それぞれ 1 つのステップを含む複数の承認要素を追加する。 たとえば、次の各ステップに個別の承認要素を追加できます。
+- それぞれが 1 つの承認段階を持つ複数の承認要素を追加します。 たとえば、次の手順ごとに個別の承認要素を追加することができます :
 
     1. 従業員の上司が経費報告書を承認する。
     2. 予算所有者が経費報告書を承認する。

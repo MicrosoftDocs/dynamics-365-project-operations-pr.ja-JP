@@ -3,6 +3,7 @@ title: サンプル データのインストール
 description: このトピックでは、Project Service Automation でのサンプル データのインストールについて説明します。
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -10,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985552"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144509"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Project Service アプリケーション用サンプル データのインストール
 
@@ -86,7 +87,7 @@ ms.locfileid: "6985552"
 コンピューターのスクリーン セーバー機能はオフにする必要があります。 そうしない場合、インストールのセッション資格情報がスクリーン セーバー実行時に失われる可能性があります (セッションを常にアクティブに保たない限り)。
 
 > [!div class="mx-imgBorder"]
-> ![スクリーン セーバーをオフにした、スクリーン セーバー設定のスクリーンショット。](media/sample-data-1.png)
+> ![スクリーンセーバーをオフにした、スクリーンセーバー設定のスクリーンショット](media/sample-data-1.png)
 
 ## <a name="download-and-unpack"></a>ダウンロードおよび解凍
 
@@ -142,13 +143,13 @@ Project Service および Field Service サンプル データ インストー�
 3. **PkgFolder** を開き、**ImportUserMapFile.xml** を検索して開きます。 **New=** フィールドを、システムの対応するユーザーの電子メール アドレスに更新します。
 
    > [!div class="mx-imgBorder"]
-   > ![UserMapFile のスクリーンショット。](media/sample-data-7.png)
+   > ![UserMapFile のスクリーン ショット](media/sample-data-7.png)
 
 4. 「Spencer Low」 というフルネームのユーザーが、**spencerl** と異なるユーザー ID を使用している場合は、追加ファイルを更新する必要があります。 **DemoDataPreImportConfig.xml** を開いてから、**userstocreateandconfigure** タグを見つけます。 **\<login\>** タグを loginId (大文字と小文字は区別されます) で更新します。 
 
 5. 最初のユーザーのカレンダー (**userstocreateandconfigure** タグ) は、デモ データのインポートですべての予約可能リソースに作業時間を設定するのに使用されます。 **設定** > **セキュリティ** > **ユーザー** に移動して、「Spencer Low」というユーザーを検索し、「作業時間」オプションを開きます。 **定期的な週単位のパターン全体** オプションを選択して、既存の作業時間を編集します。 **作業時間が午前 8 時から午後 5 時 (9 時間)、月曜日から金曜日に設定されていること、およびタイムゾーンが太平洋標準時 (米国およびカナダ) に設定されていること** を確認します。 プロジェクトおよびスケジュール ボードが正しく表示されることを確認するのに必要です。
 
-**レコメンデーション:** サンプル データのインストール中に問題が生じるときに開始点に戻る必要がある場合のために、組織のバックアップを今作成することを考慮してください。 詳細については、[インスタンスのバックアップおよび復元](/dynamics365/customer-engagement/admin/backup-restore-instances)を参照してください。
+**レコメンデーション:** サンプル データのインストール中に問題が生じるときに開始点に戻る必要がある場合のために、組織のバックアップを今作成することを考慮してください。 詳細については、[インスタンスのバックアップおよび復元](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances)を参照してください。
 
 ## <a name="run-the-package-deployer"></a>Package Deployer の実行
 
@@ -172,7 +173,7 @@ Project Service および Field Service サンプル データ インストー�
 5. **デモ データ セットアップ** ダイアログが表示されるまで **次へ** を選択します。
 
    > [!div class="mx-imgBorder"]
-   > ![デモ データ インストーラーのステータス ウィンドウのスクリーンショット。](media/sample-data-3.png)
+   > ![デモ データ インストーラーのステータス ウィンドウのスクリーンショット](media/sample-data-3.png)
 
 6. 継続する前に、サンプル データのインストールには最大一時間かかることに注意してください (通常は 10 分以内)。 インストール プロセス全体でコンピューターがオンでネットワークに接続された状態を保ち、セッションがアクティブであり続けるようにする必要があります。   
 
@@ -191,10 +192,10 @@ Project Service および Field Service サンプル データ インストー�
 - Field Service アプリケーションがインストールされている場合、**Project Service** > **設定** > **価格表** の順に移動します。 請求レートおよびコスト レートが存在していることを確認します。 **Field Service** > **設定** > **価格表** の順に移動して、データ セット内の国/地域ごとの、適切な通貨を使用した請求レートおよびコスト レートが存在していることを確認します。
 
   > [!div class="mx-imgBorder"]
-  > ![アクティブな価格表のスクリーンショット。](media/sample-data-4.png)
+  > ![アクティブな価格表のスクリーンショット](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![アクティブな組織単位のスクリーンショット。](media/sample-data-5.png)
+  > ![アクティブな組織単位のスクリーンショット](media/sample-data-5.png)
 
 ## <a name="technical-notes"></a>テクニカル ノート
 
@@ -295,7 +296,4 @@ Field Service オペレーションは合衆国に集約され、大半はシア
 ユーザーを選択して (たとえば、Spencer Low)、Spencer の作業時間を複数のユーザーに適用する時間に変更します。 **Universal Resource Scheduling** > **設定** > **作業時間のテンプレート** の順に移動して、 **既定の作業テンプレート** レコードを編集します。 **テンプレート リソース** フィールドで、他のリソースに適用する作業時間を持つユーザーを選択します。 **Universal Resource Scheduling** > **スケジュール** > **リソース** > **アクティブな予約可能リソース** に移動します。 変更するリソースを選択してから、**カレンダーの設定** を選択します。 **作業テンプレート** ドロップダウン リストで、**既定の作業時間** テンプレートまたは正しいテンプレート リソースを持つ他のテンプレートを選択します。 スケジュール ボード移動すると、リソースの作業時間が更新されていることを確認できます。
 
 > [!div class="mx-imgBorder"]
-> ![アクティブな予約可能リソースのスクリーンショット。](media/sample-data-6.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> ![アクティブな予約可能リソースのスクリーンショット](media/sample-data-6.png)

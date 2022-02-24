@@ -2,16 +2,18 @@
 title: 日当
 description: このトピックでは、経費管理で使用される日当ルールについて説明します。
 author: suvaidya
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986407"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128514"
 ---
 # <a name="per-diems"></a>日当
 
@@ -29,6 +31,3 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
     
 ## <a name="submit-expenses-using-per-diem"></a>日当を使用して経費を提出する
 日当を利用して経費を提出するには、経費レポートを作成するときの **日当** 経費カテゴリを使用します。 **日当開始日**、**日当終了日**、そして **日当の場所** を入力します。 金額は、選択した場所の日当レートに基づいて計算され、食事の削減は、日当レート層に基づいて計算されます。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

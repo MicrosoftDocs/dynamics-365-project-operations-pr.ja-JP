@@ -2,16 +2,18 @@
 title: タイム ゾーンの管理
 description: プロジェクトが作成されると、そのタイム ゾーンは、適用する作業時間テンプレートで定義されたタイム ゾーンに基づきます。
 author: ruhercul
+manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988702"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119829"
 ---
 # <a name="manage-time-zones"></a>タイム ゾーンの管理
 
@@ -32,13 +34,13 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 - ユーザーは、システムの **個人設定** で定義されたタイム ゾーンと一致するようにデバイスのタイム ゾーンを構成する必要があります。
  
-  ![Windows 10 のタイムゾーン設定。](media/reconcile-assignments-03.png)
+  ![Windows 10 のタイムゾーン設定](media/reconcile-assignments-03.png)
 
-  ![パーソナライズ設定におけるタイム ゾーンの設定。](media/reconcile-assignments-04.png)
+  ![パーソナライズ設定におけるタイムゾーンの設定](media/reconcile-assignments-04.png)
  
 - 予約可能なリソースには、要求された拡張機能を定義するために使用する等高線と重複する作業時間が少なくとも 1 分間必要です。 たとえば、午前 9 時から午後 7 時までの間にある勤務時間の次のリソース。 
 
-  ![リソースの等高線の比較。](media/reconcile-assignments-05.png)
+  ![リソースの等高線の比較](media/reconcile-assignments-05.png)
 
 次の表に示されています:
 
@@ -47,25 +49,22 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 - リソースB: このリソースは、プロジェクトとは異なるタイム ゾーンにあり、そのタイム ゾーンの午前 7 時に開始します。 ただし、予約は割り当ての等高線の最も早い開始時刻となっているため、予約は午前9時に開始されます。
 - リソース C および D: リソースは異なるタイム ゾーンにあり、両方とも互いに異なり、プロジェクトも異なり、予約はそれぞれの利用可能な開始時間より前に開始されます。
 
-|Entity  |カレンダー  |
+|エンティティ  |カレンダー  |
 |-|-|
-|プロジェクト カレンダー の テンプレート   | ![プロジェクト カレンダー。](media/reconcile-assignments-06.png) |
-|リソース A  | ![リソース A の カレンダー。](media/reconcile-assignments-06.png) |
-|リソース B  |  ![リソース B の カレンダー。](media/reconcile-assignments-07.png) |
-|リソース C  |  ![リソース C の カレンダー。](media/reconcile-assignments-08.png) |
-|リソース D  | ![リソース D の カレンダー。](media/reconcile-assignments-09.png)  |
+|プロジェクト カレンダー の テンプレート   | ![プロジェクト カレンダー](media/reconcile-assignments-06.png) |
+|リソース A  | ![リソース A の カレンダー](media/reconcile-assignments-06.png) |
+|リソース B  |  ![リソース B の カレンダー](media/reconcile-assignments-07.png) |
+|リソース C  |  ![リソース C の カレンダー](media/reconcile-assignments-08.png) |
+|リソース D  | ![リソース D の カレンダー](media/reconcile-assignments-09.png)  |
  
 **調整** ビューに移動すると、リソース割り当ておよび関連する予約不足が表示されます。
 
-![拡張前の調整ビュー。](media/reconcile-assignments-10.png)
+![拡張前の調整ビュー](media/reconcile-assignments-10.png)
 
 予約拡張機能が各リソースに使用された後、各リソースの作業時間が不足の等高線と重なるため、予約は各リソースに対して正常に拡張されます。
 
-![予約拡張後の調整ビュー。](media/reconcile-assignments-11.png) 
+![予約拡張機能の後の調整ビュー](media/reconcile-assignments-11.png) 
 
 予約の詳細を詳しく見ると、予約の開始時間の違いがわかります。 予約は、割り当て等高線の開始時間より前、およびリソースの使用可能な開始時間より前に開始されます。
 
-![スケジュール ボードにおけるリソースの新規予約。](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![スケジュール ボードにおけるリソースの新規予約](media/reconcile-assignments-12.png)

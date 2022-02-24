@@ -2,6 +2,8 @@
 title: ビジネス トランザクション
 description: このトピックでは、ビジネス トランザクションに関する情報を提供します。
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987532"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149909"
 ---
 # <a name="business-transactions"></a>ビジネス トランザクション
 
@@ -88,7 +90,7 @@ PSA はこれら 5 つのエンティティ レコードをビジネス トラ�
 
 次の例は、PSA プロジェクトのライフサイクルにおける時間エントリの一般的な処理を示しています。
 
-> ![Project Service ライフ サイクルの時間エントリ処理。](media/basic-guide-17.png)
+> ![Project Service ライフサイクルの処理時間エントリ](media/basic-guide-17.png)
  
 1. 時間エントリを送信すると、2 つの仕訳入力が作成されます。1 つはコスト用、もう 1 つは未請求販売用です。
 2. 時間入力の最終承認により 2 つの実績が作成されます。1 つはコスト用、もう 1 つは未請求販売用です。
@@ -147,6 +149,3 @@ PSA はこれら 5 つのエンティティ レコードをビジネス トラ�
 | 下書きの請求書修正       | 請求書明細行トランザクションの GUID | 置換          | msdyn_invoicelinetransaction | 請求済み販売の GUID            | 元の画像サイズ           | msdyn_actual       |
 | 請求書修正の確認     | 請求済みの販売取消の GUID    | 逆仕訳          | msdyn_actual                 | 請求済み販売の GUID            | 元の画像サイズ           | msdyn_actual       |
 | 新しい未請求の販売実績の GUID | 置換                     | msdyn_actual       | 請求済み販売の GUID            | 元の画像サイズ                     | msdyn_actual       |                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

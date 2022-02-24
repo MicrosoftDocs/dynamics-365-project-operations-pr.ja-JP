@@ -2,9 +2,11 @@
 title: 見積もりのプロジェクト価格表を管理する
 description: このトピックでは、プロジェクトの価格表エンティティについての説明をします。
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003912"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177202"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>見積もりのプロジェクト価格表を管理する
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-Dynamics 365 Project Operations は Dynamics 365 Sales の価格表エンティティを拡張します。 
+Dynamics 365 プロジェクト オペレーションは、Dynamics 365 Sales の価格表エンティティを拡張します。 
 
 ## <a name="key-entities"></a>主要なエンティティ
 
@@ -118,6 +120,3 @@ Dynamics 365 Project Operations は Dynamics 365 Sales の価格表エンティ�
     1. 組織単位に添付されている原価価格表。
     2. プロジェクト オペレーションのパラメーターに添付されている原価価格表。 多くの異なる通貨の原価価格表をプロジェクト サービスのパラメーターに添付できるため、プロジェクト、契約、または見積もりの契約組織単位の通貨と原価価格表の通貨の間で通貨照合を完了します。
     3. 経費については、コスト価格設定方法およびコストに対する利幅価格設定方法は原価価格表には適用されません。 これらの価格設定方法を原価価格表の行で使用してトランザクション カテゴリ コストを設定しても、システムはそれらを無視し、既定の原価価格は入力されません。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

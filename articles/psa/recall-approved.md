@@ -2,6 +2,8 @@
 title: 承認済みの時間または経費エントリの取り消し
 description: このトピックでは、前に承認済みの時間と経費の入力を取り消す方法について説明します。
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -15,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e90b84bbfcd007e97e96b294144f058ac73746e3d358437692f0a8e6e92b8de3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f9bb25ac9ef7b400063c5f958311e475de6f6506
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998332"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147846"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>承認済みの時間または経費エントリの取り消し
 
@@ -98,13 +100,10 @@ ms.locfileid: "6998332"
 
 次の図は承認済みの時間エントリが取り消された場合に発生する変更を示します。
 
-![時間エントリ状態の切り替え。](media/TimeEntryStateTransitions.png)
+![時間エントリ状態の切り替え](media/TimeEntryStateTransitions.png)
 
 ## <a name="changes-to-expense-entry-records"></a>経費エントリ レコードへの変更
 
 次の図は承認済みの経費エントリが取り消された場合に発生する変更を示します。
 
-![経費エントリ状態の切り替え。](media/ExpenseEntryStateTransitions.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![経費エントリ状態の切り替え](media/ExpenseEntryStateTransitions.png)

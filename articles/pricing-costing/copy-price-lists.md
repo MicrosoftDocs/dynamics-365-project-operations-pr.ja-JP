@@ -2,22 +2,24 @@
 title: 価格表のコピー
 description: このトピックでは、Project Operations で価格表をコピーする方法について説明します。
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ad09bdce563a48843b3ed96e7aaabd9c0d5960336b9e1c74fddb9b61f760f4cd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003732"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181503"
 ---
 # <a name="copy-price-lists"></a>価格表のコピー
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-Dynamics 365 Project Operations で価格表のコピーを作成できます。 たとえば、今年度の価格表を使って、次年度の価格表を作成することができます。  または、請求レートと販売価格の価格表をコストの価格表からコピーすることもできます。 
+Dynamics 365 ProjectOperations では価格表のコピーを作成できます。 たとえば、今年度の価格表を使って、次年度の価格表を作成することができます。  または、請求レートと販売価格の価格表をコストの価格表からコピーすることもできます。 
 
 価格表のコピーを作成するには、次の手順を実行します。
 
@@ -41,6 +43,3 @@ Dynamics 365 Project Operations で価格表のコピーを作成できます。
 1. 価格表の **ロール**、**カテゴリ**、**価格表品目** タブで、**価格の更新** を選択してサブグリッド内のすべての価格にマークアップを適用します。 
 2. 開いたダイアログページで、マークアップを入力します。 また、マイナスのマーク アップのパーセンテージを入力して、一定の割合で価格を下げることもできます。 
 3. ダイアログページで **OK** を選択して、サブグリッドの価格に変更が反映されていることを確認します。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

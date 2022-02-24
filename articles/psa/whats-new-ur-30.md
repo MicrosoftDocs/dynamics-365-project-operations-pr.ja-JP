@@ -2,6 +2,8 @@
 title: Project Service Automation 更新プログラム リリース 30、V3 の新機能と変更点
 description: このトピックには、Project Service Automation 更新プログラム リリース 30、V3 で利用可能な機能と修正をリスト化しています。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/01/2021
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 07ca20425d05d1d638d9b2b8c3425562e39dd6627916794d1ad8441f00658459
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1169ee13c42e982cb30a40d92df660f8933786a9
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986992"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852867"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-30-v3"></a>Project Service Automation 更新プログラム リリース 30、V3 の新機能と変更点
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](/power-platform/admin/install-remove-preferred-solution.md) を参照してください。
+Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution) を参照してください。
 
 このトピックには、Project Service Automation V3 更新プログラム 30 の新機能または変更された機能と修正をリスト化しています。 このバージョンのビルド番号は V3.10.51.61 で、通常は 2021 年 4 月の自己更新プログラムを通して使用できます。
 

@@ -2,25 +2,27 @@
 title: Project Service Automation の概要
 description: このトピックでは、Dynamics 365 Project Service Automation から Dynamics 365 Finance への統合ソリューションについて説明します。
 author: ruhercul
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: ruhercul
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 41d2eace497f4291022da0775cca7cda7d600df7
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005892"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271089"
 ---
 # <a name="project-service-automation-overview"></a>Project Service Automation の概要
 
@@ -56,7 +58,7 @@ Project Service Automation Finance を統合する前に、Project Service Autom
 > [!NOTE]
 > 現在利用できないテンプレートもあります。 テンプレートは完成次第リリースされます。
 
-[![Project Service Automation と Finance の統合。](./media/PSA-integration.png)](./media/PSA-integration.png)
+[![Project Service Automation と Finance の統合](./media/PSA-integration.png)](./media/PSA-integration.png)
 
 ## <a name="system-requirements-for-finance"></a>Finance のシステム要件
 

@@ -2,9 +2,11 @@
 title: 営業価格表の設定
 description: このトピックでは、プロジェクトの価格に使用する営業価格表についての説明をします。
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 952d518fb58b5be46c4b1cf4ed57b2494fdfdad85e7fe6fb0d622367bc071b5f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eb8dfa61a2d17ba644daf1552889cbcde0f1e47a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997612"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176257"
 ---
 # <a name="set-up-a-sales-price-list"></a>営業価格表の設定
 
@@ -57,6 +59,3 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 既定のプロジェクト価格表が入力されると、システムは通貨が顧客の通貨と一致すること、および入力された既定の価格表が **営業** コンテキストを保有していることを検証します。
 
 顧客、営業案件、見積もり、およびプロジェクト契約の営業エンティティには、複数のプロジェクト価格表を関連付けることができます。 この機能は、長期にわたるプロジェクト契約の日付固有の既定の価格をサポートします。この場合、インフレによって発生する価格更新に対応するため、アカウントに複数の価格表が必要になる場合があります。 ただし、顧客、営業案件、見積もり、またはプロジェクト契約のエンティティに関連付けられている価格表の日付の有効性が重複していると、既定の価格が正しくない場合があります。 そのため、日付の有効性が重複しているプロジェクト価格表がそれらのエンティティに関連付けられていないことを確認する必要があります。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

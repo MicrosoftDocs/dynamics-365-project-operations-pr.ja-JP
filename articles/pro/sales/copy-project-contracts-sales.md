@@ -2,16 +2,18 @@
 title: プロジェクト契約をコピーする (ライト)
 description: このトピックでは、Project Operations におけるプロジェクト 契約ののコピーについて説明します。
 author: rumant
+manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006027"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181413"
 ---
 # <a name="copy-project-contracts---lite"></a>プロジェクト契約をコピーする (ライト)
 
@@ -43,6 +45,3 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
   - 顧客の予算確認
 
 この情報は各契約に対して固有なものであるため、これらのフィールドとレコードはコピーされません。 プロジェクトや製品の契約品目、契約品目詳細の見積もり、契約レベルでの超過しない値をコピーしています。 価格と原価率の規定値は、 **コピーパラメーター** ダイアログ ページの **コピー価格** フィールドでの選択に依存します。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Project Operations のナビゲート
 description: このトピックは、Lifecycle Services から Project Operations にアクセスする方法について説明します。
 author: sigitac
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994597"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642054"
 ---
 # <a name="navigate-project-operations"></a>Project Operations のナビゲート
 
@@ -28,14 +30,11 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 **Common Data Service 環境名** セクションの環境名を使用して、CDS 環境で Project Operations に移動します。 
 
-  ![Common Data Service 環境名。](./media/environment-name.PNG)
+  ![Common Data Service の環境名](./media/environment-name.PNG)
 
 **ログイン** > **環境にログオン** を選択して、Finance の **プロジェクト管理および会計** モジュールに移動します。  
 
-   ![Finance にログインする。](./media/environment-login.PNG)
+   ![Finance にログインする](./media/environment-login.PNG)
 
 > [!NOTE]
 > Common Data Service と **プロジェクト管理および会計** モジュールの Project Operations には、それぞれの URL を使用して直接アクセスできます。 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

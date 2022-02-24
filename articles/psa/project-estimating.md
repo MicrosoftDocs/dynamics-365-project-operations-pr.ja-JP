@@ -2,6 +2,8 @@
 title: プロジェクトコストと売上
 description: このトピックは、プロジェクトコストと売上の見積もりについて説明します。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002562"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148334"
 ---
 # <a name="project-costs-and-revenue"></a>プロジェクトコストと売上
 
@@ -31,7 +33,7 @@ ms.locfileid: "7002562"
 
 プロジェクト見積もりは、プロジェクト スケジュールで見積もられ、スケジュールされた作業の財務ビューを提供します。 **プロジェクト** ページの **見積もり** タブは、計画している作業のコスト、売上の影響を示します。 また、多くの定義済みディメンションについての情報も提供します。 
 
-> ![[見積もり] タブ。](media/project-5.png)
+> ![見積もりタブ](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>プロジェクトのコストと販売額
 
@@ -66,13 +68,13 @@ ms.locfileid: "7002562"
 
 **見積もり** タブには、見積り明細行を示すグリッド ビューがあります。 このグリッドは、次の図に示すように、単位、総コスト価格、および販売価格の列が含まれています。 
 
-> ![[見積り] タブのグリッド ビュー。](media/project-6.png)
+> ![見積りタブのグリッド ビュー](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>プロジェクト見積もりの時間フェーズ ビュー
 
 プロジェクトの時間フェーズ ビューは、タイムライン全体のグリッド ビューから見積もりデータを示します。 既定では、見積もりデータは **ロール** ディメンションでピボットされます。
 
-> ![プロジェクト見積りの時間フェーズ ビュー。](media/project-7.png)
+> ![プロジェクト見積りの時間フェーズ ビュー](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>タスク モードに基づく推定労力の割り当て
 
@@ -95,6 +97,3 @@ ms.locfileid: "7002562"
 ## <a name="expense-estimates"></a>経費の見積もり
 
 グリッド ビューの **新しい経費見積もりを追加** ボタンは、プロジェクトで発生したすべての経費を記録することができますが、労務とは直接関係しません。 特定のタスクまたはプロジェクト全体の経費見積りを記録できます。 経費カテゴリと経費が発生すると見込まれる一時的な日付を選択します。 関連したコスト価格表と販売価格表に既定価格が含まれている場合 (あるいは、利幅率が経費カテゴリで定義されている場合)、関連付けが発生した場合、その見積もり明細行に自動的に入力されます。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

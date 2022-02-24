@@ -2,25 +2,27 @@
 title: プロジェクト契約の管理
 description: このトピックでは、プロジェクトベースの契約書の閲覧に関する情報を提供します。
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001842"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177337"
 ---
 # <a name="manage-project-contracts"></a>プロジェクト契約の管理
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-Dynamics 365 Project Operations のプロジェクト契約では、契約により同意された確約やプロジェクトの請求の詳細を取り込んで管理できます。 プロジェクト運用におけるプロジェクト契約の構造は、次のコンポーネントを使用したプロジェクト ベースの作業に合わせて調整されています。
+Dynamics 365 Project Operations のプロジェクト契約は、契約で合意されたプロジェクトのコミットメントと請求の詳細を取得して管理します。 プロジェクト運用におけるプロジェクト契約の構造は、次のコンポーネントを使用したプロジェクト ベースの作業に合わせて調整されています。
 
-- プロジェクト見積で上位レベルのコンポーネントとして表示される作業の個別のコンポーネントを識別する契約明細行。
-- 各上位レベルのコンポーネントまたは契約明細行の作業を識別して見積もる契約明細行の詳細。 見積もりには、契約品目に関連付けられた作業のスケジュールと財務面が含まれます。
+- プロジェクトの請求書に高レベルのコンポーネントとして表示される作業の個別のコンポーネントを識別する契約品目です。
+- 各高レベルのコンポーネント、または契約品目の作業を識別し、見積もりをする契約品目の詳細です。 見積もりには、契約品目に関連付けられた作業のスケジュールと財務面が含まれます。
 - 契約モデルと課金対象コンポーネントは、各契約品目と契約全体の請求契約を保持する各契約品目に設定されます。
 
 ## <a name="view-all-project-based-contracts"></a>プロジェクトベースの契約をすべて表示する
@@ -31,6 +33,3 @@ Dynamics 365 Project Operations のプロジェクト契約では、契約によ
 2. **ビュースイッチャー**(ビュー名称の横にあるドロップダウン アロー)を選択し、他のフィルターされたビューを選択します。 カスタム フィルター条件を使用して独自のビューを作成できます。
 
 契約は、このリストページまたは詳細ページから作成、削除できます。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

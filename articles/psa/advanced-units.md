@@ -2,6 +2,8 @@
 title: 出荷単位一覧および出荷単位
 description: このトピックでは、単位グループと単位に関する情報を提供します。
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/05/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6620c99563394d1f3881d6bfdb72d01c1c4e8d6f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987577"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145589"
 ---
 # <a name="unit-groups-and-units"></a>出荷単位一覧および出荷単位
 
@@ -44,7 +46,7 @@ ms.locfileid: "6987577"
 
 次の図は、**日** 単位の設定例を示しています。**数量** フィールドに 1 日の時間数が表示され、**週** には **数量** フィールドに 1 週間の日数が表示されています。
 
-> ![単位グループ: 情報ページ。](media/advanced-2.png)
+> ![単位グループ: 情報ページ](media/advanced-2.png)
 
 ## <a name="using-units-and-unit-groups"></a>単位と単位グループの使用
 
@@ -84,9 +86,9 @@ Dynamics 365 Project Service Automation は単位と単位グループを使用�
     - **既定の時間単位**: 日 
     - **通貨**: GBP
 
-| ロール      | 単位グループ | 単位 | 組織単位 | 価格   |
+| ロール      | 単位グループ | 出荷単位 | 組織単位 | 価格   |
 |-----------|------------|------|---------------------|---------|
-| 開発者 | 時間       | 曜日  | Contoso UK          | 800 GBP |
+| 開発者 | Time       | Day  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>時間エントリ
 
@@ -110,6 +112,3 @@ Dynamics 365 Project Service Automation は単位と単位グループを使用�
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>単位と単位グループを編集、削除、追加できますか。
 はい。 **時間** 単位グループと **時** 単位を除き、すべての単位を削除や編集することが可能で、新しい単位を追加できます。 PSA で **時間** 単位グループと **時** 単位は削除できません。 ただし、**名前** フィールドの翻訳されたテキストで更新できます。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

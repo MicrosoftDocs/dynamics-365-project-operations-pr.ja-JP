@@ -2,16 +2,18 @@
 title: リードの管理
 description: このトピックでは、プロジェクト ベースのリードの管理について説明します。
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ac6d03e8e070b62a2ffe689cccfc19bad1ee2bdc88dd65902f663b2d19ba655
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 31613936d48f785eeba4ec7c066761c8f69924cf
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008187"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947885"
 ---
 # <a name="manage-leads"></a>リードの管理
 
@@ -23,11 +25,11 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 左側のナビゲーション ウィンドウの **営業** セクションで、**リード** 一覧ページを開いてシステム内のすべてのリード レコードの一覧を表示します。 表示されるリードの一覧は、Dynamics 365 Sales または Dynamics 365 Field Service アプリケーションを持っている場合に作成できる、作業ベースおよびその他の種類のリードです。
 
-**種類** の値でフィルターを作成すると、フィルター ビューを作成してプロジェクト ベースのリードのみを表示できます。 たとえば、作業ベースのリードのみを表示するように選択できます。
+**種類** 値にフィルターを作成することで、プロジェクト ベースのリードのみを表示するためのフィルター ビューを作成できます。 たとえば、作業ベースのリードのみを表示するように選択できます。
 
-## <a name="create-a-new-lead-for-a-project-based-deal"></a>プロジェクト ベースの取引に対する新しいリードの作成
+## <a name="create-a-new-lead-for-a-project-based-deal"></a>プロジェクト ベース取引の新しいリードの作成
 
-プロジェクト ベースのリードが見込みありと評価されると、営業案件とアカウントが作成されます。 プロジェクト ベースの営業案件は、営業案件フェーズにおける販売活動の開始点です。 プロジェクト ベースの営業案件には、プロジェクト作業を販売するために必要な固有の機能があります。 たとえば、次のような機能があります。
+プロジェクト ベースのリードが見込みありと評価された場合、営業案件と取引先企業が作成されます。 プロジェクト ベースの営業案件は、営業案件フェーズでの営業追求活動の開始点です。 プロジェクト ベースの営業案件には、プロジェクト作業を販売するために必要な固有の機能があります。 たとえば、次のような機能があります。
 
 - 時間と材料および固定価格の請求方法
 - プロジェクトで発生した人的資源、経費、および材料の複数日有効価格表

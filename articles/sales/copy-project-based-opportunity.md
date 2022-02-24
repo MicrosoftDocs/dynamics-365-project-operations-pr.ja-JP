@@ -2,16 +2,18 @@
 title: プロジェクトベースの営業案件をコピーする
 description: このトピックは、Project Operations でプロジェクト ベースの営業案件をコピーする方法について説明します。
 author: rumant
+manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 83fe41cb16be6bdd91219fc59e517ae0e5848afec5f771edde575bb5c24f9865
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999727"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181664"
 ---
 # <a name="copy-project-based-opportunities"></a>プロジェクトベースの営業案件をコピーする
 
@@ -32,6 +34,3 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
     | コピー価格 | 営業案件の価格設定がソース営業案件からコピーされるべきかどうかを示す [はい/いいえ] の値です。 | **はい** を選択すると、価格表がソースからターゲットの営業案件にコピーされます。 **いいえ** を選択した場合は、設定した最新の価格表を元に既定で価格表が設定されます。 |
 
 3. **OK** を選択します。 システムは、選択されたパラメータに基づいてプロジェクトの営業案件機会のコピーを作成し、新しいプロジェクトの営業案件を開きます。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: プロジェクト チーム メンバーの表示および予約の管理
 description: Project Service でのプロジェクト チーム メンバーの表示および予約の管理方法
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 02146a54fc69203bbfdbbe1493ee3414094d6183a770646cfefd908ea34e8f8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ecc836aed581d2c8c796e980bc41170a11aef817
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004542"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144014"
 ---
 # <a name="view-project-team-members-and-manage-bookings-project-service"></a>プロジェクト チーム メンバーの表示および予約の管理 (Project Service)
 
@@ -55,6 +57,3 @@ ms.locfileid: "7004542"
   
 ### <a name="see-also"></a>関連項目  
  [プロジェクト管理者ガイド](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

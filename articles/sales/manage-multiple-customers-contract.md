@@ -2,16 +2,18 @@
 title: プロジェクト契約の複数の顧客を管理する
 description: このトピックでは、プロジェクト契約で複数の顧客を管理する方法を説明します。
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1adb786c36d43a148e8c5a8b25ded5a997557119f7e6e9e2248935ad4ed211d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5554cb062710c3587d81b1a29771a7af84d2d05f
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992077"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643178"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>プロジェクト契約の複数の顧客を管理する
 
@@ -45,6 +47,3 @@ ms.locfileid: "6992077"
 グリッドで編集することで、請求分割割合を編集できます。 請求分割割合の合計が 100％ でない場合、エラーが発生します。 課金分割割合を編集した後、**プロジェクト契約** ページを更新してエラーを解消してください。
 
 プロジェクト契約の顧客サブグリッドで **均等分布** を選択することもできます。 請求分割によって、プロジェクト契約のすべての顧客に均等に割り当てます。 丸め処理の係数がある場合は、その係数を丸め顧客に追加します。 契約顧客の 1 人は **丸め処理** フラグを常に **はい** に設定します。 この顧客は丸め顧客です。 通常、丸め顧客は契約の主要顧客でもありますが、これは必須要件ではありません。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

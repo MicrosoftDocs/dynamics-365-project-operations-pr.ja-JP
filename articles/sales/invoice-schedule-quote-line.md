@@ -2,16 +2,18 @@
 title: プロジェクトベースの見積依頼明細行の請求スケジュール
 description: このトピックでは、見積依頼明細行の請求スケジュールおよびマイルストーンの作成に関する情報を提供します。
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988612"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180828"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>プロジェクトベースの見積依頼明細行の請求スケジュール
 
@@ -66,6 +68,3 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 | 請求書の状況 | 簡易作成 | マイルストーンが作成されると、このステータスは常に **請求準備未完了** と設定されます。 | これは、プロジェクト契約品目のマイルストーンおよび請求書に伝達されます。 |
 | 明細行の金額 | 簡易作成 | 顧客に請求されるマイルストーンの金額または値。 | これは、プロジェクト契約品目のマイルストーンおよび請求書に伝達されます。 |
 | 税額 | 簡易作成 | マイルストーンに適用される税額。 | これは、プロジェクト契約品目のマイルストーンおよび請求書に伝達されます。 |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

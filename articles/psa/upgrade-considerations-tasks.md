@@ -1,6 +1,8 @@
 ---
 title: WBS (作業分解構造) のアップグレードに関する考慮事項
 description: このトピックでは、「Project Service Automation 2.x から 3.x. へ」 の WBS (作業分解構造) をアップグレードする方法に関して説明します。
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992347"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149549"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>WBS (作業分解構造) のアップグレードに関する考慮事項
 
@@ -32,20 +34,20 @@ ms.locfileid: "6992347"
 ## <a name="key-entities"></a>主要なエンティティ
 リソースでロードされている正確な WBS (作業分解構造) に関して、次のエンティティが必要です。
 
-- [プロジェクト](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [プロジェクト チーム](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [プロジェクト タスク](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [リソース割り当て](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [プロジェクト タスクの依存関係](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [予約可能リソース](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [プロジェクト](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [プロジェクト チーム](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [プロジェクト タスク](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [リソース割り当て](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [プロジェクト タスクの依存関係](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [予約可能リソース](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 WBS (作業分解構造) がロードされたリソースを定義するには、次の手順を完了する必要があります。
 
-1. 新しいプロジェクトを作成する 新規プロジェクトの作成方法については、[msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)を参照してください。
-2. 1 つ以上のタスクを作成する。 タスクの作成方法については、[msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)を参照してください。
-3. タスクの依存関係を定義します。 詳細については、 [プロジェクト タスクの依存関係](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency) を参照してください。
-4. プロジェクト チーム メンバーをプロジェクトに割り当てます。 詳細については、[msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam) を参照してください。
-5. プロジェクト チーム メンバーをタスクに割り当てます。 詳細については、 [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment) を参照してください。
+1. 新しいプロジェクトを作成する 新規プロジェクトの作成方法については、[msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)を参照してください。
+2. 1 つ以上のタスクを作成する。 タスクの作成方法については、[msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)を参照してください。
+3. タスクの依存関係を定義します。 詳細については、 [プロジェクト タスクの依存関係](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency) を参照してください。
+4. プロジェクト チーム メンバーをプロジェクトに割り当てます。 詳細については、[msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam) を参照してください。
+5. プロジェクト チーム メンバーをタスクに割り当てます。 詳細については、 [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment) を参照してください。
 
 ## <a name="project-team-relationships"></a>プロジェクト チームの関連付け
 
@@ -94,6 +96,3 @@ WBS (作業分解構造) がロードされたリソースを定義するには�
 
 - すべてのプロジェクト タスクの依存関係は、同一のプロジェクトに関連付ける必要があります。
 - タスクでは、参照済みの同一の依存関係を複数回使用することはできません。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

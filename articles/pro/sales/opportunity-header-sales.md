@@ -2,16 +2,18 @@
 title: 営業案件の設定- Lite
 description: このトピックでは、プロジェクトベースの取引とプロジェクトベースの営業案件明細行について説明します。
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6a9a1ea9dacdb3aa2dbc8a0500481b204ff14eddfc1138e3db43ff568d7cd48b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6631e136572b958ca616d708a5e3c3c2d9f2675c
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994462"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663825"
 ---
 # <a name="header-details-for-project-opportunities"></a>プロジェクト営業案件のヘッダーの詳細
 
@@ -31,7 +33,7 @@ Dynamics 365 Project Operations のプロジェクトベースの機会は、Dyn
 | 取引先企業管理者 | [全般] タブ | プロジェクトベースの営業案件の取引先企業管理者の名前。 | 取引先企業管理者は、このプロジェクトの完了を通じて顧客との関係を管理する責任があります。 取引先企業管理者に関連付けられた予約可能リソース レコードに基づいて、契約単位は既定となります。 |
 | 契約単位 | [全般] タブ | この取引に関連する 1 つまたは複数のプロジェクトの配信を担当する組織単位。 | 契約単位は、取引が成立した後にプロジェクトを完了する会社の部署です。 すべての契約単位には通貨があり、この通貨は、プロジェクト中に発生した見積原価と実際原価をレポートするために使用されます。 |
 
-営業案件の **概要** タブで、他のすべてのフィールドおよびセクションについては、[営業案件を作成、編集する (Sales と営業ハブ)](/dynamics365/sales-enterprise/create-edit-opportunity-sales) を参照してください。
+営業案件の **概要** タブで、他のすべてのフィールドおよびセクションについては、[営業案件を作成、編集する (Sales と営業ハブ)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales) を参照してください。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

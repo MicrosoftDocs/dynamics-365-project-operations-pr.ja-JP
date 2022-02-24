@@ -2,16 +2,18 @@
 title: プロジェクト契約品目を見積もる
 description: このトピックは、プロジェクト契約品目の見積もりに関する情報を提供します。
 author: rumant
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ae2d96170348a00b58f1571b6c9b31af894c281bdfdfcb00f4e348b2705186c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7cb7d7eccf62837ee5abf4cbe29a21dc728eb7ef
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986902"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858524"
 ---
 # <a name="estimate-a-project-contract-line"></a>プロジェクト契約品目を見積もる
 

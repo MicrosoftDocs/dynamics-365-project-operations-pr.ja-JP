@@ -2,16 +2,18 @@
 title: コスト テンプレートの設定
 description: このトピックでは、Project Operations でコスト テンプレートを作成して使用する方法を説明します。
 author: sigitac
+manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993562"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642729"
 ---
 # <a name="set-up-cost-templates"></a>コスト テンプレートの設定
 
@@ -77,6 +79,3 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 7. **カテゴリ** タブで、コスト テンプレート明細行に含めるプロジェクトのカテゴリを選択します。
 8. **一般** タブで、この明細行を完了割合の計算に含めるかどうかを選択します。
 9. 完了割合の計算に使用する完了経費の計算方法を選択します。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

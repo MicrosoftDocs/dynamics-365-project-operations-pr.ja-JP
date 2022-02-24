@@ -2,22 +2,24 @@
 title: 労務の請求レートを設定する - Lite
 description: このトピックでは、Project Operations で労働請求レートをセットアップする方法について説明します。
 author: rumant
+manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b8c4a19260156480e40f2cc26afa83df3ec9fe9de53edc0ad0ca8c7b78bf352
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007602"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181187"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>労務の請求レートを設定する - Lite
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
-各価格表には、価格表ヘッダーに含まれるコンテキストと日付の有効性に有効な一連のロール価格または労働賃金があります。 Dynamics 365 Project Operations の時間に対する請求レートは、価格表ヘッダーの通貨である 1 つの通貨でのみ設定できます。
+各価格表には、価格表ヘッダーに含まれるコンテキストと日付の有効性に有効な一連のロール価格または労働賃金があります。 Dynamics 365 Project Operations の時間の請求賃金は、価格表ヘッダーの通貨である 1 通貨のみで設定できます。
 
 1. 販売価格表の労働請求賃金を設定するには、価格表ヘッダーに基づいて価格表を作成します。 
 2. **ロール価格** タブのサブグリッドで、**+ 新規ロール価格** 選択します。 
@@ -53,6 +55,3 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
     | Developer | Fabrikam 米国 | 150 ドル |
 
 3. 販売価格表、**Fabrikam 米国の請求レート** をプロジェクト契約のプロジェクト価格表または特定のアカウントに添付します。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

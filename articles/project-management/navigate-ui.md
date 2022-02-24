@@ -2,16 +2,18 @@
 title: ユーザー インターフェイスのナビゲーション
 description: このトピックは、Dynamics 365 プロジェクト操作でのプロジェクト管理に関する情報を提供します。
 author: ruhercul
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 97483a53163edbbe6dfe383d6a6a60183a17e6e9df9ec3c47c9f33aef88aea3e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: deedfe0c6601fd09e09460034c9a0db936b6566e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989152"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127524"
 ---
 # <a name="navigating-the-user-interface"></a>ユーザー インターフェイスのナビゲーション
 
@@ -23,37 +25,37 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 - **概要**: プロジェクトの説明を提供し、計画されたプロジェクトのパフォーマンスと実際のプロジェクトのパフォーマンスの両方を集約します。
 
-    ![[概要] タブと [概要] フィールド。](media/navigation7.png)
+    ![概要タブとフィールド](media/navigation7.png)
 
 - **タスク**: グリッド ビュー、ボード ビュー、およびガントで表される WBS (作業分解構造) に関する詳細を提供します。
 
-    ![[タスク] タブと [タスク] フィールド。](media/navigation8.png)
+    ![タスク タブとフィールド](media/navigation8.png)
 
-- **チーム**: プロジェクト参加者に関する詳細を提供します。 このビューには、各チーム メンバーに割り当てられた作業も要約されます。
+- **チーム**: プロジェクト参加者に関する詳細を提供します。 各チームメンバーに割り当てられた作業もこのビューに要約されます。
 
-    ![[チーム] タブと [チーム] フィールド。](media/navigation9.png)
+    ![チーム タブとフィールド](media/navigation9.png)
 
 - **リソースの割り当て**: プロジェクトの各リソースの作業の時間フェーズ ビューを提供します。
 
-    ![[リソースの割り当て] タブと [リソースの割り当て] フィールド。](media/navigation10.png)
+    ![リソースの割り当てタブとフィールド](media/navigation10.png)
 
 - **リソースの調整**: 各名前付きリソースの割り当てとその予約の差を時間フェーズ ビューで提供します。
 
-    ![[リソースの調整] タブと [リソースの調整] フィールド。](media/navigation11.png)
+    ![リソースの調整タブとフィールド](media/navigation11.png)
 
 - **見積もり**: プロジェクトのコストと売上の見積もりの時間フェーズ ビューを提供します。
 
-    ![[見積もり] タブと [見積もり] フィールド。](media/navigation12.png)
+    ![見積もりタブとフィールド](media/navigation12.png)
 
 - **トラッキング**: 作業、コスト、および売上の WBS (作業分解構造) でのタスクの進行状況を示すビューを提供します。
 
-    ![[トラッキング] タブと [トラッキング] フィールド。](media/navigation13.png)
+    ![トラッキング タブとフィールド](media/navigation13.png)
 
 - **営業**: プロジェクトに関連する見積もりと契約へのディープ リンクを提供します。
 
 - **経費の見込み**: 組織の経費カテゴリに基づいてプロジェクト経費を定義するグリッドを提供します。
 
-    ![[経費見積もり] タブと [経費見積もり] フィールド。](media/navigation14.png)
+    ![経費見積もりタブとフィールド](media/navigation14.png)
 
 ## <a name="grid-controls"></a>グリッド コントロール
 
@@ -63,43 +65,40 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 **更新**: グリッドのロード後に変更が発生した場合、サーバーから最新のデータを取得します。
 
-![[更新] ボタン。](media/navigation7.png)
+![更新ボタン](media/navigation7.png)
 
 ### <a name="group-by"></a>グループ化の基準
 
 **グループ化**: グリッド内の行のグループ化を更新して、ユーザーのニーズに基づいてリソース、役割、またはカテゴリのいずれかを反映します。
 
-![ボタン別のグループ。](media/navigation6.png)
+![ボタンによるグループ](media/navigation6.png)
 
 ### <a name="previousnext"></a>前へ/次へ
 
 **前へ**/**次へ**: 時間フェーズ グリッド上で表示されている期間を更新します。
 
-![[前へ] ボタンと [次へ] ボタン。](media/navigation2.png)
+![前へボタンと次へボタン](media/navigation2.png)
 
 ### <a name="timescale"></a>タイムスケール
 
 **タイムスケール**: 日、週、月、年で時間フェーズ データの集計を変更します。
 
-![[タイムスケール] ボタン。](media/navigation3.png)
+![タイムスケール ボタン](media/navigation3.png)
 
 ### <a name="expand"></a>展開する
 
 **展開**: 表示されているグリッドを全画面表示にして、追加の役割を表示する機能を強化します。
 
-![[展開] ボタン。](media/navigation4.png)
+![[展開] ボタン](media/navigation4.png)
 
 ### <a name="time-phase-by"></a>時間フェーズ別
 
 **時間フェーズ別**: グリッド内の行のグループを更新して、売上見積もりのコスト見積もりを反映します。 この制御は、見積もりスクリプトとトラッキング グリッドにも適用されます。
 
-![ボタン別の時間フェーズ。](media/navigation0.png)
+![ボタンによる時間フェーズ](media/navigation0.png)
 
-### <a name="add-column"></a>列を追加する
+### <a name="add-column"></a>列を追加します
 
 **列を追加**: ユーザーがグリッドに表示される列を定義できるようにします。 **プロジェクト計画** フォームで、すぐに使用できる列のみをグリッドに追加できます。
 
-![[列] ボタンを追加。](media/navigation5.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![列ボタンを追加](media/navigation5.png)

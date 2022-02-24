@@ -2,6 +2,8 @@
 title: リソース要求の管理
 description: Project Service でのリソース要求の管理方法
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985147"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149864"
 ---
 # <a name="manage-resource-requests-project-service"></a>リソース要求の管理 (Project Service)
 
@@ -43,12 +45,9 @@ ms.locfileid: "6985147"
   
    -   **フィルター** をクリックして **フィルター** ウィンドウを表示します。このウィンドウを使用して、組織単位、役割、スキル、またはその他の属性によって、結果をフィルターすることができます。  
   
-       ![Project Service リソースの要求画面。](../psa/media/project-service-resource-request-screen.png "Project Service リソースの要求画面")  
+       ![Project Service リソースの要求画面](../psa/media/project-service-resource-request-screen.png "Project Service リソースの要求画面")  
   
 3. 予約するリソースのカレンダーで、そのリソースを予約する期間を選択してから、**予約** をクリックしてリソースを予約するか、または **予約の提案** をクリックして予約を提案し、要求者はその予約を確認します。 リソースを予約するとき、ソフト予約またはハード予約することができます。  
   
 ### <a name="see-also"></a>関連項目  
  [Resource Manager ガイド](../psa/resource-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

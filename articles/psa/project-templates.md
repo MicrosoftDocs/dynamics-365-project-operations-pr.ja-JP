@@ -2,6 +2,8 @@
 title: プロジェクト テンプレート
 description: このトピックは、すばやくプロジェクト設定をするためにプロジェクト テンプレートを使用する方法につい説明します。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002517"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148064"
 ---
 # <a name="project-templates"></a>プロジェクト テンプレート 
 
@@ -47,7 +49,7 @@ ms.locfileid: "7002517"
 
 - 見積もりからプロジェクトを作成した場合は、**簡易作成 : プロジェクト** のダイアログボックス内でプロジェクト テンプレートを選択できます。
 
-> ![簡易作成: プロジェクト ダイアログ ボックス。](media/project-11.png)
+> ![簡易作成: プロジェクト ダイアログ ボックス](media/project-11.png)
 
 - **新規プロジェクト** を選択してプロジェクトを作成する場合、**プロジェクト** ページは、レコードが保存される前に表示されます。 **テンプレートの選択** フィールドで、組織内の慈善定義済みプロジェクト テンプレートの一つを選択します。
 - **テンプレート エンティティ** ページで、**テンプレートからプロジェクトを作成** を使用します。
@@ -67,6 +69,3 @@ ms.locfileid: "7002517"
 ### <a name="copying-a-project-team"></a>プロジェクト チームのコピー
 
 プロジェクト テンプレートからプロジェクト チームをコピーする場合、汎用リソースはテンプレートで定義されているスキルおよび能力と共にコピーされます。 汎用リソースの割り当ては、プロジェクト テンプレートと同様に維持されます。 名前の付いたリソースは、プロジェクト テンプレートではサポートされません。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

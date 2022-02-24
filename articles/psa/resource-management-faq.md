@@ -2,6 +2,8 @@
 title: リソース管理に関するよくある質問
 description: このトピックでは、リソース管理についてのよくある質問への回答を提供します。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f80e65e7ff423c362fd1a86676a84ab67afabc88115c99b582c5eefa6c725a46
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002382"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144374"
 ---
 # <a name="resource-management-faq"></a>リソース管理に関するよくある質問
 
@@ -52,6 +54,3 @@ ms.locfileid: "7002382"
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>割り当てと予約の違いは何ですか。
 
 割り当ては、プロジェクト スケジュール内のプロジェクト タスクに対するリソースの割り当てです。 このリソースは、実際のリソースまたは汎用リソースのいずれかになります。 予約は、プロジェクトに対するリソースの本配賦または仮配賦です。 本予約はリソースのキャパシティを消費します。 理想としては、実際のリソースに対して、予約と割り当ては違いがないことから、これらは一致させる必要があります。 ただし、PSA はこの一致を強制しません。 調整ビューでは、リソースの予約と割り当てが一致しない場所のプロジェクト マネージャーが表示されます。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

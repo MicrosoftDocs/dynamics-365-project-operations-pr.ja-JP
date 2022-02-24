@@ -2,10 +2,12 @@
 title: 新しいカスタム エンティティ フォームを追加する (Project Service Automation 2.x)
 description: このトピックでは、Dynamics 365 Project Service Automation 2.x で営業案件、見積もり、受注、請求書にカスタム エンティティ フォームを追加する方法について説明します。
 author: makk
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
+ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995227"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144599"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>新しいカスタム エンティティ フォームを追加する (Project Service Automation 2.x)
 
@@ -57,7 +59,7 @@ Dynamics 365 Project Service Automation は営業案件、見積もり、受注�
     - アンマネージド ソリューションの一部として **自分のプロジェクト情報** フォームをエクスポートし、エクスポートされたソリューションの「customization.xml」ファイルで **formId** 値を検索します。
     - 次の図に示すように、フォーム エディターで **自分のプロジェクト情報** フォームを開き、URL の **fromId** パラメータの横にあるグローバル一意識別子 (GUID) を探します。
 
-    ![URL の新しいフォームの formId 値。](media/how-to-add-custom-forms-in-v2.0.png)
+    ![URL の新しいフォームの formId 値](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js Webリソースを編集して、**formId** 値の **msdyn\_ordertype** マッピングを作成します。 リソースからコードを削除し、次のコードに置き換えます。
 
@@ -94,6 +96,3 @@ Dynamics 365 Project Service Automation は営業案件、見積もり、受注�
     ```
 
 6. カスタマイズを保存し、公開します。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Project Service Automation 更新プログラム リリース 19、V3 の新機能と変更点
 description: このトピックには、Project Service Automation 更新プログラム リリース 19、V3 で利用可能な機能と修正をリスト化しています。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ad61589125e42e8dceb462290f65ddc05e171bd828d26d34ebd548ca285e9aa4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8a73a6acd4ce4c9559cdf4591ede735a613f4d52
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993652"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143612"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Project Service Automation 更新プログラム リリース 19、V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](/power-platform/admin/install-remove-preferred-solution) を参照してください。
+Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution) を参照してください。
 
 このトピックには、PSA V3 更新プログラム 19 の新機能または変更された機能と修正をリスト化しています。 このバージョンのビルド番号は V3.10.30.41 であり、2020 年 5 月のセルフ アップデートを通じて一般提供されました。
 
@@ -64,6 +66,3 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 - **GetBookableResourceIdFromUser** がプライマリ ID だけでなく、予約可能なリソースのすべての列を取得するため、プロジェクトを作成するときに、パフォーマンスが低下する可能性があります。
 - **TransactionType** エンティティに事前検証更新プラグインがないため、ユーザーがトランザクション タイプに対して無効な **単位** と **UnitGroups** を入力できません。
 - **削除** ステップは、時間エントリのインポートでは機能しません。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

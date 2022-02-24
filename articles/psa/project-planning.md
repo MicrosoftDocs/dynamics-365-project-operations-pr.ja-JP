@@ -2,9 +2,10 @@
 title: プロジェクト計画のホーム ページ
 description: このトピックでは、プロジェクト計画について説明します。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: rumant
@@ -17,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 17745ffacbfdcf50b44b0c3f04ecacab8905d15be9ef675a72ae47a858cb9abe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1439cc1543adbd304d984cdc268d3e5623adc309
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990592"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148244"
 ---
 # <a name="project-planning-home-page"></a>プロジェクト計画のホーム ページ
 
@@ -39,7 +40,7 @@ PSA のプロジェクト管理ツールによって、プロジェクトを簡�
 - 作業スケジュールと予測を使用してプロジェクトを計画します。
 - プロジェクト コストと売上の予測と追跡
 - 販売プロセス中にプロジェクト見積を使用します。
-- パイプラインに入っているプロジェクトのリソース要件を予測します。
+- パイプラインにあるプロジェクトのリソース要件の予測
 - 進行状況とコスト消費を追跡することでプロジェクトを正常に提供します。
 
 次のトピックでは、プロジェクト マネージャーが PSA でサポートされているツールを使用して、作業の見積もり、プロジェクト コストの見積もり、必要なリソースの予測ができる助けをする情報について説明します。
@@ -51,6 +52,3 @@ PSA のプロジェクト管理ツールによって、プロジェクトを簡�
 - [プロジェクト テンプレート](project-templates.md)
 - [プロジェクト ステージ](project-stages.md)
 - [プロジェクト設定](project-settings.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: プロジェクトとタスクをプロジェクトベースの見積依頼明細行にマップする
 description: このトピックでは、プロジェクトとタスクをプロジェクトベースのタスク明細行にマップする方法について説明します。
 author: rumant
+manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ad46f3636d749740115b11584eb81977c73cb30b63ef1092c0c2aac97cbc647
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d714304f408050babae1a6ba74268979e0b6ea4b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988252"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272754"
 ---
 # <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>プロジェクトとタスクをプロジェクトベースの見積依頼明細行にマップする
 

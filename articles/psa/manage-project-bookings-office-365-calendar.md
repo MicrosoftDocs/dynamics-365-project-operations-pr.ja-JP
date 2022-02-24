@@ -2,6 +2,8 @@
 title: Office 365 カレンダーでプロジェクトおよび予約を管理する
 description: Office 365 カレンダーでプロジェクトおよび予約を管理する方法
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b38affbfc8d339ac1a2093391286ea4c095207be8de2e8eeca558e6fcc5bcc07
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985328"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144464"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>カレンダーでプロジェクトおよび予約を管理する (Project Service)
 
@@ -50,7 +52,7 @@ ms.locfileid: "6985328"
   
 - [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] のグローバル管理者、またはシステム管理者の資格情報が必要です。  
   
-- 管理者は、電子メール サーバー のプロファイルを設定する必要があります。また各ユーザーは各自のメールボックスを構成する必要があります。 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [サーバー側の同期による電子メールの処理のセットアップ](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- 管理者は、電子メール サーバー のプロファイルを設定する必要があります。また各ユーザーは各自のメールボックスを構成する必要があります。 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [サーバー側の同期による電子メールの処理のセットアップ](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>自分の組織の同期を有効にする (管理者のタスク)  
   
@@ -89,6 +91,3 @@ ms.locfileid: "6985328"
   
 ### <a name="see-also"></a>関連項目  
  [時間、経費、および共同作業ガイド](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

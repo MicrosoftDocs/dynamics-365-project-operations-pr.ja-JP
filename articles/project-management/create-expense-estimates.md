@@ -2,21 +2,23 @@
 title: プロジェクトの経費の財務見積もり
 description: このトピックでは、プロジェクトベースの経費の定義または見積もりについて説明します。
 author: rumant
+manager: Annbe
 ms.date: 03/19/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f4d42724af61aa241671e8dacacbe2be5a7d531f55c2025a89ff777ac41e9b67
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ad4901b1264289f1da881154bc147fc3f8da698f
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987847"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701788"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>プロジェクトの経費の財務見積もり
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-Dynamics 365 Project Operations では、プロジェクト マネージャーが、各プロジェクトまたはタスクのプロジェクトベースの経費を定義できます。 各経費項目は、特定のプロジェクト タスクに関連付けることができます。 経費は、組織レベルで定義されているさまざまな経費カテゴリに分類されます。 各経費カテゴリの価格決定および原価設定は、価格リストで定義されます。 
+Dynamics 365 Project Operations では、プロジェクト マネージャーが、各プロジェクトまたはタスクのプロジェクトベースの経費を定義できます。 各経費項目は、特定のプロジェクト タスクに関連付けることができます。 経費は、組織レベルで定義されているさまざまな経費カテゴリに分類されます。 各経費カテゴリの価格設定と原価計算は、価格表で定義されています。 
 
 プロジェクト経費を表示、追加、または削除するには、次の手順を実行します。
 

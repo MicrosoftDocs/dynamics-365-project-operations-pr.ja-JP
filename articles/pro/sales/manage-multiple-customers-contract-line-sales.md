@@ -2,16 +2,18 @@
 title: プロジェクトベースの契約品目の複数の顧客を管理する (ライト)
 description: このトピックでは、プロジェクトベースの契約品目での複数の顧客を管理することについて説明します。
 author: rumant
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a7e29b1a92a5fefcf4812931383d03e5f81a27001f0e6525bb4eeb8dc93b18b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f28e7d1363647621f7bd23504aa6d4ea3fc95fc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001797"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181632"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines---lite"></a>プロジェクトベースの契約品目の複数の顧客を管理する (ライト)
 
@@ -41,6 +43,3 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 請求分割率はグリッドで編集することができます。 請求分割率の合計が 100％ でない場合、エラーが発生します。 課金分割率を編集した後、ページを更新してエラーを解消してください。
 
 また、契約品目の顧客サブグリッドで **均等に分配する** を選択することもできます。 このアクションは、すべての契約品目の顧客に請求の分割を均等に割り当てます。 丸め処理の係数がある場合は、丸め顧客に追加されます。 1つの契約品目の顧客は、**丸め込み** フラグが **はい** に設定されている状態で、常に **丸め込み** 顧客としてタグ付けされます。
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

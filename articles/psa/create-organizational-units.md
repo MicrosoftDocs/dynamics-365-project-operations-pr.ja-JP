@@ -2,6 +2,8 @@
 title: 組織単位の作成
 description: Project Service での組織単位の作成方法
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e4df3775e802681c51d6d6491110419bea2a17d7e7694f0879417800b5a6db37
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f8d44254adc9fc1e35d39080e284ea6195bfa821
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993697"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144734"
 ---
 # <a name="create-organizational-units-project-service"></a>組織単位の作成 (Project Service)
 
@@ -50,6 +52,3 @@ ms.locfileid: "6993697"
   
 ### <a name="see-also"></a>関連項目  
  [Project Service Automation の構成](../psa/configure.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: リソース割り当ての作成
 description: このトピックでは、汎用および名前付きリソース割り当ての作成について説明します。
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d2e7c9a340a482a62afc0c9f0aa46c24fda27ca6ef56fdc0160f06af846c0b53
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987892"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131754"
 ---
 # <a name="create-resource-assignments"></a>リソース割り当ての作成
 
@@ -40,6 +42,3 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 1. タスク グリッド、ボード、またはタイムラインから、**割り当て先** セルに移動します。
 2. 検索ボックスで、名前の入力を開始します。 名前の検索結果は **その他リソース** 配下の **リソースセレクタ** に表示されます。
 3. タスクに割り当てるリソースを選択するか、**その他のチーム リソース** にあるリソースの名前を選択します。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

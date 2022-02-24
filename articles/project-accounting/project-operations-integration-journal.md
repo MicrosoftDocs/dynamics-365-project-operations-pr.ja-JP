@@ -2,31 +2,33 @@
 title: Project Operations の統合仕訳帳
 description: このトピックでは、Project Operations での統合仕訳帳の使用方法について説明します。
 author: sigitac
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987937"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948336"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations の統合仕訳帳
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-時間と費用のエントリは、プロジェクトに対して完了した作業の運用ビューを表す **実際** のトランザクションを作成します。 Dynamics 365 Project Operations は、取引を確認し、必要に応じて会計上の属性を調整するツールを経理担当者に提供します。 確認と調整が完了すると、取引はプロジェクトの補助元帳および総勘定元帳に転記されます。 会計士は、**Project Operations の統合** 仕訳帳 (**Dynamics 365 Finance** > **プロジェクト管理および会計** > **仕訳帳** > **Project Operations の統合** 仕訳帳) を使用して、これらの活動を実行できます。
+時間と費用のエントリは、プロジェクトに対して完了した作業の運用ビューを表す **実際** のトランザクションを作成します。 Dynamics 365 Project Operations は、取引を確認し、必要に応じて会計上の属性を調整するツールを経理担当者に提供します。 レビューと調整が完了すると、トランザクションはプロジェクト補助元帳と総勘定元帳に転記されます。 会計士は、**Project Operations の統合** 仕訳帳 (**Dynamics 365 Finance** > **プロジェクト管理および会計** > **仕訳帳** > **Project Operations の統合** 仕訳帳) を使用して、これらの活動を実行できます。
 
-![統合仕訳帳フロー。](./media/IntegrationJournal.png)
+![統合仕訳帳フロー](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Project Operations の統合仕訳帳でレコードを作成
 
 Project Operations の統合仕訳帳のレコードは、定期的なプロセス **ステージング テーブルからインポート** を使用して作成されます。 このプロセスを実行するには、**Dynamics 365 Finance** > **プロジェクト管理および会計** > **定期処理** > **Project Operations の統合** > **ステージング テーブルからインポート** に移動します。 必要に応じて、プロセスを対話形式で実行することも、バックグラウンドで実行するようにプロセスを構成することもできます。
 
 定期的なプロセスが実行されると、Project Operations の統合仕訳帳にまだ追加されていない実績が検出されます。 実際のトランザクションごとに仕訳帳明細行が作成されます。
-**Project Operations の統合仕訳帳の期間単位** フィールドで選択された値に基づいて、システムは仕訳帳明細行を別々の仕訳帳にグループ化します。(**Finance** > **プロジェクト管理と会計** > **設定** > **プロジェクト管理と会計パラメーター**、**Dynamics 365 Customer Engagement タブの Project Operations**)。 このフィールドに考えられる値は次のとおりです。
+システムは、**Project Operations の統合仕訳帳の期間単位** フィールド (**財務** > **プロジェクト管理および会計** > **設定** > **プロジェクト管理および会計パラメーター**、**Dynamics 365 Customer Engagement の Project Operations** タブ) で選択された値に基づいて、仕訳帳明細行を個別の仕訳帳にグループ化します。 このフィールドに指定できる値は次のとおりです:
 
   - **日数**: 実績はトランザクションの日付ごとにグループ化されます。 毎日個別の仕訳帳が作成されます。
   - **月**: 実績はカレンダー月ごとにグループ化されます。 毎月個別の仕訳帳が作成されます。

@@ -2,16 +2,18 @@
 title: プロジェクトのコピーを使用してプロジェクト テンプレートを開発する
 description: このトピックは、プロジェクトのコピー カスタム アクションを使用してプロジェクト テンプレートを作成する方法について解説します。
 author: stsporen
+manager: Annbe
 ms.date: 01/21/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
+ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989265"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5045015"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>プロジェクトのコピーを使用してプロジェクト テンプレートを開発する
 
@@ -42,7 +44,7 @@ Dynamics 365 Project Operations はプロジェクトをコピーして、ロー
 - **{"clearTeamsAndAssignments":true}**: Web 向けのプロジェクトの既定の動作で、すべての割り当てとチームメンバーを削除します。
 - **{"removeNamedResources":true}** プロジェクト操作の既定の動作で、割り当てを汎用リソースに戻します。
 
-既定の動作の詳細 : [Web API のアクションを使用する](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+既定の動作の詳細 : [Web API のアクションを使用する](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>コピーするフィールドを特定する 
 アクションが呼び出されると、**プロジェクトのコピー** は、プロジェクト ビューの **コピー プロジェクト カラム** を見て、プロジェクトがコピーされる際にコピーするフィールドを決定します。
@@ -110,6 +112,3 @@ Dynamics 365 Project Operations はプロジェクトをコピーして、ロー
     }
 }
 ```
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

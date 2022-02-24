@@ -2,6 +2,8 @@
 title: '[Project Service Automation] に関するホワイト ペーパー'
 description: Project Service 用ホワイト ペーパーのコレクション
 author: kfend
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b8940313d122ac8c47488b08a28b38b6744bf33cdfaf1b904ba184bd9956c369
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: dc6fb5c195d98bc3808383a8ec059d675d6cff3b
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004182"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146984"
 ---
 # <a name="white-papers-for-project-service"></a>Project Service のホワイト ペーパー
 
@@ -43,6 +45,3 @@ ms.locfileid: "7004182"
 
 ### <a name="see-also"></a>関連項目
  [Project Service の概要](../psa/overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

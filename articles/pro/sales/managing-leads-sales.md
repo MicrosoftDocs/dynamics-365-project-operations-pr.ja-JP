@@ -2,16 +2,18 @@
 title: リードの管理 (ライト)
 description: このトピックでは、プロジェクトベースのリードの管理について説明します (メリット)。
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 218461e6b2013b014d59e2846fe19681d785771aa82284db33ff18c8b6b83946
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1d3a54a9fcb0b0cef9461219e22305afbf5266e5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991402"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272844"
 ---
 # <a name="manage-leads---lite"></a>リードの管理 (ライト)
 
@@ -23,11 +25,11 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 左側のナビゲーション ウィンドウの **営業** セクションで、**リード** 一覧ページを開いてシステム内のすべてのリード レコードの一覧を表示します。 一覧のリードは作業ベースとその他の種類のリードで、Dynamics 365 Sales や Dynamics 365 Field Service アプリケーションからも作成できます。
 
-**種類** の値でフィルターを作成すると、フィルター ビューを作成してプロジェクト ベースのリードのみを表示できます。 たとえば、作業ベースのリードのみを表示するように選択できます。
+**種類** 値にフィルターを作成することで、プロジェクト ベースのリードのみを表示するためのフィルター ビューを作成できます。 たとえば、作業ベースのリードのみを表示するように選択できます。
 
 ## <a name="creating-a-new-lead-for-a-project-based-deal"></a>プロジェクトベース取引の新しいリードの作成
 
-プロジェクト ベースのリードが見込みありと評価された場合、営業案件と取引先企業が作成されます。 プロジェクト ベースの営業案件は、営業案件フェーズにおける販売活動の開始点です。 プロジェクト ベースの営業案件には、プロジェクト作業を販売するために必要な固有の機能があります。 たとえば、次のような機能があります。
+プロジェクト ベースのリードが見込みありと評価された場合、営業案件と取引先企業が作成されます。 プロジェクト ベースの営業案件は、営業案件フェーズでの営業追求活動の開始点です。 プロジェクト ベースの営業案件には、プロジェクト作業を販売するために必要な固有の機能があります。 たとえば、次のような機能があります。
 
 - 時間と材料および固定価格の請求方法
 - プロジェクトで発生した人的リソース、経費、および材料の複数日の有効価格表。
@@ -53,7 +55,7 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 - リードの **名** および **姓** フィールドの値に基づいて取引先企業に関連付けられた取引先担当者レコード。
 - **種類** フィールドを **作業ベース** に設定したブロジェクト ベースの営業案件。
 
-リードの見込み評価の詳細については、[リードを見込みありと評価または変換](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales) を参照してください。
+リードの見込み評価の詳細については、[リードを見込みありと評価または変換](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales) を参照してください。
 
 ## <a name="business-process-flow-for-project-based-deals"></a>プロジェクト ベース取引のビジネス プロセス フロー
 

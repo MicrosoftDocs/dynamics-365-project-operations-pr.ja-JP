@@ -2,16 +2,18 @@
 title: 予約できるリソースがプロジェクトで複数のロールを満たす場合に、プロジェクトの売上とコストを見積もる
 description: このトピックでは、プロジェクトで複数のロールを満たすリソースの価格とコストの見積もりを、価格ディメンションを使用してサポートする方法を説明します。
 author: rumant
+manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990142"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531475"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>予約できるリソースがプロジェクトで複数のロールを満たす場合に、プロジェクトの売上とコストを見積もる 
 
@@ -104,6 +106,3 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 ### <a name="estimates-grid"></a>見積もり グリッド 
 
 **見積り** グリッドにある同じリソースの両方の割り当ては、価格が異なります。 **タスク A** のリソースの割り当ては、**コンサルティング リード** の **ロール** 属性値を使用して価格設定されます。 **タスク B** の同じリソースの割り当ては、**ネットワーク技術者** の **ロール** 属性値を使用して価格設定されます。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

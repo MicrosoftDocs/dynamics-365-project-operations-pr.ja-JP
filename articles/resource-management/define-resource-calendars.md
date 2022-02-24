@@ -2,16 +2,18 @@
 title: リソース カレンダーの定義
 description: このトピックでは、プロジェクト オペレーションのリソースの作業時間カレンダーを定義する方法に関する情報を提供します。
 author: ruhercul
+manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ff10da57fd0767b00282537b241d5d16d95feca8741a620a277306bd8aa53ce5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990322"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123924"
 ---
 # <a name="define-resource-calendars"></a>リソース カレンダーの定義
 
@@ -41,6 +43,3 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 2. グリッド ビューから、最大 25 の **予約可能リソース** を選択して更新します。
 3. **カレンダーの設定** を選択すると、ダイアログでは使用できる作業時間テンプレートのリストが表示されます。
 4. 使用するテンプレートを選択し、**適用** を選択します。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

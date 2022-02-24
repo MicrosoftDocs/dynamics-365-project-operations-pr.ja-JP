@@ -2,6 +2,8 @@
 title: 見積もり、価格設定、および請求に関する基本ガイド
 description: このトピックでは、Project Service Automation における基本的な見積もり、請求、価格設定に関する情報へのリンクを提供しています。
 author: kfend
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 69d80a4dc6377f7da1d0ad273dd9be3c8265214b152e7976c7d0c73e46a7dbd1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6873dfc1765beb61ebbdcb2a411a0c9979714cef
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985597"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149144"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>見積もり、価格設定、および請求に関する基本ガイド
 
@@ -50,6 +52,3 @@ ms.locfileid: "6985597"
 
 > [!NOTE]
 > このトピックは、今後の文書の更新で削除される場合があります。 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,17 +2,18 @@
 title: プロジェクト チーム メンバー
 description: このトピックでは、プロジェクト チームのメンバー情報、属性、およびスケジュールを操作する方法に関する情報を提供します。
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 034b39b93b7c5cb640e7dd8281e0d224d69d8adaf3eedbdff288a96e7fb9920b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994012"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127434"
 ---
 # <a name="project-team-members"></a>プロジェクト チーム メンバー
 
@@ -59,6 +60,3 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 - **新着**: プロジェクト マネージャーは、スケジュールから直接リソースを追加するだけでなく、チーム メンバー グリッドから新しい名前付きまたは一般的なチーム メンバーを追加できます。
 - **削除**: 1 人または複数のチーム メンバーを選択することにより、プロジェクト マネージャーは、プロジェクトに参加しないリソースを削除できます。 チーム メンバーを削除すると、関連するすべてのリソース割り当ても削除され、既存のすべての予約がキャンセルされます。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

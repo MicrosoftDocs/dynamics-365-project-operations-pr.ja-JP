@@ -2,9 +2,11 @@
 title: 修正された仕訳帳の作成と確認
 description: このトピックでは、修正された仕訳帳の作成と確認方法について説明します。
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6cc22168cdfefc4ae7b833bea75f68ba37c1ee67
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986722"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127763"
 ---
 # <a name="create-and-confirm-correction-journals"></a>修正された仕訳帳の作成と確認
 
@@ -87,6 +89,3 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 8. プロジェクト ページの **実績** タブ、**実際の関連ビュー** を確認します。 元の入力値と修正された入力値が一覧表示されます。 以下の図は、元の経費入力金額と、それに対応する修正後の経費入力金額を示しています。 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

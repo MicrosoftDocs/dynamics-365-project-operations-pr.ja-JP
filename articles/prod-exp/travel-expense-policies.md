@@ -2,9 +2,11 @@
 title: 経費ポリシーの設定
 description: 従業員が経費報告書や出張申請書を Microsoft Dynamics 365 Finance で入力、提出する際に従う必要がある経費ポリシーを定義することができます。
 author: suvaidya
+manager: AnnBe
 ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
@@ -14,17 +16,17 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 050e19016edac53ef22764d227d4ef96d89ba298287b10416febbb55bb00973a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9c014b0593a87ce50f09175b77d9cf498a65391e
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005937"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271269"
 ---
 # <a name="set-up-expense-policies"></a>経費ポリシーの設定
 
 従業員が経費報告書や出張申請書を入力、提出する際に従う必要があるポリシーを定義することができます。         
-経費ポリシーを実装すると、経費管理を効率化することができます。         
+経費のポリシーを実装すると、経費を効果的に管理できます。         
 
 たとえば、ニューヨーク市のホテルの経費に関するポリシーを設定し、1 泊あたりの経費が USD 250 を超えてはいけないことを定めます。       
 客室料金がこの金額を超える場合、従業員が経費報告書または出張申請書を提出すると、システムは        
@@ -40,11 +42,11 @@ ms.locfileid: "7005937"
  
  - 弁明 – 従業員または管理者が経費報告書や出張申請書を提出する前に、ポリシーで定められた金額を超えることの正当性を入力することを要求します。        
 
-## <a name="policy-tips"></a>ポリシーのヒント
+## <a name="policy-tips"></a>ポリシーのポイント
 経費管理の新しいポリシーを作成する際に役立ついくつかの提案を以下に示します。 
 * ポリシーは、日付の影響を受け、経費が発生した日以降の日付でポリシーが作成された場合には有効となりません。 たとえば、今日、最高で50ドルの食費を適用する新しいポリシーを作成している場合、昨日時点で入力された既存の費用は、このポリシーと照合されません。
 * 項目化できる経費カテゴリのポリシーを作成する際には、経費明細タイプの条件を追加することを検討してください。 領収書の要求などの一部のポリシーは、項目別の行には意味がない場合があり、ヘッダー行または項目別でない行にのみ適用する必要があります。 
-* 経費管理ポリシーは、既定ソース エンティティに対して評価されます。 企業間のシナリオでは、宛先エンティティ (借入エンティティ) に対して評価を行うように、ポリシーを設定することもできます。 宛先エンティティに対してポリシーを実行するには、**機能管理** ワークスペース内の "借用法人に対する経費方針を評価する" 機能を有効化してください。
+* 経費管理ポリシーは、既定ソース エンティティに対して評価されます。 会社間のシナリオでは、代わりに宛先エンティティ (借用エンティティ) に対して評価されるポリシーを設定できます。 宛先エンティティに対してポリシーを実行するには、**機能管理** ワークスペース内の "借用法人に対する経費方針を評価する" 機能を有効化してください。
 
 ## <a name="when-to-evaluate-policies"></a>ポリシーを評価するタイミング
 

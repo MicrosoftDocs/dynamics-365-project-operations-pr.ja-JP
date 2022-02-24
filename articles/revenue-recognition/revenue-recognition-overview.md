@@ -2,17 +2,18 @@
 title: 収益認識の概要
 description: このトピックでは、Project Operations での売上認識について説明します。
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: 3d2fcf434a5086595e40f50afc2366eb806168085ae9212b5d25e3e9bd02e2c6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6844f4c5d4cda8a6a901b0302448f70f4c597f5d
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988657"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531470"
 ---
 # <a name="revenue-recognition-overview"></a>収益認識の概要
 
@@ -23,14 +24,14 @@ Dynamics 365 Project Operations で売上認識の原則は、プロジェクト
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>時間と材料の請求方法で会計処理したトランザクション
 
 - コストと収益の認識は関連しています。 トランザクションのコストと未請求売上は [Project Operations の統合仕訳帳](../project-accounting/project-operations-integration-journal.md) を使用して転記されます。
-- プロジェクトのコストと売上プロファイルは、未請求の売上トランザクションを一般会計に転記するかどうかを決定します。 **売上計上** を選択する場合、システムは転記中に **仕掛品販売額** と **売上計上の販売額** 勘定を使用します。 この方式の例を次に示します。  
+- プロジェクトのコストと売上プロファイルは、未請求の売上トランザクションを一般会計に転記するかどうかを決定します。 **売上計上** を選択する場合、システムは転記中に **仕掛品販売額** と **売上計上の販売額** 勘定を使用します。 この方法の例を以下に示します。  
 
   | トランザクションの種類 | 借方/貸方 | 金額 |
   | --- | --- | --- |
   | 仕掛品販売額 | 借方 | 100 |
   | 売上計上の販売額 | 貸方 | 100 |
 
-- 収益は請求時に認識されます。 システムは転記時に **請求済売上** 勘定を使用します。 この方式の例を次に示します。  
+- 売上を請求時に認識します。 システムは転記時に **請求済売上** 勘定を使用します。 この方法の例を以下に示します。  
 
   | トランザクションの種類 | 借方/貸方 | 金額 |
   | --- | --- | --- |
@@ -48,7 +49,7 @@ Dynamics 365 Project Operations で売上認識の原則は、プロジェクト
 ## <a name="transactions-accounted-using-the-fixed-price-billing-method"></a>固定価格の請求方法で会計処理したトランザクション
 
 - コストと収益の認識は独立しています。 トランザクションのコストは [Project Operations の統合仕訳帳](../project-accounting/project-operations-integration-journal.md) を使用して転記されます。 未請求の売上トランザクションは作成されません。
-- プロジェクトのコストと収益プロファイルで **プロジェクト完了計算に使用する原則** を **仕掛品なし** に設定する場合は、請求時に売上を認識できます。 この方式は、短期間の単純なプロジェクトにのみ使用します。
+- プロジェクトのコストと収益プロファイルで **プロジェクト完了計算に使用する原則** を **仕掛品なし** に設定する場合は、請求時に売上を認識できます。 この方法は、短期で単純なプロジェクトにのみ使用します。
 - **完了した契約** または **完了割合の売上認識** の方法を使用すると、売上を固定価格の売上見積りを使用して認識できます。
 
 ## <a name="additional-resources"></a>その他のリソース
@@ -59,6 +60,3 @@ Dynamics 365 Project Operations で売上認識の原則は、プロジェクト
 [売上の見積もりの管理](rev-rec-completed-contract-method.md)
 
 [完了までの原価の計算方法](cost-complete-methods.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

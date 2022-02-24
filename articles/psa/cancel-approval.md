@@ -2,6 +2,8 @@
 title: 以前に承認された時間と経費の入力の取り消しを行う
 description: このトピックでは、承認済みの時間と経費の入力を取り消す方法についての情報を提供します。
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987442"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150584"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>以前に承認された時間と経費の入力を取り消しを行う
 
@@ -60,6 +62,3 @@ Dynamics 365 Project Service Automationの最新バージョンでは、承認�
 次に、その反対のエントリが実績テーブルに作成されます。 反対のエントリを作成するにあたっては、システムが当初の実績からフィールド値をコピーします。 コピーがされない値は数量の値のみです。 これらの値が逆になります。 反転した実績が **コスト** と **未請求の売上** の両方に作成されます。 反転した実績の **状態の調整** フィールドは **調整不可** に設定され、請求書の状態は **キャンセル** に設定されます。
 
 これらの変更が行われた後は、プロジェクトへの支出として記録された金額およびプロジェクトの収益バックログが、これらの実績が表す金額となります。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007152"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992840"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>リソースの稼働率を表示する
 
@@ -29,7 +29,7 @@ ms.locfileid: "7007152"
  
 **Project Service リソースの稼働率** ページの **稼働率ビュー** では、それぞれの予約可能リソースの稼働率を表示します。 このビューはスケジュール ボードに基づいているため、共通する機能があります。
 
-> ![稼働率ビューのスクリーンショット。](media/FAQ-utilization-1.png)
+> ![稼働率ビューのスクリーンショット](media/FAQ-utilization-1.png)
  
 
 請求可能稼働率の計算のしくみは次のとおりです。
@@ -48,7 +48,7 @@ ms.locfileid: "7007152"
 2. リソースを選択してレコードを開きます。 
 3. **Project Service** タブでは、リソースの目標稼働率を設定することができます。
 
-> ![[Project Service] タブを使用してターゲット稼働率を設定するスクリーンショット。](media/FAQ-utilization-2.png)
+> ![[Project Service] タブを使用してターゲット稼働率を設定するスクリーンショット](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>ロールの目標稼働率を設定する
 
@@ -56,7 +56,7 @@ ms.locfileid: "7007152"
 2. ロールを選択してレコードを開きます。 
 3. ロールのターゲット稼働率を設定します。
 
-> ![リソースのロールを使用してターゲット稼働率を設定するスクリーンショット。](media/FAQ-utilization-3.png)
+> ![[リソースのロール] を使用してターゲット稼働率を設定するスクリーンショット](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>リソースの可能稼働率を計算する
 

@@ -2,16 +2,18 @@
 title: 既定の価格表
 description: このトピックでは、Project Operations における既定の価格表と原価価格表について説明します。
 author: rumant
+manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a5e38e2f0b553b789956c6d73d481ab0ed2ce3a77815e7cf8c058a0b4666c558
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989872"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130944"
 ---
 # <a name="default-price-lists"></a>既定の価格表
 
@@ -19,7 +21,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 ## <a name="sales-price-lists"></a>販売価格表
 
-Dynamics 365 Project Operations のすべてのプロジェクト見積もりと契約には、既定の営業価格表が含まれています。 
+Dynamics 365 Project Operations のすべてのプロジェクト見積もりと契約には、既定の販売価格表が含まれています。 
 
 ### <a name="price-list-default-on-project-quotes"></a>プロジェクトの既定の見積もり価格表
 システムは、プロジェクト見積書の既定の価格表を決定するにあたって、以下のプロセスを完了します。
@@ -55,6 +57,3 @@ Dynamics 365 Project Operations のすべてのプロジェクト見積もりと
 5. 次に、入力された見積もりまたは実際の明細の日付と一致する価格表の日付の有効性を調べます。 
 6. 入力された見積もりや実績の日付に有効な価格表が複数ある場合は、直近に作成された価格表が選択されます。
 7. 通貨と有効日が一致する原価価格表がプロジェクト パラメータに添付されていない場合は、入力された見積もりまたは実際の明細で原価率が既定でゼロ (0) に設定されます。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

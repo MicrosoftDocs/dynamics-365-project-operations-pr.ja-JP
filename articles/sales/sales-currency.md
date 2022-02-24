@@ -2,9 +2,11 @@
 title: 通貨
 description: このトピックは、プロジェクト オペレーションで通貨タイプの追加や削除をする方法について説明します。
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0a5ae29f1a11f62c6edfca64c4751338f42a26f24c4f8230018b0b45a4ee2ddb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999592"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642279"
 ---
 # <a name="currency"></a>通貨
 
@@ -69,6 +71,3 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 > [!IMPORTANT]
 >  他のレコードで使用されている通貨を削除することはできず、非アクティブ化するすることしかできません。 通貨レコードを非アクティブ化した場合でも、営業案件や受注など、既存のレコードに保存されている通貨情報は削除されません。 ただし、新規取引においては、非アクティブ化された通貨は選択できなくなります。  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

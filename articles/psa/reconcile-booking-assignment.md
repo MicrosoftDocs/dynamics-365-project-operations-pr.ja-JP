@@ -2,6 +2,8 @@
 title: 予約と割り当ての調整
 description: このトピックでは、実績について説明します。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 264271a5be63cb2e51f175595a48bef5fbff0a42a37795c85dd5b4725deec35e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995137"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147929"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>予約と割り当ての調整
 
@@ -51,11 +53,11 @@ ms.locfileid: "6995137"
 
 より上位の時間レベルの場合、**調整** タブには、下位時間レベルで差があることを知らせるセル インジケーターが表示されます。 たとえば、次の図では、森田 里奈という名前のついた 2018 年 10 月のセルにセル インジケーターが現れます。 したがって、リソースの予約と割り当ては、それらが **月** レベルで集計された場合には等しくなりますが、下位レベルでは一致しないことがわかります。
 
-![月次レベルでの予約と割り当ての不一致。](media/reconcile-assignments-01.JPG)
+![月次レベルでの予約と割り当ての不一致](media/reconcile-assignments-01.JPG)
 
 セルをダブルクリックして、次の下位レベルにズームし、差を表示します。 たとえば、森田 里奈の 2018 年 10 月の差をダブルクリックして、**週** レベルにドリルダウンします。 その後、そのリソースに 10 月の最初の 2 週間に予約は 16 時間ありますが、割り当てはなく、10 月の第 3 週には割り当てが 16 時間あり、予約はないことがわかります。
 
-![週次レベルでの予約と割り当ての不一致。](media/reconcile-assignments-02.JPG)
+![週次レベルでの予約と割り当ての不一致](media/reconcile-assignments-02.JPG)
 
 セルを右クリックして次の上位レベルをズーム アウトできます。 また、**設定** ボタンを選択してセル インジケータの高さも無効にできます。 
 
@@ -68,13 +70,13 @@ ms.locfileid: "6995137"
 
 - ユーザーは、システムのパーソナライズ設定で定義したタイムゾーンと一致するようにデバイスのタイムゾーンを設定する必要があります。
  
-  ![Windows 10 のタイムゾーン設定。](media/reconcile-assignments-03.png)
+  ![Windows 10 のタイムゾーン設定](media/reconcile-assignments-03.png)
 
-  ![パーソナライズ設定におけるタイム ゾーンの設定。](media/reconcile-assignments-04.png)
+  ![パーソナライズ設定におけるタイムゾーンの設定](media/reconcile-assignments-04.png)
  
 - 予約可能なリソースには、要求された拡張機能の定義に使用する等高線と重複する作業時間が少なくとも1分間必要となります。 たとえば、次の例では、午前9時から午後7時までの労働時間のレビューのリソースを示しています。 
 
-  ![リソースの等高線の比較。](media/reconcile-assignments-05.png)
+  ![リソースの等高線の比較](media/reconcile-assignments-05.png)
 
 次の表に示されています:
 
@@ -83,22 +85,19 @@ ms.locfileid: "6995137"
 - リソース B：このリソースはプロジェクトとは異なるタイムゾーンにあるため、このタイムゾーンの午前7時に開始されます。 ただし、予約は割り当ての等高線の最も早い開始時刻となっているため、予約は午前9時に開始されます。
 - リソース C と D：これらのリソースは、互いに異なるタイムゾーンにあり、プロジェクトも異なっているため、予約はそれぞれの利用可能な開始時刻より早く開始されません。
 
-|Entity  |カレンダー  |
+|エンティティ  |カレンダー  |
 |-|-|
-|プロジェクト カレンダー の テンプレート   | ![プロジェクト カレンダー。](media/reconcile-assignments-06.png) |
-|リソース A  | ![リソース A の カレンダー。](media/reconcile-assignments-06.png) |
-|リソース B  |  ![リソース B の カレンダー。](media/reconcile-assignments-07.png) |
-|リソース C  |  ![リソース C の カレンダー。](media/reconcile-assignments-08.png) |
-|リソース D  | ![リソース D の カレンダー。](media/reconcile-assignments-09.png)  |
+|プロジェクト カレンダー の テンプレート   | ![プロジェクト カレンダー](media/reconcile-assignments-06.png) |
+|リソース A  | ![リソース A の カレンダー](media/reconcile-assignments-06.png) |
+|リソース B  |  ![リソース B の カレンダー](media/reconcile-assignments-07.png) |
+|リソース C  |  ![リソース C の カレンダー](media/reconcile-assignments-08.png) |
+|リソース D  | ![リソース D の カレンダー](media/reconcile-assignments-09.png)  |
  
 調整ビューに移動すると、リソースの割り当てとそれに関連する予約の不足が表示されます。
- ![拡張前の調整ビュー。](media/reconcile-assignments-10.png)
+ ![拡張前の調整ビュー](media/reconcile-assignments-10.png)
 
 それぞれのリソースで予約の拡張機能が実行された後、予約はそれぞれのリソースで正常に拡張されます。 これは、各リソースの労働時間が不足を表す等高線と重なっているためです。
- ![予約拡張後の調整ビュー。](media/reconcile-assignments-11.png) 
+ ![予約拡張機能の後の調整ビュー](media/reconcile-assignments-11.png) 
 
 しかし、予約の詳細をよく見ると、予約の開始時刻に違いがあることがわかります。 予約は、割り当ての等高線の開始時間よりも早まることなはく、リソースの利用可能な開始時間より早く開始されることもありません。
- ![スケジュール ボードにおけるリソースの新規予約。](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![スケジュール ボードにおけるリソースの新規予約](media/reconcile-assignments-12.png)

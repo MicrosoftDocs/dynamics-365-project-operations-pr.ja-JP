@@ -2,10 +2,12 @@
 title: 価格設定ディメンションとして予約可能リソースを使用する
 description: このトピックでは、価格設定ディメンションとしての予約可能リソースの使用方法について説明します。
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988972"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145004"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>価格設定ディメンションとして予約可能リソースを使用する
 
@@ -62,18 +64,15 @@ ms.locfileid: "6988972"
 1. そのためには、 **価格ディメンション** グリッドの行をダブルクリックし、 **msdyn_bookableresource** のディメンションページを開きます。
 2. ディメンション ページの、 **関連** タブで、 **価格ディメンションのフィールド名称** をクリックします。
 
- ![価格ディメンションのフィールド名のタブ。](media/PD-fieldname.png)
+ ![価格ディメンションのフィールド名のタブ](media/PD-fieldname.png)
 
 4. 開いた関連ビューにて **新しい価格ディメンションのフィールド名を追加** をクリックします。
 
- ![新たな価格ディメンション フィールド名を追加する。](media/Add-NewPD-fieldname.png)
+ ![新たな価格ディメンション フィールド名を追加する](media/Add-NewPD-fieldname.png)
 
 
 **msdyn_bookableresource** の **新規価格ディメンションフィールド名** ページが起動します。 
 
 5. **エンティティのロジカル名** のフィールドに **msdyn_projectteam** を追加し、 **フィールド名** のフィールドに **msdyn_bookableresourceid** を追加します。 レコードを保存します。
 
- ![新規価格ディメンション フィールド名のフォーム。](media/PD-fieldname-Added.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ![新規価格ディメンション フィールド名の追加フォーム](media/PD-fieldname-Added.png)

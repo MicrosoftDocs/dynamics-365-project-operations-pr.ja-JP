@@ -2,6 +2,8 @@
 title: Project Service Automation 更新プログラム リリース 26、V3 の新機能と変更点
 description: このトピックには、Project Service Automation 更新プログラム リリース 26、V3 で利用可能な機能と修正をリスト化しています。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa526e97a366c01dae2547d79d0eda2fb204e07d0f6383b991165b9eecd836e9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 14fcccf5804e5da0926dbc69bdfa040229a7f068
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004272"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143564"
 ---
 # <a name="project-service-automation-update-release-26-v3"></a>Project Service Automation 更新プログラム リリース 26、V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](/power-platform/admin/install-remove-preferred-solution) を参照してください。
+Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution) を参照してください。
 
 このトピックには、Project Service Automation 更新プログラム 26 (V3) の新機能または変更された機能と修正をリスト化しています。 このバージョンのビルド番号は V3.10.44.59 で、2020 年 12 月のセルフアップデートで一般提供されます。
 
@@ -72,6 +74,3 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 - 見積もりや契約でプロジェクト ベースの品目を選択する場合、**提案** ボタンを既存の製品に関連付けられた製品ベースの品目を選択した時だけ表示します。
 - **Create_Product** 特権を **Create_ProjectContract** 特権から分割します。
 - 請求明細行を削除すると **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice** で null 参照エラーが発生します。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

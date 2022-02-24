@@ -2,18 +2,20 @@
 title: 現金前払い
 description: このトピックでは、現金前払いについて説明します。
 author: suvaidya
+manager: AnnBe
 ms.date: 03/25/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6881fc8251a2d3c7d6af0016780a92358ce63397d09b9a0cde201126cd2912cc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988522"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715566"
 ---
 # <a name="cash-advance"></a>現金前払い
 

@@ -2,22 +2,24 @@
 title: 時間エントリを拡張する
 description: このトピックでは、開発者が時間エントリ コントロールを拡張する方法について説明します。
 author: stsporen
+manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993337"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124644"
 ---
 # <a name="extending-time-entries"></a>時間エントリを拡張する
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-Dynamics 365 Project Operations には、拡張可能な時間入力カスタム コントロールが含まれています。 このコントロールには次の機能が含まれます:
+Dynamics 365 Project Operations には、拡張可能な時間エントリ カスタム コントロールが含まれます。 このコントロールには次の機能が含まれます:
 
 - 1 週間にわたって水平方向に時間を入力する
 - 日、行、または週ごとを合計する
@@ -142,6 +144,3 @@ Dynamics 365 Project Operations には、拡張可能な時間入力カスタム
 
 ### <a name="copying-time-entries"></a>時間エントリのコピー
 時間入力中にコピーするフィールドのリストを定義するには、**時間エントリ列のコピー** ビューを使用します。 **日付** と **期間** は必須フィールドのため、ビューから削除しないでください。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,22 +2,24 @@
 title: 法人ごとに Project Operations 統合を構成する
 description: このトピックでは、Project Operations で法人による統合の設定方法について説明します。
 author: sigitac
+manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999412"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122889"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>法人ごとに Project Operations 統合を構成する 
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-このトピックは、法人ごとに Dynamics 365 Project Operations を構成するのに必要な手順を説明します。
+このトピックは、法人ごとに Dynamics 365 Project Operations を構成するために必要な手順を説明します。
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Dynamics 365 Finance の機能キーを有効にする
 
@@ -49,6 +51,3 @@ Dynamics 365 Customer Engagement の Project Operations を使用する各法人
   - **請求タイプのデフォルト**: Project Operations は、明細プロパティ Finance にマップする必要がある請求タイプの既定の固定セットを使用します。 請求タイプごとにレコードを作成します: **指定されていない**、**有料**、**非課金**、**無料**、**利用不可**。
   - **プロジェクトカテゴリのデフォルト**: 各トランザクション タイプに使用する規定のプロジェクト カテゴリを選択します。 これらの規定は、**Project Operations 統合ジャーナル** とプロジェクト実績のトランザクション カテゴリが指定されていない見積もりで使用されます。
   - **予測**: 時間と費用の見積もりに使用する予測モデルを選択します。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987622"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992972"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>スケジュール ボードからプロジェクトの予約を作成する
 
@@ -43,7 +43,7 @@ ms.locfileid: "6987622"
 
 1.  スケジュール ボードで、このリソースは **オープンな要件** タブに表示されます。オープンな要件がたくさんある場合は、グリッドにて列フィルターを使用する必要がある場合があります。 
 
-    ![スケジュール ボードで要件タブを開く。](media/FAQ-Project-Booking-Schedule-Board-1.png "予約および割り当てテーブルのスクリーンショット")
+    ![スケジュール ボードで要件タブを起動する](media/FAQ-Project-Booking-Schedule-Board-1.png "予約および割り当てテーブルのスクリーンショット")
 
 2. 要件を選択します。 **空き時間の検索** タブは、選択された行の先頭に表示されます。
  
@@ -53,7 +53,7 @@ ms.locfileid: "6987622"
 
     **予約** を選択すると、プロジェクト チームにリソースが予約されます。
 
-![[リソース予約の作成] パネル。](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![リソース予約パネルの作成](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>プライマリ要件から予約
@@ -62,7 +62,7 @@ Project Service でプロジェクトを作成すると、自動的にプライ�
 
 1. 主要な要件を持つリソースを予約するには、スケジュール ボードで **プロジェクト** タブを選択します。プロジェクトが多数ある場合は、 **プロジェクト** 列で列フィルタを使用した方がよい場合があります。
 
-   ![スケジュール ボードの列フィルター。](media/FAQ-Project-Booking-Schedule-Board-2.png "予約および割り当てテーブルのスクリーンショット")
+   ![スケジュール ボードの列フィルター](media/FAQ-Project-Booking-Schedule-Board-2.png "予約および割り当てテーブルのスクリーンショット")
 
 2. プロジェクトの名前が設定されていても、期間が0となっている要件を選択します。
 

@@ -2,31 +2,33 @@
 title: リソースの調整の概要
 description: このトピックでは、プロジェクトのリソースの予約と割り当てを確実に調整するのに役立つ情報を提供します。
 author: ruhercul
+manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1542e97955902486d22ca637514e4e121fae70e2b227cafc7020c031061b5f98
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
+ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994777"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "4849630"
 ---
 # <a name="resource-reconciliation-overview"></a>リソースの調整の概要
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-チーム メンバーの場合、予約と割り当ては緩く結び付けられます。 つまり、リソースに割り当てはあっても予約がなかったり、リソースに予約はあっても割り当てがなかったりすることがあります。 理想としてはリソースがタスク割り当てを実行するキャパシティを持つように、予約と割り当てを調整する必要があります。 ただし、予約は利用可能性に基づいて行われ、タスクのタイミングはプロジェクトの進行に合わせて変更される場合があります。 したがって、予約と割り当ての緩い結合は柔軟性を提供します。
+チーム メンバーの場合、予約と割り当ては緩く結び付けられます。 つまり、リソースに割り当てはあっても予約がなかったり、リソースに予約はあっても割り当てがなかったりすることがあります。 理想としてはリソースがタスク割り当てを実行するキャパシティを持つように、予約と割り当てを調整する必要があります。 ただし、予約は空き時間に基づいて行われ、プロジェクトの続行に応じてタスクのタイミングが変更される場合があります。 したがって、予約と割り当ての緩い結合は柔軟性を提供します。
 
 **プロジェクト** ページの **調整** タブでは、プロジェクト マネージャーがプロジェクト チームへのチーム メンバーの予約や割り当てを調整することができます。
 
@@ -46,6 +48,3 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 **予約の延長** アクションを通じて作成された予約は、主要なプロジェクト要件に関連付けられています。 延長が開始されると、リソースがプロジェクトの複数の要件に関連付けられている可能性があるため、延長する必要のある特定の要件を決定できません。
 
 プロジェクト マネージャーやリソース マネージャーは、スケジュール ボードを使用して、リソースが容量を超えてオーバーブッキングされる状況を管理できます。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

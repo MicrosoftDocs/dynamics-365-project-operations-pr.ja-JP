@@ -2,6 +2,8 @@
 title: Project Service Automation データ モデルでの作業
 description: このトピックは、データ モデルでの作業方法について説明します。
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d8c212ef2c9fd9dcd6be0b8f0a31aa5a948176bc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002427"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147659"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Project Service Automation データ モデルでの作業
 
@@ -53,7 +55,7 @@ PSA は、新規見積もり関連エンティティの Dynamics 365 データ �
 
 PSA が見積もりに追加するその他のエンティティは、**見積もり依頼明細行のプロジェクト価格表**、**見積もり依頼明細行リソース カテゴリ**、および **見積もり依頼明細行のトランザクション カテゴリ** です。
 
-![見積もり、見積依頼明細行、およびプロジェクト関係を示す図。](media/PS-Reporting-image2.png "見積もり、見積依頼明細行、およびプロジェクト関係を示す図")
+![見積もり、見積依頼明細行、およびプロジェクト関係を示す図](media/PS-Reporting-image2.png "見積もり、見積依頼明細行、およびプロジェクト関係を示す図")
 
 ## <a name="reporting-on-project-contracts"></a>プロジェクト契約のレポート
 
@@ -69,7 +71,7 @@ PSA は、プロジェクト契約用に設計された新しいエンティテ�
 
 PSA が契約に追加するその他のエンティティは、**プロジェクト契約明細行のプロジェクト価格表**、**プロジェクト契約明細行リソース カテゴリ**、および **プロジェクト契約明細行のトランザクション カテゴリ** です。
 
-![受注、受注明細行、およびプロジェクト関係を示す図。](media/PS-Reporting-image3.png "受注、受注明細行、およびプロジェクト関係を示す図")
+![受注、受注明細行、およびプロジェクト関係を示す図](media/PS-Reporting-image3.png "受注、受注明細行、およびプロジェクト関係を示す図")
 
 ## <a name="reporting-on-projects"></a>プロジェクトのレポート
 
@@ -81,18 +83,18 @@ PSA が契約に追加するその他のエンティティは、**プロジェ�
 - **リソース要件** – このエンティティには、すべての汎用リソースのチーム メンバーの要件が含まれます。
 - **見積もり** と **見積明細行** – これらのエンティティにヘッダー/明細行の関係が存在し、プロジェクトの経費見積を含みます。 タスク見積は、**リソースの予測** エンティティ上に保存されます。
 
-![リソース要件およびプロジェクト関係を示す図。](media/PS-Reporting-image4.png "リソース要件およびプロジェクト関係を示す図")
+![リソース要件およびプロジェクト関係を示す図](media/PS-Reporting-image4.png "リソース要件およびプロジェクト関係を示す図")
 
 ## <a name="reporting-on-resources"></a>リソースのレポート
 
-プロジェクト リソースは、Microsoft Dynamics 365 Field Service などのその他のアプリと共有される Universal Resource Scheduling (URS) から **予約可能リソース** エンティティを使用します。 プロジェクト リソース上でレポートする場合に使用する可能性があるエンティティのリストはこちらです:
+プロジェクト リソースは、Microsoft Dynamics 365 Field Service などのその他のアプリとシェアされる Universal Resource Scheduling (URS) から **予約可能リソース** エンティティを使用します。 プロジェクト リソース上でレポートする場合に使用する可能性があるエンティティのリストはこちらです:
 
 - **予約可能リソース** – このエンティティは、プロジェクト チームで使用する、ユーザー、連絡先、汎用リソース、アカウント グループ、または備品を表します。
 - **予約可能リソースの特製** – このエンティティには、リソースのスキル、証明、または教育が含まれます。 特性は評価モデルによって定義される評価値を持つことができます。
 - **予約可能リソース カテゴリ** – このエンティティ–は、予約可能リソースのロールを表します。
 - **予約可能リソースの予約** – このエンティティは、リソース用にプロジェクト上で予約される時間を表します。 各予約にはヘッダー エンティティと明細行エンティティの両方があり、各明細行は予約の状態を表すステータスを持っています。
 
-![予約可能リソース特性関係を示す図。](media/PS-Reporting-image5.png "予約可能リソース特性関係を示す図")
+![予約可能リソース特性関係を示す図](media/PS-Reporting-image5.png "予約可能リソース特性関係を示す図")
 
 ## <a name="reporting-on-actual-transactions"></a>実績トランザクションのレポート
 
@@ -120,7 +122,4 @@ PSA が契約に追加するその他のエンティティは、**プロジェ�
 
 **トランザクションの発生元** エンティティは **実績** レコードの発生元を記録し、**トランザクション コネクション** エンティティは **実績** レコードの関連レコードを記録します。 さらに、**実績** レコードには、プロジェクト、プロジェクト契約 (注文)、予約可能リソースと顧客が含まれています。
 
-![トランザクション コネクション、発生元、実績関係を示す図。](media/PS-Reporting-image6.png "トランザクション コネクション、発生元、実績関係を示す図")
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![トランザクション コネクション、発生元、実績関係を示す図](media/PS-Reporting-image6.png "トランザクション コネクション、発生元、実績関係を示す図")

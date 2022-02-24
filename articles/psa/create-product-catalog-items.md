@@ -2,6 +2,8 @@
 title: 製品カタログ品目の作成
 description: Project Service での製品カタログ項目の作成方法
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 727f7139ec590ff2994d1ae7e7c5dddbd50a7733b0e5935f3fd6bdefde713713
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f29d36b97615dbaa9b85987b749045c0e9daf262
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995362"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144689"
 ---
 # <a name="create-product-catalog-items-project-service"></a>製品カタログ項目 (Project Service) の作成
 
@@ -31,10 +33,7 @@ ms.locfileid: "6995362"
 
 ソフトウェア ライセンスなどの製品をプロジェクトの見積もりに含めたい場合は、各製品を製品カタログに追加する必要があります。  
   
- 製品カタログを製品に追加する詳細については、[製品の作成 (Sales)](/dynamics365/sales-enterprise/create-product-sales) を参照してください。  
+ 製品カタログを製品に追加する詳細については、[製品の作成 (Sales)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-product-sales) を参照してください。  
   
 ### <a name="see-also"></a>関連項目  
  [Project Service の構成](../psa/configure.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
