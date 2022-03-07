@@ -2,18 +2,16 @@
 title: 新しい価格ディメンションでプラグイン属性を更新する
 description: このトピックでは、価格ディメンションのプラグイン属性の更新方法を説明します。
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9b0cf48318d0b9e94c4be0d3775b54e83832c1b7
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: d57ec617d2c7b10a01a75e7eaa9ca2d646af3f6ee1d06d4e6fb228fc0533da27
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643224"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988342"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>新しい価格ディメンションでプラグイン属性を更新する
 
@@ -52,3 +50,6 @@ ms.locfileid: "4643224"
 7. **OK** を選択してページを閉じ、**ステップの更新** を選択します。
 8. 2 番目のプラグイン **PreOperationQuoteLineDetail** に対して手順 2 から 7 を繰り返します。 このプラグインでは **msdyn_quotelinetransaction の更新** ステップを更新する必要があります。
 9. **PluginRegistrationTool** を閉じます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

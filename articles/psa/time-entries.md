@@ -2,8 +2,6 @@
 title: 時間エントリを作成する
 description: このトピックでは、時間エントリ カレンダーの作成方法に関して説明します。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149684"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990412"
 ---
 # <a name="create-time-entries"></a>時間エントリを作成する
 
@@ -70,3 +68,6 @@ Dynamics 365 Project Service Automation の以前のバージョンでは、時�
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>グループ化、並べ替え、検索、およびフィルター機能
 
 列で指定したディメンションによる時間エントリのグループ化およびフィルター処理ができます。 **グループ化** フィールドに、時間エントリのフィルター処理も使用するようにディメンションを選択します。 列見出しの並べ替え矢印を使用して、時間軸の昇降順でエントリ レコードを並べ替えることができます。 また、列見出しの **フィルター** ボタンを選び、さらに、**検索** ボックスで、時間エントリをプロジェクト名、プロジェクト タスク、時間エントリ、またはリソース別に、時間エントリの検索に使用するテキストを入力することによってエントリの表示/非表示の切り替えができます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

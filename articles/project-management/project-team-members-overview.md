@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 3526c5e2c968bdaa4d957592aed8d1b21c64b799
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127434"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286659"
 ---
 # <a name="project-team-members"></a>プロジェクト チーム メンバー
 
@@ -60,3 +60,6 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 - **新着**: プロジェクト マネージャーは、スケジュールから直接リソースを追加するだけでなく、チーム メンバー グリッドから新しい名前付きまたは一般的なチーム メンバーを追加できます。
 - **削除**: 1 人または複数のチーム メンバーを選択することにより、プロジェクト マネージャーは、プロジェクトに参加しないリソースを削除できます。 チーム メンバーを削除すると、関連するすべてのリソース割り当ても削除され、既存のすべての予約がキャンセルされます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

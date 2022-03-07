@@ -2,8 +2,6 @@
 title: プロジェクト テンプレートを作成
 description: Project Service でのプロジェクト テンプレートの作成方法
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efc404131208e1c971cb091cf174c1f4707552f0
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1423dfedccfdc471662581707b4441c9ed477f7c0811ccf3905af8c59f774f77
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149369"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990862"
 ---
 # <a name="create-a-project-template-project-service"></a>プロジェクト テンプレート (Project Service) の作成
 
@@ -62,3 +60,6 @@ ms.locfileid: "5149369"
   
 ### <a name="see-also"></a>関連項目  
  [プロジェクト管理者ガイド](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

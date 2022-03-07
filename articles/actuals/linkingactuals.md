@@ -2,19 +2,17 @@
 title: 実績を元のレコードにリンクする
 description: このトピックは、実績を時間入力、経費入力、材料用途ログなどの元のレコードにリンクする方法を説明しています。
 author: rumant
-manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 545775c4eae6c3dc689f264e7f662471c17b2340
-ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
+ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5852595"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991762"
 ---
 # <a name="link-actuals-to-original-records"></a>実績を元のレコードにリンクする
 
@@ -79,7 +77,7 @@ Project Operations はこれら 5 つのエンティティ レコードをビジ
 
 次の例は、Project Operations プロジェクトのライフサイクルにおける時間エントリの一般的な処理を示しています。
 
-> ![Project Service ライフサイクルの処理時間エントリ](media/basic-guide-17.png)
+> ![Project Service ライフ サイクルの時間エントリ処理。](media/basic-guide-17.png)
  
 1. 時間エントリを送信すると、2 つの仕訳入力が作成されます。1 行は原価用、もう 1 行は未請求販売用です。
 2. 時間入力の最終承認により 2 つの実績が作成されます。1 つの実績は原価用、もう 1 つの実績は未請求販売用です。

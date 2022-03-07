@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3441a386c142d8c73066c6eb1e0371678c44d94c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1b8d68068c151c8530b9a7d3dccb742902fdc6a3
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271224"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960658"
 ---
 # <a name="travel-requisitions-overview"></a>出張申請書の概要
 
@@ -32,6 +32,3 @@ ms.locfileid: "5271224"
 出張申請書とポリシーは、予算制御に役立ちます。 たとえば、組織が出張を必要とする固定価格プロジェクトの作業を行っている場合、プロジェクト チーム メンバーの出張費はプロジェクトの予算内に収まる必要があります。 出張費が発生する前に承認を要求することにより、組織はプロジェクトが予算内に収まるようにすることができます。
 
 **出張申請書** ページから出張申請書のポリシーを設定できます。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

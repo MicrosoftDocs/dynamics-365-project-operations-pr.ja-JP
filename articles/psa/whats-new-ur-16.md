@@ -2,8 +2,6 @@
 title: Project Service Automation 更新プログラム リリース 16、V3 の新機能と変更点
 description: このトピックには、Project Service Automation 更新プログラム リリース 16、V3 で利用可能な機能と修正をリスト化しています。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/18/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 882ee6c25e5d88db22e051254c7fd82dc787ab73
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f577cd8407b0f12607c56891eeadb1071f659cff67bd9f086a6b3bbec6376e9d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143639"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004407"
 ---
 # <a name="project-service-automation-update-release-16-v3"></a>Project Service Automation 更新プログラム リリース 16、V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。  このリリースは、Dynamics 365 9.x と互換性があります。 このリリースへと更新をするには、Dynamics 365 オンラインの管理センターにアクセスし、ソリューション ページにアクセスして更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストールと更新](https://docs.microsoft.com/dynamics365/project-service/upgrade-psa-home-page) を参照してください。
+Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。  このリリースは、Dynamics 365 9.x と互換性があります。 このリリースへと更新をするには、Dynamics 365 オンラインの管理センターにアクセスし、ソリューション ページにアクセスして更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストールと更新](/dynamics365/project-service/upgrade-psa-home-page) を参照してください。
 このトピックには、PSA V3 更新プログラム 16 の新機能または変更された機能と修正をリスト化しています。 このバージョンのビルド番号は V3.10.6.34 であり、一般的には 2020年1月 の自己プログラム更新の処理を通じて入手できます。
 
 
@@ -64,3 +62,6 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 
     -   修正済み：2.X から 3.X にアップグレードすると、プロジェクト名に NULL 値を持つプロジェクトが許容されます。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: プロジェクト設定
 description: このトピックでは、プロジェクト管理の設定について説明します。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148154"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996937"
 ---
 # <a name="project-settings"></a>プロジェクト設定
 
@@ -45,11 +43,11 @@ ms.locfileid: "5148154"
   
 3. **月単位ビュー** タブで、**設定** をクリックします。 次の 3 つのオプションが表示されます。 
 
-  - 新しい週単位スケジュール
+  - 新しい週単位のスケジュール
   - 1 日の作業スケジュール
   - 休暇
 
-> ![オプションの設定](media/project-13.png)
+> ![オプションの設定。](media/project-13.png)
 
 4. **新規週単位スケジュール** を選択し、このリソース スケジュールのオプションを設定します。 定期的な週単位のスケジュール、毎日の時間パラメーター、休業日の設定などを設定できます。
 5. 日付の範囲を設定して、**保存** を選択し、**閉じる** をクリックします。 
@@ -68,3 +66,6 @@ ms.locfileid: "5148154"
 ## <a name="price-lists"></a>価格表
 
 価格表は、リソース ロール、経費カテゴリ、製品、そして組織のその他要素のコストと販売価格の設定ができます。 プロジェクトに届ける必要がある財務見積もりを設定する前に、バッキング コストと販売価格表を作成する必要があります。 パラメーター セクションでは、組織で作成されたすべてのプロジェクトに適用される既定のコストと販売価格表も設定する必要があります。 **アクティブなプロジェクト パラメーター** ページで、既定のコストと販売価格リストを必ず設定してください。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

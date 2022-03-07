@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f29d36b97615dbaa9b85987b749045c0e9daf262
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 6343ff4dcfeae5d53eaf8eaa860afaf42559857a
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144689"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950360"
 ---
 # <a name="create-product-catalog-items-project-service"></a>製品カタログ項目 (Project Service) の作成
 
@@ -33,7 +33,10 @@ ms.locfileid: "5144689"
 
 ソフトウェア ライセンスなどの製品をプロジェクトの見積もりに含めたい場合は、各製品を製品カタログに追加する必要があります。  
   
- 製品カタログを製品に追加する詳細については、[製品の作成 (Sales)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-product-sales) を参照してください。  
+ 製品カタログを製品に追加する詳細については、[製品の作成 (Sales)](/dynamics365/sales-enterprise/create-product-sales) を参照してください。  
   
 ### <a name="see-also"></a>関連項目  
  [Project Service の構成](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

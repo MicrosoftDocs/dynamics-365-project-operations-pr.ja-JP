@@ -2,11 +2,9 @@
 title: プロジェクトの見積りの確認、更新、送信
 description: このトピックでは、顧客に見積りを送信して確認し、フィードバックに基づいて修正し、見積りを再送信する処理について説明します。
 author: ruhercul
-manager: AnnBe
 ms.date: 05/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,18 +16,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 7794f9b620165b3ce914e42693faa792e3918854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: df7bfd7c57b7a273a94e49fcf3834072a8eb20b0ed598a144cefaff41e28a431
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270819"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991267"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>プロジェクトの見積りの確認、更新、送信
 
 [!include [banner](../includes/banner.md)]
 
-プロジェクトの見積りを作成し、顧客に送信した後、見積りのステータスを **送信済み** に更新する前に、顧客から確認を取る必要があります。 顧客から要求された修正は、見積りの中で更新することができます。 見積りの状態を **送信済み** に更新した後は、変更できません。 以下の手順では、確認のために見積りを送信し、フィードバックに基づいて更新を行い、見積りを送信するオプションについて説明します。
+プロジェクトの見積りを作成し、顧客に送信した後、見積りのステータスを **送信済み** に更新する前に、顧客から確認を取る必要があります。 顧客から要求された変更は、見積もりに反映できます。 見積りの状態を **送信済み** に更新した後は、変更できません。 以下の手順では、確認のために見積りを送信し、フィードバックに基づいて更新を行い、見積りを送信するオプションについて説明します。
 
 ## <a name="send-a-project-quotation-confirmation"></a>プロジェクトの見積り確認を送信する  
 

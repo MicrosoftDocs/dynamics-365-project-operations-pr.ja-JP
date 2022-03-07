@@ -1,12 +1,10 @@
 ---
 title: 出荷単位および出荷単位一覧
-description: このトピックでは、Dynamics 365 プロジェクト オペレーションでユニットとユニット グループを作成する方法について説明します。
+description: このトピックでは、Dynamics 365 Project Operations で出荷単位と出荷単位一覧を作成する方法について説明します。
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f588e41d001befeac87bb6a4e28a83cf5cfa865
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a0aec1cc32ebdea9d2dbc7cc891f82da07e044f5c5655e008068f72dd198587
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131034"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999547"
 ---
 # <a name="units-and-unit-groups"></a>出荷単位および出荷単位一覧
 
@@ -46,3 +44,6 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 3. **数量** フィールドに、その単位が含有する数量を入力します。 例えば、ひと箱あたりに2個収まるのであれば、「2」と入力します。 
 4. **基本単位** フィールドで、基本単位を選択し、単位の最小測定単位を設定します。 たとえば、「個」を選択します。
 5. **保存** を選択します :
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

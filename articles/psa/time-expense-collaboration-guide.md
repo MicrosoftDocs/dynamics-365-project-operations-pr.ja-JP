@@ -2,8 +2,6 @@
 title: 時間、経費、および共同作業ガイド
 description: Project Service のための時間、経費、共同作業ガイド
 author: revathiMuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06f5e6c64a15a79a3ed6501cad8653adbbbd5be9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0333445594cd8c02e14ba93e0ff3e9d8da50afd85ab90810762c415b53018ccb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150134"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004722"
 ---
 # <a name="time-expense-and-collaboration-guide-project-service"></a>時間、経費、および共同作業ガイド (Project Service)
 
@@ -73,3 +71,6 @@ ms.locfileid: "5150134"
  [取引先企業管理者ガイド](../psa/account-manager-guide.md)   
  [プロジェクト管理者ガイド](../psa/project-manager-guide.md)   
  [Resource Manager ガイド](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

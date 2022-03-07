@@ -1,27 +1,25 @@
 ---
 title: 会社間経費
 description: このトピックでは、会社間経費を使用して、作業が実行された法人に作業者の経費を割り当てる方法を説明します。
-author: ShylaThompson
-manager: AnnBe
-ms.date: 05/20/2020
+author: Surya Vaidyanathan
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d908a1c062f5b7f01cf340dcd6f7f24714a992bf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271539"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001212"
 ---
 # <a name="intercompany-expenses"></a>会社間経費
 
@@ -36,5 +34,17 @@ ms.locfileid: "5271539"
 経費精算書で借用法人 (ソース) ではなく貸与法人 (デスティネーション) に関連付けられている税グループを使用できるようになる前に、一般会計の消費税パラメーターのセットアップで機能を有効化する必要があります。 **会社間税転記の法人** パラメーターが **ソース** に設定され、**消費税課税ルールの適用** フィールドが **いいえ** に設定されている場合、貸与法人の税の組み合わせが使用されます。 同じパラメーターが **宛先** に設定されている場合、借用法人の税の組み合わせが使用されます。 米国の法人の場合、パラメーターが **ソース** に設定されている場合、**消費税収入** フィールドも新しい **元帳転記グループ** ページで構成する必要があります。 会計エンジンは、このフィールドの情報を税関連の会計入力に使用します。   
 プロジェクトの有無にかかわらず転記された経費明細の動作は一貫しています。  
 
+## <a name="new-expense-expression-builder"></a>新しい経費の式ビルダー
+
+新しい経費の式ビルダーは、プロジェクトを使用する会社間の経費シナリオの問題に対処します。 この機能により、会社間の経費を作成するときに、経費明細行で選択されたプロジェクトに対して経費ポリシーが正しく検証され、経費レポートを正常に送信できるようになります。
+
+経費の式ビルダー機能を有効にするには、オンにする必要があります。 さらに、プロジェクト ID を持つ経費ポリシーを設定する必要があります。
+
+経費明細行でプロジェクト ID を検証するポリシーをすでに構成している場合は、それらのポリシーを廃止する必要があります。 次に、機能をオンにして、ポリシーを再構成できます。
+
+この機能を有効にするには、次の手順に従います。
+
+1. **ワークスペース** \> **機能管理** の順に移動します。
+2. 一覧で、**新しい経費の式ビルダーを選択して、プロジェクトを使用する会社間の経費シナリオの問題に対処できるようにします**。 次に、**今すぐ有効にする** を選択します。
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

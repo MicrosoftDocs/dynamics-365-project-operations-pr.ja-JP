@@ -2,18 +2,16 @@
 title: 2020 年 11 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 description: このトピックでは、リソース/非在庫ベースのシナリオ向け Project Operations の 2020 年 11 月リリースで利用可能な品質更新について説明します。
 author: sigitac
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c7ec9360401bf214ae867769b0e48e545a6bad48
-ms.sourcegitcommit: 64d0de964a9b66c015ffcf1db62cbb6216cb3187
+ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367272"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007962"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 年 11 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 
@@ -67,4 +65,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | プロジェクト会計  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | この機能を有効にすると、CDS 統合なしに複数の契約品目は不可能です。                                                                                   |
 
 ### <a name="regulatory-updates"></a>規制の更新
-Finance and Operations アプリの規制の更新については、[規制の更新](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
+Finance and Operations アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1439cc1543adbd304d984cdc268d3e5623adc309
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 645f9f1009bb52f6584bbce7f8ef07a033e450e9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148244"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123294"
 ---
 # <a name="project-planning-home-page"></a>プロジェクト計画のホーム ページ
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -39,7 +37,7 @@ PSA のプロジェクト管理ツールによって、プロジェクトを簡�
 
 - 作業スケジュールと予測を使用してプロジェクトを計画します。
 - プロジェクト コストと売上の予測と追跡
-- 販売プロセス中にプロジェクト見積を使用します。
+- 営業プロセス中にプロジェクトの予測を使用します。
 - パイプラインにあるプロジェクトのリソース要件の予測
 - 進行状況とコスト消費を追跡することでプロジェクトを正常に提供します。
 

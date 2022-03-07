@@ -2,8 +2,6 @@
 title: Project Finder Mobile アプリケーションで、次のプロジェクトを検索します。
 description: Project Service の Project Finder Mobile アプリで次のプロジェクトを検索する方法
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 58e6970dbe902deeef144e563bcfcd09046c70ce
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149279"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990786"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Project Finder Mobile アプリケーション (Project Service) で、次のプロジェクトを検索します。
 
@@ -40,12 +38,15 @@ ms.locfileid: "5149279"
   
  興味のあるプロジェクトの右側の矢印をタップして、詳細を表示しサインアップします。  
   
- ![Project Finder Mobile アプリでのスキルに合ったプロジェクトの一覧](../psa/media/project-service-project-finder-list.png "Project Finder Mobile アプリでのスキルに合ったプロジェクトの一覧")  
+ ![Project Finder Mobile アプリでのスキルに合ったプロジェクトの一覧。](../psa/media/project-service-project-finder-list.png "Project Finder Mobile アプリでのスキルに合ったプロジェクトの一覧")  
   
-## <a name="update-your-skills"></a>スキルの更新  
+## <a name="update-your-skills"></a>スキルを更新する  
  画面の右下にあるプロファイル ボタンをタップし、スキルと能力のレベルを更新します。  
   
- ![プロジェクト検索モバイル アプリのプロファイル ボタン](../psa/media/project-service-project-finder-profile.png "プロジェクト検索モバイル アプリのプロファイル ボタン")  
+ ![Project Finder Mobile アプリのプロファイル ボタン。](../psa/media/project-service-project-finder-profile.png "プロジェクト検索モバイル アプリのプロファイル ボタン")  
   
 ### <a name="see-also"></a>関連項目  
  [時間、経費、および共同作業ガイド](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

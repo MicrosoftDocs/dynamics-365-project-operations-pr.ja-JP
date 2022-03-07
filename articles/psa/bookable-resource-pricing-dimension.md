@@ -2,12 +2,10 @@
 title: 価格設定ディメンションとして予約可能リソースを使用する
 description: このトピックでは、価格設定ディメンションとしての予約可能リソースの使用方法について説明します。
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0ffbb1f7aa25e723c7842259f1c0127b3d2e26d6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145004"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012097"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>価格設定ディメンションとして予約可能リソースを使用する
 
@@ -76,3 +74,6 @@ ms.locfileid: "5145004"
 5. **エンティティのロジカル名** のフィールドに **msdyn_projectteam** を追加し、 **フィールド名** のフィールドに **msdyn_bookableresourceid** を追加します。 レコードを保存します。
 
  ![新規価格ディメンション フィールド名の追加フォーム](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

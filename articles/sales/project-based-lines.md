@@ -2,18 +2,16 @@
 title: プロジェクトベースの営業案件品目
 description: このトピックでは、プロジェクトベースの営業案件品目での作業について説明します。
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181953"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996352"
 ---
 # <a name="project-based-opportunity-lines"></a>プロジェクトベースの営業案件品目
 
@@ -33,3 +31,6 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | 件名 | [全般] タブ | この編集可能なテキスト フィールドを使用して、品目に短い ID を付けることができます | この営業案件から見積もりを作成すると、この値は見積依頼明細行に引き継がれます |
 | 顧客の予算 | [全般] タブ | この編集可能な通貨フィールドを使用して、顧客がこの品目に費やしても構わないと思っている金額を追跡できます。 | この営業案件から見積もりを作成すると、この値は見積依頼明細行の対応するフィールドに引き継がれます |
 | 請求方法 | [全般] タブ | この編集可能フィールドには以下の値が入ります。</br>- 時間と材料</br>- 固定価格 | この営業案件から見積もりを作成すると、この値は見積依頼明細行の対応するフィールドに引き継がれます。 見積依頼明細行が作成された後、フィールドはロックされ、変更できません。 このフィールド値をできるだけ正確に割り当てます。 見積依頼明細行のこのフィールドの値を変更する必要がある場合は、見積依頼明細行を削除して再作成します。 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

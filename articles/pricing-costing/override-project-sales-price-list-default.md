@@ -2,19 +2,17 @@
 title: プロジェクト販売価格表の上書き
 description: このトピックでは、カスタム価格表の作成について説明します。
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
-ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
+ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672237"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009582"
 ---
 # <a name="override-project-sales-price-lists"></a>プロジェクト販売価格表の上書き
 
@@ -52,3 +50,6 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 プロジェクト契約では、プロジェクトの価格設定は、契約名と作成日時を示すスタンプが名前に追加されたカスタム価格表として既定で設定されます。 これは、見積もりが成功したときに契約書が作成された場合でも、最初から契約書が作成された場合でも当てはまります。 必要に応じて、カスタム価格表へのこの関連付けを削除し、代わりに標準価格表をプロジェクト契約に関連付けることができます。
 
 標準価格表を見積もりまたは契約のプロジェクト価格表に関連付けると、価格表の価格に加えられた変更は、価格表を使用するすべての見積もりおよび契約に影響します。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

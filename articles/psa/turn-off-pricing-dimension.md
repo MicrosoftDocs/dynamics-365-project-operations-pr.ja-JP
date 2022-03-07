@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da0ac942579ba8d9b2258a011b8eeef8e64ba9c9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 6e4b80b9c4b1b0f57d04079c9d2f84051b451d29
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147299"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5281844"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>価格設定のディメンションをオフにする
 
@@ -47,3 +47,6 @@ ms.locfileid: "5147299"
 
 価格設定ディメンションとしての **標準タイトル** を停止する場合、Project Service 価格設定エンジンによって価格を検索する場合、入力コンテキストの **組織単位** 値のみが使用されます。 入力コンテキストの **組織単位** が 「Contoso US」であるとすると、その行の両方が一致するため、結果が非確定的になります。 このシナリオを回避するため、**ロール価格** レコードを作成する際に、Project Service によって、ディメンションの組み合わせが一意であることが検証されます。 **ロール価格** レコードを作成後にディメンションを停止した場合、この制約に違反する可能性があります。 したがって、ディメンションを停止する前に必要なことは、ディメンション値が有効になっている **ロール価格** および **ロール価格の利幅** 行をすべて削除することです。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

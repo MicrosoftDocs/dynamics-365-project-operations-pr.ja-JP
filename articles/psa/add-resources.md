@@ -2,6 +2,8 @@
 title: リソースの追加
 description: Project Service でのリソースの追加
 author: JohnPBurrows
+manager: kfend
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 72d365171bbbcb94b8d63e825c9f98091772c274
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c882ade53eb207d5c85fd769437cff65fef7ca1f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992657"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079260"
 ---
 # <a name="add-resources-project-service"></a>リソースの追加 (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -53,6 +53,3 @@ ms.locfileid: "5992657"
   
 ### <a name="see-also"></a>関連項目  
  [リソースの設定](../psa/set-up-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

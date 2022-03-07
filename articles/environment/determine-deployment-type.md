@@ -3,17 +3,17 @@ title: 展開の種類を決定する
 description: このトピックでは、会社のプロジェクト オペレーションの正しい展開の種類を決定するのに役立つ情報を提供します。
 author: stsporen
 manager: Annbe
-ms.date: 03/15/2021
+ms.date: 11/05/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 1aae04230104d27db2f62db8e674697fd83460ac
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948111"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479570"
 ---
 # <a name="determine-your-deployment-type"></a>展開の種類を決定する
 
@@ -44,7 +44,7 @@ Project Operations では、要件に合わせて複数の展開オプション�
 - [リソース/非在庫のシナリオ向け Project Operations](#integrated)
 - [在庫/製造指示のシナリオ向け Project Operations](#pma)
 
-Project Operations は、法人エンティティ レベルの構成を通じて、同じ環境で、在庫/製造オーダー シナリオおよび非在庫/リソースベースのシナリオをサポートします。 例えば、Contoso は、米国の製造施設で在庫/製造注文機能を使用できます (法人 = Contoso Manufacturing United States)。 Contoso は、英国の施設にサービスを提供する Contoso Robotics Arms で在庫のない/リソースベースの機能を使用できます (法人 = Contoso Robotics United Kingdom)。
+Project Operations は、法人エンティティ レベルの構成を通じて、同じ環境で、在庫/製造オーダー シナリオおよび非在庫/リソースベースのシナリオをサポートします。 たとえば、Contoso 社は、米国の製造施設（法人= Contoso Manufacturing United States）で在庫/製造注文機能を使用できます。 Contoso は、英国 の Contoso Robotics Arms サービス施設（法人= Contoso Robotics United Kingdom）で、在庫のない/リソースベースの機能を使用できます。
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>ライト展開 - 見積もり請求の取引
 
@@ -53,10 +53,10 @@ Project Operations は、法人エンティティ レベルの構成を通じて
 - Dynamics 365 Sales アプリケーションのエクスペリエンスを拡張するプロジェクトの営業プロセス
 - Web 向けの Microsoft Project を使用したプロジェクト計画
 - 多次元の価格
-- 統合されたリソース管理
+- 統一リソースの管理
 - 時間のトラッキング
-- 基本経費
-- プロジェクト マネージャーのレビューと編集のための見積請求 
+- 基本の経費
+- 見積送り状と顧客向けの請求書 
 
 #### <a name="deployment-steps"></a>展開の手順
 [展開アンケート](https://aka.ms/provisionprojectoperations) を使用して Project Operations の最適な展開モデルを決定します。
@@ -90,16 +90,16 @@ Project Operations は、法人エンティティ レベルの構成を通じて
 - リソース管理
 - 時間のトラッキング
 - フル経費
-- OCR の受け取り
-- 完全な請求
+- レシート OCR
+- フル請求
 - 売上認識
 - 製造オーダー
-- 在庫による在庫材料のサポート
+- 材料サポート
 
 #### <a name="deployment-steps"></a>展開の手順
 [展開アンケート](https://aka.ms/provisionprojectoperations) を使用して Project Operations の最適な展開モデルを決定します。
 
-この展開については、[プレビュー サブスクリプションにサインアップする](/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=%2fdynamics365%2ffinance%2ftoc.json) および[新しい環境をプロビジョニングする](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=%2fdynamics365%2ffinance%2ftoc.json) を参照してください。 
+この展開については、[プレビュー サブスクリプションにサインアップする](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) および[新しい環境をプロビジョニングする](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json) を参照してください。 
 
 
 

@@ -2,18 +2,16 @@
 title: 経費カテゴリの設定
 description: このトピックでは、経費報告書の経費カテゴリおよび共有カテゴリを設定する方法について説明します。
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 13e72e4b852fd0edac5ad35d5162e74b016bce33
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 8f5b1a5d069b8d73051406369ecba2c4547eaa38e0d5bde2e34f52c5b7b724bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123789"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993112"
 ---
 # <a name="set-up-expense-categories"></a>経費カテゴリの設定
 
@@ -44,9 +42,9 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
         - 請求済み売上
         - 未収売上の販売額
         - 仕掛品販売額
-        - 未収売上生産
-        - 仕掛品生産
-        - 未収売上利益
+        - 未収収益 - 生産
+        - 仕掛品 - 生産
+        - 未収収益 - 利益
         - 仕掛品利益
         - 未収売上サブスクリプション
         - 仕掛品サブスクリプション
@@ -61,3 +59,6 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
     - 税の回収から除外されているサブカテゴリはあるか?
     - サブカテゴリの品目消費税グループはなにか?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

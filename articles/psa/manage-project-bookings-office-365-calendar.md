@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c575bd3deba5bcde2526ccfc598327917bf91642
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f9ebfadf8a331fd6a8a86a9cc040dc8957db3b82
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144464"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950315"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>カレンダーでプロジェクトおよび予約を管理する (Project Service)
 
@@ -52,7 +52,7 @@ ms.locfileid: "5144464"
   
 - [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] のグローバル管理者、またはシステム管理者の資格情報が必要です。  
   
-- 管理者は、電子メール サーバー のプロファイルを設定する必要があります。また各ユーザーは各自のメールボックスを構成する必要があります。 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [サーバー側の同期による電子メールの処理のセットアップ](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- 管理者は、電子メール サーバー のプロファイルを設定する必要があります。また各ユーザーは各自のメールボックスを構成する必要があります。 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [サーバー側の同期による電子メールの処理のセットアップ](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>自分の組織の同期を有効にする (管理者のタスク)  
   
@@ -91,3 +91,6 @@ ms.locfileid: "5144464"
   
 ### <a name="see-also"></a>関連項目  
  [時間、経費、および共同作業ガイド](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

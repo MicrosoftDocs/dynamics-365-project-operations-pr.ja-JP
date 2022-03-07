@@ -3,7 +3,7 @@ title: リソース要求の送信
 description: Project Service でのリソース要求の送信方法
 author: JohnPBurrows
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5b8b136e8d1b8c7acbb8616789ad274c89438e7d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1978a9212db25ac32ff2dc5f9050ec43fc1ccbd7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150224"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079360"
 ---
 # <a name="submit-resource-requests-project-service"></a>リソース要求の送信 (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

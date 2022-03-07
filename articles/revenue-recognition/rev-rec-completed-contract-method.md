@@ -2,18 +2,16 @@
 title: 売上の見積もりの管理
 description: このトピックでは、プロジェクトで売上見積もりを処理する方法を説明します。
 author: sigitac
-manager: Annbe
 ms.date: 11/04/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 98df0301eaa8e9f8e9cd51fc5714254ae3bbc83d
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 8d118826f8c63b9540435e320924d4562ab191ba126088560f5def1c1ff0b908
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531471"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996532"
 ---
 # <a name="manage-revenue-estimates"></a>売上の見積もりの管理
 
@@ -90,3 +88,6 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 このページを使用して、指定した見積もり日で見積もりステータスが **消去済み** の消去をすべて取り消します。 適切なフィールドを選択するとトランザクションのステータスが変わります。
 
 プロジェクト ステージが終了に設定されている場合、これによりプロジェクト ステータスが **処理中** に自動で変更されます。 プロジェクト期間の見積もりステータスが **転記済み** に戻ります。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

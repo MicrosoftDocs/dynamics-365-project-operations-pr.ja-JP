@@ -2,18 +2,16 @@
 title: 価格ディメンションとしてトランザクション カテゴリを使用する
 description: このトピックでは、トランザクション カテゴリー フィールドを価格ディメンションとして使用する方法を説明します。
 author: rumant
-manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513998"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996127"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>価格ディメンションとしてトランザクション カテゴリを使用する
 
@@ -50,3 +48,6 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 2. **パラメーター** ページの **金額ベースの価格ディメンション** タブで、**価格ディメンション** エンティティのレコードを示すグリッドを確認します。
 3. このリストに **トランザクション カテゴリ** を追加して、**コストに適用可能** と **営業に適用可能** フィールドを **はい** に設定します。
 4. **ディメンションの種類** フィールドで **金額ベース** を選択して、コストと営業に関連づけるために **トランザクション カテゴリ** の優先順位を選択します。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

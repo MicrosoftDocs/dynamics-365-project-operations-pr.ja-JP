@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fbe1c93c5359a6be493e3c4e1b27b06dbb48002
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ce24b156a268f9f5aada35f9314d2d9c6607200b
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271719"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079424"
 ---
 # <a name="multiple-approvers-on-an-expense-report"></a>経費精算書における複数の承認者
+
+[!include [banner](../includes/banner.md)]
 
 組織の経費承認ポリシーによっては、送信された経費報告書に対して複数の人物による承認が必要となる場合があります。 経費報告書承認のワークフロー プロセスを設定する場合、1 つ以上の経費報告書承認者のタスク、またはステップを含むワークフロー要素を追加できます。 たとえば、すべての経費報告書に対して、まず報告書を提出した従業員のマネージャーが承認し、次に買掛金コーディネーターが承認するように要求することができます。
 
@@ -40,6 +42,3 @@ ms.locfileid: "5271719"
 
     1. 従業員の上司が経費報告書を承認する。
     2. 予算所有者が経費報告書を承認する。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

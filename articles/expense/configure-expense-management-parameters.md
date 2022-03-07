@@ -2,18 +2,16 @@
 title: 経費管理パラメーターの構成
 description: このトピックでは、経費管理の一般的な動作を制御するパラメーターについて説明します。
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 09da0f4e0c6aec97c93c10eb686513e782189f77
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1cabb0be624f7f6c12761e4fb6d5a095396a5940a37616bb3a304798e1f97808
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121044"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007782"
 ---
 # <a name="configure-expense-management-parameters"></a>経費管理パラメーターの構成
 
@@ -83,3 +81,6 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | 汚職防止証明書を表示する   | 経費報告書の作成時に汚職防止テキストを表示するには、このオプションを選択します。 次に、経費報告書で汚職防止証明書を選択する必要がある特定の経費カテゴリを有効にすることができます。 たとえば、政府関係者の経費に関連するギフト カテゴリでは、その経費が政府関係者に関連する会社方針を満たしていることを従業員が確認する必要があります。 |
 | 提出者への汚職防止メッセージ | 経費報告書を作成している従業員に表示される必要のあるテキストを入力します。 ユーザーの言語に基づいて、表示される言語固有のテキストを入力するには、**翻訳** を選択します。 |
 | 承認者への汚職防止メッセージ  | 経費報告書の作成時に、承認者に表示される必要のあるテキストを入力します。 ユーザーの言語に基づいて、表示される言語固有のテキストを入力するには、**翻訳** を選択します。 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Project Operations 二重書き込みマッピングのバージョン
 description: このトピックは、Dynamics 365 Project Operations に必要となる二重書き込みのマッピングのリストを提供します。
 author: sigitac
-manager: Annbe
 ms.date: 04/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa0342985f2c860cd3cb3f686f0dcaa59d8cfd41
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5939004"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003822"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 二重書き込みマッピングのバージョン
 
@@ -34,40 +32,40 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 1. マップのリストから、すべての前提条件を満たす元帳 **(msdyn\_ledgers)** マッピングを選択し、**初期同期** チェック ボックスをオンにします。 **初期同期のマスター** フィールドで、**Finance and Operationsアプリ** 元帳マッピングとすべての前提条件マップの両方を選択します。 **実行** を選択します。
 
-![元帳マップの同期](media/DW6.png)
+![台帳マップの同期。](media/DW6.png)
 
-1. 上の表に記載されている残りのすべてのテーブル マッピングについても、同じ手順に従います。 これらのマッピングを実行する際には、**初期同期** のチェック ボックスを選択しないでください。
+2. 上の表に記載されている残りのすべてのテーブル マッピングについても、同じ手順に従います。 これらのマッピングを実行する際には、**初期同期** のチェック ボックスを選択しないでください。
 
 ## <a name="project-operations-dual-write-maps"></a>Project Operations の二重書き込みのマッピング
 
-次のマッピングは、Project Operations ソリューションに必要となる前提条件です。
+次のマッピングは、Project Operations ソリューションに必要となる前提条件です。 二重書き込みマップ バージョンは、Project Operations の 2021 年 5 月の更新プログラム、バージョン 4.10.0.186 から記載されています。
 
 | **エンティティ マップ** | **最新バージョン** | **初期同期** |
 | --- | --- | --- |
 | プロジェクト トランザクションの関連付けにおける統合エンティティ (msdyn\_transactionconnections) | 1.0.0.0 | プロビジョニングには必須ではありません。 |
 | プロジェクトの契約ヘッダー (受注) | 1.0.0.1 | プロビジョニングには必須ではありません。 |
 | プロジェクト 契約品目 (salesorderdetails) | 1.0.0.0 | プロビジョニングには必須ではありません。 |
-| プロジェクトの資金源 (msdyn_projectcontractsplitbillingrules) | 1.0.0.1 | プロビジョニングには必須ではありません。 |
+| プロジェクトの資金源 (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | プロビジョニングには必須ではありません。 |
 | Project Operations の統合テーブルによる材料の見積もり (msdyn\_estimatelines) | 1.0.0.0 | プロビジョニングには必須ではありません。 |
-| プロジェクトの仮発行請求書 V2 (invoices) | 1.0.0.2 | プロビジョニングには必須ではありません。 |
+| プロジェクトの仮発行請求書 V2 (invoices) | 1.0.0.3 | プロビジョニングには必須ではありません。 |
 | Project Operations 統合実績 (msdyn_actuals) | 1.0.0.14 | プロビジョニングには必須ではありません。 |
 | Project Operations 統合契約品目のマイルストーン (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | プロビジョニングには必須ではありません。 |
 | 経費見積もりに使用する Project Operations 統合エンティティ (msdyn_estimateslines) | 1.0.0.2 | プロビジョニングには必須ではありません。 |
 | 時間見積もりに使用する Project Operations 統合エンティティ (msdyn_resourceassignments) | 1.0.0.5 | プロビジョニングには必須ではありません。 |
-| Project Operations 統合プロジェクト経費エクスポート エンティティ (msdyn_expensecategories) | 1.0.0.2 | プロビジョニングには必須ではありません。 |
+| Project Operations 統合プロジェクト経費エクスポート エンティティ (msdyn_expensecategories) | 1.0.0.1 | プロビジョニングには必須ではありません。 |
 | Project Operations 統合プロジェクト経費エクスポート エンティティ (msdyn_expenses) | 1.0.0.2 | プロビジョニングには必須ではありません。 |
 | Project Operations 統合プロジェクト ベンダー請求書のエクスポート エンティティ (msdyn_projectvendorinvoices) | 1.0.0.0 | プロビジョニングには必須ではありません。 |
-| Project Operations 統合プロジェクト ベンダー請求書明細のエクスポート エンティティ (msdyn_projectvendorinvoicelines) | 1.0.0.0 | プロビジョニングには必須ではありません。 |
+| Project Operations 統合プロジェクト ベンダー請求書明細のエクスポート エンティティ (msdyn_projectvendorinvoicelines) | 1.0.0.1 | プロビジョニングには必須ではありません。 |
 | すべての会社のプロジェクトのリソース ロール (bookableresourcecategories) | 1.0.0.1 | プロビジョニング時に Dynamics 365 Dataverse 環境に入力されるプロジェクト マネージャーとチーム メンバーのリソース ロールを同期するためには、テーブル マッピングの初期同期が必要です。 Dataverse は、初期の同期のための主要なソースです。 |
 | プロジェクト タスク (msdyn_projecttasks) | 1.0.0.4 | プロビジョニングには必須ではありません。 |
 | プロジェクト トランザクション カテゴリ (msdyn_transactioncategories) | 1.0.0.0 | プロビジョニングには必須ではありません。 |
-| プロジェクト V2 (msdyn_projects) | 1.0.0.1 | プロビジョニングには必須ではありません。 |
+| プロジェクト V2 (msdyn_projects) | 1.0.0.2 | プロビジョニングには必須ではありません。 |
 
 リストされたマッピングを実行するには、次の手順を実行します。
 
 1. **all companies (bookableresourcecategories)** テーブル マッピングのプロジェクト リソース ロールを有効にします。**初期同期のマスター** フィールドで **Common data service** を選択します。 
 
- ![リソース ロールテーブル マッピングの同期](media/6ResourceInitialSync.jpg)
+ ![リソース ロールテーブル マッピングの同期。](media/6ResourceInitialSync.jpg)
 
  マッピングの状態が **実行中** になるまで待機してから次のステップに進みます。
 

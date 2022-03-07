@@ -1,26 +1,24 @@
 ---
-title: 見積もり請求の確認 (ライト)
-description: このトピックでは、Project Operations で見積送り状を確認する方法について解説します。
+title: プロジェクトの見積もり請求の確認
+description: このトピックは、Project Operations における見積もりプロジェクト請求書の確認に関する情報を提供します。
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 02b671e4ad327b2448529d7119211613f3a9cb27
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 37efb4923cbf9696ff85dfcd6dee9aac6badd68ed74a515e5ea5598aacfa3a83
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176527"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992977"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>見積もり請求の確認 (ライト)
+# <a name="confirm-a-proforma-project-invoice"></a>プロジェクトの見積もり請求の確認 
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 
-見積送り状が確認されると、プロジェクト請求書の状態は **確認済み** に更新されます。 請求書が確認されると、読み取り専用になります。 今後、請求書の訂正は、顧客が開始した訂正やクレジットがある場合、または請求書が支払い済みとマークされている場合にのみ修正することができます。
+見積送り状が確認されると、プロジェクト請求書の状態は **確認済み** に更新されます。 請求書が確認されると、読み取り専用になります。 今後、請求書は、顧客が開始した修正または与信がある場合にのみ修正できます。
 
 次の表は、システムがで作成した実績を表示しています。 これらの実績は、プロジェクトの請求書のドラフトが確定する前に、プロジェクトの請求書案に対して一定の操作を行った場合に作成されます。
 
@@ -231,6 +229,70 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
+ドラフト請求書を編集しない材料トランザクションの請求。
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+元の材料用途承認の数量と金額に対する未請求の販売取消。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+元の材料用途承認の数量と金額に対する請求済みの販売実績。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+数量を減らすために編集された材料トランザクションの請求。
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+元の時間承認の数量と金額に対する未請求の販売取消。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+編集された請求書ライン詳細上の数量と金額に応じて課金される新たな未請求売上実績、未請求売上実績の戻し処理、および同等の請求売上実績。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+残りの数量に課金されない新規未課金販売実績と、編集した請求書の明細書に記載されている修正後の数値を差し引いた金額、未請求売上高実績の取崩し、およびそれに準ずる請求売上高実績の計上値。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+数量を増やすために編集された材料トランザクションの請求。
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+元の材料用途承認の数量と金額に対する未請求の販売取消。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+編集された請求書ライン詳細上の数量と金額に応じて課金される新たな未請求売上実績、未請求売上実績の戻し処理、および同等の請求売上実績。
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
 料金の請求。
                 </p>
             </td>
@@ -273,3 +335,6 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

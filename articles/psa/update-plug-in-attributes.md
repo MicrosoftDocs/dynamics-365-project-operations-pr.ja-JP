@@ -2,11 +2,9 @@
 title: プラグインの属性を更新して新しい価格ディメンションを含める
 description: このトピックでは、価格ディメンションのプラグイン属性の更新について説明します。
 author: Rumant
-manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147074"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988792"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>プラグインの属性を更新して新しい価格ディメンションを含める
 
@@ -44,27 +42,30 @@ ms.locfileid: "5147074"
 1. **PluginRegistrationTool** 開いて、オンライン インスタンスに接続します。
 2. **検索** をクリックし、更新するプラグインを検索します。
 
- ![検索ツリーのスクリーンショット](media/PRT-1.png)
+ ![検索ツリーのスクリーンショット。](media/PRT-1.png)
 
 3. プラグインが見つかったらそれを選択し、**メイン フォームの選択** をクリックします。
 
 4. 更新すべきプラグインのステップを選んで右クリックし、**更新** を選択します。
 
- ![更新するプラグインのスクリーンショット](media/PRT-2.png)
+ ![更新するプラグインのスクリーンショット。](media/PRT-2.png)
  
 5. [更新] ウィンドウで、フィルター属性の省略記号 (**...**) をクリックします。
 
- ![既存のステップ構成情報を更新するときのスクリーンショット](media/PRT-3.png)
+ ![既存のステップ構成情報を更新するときのスクリーンショット。](media/PRT-3.png)
  
 6. 価格属性チェック ボックスをオンにします。
 
- ![価格属性のチェック ボックスの選択が表示されたスクリーン ショット](media/PRT-4.png)
+ ![価格属性のチェックボックスの選択が表示されたスクリーン ショット。](media/PRT-4.png)
 
 7. **OK** をクリックして ページを閉じ、 **ステップの更新** を選択します。
 
- ![「手順の更新」 ボタンを示すスクリーン ショット](media/PRT-5.png)
+ ![[手順の更新] ボタンを示すスクリーン ショット。](media/PRT-5.png)
  
 8. この第 2 プラグイン、 **PreOperationQuoteLineDetail - msdyn_quotelinetransaction の更新** のプロセスを繰り返します。
 
 9. プラグイン登録ツールを閉じます。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

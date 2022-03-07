@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
+ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009222"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6433659"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>新機能 2021 年 7 月 - Project Operations ライトのデプロイ
 
@@ -20,7 +20,7 @@ _適用対象: ライト展開 - 見積もり請求の取引_
 
 このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
 
-  - Dataverse 環境バージョン 4.12.0.148 または 4.12.0.152 の Project Operations。
+  - Dataverse 環境バージョン 4.12.0.148 での Project Operations。
 
 ## <a name="quality-updates"></a>品質更新プログラム
 | **機能**              | **照合番号** | **品質更新プログラム**                                                                                                                                                                                             |
@@ -59,4 +59,3 @@ _適用対象: ライト展開 - 見積もり請求の取引_
 | 全般                       | 2296857              | 長時間実行されるジョブの進行状況の追跡。                                                                                                                                                                        |
 | 全般                       | 2253682              | 二重書き込みオーケストレーション ソリューションのない環境に二重書き込みコアがインストールされている場合、Project Operations の二重書き込みソリューションをインストールしてはいけません。                                                |
 | 全般                       | 2316420              | アプリケーション ユーザーの部署が変更されると、Project service のコア プロビジョニングが失敗する。                                                                                                                     |
-| 全般                       | 2376405              | 発行者主導の更新に関する問題を修正しました (品質の更新はバージョン 4.12.0.152 で利用可能です)                                                                                                                     |

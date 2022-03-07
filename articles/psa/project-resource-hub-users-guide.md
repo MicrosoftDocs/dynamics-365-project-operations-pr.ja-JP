@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 1c52a17d791b5656f13535077e4300b331db71b5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948154"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123159"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Project Resource ハブのユーザー ガイド
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -48,7 +46,7 @@ Project Resource ハブ アプリでは、外出先で作業しているプロ�
 ## <a name="install-the-mobile-app"></a>モバイル アプリのインストール
 プロジェクト リソース ハブ アプリを使い始める前に、モバイル アプリをデバイスにインストールする必要があります。 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [電話用およびタブレット PC 用の Dynamics 365 のインストール](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)。
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [電話用およびタブレット PC 用の Dynamics 365 のインストール](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)。
 
 ## <a name="basic-navigation"></a>基本的なナビゲーション
 1.  モバイル アプリにサインインすると、MyApps ページにアクセスできるアプリのリストが表示されます。 
@@ -99,12 +97,9 @@ Project Resource ハブ アプリでは、外出先で作業しているプロ�
 5. 週の経費の入力を続けます。 入力を完了し、すべてが正しく思えたら、**送信** をタップします。 管理者は経費を確認して承認します。
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>モバイル アプリの使用方法に関する一般情報 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [モバイル基本ガイド](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [モバイル基本ガイド](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>関連項目  
  [Project Service の概要](../psa/overview.md)   
  [時間、経費、および共同作業ガイド](../psa/time-expense-collaboration-guide.md)   
  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

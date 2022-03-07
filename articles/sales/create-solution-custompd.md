@@ -2,18 +2,16 @@
 title: カスタム価格ディメンションのソリューションを作成する
 description: このトピックでは、カスタム価格ディメンションに対するソリューションの作成方法を説明します。
 author: Rumant
-manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 441501dff23d16960381b3f9fb4b2cceba2b3ba5
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4513997"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992212"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>カスタム価格ディメンションのソリューションを作成する
 
@@ -28,7 +26,7 @@ ms.locfileid: "4513997"
 2.  ソリューションに *<your organization name> 価格ディメンション* と名前を付けます。
 3. その他の必要情報を入力し、 **保存** を選択します。
 
-  ![カスタム価格ディメンション ソリューションを作成する](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![カスタム価格ディメンション ソリューションを作成する。](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## <a name="add-all-required-entities-and-related-components-to-the-pricing-dimension-solution"></a>価格設定ディメンション ソリューションにすべての必須エンティティと、関連するコンポーネントを追加する
 
@@ -49,18 +47,21 @@ ms.locfileid: "4513997"
    - **見積依頼明細行の詳細**
    - **ロール価格利幅**
    - **ロール価格**
-   - **時間入力**
+   - **時間エントリ**
  
-   ![既存のエンティティのカスタム価格ディメンション ソリューションを追加する](./media/Existing-entities-to-PD-solution.png)
+   ![既存のエンティティのカスタム価格ディメンション ソリューションを追加する。](./media/Existing-entities-to-PD-solution.png)
  
  4. 各エンティティについて、追加するコンポーネントと各エンティティに対するエンティティ資産の最終一覧を確認します。 
 
    >[!NOTE]
    > 選択した各エンティティに対してフォームとビューをすべて含めます。
 
-  ![追加したエンティティ](./media/solution-component-selection.png)
+  ![追加したエンティティ。](./media/solution-component-selection.png)
 
 
 5.  選択したエンティティに依存エンティティを含めるようプロンプトが表示されたら **いいえ、必須コンポーネントを含めません** を選択します。
 
-    ![依存エンティティを含める](./media/Do-not-include-required.png)
+    ![依存エンティティを含める。](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

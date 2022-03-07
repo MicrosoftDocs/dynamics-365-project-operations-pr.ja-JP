@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5b1b88596ddac48ab8adce00c25c3ccd83cdd727
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663645"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277569"
 ---
-# <a name="header-details-for-project-based-quotes"></a>プロジェクトベースの見積もりのヘッダーの詳細
+# <a name="project-quote-settings"></a>プロジェクト見積もりの設定
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 

@@ -17,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2c50d6bdc033836e1259a2fd12b78015280d8093
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 2d5e8c629f8108ed039948ca70842c9d8afebfa6
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150629"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948694"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-28-v3"></a>Project Service Automation 更新プログラム リリース 28、V3 の新機能と変更点
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution) を参照してください。
+Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](/power-platform/admin/install-remove-preferred-solution) を参照してください。
 
 このトピックでは、Project Service Automation V3、更新プログラム リリース 28 で新規または変更された機能と修正の一覧を示します。このバージョンのビルド番号は V3.10.46.32 で、2021 年 1 月に自己更新で一般提供されます。
 
@@ -55,3 +55,6 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 - **GetEstimatesForProject** プラグインが呼び出されると、null 参照例外が生成されます。
 - マイルストーン グリッドの **請求準備完了としてマーク** は、**InvoiceStatus** 属性 (更新済み) 以外の属性を部分的にのみ更新します。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: プロジェクトベースの営業案件の管理
 description: このトピックでは、プロジェクトに関連する営業案件を処理する方法について説明します。
 author: rumant
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ce9ad1458d338d63469c3d6fddb98b9cbbced31
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: d640bda1f325c283e591eb8d1a100d4e6b09d76ae847833e9664c3631eabd154
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948426"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991897"
 ---
 # <a name="manage-project-based-opportunities"></a>プロジェクトベースの営業案件の管理
 

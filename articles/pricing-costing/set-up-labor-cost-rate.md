@@ -2,18 +2,16 @@
 title: 労働コスト レートを設定する
 description: このトピックでは、Project Operations で労働のコスト レートを設定する方法について説明します
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 697129b65f53359615ea537fe135d657748dd909
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 2c41bab8626087e3cadc075b02011ef974b5eecb16e83ed67f78f4e020a83dd8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180603"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986182"
 ---
 # <a name="set-up-labor-cost-rates"></a>労働コスト レートを設定する
 
@@ -40,7 +38,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ## <a name="transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity"></a>自分の部門または法人外のリソースの価格とコストを移転する
 
-プロジェクトベースの会社は、さまざまな法人や部門の従業員を使用してプロジェクトに取り組むことは一般的です。 プロジェクトは特定の法人や部門から実行できますが、プロジェクトに取り組む従業員またはコンサルタントは同じ法人および部門から、または別の法人から来ることができます。 Dynamics 365 Project Operations では、プロジェクトの配信を所有する法人は、**所有会社** と呼ばれ、配信を所有する部門は、**契約単位** と呼ばれます。 リソースを提供する他のすべての法人は **リソース会社** で、リソースを提供する部門は **リソース単位** です。 ほとんどの国では、企業は、リソースの使用について、リソースの法人または部門が所有会社と契約ユニットに請求することを保証する必要があります。
+プロジェクトベースの会社は、さまざまな法人や部門の従業員を使用してプロジェクトに取り組むことは一般的です。 プロジェクトは特定の法人や部門から実行できますが、プロジェクトに取り組む従業員またはコンサルタントは同じ法人および部門から、または別の法人から来ることができます。 Dynamics 365 Project Operations で、プロジェクトの提供を所有する法人は **所有会社** であり、提供を所有する部門は **契約ユニット** です。 リソースを提供する他のすべての法人は **リソース会社** で、リソースを提供する部門は **リソース単位** です。 ほとんどの国では、企業は、リソースの使用について、リソースの法人または部門が所有会社と契約ユニットに請求することを保証する必要があります。
 
 たとえば、Fabrikam 社は、Fabrikam インド-ロボティックスが Fabrikam 米国-ロボティックスまたは Fabrikam 英国-ロボティックスと交渉済みのコスト価格カードを持っていることを確認する必要があります。
 
@@ -84,3 +82,6 @@ Fabrikam 英国-ロボティックスのコスト価格表では、コスト レ
 | Developer | Fabrikam 英国 | 115 英国ポンド |
 
 コスト価格表は、複数の通貨で労働賃金を提供できます。 プロジェクトのコスト見積もりを生成するとき、Project Operations はこれらのコスト レートをプロジェクト通貨に変換し、ユーザーに表示します。 時間入力が承認され、実際のコストが作成されると、実際残すとは、コストリストの一致するロール価格ラインの通貨で価格設定されます。 1 つのプロジェクトの時間の実際のコストは、複数の通貨で記録できます。 ただし、プロジェクト レベルで実際の人件費をロールアップまたは要約する場合、Project Operations は、すべての人件費の金額を、ユーザーが表示できるプロジェクト通貨に変換します。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

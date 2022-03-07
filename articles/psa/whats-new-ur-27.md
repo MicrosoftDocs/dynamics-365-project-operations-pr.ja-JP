@@ -17,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7f05b082e7c67937c78c82dcd9e094ee3b989e94
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 6b9da3ec54ec10408774945d26db9e702c858d05
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948515"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146669"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-27-v3"></a>Project Service Automation 更新プログラム リリース 27、V3 の新機能と変更点
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](/power-platform/admin/install-remove-preferred-solution) を参照してください。
+Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution) を参照してください。
 
 このトピックには、Project Service Automation V3 更新プログラム 27 の新機能または変更された機能と修正をリスト化しています。 このバージョンのビルド番号は V3.10.45.98 であり、一般的には 2021 年1月 の自己プログラム更新の処理を通じて入手できます。
 
@@ -81,6 +81,3 @@ Dynamics 365 の Project Service Automation アプリケーションの最新の
 - Dynamics 365 Field Service と Project Service Automationの 両方がインストールされている場合、**請求書** ページに **価格のロック** と **現在の値付けを​​使用** オプションが同時に表示されません。
 - 日本語の場合、他のカレンダー ベースのページとの翻訳に一貫性がありません。
 - **アクティブ化** と **非アクティブ化** が、Project Service Automation の **価格表の関連付け** エンティティから削除されました。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

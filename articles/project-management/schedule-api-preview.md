@@ -1,29 +1,30 @@
 ---
-title: プロジェクト スケジュール API を使用して、スケジュール エンティティで操作を実行する
-description: このトピックでは、プロジェクト スケジュール API を使用するための情報と使用例について解説します。
+title: スケジュール API を使用して、スケジューリング エンティティで操作を実行する
+description: このトピックは、スケジュール API を使用するための情報とサンプルを提供します。
 author: sigitac
-ms.date: 09/09/2021
+ms.date: 04/27/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487691"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116803"
 ---
-# <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>プロジェクト スケジュール API を使用して、スケジュール エンティティで操作を実行する
+# <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>スケジュール API を使用して、スケジューリング エンティティで操作を実行する
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-
+> [!IMPORTANT] 
+> このトピックに記載されている機能の一部または全部は、プレビュー リリースの一部として提供されています。 コンテンツおよび機能は変更される場合があります。 
 
 ## <a name="scheduling-entities"></a>スケジューリング エンティティ
 
-プロジェクト スケジュール API では、**スケジュール エンティティ** を使用した作成、更新、削除操作を実行する機能を提供します。 これらのエンティティは、Project for the Web のスケジューリング エンジンを介して管理されます。 **スケジューリング エンティティ** を使用した操作の作成、更新、および削除は、過去の Dynamics 365 Project Operations リリースに限定されていました。
+スケジュール API は、**スケジューリング エンティティ** を使って操作を作成、更新、および削除を実行する機能を提供します。。 これらのエンティティは、Project for the Web のスケジューリング エンジンを介して管理されます。 **スケジューリング エンティティ** を使用した操作の作成、更新、および削除は、過去の Dynamics 365 Project Operations リリースに限定されていました。
 
-次の表に、プロジェクト スケジュール エンティティの全リストを示します。
+次の表は、**スケジューリング エンティティ** の完全なリストです。
 
 | エンティティ名  | エンティティの論理名 |
 | --- | --- |
@@ -38,19 +39,19 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 OperationSet は、スケジュールに影響を与える複数の要求をトランザクション内で処理する必要がある場合に使用できる作業単位パターンです。
 
-## <a name="project-schedule-apis"></a>プロジェクト スケジュール API
+## <a name="schedule-apis"></a>スケジュール API
 
-以下は、現在のプロジェクト スケジュール API のリストです。
+以下は、現在のスケジュール API のリストです。
 
 - **msdyn_CreateProjectV1**: この API を使用してプロジェクトを作成できます。 プロジェクトとデフォルトのプロジェクト バケットがすぐに作成されます。
 - **msdyn_CreateTeamMemberV1**: この API を使用して、プロジェクト チーム メンバーを作成できます。 チーム メンバーのレコードはすぐに作成されます。
 - **msdyn_CreateOperationSetV1**: この API を使用して、トランザクション内で実行する必要のあるいくつかの要求をスケジュールできます。
-- **msdyn_PSSCreateV1**: この API を使用してエンティティを作成できます。 エンティティは、作成操作をサポートするプロジェクト スケジュール エンティティのいずれかとなります。
-- **msdyn_PSSUpdateV1**: この API を使用してエンティティを更新できます。 エンティティは、更新操作をサポートするプロジェクト スケジュール エンティティのいずれかとなります。
-- **msdyn_PSSDeleteV1**: この API を使用してエンティティを削除できます。 エンティティには、削除操作をサポートするプロジェクト スケジュール エンティティのいずれかを指定できます。
+- **msdyn_PSSCreateV1**: この API を使用してエンティティを作成できます。 エンティティは、作成操作をサポートする任意のスケジューリング エンティティにできます。
+- **msdyn_PSSUpdateV1**: この API を使用してエンティティを更新できます。 エンティティは、更新操作をサポートする任意のスケジューリング エンティティにできます。
+- **msdyn_PSSDeleteV1**: この API を使用してエンティティを削除できます。 エンティティは、削除操作をサポートする任意のスケジューリング エンティティにできます。
 - **msdyn_ExecuteOperationSetV1**: この API は、指定された操作セット内のすべての操作を実行するために使用されます。
 
-## <a name="using-project-schedule-apis-with-operationset"></a>OperationSet でプロジェクト スケジュール API を使用する
+## <a name="using-schedule-apis-with-operationset"></a>OperationSet と ScheduleAPI の併用
 
 **CreateProjectV1** と **CreateTeamMemberV1** 両方があるレコードは直ちに作成されるため、これらの API は **OperationSet** で直接使用できません。 ただし、API を使用して必要なレコードを作成し、**OperationSet** を作成し、これらの事前に作成されたレコードを **OperationSet** で使用できます。
 
@@ -256,7 +257,7 @@ ID プロパティは省略可能です。 提供されている場合、シス�
 ## <a name="limitations-and-known-issues"></a>制限事項と既知の問題
 以下は、制限事項と既知の問題のリストです。
 
-- プロジェクト スケジュール API は、**Microsoft Project のライセンスを持つユーザー** のみが使用できます。 次のユーザーは使用できません:
+- スケジュール API は、**Microsoft Project ライセンスを持つユーザー** のみが使用できます。 次のユーザーは使用できません:
     - アプリケーション ユーザー
     - システム ユーザー
     - 統合ユーザー
@@ -270,7 +271,7 @@ ID プロパティは省略可能です。 提供されている場合、シス�
 ## <a name="error-handling"></a>エラー処理
 
    - 操作セットから生成されたエラーを確認するには、**設定** \> **スケジュールの統合** \> **操作セット** にアクセスしてください。
-   - プロジェクト スケジュール サービスから生成されたエラーを確認するには、**設定**\>**スケジュールの統合**\>**PSS エラーログ** にアクセスしてください。
+   - Project Scheduling Service で生成されたエラーを確認するには、**設定** \> **スケジュールの統合** \> **PSS エラーログ** にアクセスしてください。
 
 ## <a name="sample-scenario"></a>シナリオ例
 

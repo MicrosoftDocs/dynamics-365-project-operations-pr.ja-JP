@@ -3,7 +3,7 @@ title: 実績の記録
 description: このトピックでは、アクションの記録方法に関する情報を提供します。
 author: rumant
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e417a24d5291fa88dee6583f11439eac0a44a574
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a7b5af20081ca3978810ef559160a86b64f7cc03
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145724"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079264"
 ---
 # <a name="recording-actuals"></a>実績の記録 
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 

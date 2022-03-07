@@ -2,18 +2,16 @@
 title: 労働の請求賃金を設定する
 description: このトピックでは、Project Operations で労働の請求賃金見積もりを設定する方法について説明します。
 author: rumant
-manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: 0fee2c98713f4d1f8da85a0b60fb3fc2a873e5f82a64cf350ebeb68fe65fab35
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877406"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003552"
 ---
 # <a name="set-up-labor-bill-rates"></a>労務の請求レートを設定する
 

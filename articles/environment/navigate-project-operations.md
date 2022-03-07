@@ -8,20 +8,18 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 92a9c4e62165f3e26ccb03c7af61f483c6744cc5
+ms.sourcegitcommit: 627d42e2a318dfc9564a4b803ada157682d4a0db
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642054"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4174271"
 ---
 # <a name="navigate-project-operations"></a>Project Operations のナビゲート
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-リソース/非在庫のシナリオで Dynamics 365 Project Operations は次の 2 つのコンポーネントで構成されます: 
+リソース/非在庫のシナリオ向け Dynamics 365 Project Operations は、次の 2 つのコンポーネントで構成されます: 
 
  - **Common Data Service (CDS) 環境での Project Operations**: このコンポーネントは、営業案件から見積もり請求までの機能とプロセスをカバーします。 
  - **Dynamics 365 Finance 環境でのプロジェクト管理および会計**: このコンポーネントは、経費管理機能、プロジェクト会計、および収益認識をカバーします。 

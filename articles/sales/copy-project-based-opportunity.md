@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1808469a34e05eb926f13c62ec634e8273b0e33c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181664"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278559"
 ---
 # <a name="copy-project-based-opportunities"></a>プロジェクトベースの営業案件をコピーする
 
@@ -34,3 +34,6 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
     | コピー価格 | 営業案件の価格設定がソース営業案件からコピーされるべきかどうかを示す [はい/いいえ] の値です。 | **はい** を選択すると、価格表がソースからターゲットの営業案件にコピーされます。 **いいえ** を選択した場合は、設定した最新の価格表を元に既定で価格表が設定されます。 |
 
 3. **OK** を選択します。 システムは、選択されたパラメータに基づいてプロジェクトの営業案件機会のコピーを作成し、新しいプロジェクトの営業案件を開きます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

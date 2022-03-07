@@ -2,11 +2,9 @@
 title: 経費管理の構成
 description: この記事では、Microsoft Dynamics 365 Finance で経費管理を構成する前の計画プロセスで考慮すべき事項と行う必要がある決定について説明します。
 author: KimANelson
-manager: AnnBe
 ms.date: 08/29/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74a8435464c8573ca831b7886f00c2695fd29827
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 52538946c7260fad4076a64e8dc34fecf08b90cf
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271359"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005392"
 ---
 # <a name="configure-expense-management"></a>経費管理の構成
 

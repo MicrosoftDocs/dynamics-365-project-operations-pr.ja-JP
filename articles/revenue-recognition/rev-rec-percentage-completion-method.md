@@ -2,18 +2,16 @@
 title: 固定価格売上見積もりプロジェクト
 description: このトピックは、プロジェクトの固定価格売上に関する情報を提供します。
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 80fe1d4171d80ca39e8b7ebb1eefaa524a4f2b07
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 639c6a104f2a90366a0f477c0d7cf384f19cdd81
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531474"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013807"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>固定価格売上見積もりプロジェクト 
 
@@ -35,3 +33,6 @@ Microsoft Dataverse の Dynamics 365 Project Operations で以下の属性を使
 
   プロジェクトのコスト、売上プロファイル、コスト テンプレート、期間コードを手動で設定できます。 手動で設定しない場合は、プロジェクトのコストと売上プロファイルに対して構成したルールを使用するプロジェクトの最初の見積もり計算時に、この値が既定になります。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

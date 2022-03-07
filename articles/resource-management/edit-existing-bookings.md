@@ -2,18 +2,16 @@
 title: 予約の編集
 description: このトピックは、予約を更新および変更する方法に関する情報を提供します。
 author: ruhercul
-manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841360"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008322"
 ---
 # <a name="edit-bookings"></a>予約の編集
 
@@ -33,3 +31,6 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 ## <a name="schedule-board"></a>スケジュール ボード
 
 **スケジュール ボード** から、リソース マネージャーは、組織全体のすべての予約のポートフォリオ ビューを利用できます。 リソース マネージャーは、このビューから、**予約の維持** で提供される機能と同様に、既存の予約を拡張、短縮、または移動できます。 リソース マネージャーは、予約を右クリックして **代替リソース** を選択することにより、特定の予約に割り当てられた既存のリソースを置き換えることもできます。 リソース マネージャーは、予約を右クリックして **編集** を選択することにより、既存の予約コントーを編集することもできます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

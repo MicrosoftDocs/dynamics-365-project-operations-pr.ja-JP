@@ -1,29 +1,29 @@
 ---
-title: プロジェクト契約の設定 - Lite
+title: プロジェクト契約のフィールドと情報
 description: このトピックでは、契約品目に影響を与えるフィールドと、すべての品目にわたって要約される契約に関する情報について説明します。
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1eedd912bedc43b1d5e847c574b5f1d5233cd038
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 082292c54682022933a4b46b856f9241078a9067
+ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663915"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "4087981"
 ---
-# <a name="header-details-for-project-contracts"></a>プロジェクト契約のヘッダーの詳細
+# <a name="project-contract-fields-and-information"></a>プロジェクト契約のフィールドと情報 
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 このトピックでは、すべての契約品目に影響を与える設定を含む、プロジェクト契約全体に適用されるフィールドについて説明します。 プロジェクト契約の KPI を推進するために、すべての品目にわたって要約された契約に関する情報も含まれています。
 
-次の表には、Dynamics 365 Project Operations に固有のプロジェクト契約のフィールド、または Dynamics 365 Sales の受注からの動作にいくつかの重要な変更があるフィールドが表示されています。
+次の表に、Dynamics 365 Project Operations に固有のフィールド、または Dynamics 365 Sales の受注からの動作にいくつかの重要な変更があるプロジェクト契約のフィールドを表示します。
 
-| フィールド | 場所 | 内容 | 下位への影響 |
+| フィールド | 場所 | 関連性、目的、およびガイダンス | 下位への影響 |
 | --- | --- | --- | --- |
 | 型 | **概要** タブ (非表示) | これは、次のオプションを持つオプション セット フィールドです:</br>- **作業ベース** (Project Operations がインストールされている場合にのみ使用可能)</br>- **品目ベース** (Project Operations および Sales がインストールされている場合にのみ使用可能)</br>- **サービス管理ベース** (Dynamics 365 Field Service がインストールされている場合に使用可能) | Project Operations では、このフィールドの値は既定で **作業ベース** になり、契約をプロジェクトベースの契約として分類します。 すべてのプロジェクト固有の拡張機能と機能を有効にするには、契約をプロジェクトベースにする必要があります。 |
 | 見込み顧客 | **概要** タブ | 顧客の会社または取引先企業レコードへの参照。 見積もりから契約が作成されると、このフィールドは見積もりレコードの対応するフィールドからコピーされます。 | プロジェクト契約の通貨は、顧客の通貨に基づいて既定設定されます。 これは契約の保存前に変更できます。 |
@@ -36,7 +36,7 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 次の KPI は、プロジェクト契約の **契約履行** タブで利用できます。
 
-| フィールド | 場所 | 内容 |
+| フィールド | 場所 | 関連性、目的、およびガイダンス |
 | --- | --- | --- |
 | 契約価値 | 契約全体 | プロジェクト契約の総額。 |
 | 請求金額 | 契約全体 | この契約に対するすべての請求書の合計金額。 |
@@ -57,6 +57,3 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 | 発生したコスト | 製品ベースの明細行 | 製品ベースの契約品目について記録されているすべての実際のコストの合計。 |
 | 粗利 | プロジェクトベースの明細行 | 請求金額 - これまでの発生コスト / 請求金額 |
 | 利益率見込み | 製品ベースの明細行 | (契約品目の値 - 契約品目の見積もりコスト) / 契約品目の値 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

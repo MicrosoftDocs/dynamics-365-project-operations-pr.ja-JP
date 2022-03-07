@@ -3,7 +3,7 @@ title: 作業分解構造でプロジェクトをスケジュールする
 description: Project Service での WBS (作業分解構造) でプロジェクトをスケジュールする方法
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cf12cc3bcf061e1daffafb248cfd76809c6444ec
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149819"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079450"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>WBS (作業分解構造) でプロジェクトをスケジュールする (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

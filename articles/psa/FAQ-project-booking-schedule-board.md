@@ -2,6 +2,8 @@
 title: スケジュール ボードからプロジェクトの予約を作成する
 description: このトピックでは、スケジュールボードからプロジェクトの予約を作成する方法についての情報を提供します。
 author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992972"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079285"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>スケジュール ボードからプロジェクトの予約を作成する
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 プロジェクトにリソースを登録するには、プロジェクトの **チーム** タブから直接登録するか、汎用的なチームメンバーの割当てからリソース要件を生成し、生成された要件をプロジェクトチームメンバーとともに満たしている必要があります。
 
@@ -89,6 +89,3 @@ Project Service でプロジェクトを作成すると、自動的にプライ�
 
 4. これでリソースが予約されました。タスクは手動で割り当てる必要があります。
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

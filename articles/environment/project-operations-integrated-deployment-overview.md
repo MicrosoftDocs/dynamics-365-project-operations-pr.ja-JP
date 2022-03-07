@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 770947835af41bd06c02ca08b6ed8e810b9bdcf8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365524"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289960"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>リソース/非在庫ベース シナリオ展開の概要向け Project Operations
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-展開の種類、リソース/非在庫ベースのシナリオ向け Dynamics 365 Project Operations には、プロジェクトベースの企業向けに次の機能があります:
+リソース/非在庫ベースのシナリオのための展開タイプ Dynamics 365 Project Operations には、プロジェクトベースの会社に向けに次の機能があります。
 
 - Web 向けの Microsoft Project を使用したプロジェクト計画
 - 労働力の多面的な価格設定と原価計算
@@ -43,3 +43,6 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 - プロジェクトの顧客向け請求書を生成するために、充実した、エンタープライズ クラスの消費税および為替レート エンジンが必要です。
 - 国際財務報告基準 (IFRS) に準拠したプロジェクト会計および収益認識システム。
 - Finance または Supply Chain Management アプリケーションとプロジェクトベース トランザクションの統合。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: プロジェクト契約の複数の顧客を管理する (ライト)
 description: このトピックでは、プロジェクトの契約品目で複数の顧客を管理することについて説明します。
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181323"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001752"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>プロジェクト契約の複数の顧客を管理する (ライト)
 
@@ -52,3 +50,6 @@ Dynamics 365 Project Operations のプロジェクト契約は、契約書に複
 請求分割率は、インライン グリッドの編集エクスペリエンスを使用して編集することができます。 請求分割率の合計が 100％ でない場合は、エラーが発生します。 課金分割率を編集した後、ページを更新してエラーを解消してください。
 
 また、**契約顧客** サブグリッドで **均等に分配する** を選択して、すべての契約顧客に均等に請求分割を割り当てることもできます。 丸め処理の係数がある場合は、丸め顧客に追加されます。 契約顧客の 1 つは常に **丸め込み** 顧客としてタグ付けされており、これは契約顧客レコードに丸め込みフラグが **はい** に設定されていることを意味します。 一般的には、これが契約の主要な顧客となりますが、変更することもできます。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

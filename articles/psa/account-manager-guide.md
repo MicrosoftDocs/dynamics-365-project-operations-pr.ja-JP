@@ -2,8 +2,6 @@
 title: 取引先企業管理者ガイド
 description: プロジェクト ベースの取引先企業に対する営業および契約プロセスを進める Project Service の取引先企業管理者のガイド
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/30/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b1908fdf012b470a2954191d4428a58241b33752
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 4792d3438216a850b0b4afdb38f26b85adb81960c5984217c76c9954ca36b884
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146085"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985822"
 ---
 # <a name="account-manager-guide-project-service"></a>取引先企業管理者ガイド (Project Service)
 
@@ -48,3 +46,6 @@ ms.locfileid: "5146085"
  [プロジェクト管理者ガイド](../psa/project-manager-guide.md)   
  [Resource Manager ガイド](../psa/resource-manager-guide.md)   
  [時間、経費、および共同作業ガイド](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

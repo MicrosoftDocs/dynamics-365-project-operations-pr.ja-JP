@@ -2,18 +2,16 @@
 title: WBS (作業分解構造) の作成
 description: このトピックは、新しいスケジューリング インターフェイスの基本コントロールを含む WBS (作業分解構造) を作成する方法を説明しています。
 author: ruhercul
-manager: tfehr
 ms.date: 01/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: ac3facacd95e5e677635cb037d0d3458da612410
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841361"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005707"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>WBS (作業分解構造) の作成
 
@@ -93,6 +91,8 @@ ms.locfileid: "4841361"
 | 件名 | タスクの名前。 |
 | ID | WBS (作業分解構造) のタスクの ID。 |
 
+管理者として、タスク エンティティでカスタム フィールドを定義できます。 ただし、フィールドをスケジュール グリッドに表示することはできません。 カスタム フィールドを表示するには、それらを **プロジェクト タスク** 詳細ページに追加します。
+
 ## <a name="staffing-attributes"></a>スタッフ属性
 
 スタッフの属性には、スケジュールの **リソース** フィールドからアクセスします。 既存のリソースを検索するか、 **作成** を選択して **簡易作成** ウィンドウで、新しいリソースとしてプロジェクト チーム メンバーを追加します。
@@ -116,3 +116,6 @@ Project Operations のスケジュールを使用して、タスク間に先行�
 ## <a name="accessibility-and-keyboard-shortcuts"></a>ユーザー補助およびキーボード ショートカット
 
 **スケジュール** グリッドは、完全にアクセスでき、ナレーター、JAWS、またはNVDAなどのスクリーン リーダーで使用できます。 矢印キー (Microsoft Excel のように) を使用してグリッド領域内を移動したり、 Tab キーを使用して対話型ユーザー インターフェイス要素間を移動したり、下方向キー、Enter キー、または Space キーを使用して、ドロップダウン メニューを開く選択して開くことができます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

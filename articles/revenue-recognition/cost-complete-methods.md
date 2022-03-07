@@ -2,18 +2,16 @@
 title: 完了までの原価の計算方法
 description: このトピックでは、プロジェクトの完了コストを計算する方法について情報を提供します。
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 790b5c98182acdc0a37e3741a40baf7152f0bf66
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: fe42ea0e1a5c562ec648fbf2a2924648af80381b9db8ffe0c209cb5247bb2ba2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531472"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997972"
 ---
 # <a name="cost-to-complete-methods"></a>完了までの原価の計算方法
 
@@ -30,3 +28,6 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | 以前の見積もりとして         | 前の期間に使用したものと同じ見積り方法を、ここで使用します。 前の期間に予測モデルが必要だった場合、このメソッドには予測モデルが必要です。                                                                                                                                                                                                                                                                                                                           |
 | 完了までのコストをゼロに設定 | 通常、見積もりプロジェクトの削除前に使用しますが、この方法は合計見積もりを転記済みの実際のトランザクションと照合して、**完了までの原価** 列をクリアします。 完了時の結果は常に 100% です。 作成する費用明細行ごとに、**見積もり** チェックボックスをクリアして、合計見積もりを以前のコスト見積もりからコピーします。 見積もり期間の実際の消費量は、プロジェクトを完了するまでのコストから差し引かれます。              |
 | コスト テンプレートから           | 選択した見積もりプロジェクトに関連付けられた、コスト テンプレートで設定した方法の完了に必要なコスト。                                                                                                                                                                                                                                                                                                                                                                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

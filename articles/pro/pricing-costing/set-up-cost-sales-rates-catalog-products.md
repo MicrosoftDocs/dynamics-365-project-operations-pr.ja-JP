@@ -2,19 +2,17 @@
 title: カタログ製品の原価率と販売率を設定する - Lite
 description: このトピックは、製品カタログ内のアイテムのコストと販売率を設定する方法に関する情報を提供します。
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5e851193df8151821e112e01a9f33df5afee7df7
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: bfb28e710c7b6da17d94679a72659f81df7a58e376e4bad94b58c36de781b197
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764560"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996037"
 ---
 # <a name="set-up-cost-and-sales-rates-for-catalog-products---lite"></a>カタログ製品の原価率と販売率を設定する - Lite
 
@@ -26,3 +24,6 @@ Dynamics 365 Project Operations で製品カタログ アイテムの価格設�
 Project Operations では、製品を見積もったりプロジェクトで使用したりすることはできないため、見積もりや契約のために製品カタログの価格をプロジェクトの価格表に設定する必要はありません。
 
 見積もり、契約の **製品価格** フィールドを使うか、製品カタログの価格を設定します。 プロジェクト価格表に製品カタログの価格を設定しないでください。 プロジェクトの価格表は、Project Operations 専用です。 アプリケーション固有のビジネス ロジックは、価格表を見積もりから契約にコピーします。 この結果は、契約に固有のプロジェクトの価格表です。 見積もりのプロジェクト価格表が大きくなりすぎると、コピー操作によって見積もりの受注プロセスが遅れる可能性があります。 製品の価格表は、契約のカスタム価格表を作成するためにコピーされません。 コピーが含まれないため、見積もりプロセスのパフォーマンスに影響はありません。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

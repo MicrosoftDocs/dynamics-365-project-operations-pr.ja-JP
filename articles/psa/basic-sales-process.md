@@ -2,8 +2,6 @@
 title: 営業のプロセス
 description: このトピックでは、営業プロセスの新機能に関する情報を提供します。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2561a54af6bdb9764a318f012fdc53f7b3298893
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5f01ba14baa0a2378b0a230a46aed3a682342ce6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145184"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014212"
 ---
 # <a name="sales-processes"></a>営業のプロセス
 
@@ -93,3 +91,6 @@ PSAでは、見積もりに対するリビジョンを追跡することがで�
 
 ## <a name="tracking-comments-and-approvals-of-quotes-and-project-contracts"></a>見積およびプロジェクト契約の注釈と承認の追跡
 レコードウォールとポストを使用して、見積とプロジェクト契約のレビューと承認を管理することができます。 カスタムワークフローとプラグインを作成して、レビューおよび承認作業項目に対する通知の割り当て、リダイレクト、エスカレーション、および管理を行うことができます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

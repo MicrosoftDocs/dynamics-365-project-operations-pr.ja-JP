@@ -2,18 +2,16 @@
 title: 営業案件からプロジェクトの見積もりを作成する
 description: このトピックは、営業案件からプロジェクトの見積もりを作成するための情報を提供します。
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118119"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999637"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>営業案件からプロジェクトの見積もりを作成する
 
@@ -56,3 +54,6 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
    営業案件をこのステージに移動すると、この営業案件に関連付けられている見積もりのリストから、この見積もりを選択できます。 この見積もりを選択すると、それで進めていることを示します。
 
    営業案件に関連する他のすべての見積もりは、いずれかが勝つまで引き続き利用可能でアクティブです。 販売プロセスを前のステージ **見積もり** に戻すことができ、先に進むために別の見積もりを選択します。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

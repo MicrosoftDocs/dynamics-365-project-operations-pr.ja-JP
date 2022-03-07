@@ -2,18 +2,16 @@
 title: 期間タイプ
 description: このトピックでは、売上見積もりに対する期間タイプを設定する方法について説明します。
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6bcd988fbd074c66d64f7e327b4329d3de27e950
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531473"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998782"
 ---
 # <a name="period-types"></a>期間タイプ
 
@@ -34,3 +32,6 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 4. 期間タイプ レコードを選択してから **期間の生成** を選択して期間タイプの期間を作成します。 選択した期間頻度に基づいて、開始日や生成する期間の数を指定するオプションを利用できる場合があります。
 5. **期間** を選択して生成した期間を確認します。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

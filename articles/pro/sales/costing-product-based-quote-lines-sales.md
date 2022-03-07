@@ -2,25 +2,23 @@
 title: 製品原価計算ベースの見積依頼明細行
 description: このトピックでは、製品ベースの見積依頼明細行への原価価格の適用について説明します。
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d21ab159294cac66ffeb8abcf0943b4babd7b360
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d9c03fa1a8f43cc110565efbafd7f5aba69f65f96bec7f15f2bd492123f639c7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118929"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001887"
 ---
 # <a name="costing-product-based-quote-lines"></a>製品原価計算ベースの見積依頼明細行
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
 
-Dynamics 365 Project Operations の製品ベースの見積依頼明細行にも **原価価格** フィールドがあります。 このフィールドは、見積依頼明細行で製品の原価価格を追跡し、下位の利益性の計算をするために使用されます。
+Dynamics 365 Project Operations の製品ベースの見積もり行にも **原価** フィールドがあります。 このフィールドは、見積依頼明細行で製品の原価価格を追跡し、下位の利益性の計算をするために使用されます。
 
 カタログ製品に対する製品ベースの見積依頼明細行が作成されると、製品ベースの見積依頼明細行の原価は、製品カタログの **標準のコスト** フィールドで規定値に設定されます。 製品カタログの標準のコスト フィールドは、組織の基本通貨で設定されます。 製品ベースの見積依頼明細行での既定の単位原価は、見積の販売通貨に変換されます。
 
@@ -33,3 +31,6 @@ Dynamics 365 Project Operations の製品ベースの見積依頼明細行にも
 Fabrikam Robotics は、A Datum Corporation のアセンブリ明細にロボット アームを設置しています。 Fabrikam は設置サービスを提供しますが、ロボット アームは Trey ロボティクスから調達されます。 A Datum Corporation にロボット アームを設置することで、Trey のロボット アームに新しい業界の垂直構造が開かれた場合、Trey はこの取引に対して Fabrikam に特別割引を提供することができます。
 
 この場合、Fabrikam は、Robotic Arms に対する製品ベースの見積依頼明細行を作成し、この見積もりの単位原価あたりの特別な値を入力します。 このコストは、Trey Robotic Arms の標準コストとは異なります。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

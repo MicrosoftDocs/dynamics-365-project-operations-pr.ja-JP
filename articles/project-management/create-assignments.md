@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 20eb3880b17fb1f765ad79bd720520b0c8004c0a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131754"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079181"
 ---
 # <a name="create-resource-assignments"></a>リソース割り当ての作成
 

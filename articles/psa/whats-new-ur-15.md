@@ -2,8 +2,6 @@
 title: Project Service Automation 更新プログラム リリース 15、V3 の新機能と変更点
 description: このトピックでは、Project Service Automation バージョン 15、V3 の新機能と変更点について説明します。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ec6746c0d3a1a03ee56440c73d044df844046f8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d052dd670ac31fae57a71cb71682da86a237b3487482a9548f3fb9e52516c407
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143969"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004452"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Project Service Automation 更新プログラム リリース 15、V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Dynamics 365 Project Service Automation (PSA) アプリケーションの最新のアップデートをお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースへと更新をするには、Dynamics 365 のオンラインの管理センターにアクセスし、ソリューション ページにアクセスして更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution) を参照してください。
+Dynamics 365 Project Service Automation (PSA) アプリケーションの最新のアップデートをお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースへと更新をするには、Dynamics 365 のオンラインの管理センターにアクセスし、ソリューション ページにアクセスして更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](/power-platform/admin/install-remove-preferred-solution) を参照してください。
 
 このトピックには、PSA V3 更新プログラム 15 の新機能または変更された機能と修正をリスト化しています。 このバージョンのビルド番号は V3.10.5.28 であり、一般的には 2020年1月 の自己プログラム更新の処理を通じて入手できます。
 
@@ -63,3 +61,6 @@ Dynamics 365 Project Service Automation (PSA) アプリケーションの最新�
   - 修正：1000 以上のプロジェクトがある場合に、 **見積行** フォームの **プロジェクト検索** のエラーメッセージが表示されなくなりました。
   - 修正：労働と経費の **見積り** グリッドに正しい通貨記号が表示されるようになりました。
   - 修正：PSA を 更新プログラム 14 から 更新プログラム 15に更新後、**プロジェクト** フォームの **スケジュール** タブが空白で表示されなくなりました。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

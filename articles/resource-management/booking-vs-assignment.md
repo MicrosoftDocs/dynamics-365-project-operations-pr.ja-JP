@@ -2,18 +2,16 @@
 title: 予約と割り当て
 description: このトピックでは、リソースの予約とリソースの割り当ての違いについて説明します。
 author: ruhercul
-manager: Annbe
 ms.date: 01/08/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 9e346766e6ccbb3dff59ef12072a1cd63f1e4231
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 1906ebd76f5fc66215aa5963242de13206a81668cb4973cccaf5b153514672d5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841178"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008457"
 ---
 # <a name="bookings-vs-assignments"></a>予約と割り当て
 
@@ -26,3 +24,6 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 通常、予約されたリソースの合計は、1 つまたは複数のタスクへのリソースの割り当ての合計と等しくなります。 ただし、 Project Operations ではこの一致を強制しません。 **調整** ビューでは、リソースの予約と割り当てが一致しない箇所をプロジェクト マネージャに表示します。
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

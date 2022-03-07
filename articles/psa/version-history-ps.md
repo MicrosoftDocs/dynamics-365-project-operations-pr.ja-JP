@@ -2,10 +2,9 @@
 title: Project Service 3.x のリリース スケジュールの更新
 description: このトピックでは、Dynamics 365 Project Service Automation の利用可能なリリースと今後のリリースについて説明します。
 ms.custom: dyn365-projectservice
-ms.date: 12/07/2020
+ms.date: 10/04/2021
 ms.reviewer: kfend
 ms.prod: ''
-ms.service: project-operations
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -15,7 +14,6 @@ author: kfend
 ms.assetid: ''
 caps.latest.revision: 42
 ms.author: rumant
-manager: annbe
 search.audienceType:
 - admin
 - customizer
@@ -24,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 05111b51d482493a8c8a1d9c9da44d6cd95fc8d2
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: e985fc4150044a0146aac752bdbad685c562a13c
+ms.sourcegitcommit: 97e5887ae5bad6c26aa1179b51c9b71c434ea8fe
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981389"
+ms.lasthandoff: 12/06/2021
+ms.locfileid: "7892191"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Project Service 3.x のリリース スケジュールの更新
 
@@ -37,38 +35,40 @@ ms.locfileid: "5981389"
 
 ## <a name="latest-version-availability"></a>最新バージョンの利用可能性
 
-| ソリューション   | 最新バージョン |
+| Solution  | 最新バージョン |
 |-------|----|
-| Project Service Automation    | 3.10.52.77 |
+| Project Service Automation    | 3.10.58.130 |
 | Project Service Automation デスクトップ アドイン                | 3.15          |
 
 Project Service の更新については、[Dynamics 365 リリース計画](/dynamics365/release-plans/) を参照してください。 
 
-| ステーション  | リージョン | 現在のバージョン | 次のバージョン |  スケジュールされた日付
+| ステーション  | リージョン | 現在のバージョン | 次のバージョン |  スケジュール日
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>ステーション 1</strong> | |  |  | |
-| | <i>最初のリリース</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021 年 5 月 28 日
+| | <i>最初のリリース</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 年 12 月 3 日
 |<strong>ステーション 2</strong> | |  |  | |
-| | <i>南米</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021 年 6 月 4 日
-| | <i>カナダ</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021 年 6 月 4 日
-| | <i>インド</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021 年 6 月 4 日
-| | <i>フランス</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021 年 6 月 4 日
-| | <i>アラブ首長国連邦</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021 年 6 月 4 日
-| | <i>南アフリカ</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021 年 6 月 4 日
-| | <i>ドイツ</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021 年 6 月 4 日
-| | <i>スイス</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | 2021 年 6 月 4 日
+| | <i>南米</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 年 12 月 10 日
+| | <i>カナダ</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 年 12 月 10 日
+| | <i>インド</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 年 12 月 10 日
+| | <i>フランス</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 年 12 月 10 日
+| | <i>南アフリカ</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 年 12 月 10 日
+| | <i>ドイツ</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 年 12 月 10 日
+| | <i>スイス</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 2021 年 12 月 10 日
 |<strong>ステーション 3</strong> | |  |  | |
-| | <i>日本</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021 年 5 月 7 日
-| | <i>アジア太平洋</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021 年 5 月 7 日
-| | <i>英国</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021 年 5 月 7 日
-| | <i>オセアニア</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021 年 5 月 7 日
+| | <i>日本</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021 年 12 月 17 日
+| | <i>アジア太平洋</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021 年 12 月 17 日
+| | <i>英国</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021 年 12 月 17 日
+| | <i>オセアニア</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021 年 12 月 17 日
+| | <i>アラブ首長国連邦</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2021 年 12 月 17 日
 |<strong>ステーション 4</strong> | |  |  | |
-| | <i>欧州</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021 年 5 月 14 日
+| | <i>欧州</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2022 年 1 月 7 日
 |<strong>ステーション 5</strong> | |  |  | |
-| | <i>北アメリカ</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021 年 5 月 21 日
+| | <i>北アメリカ</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2022 年 1 月 14 日
 |<strong>ステーション 6</strong> | |  |  | |
-| | <i>政府コミュニティ クラウド</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021 年 5 月 21 日
-| | <i>専用スケール グループ</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | 2021 年 5 月 28 日
+| | <i>政府コミュニティ クラウド</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | 2022 年 1 月 14 日
+| | <i>専用スケール グループ</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | 2021 年 12 月 10 日
+
+
 
 >[!Note]
 > - Government Community Cloud (GCC) を除くすべての地域の日付は、次の自動更新のタイミングを示します。 GCC の日付は、バージョンの可用性を示しています; 現時点では、これらの地域の自動更新はありません。

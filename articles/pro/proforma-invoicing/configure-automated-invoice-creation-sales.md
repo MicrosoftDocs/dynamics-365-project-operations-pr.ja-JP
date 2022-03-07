@@ -1,29 +1,27 @@
 ---
-title: 請求書自動作成の構成 (ライト)
-description: このトピックでは、見積送り状の自動作成について説明します。
+title: 請求書自動作成の設定
+description: このトピックは、見積もり請求の自動作成の設定と構成に関する情報を提供します。
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176572"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866823"
 ---
-# <a name="configure-automatic-invoice-creation---lite"></a>請求書自動作成の構成 (ライト)
+# <a name="set-up-automatic-invoice-creation"></a>請求書自動作成の設定 
  
-_**適用対象:** ライト展開 - 見積もり請求の取引_
+_**適用対象:** ライト展開 - 見積請求、リソース/非在庫ベースのシナリオ向けの Project Operations_
 
-Dynamics 365 Project Operations では請求書の自動作成を構成できます。 システムは、プロジェクトの契約書や契約品目ごとの請求書スケジュールに基づいて、見積送り状の下書きを作成します。 請求書のスケジュールは、契約品目レベルで構成されます。 契約の各行に個別の請求書スケジュールを含めることも、同じ請求書スケジュールを契約のすべての行に含めることもできます。
+Dynamics 365 Project Operations で請求書自動作成を構成することができます。 システムは、プロジェクト契約および契約品目ごとの請求スケジュールに基づいて、ドラフトの見積送り状を作成します。 請求スケジュールは、契約品目レベルで設定します。 契約の各品目に異なる請求スケジュールを設定するか、契約のすべての品目に同じ請求スケジュールを設定することができます。
 
-請求書を作成すると、システムは常にプロジェクト契約ごとに少なくとも 1 つの請求書を作成します。 場合によっては、複数の請求書が作成される場合があります。
-
-たとえば、複数の顧客が存在する契約であれば、そのプロジェクト契約で請求する請求可能なトランザクションを持つ顧客の数と同じ数の請求書が作成されます。
+請求書を作成すると、システムは常にプロジェクト契約ごとに少なくとも 1 つの請求書を作成します。 場合によっては、複数の請求書が作成される場合があります。 たとえば、複数の顧客が存在する契約であれば、そのプロジェクト契約で請求する請求可能なトランザクションを持つ顧客の数と同じ数の請求書が作成されます。
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>トランザクションがどのように請求書の含まれるかを理解する 
 
@@ -71,7 +69,7 @@ Dynamics 365 Project Operations では請求書の自動作成を構成できま
 1. **Project Operations** で、**設定** > **定期的な請求書の設定** に移動します。
 2. バッチ ジョブを作成して、 **Poject Operations 請求書の作成** と名前をつけます。 バッチ ジョブの名前には、「請求書の作成」という語句を含めてください。
 3. **ジョブの種類** フィールドで、 **なし** を選択します。 既定では、 **頻度 毎日** および **アクティブ** フィールドが **はい** に設定されています。
-4. **ワークフローの実行** を選択します。 **レコードの検索** ダイアログ ボックスで、 3 つのワークフローが表示されます:
+4. **ワークフローの実行** を選択します。 **レコードの検索** ダイアログ ボックスに、次の 3 つのワークフローが表示されます。
 
 - ProcessRunCaller
 - ProcessRunner
@@ -91,3 +89,6 @@ Dynamics 365 Project Operations では請求書の自動作成を構成できま
 
 > [!NOTE]
 > Project Operations の一括請求書発行は、請求書スケジュールによって構成されたプロジェクトの契約品目に対してのみ実行されます。 固定価格の請求方法の契約品目には、マイルストーンを構成する必要があります。 時間と材料の請求方法を持つプロジェクト契約品目には、日付ベースの請求スケジュールを設定する必要があります。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

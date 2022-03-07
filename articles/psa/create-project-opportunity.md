@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948200"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133239"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>プロジェクト営業案件の作成 (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -39,7 +37,7 @@ ms.locfileid: "5948200"
   
 3.  **概要** 領域で、営業案件の会社およびその他の情報を入力します。  
   
-4.  この潜在顧客に関連付けられているメモと活動 (たとえば、電話や電子メール) を追加します。 メモと活動の追加の詳細については、[活動に関するメモ、タスク、電話または電子メールの追跡](/dynamics365/customerengagement/on-premises/basics/work-with-activities) を参照してください。  
+4.  この潜在顧客に関連付けられているメモと活動 (たとえば、電話や電子メール) を追加します。 メモと活動の追加の詳細については、[活動に関するメモ、タスク、電話または電子メールの追跡](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities) を参照してください。  
   
 5.  関係者を追加するには、**関係者** 領域で、**+** をクリックします。  
   
@@ -55,6 +53,3 @@ ms.locfileid: "5948200"
   
 ### <a name="see-also"></a>関連項目  
  [取引先企業管理者ガイド](../psa/account-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

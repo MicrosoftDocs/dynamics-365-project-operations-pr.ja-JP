@@ -2,18 +2,17 @@
 title: プロジェクト見積依頼明細行の概要
 description: このトピックは、プロジェクト作業にからプロジェクトの見積依頼明細行を使用する方法に関する情報を提供します。
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fa48a90c275eae1b0c0dbce685ae718dd9674c88
-ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
+ms.custom: intro-internal
+ms.openlocfilehash: c585bbc55119e678a4f75f5dfe8966a436db1a34
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5858029"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6368077"
 ---
 # <a name="project-quote-lines-overview"></a>プロジェクト見積依頼明細行の概要
 

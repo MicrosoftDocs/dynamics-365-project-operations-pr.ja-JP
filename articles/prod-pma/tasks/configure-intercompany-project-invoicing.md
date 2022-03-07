@@ -2,9 +2,11 @@
 title: 会社間プロジェクト請求を構成する
 description: このトピックでは、組織内の 2 つの会社間でプロジェクト請求を設定する方法について説明します。
 author: Yowelle
+manager: AnnBe
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendTable, InterCompanyTradingRelationSetupVendor, SysDataAreaSelectLookup, ProjParameters, ProjPosting, ProjTransferPrice
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dfb804945d15476fad29ce93d3f21adfbf2d950ace7b58f30911b36e494ff0c1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1cb53cb63ee11082146455ec9f13790501dc3d1d
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989421"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079327"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>会社間プロジェクト請求を構成する
 
@@ -62,6 +64,3 @@ ms.locfileid: "6989421"
 32. **価格** フィールドに数値を入力します。
 33. **保存** を選択します。
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

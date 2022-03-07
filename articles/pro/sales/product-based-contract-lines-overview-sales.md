@@ -2,18 +2,17 @@
 title: 製品ベースの契約品目の概要 - Lite
 description: このトピックでは、製品ベースの契約品目について説明します。
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6e9ef33cc9c79f828e85733f4f5a199bce842700
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.custom: intro-internal
+ms.openlocfilehash: 79b4f6355afb7472f843eda06bf33a3fe732274d6f2566bd23000aa11cbfdce1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272664"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007557"
 ---
 # <a name="product-based-contract-lines-overview---lite"></a>製品ベースの契約品目の概要 - Lite
 

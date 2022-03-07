@@ -2,18 +2,16 @@
 title: スケジュール モード
 description: このトピックでは、スケジュール モードについて説明します。
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 41e56d01c3cfa62558b10e178085a4408a0aadb023f3f7347a61d121f542bb08
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981441"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987757"
 ---
 # <a name="scheduling-modes"></a>スケジュール モード
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operationsは、WBS (作業分解構造) 内のタスクに
 Project Operations で使用できるスケジュール モードは 3 つあります:
 
   - 固定期間 (これが既定のモードです)
-  - 固定作業
+  - 固定工数 (*作業*)
   - 固定単位
 
 特定のスケジュール モードの定義によって影響を受ける値は、次の式によって決定されます:
 
-  労力 (*作業*) = 期間 x 単位
+  労力 = 期間 x 単位
 
 プロジェクトのスケジュール モードを定義する際は、これらの値の 1 つを設定しているため、変更できません。 この値を一定に保つことで、その値に優先順位をつけ、他の 2 つの値が変化しても変更しないようにシステムに通知します。 以下の表は、特定のモードを選択した場合の影響についての情報です。
 

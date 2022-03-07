@@ -2,19 +2,17 @@
 title: 在庫/製造ベースのシナリオ向け Project Operations、2021 年 1 月の最新情報または変更事項
 description: このトピックでは、在庫/製造ベースのシナリオ向け Project Operations の 2021 年 1 月リリースで利用可能な品質更新について説明します。
 author: andchoi
-manager: tfehr
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: ce1c83e1e238d7919c38d2babea622ca59de86d3
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
+ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958654"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992752"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>在庫/製造ベースのシナリオ向け Project Operations、2021 年 1 月の最新情報または変更事項
 
@@ -144,4 +142,7 @@ _**適用対象:** 在庫/製造ベースのシナリオ向け Project Operation
 | 出張と経費                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | Project Operations では、Dataverse での会社間タスクの時間を作成または承認できません。                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>規制の更新
-Finance and Operations アプリの規制の更新については、[規制の更新](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
+Finance and Operations アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

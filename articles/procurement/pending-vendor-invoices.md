@@ -2,17 +2,17 @@
 title: 保留状態のベンダーの請求書を使って非在庫の材料を購入する
 description: このトピックは、保留中のベンダーの請求書を記録する方法について説明しています。
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b5e6632d73c8a211b1f0d568be8e10ef47be77e2
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993805"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547295"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>保留状態のベンダーの請求書を使って非在庫の材料を購入する
 
@@ -20,7 +20,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 企業があるプロジェクトのために非在庫の材料を調達した場合に、このコストをすぐにプロジェクトに対して計上できます。 
 
-たとえば、Contoso Robotics US は機器更新プロジェクトを実行しており、ソフトウェア ライセンスが必要です。 これらのライセンスは、サードパーティ ベンダーが調達します。  Dynamics 365 Finance を使用して、買掛金勘定の担当者は、保留中のベンダーの請求書を記録し、ライセンス費用を機器の更新プロジェクトに直接帰属させます。 
+たとえば、Contoso Robotics US は機器の更新プロジェクトを実行しており、ソフトウェア ライセンスが必要です。 これらのライセンスは、サードパーティ ベンダーが調達します。  Dynamics 365 Finance を使用して、買掛金勘定の担当者は、保留中のベンダーの請求書を記録し、ライセンス費用を機器の更新プロジェクトに直接帰属させます。 
 
 > [!IMPORTANT]
 > このトピックで説明されている機能を使用する前に、必要となる構成を確認して適用してください。 詳細については、[在庫のない資材と保留中のベンダーの請求書を有効にします](configure-materials-nonstocked.md)を参照してください。 
@@ -45,4 +45,5 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
     - ベンダーの残高額です。
     - 消費税の金額です。
     - プロジェクトに対する原価は、調達統合アカウントに記録されます。
-    - プロジェクトの実際の取引は、Dataverse です。 この取引は、[Project Operations の統合仕訳帳](../project-accounting/project-operations-integration-journal.md) を使用してさらに処理されます。 この仕訳を転記すると、金額が調達統合勘定からプロジェクト原価勘定に移動します。
+    - Dataverse でプロジェクトの実際原価取引。  この取引は、[Project Operations の統合仕訳帳](../project-accounting/project-operations-integration-journal.md) を使用してさらに処理されます。 この仕訳を転記すると、金額が調達統合勘定からプロジェクト原価勘定に移動します。 
+    - 時間と材料の請求方法を使用してプロジェクト顧客に請求される購入。 さらに、未請求の営業トランザクションは、Dataverse での購入に対して作成されます。 Dataverse の製品価格表は、未請求の営業トランザクションの販売価格と量に使用されます。

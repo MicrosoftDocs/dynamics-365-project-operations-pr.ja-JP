@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8bde3c434680f0651293cbce13ecdce945c3a743
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005622"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997517"
 ---
 # <a name="synchronize-resource-capacity"></a>リソース キャパシティの同期
 
@@ -29,7 +29,7 @@ ms.locfileid: "7005622"
 
 リソース同期のプロセスは、カレンダーと基本カレンダーの情報がプロジェクトのリソース スケジュールに流れ込むことを保証するのに役立ちます。 カレンダーが変更された場合、プロセスはプロジェクト リソースのスケジュールに必要な更新を行います。 カレンダーのリソース情報は事前に同期されているため、プロセスはパフォーマンスの向上にも役立ちます。 したがって、リソース スケジュール情報の更新はより迅速に行われます。 プロセスは一度に 1 つではなくバッチとしてスケジュールすることをお勧めします。 それ以外の場合は、情報が最後に同期された包括的な日付をユーザーが忘れるというリスクがあります。 包括的な日付を使用しない場合、日付の同期中にギャップが発生する可能性があります。
 
-![カレンダーの同期。](./media/projectresourcing04-1024x471.jpg)
+![カレンダーの同期](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>リソース キャパシティ ロールアップの同期
 
@@ -46,7 +46,7 @@ ms.locfileid: "7005622"
     | 開始日  | リソース キャパシティ ロールアップの同期プロセスの開始日を入力します。 |
     | 終了日    | リソース キャパシティ ロールアップの同期プロセスの終了日を入力します。 |
 
-[![同期プロセス。](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![同期プロセス](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: リソースの設定
 description: Project Service でのリソースの設定方法
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4ff49d5dfdfa184cf437677109d1228f3b4cd571
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 62fc0ad741940c2d3046bb1b89f99cd490cbd6e1aa6015f1df3b92afb2f107ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150314"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006837"
 ---
 # <a name="set-up-resources-project-service"></a>リソースの設定 (Project Service)
 
@@ -55,3 +53,6 @@ ms.locfileid: "5150314"
   
 ### <a name="see-also"></a>関連項目  
  [Project Service の構成](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

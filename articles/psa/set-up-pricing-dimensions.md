@@ -2,12 +2,10 @@
 title: 価格ディメンションとしてカスタム フィールドを設定する
 description: このトピックではカスタム価格ディメンションのセットアップについて説明します。
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150359"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002337"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>価格ディメンションとしてカスタム フィールドを設定する 
 
@@ -43,11 +41,11 @@ ms.locfileid: "5150359"
 - **ロール価格** および **ロール価格の利幅** エンティティでフィールドを作成します。 この方法についての詳細は、[価格設定とトランザクション エンティティに対してカスタム フィールドを追加する](field-references.md)を参照してください。
 - **価格ディメンション** テーブルに行が作成されました たとえば、次のグラフィックに示すように、価格ディメンションの行を追加します。 
 
-![金額ベースの価格ディメンションの行](media/Amt-based-PD.png)
+![合計金額ベースの価格ディメンションの行。](media/Amt-based-PD.png)
 
 注意: リソースの作業時間 (**msdyn_resourceworkhours**)は 利幅ベースのディメンションとして追加され、また、 **利幅ベースの価格ディメンション** タブに追加されました。
 
-![利幅ベースの価格ディメンションの行](media/Markup-based-PD.png)
+![利幅ベースの価格ディメンションの行。](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > このテーブルの価格ディメンション データに対する変更は、既存か新規かに関わらず、キャッシュを更新した後、Project Service 価格設定のビジネス ロジックに伝播されます。 キャッシュの更新時間は最大で10分かかる場合があります。 この時間を使って、価格ディメンション データに対する変更に明らかに起因する既定の価格設定ロジックの変更を確認します。
@@ -94,3 +92,6 @@ Contoso India の基本料金が 100 米国ドルのリソースがオンサイ�
 
 - **コストの優先度**: ディメンションのコストの優先度の値は、原価価格の設定と一致する場合のディメンションの重要度を示します。 **コストの優先度** の値は、 **コストに適用可能** なディメンション全体で一意である必要があります。
 - **営業の優先度**: ディメンションの営業の優先度の値は、販売価格または請求レートの設定と一致する場合のディメンションの重要度を示します。 **営業の優先度** の値は、 **営業に適用可能** であるディメンション全体で一意である必要があります。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

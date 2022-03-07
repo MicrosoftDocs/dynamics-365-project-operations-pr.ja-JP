@@ -2,8 +2,6 @@
 title: プロジェクトの価格設定
 description: このトピックでは、Dynamics 365 Project Service Automation での価格設定の仕組みについて説明します。
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 176b84671ca0b5b998c44be4f306d1f8f5200c72
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: dfbfb59547f295e5fb275264b9222bfa20517f6278144ca013e14a99454b6840
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148919"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000582"
 ---
 # <a name="project-pricing"></a>プロジェクトの価格設定 
 
@@ -48,7 +46,7 @@ Dynamics 365 Project Service Automation は Dynamics 365 Sales の価格表エ�
   - **トランザクション カテゴリ価格** - このテーブルはトランザクション カテゴリごとに価格を格納し、経費カテゴリの価格を設定するために使用されます。
   - **価格表品目** - このテーブルには、カタログ製品の価格が格納されます。
 
-> ![価格表を使用した価格の設定](media/basic-guide-12.png)
+> ![価格表を使用した価格の設定。](media/basic-guide-12.png)
  
 価格表は価格カードです。 価格カードは、価格表エンティティと、ロール価格、トランザクション カテゴリ価格、および価格表品目テーブルの関連行の組み合わせです。
 
@@ -60,7 +58,7 @@ Dynamics 365 Project Service Automation は Dynamics 365 Sales の価格表エ�
 
 PSA がインストールされると、**時間** 出荷単位一覧が作成されます。 既定の出荷単位は **時** です。 **時間** 出荷単位一覧または **時** 出荷単位の属性を削除、名称変更、または編集することはできません。 ただし、**時間** 出荷単位一覧に他の出荷単位を追加できます。 **時間** 出荷単位一覧または **時** 出荷単位のどちらかを削除しようとすると、PSA ビジネス ロジックでエラーが発生する可能性があります。
 
-> ![ロールによる価格の設定](media/basic-guide-13.png)
+> ![ロールによる価格の設定。](media/basic-guide-13.png)
  
 ## <a name="transaction-categories-and-expense-categories"></a>トランザクション カテゴリと経費カテゴリ
 
@@ -70,7 +68,7 @@ PSA がインストールされると、**時間** 出荷単位一覧が作成�
 - **利幅率** - 実際のコストに対する割合が顧客に請求されます。 
 - **出荷単位ごとの価格** - 請求価格は、経費カテゴリの各出荷単位に設定されます。 顧客に請求される金額は、コンサルタントが報告する経費の出荷単位の数に基づいて計算されます。 マイレージは、出荷単位ごとの価格設定方法を使用します。 たとえば、マイレージの経費カテゴリは、1 日あたり 30 米ドル (USD) または 1 マイルあたり 2 米ドルに設定できます。 コンサルタントがプロジェクトのマイレージを報告する場合、請求額はコンサルタントが報告したマイル数に基づいて計算されます。
 
-> ![経費カテゴリに関する価格の設定](media/basic-guide-14.png)
+> ![経費カテゴリに関する価格の設定。](media/basic-guide-14.png)
  
 ## <a name="project-sales-pricing-and-overrides"></a>プロジェクトの販売価格設定と上書き
 
@@ -116,7 +114,7 @@ PSA では、見積もりやプロジェクト契約に既定で入力される�
 
 カスタム プロジェクト価格表を作成すると、価格表のプロジェクト コンポーネントのみがコピーされます。 つまり、見積もりに添付されている既存のプロジェクト価格表のコピーとして作成された新しい価格表であり、この新しい価格表には関連するロール価格とトランザクション カテゴリ価格のみが含まれます。
 
-> ![プロジェクト契約のカスタム価格の表示と設定](media/basic-guide-15.png)
+> ![プロジェクト契約のカスタム価格の表示と設定。](media/basic-guide-15.png)
   
 ## <a name="tracking-costs"></a>コストの追跡
 
@@ -131,3 +129,6 @@ PSA は、プロジェクトでの人的リソース時間の使用について�
     1. 組織単位に添付されている原価価格表。
     2. Project Service のパラメーターに添付されている原価価格表。 多くの異なる通貨の原価価格表を Project Service のパラメーターに添付できるため、PSA はプロジェクト、契約、または見積もりの契約組織単位の通貨と原価価格表の通貨の間で通貨照合を行います。
     3. 経費については、コスト価格設定方法およびコストに対する利幅価格設定方法は原価価格表には適用されません。 これらの価格設定方法を原価価格表の行で使用してトランザクション カテゴリ コストを設定しても、システムはそれらを無視し、既定の原価価格は入力されません。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: スキルおよび実力モデル
 description: このトピックでは、スキルと実力モデルを使用する方法を説明します。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/13/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c7da8b2a7eda51b2aa7cf04e325a92f33d834efc
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 73509fda4a715a4131781645736e49cfb02115da2c3650c5a966e35360e7703f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147479"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990502"
 ---
 # <a name="skills-and-proficiency-models"></a>スキルおよび実力モデル
 
@@ -35,16 +33,19 @@ ms.locfileid: "5147479"
 
 Project Service Automation でスキルのリポジトリを維持するには、**リソース** \> **リソースのスキル** の順に移動します。 
 
-> ![リソースのスキル](media/Resource-Management-image84.png)
+> ![リソースのスキル。](media/Resource-Management-image84.png)
 
-## <a name="use-proficiency-models-to-rate-resources"></a>実力モデルを使用してリソースを評価する
+## <a name="use-proficiency-models-to-rate-resources"></a>能力モデルを使用したリソースの評価
 
-リソースのスキルは実力モデルで評価されます。 個々の評価が実力モデル内にあります。 
+リソースのスキルは能力モデルによって評価されます。 個々の評価が実力モデル内にあります。 
 
 1. 実力モデルを作成するには、**リソース** \>**実力モデル** の順に移動し、**新規** を選択します。
 2. 新しい評価モデルでは、最小評価値、最大価値、評価されるエンティティを指定します。
-3. **評価値** のサブグリッドで、最小から最大までの異なる評価値を定義できます。
+3. **評価値** サブグリッドでは、最小値から最大値まで、さまざまな評価値を定義できます。
 
-> ![定義された最小評価値と最高評価値](media/Resource-Management-image85.png)
+> ![定義された最小評価値と最高評価値。](media/Resource-Management-image85.png)
 
-これらの評価値は、**リソース要件**、**スケジュール ボード**、および **スケジュール アシスタント** の各種フィルター上で表示されます。
+これらの評価値は、**リソース要件**、**スケジュール ボー**、および **スケジュール アシスタント** フィルターで表示されます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

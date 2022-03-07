@@ -2,18 +2,16 @@
 title: Office グループでのコラボレーション
 description: Office グループを使用すると、Common Data Service 内の他のチーム メンバーと共有できます。
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 815658ef66fb8083fb066f8f4d64a503580bfad2
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 6b39d370eade27ebb256a6fbaa24ca9f268eca2c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642504"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007057"
 ---
 # <a name="collaboration-with-office-groups"></a>Office グループでのコラボレーション
 
@@ -26,3 +24,6 @@ Office グループを使用すると、Common Data Service 内の他のチー�
 > [!NOTE] 
 > **グループ** を押して追加した場合にのみ、ユーザーは追加されます。 これは、Web 向けの Project の動作とは異なります。 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

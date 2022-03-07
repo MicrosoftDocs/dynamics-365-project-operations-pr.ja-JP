@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d86185b414a559694077783d1f89dc863112a252
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b075b926585e27b8811f999e41dcb271277d360e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271179"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4079413"
 ---
 # <a name="view-an-expense-report-from-general-ledger-or-procurement-and-sourcing"></a>一般会計または調達からの経費報告書を表示する
+
+[!include [banner](../includes/banner.md)]
 
 一般会計または調達でトランザクションを表示するためにクエリを実行すると、クエリが返す情報が多すぎる場合があります。 したがって、検索を絞り込むことをお勧めします。 必要な情報を取得するには、トランザクションにドリルダウンして、それが表示された経費報告書を確認します。
 
@@ -32,6 +34,3 @@ ms.locfileid: "5271179"
 トランザクションが表示された元の経費レポートにドリルダウンするするには、トランザクションを選択してから、**元の書類** を選択します。
 
 個々のトランザクションを表示する場合、トランザクションに添付されている追加データを表示することもできます。 たとえば、ホテルの経費の明細については、インターネットアクセス、電話、ルームサービスなどの経費の詳細なリストを表示できます。
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
