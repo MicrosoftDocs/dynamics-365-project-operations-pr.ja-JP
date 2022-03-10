@@ -2,11 +2,9 @@
 title: Project Service Automation 統合パラメーター
 description: このトピックでは、Microsoft Dynamics 365 for Project Service Automation と Microsoft Dynamics 365 Finance の統合時に、既定データの入力方法を設定する方法について説明します。
 author: ruhercul
-manager: AnnBe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b58f34cb74be531a98518100158f39d74f136afc34444468d666cd4e9394af6f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079408"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005847"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Project Service Automation 統合パラメーター
 
@@ -47,3 +45,6 @@ ms.locfileid: "4079408"
 | 請求の種類の既定値  | 請求の種類         | **新規** をクリックして、既定の明細行プロパティを設定するための請求の種類を選択する行を追加します。 特定の請求の種類は、構成で一度だけ選択できます。 |
 |                        | 明細行プロパティ        | 選択した請求の種類のために、既定の明細行プロパティを選択します。 新しい時間の見積もり、新しい経費の見積もり、または新しい実績が Project Service Automation から同期されると、**明細行プロパティ** フィールドは、請求の種類の既定値に設定されます。 |
 | 機能のロック  | 適用なし       | Project Service Automation から取得したプロジェクトおよび契約について、Finance で無効にする機能を選択します。 たとえば、契約およびプロジェクトの編集、作業分解構造の作成、および Finance でのタイムシートの入力機能を無効にできます。 会計関連のフィールドは、パラメーター設定で使用不可に設定された場合でも、引き続き有効になります。 既定では、すべての機能が有効になっています。 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: dc45bfd6fefaa51a4a540d694cb4ba07c5058a2a
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 205a4fbe41637be12970041ff309c0a8d206db513987c4f64610e842183ed781
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4069827"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004817"
 ---
 Project Finder Mobile アプリを有効にすることにより、組織内のユーザーがプロジェクトの作業を表示し、サインアップして作業を進めることができるようになります。 ユーザーは Project Finder アプリを使用してスキルを表示および更新することもできます。 Project Finder Mobile アプリを有効にするには、Project Service の [パラメーターの設定] で [リソースに表示されるリソース要件] の値を設定し、[リソースによるスキルの更新を許可] 属性を [はい] に設定します。 この属性値を [いいえ] に変更すると、この機能は無効になります。  
   

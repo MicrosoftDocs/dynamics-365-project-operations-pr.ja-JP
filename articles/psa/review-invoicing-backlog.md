@@ -2,8 +2,6 @@
 title: プロジェクトおよびプロジェクト契約の請求バックログをレビューする
 description: このトピックでは、時間、経費、製品バックログをレビューする方法と、「請求準備完了」としてマークする方法について説明します。
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,14 +14,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eb6d942d61bf8b5d20afb75c88716132a596bcbd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079477"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006972"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>プロジェクトおよびプロジェクト契約の請求バックログをレビューする
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -40,7 +40,7 @@ ms.locfileid: "4079477"
 
 時間と資料の請求バックログ数をレビューするには、**営業**\>**請求書**\>**時間と材料の請求バックログ** の順に移動します。 請求準備完了となっているすべての未請求売上の実績を選択して、 **請求準備完了** を選択します。 請求書の実績の状態は **請求準備完了** に変更されます。
 
-![時間と材料の請求バックログ](media/TMBacklog.png)
+![時間と材料の請求バックログ。](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>製品の請求バックログのレビュー
 
@@ -48,7 +48,7 @@ PSAで、プロジェクト契約に製品ベースの契約品目が含まれ�
 
 製品の請求バックログを確認するには、**営業**\>**請求書**\>**製品の請求バックログ** の順に移動します。 請求準備完了となっているすべて製品ベースの契約品目を選択して、 **請求準備完了** を選択します。 これらの品目に関する請求書の状態は **請求準備完了** に変更されます。
 
-![製品の請求バックログ](media/ProductBacklog.png)
+![製品の請求バックログ。](media/ProductBacklog.png)
 
 ## <a name="review-billing-milestones-on-fixed-price-contracts"></a>固定価格の契約に関する請求マイルストーンのレビュー
 
@@ -56,4 +56,7 @@ PSAで、プロジェクト契約に製品ベースの契約品目が含まれ�
 
 請求マイルストーンをレビューするには、**営業**\>**請求書**\>**固定価格のマイルストーン** の順に移動します。 請求準備完了となっているマイルストーンを選択して、**請求準備完了** を選択します。 これらのマイルストーンの請求の状態は **請求準備完了** に変更されます。
 
-![固定価格マイルストーン](media/FPBacklog.png)
+![固定価格マイルストーン。](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

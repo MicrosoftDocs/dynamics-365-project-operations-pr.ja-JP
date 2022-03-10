@@ -2,24 +2,22 @@
 title: 見積もりをクローズする
 description: このトピックは、Project Operations で見積もりのクローズに関する情報を提供します。
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124689"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993427"
 ---
 # <a name="close-a-quote"></a>見積もりをクローズする
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-プロジェクトの見積もりは、受注または失注としてクローズすることができます。 アクティブ化および変更の機能は、Microsoft Dynamics 365 Project Operations の見積もりではサポートされていないため、ドラフトの見積もりをクローズすることができます。
+プロジェクトの見積もりは、受注または失注としてクローズすることができます。 Microsoft Dynamics 365 Project Operations では、見積もりについて [アクティブ化および改訂] 機能がサポートされていないため、見積もりの下書きをクローズすることができます。
 
 ## <a name="close-a-quote-as-won"></a>受注として見積もりをクローズする
 
@@ -43,3 +41,6 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 > [!NOTE]
 > Project Operations では、見積もりを受注または失注としてクローズしても、営業案件のステータスには影響しません。案件は、手動でクローズするまでオープンしたままになります。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

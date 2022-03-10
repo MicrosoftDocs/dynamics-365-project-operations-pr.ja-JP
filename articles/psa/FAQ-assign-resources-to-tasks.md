@@ -2,8 +2,6 @@
 title: タスクにリソースを割り当てる
 description: このトピックでは、タスクにリソースを割り当てる方法について説明します。
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,16 +16,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3f96344b917f088f1d5782c5cee1d84f1aff47bc1bad7c8f6b33307d1df340fa
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079457"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987667"
 ---
-# <a name="assign-a-resource-to-a-task"></a>タスクにリソースを割り当てる
+# <a name="assign-a-resource-to-a-task"></a>リソースをタスクに割り当てる
 
-Microsoft Dynamics 365 Project Service Automation には、リタスクにリソースを割り当てる 3つの方法があります。
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+Microsoft Dynamics 365 Project Service Automation には、タスクにリソースを割り当てる方法が 3 通りあります。
 
 ## <a name="book-a-resource-as-a-team-member-and-then-assign-the-resource-to-a-task"></a>リソースをチームのメンバーとして予約し、タスクにリソースを割り当てる
 
@@ -80,3 +80,6 @@ Microsoft Dynamics 365 Project Service Automation には、リタスクにリソ
 
 3. タスクに割り当てるリソースを選択します。
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

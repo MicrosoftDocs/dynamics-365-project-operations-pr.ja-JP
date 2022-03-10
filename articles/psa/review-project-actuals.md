@@ -2,8 +2,6 @@
 title: プロジェクトの成果を確認
 description: Project Service でのプロジェクトの成果を確認する方法
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4fc47760fef67dd88bec82df3d69cb41771bfcc3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 3fe2bf52aeef0214ef3f54f7cfcce4032ba79114a6c36e453e7412a85af52a49
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146849"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006927"
 ---
 # <a name="review-project-actuals-project-service"></a>プロジェクトの成果を確認 (Project Service)
 
@@ -35,3 +33,6 @@ ms.locfileid: "5146849"
   
 ### <a name="see-also"></a>関連項目  
  [プロジェクト管理者ガイド](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

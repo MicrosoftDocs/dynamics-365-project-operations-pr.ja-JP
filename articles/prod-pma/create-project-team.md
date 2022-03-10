@@ -2,11 +2,9 @@
 title: プロジェクト チームを作成する
 description: このトピックでは、プロジェクトチームの作成方法や管理方法についての説明します。
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270864"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005802"
 ---
 # <a name="create-a-project-team"></a>プロジェクト チームの作成
 
@@ -35,9 +33,9 @@ ms.locfileid: "5270864"
 
 プロジェクト マネージャーは、ページでロールを選択し、要件に適合する使用可能なリソースがある場合は、ロールを満たすためのリソースを予約することを選択できます。 計画ステージのこの時点では、リソースを予約する必要がないことに注意してください。 WBS を作成するときに、プロジェクトのロールをスタッフが配置されたリソースに置き換えることができます。 ロールが WBS のスタッフが配置されたリソースに置き換えられた場合、リソースの設定により、プロジェクト チームのリストとスケジュールが自動的に更新されます。
 
-[![ロールと実際のリソースの両方を含むプロジェクト チーム リスト](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![ロールと実際のリソースの両方を含むプロジェクト チーム リスト。](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
-プロジェクト マネージャーには、プロジェクトのリソースを予約するため、**残りのキャパシティ**、**全キャパシティ**、**キャパシティの割合**、および **時間を指定** などのさまざまなオプションがあります。 リソースの割り当てが変更された場合、これらのオプションはいつでもキャンセルできます。 次の 2 つの予約タイプがサポートされています。
+プロジェクト マネージャーには、プロジェクトのリソースに対して、**残りのキャパシティ**、**全キャパシティ**、**キャパシティ %**、および **時間の指定** などのさまざまなオプションがあります。 リソースの割り当てが変更された場合、これらのオプションはいつでもキャンセルできます。 次の 2 つの予約タイプがサポートされています。
 
 - **本予約** - リソースの予約は承認済みであり、指定された期間のエンゲージメントに従事することが確認されています。
 - **仮予約** – リソース予約は、指定された期間、エンゲージメントに取り組むように一時的に設定されました。

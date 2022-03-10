@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003822"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547115"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 二重書き込みマッピングのバージョン
 
@@ -49,9 +49,9 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | Project Operations の統合テーブルによる材料の見積もり (msdyn\_estimatelines) | 1.0.0.0 | プロビジョニングには必須ではありません。 |
 | プロジェクトの仮発行請求書 V2 (invoices) | 1.0.0.3 | プロビジョニングには必須ではありません。 |
 | Project Operations 統合実績 (msdyn_actuals) | 1.0.0.14 | プロビジョニングには必須ではありません。 |
-| Project Operations 統合契約品目のマイルストーン (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | プロビジョニングには必須ではありません。 |
-| 経費見積もりに使用する Project Operations 統合エンティティ (msdyn_estimateslines) | 1.0.0.2 | プロビジョニングには必須ではありません。 |
-| 時間見積もりに使用する Project Operations 統合エンティティ (msdyn_resourceassignments) | 1.0.0.5 | プロビジョニングには必須ではありません。 |
+| Project Operations 統合契約品目マイルストーン (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | プロビジョニングには必須ではありません。 |
+| Project Operations 統合の経費見積のエンティティ (msdyn_estimatelines) | 1.0.0.2 | プロビジョニングには必須ではありません。 |
+| Project Operations 統合の時間見積のエンティティ (msdyn_resourceassignments) | 1.0.0.5 | プロビジョニングには必須ではありません。 |
 | Project Operations 統合プロジェクト経費エクスポート エンティティ (msdyn_expensecategories) | 1.0.0.1 | プロビジョニングには必須ではありません。 |
 | Project Operations 統合プロジェクト経費エクスポート エンティティ (msdyn_expenses) | 1.0.0.2 | プロビジョニングには必須ではありません。 |
 | Project Operations 統合プロジェクト ベンダー請求書のエクスポート エンティティ (msdyn_projectvendorinvoices) | 1.0.0.0 | プロビジョニングには必須ではありません。 |

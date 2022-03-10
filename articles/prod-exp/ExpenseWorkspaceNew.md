@@ -2,11 +2,9 @@
 title: 再設計された経費報告書
 description: このトピックでは、経費報告書エントリの再設計および刷新されたエクスペリエンスに関する情報を提供します。
 author: ryansandness
-manager: AnnBe
 ms.date: 06/14/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa111917ffd3107413846dae67c56fd2495cfc1e1bc7362152138efd7bf3b869
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271989"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986092"
 ---
 # <a name="redesigned-expense-reports"></a>再設計された経費報告書
 

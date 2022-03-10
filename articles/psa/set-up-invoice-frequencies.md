@@ -2,8 +2,6 @@
 title: 請求頻度のセットアップ
 description: Project Service での請求頻度のセットアップ方法
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 21baa270c307aaee584d6ea1c6d133a48dcbe485
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 07c784222855c26a5715e4f3a69342ac79383b5d67c1095e880a4eb6102e6375
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282519"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984641"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>請求頻度のセットアップ (Project Service)
 

@@ -2,25 +2,23 @@
 title: プロジェクト ベースの契約品目で作業する
 description: このトピックでは、プロジェクトベースの契約品目の見積もりについて解説します。
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181727"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990052"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>プロジェクト ベースの契約品目で作業する
 
-Dynamics 365 Project Operations のプロジェクトベースの契約品目は、エンゲージメントに関するプロジェクト作業の特定のコンポーネントの見積もりおよび請求契約を保持するように設計されています。 プロジェクトベースの契約品目の構造は、次の概念を使用してプロジェクトの見積もりと請求シナリオに拡張されます :
+Dynamics 365 Project Operations のプロジェクトベースの契約品目は、エンゲージメントに関するプロジェクト作業の特定のコンポーネントの見積もりおよび請求契約を保持するように設計されています。 プロジェクトベースの契約品目の構造は、次の概念によりプロジェクト見積および請求シナリオに対して拡張されます。
 
 - 請求方法
-- プロジェクトとタスクのマッピング
+- プロジェクトとタスクのスケジュール
 - 含まれるトランザクションのクラス
 - 上限
 - 請求可否の設定
@@ -57,3 +55,6 @@ Dynamics 365 Project Operations のプロジェクトベースの契約品目は
 | C1       | CL2           | P1      | 無効           | 有効             | 無効          | 有効           | プロジェクト P1 の時間と料金は CL1 に含まれています。 P1 の経費は CL2 に含まれています。 </br>   各契約品目に含まれているものは重複していないため、有効です。  |
 | C1       | CL1           | P1      | 有効          | 有効             | 有効         | 無効       | ルールに違反します。 プロジェクト P1 の時間、費用、料金は、2つの契約の品目に含まれています。                                                                                               |
 | CL2      | CL2           | P1      | 有効          | 有効             | 有効         | 無効       | ルールに違反します。 プロジェクト P1 の時間、費用、料金は、2つの契約の品目に含まれています。                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

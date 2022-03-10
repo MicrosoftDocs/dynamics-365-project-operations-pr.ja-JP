@@ -6,12 +6,13 @@ ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: b99fab32101724a4c6307136ef37503316dfc42e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: f728b3665770e65357f85a5c6da3fb8aecd7923d57baddb4e4c720fcc920ee01
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011827"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990997"
 ---
 # <a name="project-management-overview"></a>プロジェクト管理の概要
 

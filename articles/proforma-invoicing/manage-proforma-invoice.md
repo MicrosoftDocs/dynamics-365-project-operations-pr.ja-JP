@@ -2,24 +2,22 @@
 title: プロジェクトの見積もりベース請求の管理
 description: このトピックは、プロジェクトベースの見積請求書を管理および操作する方法に関する情報を提供します。
 author: rumant
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9fd357648f8166cbcbe91ca1922739585f9fcfa9
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: cba74c14f6d039dce0650f25ee04cbe35ec8f668b774cdaaa3bbf1aab99cb44d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867227"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989332"
 ---
 # <a name="manage-a-proforma-project-based-invoice"></a>プロジェクトの見積もりベース請求の管理
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-Dynamics 365 Project Operations では、見積送り状は Dynamics 365 Sales の請求書の拡張機能として作成されます。 しかし、請求書を作成する際には、Sales と Project Operations では、請求書の作成プロセスに違いがあります。 例えば、Project Operations では **請求書一覧** ページから新規の請求書を作成することはできませんが、Sales では作成することができます。 これらの差異や拡張機能は、販売注文に向けた一般的な請求書とは異なるプロジェクトの請求書作成プロセスに対応するために用意されています。
+Dynamics 365 Project Operations では、見積送り状は Dynamics 365 Sales の請求書の拡張機能として作成されます。 ただし、請求に関しては、Sales と Project Operations の間で請求プロセスに多くの違いがあります。 たとえば、Project Operations では **請求書リスト** ページから新しい請求書を作成することはできませんが、Sales では作成することができます。 これらの違いおよび拡張機能は、販売注文に対する通常の請求書とは異なるプロジェクトの請求プロセスをサポートするために実装されています。
 
 > [!IMPORTANT]
 > このような違いがあるため、Sales と Project Operations における請求書の互換性はありません。

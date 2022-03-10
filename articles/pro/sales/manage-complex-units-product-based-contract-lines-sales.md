@@ -2,18 +2,16 @@
 title: 製品ベースの契約品目の複雑な出荷単位の管理 (ライト)
 description: このトピックは、サブスクリプション ベースの製品の販売のサポートに関する情報を提供します。
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a58a13c8186f36e6031fe3c6f3c3a57ea920ac9e
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177382"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003372"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>製品ベースの契約品目の複雑な出荷単位の管理 (ライト)
 
@@ -46,3 +44,6 @@ Dynamics 365 Project Operations は、数量係数を使用して、サブスク
 7. 製品ベースの契約品目の数量を構成するすべてのプロパティに対して、手順 2 から 6 を繰り返します。
 
 数量係数が設定されている場合、ユーザーがこの製品の契約品目を作成すると、契約品目の数量がロックされます。 数量は、その契約品目のプロパティ値の積として計算されます。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

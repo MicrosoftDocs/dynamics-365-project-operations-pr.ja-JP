@@ -2,8 +2,6 @@
 title: 製品カタログ品目の作成
 description: Project Service での製品カタログ項目の作成方法
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6343ff4dcfeae5d53eaf8eaa860afaf42559857a
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 727f7139ec590ff2994d1ae7e7c5dddbd50a7733b0e5935f3fd6bdefde713713
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950360"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995362"
 ---
 # <a name="create-product-catalog-items-project-service"></a>製品カタログ項目 (Project Service) の作成
 

@@ -2,8 +2,6 @@
 title: Project Service Automation の構成
 description: Project Service の構成のステップ
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fd02611b5b3133e097b2818a725b6c5d667e5ac0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: de95d7b271d876285ac5f4ecbc595390141d9e126ce101779652828581c1f613
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079377"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998557"
 ---
 # <a name="configure-project-service"></a>Project Service の構成
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -56,3 +56,6 @@ ms.locfileid: "4079377"
  [プロジェクト管理者ガイド](../psa/project-manager-guide.md)   
  [Resource Manager ガイド](../psa/resource-manager-guide.md)   
  [時間、経費、および共同作業ガイド](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

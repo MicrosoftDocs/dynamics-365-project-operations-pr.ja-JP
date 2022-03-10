@@ -4,6 +4,7 @@ description: このトピックでは、プロジェクトの実績について�
 author: rumant
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 08/03/2020
 ms.topic: article
 ms.author: rumant
@@ -16,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 73f1b14bbb4cc53111a1b3a93756a86db04475ab
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014662"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992482"
 ---
 # <a name="actuals-overview"></a>実績の概要
 
@@ -31,7 +32,7 @@ ms.locfileid: "6014662"
 
 実績とはプロジェクトで完了した作業の量です。 プロジェクトの実績はソース ドキュメントまでさかのぼることができます。 これらのソース ドキュメントには、時間、経費、仕訳入力、そして請求書が含まれます。
 
-![プロジェクトの実績をソース ドキュメントまでトレースする方法](media/basic-guide-18.png)
+![プロジェクトの実績をソース ドキュメントまでトレースする方法。](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>時間エントリの送信
 

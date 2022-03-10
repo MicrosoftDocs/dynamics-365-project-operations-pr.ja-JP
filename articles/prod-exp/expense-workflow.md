@@ -2,11 +2,9 @@
 title: 経費管理のワークフロー
 description: このトピックは、Microsoft Dynamics 365 Finance のワークフロー システムを使用して、経費管理で経費報告書のレビュープロセスを設定する方法について解説します。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
@@ -16,16 +14,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5207be92cb58d8ab2658096b3e0f3fc81d73d91e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7c2a2cae435342139f32d1bb5d38d68acd920453f5e6f6551e1f6d57967d8053
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079423"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001302"
 ---
 # <a name="expense-management-workflow"></a>経費管理のワークフロー
-
-[!include [banner](../includes/banner.md)]
 
 このトピックは、経費管理で経費報告書のレビュープロセスを設定する方法について解説します。 次の基準を使用して、経費報告書の承認者を決定するワークフローを設定することができます :
 
@@ -57,3 +53,6 @@ ms.locfileid: "4079423"
 これらの要件を確認後、経費報告書が転記されます。
 
 経費報告書が転記された後、経費報告書の支払いが承認され、従業員に精算されます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Project Service Automation から Finance and Operations へのプロジェクト タスクの直接同期
 description: このトピックは、Microsoft Dynamics 365 Project Service Automation から Dynamics 365 Finance へプロジェクト タスクを直接同期するために使用されるテンプレートと基礎となるタスクについて説明しています。
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0383607a07def6c21562bf4b0893fe3ce3db6a04
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4079250"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992797"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Project Service Automation から Finance and Operations へのプロジェクト タスクの直接同期
 
@@ -41,7 +39,7 @@ Project Service Automation から Finance への統合ソリューションは�
 
 次の図は、Project Service Automation と Finance 間でデータを同期する方法を示します。
 
-[![Project Service Automation と Finance の統合用データ フロー](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Project Service Automation と Finance の統合用データ フロー。](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## <a name="template-and-task"></a>テンプレートとタスク
 
@@ -82,4 +80,7 @@ Power Query を使用する必要がある場合は、このガイドライン�
 
 次の図は、データ統合のテンプレート タスク マッピングの例を示しています。 マッピングには、Project Service Automation から Finance に同期されるフィールド情報が表示されます。
 
-[![テンプレート マッピング](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+[![テンプレート マッピング。](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

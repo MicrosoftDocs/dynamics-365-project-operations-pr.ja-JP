@@ -6,12 +6,13 @@ ms.date: 10/29/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a03cb4949cafdf0754a89435542f616c41d65a5f
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996033"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991852"
 ---
 # <a name="sales-process-overview"></a>営業プロセスの概要
 

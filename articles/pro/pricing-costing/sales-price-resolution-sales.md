@@ -1,25 +1,23 @@
 ---
-title: 見積もりと実績の販売価格を解決する
-description: このトピックでは、見積もりと実績上の販売価格の解決方法について説明します。
+title: プロジェクトの見積もりと実績の販売価格を解決する
+description: このトピックは、プロジェクトの見積もりと実績の販売価格がどのように解決されるかについての情報を提供します。
 author: rumant
-manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c8972bd7710735e9acdbf951079f2da24a00bd7f
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2152b3f59050482cab0d1c5940d6743f420206bfc90e034dc2d754df8bd513a5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087980"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996082"
 ---
-# <a name="resolving-sales-prices-for-estimates-and-actuals"></a>見積もりと実績の販売価格を解決する
+# <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>プロジェクトの見積もりと実績の販売価格を解決する
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
-Dynamics 365 Project Operations で見積もりと実績の販売価格が解決されると、システムは最初に関連するプロジェクトの見積もりまたは契約の日付と通貨を使用して販売価格リストを解決します。 販売価格リストが解決された後、システムは販売または請求レートを解決します。
+見積りおよび実績の販売価格が Dynamics 365 Project Operations で解決されると、システムは最初に、関連するプロジェクトの見積もりまたは契約の日付と通貨を使用して、販売価格リストを解決します。 販売価格リストが解決された後、システムは販売または請求レートを解決します。
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>時間に向けた実際の明細行と見積もり明細行での販売率の解決
 
@@ -54,3 +52,15 @@ Project Operations では、経費の見積もり明細行が、経費の見積�
     | &nbsp; | コストにマークアップ | カテゴリ価格ラインで定義された利幅を、実際の関連コストの単価に適用します。 |
 
 4. システムが **カテゴリ** と **単位** フィールド値と一致することができない場合、販売率は規定でゼロ (0) になります。
+
+## <a name="resolving-sales-rates-on-actual-and-estimate-lines-for-material"></a>材料の実績と見積もり行の販売率を解決する
+
+Project Operations で、材料の見積もり行は、材料の見積もり行および契約品目の詳細と、プロジェクトの材料見積もり行を示すために使用されます。
+
+販売の価格表が解決された後、システムは次の手順を実行して、単位販売価格を規定に設定します。
+
+1. システムは、材料の見積もり行の **製品** と **単位** フィールドの組み合わせを使って、解決された価格表の価格表品目行と照合します。
+2. システムが、**製品** と **単位** フィールドの組み合わせの販売率を持つ価格表アイテム行を見つけ、価格設定方法が **通貨金額** である場合、価格表行で指定された販売価格が使用されます。
+3. **製品** と **単位** フィールドが一致しない場合、販売率は既定でゼロになります。
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

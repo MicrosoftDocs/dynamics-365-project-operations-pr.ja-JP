@@ -2,18 +2,16 @@
 title: 契約のアドホック前払いを作成する
 description: このトピックは、必要に応じて契約の前払いを作成するための情報を提供します。
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596001"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999142"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>契約のアドホック前払いを作成する
 
@@ -39,3 +37,6 @@ Microsoft Dynamics 365 Project Operations は、前払いと立て替えを伴�
     | **請求書の状態** | この顧客の請求書のドラフトにこの前払金を追加するかどうかを示すオプション設定です。 可能な値は次のとおりです。</br>- **請求準備未完了**</br>- **請求準備完了** | 前払いまたは立替金が **請求準備完了** とマークされている場合は、請求書のドラフトにライン タイムとして追加されます。 次の請求期間のプロジェクト費用との調整には、完全に請求された前払い金のみを使用することができます。 |
 
 4. 簡易作成ダイアログで **保存して閉じる** を選択し、前払いまたは立替金を記録します。
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

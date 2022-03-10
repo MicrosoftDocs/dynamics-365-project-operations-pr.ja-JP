@@ -2,8 +2,6 @@
 title: プロジェクト契約の作成
 description: Project Service でのプロジェクトの契約の作成方法
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 94dd55559f9eaa71758caba7974b0e3b779c40a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c5530e746d802cfa00e16206817e7d12accbe5ad0762f1051869f1ca35397222
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121944"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008637"
 ---
 # <a name="create-a-project-contract-project-service"></a>プロジェクト契約の作成 (Project Service)
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -45,3 +45,6 @@ ms.locfileid: "4121944"
   
 ### <a name="see-also"></a>関連項目  
  [取引先企業管理者ガイド](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

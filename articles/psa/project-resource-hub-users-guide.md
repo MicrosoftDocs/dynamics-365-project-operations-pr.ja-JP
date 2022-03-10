@@ -2,8 +2,6 @@
 title: プロジェクト リソース ハブのユーザー ガイド
 description: Project Service の Project Resource ハブのエンドユーザー ガイド
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1c52a17d791b5656f13535077e4300b331db71b5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123159"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987262"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Project Resource ハブのユーザー ガイド
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -46,34 +46,34 @@ Project Resource ハブ アプリでは、外出先で作業しているプロ�
 ## <a name="install-the-mobile-app"></a>モバイル アプリのインストール
 プロジェクト リソース ハブ アプリを使い始める前に、モバイル アプリをデバイスにインストールする必要があります。 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [電話用およびタブレット PC 用の Dynamics 365 のインストール](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)。
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [電話用およびタブレット PC 用の Dynamics 365 のインストール](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)。
 
 ## <a name="basic-navigation"></a>基本的なナビゲーション
 1.  モバイル アプリにサインインすると、MyApps ページにアクセスできるアプリのリストが表示されます。 
 2.  **Project Resource ハブ** を選択します。
 
-![アプリを選択してください](media/chooseApp_1.png "アプリを選択してください")
+![アプリを選択します。](media/chooseApp_1.png "アプリを選択してください")
 
 **ナビゲーション バー**
 
-作業領域への移動、新しいレコードの作成、検索、またはその他のタスクを実行するには、ナビゲーション バーを使用します。 その他のコマンドにアクセスするには、![その他](media/MoreButton.png "さらに表示 - ボタン")ボタンをタップします。
+作業領域への移動、新しいレコードの作成、検索、またはその他のタスクを実行するには、ナビゲーション バーを使用します。 その他のコマンドにアクセスするには、![その他のボタン。](media/MoreButton.png "さらに表示 - ボタン") をタップします。
 
-![ナビゲーション バー](media/NavBar_2.png "ナビゲーション バー")
+![ナビゲーション バー。](media/NavBar_2.png "ナビゲーション バー")
 
 **お気に入りと最近使用したレコード**
 
 [お気に入り] および [最近使用した項目] セクションを使用すると、レコード、ビュー、ダッシュボードにすばやくアクセスできます。 
 
-- これらのセクションにアクセスするには、ナビゲーション バーにある **メニュー** ![メニュー ボタン](media/MenuButton.png "メニュー ボタン") ボタンをタップしてから、**お気に入りと最近使用したもの** ![お気に入りボタン](media/FavButton.png "お気に入り ボタン") ボタンをタップします。
+- これらのセクションにアクセスするには、**メニュー** ![メニュー ボタン。](media/MenuButton.png "メニュー ボタン") をタップします。 ナビゲーション バーのボタンをクリックし、**お気に入りと最近の項目** ![Fav ボタン](media/FavButton.png "お気に入り ボタン") ボタンをタップします。
 
 - アイテムをお気に入りとしてピン留めする場合、**最近使用した** 項目の一覧からピンをタップします。 これにより、項目がピン留めされ、[お気に入り] に移動されます。
 
-  ![お気に入りと最近使用した項目](media/Favs_3.png "お気に入りと最近使用した項目")
+  ![お気に入りと最近使用した項目。](media/Favs_3.png "お気に入りと最近使用した項目")
  
 ## <a name="enter-time"></a>時間入力
 少なくとも週に一度、または管理者から要求された頻度で時間を入力して、クライアントに対して請求が実行されて正しく入金されるようにします。
 
-1. メニュー ![メニュー ボタン](media/MenuButton.png "メニュー ボタン") ボタンをタップしてから、**時間エントリ** をタップします。 これによりカレンダーが表示されます。
+1. メニュー ![メニュー ボタン](media/MenuButton.png "メニュー ボタン") ボタンをタップしてから **時間エントリ** をタップします。 これによりカレンダーが表示されます。
 
 2. 先週または翌週のカレンダーを表示するには、**前へ** または **次へ** ボタンをタップします。 現在の週に戻るには、**今日** をタップします。
 
@@ -97,9 +97,12 @@ Project Resource ハブ アプリでは、外出先で作業しているプロ�
 5. 週の経費の入力を続けます。 入力を完了し、すべてが正しく思えたら、**送信** をタップします。 管理者は経費を確認して承認します。
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>モバイル アプリの使用方法に関する一般情報 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [モバイル基本ガイド](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [モバイル基本ガイド](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>関連項目  
  [Project Service の概要](../psa/overview.md)   
  [時間、経費、および共同作業ガイド](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

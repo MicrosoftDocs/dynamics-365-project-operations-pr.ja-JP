@@ -2,10 +2,9 @@
 title: Dynamics 365 Project Service Automation とは何か？
 description: Project Service の紹介と概要
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -18,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19599fe13964aea2c25bc1774063c13cf79703d0
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128019"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000267"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Dynamics 365 Project Service Automation とは何か？
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-apps-all](../includes/cc-applies-to-psa-apps-all.md)]
 
@@ -45,10 +46,10 @@ Project Service Automation (PSA) アプリケーションは、最初の営業�
 ## <a name="whats-new-in-psa"></a>PSA の新機能
 チームは最新の更新プログラムを発表いたします。 ユーザー インターフェイスの改善、バグの修正、重要な新機能の追加など、さまざまな機能が追加されています。 ユーザーが要求し、私たちは取り入れました。
 
-最新の拡張機能と追加機能を確認するには、 [2019 年 10 月のリリース ノート](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) を参照してください。
+最新の拡張機能と追加機能を確認するには、 [2019 年 10 月のリリース ノート](/dynamics365-release-plan/2019wave2/index) を参照してください。
 
 ### <a name="in-development"></a>開発において
-近い将来に計画していることを確認するには、 [Dynamics 365: 2020 年リリース ウェーブ 1 プラン](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index)に進んでください。
+近い将来に計画していることを確認するには、 [Dynamics 365: 2020 年リリース ウェーブ 1 プラン](/dynamics365-release-plan/2020wave1/index)に進んでください。
 
 ## <a name="get-help-with-psa-version-3x"></a>PSA バージョン 3.x に関するヘルプの参照
 実装計画に役立つリソースを検索しますか。 これらのダウンロード可能ガイドをチェックアウトします。
@@ -81,6 +82,9 @@ Project Service Automation (PSA) アプリケーションは、最初の営業�
  [開発者向けノート (アプリ バージョン 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>2 分間の概要のビデオを見る
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

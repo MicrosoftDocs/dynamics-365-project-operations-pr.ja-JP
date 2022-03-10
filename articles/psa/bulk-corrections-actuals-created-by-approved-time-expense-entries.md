@@ -2,10 +2,8 @@
 title: 承認された時間と経費の入力によって作成された実績の一括修正
 description: このトピックでは、請求が完了していない場合に、以前承認された時間または経費の入力を、管理者が単一または一括で修正する方法について説明します。
 author: rumant
-manager: AnnBe
 ms.date: 04/02/2020
 ms.topic: article
-ms.service: dynamics-ax-applications
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -18,12 +16,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 17d6648840e27a4e573985af2cdd74c4adf878e1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290905"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995407"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>承認された時間と経費の入力によって作成された実績の一括修正
 
@@ -64,7 +62,7 @@ ms.locfileid: "5290905"
 
 たとえば、次の図では、数量が 8.00 となっている 2 つの明細があり、[金額] 列に借方がリストされています。 さらに、[金額] 列に貸し方の数量を示す、-8.00 となっている 2 つの明細があります。 この修正を行うことで、数量はゼロになります。
 
-![実績に関連するビューのリスト](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
+![実績に関連するビューのリスト。](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
  
 ## <a name="correct-approved-expense-entries"></a>承認済みの経費入力を修正する
 
@@ -89,7 +87,7 @@ ms.locfileid: "5290905"
 
 8. プロジェクト ページの **実績** タブ、**実際の関連ビュー** を確認します。 元の入力値と修正された入力値が一覧表示されます。 以下の図は、元の経費入力金額と、それに対応する修正後の経費入力金額を示しています。 
 
-![実際の経費](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+![実際の経費。](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

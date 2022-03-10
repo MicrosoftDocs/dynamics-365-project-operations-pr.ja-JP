@@ -2,10 +2,9 @@
 title: プロジェクト計画のホーム ページ
 description: このトピックでは、プロジェクト計画について説明します。
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: rumant
@@ -18,14 +17,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 645f9f1009bb52f6584bbce7f8ef07a033e450e9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 17745ffacbfdcf50b44b0c3f04ecacab8905d15be9ef675a72ae47a858cb9abe
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123294"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990592"
 ---
 # <a name="project-planning-home-page"></a>プロジェクト計画のホーム ページ
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -37,8 +38,8 @@ PSA のプロジェクト管理ツールによって、プロジェクトを簡�
 
 - 作業スケジュールと予測を使用してプロジェクトを計画します。
 - プロジェクト コストと売上の予測と追跡
-- 営業プロセス中にプロジェクトの予測を使用します。
-- パイプラインにあるプロジェクトのリソース要件の予測
+- 販売プロセス中にプロジェクト見積を使用します。
+- パイプラインに入っているプロジェクトのリソース要件を予測します。
 - 進行状況とコスト消費を追跡することでプロジェクトを正常に提供します。
 
 次のトピックでは、プロジェクト マネージャーが PSA でサポートされているツールを使用して、作業の見積もり、プロジェクト コストの見積もり、必要なリソースの予測ができる助けをする情報について説明します。
@@ -50,3 +51,6 @@ PSA のプロジェクト管理ツールによって、プロジェクトを簡�
 - [プロジェクト テンプレート](project-templates.md)
 - [プロジェクト ステージ](project-stages.md)
 - [プロジェクト設定](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

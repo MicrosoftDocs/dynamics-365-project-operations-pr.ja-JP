@@ -2,18 +2,16 @@
 title: 財務分析コードの既定値
 description: このトピックは、財務分析コードの規定値を設定する方法について説明します。
 author: sigitac
-manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642369"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922944"
 ---
 # <a name="financial-dimension-defaults"></a>財務分析コードの既定値
 
@@ -21,7 +19,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations は Dynamics 365 Finance の [財務分析コード](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) フレームワークを使用して、プロジェクトの補助元帳と総勘定元帳の取引に関する追加的な分析情報を提供しています。
+Dynamics 365 Project Operations は Dynamics 365 Finance の [財務分析コード](/dynamics365/finance/general-ledger/financial-dimensions) フレームワークを使用して、プロジェクトの補助元帳と総勘定元帳の取引に関する追加的な分析情報を提供しています。
 
 既定の財務分析コードは、顧客、プロジェクトの資金源、マイルストーン、プロジェクトの契約品目、プロジェクトに設定できます。
 
@@ -40,7 +38,7 @@ Dynamics 365 Project Operations は Dynamics 365 Finance の [財務分析コー
 
 1. **プロジェクト管理および会計** > **プロジェクト** > **プロジェクト契約** の順に移動します。
 2. 更新するレコードを選択し、**プロジェクト契約** タブで、**既定の会計を表示する** を選択します。
-3. **関連情報** を展開し、**資金源** タブを選択します。
+3. **関連情報** を展開し、**資金調達ソース** タブを選択します。
 4. 財務分析コードの既定値を設定します。 財務分析コードは顧客アカウントから既定に設定されていることに注意してください。
 
 ### <a name="set-financial-dimensions-for-a-project-contract-line"></a>プロジェクトの契約品目の財務分析コードを設定する
@@ -50,7 +48,7 @@ Dynamics 365 Project Operations は Dynamics 365 Finance の [財務分析コー
 3. **関連情報** を展開し、**契約品目** タブを選択します。
 4. 財務分析コードの既定値を設定します。 財務分析コードの既定が適用され、固定価格 (マイルストーン) 契約品目でのみ使用できます。
 
-これらの既定は、関連するプロジェクトの当座預金取引および請求書明細で使用されます。
+これらの既定値は、関連するプロジェクトの分割払トランザクションおよび請求明細行で使用されます。
 
 ## <a name="define-default-financial-dimensions-for-projects"></a>プロジェクトで使用する既定の財務分析コードを定義する
 
@@ -59,6 +57,18 @@ Dynamics 365 Project Operations は Dynamics 365 Finance の [財務分析コー
 1. **プロジェクト管理および会計** > **プロジェクト** > **すべてのプロジェクト** に移動します。
 2. 更新するレコードを選択し、**プロジェクト** タブで、**既定の会計を表示する** を選択します。
 3. **関連情報** を展開し、**設定** タブを選択します。
-4. 財務分析コードの既定値を設定します。 財務分析コードは顧客アカウントから既定に設定されていることに注意してください。 プロジェクトが複数のプロジェクト契約顧客を持つ契約品目に関連付けられている場合、プライマリ顧客は、既定の財務分析コードに使用されます。
+4. 財務分析コードの既定値を設定します。 顧客アカウントから財務分析コードの既定値が設定されていることを確認します。 プロジェクトが複数のプロジェクト契約顧客との契約品目に関連付けられている場合、主要顧客が財務分析コードの既定値に使用されます。
 
-プロジェクトの既定の財務分析コードは、**プロジェクト運用統合ジャーナル** の時間、費用、手数料のトランザクションと関連するプロジェクトの請求書明細のジャーナル ラインの既定を設定するために使用されます。
+プロジェクトの既定の財務分析コードを使用して、**Project Operations の統合仕訳帳** および関連するプロジェクト請求明細行の時間トランザクション、経費トランザクション、および手数料トランザクションの仕訳帳明細行の既定値を設定します。
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>プロジェクトの時間入力に財務分析コードを適用する
+プロジェクトの時間エントリに財務分析コードを適用するには、分析コードの既定値が以下の順序に基づいていることに注意してください:
+
+1. リソース
+2. Project
+3. 資金調達ソース
+
+たとえば、既定の分析コードがリソースに指定されている場合、プロジェクトに指定されている既定よりも優先して適用されます。 同様に、既定のプロジェクト分析コードは、資金源で指定された既定の上に適用されます。
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,22 +1,20 @@
 ---
-title: 見積もりと実績の原価価格を解決する (ライト)
-description: このトピックでは、見積もりや原価価格がどのように解決されるのかについて説明します。
+title: プロジェクトの見積もりと実績の原価価格を解決する
+description: このトピックは、プロジェクトの見積もりと実績のコスト価格がどのように解決されるかについての情報を提供します。
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a2a2df7672118a4a4d7748795174e8e8238dd7618a48437185879e06a253a381
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274555"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997567"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>見積もりと実績の原価価格を解決する (ライト)
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>プロジェクトの見積もりと実績の原価価格を解決する 
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
@@ -36,6 +34,12 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 費用の見積もり明細とは、プロジェクト上の費用の見積もり明細と契約品目の詳細を参照してください。
 
 原価価格表が解決された後、システムは経費見積行の **カテゴリ** と **単位** フィールドの組み合わせを使って、、解決された価格表の **カテゴリ価格** 行に突き合わせます。 システムが **カテゴリー** と **ユニット** フィールドの組み合わせで原価率を持つカテゴリ価格ラインを検出した場合、原価率が既定になります。 システムが **カテゴリ** と **単位** 値を一致できない、または一致するカテゴリの価格明細行を見つけることができるが、価格設定方法が **出荷単位ごとの価格** でない場合、コスト率がデフォルトのゼロ (0) に設定されます。
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>材料の実績と見積もり行の原価率を解決する
+
+材料の見積もり行は、材料の見積もりおよび契約品目の詳細と、プロジェクトの材料見積もり行を参照します。
+
+原価表が解決された後、システムは解決済み価格表の **価格表品目** に一致する材料見積もりの見積もり行にある **製品** と **単位** の組み合わせを使用します。 システムが、**製品** と **単位** フィールドの組み合わせの原価率を持つ製品価格行を見つけた場合、原価率が既定値になります。 システムが **製品** と **単位** 値を一致できない、または一致する価格表品目行を見つけることができたが、価格設定方法が標準原価または現在原価に基づいており、どちらも製品に定義されていない場合、単価は既定でゼロになります。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

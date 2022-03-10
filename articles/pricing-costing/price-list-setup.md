@@ -2,18 +2,16 @@
 title: 価格表の設定
 description: このトピックでは、コストと営業価格表を設定する方法について説明します。
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 34ee7bb157426507ec7ca8c031f5cb552e85099b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275499"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009492"
 ---
 # <a name="set-up-price-lists"></a>価格表の設定
 
@@ -23,7 +21,7 @@ Dynamics 365 Project Operations の価格表は料金のカタログを表しま
 
 次の拡張機能は Project Operations に固有であり、Dynamics 365 Sales の価格表に適用されます。
 
-- **コンテキスト**: このフィールドにはサポートされている値、**コスト** と **営業** があります。 値 **購入** はサポートされていません。 コンテキストを **コスト** に設定し、原価価格表を作成するか、コンテキストを **営業** に設定し、営業価格表を作成します。 原価価格表は、見積および実績レコードの原価タイプの価格を解決します。 営業価格表は、未請求および請求済みの営業タイプの見積レコードと実績レコードで価格を解決します。
+- **コンテキスト**: このフィールドにはサポートされている値、**コスト** と **営業** があります。 値 **購入** はサポートされていません。 コンテキストを **コスト** に設定し、原価価格表を作成するか、コンテキストを **営業** に設定し、営業価格表を作成します。 原価価格表は、見積もりレコードと実績レコードの原価タイプの価格を解決します。 営業価格表は、未請求および請求済みの営業タイプの見積レコードと実績レコードで価格を解決します。
 - **時間単位**: これは、この価格表に関連する **ロール価格** テーブルで価格が設定される既定の時間単位です。
 - **価格表エンティティ**: この非表示フィールドは、見積もりまたは契約固有の価格表と、標準的でグローバルに適用可能な価格表を区別するための Project Operations によるものです。
 

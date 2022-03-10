@@ -2,18 +2,16 @@
 title: 請求書自動作成の設定
 description: このトピックは、見積もり請求の自動作成の設定と構成に関する情報を提供します。
 author: rumant
-manager: Annbe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 359c5902e0b6a08ab7fc982095062e4d1816db6c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866823"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997522"
 ---
 # <a name="set-up-automatic-invoice-creation"></a>請求書自動作成の設定 
  
@@ -75,17 +73,17 @@ Dynamics 365 Project Operations で請求書自動作成を構成することが
 - ProcessRunner
 - UpdateRoleUtilization
 
-5. **ProcessRunCaller** を選択し、そして **追加** を選択します。
-6. 次のダイアログ ボックスで、 **OK** を選択します。 **スリープ** ワークフローの後に、 **プロセス** ワークフローが続きます。 
+5. **ProcessRunCaller** を選択して、**追加** を選択します。
+6. 次のダイアログ ボックスで、**OK** を選択します。 **スリープ** ワークフローの後に **プロセス** ワークフローになります。 
 
 > [!NOTE]
-> ステップ 5 で、 **ProcessRunner** を選択することもできます。 **OK** を選択すると、 **プロセス** ワークフロー の後には、 **スリープ** ワークフローが続きます。
+> ステップ 5 で **ProcessRunner** を選択することもできます。 **OK** を選択すると、 **プロセス** ワークフロー の後には、 **スリープ** ワークフローが続きます。
 
-**ProcessRunCaller** および **ProcessRunner** ワークフローは、請求書を作成します。 **ProcessRunCaller** は **ProcessRunner** を呼び出します。 **ProcessRunner** は、実際に請求書を作成するワークフローです。 ワークフローは、請求書を作成する必要のあるすべての契約品目を通過し、それらの品目の請求書を作成します。 契約書を作成する契約品目を決定するために、ジョブは契約品目の請求書の実行日を参照します。 1 つの契約に属する契約品目の請求書実行日が同じ場合、トランザクションは、 2 つの請求明細行を持つ 1 つの請求書に統合されます。 請求書を作成するトランザクションがない場合、ジョブは請求書の作成をスキップします。
+**ProcessRunCaller** および **ProcessRunner** ワークフローは、請求書を作成します。 **ProcessRunCaller** は **ProcessRunner** を呼び出します。 **ProcessRunner** は、実際に請求書を作成するワークフローです。 ワークフローは、請求書を作成する必要のあるすべての契約品目を通過し、それらの品目の請求書を作成します。 契約書を作成する契約品目を決定するために、ジョブは契約品目の請求書の実行日を参照します。 1 つの契約に属する契約品目の請求実行日が同じ場合、トランザクションは 2 つの請求品目を持つ 1 つの請求書に統合されます。 請求書を作成するトランザクションがない場合、ジョブは請求書の作成をスキップします。
 
 **ProcessRunner** の実行が完了すると、 **ProcessRunCaller** を呼び出して、終了時間が指定されてクローズされます。 **ProcessRunCaller** では、指定した終了時刻から 24 時間のタイマーを起動します。 タイマーが終了すると、 **ProcessRunCaller** が閉じられます。
 
-請求書を作成するバッチ処理ジョブは、定期的なジョブです。 このバッチ処理を何度も実行すると、ジョブのインスタンスが複数作成され、エラーが発生します。 したがって、バッチ処理は 1 度だけ起動し、起動が止まった場合にのみ再起動するようにしてください。
+請求書を作成するバッチ処理ジョブは反復ジョブです。 このバッチ処理を何度も実行すると、ジョブのインスタンスが複数作成され、エラーが発生します。 したがって、バッチ処理は 1 度だけ起動し、起動が止まった場合にのみ再起動するようにしてください。
 
 > [!NOTE]
 > Project Operations の一括請求書発行は、請求書スケジュールによって構成されたプロジェクトの契約品目に対してのみ実行されます。 固定価格の請求方法の契約品目には、マイルストーンを構成する必要があります。 時間と材料の請求方法を持つプロジェクト契約品目には、日付ベースの請求スケジュールを設定する必要があります。

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009217"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000177"
 ---
 # <a name="product-catalog-pricing"></a>製品カタログの価格 
 
@@ -44,7 +44,7 @@ ms.locfileid: "6009217"
 
 PSAは、価格が、リスト定価、標準コスト、または現在のコストとして構成されている場合、さまざま丸めオプションをサポートします。 複数の価格設定方法と丸めオプションを使用することに加えて、価格表品目に値引き表を関連付けることができます。 
 
-> ![カタログの製品をさまざまな価格表に追加する](media/basic-guide-16.png)
+> ![カタログの製品をさまざまな価格表に追加する。](media/basic-guide-16.png)
 
 **プロジェクト見積もり** ページで **カスタム価格の作成** を選択して、見積の新しいカスタム価格表を作成すると、PSAは価格表のコピーを作成し、新しい価格表のヘッダーの **エンティティ** フィールドは **営業エンティティ** に設定されます。 新しい価格表の名前には、見積名とタイムスタンプが追加されます。 カスタム ワークフローで新しい価格表の名前と見積の名前を使用して、カスタム価格を使用する見積の追加レビューと承認をトリガーすることもできます。
 

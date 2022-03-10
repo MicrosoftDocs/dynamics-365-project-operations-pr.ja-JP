@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433524"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008052"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 7 月の新機能 - リソース/非在庫のシナリオ向け Project Operations
 
@@ -20,7 +20,7 @@ ms.locfileid: "6433524"
 
 このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
 
-   - Microsoft Dataverse 環境バージョン 4.12.0.148 の Project Operations。
+   - Microsoft Dataverse 環境バージョン 4.12.0.148 または 4.12.0.152 の Project Operations。
    - Dynamics 365 Finance 環境バージョン 10.0.20 におけるプロジェクト管理と会計。
 
 ## <a name="features-included-in-this-release"></a>このリリースが含む機能
@@ -79,7 +79,7 @@ Project Operations の二重書き込みマッピングの最新のリストと�
 | 全般                       | 2296857              | 長時間実行されるジョブの進行状況の追跡。                                                                                                                                                                        |
 | 全般                       | 2253682              | 二重書き込みオーケストレーション ソリューションのない環境に二重書き込みコアがインストールされている場合、Project Operations の二重書き込みソリューションをインストールしてはいけません。                                                |
 | 全般                       | 2316420              | アプリケーション ユーザーの部署が変更されると、Project service のコア プロビジョニングが失敗する。                                                                                                                     |
-
+| 全般                       | 2376405              | 発行者主導の更新に関する問題を修正しました (品質の更新はバージョン 4.12.0.152 で利用可能です)                                                                                                                     |
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Finance のプロジェクト管理および会計
 
 | 機能                      | 照合番号 | 品質更新プログラム                                                                                                                                                                                                                                                                                                                |

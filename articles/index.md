@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: ''
 ms.search.industry: ''
 ms.author: kfend
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 759c1fbc42e29a3673601d46406ebd73e2be7ead
-ms.sourcegitcommit: 173f2b1f4e063c440a5f78d76d456c62aadbd89e
+ms.openlocfilehash: 6646379fb421796a083bc321542daef4f58dcddfc67915d68403c2a370ba90c4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "6091215"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988387"
 ---
 # <a name="dynamics-365-project-operations"></a>Dynamics 365 Project Operations
 

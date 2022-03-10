@@ -2,20 +2,18 @@
 title: プロジェクト見積もりの設定
 description: このトピックは、プロジェクトの見積もりに適用され、影響を与える情報と設定に関する情報を提供します。
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7be5f0824bfc4a58f3caabdde70a0b5b11c6f14c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 3f11188a47c6f0c7de9fb591fd3be3e22f8f7d842fb6d075c1f43d9baea4d225
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277569"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993472"
 ---
-# <a name="project-quote-settings"></a>プロジェクト見積もりの設定
+# <a name="header-details-for-project-based-quotes"></a>プロジェクトベースの見積もりのヘッダーの詳細
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 

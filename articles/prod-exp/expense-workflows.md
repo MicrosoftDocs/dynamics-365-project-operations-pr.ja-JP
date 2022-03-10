@@ -2,11 +2,9 @@
 title: 経費管理のワークフローを設定する
 description: ワークフロー プロセスを設定して出張ドキュメントや経費ドキュメントをレビューすることができます。
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f3235d12499c68a52f9d1c7e118e7bc91dc3a0a
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 97db155a1d8ce77f711ea37bbd537527607f13f212ee59383ea165f5e46b81ba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960523"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001257"
 ---
 # <a name="set-up-expense-management-workflows"></a>経費管理のワークフローを設定する
 
@@ -50,3 +48,6 @@ ms.locfileid: "4960523"
 |      <strong>現金前払い申請</strong>      |         現金前払い申請の承認ワークフローを作成します。          |
 |        <strong>VAT 過誤納税の還付</strong>        | 付加価値税 (VAT) の還付に使用する承認ワークフローを作成します。  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: プロジェクトの状態について
 description: このトピックは、Dynamics 365 Project Operations のプロジェクトに割り当てられたステータスに関する情報を提供します。
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fc9b107507008fd2381d3669552d754d2c867a7f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 47d71b945a2d5e7aa41d2ac3731ac4a5d3051ce279229794e31c9673f688130e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286479"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997027"
 ---
 # <a name="understand-project-status"></a>プロジェクトの状態について
 
