@@ -1,32 +1,31 @@
 ---
-title: プロジェクト経費カテゴリを Finance and Operations と Project Service Automation 間で同期する
-description: このトピックは、Microsoft Dynamics 365 Finance と Dynamics 365 Project Service Automation 間でプロジェクト経費カテゴリを直接同期するために使用されるテンプレートおよび基礎となるタスクについて説明しています。
+title: Finance and Operations と Project Service Automation 間でプロジェクト経費カテゴリを同期する
+description: このトピックでは、Microsoft Dynamics 365 Finance と Dynamics 365 Project Service Automation 間でプロジェクト経費カテゴリを同期するために使用されるテンプレートと基になるタスクについて説明します。
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001122"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685476"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>プロジェクト経費カテゴリを Finance and Operations と Project Service Automation 間で同期する
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Finance and Operations と Project Service Automation 間でプロジェクト経費カテゴリを同期する
 
 [!include[banner](../includes/banner.md)]
 
-このトピックは、Dynamics 365 Finance と Dynamics 365 Project Service Automation 間でプロジェクト経費カテゴリを直接同期するために、使用されるテンプレートおよび基礎となるタスクについて説明しています。
+このトピックでは、Dynamics 365 Finance と Dynamics 365 Project Service Automation 間でプロジェクト経費カテゴリを同期するために使用されるテンプレートと基になるタスクについて説明します。
 
 > [!NOTE]
 > - プロジェクト タスクの統合、経費トランザクション カテゴリ、時間の見積もり、経費の見積もり、および機能のロックはバージョン 8.0 で使用可能です。
@@ -81,10 +80,10 @@ Project Service Automation と Finance の統合ソリューションは、デ�
 
 ### <a name="power-query"></a>Power Query
 
-Project Service Automation に同期する場合は、Microsoft Power Query for Excel を使用して、トランザクション カテゴリに請求タイプを設定する必要があります。 プロジェクト経費のトランザクション カテゴリ (Fin と Ops から PSA へ) テンプレートは、デフォルトの列とマッピングを提供します。 独自のテンプレートを作成する場合は、Power Query に条件列を追加する必要があります。 次の手順を実行します。
+Project Service Automation に同期する場合は、Microsoft Power Query for Excel を使用してトランザクション カテゴリの請求タイプを設定する必要があります。 プロジェクト経費のトランザクション カテゴリ (Fin と Ops から PSA へ) テンプレートは、デフォルトの列とマッピングを提供します。 独自のテンプレートを作成する場合は、Power Query で条件列を追加する必要があります。 次の手順を実行します。
 
 1. 矢印をクリックして、プロジェクト経費トランザクション カテゴリ (Fin と Ops から PSA へ) テンプレートで、プロジェクト経費カテゴリ タスクのマッピングを開きます。
-2. **高度なクエリとフィルター処理** リンクをクリックして、Power Query を開きます。
+2. **高度なクエリおよびフィルター処理** のリンクをクリックして、Power Query を開きます。
 2. **条件付き列を追加** を選択します。
 3. **BillingType** などの新しい列の名前を入力します。
 4. 次の条件を入力します: **CATEGORYID が null と等しくない場合は 19235001、そうでない場合は null**。

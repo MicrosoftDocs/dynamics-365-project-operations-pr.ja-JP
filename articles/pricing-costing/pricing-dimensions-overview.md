@@ -3,17 +3,16 @@ title: 価格ディメンションの概要
 description: このトピックは Dynamics 365 Project Operations の価格ディメンションに関する情報を提供します。
 author: rumant
 ms.date: 11/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001977"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579266"
 ---
 # <a name="pricing-dimensions-overview"></a>価格ディメンションの概要
 
@@ -58,18 +57,18 @@ Dynamics 365 Project Operations には、価格ディメンションの既定セ
 
 **サンプル請求レート**
 
-| ロール        | 組織単位    |単位      |価格      |通貨  |
+| ロール        | 組織単位    |出荷単位      |価格      |[通貨]  |
 | ------------|-------------|----------|----------:|----------|
-| 開発者   | Contoso US  |時 | 200|USD     |
-| 開発者   | Contoso India |時|   112|USD     |
+| 開発者   | Contoso US  |Hour | 200|USD     |
+| 開発者   | Contoso India社 |Hour|   112|USD     |
 
 
 **サンプル コスト レート**
 
-| 給与範囲     | 組織単位    |単位      |価格      |通貨  |
+| 給与範囲     | 組織単位    |出荷単位      |価格      |[通貨]  |
 | ----------------|-------------|----------|----------:|----------|
-| 自分の会社_Band1 | Contoso US  |時 | 145|USD     |
-| 自分の会社_Band2 | Contoso India |時|   67|USD     |
+| 自分の会社_Band1 | Contoso US  |Hour | 145|USD     |
+| 自分の会社_Band2 | Contoso India社 |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

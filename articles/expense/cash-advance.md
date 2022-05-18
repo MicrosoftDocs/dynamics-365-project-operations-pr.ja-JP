@@ -4,16 +4,16 @@ description: このトピックでは、現金前払いについて説明しま�
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6881fc8251a2d3c7d6af0016780a92358ce63397d09b9a0cde201126cd2912cc
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8151ecfb83f0d6da32451d509364b8f63dffdb4d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988522"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585706"
 ---
 # <a name="cash-advance"></a>現金前払い
 
@@ -66,7 +66,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
  
  これらの機能が有効になっている場合: 
  
-  - 経費明細行ごとに 1 つ以上の現金前払いを利用できます。
+  - 経費明細ごとに 1 つ以上の現金前払いを追加できます。
   - 現金前払いの利用可能な残高は、経費報告書が保存されるときにリアルタイムで表示されます。 これにより、経費トランザクションを処理しながら、現金トランザクションを同時に返すことができます。
   - 経費トランザクションごとに複数の現金前払いを選択できます。
   - 現金前払い調整データは、クエリを使用して利用できます。 

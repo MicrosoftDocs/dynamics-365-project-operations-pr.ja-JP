@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005577"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589616"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>2021 年 4 月の最新情報または変更事項 - 在庫/製造ベースのシナリオ向け Project Operations
 
@@ -20,7 +20,7 @@ _**適用対象:** 在庫/製造ベースのシナリオ向け Project Operation
 
 このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
 
-- Dynamics 365 Finance 環境バージョン 10.0.18 でのプロジェクト管理および会計
+- Dynamics 365 Finance 環境バージョン 10.0.18 でのプロジェクト管理と会計
  
 ### <a name="quality-updates"></a>品質更新プログラム
                                                                                                                                                                                   
@@ -83,7 +83,7 @@ _**適用対象:** 在庫/製造ベースのシナリオ向け Project Operation
 | 出張と経費                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | 経費カテゴリが非プロジェクト カテゴリの場合、**経費** ページで選択された財務ディメンションは経費報告書にコピーされない。                                          |
 
 ### <a name="regulatory-updates"></a>規制の更新
-Finance and Operations アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
+財務と運用アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

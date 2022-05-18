@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928667"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594860"
 ---
 # <a name="provision-a-new-environment"></a>新しい環境をプロビジョニングする
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 このトピックでは、リソース/非在庫ベースのシナリオについて Dynamics 365 Project Operations の新しい環境をプロビジョニングする方法を説明します。
 
@@ -34,7 +34,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ## <a name="provision-a-project-operations-environment"></a>Project Operations 環境をプロビジョニングする
 
-1. 新しい Dynamics 365 Finance[デモ環境](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) または[サンドボックス/運用環境](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) の展開を開きます。 
+1. 新しい Dynamics 365 Finance [デモ環境](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) または [サンドボックス/ 運用環境](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) 展開を開きます。 
 2. **環境プロビジョニング** ウィザードを検証します。 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Project Operations には、**10.0.13 (10.0.569.20009)** 以上のアプリケ�
 
     ![ソリューションを適用する。](./media/13ApplySolutions.png)
 
-5. **Dynamics 365 Finance and Operations 二重書き込みエンティティ マップ** と **Dynamics 365 Project Operations 二重書き込みエンティティ マップ** のソリューションを両方選択してから **適用** を選択します。
+5. 両方のソリューション、**Dynamics 365 Finance and Operations の二重書き込みマップ** と **Dynamics 365 Project Operations 二重書き込みマップ** を選択して、次に **適用** を選択します。
 
     ![ソリューションの確認。](./media/14ConfirmSolutions.png)
 

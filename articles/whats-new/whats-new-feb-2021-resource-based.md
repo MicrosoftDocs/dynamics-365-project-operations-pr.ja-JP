@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986812"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589018"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 2 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 
@@ -21,7 +21,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
 
 - Dataverse 環境 4.7.0.95 での Project Operations
-- Dynamics 365 Finance 環境バージョン 10.0.16 でのプロジェクト管理および会計 
+- Dynamics 365 Finance 環境バージョン 10.0.16 でのプロジェクト管理と会計 
 
 ## <a name="quality-updates"></a>品質更新プログラム
 
@@ -44,14 +44,14 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | **時間エントリ** | 2129161 | 送信または承認された時間エントリをユーザーが変更および更新できないようにするために、より厳しい制限が適用されました。 |
 | **時間エントリ** | 2103572 | プロジェクト以外の時間エントリの時間承認で、プロジェクト承認者のロールを探さなくなりました。 |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance でのプロジェクト管理および会計 
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance でのプロジェクト管理および会計の概要 
 
-Dynamics 365 Finance のプロジェクト管理および会計の詳細については、る[2021 年 1 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations](whats-new-jan-2021-resource-based.md) を参照してください。
+Dynamics 365 Finance でのプロジェクト管理と会計の詳細については、[2021 年 1 月新機能 - リソース/非在庫ベースのシナリオ向け Project Operations](whats-new-jan-2021-resource-based.md) を参照してください。
 
 
 ## <a name="regulatory-updates"></a>規制の更新
 
-Finance and Operations アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 規制の更新について学ぶもう 1 つの方法は、Lifecycle Services (LCS) にログインし、問題検索ツールを使用して計画された規制の更新を表示することです。 問題検索では、国、機能の種類、リリースで検索できます。
+財務と運用アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 規制の更新について学ぶもう 1 つの方法は、Lifecycle Services (LCS) にログインし、問題検索ツールを使用して計画された規制の更新を表示することです。 問題検索では、国、機能の種類、リリースで検索できます。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

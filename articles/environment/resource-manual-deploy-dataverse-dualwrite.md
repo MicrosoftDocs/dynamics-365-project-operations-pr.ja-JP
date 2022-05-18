@@ -4,14 +4,14 @@ description: このトピックは、デュアル書き込みに対応する Pro
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 06325a9a9f9084d1f506f2493c32565fe7b7c52ae6fe22c81339b9c1d632e688
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986452"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591226"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>デュアル書き込みに対応する Project Operations の Dataverse アプリを手動でデプロイする
 
@@ -37,7 +37,7 @@ Dataverse に Project Operations を展開してデュアル書き込みに対�
 3. 環境の種類を選択する。 試用版のオファーにサインアップした場合は、**試用版 (サブスクリプション ベース)** を選択します。
 4. 展開するリージョンを確認します。
 5. **この環境にデータベースを作成する** オプションを有効化します。 
-6. 言語を確認し、次に通貨が Finance and Operations のアプリの通貨と一致していることを確認します。
+6. 言語を確認してから、通貨が財務と運用アプリの通貨と一致することを確認します。
 7. **Dynamics 365 アプリ** のオプションを有効にし、**これらのアプリを自動的にデプロイする** のフィールドが **無し** になっていることを確認します。
 8. セキュリティ グループが必要な場合は、セキュリティ グループを追加します。
 9. **保存** を選択して、環境を作成します。
@@ -62,4 +62,4 @@ Dataverse に Project Operations を展開してデュアル書き込みに対�
 
 ## <a name="link-your-environments"></a><a name="link"></a>ご利用の環境をリンクする
 
-Dataverse の環境がデプロイされた後、 Finance and Operations アプリでリンクを設定することができます。 [デデュアル書き込みの設定ウィザードを使用して環境をリンクする](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment)に記載の手順に従ってください。
+Dataverse 環境がデプロイされた後、財務と運用アプリでリンクを設定できます。 [デデュアル書き込みの設定ウィザードを使用して環境をリンクする](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment)に記載の手順に従ってください。

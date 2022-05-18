@@ -1,32 +1,31 @@
 ---
-title: Project Service Automation から Finance and Operations へのプロジェクト見積もりの直接同期
-description: このトピックでは、Microsoft Dynamics 365 Project Service Automation から Dynamics 365 Finance へのプロジェクト時間の見積もりおよびプロジェクト経費の見積もりを直接同期するために使用されるテンプレートと基礎となるタスクについて説明します。
+title: プロジェクト見積もりを Project Service Automation から Finance and Operations に直接同期する
+description: このトピックでは、Microsoft Dynamics 365 Project Service Automation から Dynamics 365 Finance にプロジェクト時間見積もりおよびプロジェクト経費見積もりを直接同期するために使用されるテンプレートと基になるタスクについて説明します。
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 6696449d80e0915a0c878dbe75cfdf6e268b98ad9f6453bcfc4b424db68021e4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988207"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684602"
 ---
-# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Project Service Automation から Finance and Operations へのプロジェクト見積もりの直接同期
+# <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>プロジェクト見積もりを Project Service Automation から Finance and Operations に直接同期する
 
 [!include[banner](../includes/banner.md)]
 
-このトピックでは、Dynamics 365 Project Service Automation から Dynamics 365 Finance へのプロジェクト時間の見積もりおよびプロジェクト経費の見積もりを直接同期するために使用されるテンプレートと基礎となるタスクについて説明します。
+このトピックでは、Dynamics 365 Project Service Automation から Dynamics 365 Finance にプロジェクト時間見積もりおよびプロジェクト経費見積もりを直接同期するために使用されるテンプレートと基になるタスクについて説明します。
 
 > [!NOTE]
 > - プロジェクト タスクの統合、経費トランザクション カテゴリ、時間の見積もり、経費の見積もり、および機能のロックはバージョン 8.0 で使用可能です。
@@ -70,7 +69,7 @@ Project Service Automation から Finance への統合ソリューションは�
 
 ### <a name="power-query"></a>Power Query
 
-プロジェクト時間の見積もりテンプレートでは、Microsoft Power Query for Excel を使用して次のタスクを完了する必要があります。
+プロジェクト時間見積もりテンプレートで Microsoft Power Query for Excel を使用して、これらのタスクを完了する必要があります:
 
 - 統合が新しい時間予測を作成するときに使用される既定の予測モデル ID を設定します。
 - 時間予測への統合に失敗するタスクで、リソース固有の任意のレコードを除外します。
@@ -81,7 +80,7 @@ Project Service Automation から Finance への統合ソリューションは�
 テンプレートで既定の予測モデル ID を更新するには、**マップ** 矢印をクリックしてマッピングを開きます。 次に、**高度なクエリとフィルター処理** リンクを選択します。
 
 - 既定のプロジェクト時間の見積もり (PSA から Finance and Operation へ) テンプレートを使用している場合は、**適用したステップ** の一覧で **挿入した条件** を選択します。 **関数** エントリで、**O\_forecast** を統合で使用する予測モデル ID の名前に置き換えます。 既定のテンプレートには、デモ データからの予測モデル ID があります。
-- 新しいテンプレートを作成する場合は、この列を追加する必要があります。 Power Query で、**条件列の追加** を選択し、**ModelID** などの新しい列の名前を入力します。 列の条件を入力します。プロジェクトタスクが null でなければ、\<enter the forecast model ID\> します。それ以外の場合は null です。
+- 新しいテンプレートを作成する場合は、この列を追加する必要があります。 Power Query で **条件列の追加** を選択し、新しい列に **ModelID** などの名前を入力します。 列の条件を入力します。プロジェクトタスクが null でなければ、\<enter the forecast model ID\> します。それ以外の場合は null です。
 
 #### <a name="filter-out-resource-specific-records"></a>リソース固有のレコードを除外する
 
@@ -126,7 +125,7 @@ Project Service Automation から Finance への統合ソリューションは�
 
 ### <a name="power-query"></a>Power Query
 
-プロジェクト経費の見積もりテンプレートでは、Power Query を使用して次のタスクを完了する必要があります。
+プロジェクト経費見積もりテンプレートで、Power Query を使用して以下のタスクを完了する必要があります:
 
 - 経費見積行レコードのみを含めるようにフィルター処理します。
 - 統合が新しい時間予測を作成するときに使用される既定の予測モデル ID を設定します。
@@ -141,8 +140,8 @@ Project Service Automation から Finance への統合ソリューションは�
 
 テンプレートで既定の予測モデル ID を更新するには、**経費の見積もり** タスクを選択してから、**マップ** 矢印をクリックしてマッピングを開きます。 **高度なクエリとフィルター処理** リンクを選択します。
 
-- 既定のプロジェクト経費の見積もり (PSA から Finance and Operation へ) テンプレートを使用している場合は、Power Query で、**適用したステップ** セクションから最初に **挿入した条件** を選択します。 **関数** エントリで、**O\_forecast** を統合で使用する予測モデル ID の名前に置き換えます。 既定のテンプレートには、デモ データからの予測モデル ID があります。
-- 新しいテンプレートを作成する場合は、この列を追加する必要があります。 Power Query で、**条件列の追加** を選択し、**ModelID** などの新しい列の名前を入力します。 列の条件を入力します。見積り行 IDが null でなければ、\<enter the forecast model ID\> します。それ以外の場合は null です。
+- 既定のプロジェクト経費見積もり (PSA から Fin and Ops) テンプレートを使用している場合、Power Query で、**適用したステップ** セクションから最初に **挿入された条件** を選択します。 **関数** エントリで、**O\_forecast** を統合で使用する予測モデル ID の名前に置き換えます。 既定のテンプレートには、デモ データからの予測モデル ID があります。
+- 新しいテンプレートを作成する場合は、この列を追加する必要があります。 Power Query で **条件列の追加** を選択し、新しい列に **ModelID** などの名前を入力します。 列の条件を入力します。見積り行 IDが null でなければ、\<enter the forecast model ID\> します。それ以外の場合は null です。
 
 #### <a name="transform-the-billing-types"></a>請求タイプを変換する
 

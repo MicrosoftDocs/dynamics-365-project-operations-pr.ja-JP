@@ -4,14 +4,14 @@ description: このトピックでは、プロジェクトの完了コストを�
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fe42ea0e1a5c562ec648fbf2a2924648af80381b9db8ffe0c209cb5247bb2ba2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 244afa919e5fbc16be8f905acce2e2354c7da974
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997972"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601668"
 ---
 # <a name="cost-to-complete-methods"></a>完了までの原価の計算方法
 

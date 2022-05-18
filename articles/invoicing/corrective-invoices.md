@@ -4,14 +4,14 @@ description: このトピックは、Project Operations における修正請求
 author: rumant
 ms.date: 03/29/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: cde82bb3c5777458a63a44a131af284e6ed5d7532de6aacbb5eb860c1fcddebd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 27db247b5bcac47a44eb24ade07452cbccb8f968
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006206"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590529"
 ---
 # <a name="create-corrective-project-based-invoices"></a>プロジェクトの修正ベース請求書の作成 
 

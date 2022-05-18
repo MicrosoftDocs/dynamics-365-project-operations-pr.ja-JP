@@ -4,14 +4,14 @@ description: このトピックでは、プロジェクトベースの契約書�
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64e81593065d97272af6261e17175c76bd8dca7a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001842"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590490"
 ---
 # <a name="manage-project-contracts"></a>プロジェクト契約の管理
 
@@ -31,6 +31,9 @@ Dynamics 365 Project Operations のプロジェクト契約では、契約によ
 2. **ビュースイッチャー**(ビュー名称の横にあるドロップダウン アロー)を選択し、他のフィルターされたビューを選択します。 カスタム フィルター条件を使用して独自のビューを作成できます。
 
 契約は、このリストページまたは詳細ページから作成、削除できます。
+
+> [!NOTE]
+> プロジェクト、タスク、見積もり、仕訳帳、および/または実績が関連付けられている契約は削除できません。 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

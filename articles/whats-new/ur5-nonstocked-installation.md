@@ -1,25 +1,25 @@
 ---
 title: Finance 環境で Project Operations を更新する
-description: このトピックでは、Dynamics 365 Finance 環境で Project Operations をアップデートする方法について説明します。
+description: このトピックは、Dynamics 365 Finance 環境で Project Operations を更新する方法に関する情報を提供します。
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986767"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579940"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Finance 環境で Project Operations を更新する
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
 
-このトピックでは、 Dynamics 365 Finance 環境で Dynamics 365 Project Operations を更新する方法について説明します。 Project Operationsを Update 5 (UR5) に更新するために必要な手順は 3 つあります。
+このトピックは、Dynamics 365 Finance 環境で Dynamics 365 Project Operations を更新する方法に関する情報を提供します。 Project Operationsを Update 5 (UR5) に更新するために必要な手順は 3 つあります。
 
 - [パッケージをプレビュー プロジェクトにインポートする](#import)
 - [更新プログラムを適用する](#apply)
@@ -119,7 +119,7 @@ UR5 の更新の一部として、エンティティのセキュリティ権限�
 4. **テーブル マップ バージョン** ページで、3 つのエンティティのそれぞれに新しいバージョンのマップを適用します。
 5. **二重書き込み** ページで、実行を選択してマップを再起動します。
 6. マップのリストから、すべての前提条件を満たす **元帳 (msdyn_ledgers)** マップを選択し、**初期同期** チェック ボックスをオンにします。 
-7. **初期同期のマスター** フィールドで、**Finance and Operations アプリ** を選び、次に **実行** を選択します。
+7. **初期同期のマスター** フィールドで、**財務と運用アプリ** を選択して、**実行** を選択します。
  
  ![台帳マップの同期。](media/DW6.png)
  

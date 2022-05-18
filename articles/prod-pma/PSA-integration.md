@@ -3,31 +3,29 @@ title: Project Service Automation の概要
 description: このトピックでは、Dynamics 365 Project Service Automation から Dynamics 365 Finance への統合ソリューションについて説明します。
 author: ruhercul
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ruhercul
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b8588e664f140ca1b0dd740d27fe6a5137da595
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005892"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685522"
 ---
 # <a name="project-service-automation-overview"></a>Project Service Automation の概要
 
 [!include[banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Project Service Automation から Finance への統合ソリューションは、データ統合機能を使用して、Dynamics 365 Finance および Dynamics 365 Project Service Automation のインスタンス間で、Common Data Service を経由してデータを同期します。 データ統合機能で使用可能な統合テンプレートを使用すると、Project Service Automation から Finance への、プロジェクト、プロジェクト契約、プロジェクト契約品目、プロジェクト契約品目のマイルストーン、プロジェクト タスク、経費トランザクション カテゴリ、時間の見積もり、および経費の見積もりのフローを実行できます。
+
+Project Service Automation から Finance への統合ソリューションでは、データ統合機能を使用して、Common Data Service 経由で Dynamics 365 Finance と Dynamics 365 Project Service Automation のインスタンス間でデータを同期します。 データ統合機能で使用可能な統合テンプレートを使用すると、Project Service Automation から Finance への、プロジェクト、プロジェクト契約、プロジェクト契約品目、プロジェクト契約品目のマイルストーン、プロジェクト タスク、経費トランザクション カテゴリ、時間の見積もり、および経費の見積もりのフローを実行できます。
 
 > [!NOTE]
 > - バージョン 7.3.0 を使用している場合は、KB 4074835 をインストールする必要があります。 その後、固定価格プロジェクトを統合できます。

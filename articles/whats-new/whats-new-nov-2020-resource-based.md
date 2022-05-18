@@ -4,14 +4,14 @@ description: このトピックでは、リソース/非在庫ベースのシナ
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9eda9d75f5a4d71e6e4b8bd22dce973270639db3f927ac6a76be5b3c4303fc31
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007962"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600380"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 年 11 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 
@@ -20,7 +20,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
 
 - CDS 環境バージョン 4.4.0.70 での Project Operations
-- Dynamics 365 Finance 環境バージョン 10.0.14 でのプロジェクト管理および会計
+- Dynamics 365 Finance 環境バージョン 10.0.14 でのプロジェクト管理と会計
 
 ## <a name="updates-to-project-operations-for-resource-non-stocked-based-scenarios"></a>リソース非在庫ベースのシナリオ向け Project Operations の更新
 
@@ -42,7 +42,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | 時間と簡易経費入力 | 2059859          | 経費エントリを作成すると、予期しないポップアップが開きます。                                                                                                                         |
 | その他                        | 2044181          | (発注書のアンインストール)   msdyn_ProjectServiceCore_Patch および msdyn Project Service のコア ソリューションをアンインストールしようとすると、「レコードは利用できません」 というエラーが発生します。  |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance でのプロジェクト管理および会計
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance でのプロジェクト管理および会計の概要
 
 | 機能        | 照合番号 | 品質更新プログラム                                                                                                                                                            |
 |---------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -65,7 +65,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | プロジェクト会計  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | この機能を有効にすると、CDS 統合なしに複数の契約品目は不可能です。                                                                                   |
 
 ### <a name="regulatory-updates"></a>規制の更新
-Finance and Operations アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
+財務と運用アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984877"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579864"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 年 12 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 
@@ -21,7 +21,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
 
 - Dataverse 環境バージョン 4.5.0.134 での Project Operations
-- Dynamics 365 Finance 環境バージョン 10.0.15 でのプロジェクト管理および会計
+- Dynamics 365 Finance 環境バージョン 10.0.15 でのプロジェクト管理と会計
 
 このリリースに更新する方法については、[Finance 環境で Project Operations を更新する](ur5-nonstocked-installation.md)を参照してください。
 
@@ -61,12 +61,12 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | プロジェクトの計画と追跡 | 2057197          | タスク参照を使用した見積行のコピーはサポートしていません                                                                                                     |
 | プロジェクトの計画と追跡 | 2060687          | 特定期間の経過後にタイムゾーン警告が非表示になります                                                                                                      |
 | リソース管理           | 1832887          | Dataverse や Finance の環境で、繰り返し可能なデータ読み込みを行う際は、既定のリソース カテゴリ ID を静的にする必要があります                                                 |
-| 時間と経費              | 2081793          | **経費カテゴリの名前** を Finance and Operations アプリの **経費カテゴリの説明** フィールドにマッピングする必要があります                                                  |
+| 時間と経費              | 2081793          | **経費カテゴリ名** は、財務と運用アプリで **経費カテゴリの説明** フィールドにマッピングする必要があります                                                  |
 | 時間と経費              | 2034882          | Dynamics 365 Field Service をインストールすると、**新規** ボタンが時間入力のコマンド バーに 2 回表示されます                                          |
 | 時間と経費              | 2056028          | **時間の編集** ページを更新してタイムラインを含めます                                                                                                              |
 | 時間と経費              | 1983747          | 時間入力グラフは追加データを示します                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance でのプロジェクト管理および会計
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance でのプロジェクト管理および会計の概要
 
 | 機能                        | 照合番号 | 品質更新プログラム                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | 出張と経費                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | 経費レポートの自動転記ワークフローを完了しても請求書が転記されません                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>規制の更新
-Finance and Operations アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
+財務と運用アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

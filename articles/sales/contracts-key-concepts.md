@@ -4,26 +4,26 @@ description: このトピックでは、Dynamics Project Operations における
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986947"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582946"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>プロジェクトベースの契約固有の概念
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 このトピックでは Dynamics 365 Project Operations でプロジェクト契約を使用する前に把握する必要がある重要な概念を説明します:
 
 ## <a name="owning-company"></a>所有会社
 
-所有会社は、Dynamics 365 Finance に由来する Project Operations 向けの **プロジェクト管理および会計** モジュールの法人格です。 所有会社は、取引から発生する費用や収益を計上する法人を表します。
+所有会社は、Dynamics 365 Finance での Project Operations の **プロジェクト管理と会計** モジュールの法人です。 所有会社は、取引から発生する費用や収益を計上する法人を表します。
 
 ## <a name="contracting-unit"></a>契約単位
 

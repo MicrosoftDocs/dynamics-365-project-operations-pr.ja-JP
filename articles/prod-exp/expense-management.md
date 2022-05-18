@@ -3,25 +3,23 @@ title: 経費管理の概要
 description: このトピックは、経費管理に関する一般的な情報と追加のリソースへのリンクについて説明します。 経費管理を使用して、支払い方法情報の保存、クレジットカード取引のインポート、従業員がビジネスの経費を負担した金額を追跡できる統合ワークフローを作成できます。
 author: ShylaThompson
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b069b5101c0b093bea5ddb7c02d4e0f5fedd09b7ae051dca96f620b164c17fd3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001437"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684832"
 ---
 # <a name="expense-management-overview"></a>経費管理の概要
 
@@ -45,7 +43,7 @@ ms.locfileid: "7001437"
 
 ### <a name="blogs"></a>ブログ
 
-意見やニュース、その他の情報は、[Microsoft Dynamics 365 ブログ](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)、[Microsoft Dynamics 365 Finance and Operations-財務ブログ](https://community.dynamics.com/365/financeandoperations/b/financials) を参照してください。
+意見、ニュース、その他の情報については、[Microsoft Dynamics 365 ブログ](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)と [Microsoft Dynamics 365 Finance and Operations - 財務のブログ](https://community.dynamics.com/365/financeandoperations/b/financials)を参照してください。
 
 [Microsoft Dynamics Operations パートナー コミュニティ ブログ](https://community.dynamics.com/partner/b/operationspartnercommunityblog) では、 Microsoft Dynamics パートナーは、ひとつのリソースから MBS 事業の新しいトレンドを学ぶことができます。
 

@@ -4,20 +4,20 @@ description: このトピックは、リソース/非在庫ベースのシナリ
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: f47d5a29c0e40a49aed7b3e52c5d52a9c27b8dbc
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323422"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575816"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>リソース/在庫のないシナリオ向け Project Operations プレビュー サブスクリプションにサインアップします
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 このトピックでは、試用版のオファーに登録して、リソース/非ストックベースのシナリオ用に Project Operations 環境をデプロイする方法について説明します。
 
@@ -40,16 +40,16 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
   オファーが正常に引き換えられたことを確認します。
 
-### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance プレビュー 試用版
+### <a name="dynamics-365-finance-preview-trial"></a>Dynamics 365 Finance プレビューの試用版
 
 [Dynamics 365 for Finance プレビューの試用版](https://aka.ms/trypoche)にアクセスし、「クラウドホスト環境に登録する」のオファーを使用して、前述のセクションに記載の手順を繰り返します。  
 
 ## <a name="assign-licenses"></a>ライセンスの割り当て
 
 > [!IMPORTANT]
-> 次の手順を完了するには、組織の Microsoft 365 ポータルへの管理アクセスが必要です。
+> 次の手順を完了するためには、組織の Microsoft 365 のポータルへの管理アクセスが必要です。
 
-1. [Microsoft 365 管理センター](https://portal.office.com/) に移動し、ユーザーにライセンスを割り当てます。
+1. [Microsoft 365 管理センター](https://portal.office.com/)にアクセスし、ユーザーにライセンスを割り当てます。
 
 2. **アクティブ ユーザー** ページで、ライセンスを割り当てるユーザーを選択します。
 

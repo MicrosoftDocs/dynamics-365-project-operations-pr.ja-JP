@@ -3,15 +3,15 @@ title: Project Operations での外注管理
 description: このトピックでは、通常はプロジェクトベースの組織における、エンドツーエンドの外注管理プロセスの概要について説明しています。
 author: rumant
 ms.date: 08/02/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 993edfd064279a970d7c42d5fcefd794e949a931
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323602"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593020"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Project Operations での外注管理
 
@@ -46,7 +46,7 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 外注品目が **数量基準** の場合、時間、費用、または材料を指定して外注品目で購入された数量は、任意のプロジェクトで使用できます。
 
-外注品目が **作業基準** の場合、外注品目は、プロジェクト計画のノードによって表される一連の作業の本体にマップされます。 外注品目の値は、その一連の作業を提供するために必要なすべてのコンポーネントの合計です。 これらは外注品目の詳細としてモデル化され、時間、費用、または材料のコレクションにすることができます。 作業基準の外注品目の場合、外注品目も単一のプロジェクト専用です。
+外注品目が **作業基準** の場合、外注品目は、プロジェクト計画のノードによって表される一連の作業の本体にマップされます。 外注品目の値は、その一連の作業を提供するために必要なすべてのコンポーネントの合計です。 これらは外注品目の詳細としてモデル化され、時間、費用、または材料のコレクションにすることができます。 作業基準の外注品目の場合、外注品目も単一のプロジェクト専用です。 これらのタイプの下請けは現在、Project Operations ではサポートされていません。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

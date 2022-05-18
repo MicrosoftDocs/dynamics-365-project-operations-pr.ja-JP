@@ -4,20 +4,20 @@ description: このトピックは Dynamics 365 Project Operations のセキュ�
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8ba220097589655381ac1da5d4d926605c3ae672
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991492"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585752"
 ---
 # <a name="security-model"></a>セキュリティ モデル
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Microsoft Dynamics 365 Project Operations は独自のセキュリティモデルを含み、Microsoft Office グループと連携するロール ベースのビジネス セキュリティ モデルを利用できます。 
 
@@ -70,7 +70,7 @@ Office グループのコラボレーション モデルが拡張するにつれ
 
 詳細については、[Common Data Service のセキュリティ](/power-platform/admin/wp-security) を参照してください。
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations と Microsoft Dynamics 365 Finance セキュリティ
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations および Microsoft Dynamics 365 Finance のセキュリティ
 Project Operations には次のロールが含まれます:
 
 - プロジェクト マネージャー

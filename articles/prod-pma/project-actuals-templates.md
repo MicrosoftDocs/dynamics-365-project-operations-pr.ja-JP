@@ -1,32 +1,31 @@
 ---
-title: Finance and Operations に転記するため、プロジェクトの実績を Project Service Automation から直接プロジェクト総合ジャーナルへ同期する
-description: このトピックでは、Microsoft Dynamics 365 Project Service Automation から Finance and Operations へプロジェクトの実績を直接同期するために、使用されるテンプレートと基礎となるタスクについて説明しています。
+title: Finance and Operations へ転記するために、プロジェクトの実績を Project Service Automation から プロジェクト統合仕訳帳に直接同期する
+description: このトピックでは、Microsoft Dynamics 365 Project Service Automation から Finance and Operations にプロジェクト実績を直接同期するために使用されるテンプレートと基になるタスクについて説明します。
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988117"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683544"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Finance and Operations に転記するため、プロジェクトの実績を Project Service Automation から直接プロジェクト総合ジャーナルへ同期する
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Finance and Operations へ転記するために、プロジェクトの実績を Project Service Automation から プロジェクト統合仕訳帳に直接同期する
 
 [!include[banner](../includes/banner.md)]
 
-このトピックでは、Dynamics 365 Project Service Automation から Dynamics 365 Finance へプロジェクトの実績を直接同期するために、使用されるテンプレートと基礎となるタスクについて説明しています。
+このトピックでは、Dynamics 365 Project Service Automation から Dynamics 365 Finance にプロジェクト実績を直接同期するために使用されるテンプレートと基になるタスクについて説明します。
 
 テンプレートは、Project Service Automation からのトランザクションを Finance のステージング テーブルに同期します。 同期が完了すると、ステージング テーブルから統合ジャーナルにデータをインポートする **必要** があります。
 
@@ -42,7 +41,7 @@ Project Service Automation から Finance への統合ソリューションは�
 
 次の図は、Project Service Automation と Finance 間でデータを同期する方法を示します。
 
-[![Project Service Automation と Finance and Operations の統合用データ フロー。](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Project Service Automation のデータ フローを Finance and Operations と統合。](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Project Service Automation からのプロジェクトの実績
 
@@ -75,7 +74,7 @@ Project Service Automation から Finance への統合ソリューションは�
 
 ### <a name="power-query"></a>Power Query
 
-プロジェクトの実績テンプレートでは、Microsoft Power Query for Excel を使用して次のタスクを完了する必要があります。
+プロジェクト実績テンプレートで、Microsoft Power Query for Excel を使用してこれらのタスクを完了する必要があります:
 
 - Project Service Automation のトランザクション タイプを、Finance の正しいトランザクション タイプに変換します。 この変換は、プロジェクト実績 (PSA から Fin および Ops へ) テンプレートですでに定義されています。
 - Project Service Automation の請求タイプを、Finance の正しい請求タイプに変換します。 この変換は、プロジェクト実績 (PSA から Fin および Ops へ) テンプレートですでに定義されています。 次に、請求タイプは明細行プロパティにマップされ、**Project Service Automation 統合パラメーター** ページの設定に基づきます。
@@ -84,9 +83,9 @@ Project Service Automation から Finance への統合ソリューションは�
 - 会社間の時間または会社間の費用の実績が Finance に同期されない場合は、最後に挿入された条件付き列をテンプレートから削除する必要があります。 そうしないと、統合エラーが発生するか、または誤った実際のトランザクションが Finance にインポートされる可能性があります。
 
 #### <a name="contract-organizational-unit"></a>契約組織の単位
-テンプレートで挿入された条件付き列を更新するには、**マップ** 矢印をクリックしてマッピングを開きます。 **高度なクエリとフィルター処理** リンクを選択し、Power Query を開きます。
+テンプレートで挿入された条件付き列を更新するには、**マップ** 矢印をクリックしてマッピングを開きます。 **高度なクエリおよびフィルター処理** のリンクを選択して、Power Query を開きます。
 
-- 既定のプロジェクト実績 (PSA から Fin と Ops へ) テンプレートを使用している場合は、Power Query で、**適用したステップ** セクションから最後に **挿入した条件** を選択します。 **関数** エントリで、**USSI** を統合で使用する法人名に置き換えます。 必要に応じて、条件を **関数** にエントリに追加し、**USMF** から正しい法人に **他の** 条件を更新します。
+- 既定のプロジェクト実績 (PSA から Fin and Ops) テンプレートを使用している場合、Power Query で、**適用したステップ** セクションから最後に **挿入された条件** を選択します。 **関数** エントリで、**USSI** を統合で使用する法人名に置き換えます。 必要に応じて、条件を **関数** にエントリに追加し、**USMF** から正しい法人に **他の** 条件を更新します。
 - 新しいテンプレートを作成する場合は、会社間の時間と費用をサポートするために列を追加する必要があります。 **条件列の追加** を選択し、**LegalEntity** などの列の名前を入力します。 列の条件 **msdyn\_contractorganizationalunitid.msdyn\_name** is \<organizational unit\>, then \<enter the legal entity\>; else null を入力します。
 
 ### <a name="template-mapping-in-data-integration"></a>データ統合におけるテンプレート マッピング
@@ -126,7 +125,7 @@ Project Service Automation から Finance への統合ソリューションは�
 
 ### <a name="power-query"></a>Power Query
 
-プロジェクト実績の更新テンプレートでは、Power Query を使用して次のタスクを完了する必要があります。
+プロジェクト実績更新テンプレートで、Power Query を使用してこれらのタスクを完了する必要があります:
 
 - Finance のトランザクション タイプを、Project Service Automation で正しいトランザクション タイプに変換します。 この変換は、プロジェクト実績の更新 (Fin Ops から PSA へ) テンプレートですでに定義されています。
 - Finance の請求タイプを、Project Service Automation の正しい請求タイプに変換します。 この変換は、プロジェクト実績の更新 (Fin Ops から PSA へ) テンプレートですでに定義されています。

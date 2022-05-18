@@ -4,14 +4,14 @@ description: このトピックは、時間の外注品目を記録し、ベン�
 author: rumant
 ms.date: 08/05/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: c1adc1e88369e9f60548ed69b5950070d5f10c57
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547250"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8595688"
 ---
 # <a name="subcontract-lines-for-time"></a>時間の外注品目
 

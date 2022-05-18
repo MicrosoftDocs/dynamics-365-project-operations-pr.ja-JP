@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26d4d9feb386075fec2b5c0854e0762604a74d36c90068e35d351e52d95165d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d0af6d99a24619b3613a3aaa027404556b1b81c4
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994687"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723774"
 ---
 # <a name="whats-new-may-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 5 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 
@@ -21,7 +21,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
 
 - Dynamics 365 Dataverse 環境バージョン 4.10.0.186 での Project Operations
-- Finance and Operations アプリ環境バージョン 10.0.18 におけるプロジェクト管理と会計
+- 財務と運用アプリの環境バージョン 10.0.18 でのプロジェクト管理および会計
 
 ## <a name="features-included-in-this-release"></a>このリリースが含む機能
 
@@ -41,9 +41,9 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | Project Operations 統合プロジェクト ベンダー請求書明細のエクスポート エンティティ (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | 品質更新プログラム |
 | プロジェクト V2 (msdyn\_projects) | 1.0.0.2 | 品質更新プログラム |
 
-Project Operations の Dataverse ソリューションと Finance and Operations アプリ ソリューションのバージョンを更新する際には、常に最新バージョンのマッピングを環境で実行し、関連するすべてのテーブル マッピングを有効にします。 最新バージョンのマッピングが有効になっていない場合、一部の機能や性能が正しく動作しないことがあります。 マッピングのアクティブなバージョンは、**二重書き込み**  ページの  **バージョン**  の列で確認できます。 新しいバージョンのマッピングをアクティブ化するには、**テーブル マッピングのバージョン** を選択し、最新バージョンを選択した後で、選択したバージョンを保存します。 既成のテーブル マッピングをカスタマイズした場合は、変更を再適用します。 詳しくは、[アプリケーションのライフサイクル管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management.md) を参照してください。
+最新バージョンのマッピングを環境で実行し、Project Operations Dataverse ソリューションやF財務と運用アプリ ソリューションのバージョンを更新する際に、関連するすべてのテーブル マッピングを有効にする必要があります。 最新バージョンのマッピングが有効になっていない場合、一部の機能や性能が正しく動作しないことがあります。 マッピングのアクティブなバージョンは、**二重書き込み**  ページの  **バージョン**  の列で確認できます。 新しいバージョンのマッピングをアクティブ化するには、**テーブル マッピングのバージョン** を選択し、最新バージョンを選択した後で、選択したバージョンを保存します。 既成のテーブル マッピングをカスタマイズした場合は、変更を再適用します。 詳しくは、[アプリケーションのライフサイクル管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management) を参照してください。
 
-マップの起動に問題がある場合は、二重書き込みのトラブルシューティング ガイドの [マッピング上にテーブルの列が表示されない問題](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) のセクションの手順に従ってください。
+マップの起動に問題がある場合は、二重書き込みのトラブルシューティング ガイドの [マッピング上にテーブルの列が表示されない問題](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) のセクションの手順に従ってください。
 
 ## <a name="quality-updates"></a>品質更新プログラム
 
@@ -67,7 +67,7 @@ Project Operations の Dataverse ソリューションと Finance and Operations
 | 時間エントリ | 2202476 | **時間エントリ** ページでは、反応グリッド コントロールを使用し、グリッドのずれなどの問題を修正しました。 |
 | 時間エントリ | 2223377 | 時間エントリは **予約可能リソース** ページの **関連** セクションから非表示になり、ユーザビリティとの混同を回避します。 |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance でのプロジェクト管理および会計
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance でのプロジェクト管理および会計の概要
 
 | 機能 | 照合番号 | 品質更新プログラム |
 | --- | --- | --- |

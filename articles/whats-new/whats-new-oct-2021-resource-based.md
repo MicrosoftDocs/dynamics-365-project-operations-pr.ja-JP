@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753298"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598494"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 10 月 の最新情報 - リソース/非在庫ベースのシナリオ向け Project Operations
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753298"
 このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
 
    - Microsoft Dataverse 環境バージョン 4.25.0.91 の Project Operations
-   - Dynamics 365 Finance 環境バージョン 10.0.21 でのプロジェクト管理および会計
+   - Dynamics 365 Finance 環境バージョン 10.0.21 でのプロジェクト管理と会計
 
 ## <a name="features-included-in-this-release"></a>このリリースが含む機能
 
@@ -49,7 +49,7 @@ ms.locfileid: "7753298"
 | 請求および価格設定 | 2338357 | 資材使用ログの通貨は、プロジェクトが選択されたときのプロジェクトの通貨から規定に設定されている必要があります。 |
 | 時間と経費 | 2414777 | 経費または時間入力に複数のプロジェクト承認が関連付けられている場合、承認のキャンセルができなければなりません。 |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Finance のプロジェクト管理および会計
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Finance でのプロジェクト管理および会計の概要
 
 | 機能 | 照合番号 | 品質更新プログラム |
 | --- | --- | --- |

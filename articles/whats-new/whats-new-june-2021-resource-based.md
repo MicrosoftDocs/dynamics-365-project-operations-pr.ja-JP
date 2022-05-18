@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679215"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600794"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 6 月の新機能 - リソース/非在庫のシナリオ向け Project Operations
 
@@ -21,7 +21,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
 
 - Dynamics 365 Dataverse 環境バージョン 4.11.0.156 または 4.11.0.164 の Project Operations。
-- Finance and Operations アプリ環境バージョン 10.0.19 におけるプロジェクト管理と会計。
+- 財務と運用アプリの環境バージョン 10.0.19 でのプロジェクト管理および会計。
 
 ## <a name="features-included-in-this-release"></a>このリリースが含む機能
 
@@ -38,7 +38,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 Project Operations の二重書き込みマッピングの最新のリストとバージョンについては、[Project Operations 二重書き込みマッピングのバージョン](../environment/resource-dual-write-maps.md)を参照してください。
 
-Project Operations の Dataverse ソリューションと Finance and Operations アプリ ソリューションのバージョンを更新する際には、常に最新バージョンのマッピングを環境で実行し、関連するすべてのテーブル マッピングを有効にします。 最新バージョンのマッピングが有効になっていない場合、一部の機能や性能が正しく動作しないことがあります。 マッピングのアクティブなバージョンは、**バージョン** 列の **二重書き込み** のページで確認できます。 **テーブル マッピングのバージョン** を選択し、最新のバージョンを選択してから、選択したバージョンを保存することで、新しいバージョンのマッピングを有効にすることができます。 既成のテーブル マッピングをカスタマイズした場合は、変更を再適用します。 詳しくは、[アプリケーションのライフサイクル管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management) を参照してください。
+最新バージョンのマッピングを環境で実行し、Project Operations Dataverse ソリューションやF財務と運用アプリ ソリューションのバージョンを更新する際に、関連するすべてのテーブル マッピングを有効にする必要があります。 最新バージョンのマッピングが有効になっていない場合、一部の機能や性能が正しく動作しないことがあります。 マッピングのアクティブなバージョンは、**バージョン** 列の **二重書き込み** のページで確認できます。 **テーブル マッピングのバージョン** を選択し、最新のバージョンを選択してから、選択したバージョンを保存することで、新しいバージョンのマッピングを有効にすることができます。 既成のテーブル マッピングをカスタマイズした場合は、変更を再適用します。 詳しくは、[アプリケーションのライフサイクル管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management) を参照してください。
 
 マッピングの起動に問題がある場合は、二重書き込みのトラブルシューティング: [マッピングでのテーブル列が見つからない場合](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps)に記載の内容に従ってください。
 
@@ -62,7 +62,7 @@ Project Operations の Dataverse ソリューションと Finance and Operations
 | 時間と経費 | 2194431 | **時間入力** グリッドは、**システム設定** で設定されているように週の始まりに忠実である必要があります。 |
 | 時間と経費 | 2277311 | **時間入力** グリッドのセルの値を削除した後、カーソルがグリッド内に残留します。 |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Finance のプロジェクト管理および会計
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Finance でのプロジェクト管理および会計の概要
 
 | 機能 | 照合番号 | 品質更新プログラム |
 | --- | --- | --- |

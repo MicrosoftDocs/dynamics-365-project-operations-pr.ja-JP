@@ -1,24 +1,24 @@
 ---
 title: デモ データを Finance クラウド ホスト環境に適用する
-description: このトピックは、Project Operations からのデモ データを Dynamics 365 Finance のクラウド ホスト環境に適用する方法を説明しています。
+description: このトピックは、Project Operations のデモデータを Dynamics 365 Finance Cloud がホストする環境に適用する方法を説明しています。
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e4ccc7eb02fabdc0476fe454f33bff637ab8b835
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009672"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588972"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>デモ データを Finance クラウド ホスト環境に適用する
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
 > [!IMPORTANT]
-> このトピックは Microsoft Dynamics 365 Finance バージョン 10.0.13 にのみ適用され、クラウド ホスト型環境でのみ実行できます。 環境に品質更新を適用する **前** に、このトピックの手順を完了します。
+> このトピックは Microsoft Dynamics 365 Finance バージョン 10.0.13 のみ適用可能であり、クラウドでホストされている環境でのみ実行できます。 環境に品質更新を適用する **前** に、このトピックの手順を完了します。
 
 1. LCS プロジェクトで、**環境の詳細** ページを開きます。 リモート デスクトップ プロトコル (RDP) を使用して環境に接続するために必要な詳細が含まれていることに注意してください。
 

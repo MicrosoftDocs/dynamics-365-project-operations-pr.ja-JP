@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: c4f58842c33ec5f45a6cd9ea4bd0e73b0aa693b7cecf63bfa8889a5671840d7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 701ed791dce2dd0f7d196810de7538c65cb99d93
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991132"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586304"
 ---
 # <a name="whats-new-or-changed-in-project-operations-may-2021-for-stockedproduction-based-scenarios"></a>Project Operations 2021 年 5 月リリースの新機能、変更点 (在庫/本番ベースのシナリオ向け)
 
@@ -20,7 +20,7 @@ ms.locfileid: "6991132"
 
 このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
 
-- Dynamics 365 Finance 環境バージョン 10.0.19 でのプロジェクト管理および会計
+- Dynamics 365 Finance 環境バージョン 10.0.19 でのプロジェクト管理と会計
  
 ### <a name="quality-updates"></a>品質更新プログラム
                                                                                                                                                                                   
@@ -93,7 +93,7 @@ ms.locfileid: "6991132"
 | 出張と経費                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | 経費のモバイル アプリケーションに同期の問題が発生する。 
 
 ### <a name="regulatory-updates"></a>規制の更新
-Finance and Operations アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、Lifecycle Services (LCS) にログインし、問題検索ツールを使用して、計画されている規制の更新を確認することも可能です。 問題検索では、国、機能の種類、リリースで検索できます。
+財務と運用アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、Lifecycle Services (LCS) にログインし、問題検索ツールを使用して、計画されている規制の更新を確認することも可能です。 問題検索では、国、機能の種類、リリースで検索できます。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

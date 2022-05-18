@@ -3,16 +3,15 @@ title: リソース/非在庫ベース シナリオ展開の概要向け Project
 description: このトピックでは、展開の種類、リソース/非在庫ベースのシナリオ向け Project Operations について説明します。
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d751ec9c75e72a6804f073f181591755afc6e261
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009717"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575127"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>リソース/非在庫ベース シナリオ展開の概要向け Project Operations
 
@@ -32,7 +31,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 - プロジェクトの収益認識
 - Power Platform を使用した拡張性
 
-この展開の種類は、Dynamics 365 Finance と Dynamics 365 Supply Chain Management アプリケーションが提供する機能に拡張機能を提供します。
+この展開タイプは、Dynamics 365 Finance と Dynamics 365 Supply Chain Management アプリによって提供される機能に対して、拡張機能を用意しています。
 
 この展開は、Project Operations が、次の要件を含むプロジェクト ライフサイクル全体を使用することを想定して、選択する必要があります。
 

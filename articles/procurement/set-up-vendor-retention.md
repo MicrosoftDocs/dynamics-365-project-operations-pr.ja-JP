@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9511da6212aafbf5b173efc6eb1ceaacbc8264a2
-ms.sourcegitcommit: 098ea345ecfaf4445520094c32f5511b67e7953c
+ms.openlocfilehash: e0cd7669c7d6b916261e2c85cce0f24ff241a075
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594602"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583710"
 ---
 # <a name="set-up-vendor-retention"></a>ベンダーの留保を設定する
 
@@ -22,7 +22,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ## <a name="set-up-a-vendor-retention-account-in-general-ledger"></a>総勘定元帳でベンダーの留保アカウントを設定する
 
-1. Dynamics 365 Finance で、**一般会計** > **転記の設定** > **自動トランザクションのアカウント** に移動します。
+1. Dynamics 365 Finance で、**一般会計** > **天気の設定** > **自動トランザクションのアカウント** に移動します。
 2. 新しい明細行を追加します。
 3. **投稿タイプ** フィールドで、**ベンダーの留保** を選択します。
 4. ベンダー留保の転記のメイン アカウントを選択します。

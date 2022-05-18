@@ -4,14 +4,14 @@ description: このトピックは、リソース/非在庫ベースのシナリ
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb8d470dbcaae48db7ec1b7c0d69d55c0c9e0f17
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989917"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585614"
 ---
 # <a name="manage-project-invoice-proposals"></a>プロジェクト仮発行請求書の管理
 
@@ -22,7 +22,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
   - プロジェクト マネージャーは、Microsoft Dataverse で見積もり請求を確認します。
   - 見積もり請求に含まれるすべての時間および重要な未請求の販売トランザクションは、Dynamics 365 **Project Operations 統合** 仕訳帳を使って転記できます。
 
-次の手順を使用して、Dynamics 365 Finance でプロジェクト仮発行請求書を完了します。
+Dynamics 365 Finance でプロジェクトの請求書の提案を完了するには、次の手順を使用します。
 
 1. 時間および材料のトランザクションの課金情報を確認し、**Project Operations の統合** 仕訳帳を転記します。
 2. 固定価格の請求マイルストーンについては、課金情報を確認してください。

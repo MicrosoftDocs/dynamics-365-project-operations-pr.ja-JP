@@ -4,14 +4,14 @@ description: このトピックでは、会社のプロジェクト オペレー
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994642"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584142"
 ---
 # <a name="determine-your-deployment-type"></a>展開の種類を決定する
 
@@ -25,7 +25,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Dynamics 365 Project Service Automation を使用する Dynamics の既存の顧客
 Project Operations には、Project Service Automation に付属する機能が含まれています。 これらのお客様向けに、2021 年のリリースサイクル 1 でアップグレード パスがリリースされます。
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>プロジェクト管理および会計を使用する Dynamics 365 Finance の既存の顧客 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>プロジェクト管理と会計を使用している Dynamics 365 Finance の既存の顧客 
 
 プロジェクト管理および会計機能を使用する財務の既存のお客様は、そのままご利用いただけます。 [在庫/製造オーダー シナリオ向け Project Operations](#pma) を参照してください。
 
@@ -42,7 +42,7 @@ Project Operations では、要件に合わせて複数の展開オプション�
 - [リソース/非在庫のシナリオ向け Project Operations](#integrated)
 - [在庫/製造指示のシナリオ向け Project Operations](#pma)
 
-Project Operations は、法人エンティティ レベルの構成を通じて、同じ環境で、在庫/製造オーダー シナリオおよび非在庫/リソースベースのシナリオをサポートします。 例えば、Contoso は、米国の製造施設で在庫/製造注文機能を使用できます (法人 = Contoso Manufacturing United States)。 Contoso は、英国の施設にサービスを提供する Contoso Robotics Arms で在庫のない/リソースベースの機能を使用できます (法人 = Contoso Robotics United Kingdom)。
+Project Operations は、法人エンティティ レベルの構成を通じて、同じ環境で、在庫/製造オーダー シナリオおよび非在庫/リソースベースのシナリオをサポートします。 たとえば、Contoso 社は、米国の製造施設（法人= Contoso Manufacturing United States）で在庫/製造注文機能を使用できます。 Contoso は、英国 の Contoso Robotics Arms サービス施設（法人= Contoso Robotics United Kingdom）で、在庫のない/リソースベースの機能を使用できます。
 
 ### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>ライト展開 - 見積もり請求の取引
 

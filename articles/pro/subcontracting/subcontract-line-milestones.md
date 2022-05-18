@@ -4,14 +4,14 @@ description: このトピックは、ベンダーとの外注のマイルスト�
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
-ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
+ms.openlocfilehash: d1c30f48e0d43aa55e2c1650637f7f102fb200de
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "7558508"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579128"
 ---
 # <a name="subcontract-line-milestones"></a>外注品目マイルストーン
 

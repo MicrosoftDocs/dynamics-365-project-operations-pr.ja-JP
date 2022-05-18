@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c4869f3ab06ec80d620ec51bb4f0429412cd4d00
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 0fc3f524b7b240170822f0b246559e15985f4b0f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943029"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579818"
 ---
 # <a name="whats-new-december-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 12 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 
@@ -20,8 +20,8 @@ ms.locfileid: "7943029"
 
 このトピックは、Microsoft Dynamics 365 Project Operations の次のコンポーネントとバージョンに適用されます:
 
-- Dataverse 環境のバージョン 4.27.0.195、4.27.0.242 の Project Operations
-- Dynamics 365 Finance 環境でのプロジェクト管理と会計 バージョン 10.0.23
+- Dataverse 環境のバージョン 4.27.0.195、4.27.0.242、4.27.0.244 の Project Operations
+- Dynamics 365 Finance 環境バージョン 10.0.23 でのプロジェクト管理と会計
 
 ## <a name="features-included-in-this-release"></a>このリリースが含む機能
 
@@ -48,7 +48,7 @@ ms.locfileid: "7943029"
 | 時間と経費 | 2468188 | **注釈** エンティティの **notetext** 属性で、ログテキストが最大長を超える問題を修正しました。 |
 | 請求と価格 | 2488698 | 環境設定に Finance から入力された元帳エンティティ レコードがない場合に発生するエラー メッセージを更新しました。 |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Finance のプロジェクト管理および会計
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Finance でのプロジェクト管理および会計の概要
 
 | **機能** | **照合番号** | **品質更新プログラム** |
 | --- | --- | --- |

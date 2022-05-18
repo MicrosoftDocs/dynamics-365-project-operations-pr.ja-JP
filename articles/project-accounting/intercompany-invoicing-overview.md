@@ -3,16 +3,15 @@ title: 会社間請求の概要
 description: このトピックでは、プロジェクトの会社間請求に関する情報と例を提供します。
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005397"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586258"
 ---
 # <a name="intercompany-invoicing-overview"></a>会社間請求の概要
 
@@ -20,7 +19,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 組織には、プロジェクトのために製品とサービスを相互に転送する複数の部署、子会社、およびその他の法人が存在する場合があります。 サービスや製品を提供する法人は *貸付法人* と呼ばれます。 サービスや製品を受領する法人は *借入法人* と呼ばれます。
 
-次の図は、Contoso Robotics USA (借入法人) と Contoso Robotics UK (貸付法人) の 2 つの法人がリソースを共有し、Adventure Works という顧客のためにプロジェクトを遂行するという典型的なシナリオを示しています。 このシナリオでは、Contoso Robotics USAは、Adventure Works に作業を提供する契約を結んでいます。
+次の図は、2 つの法人で典型的なシナリオを示します。Contoso Robotics USA (借入法人) と Contoso Robotics UK (貸付法人) リソースを共有して顧客である Adventure works にプロジェクトを提供します。 このシナリオでは、Contoso Robotics USA が Adventure Works に納品する契約を結んでいます。
 
 ![会社間請求。](./media/IntercompanyScenario.png) 
 

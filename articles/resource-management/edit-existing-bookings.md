@@ -4,14 +4,14 @@ description: このトピックは、予約を更新および変更する方法�
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7f3676811f304fe852bda46ac85291c3b75958d8dd1e0a07f87c58ef5efe8738
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008322"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594354"
 ---
 # <a name="edit-bookings"></a>予約の編集
 

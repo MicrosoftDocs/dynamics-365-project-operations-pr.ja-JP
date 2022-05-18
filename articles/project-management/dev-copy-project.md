@@ -2,76 +2,80 @@
 title: プロジェクトのコピーを使用してプロジェクト テンプレートを開発する
 description: このトピックは、プロジェクトのコピー カスタム アクションを使用してプロジェクト テンプレートを作成する方法について解説します。
 author: stsporen
-ms.date: 01/21/2021
+ms.date: 03/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989265"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590904"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>プロジェクトのコピーを使用してプロジェクト テンプレートを開発する
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
 Dynamics 365 Project Operations はプロジェクトをコピーして、ロールを表す汎用リソースに割り当てをすべて戻す機能をサポートします。 顧客はこの機能を使用して、基本的なプロジェクト テンプレートを作成できます。
 
 **プロジェクトのコピー** を選択した場合、対象のプロジェクトの状態が更新されます。 **ステータス** を使用してコピー アクションがいつ完了するかを決定します。 **プロジェクトのコピー** を選択すると、対象のプロジェクト エンティティで対象の日付が検出されない場合、プロジェクトの開始日も現在の開始日に更新されます。
 
-## <a name="copy-project-custom-action"></a>プロジェクトのカスタム アクションをコピーする 
+## <a name="copy-project-custom-action"></a>プロジェクトのカスタム アクションをコピーする
 
 ### <a name="name"></a>件名 
 
-**msdyn_CopyProjectV2**
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>入力パラメーター
+
 3 つのパラメーターがあります。
 
-| パラメーター          | 型   | 値                                                   | 
-|--------------------|--------|----------------------------------------------------------|
-| ProjectCopyOption  | String | **{"removeNamedResources":true}** または **{"clearTeamsAndAssignments":true}** |
-| SourceProject      | エンティティの参照 | ソース プロジェクト |
-| ターゲット             | エンティティの参照 | 対象のプロジェクト |
+- **ReplaceNamedResources** または **ClearTeamsAndAssignments** – オプションの一方のみを設定します。 両方を設定しないでください。
 
+    - **\{"ReplaceNamedResources":true\}** – Project Operations の既定の動作。 名前付きリソースは、汎用リソースに置き換えられます。
+    - **\{"ClearTeamsAndAssignments":true\}** – Project for the Web の既定の動作。 すべての割り当てとチームメンバーが削除されます。
 
-- **{"clearTeamsAndAssignments":true}**: Web 向けのプロジェクトの既定の動作で、すべての割り当てとチームメンバーを削除します。
-- **{"removeNamedResources":true}** プロジェクト操作の既定の動作で、割り当てを汎用リソースに戻します。
+- **SourceProject** – コピー元のソース プロジェクトのエンティティ参照。 このパラメーターを null にすることはできません。
+- **Target** – コピー先のプロジェクトのエンティティ参照。 このパラメーターを null にすることはできません。
 
-既定の動作の詳細 : [Web API のアクションを使用する](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+次の表は、3 つのパラメーターの概要を示しています。
 
-## <a name="specify-fields-to-copy"></a>コピーするフィールドを特定する 
+| パラメーター                | タイプ             | 価値                 |
+|--------------------------|------------------|-----------------------|
+| ReplaceNamedResources    | ブール型          | **True** または **False** |
+| ClearTeamsAndAssignments | ブール型          | **True** または **False** |
+| SourceProject            | エンティティの参照 | ソース プロジェクト    |
+| Target                   | エンティティの参照 | ターゲット プロジェクト    |
+
+既定の動作の詳細については、[Web API のアクションを使用する](/powerapps/developer/common-data-service/webapi/use-web-api-actions)を参照してください。
+
+### <a name="validations"></a>検証
+
+次の検証が完了します。
+
+1. Nullは、ソース プロジェクトと対象のプロジェクトをチェック・取得して、組織内に両方のプロジェクトが存在することを確認します。
+2. システムは、以下の条件を確認することで、コピー対象のプロジェクトが有効であることを検証します。
+
+    - プロジェクトに以前の活動 (**タスク** タブの選択を含む) がなく、プロジェクトが新規に作成された状態です。
+    - 以前のコピーがなく、このプロジェクトでインポートが要求されておらず、プロジェクトに **失敗** 状態がありません。
+
+3. この操作は、HTTP を使用して呼び出されません。
+
+## <a name="specify-fields-to-copy"></a>コピーするフィールドを特定する
+
 アクションが呼び出されると、**プロジェクトのコピー** は、プロジェクト ビューの **コピー プロジェクト カラム** を見て、プロジェクトがコピーされる際にコピーするフィールドを決定します。
 
-
 ### <a name="example"></a>例
-次の例は、**CopyProject** カスタムアクションを **removeNamedResources** パラメーターセットと呼び出す方法を示しています。
+
+次の例は、**CopyProjectV3** パラメータを設定して **removeNamedResources** カスタム アクションを呼び出す方法を示しています。
+
 ```C#
 {
     using System;
     using System.Runtime.Serialization;
     using Microsoft.Xrm.Sdk;
     using Newtonsoft.Json;
-
-    [DataContract]
-    public class ProjectCopyOption
-    {
-        /// <summary>
-        /// Clear teams and assignments.
-        /// </summary>
-        [DataMember(Name = "clearTeamsAndAssignments")]
-        public bool ClearTeamsAndAssignments { get; set; }
-
-        /// <summary>
-        /// Replace named resource with generic resource.
-        /// </summary>
-        [DataMember(Name = "removeNamedResources")]
-        public bool ReplaceNamedResources { get; set; }
-    }
 
     public class CopyProjectSample
     {
@@ -89,27 +93,32 @@ Dynamics 365 Project Operations はプロジェクトをコピーして、ロー
             var sourceProject = new Entity("msdyn_project", sourceProjectId);
 
             Entity targetProject = new Entity("msdyn_project");
-            targetProject["msdyn_subject"] = "Example Project";
+            targetProject["msdyn_subject"] = "Example Project - Copy";
             targetProject.Id = organizationService.Create(targetProject);
 
-            ProjectCopyOption copyOption = new ProjectCopyOption();
-            copyOption.ReplaceNamedResources = true;
-
-            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption, true, false);
             Console.WriteLine("Done ...");
         }
 
-        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, bool replaceNamedResources = true, bool clearTeamsAndAssignments = false)
         {
-            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV3");
             req["SourceProject"] = sourceProject;
             req["Target"] = TargetProject;
-            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+
+            if (replaceNamedResources)
+            {
+                req["ReplaceNamedResources"] = true;
+            }
+            else
+            {
+                req["ClearTeamsAndAssignments"] = true;
+            }
+
             OrganizationResponse response = organizationService.Execute(req);
         }
     }
 }
 ```
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

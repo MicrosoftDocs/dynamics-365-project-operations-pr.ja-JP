@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998467"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593618"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>価格とコストのディメンションのホーム ページ
 
@@ -64,18 +65,18 @@ PSAには、価格ディメンションの既定セットが付属していま�
 
 **サンプル請求レート**
 
-| ロール        | 組織単位    |単位      |価格      |通貨  |
+| ロール        | 組織単位    |出荷単位      |価格      |[通貨]  |
 | ------------|-------------|----------|----------:|----------|
-| 開発者   | Contoso US  |時 | 200|USD     |
-| 開発者   | Contoso India |時|   112|USD     |
+| 開発者   | Contoso US  |Hour | 200|USD     |
+| 開発者   | Contoso India社 |Hour|   112|USD     |
 
 
 **サンプル コスト レート**
 
-| 給与範囲     | 組織単位    |単位      |価格      |通貨  |
+| 給与範囲     | 組織単位    |出荷単位      |価格      |[通貨]  |
 | ----------------|-------------|----------|----------:|----------|
-| 自分の会社_Band1 | Contoso US  |時 | 145|USD     |
-| 自分の会社_Band2 | Contoso India |時|   67|USD     |
+| 自分の会社_Band1 | Contoso US  |Hour | 145|USD     |
+| 自分の会社_Band2 | Contoso India社 |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

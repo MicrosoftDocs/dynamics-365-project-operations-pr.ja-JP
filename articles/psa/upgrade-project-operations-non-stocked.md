@@ -3,7 +3,7 @@ title: Project Service Automation から Project Operations へのアップグ�
 description: このトピックでは、Microsoft Dynamics 365 Project Service Automation から Dynamics 365 Project Operations へのアップグレードのプロセスの概要について説明します。
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/05/2022
+ms.date: 01/13/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9363fd5a06b6b1ba023961b03228e13a53a82002
-ms.sourcegitcommit: 5789766efae1e0cb513ea533e4f9ac1e553158a5
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
+ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952843"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626718"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Project Service Automation から Project Operations へのアップグレード
 
@@ -28,7 +29,7 @@ ms.locfileid: "7952843"
 
 アップグレード配信プログラムは、3 つのフェーズに分かれます。
 
-| アップグレードの出荷 | フェーズ 1 (2022 年 1 月) | フェーズ 2 (2022 年 4 月のリリースサイクル) | フェーズ 3 (2022 年 4 月のリリースサイクル) |
+| アップグレードの出荷 | フェーズ 1 (2022 年 1 月) | フェーズ 2 (2022 年 4 月のリリースサイクル) | フェーズ 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | プロジェクトの WBS (Work Breakdown Structure、作業分解構造) に依存しません | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Project Operations の現在サポートされている制限内の WBS | | :heavy_check_mark: | :heavy_check_mark: |
@@ -38,11 +39,11 @@ ms.locfileid: "7952843"
 
 アップグレードプロセスの一環として、サイトマップにアップグレード ログを追加し、管理者がより簡単に不具合を診断できるようになっています。 新しいインターフェースに加えて、アップグレード後のデータの整合性を確保する新しい検証ルールが追加されます。 アップグレードの際に、以下の検証が追加されます。
 
-| 検証 | フェーズ 1 (2022 年 1 月) | フェーズ 2 (2022 年 4 月のリリースサイクル) | フェーズ 3 (2022 年 4 月のリリースサイクル) |
+| 検証 | フェーズ 1 (2022 年 1 月) | フェーズ 2 (2022 年 4 月のリリースサイクル) | フェーズ 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | WBS は、一般的なデータの整合性違反に対して検証されます (同じ親タスクに関連付けられているが、親プロジェクトが異なるリソースの割り当てなど)。 | | :heavy_check_mark: | :heavy_check_mark: |
 | WBS は、[Project for the Web の既知の制限](/project-for-the-web/project-for-the-web-limits-and-boundaries)に対して検証されます。 | | :heavy_check_mark: | :heavy_check_mark: |
-| WBS は、Project desktop client の既知の制限に対して検証されます。 | | :heavy_check_mark: | :heavy_check_mark: |
+| WBS は、Project desktop client の既知の制限に対して検証されます。 | |  | :heavy_check_mark: |
 | 予約可能なリソースとプロジェクトのカレンダーは、共通の互換性のないカレンダー ルールの例外に対して評価されます。 | | :heavy_check_mark: | :heavy_check_mark: |
 
 フェーズ2では、Project Operations にアップグレードした顧客は、既存のプロジェクトがプロジェクト計画で使用する読み取り専用のエクスペリエンスにアップグレードされます。 この読み取り専用のエクスペリエンスでは、WBS の全容が追跡グリッドに表示されます。 WBS を編集するには、プロジェクトマネージャーはメインの **プロジェクト** ページで **変換** を選択します。 バックグラウンド プロセスでプロジェクトが更新され、Project for the Web の新しいプロジェクト スケジューリング機能がサポートされます。 このフェーズは、[ Project for the Web の既知の制限](/project-for-the-web/project-for-the-web-limits-and-boundaries) に該当するプロジェクトをご利用の顧客に適しています。
@@ -56,7 +57,7 @@ ms.locfileid: "7952843"
 - 対象となる環境には、**msdyn_projecttask** エンティティのレコードが含まれている必要があります。
 - 有効な Project Operations ライセンスが、顧客のすべてのアクティブ ユーザーに割り当てられている必要があります。 
 - 顧客は、本番データと整合性のある代表的なデータセットがある少なくとも 1 つの非本番環境で、アップグレード プロセスを検証する必要があります。
-- 対象となる環境は、Project Service Automation のアプデート リリース 38 以降にアップデートする必要があります。
+- 対象となる環境は、Project Service Automation のアプデート リリース 41 (3.10.62.162) 以降にアップデートする必要があります。
 
 フェーズ 2 およびフェーズ 3 の前提条件は、一般公開日が近づくにつれて更新されます。
 
@@ -72,14 +73,14 @@ Project Service Automation のアクティブなライセンスをご利用の�
 
 - 依存関係がないため、インポートに失敗することがあります。 つまり、Project Operations で削除されたフィールドやその他のコンポーネントを参照するカスタマイズです。 この場合、開発環境からこれらの依存関係を削除してください。
 - アンマネージド ソリューションや管理ソリューションにカスタマイズされていないコンポーネントが含まれている場合は、それらのコンポーネントをソリューションから削除します。 たとえば、カスタマイズする場合 **プロジェクト** エンティティの場合、ソリューションにエンティティ ヘッダーのみを追加します。 すべてのフィールドを追加する必要はありません。 以前にすべてのサブコンポーネントを追加していた場合は、手動で新しいソリューションを作成し、関連するコンポーネントを追加する必要がある場合があります。
-- フォームとビューが予期しない形で表示されてしまう場合があります。 状況によっては、初期設定のフォームやビューをカスタマイズした場合、そのカスタマイズによって Project Operations の新しいアップデートが有効にならない場合があります。 これらの問題を確認するためには、Project Operations のクリーン インストールと、カスタマイズした内容を含む Project Operations のインストールを並べて確認することをお勧めします。 ビジネスで最も一般的に使用されているフォームを比較して、フォームのバージョンがまだ意味をなし、フォームのクリーンバージョンから何かが欠落していないことを確認します。 カスタマイズしたビューについても、同じように並べて確認してみましょう。
+- フォームとビューが予期されたようには表示されない場合があります。 状況によっては、初期設定のフォームやビューをカスタマイズした場合、そのカスタマイズによって Project Operations の新しいアップデートが有効にならない場合があります。 これらの問題を確認するためには、Project Operations のクリーン インストールと、カスタマイズした内容を含む Project Operations のインストールを並べて確認することをお勧めします。 ビジネスで最も一般的に使用されているフォームを比較して、フォームのバージョンがまだ意味をなし、フォームのクリーンバージョンから何かが欠落していないことを確認します。 カスタマイズしたビューについても、同じように並べて確認してみましょう。
 - ビジネスロジックが実行時に失敗する可能性があります。 プラグインのフィールドへの参照はインポート時に検証されないため、既に存在しないフィールドへの参照が原因でビジネスロジックが失敗し、次のようなエラーメッセージが表示される場合があります:「'Project' entity doesn't contain attribute with Name = 'msdyn_plannedhours' and NameMapping = 'Logical'.」 この場合は、新しいフィールドを使用するようにカスタマイズを修正してください。 プラグインのロジックで自動生成されたプロキシ クラスや強力な型参照を使用している場合は、クリーン インストールからプロキシを再生成することを検討してください。 このようにして、プラグインが非推奨のフィールドに依存しているすべての場所を簡単に特定することができます。
 
 カスタマイズを更新して Project Operations をクリーンにインポートできたら、次のステップに進みます。
 
-## <a name="end-to-end-testing-in-lower-environments"></a>下位環境でのエンド ツー エンド テスト
+## <a name="end-to-end-testing-in-development-environments"></a>開発環境でのエンド ツー エンド テスト
 
-### <a name="run-the-upgrade-in-production"></a>本番環境でアップグレードを実行する
+### <a name="initiate-upgrade"></a>アップグレードを開始する 
 
 1. Power Platform で、 管理センターとご利用の環境を選択します。 続いて、アプリケーションで、**Dynamics 365 Project Operations** を見つけて選択します。
 2. **インストール** を選択して、アップグレードを開始します。 Power Platform 管理センターは、このインストールを新規インストールとして表示します。 ただし、以前のバージョンの Project Service Automation の存在が検出され、既存のインストールがアップグレードされます。
@@ -93,6 +94,10 @@ Project Service Automation のアクティブなライセンスをご利用の�
 4. **設定**\>**ソリューション** にアクセスし、**Project Operations の非推奨コンポーネント** ソリューションを選択してアンインストールします。
 
     このソリューションは、アップグレード時に存在する既存のデータ モデルとコンポーネントを保持する一時的なソリューションです。 このソリューションを削除することで、使用されなくなったフィールドやコンポーネントをすべて削除します。 そうすることで、インターフェースを簡素化し、統合や拡張を容易にすることができます。
+    
+### <a name="validate-common-scenarios"></a>一般的なシナリオの検証
+
+特定のカスタマイズを検証するときは、アプリケーション全体でサポートされているビジネス プロセスも確認することをお勧めします。 これらのビジネス プロセスには、見積もりや契約などの販売エンティティの作成、WBS と実績の承認を含むプロジェクトの作成が含まれますが、これらに限定されません。
 
 ## <a name="major-changes-between-project-service-automation-and-project-operations"></a>Project Service Automation と Project Operations の主な違い
 
@@ -119,7 +124,7 @@ Project Operations への継続的な投資の一環として、請求と価格�
 | Source                                                 | Target                                                    | Status                  |
 |--------------------------------------------------------|-----------------------------------------------------------|-------------------------|
 | Project Service Automation                             | Project Operations Lite の展開                        | サポート対象               |
-| Dynamics 365 Financeプロジェクト管理と会計 | Project Operations Lite の展開                        | 現在のサポートされていません |
+| Dynamics 365 Finance プロジェクト管理および会計 | Project Operations Lite の展開                        | 現在のサポートされていません |
 | ファイナンス プロジェクト マネジメントと会計              | リソース/非在庫のシナリオ向け Project Operations     | 現在のサポートされていません |
 | ファイナンス プロジェクト マネジメントと会計              | 在庫/製造指示のシナリオ向け Project Operations | 現在のサポートされていません |
 | Project Service Automation 3.x                         | リソース/非在庫のシナリオ向け Project Operations     | 現在のサポートされていません |

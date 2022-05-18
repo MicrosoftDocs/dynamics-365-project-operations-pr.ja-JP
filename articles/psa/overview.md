@@ -6,7 +6,7 @@ ms.custom:
 - dyn365-projectservice
 - intro-internal
 ms.date: 9/23/2019
-ms.topic: article
+ms.topic: overview
 ms.author: ruhercul
 audience: Admin
 search.audienceType:
@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 4479f8b1d7cce5d3008ffa285c66da2669532576
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000267"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580186"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Dynamics 365 Project Service Automation とは何か？
 
@@ -42,14 +43,6 @@ Project Service Automation (PSA) アプリケーションは、最初の営業�
 - ...など
 
 加えて、プロジェクトベースの作業のコストを監視して制御できるようにするために、個別のコンサルタントは簡単に、携帯端末または Web ブラウザーのいずれかでプロジェクト時間および経費を入力して追跡します。
-
-## <a name="whats-new-in-psa"></a>PSA の新機能
-チームは最新の更新プログラムを発表いたします。 ユーザー インターフェイスの改善、バグの修正、重要な新機能の追加など、さまざまな機能が追加されています。 ユーザーが要求し、私たちは取り入れました。
-
-最新の拡張機能と追加機能を確認するには、 [2019 年 10 月のリリース ノート](/dynamics365-release-plan/2019wave2/index) を参照してください。
-
-### <a name="in-development"></a>開発において
-近い将来に計画していることを確認するには、 [Dynamics 365: 2020 年リリース ウェーブ 1 プラン](/dynamics365-release-plan/2020wave1/index)に進んでください。
 
 ## <a name="get-help-with-psa-version-3x"></a>PSA バージョン 3.x に関するヘルプの参照
 実装計画に役立つリソースを検索しますか。 これらのダウンロード可能ガイドをチェックアウトします。
@@ -80,10 +73,6 @@ Project Service Automation (PSA) アプリケーションは、最初の営業�
  [ホワイト ペーパー (アプリ バージョン 2.x または 1.x)](../psa/white-papers.md)
 
  [開発者向けノート (アプリ バージョン 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
-
- ## <a name="watch-a-2-minute-overview-video"></a>2 分間の概要のビデオを見る
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
-
 
 
 

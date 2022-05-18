@@ -4,14 +4,14 @@ description: このトピックでは、カスタム価格ディメンション�
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 82593d3d00b008c1922d70c508bc77624aeb46b3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992212"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601116"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>カスタム価格ディメンションのソリューションを作成する
 
@@ -23,7 +23,7 @@ ms.locfileid: "6992212"
 ## <a name="create-a-solution-for-custom-pricing-dimensions"></a>カスタム価格ディメンションのソリューションを作成する
 
 1.  **設定** > **ソリューション** を選択し、次に **新規** を選択します。
-2.  ソリューションに *<your organization name> 価格ディメンション* と名前を付けます。
+2.  ソリューションに *\<your organization name\> 価格ディメンション* と名前を付けます。
 3. その他の必要情報を入力し、 **保存** を選択します。
 
   ![カスタム価格ディメンション ソリューションを作成する。](./media/Creation-of-custom-pricing-dimension-solution.png)

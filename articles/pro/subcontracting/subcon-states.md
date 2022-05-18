@@ -4,14 +4,14 @@ description: このトピックでは、Microsoft Dynamics 365 Project Operation
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d67f4a3cd834c25462304c2d75c824427fcbd034
-ms.sourcegitcommit: 04dc8d952e6da3ab3eb2a20131c6f7cee6040876
+ms.openlocfilehash: c9533d046398c708c55467e6b1a25acf6abade3e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "7903464"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579174"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>外注の状態遷移 
 

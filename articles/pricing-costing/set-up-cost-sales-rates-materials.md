@@ -2,16 +2,16 @@
 title: 材料の原価率と販売率を設定する
 description: このトピックは、プロジェクトで使用される材料のコストと販売率を設定する方法に関する情報を提供します。
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999187"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576874"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>材料の原価率と販売率を設定する
 
@@ -25,6 +25,9 @@ Dynamics 365 Project Operations で製品のコストと販売価格を設定で
 2. **価格表品目** のサブグリッド メニューで、**新しい価格表品目** を選択します。 
 3. **クイック作成** ページで、新しい価格を作成する製品と単位を入力します。
 
-カタログ品目の価格を定義する方法の詳細については、[製品の価格設定](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)と[通貨と価格設定の有効桁数](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md)を参照してください。
+カタログ アイテムの価格を定義する方法の詳細については、[価格表と価格表項目を使用して製品の価格を定義する](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products)と[通貨と価格の小数精度](/dynamics365/sales/decimal-precision-currency-pricing) をご覧ください。
+> [!NOTE]
+> Dynamics 365 Project Operations は、Dynamics 365 Sales などの製品のすべての価格設定方法をサポートしているわけではありません。 プロジェクトで使用される製品に対してサポートされている唯一の価格設定方法は *通貨額* です。
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

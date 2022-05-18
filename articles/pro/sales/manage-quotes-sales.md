@@ -4,14 +4,14 @@ description: このトピックでは、プロジェクトの見積もりにつ�
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001527"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579588"
 ---
 # <a name="manage-project-quotes"></a>プロジェクト見積もりの管理
 
@@ -31,6 +31,9 @@ Dynamics 365 Project Operations では、プロジェクト見積が、プロジ
 2. **ビュー スイッチャー** を使用して、フィルター処理された見積もりを選択します。 カスタム フィルター条件を使用して、独自のビューとナビゲーション オプションを構成できます。
 
 見積もりは、この一覧ページや詳細のページから作成、削除できます。
+
+ > [!NOTE]
+ > プロジェクト、タスク、見積もり、仕訳帳、および/または実績が関連付けられている見積もりは削除できません。 また、見積もりが成約、失注としてクローズされた場合、それを削除または変更することはできなくなります。 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

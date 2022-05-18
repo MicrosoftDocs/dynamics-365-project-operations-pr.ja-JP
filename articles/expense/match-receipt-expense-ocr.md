@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798046"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596286"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>OCR を使用して領収書を取り込む
 
@@ -52,7 +52,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 ## <a name="installation"></a>インストール
 
-このような高度な経費の機能を使用するには、Microsoft Dynamics 365 Finance 用の経費管理サービス アドインをインストールし、インスタンスの機能をオンにしてください。 Microsoft Dynamics Lifecycle Services (LCS) のプロジェクトからアドインにアクセスできます。
+これらの高度な経費機能を使用するには、Microsoft Microsoft Dynamics 365 Finance の経費管理サービス アドインをインストールし、インスタンスの機能を有効にします。 Microsoft Dynamics Lifecycle Services (LCS) のプロジェクトからアドインにアクセスできます。
 
 1. LCS にサインインし、対象とする環境を開きます。
 2. **完全な詳細** に移動します。

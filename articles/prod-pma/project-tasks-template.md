@@ -1,32 +1,31 @@
 ---
-title: Project Service Automation から Finance and Operations へのプロジェクト タスクの直接同期
-description: このトピックは、Microsoft Dynamics 365 Project Service Automation から Dynamics 365 Finance へプロジェクト タスクを直接同期するために使用されるテンプレートと基礎となるタスクについて説明しています。
+title: プロジェクト タスクを Project Service Automation から Finance and Operations に直接同期する
+description: このトピックでは、Microsoft Dynamics 365 Project Service Automation から Dynamics 365 Finance にプロジェクト タスクを直接同期するために使用されるテンプレートと基になるタスクについて説明します。
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992797"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683316"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Project Service Automation から Finance and Operations へのプロジェクト タスクの直接同期
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>プロジェクト タスクを Project Service Automation から Finance and Operations に直接同期する
 
 [!include[banner](../includes/banner.md)]
 
-このトピックは、Dynamics 365 Project Service Automation から Dynamics 365 Finance へプロジェクト タスクを直接同期するために使用されるテンプレートと基礎となるタスクについて説明しています。
+このトピックでは、Dynamics 365 Project Service Automation から Dynamics 365 Finance にプロジェクト タスクを直接同期するために使用されるテンプレートと基になるタスクについて説明します。
 
 > [!NOTE]
 > - プロジェクト タスクの統合、経費トランザクション カテゴリ、時間の見積もり、経費の見積もり、および機能のロックはバージョン 8.0 で使用可能です。
@@ -68,11 +67,11 @@ Project Service Automation から Finance への統合ソリューションは�
 
 ## <a name="power-query"></a>Power Query
 
-この条件が満たされている場合、Microsoft Power Query for Excel を使用してデータをフィルター処理する必要があります。
+この条件を満たす場合は、Microsoft Power Query for Excel を使用してデータをフィルター処理する必要があります:
 
 - プロジェクト タスクにリソース固有のレコードがあります。
 
-Power Query を使用する必要がある場合は、このガイドラインに従ってください。
+Power Query を使用する必要がある場合は、このガイドラインに従います:
 
 - プロジェクト タスク (PSA から Finance and Operation へ) テンプレートには、フィルターを **IsLineTask** から **False** に設定することで、プロジェクト タスクからリソース固有のレコードを除外する既定のフィルターがあります。 独自のテンプレートを作成する場合は、このフィルターを追加する必要があります。
 

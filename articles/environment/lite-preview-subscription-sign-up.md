@@ -4,14 +4,14 @@ description: このトピックでは、Project Operations ライト デプロ�
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991537"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588006"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>プレビュー サブスクリプションにサインアップする (ライト) 
 
@@ -40,10 +40,10 @@ ms.locfileid: "6991537"
 ## <a name="assign-licenses"></a>ライセンスの割り当て
 
 > [!IMPORTANT]
-> 次の手順を完了するには、組織の Microsoft 365 ポータルへの管理アクセスが必要です。
+> 次の手順を完了するためには、組織の Microsoft 365 のポータルへの管理アクセスが必要です。
 
 
-1. [Microsoft 365 管理センター](https://portal.office.com/) に移動し、ユーザーにライセンスを割り当てます。
+1. [Microsoft 365 管理センター](https://portal.office.com/)にアクセスし、ユーザーにライセンスを割り当てます。
 2. **アクティブ ユーザー** ページで、ライセンスを割り当てるユーザーを選択します。
 3. **Dynamics 365 Project Operations** ライセンスが選択されていることを確認します。 
 4. **変更を保存** を選択します。

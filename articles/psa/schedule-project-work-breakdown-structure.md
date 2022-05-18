@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996802"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587362"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>WBS (作業分解構造) でプロジェクトをスケジュールする (Project Service)
 
@@ -63,7 +64,7 @@ ms.locfileid: "6996802"
 ## <a name="task-types"></a>タスクの種類  
 作業分解構造を作成するとき、以下の種類のタスクを使用します。  
 
-| | | 
+| Task | 説明設定 | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **プロジェクトのルート ノード**。 | プロジェクトのトップレベルの概要タスク。 他のすべてのプロジェクト タスクはその下に作成されます。 ルート タスクの名前はプロジェクト名です。 ルート ノードの負荷、日付、および期間は、その下の階層の値に基づきます。 ルート ノードのプロパティを編集したり、ルート ノードを削除することはできません。 | 
 | **概要またはコンテナー タスク** | 概要タスクは、その下にサブタスクがあるタスクです。 概要タスクには、それ自身の作業負荷またはコストがありません。 その作業負荷およびコストは、そのサブタスクのロールアップです。 概要タスクの名前は変更することができますが、負荷、日付、または期間は自動的に計算されるため、これらを変更することはできません。 概要タスクを削除すると、そのタスクおよびすべてのサブタスクが削除されます。|  

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06471532d2e41bb80ebf92f0a8b93c324b3f6d3e845cea8033d85d291ea237eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986587"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585798"
 ---
 # <a name="expense-management-integration"></a>経費管理統合
 
@@ -22,19 +22,19 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ## <a name="expense-categories"></a>経費カテゴリ
 
-完全な経費の展開では、経費カテゴリは Finance and Operations アプリで作成、管理されます。 経費のカテゴリーを新たに作成するには、以下の手順で行います :
+完全な経費展開では、経費カテゴリは財務と運用アプリで作成および維持されます。 経費のカテゴリーを新たに作成するには、以下の手順で行います :
 
-1. Microsoft Dataverse で、**トランザクション** のカテゴリを作成します。 二重書き込みの統合により、このトランザクション カテゴリは Finance and Operations のアプリに同期されます。 詳細については、[プロジェクト カテゴリの構成](/dynamics365/project-operations/project-accounting/configure-project-categories) と [Project Operations の設定と構成データの統合](resource-dual-write-setup-integration.md)を参照してください。 この統合の結果、システムは Finance and Operations のアプリに 4 つの共有カテゴリのレコードを作成します。
+1. Microsoft Dataverse で、**トランザクション** のカテゴリを作成します。 二重書き込み統合により、このトランザクション カテゴリが財務と運用アプリに同期されます。 詳細については、[プロジェクト カテゴリの構成](/dynamics365/project-operations/project-accounting/configure-project-categories) と [Project Operations の設定と構成データの統合](resource-dual-write-setup-integration.md)を参照してください。 この統合の結果として、システムは財務と運用アプリで 4 つの共有カテゴリレコードを作成します。
 2. Finance で、**経費管理** > **設定** > **共有カテゴリ** に移動し、トランザクション クラスが **費用** となっている共有カテゴリを選択します。 **経費で使用可能** パラメータを **True** に設定し、使用する経費のタイプを定義します。
 3. この共有カテゴリ レコードを使用して、次に移動して新しい経費のカテゴリを作成します : **経費管理** > **設定** > **経費管理** に移動して **新規** を選択します。 レコードが保存されると、二重書き込みはテーブル マッピングを使用します。**Project Operations の統合 プロジェクト経費のカテゴリーのエクスポート エンティティ (msdyn\_expensecategories)** で Dataverse にこのレコードを同期します。
 
   ![経費カテゴリの統合。](./media/DW6ExpenseCategories.png)
 
-Finance and Operations アプリの経費カテゴリは、会社や法人によって異なります。 Dataverse には、対応する法人別のレコードがあります。 プロジェクト マネージャーが経費を見積もる際は、自分が担当しているプロジェクトを所有している会社とは別の会社が所有しているプロジェクト用に作成された経費カテゴリーを選択することはできません。 
+財務と運用アプリの経費カテゴリは、会社または法人に固有です。 Dataverse には、対応する法人別のレコードがあります。 プロジェクト マネージャーが経費を見積もる際は、自分が担当しているプロジェクトを所有している会社とは別の会社が所有しているプロジェクト用に作成された経費カテゴリーを選択することはできません。 
 
 ## <a name="expense-reports"></a>経費報告書
 
-経費報告書は Finance and Operations アプリで作成され、承認されます。 詳細については、[Dynamics 365 Project Operationsで経費報告書を作成して処理する](/learn/modules/create-process-expense-reports/)を参照してください。 経費報告書はプロジェクト マネージャーによって承認された後、総勘定元帳に転記されます。 Project Operations では、プロジェクト関連の経費報告書の明細は、特別な転記ルールを使用して転記されます。
+経費報告書は、財務と運用アプリで作成および承認されます。 詳細については、[Dynamics 365 Project Operationsで経費報告書を作成して処理する](/learn/modules/create-process-expense-reports/)を参照してください。 経費報告書はプロジェクト マネージャーによって承認された後、総勘定元帳に転記されます。 Project Operations では、プロジェクト関連の経費報告書の明細は、特別な転記ルールを使用して転記されます。
 
   - プロジェクト関連のコスト (回収不能な税金を含む) は、総勘定元帳のプロジェクトの原価勘定にすぐには転記されるのではなく、費用統合勘定に転記されます。 この勘定は、**プロジェクト管理と会計** > **設定** > **プロジェクト管理と会計パラメーター**、**Dynamics 365 Customer engagement の Project Operations** タブで構成されます。
   - 二重書き込みは Dataverse に同期され、これは **Project Operations 統合 プロジェクト 経費エクスポート エンティティ (msdyn\_expenses)** テーブル マッピングを使用して行われます。

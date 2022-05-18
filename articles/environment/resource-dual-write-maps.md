@@ -4,14 +4,14 @@ description: このトピックは、Dynamics 365 Project Operations に必要�
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547115"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612760"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 二重書き込みマッピングのバージョン
 
@@ -25,12 +25,12 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 | テーブル マップ | 初期同期 |
 | --- | --- |
-| 元帳 (msdyn_ledgers) | テーブル マッピングとすべての前提条件の初期同期が必要です。 初期同期のマスターは Finance and Operations アプリです。 |
+| 元帳 (msdyn_ledgers) | テーブル マッピングとすべての前提条件の初期同期が必要です。 初期同期のマスターは、財務と運用アプリです。 |
 | 法人 (cdm_companies) | 必須ではありません。 二重書き込みを使用して環境がリンクされると、システムはこのエンティティに自動的にデータを入力します。 |
 | 顧客 V3 (accounts) | プロビジョニングには必須ではありません。 |
 | ベンダー V2 (msdyn_vendors) | プロビジョニングには必須ではありません。 |
 
-1. マップのリストから、すべての前提条件を満たす元帳 **(msdyn\_ledgers)** マッピングを選択し、**初期同期** チェック ボックスをオンにします。 **初期同期のマスター** フィールドで、**Finance and Operationsアプリ** 元帳マッピングとすべての前提条件マップの両方を選択します。 **実行** を選択します。
+1. マップのリストから、すべての前提条件を満たす元帳 **(msdyn\_ledgers)** マッピングを選択し、**初期同期** チェック ボックスをオンにします。 **初期同期のマスター** フィールドで、元帳マップとすべての前提条件マップの両方に対して **財務と運用アプリ** を選択します。 **実行** を選択します。
 
 ![台帳マップの同期。](media/DW6.png)
 
@@ -40,26 +40,26 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 次のマッピングは、Project Operations ソリューションに必要となる前提条件です。 二重書き込みマップ バージョンは、Project Operations の 2021 年 5 月の更新プログラム、バージョン 4.10.0.186 から記載されています。
 
-| **エンティティ マップ** | **最新バージョン** | **初期同期** |
-| --- | --- | --- |
-| プロジェクト トランザクションの関連付けにおける統合エンティティ (msdyn\_transactionconnections) | 1.0.0.0 | プロビジョニングには必須ではありません。 |
-| プロジェクトの契約ヘッダー (受注) | 1.0.0.1 | プロビジョニングには必須ではありません。 |
-| プロジェクト 契約品目 (salesorderdetails) | 1.0.0.0 | プロビジョニングには必須ではありません。 |
-| プロジェクトの資金源 (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | プロビジョニングには必須ではありません。 |
-| Project Operations の統合テーブルによる材料の見積もり (msdyn\_estimatelines) | 1.0.0.0 | プロビジョニングには必須ではありません。 |
-| プロジェクトの仮発行請求書 V2 (invoices) | 1.0.0.3 | プロビジョニングには必須ではありません。 |
-| Project Operations 統合実績 (msdyn_actuals) | 1.0.0.14 | プロビジョニングには必須ではありません。 |
-| Project Operations 統合契約品目マイルストーン (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | プロビジョニングには必須ではありません。 |
-| Project Operations 統合の経費見積のエンティティ (msdyn_estimatelines) | 1.0.0.2 | プロビジョニングには必須ではありません。 |
-| Project Operations 統合の時間見積のエンティティ (msdyn_resourceassignments) | 1.0.0.5 | プロビジョニングには必須ではありません。 |
-| Project Operations 統合プロジェクト経費エクスポート エンティティ (msdyn_expensecategories) | 1.0.0.1 | プロビジョニングには必須ではありません。 |
-| Project Operations 統合プロジェクト経費エクスポート エンティティ (msdyn_expenses) | 1.0.0.2 | プロビジョニングには必須ではありません。 |
-| Project Operations 統合プロジェクト ベンダー請求書のエクスポート エンティティ (msdyn_projectvendorinvoices) | 1.0.0.0 | プロビジョニングには必須ではありません。 |
-| Project Operations 統合プロジェクト ベンダー請求書明細のエクスポート エンティティ (msdyn_projectvendorinvoicelines) | 1.0.0.1 | プロビジョニングには必須ではありません。 |
-| すべての会社のプロジェクトのリソース ロール (bookableresourcecategories) | 1.0.0.1 | プロビジョニング時に Dynamics 365 Dataverse 環境に入力されるプロジェクト マネージャーとチーム メンバーのリソース ロールを同期するためには、テーブル マッピングの初期同期が必要です。 Dataverse は、初期の同期のための主要なソースです。 |
-| プロジェクト タスク (msdyn_projecttasks) | 1.0.0.4 | プロビジョニングには必須ではありません。 |
-| プロジェクト トランザクション カテゴリ (msdyn_transactioncategories) | 1.0.0.0 | プロビジョニングには必須ではありません。 |
-| プロジェクト V2 (msdyn_projects) | 1.0.0.2 | プロビジョニングには必須ではありません。 |
+| エンティティ マップ | 最新バージョン | 初期同期 | 必要な Dynamics 365 Finance バージョン |
+| --- | --- | --- | --- |
+| プロジェクト トランザクションの関連付けにおける統合エンティティ (msdyn\_transactionconnections) | 1.0.0.0 | プロビジョニングには必須ではありません。 ||
+| プロジェクトの契約ヘッダー (受注) | 1.0.0.1 | プロビジョニングには必須ではありません。 ||
+| プロジェクト 契約品目 (salesorderdetails) | 1.0.0.0 | プロビジョニングには必須ではありません。 ||
+| プロジェクトの資金源 (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | プロビジョニングには必須ではありません。 ||
+| Project Operations の統合テーブルによる材料の見積もり (msdyn\_estimatelines) | 1.0.0.0 | プロビジョニングには必須ではありません。 ||
+| プロジェクトの仮発行請求書 V2 (invoices) | 1.0.0.3 | プロビジョニングには必須ではありません。 ||
+| Project Operations 統合実績 (msdyn_actuals) | 1.0.0.14 | プロビジョニングには必須ではありません。 ||
+| Project Operations 統合契約品目マイルストーン (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | プロビジョニングには必須ではありません。 ||
+| Project Operations 統合の経費見積のエンティティ (msdyn_estimatelines) | 1.0.0.2 | プロビジョニングには必須ではありません。 ||
+| Project Operations 統合の時間見積のエンティティ (msdyn_resourceassignments) | 1.0.0.5 | プロビジョニングには必須ではありません。 ||
+| Project Operations 統合プロジェクト経費エクスポート エンティティ (msdyn_expensecategories) | 1.0.0.1 | プロビジョニングには必須ではありません。 ||
+| Project Operations 統合プロジェクト経費エクスポート エンティティ (msdyn_expenses) | 1.0.0.3 | プロビジョニングには必須ではありません。 ||
+| Project Operations 統合プロジェクト ベンダー請求書のエクスポート エンティティ (msdyn_projectvendorinvoices) | 1.0.0.0 | プロビジョニングには必須ではありません。 ||
+| Project Operations 統合プロジェクト ベンダー請求書明細のエクスポート エンティティ (msdyn_projectvendorinvoicelines) | 1.0.0.4 | プロビジョニングには必須ではありません。 | 10.0.26 またはそれ以降 |
+| すべての会社のプロジェクトのリソース ロール (bookableresourcecategories) | 1.0.0.1 | プロビジョニング時に Dynamics 365 Dataverse 環境に入力されるプロジェクト マネージャーとチーム メンバーのリソース ロールを同期するためには、テーブル マッピングの初期同期が必要です。 Dataverse は、初期の同期のための主要なソースです。 ||
+| プロジェクト タスク (msdyn_projecttasks) | 1.0.0.4 | プロビジョニングには必須ではありません。 ||
+| プロジェクト トランザクション カテゴリ (msdyn_transactioncategories) | 1.0.0.0 | プロビジョニングには必須ではありません。 ||
+| プロジェクト V2 (msdyn_projects) | 1.0.0.2 | プロビジョニングには必須ではありません。 ||
 
 リストされたマッピングを実行するには、次の手順を実行します。
 

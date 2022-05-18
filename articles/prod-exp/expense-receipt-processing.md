@@ -1,24 +1,23 @@
 ---
 title: 経費の領収書の処理
-description: このトピックでは、領収書の光学式文字認識 (OCR) 処理に関する説明をします。 この機能は、Microsoft Dynamics 365 Finance で経費報告書を作成する際のユーザー エクスペリエンスの向上を意図して設計されています。
+description: このトピックでは、領収書の光学式文字認識 (OCR) 処理に関する説明をします。 この機能は、Microsoft Dynamics 365 Finance で経費精算書を作成する際のユーザー エクスペリエンスの向上を目的に設計されています。
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001392"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684326"
 ---
 # <a name="expense-receipt-processing"></a>経費の領収書の処理
 
@@ -51,7 +50,7 @@ ms.locfileid: "7001392"
 
 この機能は、**新しくなった経費報告書** と組み合わせて使用することで、経費のエクスペリエンスを簡素化することができます。 この機能は、サンドボックス環境と運用環境である Tier 2 +環境でのみ使用できます。
 
-このような高度な経費の機能を使用するには、Microsoft Dynamics 365 Finance 用の経費管理サービス アドインをインストールし、インスタンスの機能をオンにしてください。 Microsoft Dynamics Lifecycle Services (LCS) のプロジェクトからアドインにアクセスできます。
+これらの高度な経費機能を使用するには、Microsoft Microsoft Dynamics 365 Finance の経費管理サービス アドインをインストールし、インスタンスの機能を有効にします。 Microsoft Dynamics Lifecycle Services (LCS) のプロジェクトからアドインにアクセスできます。
 
 1. LCS にサインインし、対象とする環境を開きます。
 2. **完全な詳細** に移動します。

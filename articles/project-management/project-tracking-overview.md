@@ -2,17 +2,16 @@
 title: プロジェクトの工数の追跡
 description: このトピックでは、プロジェクトの工数と進行状況を追跡する方法について説明します。
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993967"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593802"
 ---
 # <a name="project-effort-tracking"></a>プロジェクトの工数の追跡
 
@@ -46,11 +45,12 @@ Project Operations は、タスクでの工数の差異の予測を示します�
 - リーフ ノード タスクまでの個々のタスクごとに新規 EAC が計算されます。 
 - 影響を受ける下位のリーフにノードまでの子のタスクには、EAC 値に基づいて再計算された、自分たちの残り工数と進捗率があります。 これにより、タスクの工数差異の新しいプロジェクションが発生します。 
 - ルート ノードまでのサマリー タスクの EAC が再計算されます。
+- 要約タスクで承認された工数は、すべての子タスクで承認された工数と要約タスクで承認された工数の合計です。
+- 要約タスクの残りの工数は、すべての子タスクの残りの工数から要約タスクで承認された工数を引いた合計です。
 
+## <a name="project-status-summary"></a>プロジェクト ステータスの概要
 
-## <a name="project-status-summary"></a>プロジェクト ステータス サマリー
-
-**工数の追跡** と **コストの追跡** ビューの追跡データは、プロジェクト ルート ノード、サマリー タスク、リーフ ノード タスクレベルの進行状況とコスト消費を示します。 **プロジェクトのエンティティ** ページの **状態** ページには、プロジェクト レベルのステータス サマリーが表示されます。
+**工数追跡** ビューおよび **コスト トラッキング** ビューのデータ追跡には、プロジェクト ルート ノード、集計タスク、およびリーフ ノード タスク レベルでの進捗状況とコストの消費が表示されます。 **プロジェクトのエンティティ** ページの **状態** ページには、プロジェクト レベルのステータス サマリーが表示されます。
 
 ## <a name="status-summary-fields"></a>ステータス サマリー フィールド
 

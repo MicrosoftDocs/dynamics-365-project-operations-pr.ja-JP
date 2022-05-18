@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: 144a8c0d5ac47ad6fee54850c149a349f1698049
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501377"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594170"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 8 月の新機能 - リソース/非在庫のシナリオ向け Project Operations
 
@@ -21,7 +21,7 @@ ms.locfileid: "7501377"
 このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
 
    - Microsoft Dataverse 環境バージョン 4.13.0.152 の Project Operations。
-   - Dynamics 365 Finance 環境バージョン 10.0.20 におけるプロジェクト管理と会計。
+   - Dynamics 365 Finance 環境バージョン 10.0.20 でのプロジェクト管理と会計。
 
 ## <a name="features-included-in-this-release"></a>このリリースが含む機能
 
@@ -54,7 +54,7 @@ Project Operations の二重書き込みマッピングの最新のリストと�
 | 時間と経費 | 2336884 | **週のコピー** 時間エントリ ボタンは、現在のユーザー以外にも機能する必要があります。 |
 
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Finance のプロジェクト管理および会計
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Dynamics 365 Finance でのプロジェクト管理および会計の概要
 
 | 機能 | 照合番号 | 品質更新プログラム |
 | --- | --- | --- |

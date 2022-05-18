@@ -4,14 +4,14 @@ description: このトピックは、プロジェクトの固定価格売上に�
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006432"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578714"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>固定価格売上見積もりプロジェクト 
 
@@ -26,7 +26,7 @@ Microsoft Dataverse の Dynamics 365 Project Operations で以下の属性を使
 ## <a name="review-fixed-price-revenue-estimates-projects"></a>固定価格の売上見積もりプロジェクトを確認する
 固定価格の売上見積もりプロジェクトを確認する際は、次の手順を実行します。
 
-1. Dynamics 365 Finance 環境で **プロジェクト管理と会計** > **プロジェクト** > **固定価格の売上見積もりプロジェクト** に順に移動します。
+1. Dynamics 365 Finance 環境で、**プロジェクト管理と会計** > **プロジェクト** > **固定価格収入見積もりプロジェクト** に移動します。
 2. 確認するプロジェクトを選択し、**見積もりプロジェクト ID** をダブルクリックしてレコードを開き、プロジェクトの詳細を確認します。
 3. **プロジェクト** タブを展開します。**選択したプロジェクト** グリッドに 1 件のプロジェクトが表示されます。 これはプロジェクト契約品目に関連付けられたプロジェクトなので、これを既定プロジェクトとしてシステムが使用します。 
 4. 関連付けを変更する場合はさらにプロジェクトを選択して、それらを **選択したプロジェクト** グリッドに追加します。 このグリッドで複数のプロジェクトを選択すると、選択したすべてのプロジェクトに対してプロジェクトの完了割合と収益の見積もりを一緒に計算します。

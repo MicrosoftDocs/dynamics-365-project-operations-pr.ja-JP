@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 06490148d0f245ac49d5599e0e23bc1a59976204
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987577"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580370"
 ---
 # <a name="unit-groups-and-units"></a>出荷単位一覧および出荷単位
 
@@ -84,9 +85,9 @@ Dynamics 365 Project Service Automation は単位と単位グループを使用�
     - **既定の時間単位**: 日 
     - **通貨**: GBP
 
-| ロール      | 単位グループ | 単位 | 組織単位 | 価格   |
+| ロール      | 単位グループ | 出荷単位 | 組織単位 | 価格   |
 |-----------|------------|------|---------------------|---------|
-| 開発者 | 時間       | 曜日  | Contoso UK          | 800 GBP |
+| 開発者 | Time       | Day  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>時間エントリ
 

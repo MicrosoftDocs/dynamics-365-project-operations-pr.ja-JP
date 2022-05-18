@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50874d771afe03b08bd95b670f7095bc2d61509d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008097"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599552"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 1 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 
@@ -22,7 +22,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
 
   - Dataverse 環境バージョン 4.6.0.154 での Project Operations
-  - Dynamics 365 Finance 環境バージョン 10.0.16 でのプロジェクト管理および会計
+  - Dynamics 365 Finance 環境バージョン 10.0.16 でのプロジェクト管理と会計
 
 ## <a name="quality-updates"></a>品質更新プログラム
 
@@ -43,7 +43,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | **プロジェクトの計画と追跡** | 2090202 | **非推奨** として使用されなくなったマーク付きのビジネス ルール。 |
 | **時間と経費** | 2091249 | ユーザーが送信済みまたは承認済みの時間エントリでタスクを変更できないよう、コントロールを強化しました。 |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance でのプロジェクト管理および会計
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance でのプロジェクト管理および会計の概要
 
 | **機能領域** | **照合番号** | **品質更新プログラム** |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ## <a name="regulatory-updates"></a>規制の更新
 
-Finance and Operations アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
+財務と運用アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

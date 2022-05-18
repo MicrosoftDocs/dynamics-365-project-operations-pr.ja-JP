@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: dadcf3e9fa8432fb66f76b7c2f0fdb98bc00511d93984ea98fa30b4fc03fa426
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992707"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597068"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Project Operations 2021 年 7 月リリースの新機能、変更点 (在庫/本番ベースのシナリオ向け)
 
@@ -20,7 +20,7 @@ _**適用対象:**  Project Operations (在庫/本番ベースのシナリオ向
 
 このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
 
-- Dynamics 365 Finance 環境バージョン 10.0.20 でのプロジェクト管理および会計
+- Dynamics 365 Finance 環境バージョン 10.0.20 でのプロジェクト管理と会計
  
 ### <a name="quality-updates"></a>品質更新プログラム
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ _**適用対象:**  Project Operations (在庫/本番ベースのシナリオ向
 | 出張と経費                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | **経費ドキュメントの状態をリセットする** ツールで、ワークフローが見つからなかった場合、経費報告書のステータスを **下書き** にリセットするようにしました。 
 
 ### <a name="regulatory-updates"></a>規制の更新
-Finance and Operations アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、Lifecycle Services (LCS) にログインし、問題検索ツールを使用して、計画されている規制の更新を確認することも可能です。 問題検索では、国、機能の種類、リリースで検索できます。
+財務と運用アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、Lifecycle Services (LCS) にログインし、問題検索ツールを使用して、計画されている規制の更新を確認することも可能です。 問題検索では、国、機能の種類、リリースで検索できます。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

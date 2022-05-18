@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991177"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723728"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>2021 年 3 月の最新情報または変更事項 - 在庫/製造ベースのシナリオ向け Project Operations
 
@@ -20,7 +20,7 @@ _**適用対象:** 在庫/製造ベースのシナリオ向け Project Operation
 
 このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
 
-- Dynamics 365 Finance 環境バージョン 10.0.17 でのプロジェクト管理および会計
+- Dynamics 365 Finance 環境バージョン 10.0.17 でのプロジェクト管理と会計
 
 ## <a name="features-included-in-this-release"></a>このリリースが含む機能
 このリリースは以下の機能を含みます。
@@ -121,7 +121,7 @@ _**適用対象:** 在庫/製造ベースのシナリオ向け Project Operation
 | プロジェクト管理および会計 | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | レガシーの WBS (作業分解構造) クラス メソッドである **ProjWBSUpdateController:: updateOutlineNumbersAndPublishInPreOrder** が非推奨となりました。                                                                                                   |
 
 ### <a name="regulatory-updates"></a>規制の更新
-Finance and Operations アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates.md) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
+財務と運用アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

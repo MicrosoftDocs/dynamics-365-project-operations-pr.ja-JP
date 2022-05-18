@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
@@ -15,22 +15,22 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 085b7e4d9274f8c8d94d7a84109cfa782acf3dbb9241bfd25ecb8c2f329e1bb8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5c57b2596e1d480ff59591618f073ceb8f70a289
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986857"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8574114"
 ---
 # <a name="products"></a>製品
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-製品はビジネスの重要要素です。 Dynamics 365 Sales Professional の製品カタログは、製品情報を価格情報の集合体です。 製品カタログを迅速に作成することで、営業チームの売り上げ増加に貢献します。
+製品はビジネスの重要要素です。 Dynamics 365 Sales Professional における製品カタログは、製品情報を価格情報の集合体です。 製品カタログを迅速に作成することで、営業チームの売り上げ増加に貢献します。
 
 ## <a name="add-a-product"></a>製品を追加する
 
-1.  Dynamics 365 Sales Professional に製品を登録するには、営業マネージャー プロフェッショナルまたはシステム管理者権限が必要となります。
+1.  Dynamics 365 Sales Professional にて製品を登録するには、Sales Manager プロフェッショナル または システム管理者権限が必要となります。
 2.  サイトマップ にて **設定** 配下の **製品** を選択します。
 3.  **製品を追加** を選択し、以下の情報を入力します :
 

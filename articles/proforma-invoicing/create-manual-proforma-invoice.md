@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995632"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600058"
 ---
 # <a name="proforma-invoices"></a>見積請求書
 
@@ -82,6 +82,9 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 - 数量や請求書の種類を編集、調整します。
 
 請求書を確認するには、 **確認** を選択します。 確認操作は、一方向の操作です。 **確認** を選択すると、システムは請求書を読み取り専用にし、各請求明細行の各請求明細行の詳細から請求済みの売上実績を作成します。 請求明細行の詳細が未請求売上実績を参照する場合、システムは未請求売上実績も取り消します。 (時間または経費エントリから作成された請求明細行の詳細は、未請求売上実績を参照します)。総勘定元帳統合システムは、この取り消しを使用して、会計目的で進行中のプロジェクト作業 (WIP) を取り消すことができます。
+
+> [!NOTE]
+> 確定した請求書と請求書明細行、請求書行明細などの関連レコードは、編集や削除ができません。 
 
 ### <a name="correct-a-confirmed-invoice"></a>確認済みの請求書を修正する
 

@@ -4,27 +4,27 @@ description: このトピックでは、Project Operations の構成データの
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986632"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594722"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Common Data Service で構成データの設定と適用 
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>前提条件
 
 Common Data Service (CDS) でデータの構成を開始する前に、次の前提条件を満たす必要があります:
 
-1.  Project Operations 用の CDS 環境と Dynamics 365 Finance 環境をプロビジョニングします。
-2.  Dynamics 365 Finance からの法人情報は、CDS 環境で共有されます。 つまり、CDS の **会社** エンティティには、次の会社レコードがあります:
+1.  Project Operations のために CDS 環境と Dynamics 365 Finance 環境をプロビジョニングします。
+2.  Dynamics 365 Finance の法人情報は CDS 環境で共有されます。 つまり、CDS の **会社** エンティティには、次の会社レコードがあります:
   - THPM
   - USPM
   - GBPM
@@ -132,7 +132,7 @@ Common Data Service (CDS) でデータの構成を開始する前に、次の前
 12. 次のフィールドを更新します。
 
  - **既定の会社**: USPM
- - **既定の組織単位**: Contoso Robotics Global
+ - **既定のの組織単位**: Contoso Robotics Global
  - **請求書の頻度**: 7日目と最終日
  - **作業時間テンプレート**: 作成したテンプレートに変更します。
 

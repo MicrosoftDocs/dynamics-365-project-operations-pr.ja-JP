@@ -4,14 +4,14 @@ description: このトピックでは、チーム メンバー リソースの�
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 85dc7ab4b30359a24994f8f9bf38de3fc2325e60
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008412"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8588098"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>チーム メンバー グリッドからチーム メンバーを追加する
 

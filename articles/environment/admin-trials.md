@@ -2,22 +2,22 @@
 title: Project Operations の試用版にサインアップする
 description: このトピックは、Dynamics 365 Project Operations の試用版をデプロイする方法に関する情報を提供します。
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901623"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584280"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Project Operations の試用版にサインアップする 
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations、Lite 展開 - 見積もり請求の取引、在庫/製造ベースのシナリオ向け Project Operations_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 このトピックは、プレビュー パートナー オファーにサブスクライブして Dynamics 365 Project Operations 環境を展開する方法を説明しています。
 
@@ -36,8 +36,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | オファーの使用                    | テナントごとに 1 回                          |
 | オファー期間               | 30 暦日                             |
 | テナントごとの引き換え       | 6                                            |
-| ユーザー数              | 25                                           |
-| 拡張                    | 1 回の延長、30 暦日               |
+| 内線番号                    | 1 回の延長、30 暦日               |
 | 試用版環境の数 | 3                                            |
 
 
@@ -87,7 +86,7 @@ Dynamics 365 Project Operations の試用版を展開するには、次の前提
  
   プロビジョニングが完了すると、環境の状態は **準備完了** になります。 環境のプロビジョニングには、デモ データの展開が含まれます。
  
-4.  Microsoft Dataverse URL と Finance and Operations アプリのURL のそれぞれを選択してデプロイを検証します。
+4.  Microsoft Dataverse URL と財務と運用アプリの URL のそれぞれを選択して展開を検証します。
 
 ## <a name="configuring-dual-write"></a>二重書き込みの構成
 - デュアルライトのセキュリティ ロールを構成するには、[Dataverse で Project Operations のセキュリティ設定を更新する](resource-provision-new-environment.md)を参照してください。
@@ -95,9 +94,9 @@ Dynamics 365 Project Operations の試用版を展開するには、次の前提
 
 ## <a name="assign-licenses"></a>ライセンスの割り当て
 
-次の手順を完了するには、組織の Microsoft 365 ポータルへの管理アクセスが必要です。
+次の手順を完了するためには、組織の Microsoft 365 のポータルへの管理アクセスが必要です。
 
-1. [Microsoft 365 管理センター](https://portal.office.com/)に移動して、ライセンスをユーザーに割り当てます。
+1. [Microsoft 365 管理センター](https://portal.office.com/)にアクセスし、ユーザーにライセンスを割り当てます。
 
    ![管理センター ホーム ページ](./media/14AdminPortal.png)
 
@@ -117,7 +116,7 @@ Dynamics 365 Project Operations の試用版を展開するには、次の前提
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>Finance and Operations アプリ環境に ALM または ELM が必要な場合はどうなりますか?
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>財務と運用アプリ環境に ALM や ELM が必要な場合はどうなりますか？
 
 - 完全な環境ライフサイクル管理機能を必要とするパートナーの場合、[パートナー サンドボックス ライセンス リクエスト](https://experience.dynamics.com/requestlicense)を参照して、新しいパートナー オファーを確認します。 
 - 内部使用権の詳細をお求めのパートナーの場合、[内部使用権クラウドおよびソフトウェアのメリット (microsoft.com)](https://partner.microsoft.com/membership/internal-use-software) を参照してください。
@@ -125,7 +124,7 @@ Dynamics 365 Project Operations の試用版を展開するには、次の前提
 ### <a name="can-i-extend-my-trial-beyond-30-days"></a>試用期間を 30 日超に延長できますか?
 試用期間を延長するには、次の手順を実行します。
 
-1. **Microsoft 365 管理センター** で **請求** > **製品** に移動します。
+1. **Microsoft 365 管理センター** で、**請求** > **使用している製品** に移動します。
 2. **Dynamics 365 Project Operations (CE) - プレビュー試用版** を選択します。
 3. **有効期限** で、**日付の延長** を選択します。
 

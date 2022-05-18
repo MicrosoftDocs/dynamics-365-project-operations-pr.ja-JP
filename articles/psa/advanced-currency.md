@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 2925d431258a150d5830238fb5ff365499b1b440
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005127"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590168"
 ---
 # <a name="multiple-currency-scenarios"></a>複数通貨のシナリオ
 
@@ -71,7 +72,7 @@ PSA は以下の方法でコストと販売の取引通貨の概念を拡張し�
 1. GBP と日本円 (JPY) を **設定** \> **業務管理** \> **通貨** から設定します。 
 2. **Fabrikam - 日本** という名前の顧客アカウントが設定され、日本円がアカウントの通貨として選択されます。
 3. **Contoso UK** という名前の組織単位が設定され、通貨として GBP が選択されます。
-4. プロジェクト契約が作成され、**Contoso UK** は契約単位として指定され、**Fabrikam – 日本** が顧客として指定されます。
+4. プロジェクト契約が作成されます。**Contoso UK** は契約単位として指定され、**Fabrikam – 日本** が顧客として指定されます。
 5. プロジェクト契約品目は、時間の請求と費用の請求など、プロジェクトのさまざまなトランザクション クラスの請求契約に基づいて作成されます。
 6. **Contoso UK** が契約単位として指定されたプロジェクトが作成されます。 このプロジェクトを作成してプロジェクト契約品目にマップします。
 

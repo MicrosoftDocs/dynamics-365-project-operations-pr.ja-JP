@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007332"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684878"
 ---
 # <a name="project-resourcing-home-page"></a>プロジェクト リソースのホームページ
 
@@ -29,7 +28,7 @@ ms.locfileid: "7007332"
 
 このトピックでは、プロジェクト リソースについて説明します。
 
-プロジェクト計画ステージでのプロジェクト マネージャーとリソース マネージャーの課題の 1 つは、リソースの割り当てです。プロジェクトで作業するために適切なリソースを決定して予約する必要があります。 Dynamics 365 Finance では、プロジェクトのリソース機能を使って、特定のエンゲージメントやその一部のために予約可能な一時的なリソースとして扱われるロールを定義できます。 このタイプのリソース割り当てにより、プロジェクト マネージャーとリソース マネージャーが次のタスクを実行できます。
+プロジェクト計画ステージでのプロジェクト マネージャーとリソース マネージャーの課題の 1 つは、リソースの割り当てです。プロジェクトで作業するために適切なリソースを決定して予約する必要があります。 Dynamics 365 Finance では、プロジェクトのリソース機能を使用して、特定のエンゲージメントやエンゲージメントの一部のために予約可能な一時的なリソースとして扱われるロールを定義できます。 このタイプのリソース割り当てにより、プロジェクト マネージャーとリソース マネージャーが次のタスクを実行できます。
 
 - リソースを簡単に割り当てられるように、必要なコンピテンシーを持つロールを定義する。
 - ロールを使用して、予約されたリソースに基づく最初のエンゲージメント スケジュールを定義する。

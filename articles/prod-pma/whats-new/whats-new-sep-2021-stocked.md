@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 7016d702719b2d432ec929aaca8d609ebf6e996b
-ms.sourcegitcommit: abdd6cb3461ebb12fd2ca7ea78439c29aecd0a94
+ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7815850"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582026"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>2021 年 9 月の新機能と変更点 - 在庫/製造ベースのシナリオ向け Project Operations
 
@@ -20,7 +20,7 @@ _**適用対象:**  Project Operations (在庫/本番ベースのシナリオ向
 
 このトピックは、Microsoft Dynamics 365 Project Operations の次のコンポーネントとバージョンに適用されます:
 
-- Dynamics 365 Finance 環境でのプロジェクト管理と会計 バージョン 10.0.21
+- Dynamics 365 Finance 環境バージョン 10.0.21 でのプロジェクト管理と会計
  
 ## <a name="quality-updates"></a>品質更新プログラム
 
@@ -91,6 +91,6 @@ _**適用対象:**  Project Operations (在庫/本番ベースのシナリオ向
 
 ## <a name="regulatory-updates"></a>規制の更新
 
-Finance and Operations アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、Microsoft Dynamics Lifecycle Services (LCS) にサインインし、課題検索ツールを使用して、予定されている規制の更新を確認することもできます。 問題検索では、国や地域、機能の種類、リリースなどで検索することができます。
+財務と運用アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、Microsoft Dynamics Lifecycle Services (LCS) にサインインし、課題検索ツールを使用して、予定されている規制の更新を確認することもできます。 問題検索では、国や地域、機能の種類、リリースなどで検索することができます。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

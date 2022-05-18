@@ -2,18 +2,16 @@
 title: 承認セット
 description: このトピックは、承認セット、リクエスト、およびそれらの操作のサブセットを使用する方法を説明しています。
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 1d9333033eb2b03966c6531d0fd6ad5b878acd93
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 6809e01d8c3c93841125d0100d898dc208577019
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323242"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576230"
 ---
 # <a name="approval-sets"></a>承認セット
 
@@ -27,6 +25,18 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 処理待ちの承認は、**処理中の承認** ビューに表示されます。 システムは、以前の試行が失敗した場合の承認の再試行を含め、すべてのエントリを非同期で複数回処理します。
 
 **承認セットの有効期間** フィールドには、セットが失敗としてマークされるまでに残された処理の試行回数が記録されます。
+
+承認セットは、**Project Service - プロジェクト承認セットを定期的にスケジュールする** の **クラウド フロー** に基づく定期的なアクティブ化によって処理されます。 これは **Project Operations** という名前の **ソリューション** にあります。 
+
+次の手順を実行して、フローがアクティブになっていることを確認します。
+
+1. 管理者として、[flow.microsoft.com](https://powerautomate.microsoft.com) にログインします。
+2. 右上隅で、Dynamics 365 Project Operations に使う環境に切り替えます。
+3. **ソリューション** を選択するして、環境にインストールされているソリューションを一覧表示します。
+4. ソリューションのリストで、**Project Operations** を選択します。
+5. フィルターを **すべて** から **クラウド フロー** に変更します。
+6. **Project Service – プロジェクト承認セットを定期的にスケジュールする** フローが **オン** になっていることを確認します。 そうでない場合は、フローを選択してから、**オンにする** を選択します。
+7. Project Operations Dataverse 環境の **設定** エリアにある **システム ジョブ** のリストを確認し、5 分ごとに処理が行われることを確認します。
 
 ## <a name="failed-approvals-and-approval-sets"></a>失敗した承認と承認セット
 **失敗した承認** ビューには、ユーザーの介入が必要なすべての承認が一覧表示されます。 関連する承認セットのログを開いて、失敗の原因を特定します。

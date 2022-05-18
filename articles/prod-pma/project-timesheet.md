@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997207"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683193"
 ---
 # <a name="project-timesheet-mobile-application"></a>プロジェクト タイムシート モバイル アプリケーション
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997207"
 
 ## <a name="overview"></a>概要
 
-Microsoft Dynamics 365 Project Timesheet モバイル アプリを使用すると、ユーザーはモバイル デバイス (iPhone または Android) でプロジェクトのタイムシートを送信および承認できます。 このモバイル アプリは、Dynamics 365 Finance のプロジェクト管理および会計領域にタイムシート機能を表示して、ユーザーの生産性と効率を向上させ、プロジェクト タイムシートのタイムリーな入力と承認にも役立ちます。
+Microsoft Dynamics 365 Project Timesheet モバイル アプリを使用すると、ユーザーはモバイル デバイス (iPhone または Android) でプロジェクトのタイムシートを送信および承認できます。 このモバイル アプリは、Dynamics 365 Finance のプロジェクト管理と会計領域に存在するタイムシート機能を表示し、ユーザーの生産性と効率を改善するだけでなく、プロジェクト タイムシートの適切なタイミングでの入力および承認を有効にします。
 
 ## <a name="download-and-install-the-mobile-app"></a>モバイル アプリのダウンロードとインストール
 

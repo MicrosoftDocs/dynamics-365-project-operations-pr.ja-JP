@@ -1,34 +1,33 @@
 ---
 title: プロジェクト契約とプロジェクトを、Project Service Automation から Finance に直接同期します
-description: このトピックでは、Microsoft Dynamics 365 Project Service Automation から Dynamics 365 Finance へのプロジェクト契約およびプロジェクトを直接同期するために使用されるテンプレートと基礎となるタスクについて説明します。
+description: このトピックでは、Microsoft Dynamics 365 Project Service Automation から Dynamics 365 Finance にプロジェクト契約とプロジェクトを直接同期するために使用されるテンプレートと基になるタスクについて説明します。
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001077"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684648"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>プロジェクト契約とプロジェクトを、Project Service Automation から Finance に直接同期します 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-このトピックでは、Dynamics 365 Project Service Automation から Dynamics 365 Finance へのプロジェクト契約およびプロジェクトを直接同期するために使用されるテンプレートと基礎となるタスクについて説明します。
+
+このトピックでは、Dynamics 365 Project Service Automation から Dynamics 365 Finance にプロジェクト契約とプロジェクトを直接同期するために使用されるテンプレートと基になるタスクについて説明します。
 
 > [!NOTE] 
 > Enterprise Edition 7.3.0 を使用している場合は、KB 4074835 をインストールする必要があります。
@@ -112,24 +111,24 @@ Project Service Automation から Finance への統合ソリューションが�
 - プロジェクト契約およびプロジェクトの **SourceDataID** は、別の値に更新したり、マッピングから削除したりできます。 既定のテンプレート値は **Project Service Automation** です。
 - **PaymentTerms** マッピングは、Finance の有効な支払条件を反映するように更新する必要があります。 プロジェクト タスクからマッピングを削除することもできます。 既定値マップには、デモ データの既定値があります。 次の表は、Project Service Automation の値を示します。
 
-    | Value | 内容   |
+    | 価値 | 説明設定   |
     |-------|---------------|
-    | 1     | 支払期限 30 日以内        |
+    | 6     | 支払期限 30 日以内        |
     | 2     | 10 日以内支払割引 2%、支払期限 30 日以内 |
     | 3     | 支払期限 45 日以内        |
     | 4     | 支払期限 60 日以内        |
 
 ## <a name="power-query"></a>Power Query
 
-次の条件が満たされている場合は、Microsoft Power Query for Excel を使用して、データをフィルタリングします。
+次の条件を満たす場合は、Microsoft Power Query for Excel を使用してデータをフィルターします:
 
 - Dynamics 365 Sales に受注があります。
 - Project Service Automation に複数の組織単位があり、これらの組織単位は Finance の複数の法人にマップされます。
 
-Power Query を使用する必要がある場合は、これらのガイドラインに従ってください。
+Power Query を使用する必要がある場合は、これらのガイドラインに従います:
 
 - プロジェクトと契約 (PSA から Finance and Operation) テンプレートには既定のフィルターがあり、**作業項目 (msdyn\_ordertype = 192350001)** タイプの受注のみが含まれます。 このフィルターは、プロジェクト契約が Finance の受注に対して作成されないことを保証するのに役立ちます。 独自のテンプレートを作成する場合は、このフィルターを追加する必要があります。
-- 統合接続セットの法人に同期する必要がある契約組織のみを含む Power Query フィルターを作成します。 たとえば、契約組織単位が Contoso US のプロジェクト契約は USSI の法人格に同期しますが、契約組織単位が Contoso グローバル のプロジェクト契約は USMF の法人に同期します。 このフィルターをタスク マッピングに追加しない場合、契約組織単位に関係なく、すべてのプロジェクト契約が接続設定に定義されている法人に同期されます。
+- 統合接続セットの法人に同期する必要がある契約組織のみを含む Power Query フィルターを作成します。 たとえば、Contoso US の契約組織単位とのプロジェクト契約は USSI 法人に同期する必要がありますが、Contoso グローバルの契約組織単位とのプロジェクト契約は USMF 法人に同期する必要があります。 このフィルターをタスク マッピングに追加しない場合、契約組織単位に関係なく、すべてのプロジェクト契約が接続設定に定義されている法人に同期されます。
 
 ## <a name="template-mapping-in-data-integration"></a>データ統合におけるテンプレート マッピング
 

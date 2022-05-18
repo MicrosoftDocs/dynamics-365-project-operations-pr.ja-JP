@@ -1,32 +1,31 @@
 ---
 title: Project Service Automation 統合パラメーター
-description: このトピックでは、Microsoft Dynamics 365 for Project Service Automation と Microsoft Dynamics 365 Finance の統合時に、既定データの入力方法を設定する方法について説明します。
+description: このトピックでは、Microsoft Dynamics 365 for Project Service Automation を Microsoft Dynamics 365 Finance と統合するときの既定のデータの入力方法を構成する方法について説明します。
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: b58f34cb74be531a98518100158f39d74f136afc34444468d666cd4e9394af6f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 70dcf44c0948bfb8f17c51e052b6c76e029d35fd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005847"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683682"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Project Service Automation 統合パラメーター
 
 [!include[banner](../includes/banner.md)]
 
-**Project Service Automation 統合パラメーター** ページでは、Dynamics 365 Project Service Automation と Dynamics 365 Finance の統合時に既定データを入力する方法を設定できます。 プロジェクトを Project Service Automation から Finance に正常に同期させるには、次のフィールドを設定する必要があります。
+**Project Service Automation 統合パラメーター** ページで、Dynamics 365 Project Service Automation を Dynamics 365 Finance に統合するときの既定のデータの入力方法を構成できます。 プロジェクトを Project Service Automation から Finance に正常に同期させるには、次のフィールドを設定する必要があります。
 
 **Project Service Automation 統合パラメーター** ページを開き、**プロジェクト管理および会計** \> **セットアップ** \> **Dynamics 365 for Project Service Automation 統合パラメーター** に移動します。 
 

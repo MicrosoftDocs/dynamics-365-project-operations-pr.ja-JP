@@ -2,16 +2,16 @@
 title: プロジェクト スケジュール API を使用して、スケジュール エンティティで操作を実行する
 description: このトピックでは、プロジェクト スケジュール API を使用するための情報と使用例について解説します。
 author: sigitac
-ms.date: 09/09/2021
+ms.date: 01/13/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6be35b1c52996f4f94dc429974ef47343a027c8c
-ms.sourcegitcommit: bbe484e58a77efe77d28b34709fb6661d5da00f9
+ms.openlocfilehash: cabdf9716e4e25ed682368b99a87b3a3bf483cca
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7487691"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8592054"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>プロジェクト スケジュール API を使用して、スケジュール エンティティで操作を実行する
 
@@ -42,7 +42,7 @@ OperationSet は、スケジュールに影響を与える複数の要求をト�
 
 以下は、現在のプロジェクト スケジュール API のリストです。
 
-- **msdyn_CreateProjectV1**: この API を使用してプロジェクトを作成できます。 プロジェクトとデフォルトのプロジェクト バケットがすぐに作成されます。
+- **msdyn_CreateProjectV1**: この API を使用してプロジェクトを作成できます。 プロジェクトと規定のプロジェクト バケットがすぐに作成されます。
 - **msdyn_CreateTeamMemberV1**: この API を使用して、プロジェクト チーム メンバーを作成できます。 チーム メンバーのレコードはすぐに作成されます。
 - **msdyn_CreateOperationSetV1**: この API を使用して、トランザクション内で実行する必要のあるいくつかの要求をスケジュールできます。
 - **msdyn_PSSCreateV1**: この API を使用してエンティティを作成できます。 エンティティは、作成操作をサポートするプロジェクト スケジュール エンティティのいずれかとなります。
@@ -56,14 +56,14 @@ OperationSet は、スケジュールに影響を与える複数の要求をト�
 
 ## <a name="supported-operations"></a>サポートされている操作
 
-| スケジューリング エンティティ | 作成​​ | 更新プログラム | Delete キー | 重要な考慮事項 |
+| スケジューリング エンティティ | 作成​​ | 更新する | Delete | 重要な考慮事項 |
 | --- | --- | --- | --- | --- |
-プロジェクト タスク | 有効 | 有効 | 有効 | いいえ​​ |
-| プロジェクト タスクの依存関係 | 有効 | 有効 | | プロジェクト タスクの依存関係レコードは更新されません。 代わりに、古いレコードを削除して、新しいレコードを作成できます。 |
+プロジェクト タスク | 有効 | 有効 | 有効 | **Progress**、**EffortCompleted**、および **EffortRemaining** のフィールドは、Project for the Web で編集できますが、Project Operations では編集できません。  |
+| プロジェクト タスクの依存関係 | 有効 |  | 有効 | プロジェクト タスクの依存関係レコードは更新されません。 代わりに、古いレコードを削除して、新しいレコードを作成できます。 |
 | リソース割り当て | 有効 | 有効 | | 次のフィールドを使用した操作はサポートされていません: **BookableResourceID**、**Effort**、**EffortCompleted**、**EffortRemaining**、および **PlannedWork**。 リソース割り当てレコードは更新されません。 代わりに、古いレコードを削除して、新しいレコードを作成できます。 |
-| プロジェクト バケット | N/A | N/A | N/A | 既定のバケットは、**CreateProjectV1** API を使って作成されます。 |
+| プロジェクト バケット | 有効 | 有効 | 有効 | 規定のバケットは、**CreateProjectV1** APIを使用して作成されます。 プロジェクト バケットの作成と削除のサポートは、アップデート リリース 16 で追加されました。 |
 | プロジェクト チーム メンバー | 有効 | 有効 | 有効 | 作成操作には、**CreateTeamMemberV1** API を使用します。 |
-| Project | 有効 | 有効 | N/A | 次のフィールドを使用した操作はサポートされていません: **StateCode**、**BulkGenerationStatus**、**GlobalRevisionToken**、 **CalendarID**、**Effort**、**EffortCompleted**、**EffortRemaining**、**Progress**、**Finish**、**TaskEarliestStart**、および **Duration**。 |
+| Project | 有効 | 有効 |  | 次のフィールドを使用した操作はサポートされていません: **StateCode**、**BulkGenerationStatus**、**GlobalRevisionToken**、 **CalendarID**、**Effort**、**EffortCompleted**、**EffortRemaining**、**Progress**、**Finish**、**TaskEarliestStart**、および **Duration**。 |
 
 これらの API は、カスタムフィールドを含むエンティティ オブジェクトを使用して呼び出すことができます。
 
@@ -71,196 +71,207 @@ ID プロパティは省略可能です。 提供されている場合、シス�
 
 ## <a name="restricted-fields"></a>制限のあるフィールド
 
-以下の表は、**作成** と **編集** が制限されるフィールドを定義しています。
+以下のテーブルは、**作成** と **編集** が制限されるフィールドを定義しています。
 
 ### <a name="project-task"></a>プロジェクト タスク
 
-| **論理名**                       | **作成可能** | **編集可能**     |
+| 論理名                           | 作成可能     | 編集可能         |
 |----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | いいえ             | いいえ               |
-| msdyn_actualcost_base                  | いいえ             | いいえ               |
-| msdyn_actualend                        | いいえ             | いいえ               |
-| msdyn_actualsales                      | いいえ             | いいえ               |
-| msdyn_actualsales_base                 | いいえ             | いいえ               |
-| msdyn_actualstart                      | いいえ             | いいえ               |
-| msdyn_costatcompleteestimate           | いいえ             | いいえ               |
-| msdyn_costatcompleteestimate_base      | いいえ             | いいえ               |
-| msdyn_costconsumptionpercentage        | いいえ             | いいえ               |
-| msdyn_effortcompleted                  | いいえ             | いいえ               |
-| msdyn_effortestimateatcomplete         | いいえ             | いいえ               |
-| msdyn_iscritical                       | いいえ             | いいえ               |
-| msdyn_iscriticalname                   | いいえ             | いいえ               |
-| msdyn_ismanual                         | いいえ             | いいえ               |
-| msdyn_ismanualname                     | いいえ             | いいえ               |
-| msdyn_ismilestone                      | いいえ             | いいえ               |
-| msdyn_ismilestonename                  | いいえ             | いいえ               |
-| msdyn_LinkStatus                       | いいえ             | いいえ               |
-| msdyn_linkstatusname                   | いいえ             | いいえ               |
-| msdyn_msprojectclientid                | いいえ             | いいえ               |
-| msdyn_plannedcost                      | いいえ             | いいえ               |
-| msdyn_plannedcost_base                 | いいえ             | いいえ               |
-| msdyn_plannedsales                     | いいえ             | いいえ               |
-| msdyn_plannedsales_base                | いいえ             | いいえ               |
-| msdyn_pluginprocessingdata             | いいえ             | いいえ               |
-| msdyn_progress                         | いいえ             | いいえ (P4W の場合は"はい") |
-| msdyn_remainingcost                    | いいえ             | いいえ               |
-| msdyn_remainingcost_base               | いいえ             | いいえ               |
-| msdyn_remainingsales                   | いいえ             | いいえ               |
-| msdyn_remainingsales_base              | いいえ             | いいえ               |
-| msdyn_requestedhours                   | いいえ             | いいえ               |
-| msdyn_resourcecategory                 | いいえ             | いいえ               |
-| msdyn_resourcecategoryname             | いいえ             | いいえ               |
-| msdyn_resourceorganizationalunitid     | いいえ             | いいえ               |
-| msdyn_resourceorganizationalunitidname | いいえ             | いいえ               |
-| msdyn_salesconsumptionpercentage       | いいえ             | いいえ               |
-| msdyn_salesestimateatcomplete          | いいえ             | いいえ               |
-| msdyn_salesestimateatcomplete_base     | いいえ             | いいえ               |
-| msdyn_salesvariance                    | いいえ             | いいえ               |
-| msdyn_salesvariance_base               | いいえ             | いいえ               |
-| msdyn_scheduleddurationminutes         | いいえ             | いいえ               |
-| msdyn_scheduledend                     | いいえ             | いいえ               |
-| msdyn_scheduledstart                   | いいえ             | いいえ               |
-| msdyn_schedulevariance                 | いいえ             | いいえ               |
-| msdyn_skipupdateestimateline           | いいえ             | いいえ               |
-| msdyn_skipupdateestimatelinename       | いいえ             | いいえ               |
-| msdyn_summary                          | いいえ             | いいえ               |
-| msdyn_varianceofcost                   | いいえ             | いいえ               |
-| msdyn_varianceofcost_base              | いいえ             | いいえ               |
+| msdyn_actualcost                       | 番号             | 番号               |
+| msdyn_actualcost_base                  | 番号             | 番号               |
+| msdyn_actualend                        | 番号             | 番号               |
+| msdyn_actualsales                      | 番号             | 番号               |
+| msdyn_actualsales_base                 | 番号             | 番号               |
+| msdyn_actualstart                      | 番号             | 番号               |
+| msdyn_costatcompleteestimate           | 番号             | 番号               |
+| msdyn_costatcompleteestimate_base      | 番号             | 番号               |
+| msdyn_costconsumptionpercentage        | 番号             | 番号               |
+| msdyn_effortcompleted                  | 不可 (プロジェクトでは可)             | 不可 (プロジェクトでは可)               |
+| msdyn_effortremaining                  | 不可 (プロジェクトでは可)              | 不可 (プロジェクトでは可)                |
+| msdyn_effortestimateatcomplete         | 番号             | 番号               |
+| msdyn_iscritical                       | 番号             | 番号               |
+| msdyn_iscriticalname                   | 番号             | 番号               |
+| msdyn_ismanual                         | 番号             | 番号               |
+| msdyn_ismanualname                     | 番号             | 番号               |
+| msdyn_ismilestone                      | 番号             | 番号               |
+| msdyn_ismilestonename                  | 番号             | 番号               |
+| msdyn_LinkStatus                       | 番号             | 番号               |
+| msdyn_linkstatusname                   | 番号             | 番号               |
+| msdyn_msprojectclientid                | 番号             | 番号               |
+| msdyn_plannedcost                      | 番号             | 番号               |
+| msdyn_plannedcost_base                 | 番号             | 番号               |
+| msdyn_plannedsales                     | 番号             | 番号               |
+| msdyn_plannedsales_base                | 番号             | 番号               |
+| msdyn_pluginprocessingdata             | 番号             | 番号               |
+| msdyn_progress                         | 不可 (プロジェクトでは可)             | 不可 (プロジェクトでは可) |
+| msdyn_remainingcost                    | 番号             | 番号               |
+| msdyn_remainingcost_base               | 番号             | 番号               |
+| msdyn_remainingsales                   | 番号             | 番号               |
+| msdyn_remainingsales_base              | 番号             | 番号               |
+| msdyn_requestedhours                   | 番号             | 番号               |
+| msdyn_resourcecategory                 | 番号             | 番号               |
+| msdyn_resourcecategoryname             | 番号             | 番号               |
+| msdyn_resourceorganizationalunitid     | 番号             | 番号               |
+| msdyn_resourceorganizationalunitidname | 番号             | 番号               |
+| msdyn_salesconsumptionpercentage       | 番号             | 番号               |
+| msdyn_salesestimateatcomplete          | 番号             | 番号               |
+| msdyn_salesestimateatcomplete_base     | 番号             | 番号               |
+| msdyn_salesvariance                    | 番号             | 番号               |
+| msdyn_salesvariance_base               | 番号             | 番号               |
+| msdyn_scheduleddurationminutes         | 番号             | 番号               |
+| msdyn_scheduledend                     | 番号             | 番号               |
+| msdyn_scheduledstart                   | 番号             | 番号               |
+| msdyn_schedulevariance                 | 番号             | 番号               |
+| msdyn_skipupdateestimateline           | 番号             | 番号               |
+| msdyn_skipupdateestimatelinename       | 番号             | 番号               |
+| msdyn_summary                          | 番号             | 番号               |
+| msdyn_varianceofcost                   | 番号             | 番号               |
+| msdyn_varianceofcost_base              | 番号             | 番号               |
 
 ### <a name="project-task-dependency"></a>プロジェクト タスクの依存関係
 
-| **論理名**              | **作成可能** | **編集可能** |
+| 論理名                  | 作成可能     | 編集可能     |
 |-------------------------------|----------------|--------------|
-| msdyn_linktype                | いいえ             | いいえ           |
-| msdyn_linktypename            | いいえ             | いいえ           |
-| msdyn_predecessortask         | はい            | いいえ           |
-| msdyn_predecessortaskname     | はい            | いいえ           |
-| msdyn_project                 | はい            | いいえ           |
-| msdyn_projectname             | はい            | いいえ           |
-| msdyn_projecttaskdependencyid | はい            | いいえ           |
-| msdyn_successortask           | はい            | いいえ           |
-| msdyn_successortaskname       | はい            | いいえ           |
+| msdyn_linktype                | 番号             | 番号           |
+| msdyn_linktypename            | 番号             | 番号           |
+| msdyn_predecessortask         | 有効            | 番号           |
+| msdyn_predecessortaskname     | 有効            | 番号           |
+| msdyn_project                 | 有効            | 番号           |
+| msdyn_projectname             | 有効            | 番号           |
+| msdyn_projecttaskdependencyid | 有効            | 番号           |
+| msdyn_successortask           | 有効            | 番号           |
+| msdyn_successortaskname       | 有効            | 番号           |
 
 ### <a name="resource-assignment"></a>リソース割り当て
 
-| **論理名**             | **作成可能** | **編集可能** |
+| 論理名                 | 作成可能     | 編集可能     |
 |------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | はい            | いいえ           |
-| msdyn_bookableresourceidname | はい            | いいえ           |
-| msdyn_bookingstatusid        | いいえ             | いいえ           |
-| msdyn_bookingstatusidname    | いいえ             | いいえ           |
-| msdyn_committype             | いいえ             | いいえ           |
-| msdyn_committypename         | いいえ             | いいえ           |
-| msdyn_effort                 | いいえ             | いいえ           |
-| msdyn_effortcompleted        | いいえ             | いいえ           |
-| msdyn_effortremaining        | いいえ             | いいえ           |
-| msdyn_finish                 | いいえ             | いいえ           |
-| msdyn_plannedcost            | いいえ             | いいえ           |
-| msdyn_plannedcost_base       | いいえ             | いいえ           |
-| msdyn_plannedcostcontour     | いいえ             | いいえ           |
-| msdyn_plannedsales           | いいえ             | いいえ           |
-| msdyn_plannedsales_base      | いいえ             | いいえ           |
-| msdyn_plannedsalescontour    | いいえ             | いいえ           |
-| msdyn_plannedwork            | いいえ             | いいえ           |
-| msdyn_projectid              | はい            | いいえ           |
-| msdyn_projectidname          | いいえ             | いいえ           |
-| msdyn_projectteamid          | いいえ             | いいえ           |
-| msdyn_projectteamidname      | いいえ             | いいえ           |
-| msdyn_start                  | いいえ             | いいえ           |
-| msdyn_taskid                 | いいえ             | いいえ           |
-| msdyn_taskidname             | いいえ             | いいえ           |
-| msdyn_userresourceid         | いいえ             | いいえ           |
+| msdyn_bookableresourceid     | 有効            | 番号           |
+| msdyn_bookableresourceidname | 有効            | 番号           |
+| msdyn_bookingstatusid        | 番号             | 番号           |
+| msdyn_bookingstatusidname    | 番号             | 番号           |
+| msdyn_committype             | 番号             | 番号           |
+| msdyn_committypename         | 番号             | 番号           |
+| msdyn_effort                 | 番号             | 番号           |
+| msdyn_effortcompleted        | 番号             | 番号           |
+| msdyn_effortremaining        | 番号             | 番号           |
+| msdyn_finish                 | 番号             | 番号           |
+| msdyn_plannedcost            | 番号             | 番号           |
+| msdyn_plannedcost_base       | 番号             | 番号           |
+| msdyn_plannedcostcontour     | 番号             | 番号           |
+| msdyn_plannedsales           | 番号             | 番号           |
+| msdyn_plannedsales_base      | 番号             | 番号           |
+| msdyn_plannedsalescontour    | 番号             | 番号           |
+| msdyn_plannedwork            | 番号             | 番号           |
+| msdyn_projectid              | 有効            | 番号           |
+| msdyn_projectidname          | 番号             | 番号           |
+| msdyn_projectteamid          | 番号             | 番号           |
+| msdyn_projectteamidname      | 番号             | 番号           |
+| msdyn_start                  | 番号             | 番号           |
+| msdyn_taskid                 | 番号             | 番号           |
+| msdyn_taskidname             | 番号             | 番号           |
+| msdyn_userresourceid         | 番号             | 番号           |
 
 ### <a name="project-team-member"></a>プロジェクト チーム メンバー
 
-| **論理名**                                 | **作成可能** | **編集可能** |
+| 論理名                                     | 作成可能     | 編集可能     |
 |--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | いいえ             | いいえ           |
-| msdyn_creategenericteammemberwithrequirementname | いいえ             | いいえ           |
-| msdyn_deletestatus                               | いいえ             | いいえ           |
-| msdyn_deletestatusname                           | いいえ             | いいえ           |
-| msdyn_effort                                     | いいえ             | いいえ           |
-| msdyn_effortcompleted                            | いいえ             | いいえ           |
-| msdyn_effortremaining                            | いいえ             | いいえ           |
-| msdyn_finish                                     | いいえ             | いいえ           |
-| msdyn_hardbookedhours                            | いいえ             | いいえ           |
-| msdyn_hours                                      | いいえ             | いいえ           |
-| msdyn_markedfordeletiontimer                     | いいえ             | いいえ           |
-| msdyn_markedfordeletiontimestamp                 | いいえ             | いいえ           |
-| msdyn_msprojectclientid                          | いいえ             | いいえ           |
-| msdyn_percentage                                 | いいえ             | いいえ           |
-| msdyn_requiredhours                              | いいえ             | いいえ           |
-| msdyn_softbookedhours                            | いいえ             | いいえ           |
-| msdyn_start                                      | いいえ             | いいえ           |
+| msdyn_calendarid                                 | 番号             | 番号           |
+| msdyn_creategenericteammemberwithrequirementname | 番号             | 番号           |
+| msdyn_deletestatus                               | 番号             | 番号           |
+| msdyn_deletestatusname                           | 番号             | 番号           |
+| msdyn_effort                                     | 番号             | 番号           |
+| msdyn_effortcompleted                            | 番号             | 番号           |
+| msdyn_effortremaining                            | 番号             | 番号           |
+| msdyn_finish                                     | 番号             | 番号           |
+| msdyn_hardbookedhours                            | 番号             | 番号           |
+| msdyn_hours                                      | 番号             | 番号           |
+| msdyn_markedfordeletiontimer                     | 番号             | 番号           |
+| msdyn_markedfordeletiontimestamp                 | 番号             | 番号           |
+| msdyn_msprojectclientid                          | 番号             | 番号           |
+| msdyn_percentage                                 | 番号             | 番号           |
+| msdyn_requiredhours                              | 番号             | 番号           |
+| msdyn_softbookedhours                            | 番号             | 番号           |
+| msdyn_start                                      | 番号             | 番号           |
 
 ### <a name="project"></a>Project
 
-| **論理名**                       | **作成可能** | **編集可能** |
+| 論理名                           | 作成可能     | 編集可能     |
 |----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | いいえ             | いいえ           |
-| msdyn_actualexpensecost_base           | いいえ             | いいえ           |
-| msdyn_actuallaborcost                  | いいえ             | いいえ           |
-| msdyn_actuallaborcost_base             | いいえ             | いいえ           |
-| msdyn_actualsales                      | いいえ             | いいえ           |
-| msdyn_actualsales_base                 | いいえ             | いいえ           |
-| msdyn_contractlineproject              | はい            | いいえ           |
-| msdyn_contractorganizationalunitid     | はい            | いいえ           |
-| msdyn_contractorganizationalunitidname | はい            | いいえ           |
-| msdyn_costconsumption                  | いいえ             | いいえ           |
-| msdyn_costestimateatcomplete           | いいえ             | いいえ           |
-| msdyn_costestimateatcomplete_base      | いいえ             | いいえ           |
-| msdyn_costvariance                     | いいえ             | いいえ           |
-| msdyn_costvariance_base                | いいえ             | いいえ           |
-| msdyn_duration                         | いいえ             | いいえ           |
-| msdyn_effort                           | いいえ             | いいえ           |
-| msdyn_effortcompleted                  | いいえ             | いいえ           |
-| msdyn_effortestimateatcompleteeac      | いいえ             | いいえ           |
-| msdyn_effortremaining                  | いいえ             | いいえ           |
-| msdyn_finish                           | はい            | はい          |
-| msdyn_globalrevisiontoken              | いいえ             | いいえ           |
-| msdyn_islinkedtomsprojectclient        | いいえ             | いいえ           |
-| msdyn_islinkedtomsprojectclientname    | いいえ             | いいえ           |
-| msdyn_linkeddocumenturl                | いいえ             | いいえ           |
-| msdyn_msprojectdocument                | いいえ             | いいえ           |
-| msdyn_msprojectdocumentname            | いいえ             | いいえ           |
-| msdyn_plannedexpensecost               | いいえ             | いいえ           |
-| msdyn_plannedexpensecost_base          | いいえ             | いいえ           |
-| msdyn_plannedlaborcost                 | いいえ             | いいえ           |
-| msdyn_plannedlaborcost_base            | いいえ             | いいえ           |
-| msdyn_plannedsales                     | いいえ             | いいえ           |
-| msdyn_plannedsales_base                | いいえ             | いいえ           |
-| msdyn_progress                         | いいえ             | いいえ           |
-| msdyn_remainingcost                    | いいえ             | いいえ           |
-| msdyn_remainingcost_base               | いいえ             | いいえ           |
-| msdyn_remainingsales                   | いいえ             | いいえ           |
-| msdyn_remainingsales_base              | いいえ             | いいえ           |
-| msdyn_replaylogheader                  | いいえ             | いいえ           |
-| msdyn_salesconsumption                 | いいえ             | いいえ           |
-| msdyn_salesestimateatcompleteeac       | いいえ             | いいえ           |
-| msdyn_salesestimateatcompleteeac_base  | いいえ             | いいえ           |
-| msdyn_salesvariance                    | いいえ             | いいえ           |
-| msdyn_salesvariance_base               | いいえ             | いいえ           |
-| msdyn_scheduleperformance              | いいえ             | いいえ           |
-| msdyn_scheduleperformancename          | いいえ             | いいえ           |
-| msdyn_schedulevariance                 | いいえ             | いいえ           |
-| msdyn_taskearlieststart                | いいえ             | いいえ           |
-| msdyn_teamsize                         | いいえ             | いいえ           |
-| msdyn_teamsize_date                    | いいえ             | いいえ           |
-| msdyn_teamsize_state                   | いいえ             | いいえ           |
-| msdyn_totalactualcost                  | いいえ             | いいえ           |
-| msdyn_totalactualcost_base             | いいえ             | いいえ           |
-| msdyn_totalplannedcost                 | いいえ             | いいえ           |
-| msdyn_totalplannedcost_base            | いいえ             | いいえ           |
+| msdyn_actualexpensecost                | 番号             | 番号           |
+| msdyn_actualexpensecost_base           | 番号             | 番号           |
+| msdyn_actuallaborcost                  | 番号             | 番号           |
+| msdyn_actuallaborcost_base             | 番号             | 番号           |
+| msdyn_actualsales                      | 番号             | 番号           |
+| msdyn_actualsales_base                 | 番号             | 番号           |
+| msdyn_contractlineproject              | 有効            | 番号           |
+| msdyn_contractorganizationalunitid     | 有効            | 番号           |
+| msdyn_contractorganizationalunitidname | 有効            | 番号           |
+| msdyn_costconsumption                  | 番号             | 番号           |
+| msdyn_costestimateatcomplete           | 番号             | 番号           |
+| msdyn_costestimateatcomplete_base      | 番号             | 番号           |
+| msdyn_costvariance                     | 番号             | 番号           |
+| msdyn_costvariance_base                | 番号             | 番号           |
+| msdyn_duration                         | 番号             | 番号           |
+| msdyn_effort                           | 番号             | 番号           |
+| msdyn_effortcompleted                  | 番号             | 番号           |
+| msdyn_effortestimateatcompleteeac      | 番号             | 番号           |
+| msdyn_effortremaining                  | 番号             | 番号           |
+| msdyn_finish                           | 有効            | 有効          |
+| msdyn_globalrevisiontoken              | 番号             | 番号           |
+| msdyn_islinkedtomsprojectclient        | 番号             | 番号           |
+| msdyn_islinkedtomsprojectclientname    | 番号             | 番号           |
+| msdyn_linkeddocumenturl                | 番号             | 番号           |
+| msdyn_msprojectdocument                | 番号             | 番号           |
+| msdyn_msprojectdocumentname            | 番号             | 番号           |
+| msdyn_plannedexpensecost               | 番号             | 番号           |
+| msdyn_plannedexpensecost_base          | 番号             | 番号           |
+| msdyn_plannedlaborcost                 | 番号             | 番号           |
+| msdyn_plannedlaborcost_base            | 番号             | 番号           |
+| msdyn_plannedsales                     | 番号             | 番号           |
+| msdyn_plannedsales_base                | 番号             | 番号           |
+| msdyn_progress                         | 番号             | 番号           |
+| msdyn_remainingcost                    | 番号             | 番号           |
+| msdyn_remainingcost_base               | 番号             | 番号           |
+| msdyn_remainingsales                   | 番号             | 番号           |
+| msdyn_remainingsales_base              | 番号             | 番号           |
+| msdyn_replaylogheader                  | 番号             | 番号           |
+| msdyn_salesconsumption                 | 番号             | 番号           |
+| msdyn_salesestimateatcompleteeac       | 番号             | 番号           |
+| msdyn_salesestimateatcompleteeac_base  | 番号             | 番号           |
+| msdyn_salesvariance                    | 番号             | 番号           |
+| msdyn_salesvariance_base               | 番号             | 番号           |
+| msdyn_scheduleperformance              | 番号             | 番号           |
+| msdyn_scheduleperformancename          | 番号             | 番号           |
+| msdyn_schedulevariance                 | 番号             | 番号           |
+| msdyn_taskearlieststart                | 番号             | 番号           |
+| msdyn_teamsize                         | 番号             | 番号           |
+| msdyn_teamsize_date                    | 番号             | 番号           |
+| msdyn_teamsize_state                   | 番号             | 番号           |
+| msdyn_totalactualcost                  | 番号             | 番号           |
+| msdyn_totalactualcost_base             | 番号             | 番号           |
+| msdyn_totalplannedcost                 | 番号             | 番号           |
+| msdyn_totalplannedcost_base            | 番号             | 番号           |
 
+### <a name="project-bucket"></a>プロジェクト バケット
+
+| 論理名          | 作成可能      | 編集可能     |
+|-----------------------|-----------------|--------------|
+| msdyn_displayorder    | 有効             | 番号           |
+| msdyn_name            | 有効             | 有効          |
+| msdyn_project         | 有効             | 番号           |
+| msdyn_projectbucketid | 有効             | 番号           |
 
 ## <a name="limitations-and-known-issues"></a>制限事項と既知の問題
 以下は、制限事項と既知の問題のリストです。
 
 - プロジェクト スケジュール API は、**Microsoft Project のライセンスを持つユーザー** のみが使用できます。 次のユーザーは使用できません:
+
     - アプリケーション ユーザー
     - システム ユーザー
     - 統合ユーザー
     - 必要なライセンスを持っていない他のユーザー
+
 - 各 **OperationSet** に割り当てられるのは最大 100 件の操作までです。
 - 各ユーザーが持つことができるのは、最大 10 件のオープン **OperationSet** です。
 - Project Operations は現在、プロジェクトで最大 500 件の合計タスクをサポートしています。
@@ -269,8 +280,8 @@ ID プロパティは省略可能です。 提供されている場合、シス�
 
 ## <a name="error-handling"></a>エラー処理
 
-   - 操作セットから生成されたエラーを確認するには、**設定** \> **スケジュールの統合** \> **操作セット** にアクセスしてください。
-   - プロジェクト スケジュール サービスから生成されたエラーを確認するには、**設定**\>**スケジュールの統合**\>**PSS エラーログ** にアクセスしてください。
+- 操作セットから生成されたエラーを確認するには、**設定** \> **スケジュールの統合** \> **操作セット** にアクセスしてください。
+- プロジェクト スケジュール サービスから生成されたエラーを確認するには、**設定**\>**スケジュールの統合**\>**PSS エラーログ** にアクセスしてください。
 
 ## <a name="sample-scenario"></a>シナリオ例
 
@@ -492,7 +503,6 @@ private Entity GetTask(string name, EntityReference projectReference, EntityRefe
     task["msdyn_effort"] = 4d;
     task["msdyn_scheduledstart"] = DateTime.Today;
     task["msdyn_scheduledend"] = DateTime.Today.AddDays(5);
-    task["msdyn_progress"] = 0.34m;
     task["msdyn_start"] = DateTime.Now.AddDays(1);
     task["msdyn_projectbucket"] = GetBucket(projectReference).ToEntityReference();
     task["msdyn_LinkStatus"] = new OptionSetValue(192350000);
@@ -524,9 +534,7 @@ private Entity GetResourceAssignment(string name, Entity teamMember, Entity task
     assignment["msdyn_taskid"] = task.ToEntityReference();
     assignment["msdyn_projectid"] = project.ToEntityReference();
     assignment["msdyn_name"] = name;
-    assignment["msdyn_start"] = DateTime.Now;
-    assignment["msdyn_finish"] = DateTime.Now;
-
+   
     return assignment;
 }
 

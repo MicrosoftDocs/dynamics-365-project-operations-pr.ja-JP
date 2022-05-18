@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dbce86e88f8315ac4a4957c1128b5619d5328bdbbe27793e161f8f2691899481
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 07622ed798fd8d70e0ce5cc42297bd5056402474
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008142"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589110"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 4 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 
@@ -21,7 +21,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
 
 - Dataverse 環境バージョン 4.9.0.221 での Project Operations
-- Dynamics 365 Finance 環境バージョン 10.0.17 でのプロジェクト管理および会計
+- Dynamics 365 Finance 環境バージョン 10.0.17 でのプロジェクト管理と会計
 
 ## <a name="features-included-in-this-release"></a>このリリースが含む機能
 
@@ -42,13 +42,13 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | **エンティティ マップ** | **更新バージョン** | **コメント** |
 | --- | --- | --- |
 | Project Operations 統合実績 (msdyn\_actuals) | 1.0.0.14 | 材料プロジェクトの実績を同期するよう、マッピングが変更されました。 |
-| Project Operations の費用見積もりの統合エンティティ (msdyn\_estimateslines) | 1.0.0.2 | タスク ベースの請求書作成をサポートするために、Finance and Operations アプリにプロジェクトの契約品目の同期が追加されました。 |
-| 時間見積もりに使用する Project Operations 統合エンティティ (msdyn\_resourceassignments) | 1.0.0.5 | タスク ベースの請求書作成をサポートするために、Finance and Operations アプリにプロジェクトの契約品目の同期が追加されました。 |
-| Project Operations の統合テーブルによる材料の見積もり (msdyn\_estimatelines) | 1.0.0.0 | Dataverse から Finance and Operations アプリで材料の見積もりを同期する新しいテーブルマッピング。 |
-| Project Operations 統合プロジェクト ベンダー請求書のエクスポート エンティティ (msdyn\_projectvendorinvoices) | 1.0.0.0 | ベンダーの請求書ヘッダーを Finance and Operations のアプリから Dataverse のアプリに同期するための新しいテーブル マッピング。 |
-| Project Operations 統合プロジェクト ベンダー請求書明細のエクスポート エンティティ (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | ベンダーの請求書明細を Finance and Operations のアプリから Dataverse のアプリに同期するための新しいテーブル マッピング。 |
+| Project Operations の費用見積もりの統合エンティティ (msdyn\_estimateslines) | 1.0.0.2 | タスクベースの請求をサポートするため、プロジェクト契約品目の同期を財務と運用アプリに追加しました。 |
+| 時間見積もりに使用する Project Operations 統合エンティティ (msdyn\_resourceassignments) | 1.0.0.5 | タスクベースの請求をサポートするため、プロジェクト契約品目の同期を財務と運用アプリに追加しました。 |
+| Project Operations の統合テーブルによる材料の見積もり (msdyn\_estimatelines) | 1.0.0.0 | 材料の見積もりを Dataverse から財務と運用アプリに同期する新しいテーブル マップ。 |
+| Project Operations 統合プロジェクト ベンダー請求書のエクスポート エンティティ (msdyn\_projectvendorinvoices) | 1.0.0.0 | 仕入先請求書のヘッダーを財務と運用アプリから Dataverse に同期する新しいテーブル マップ。 |
+| Project Operations 統合プロジェクト ベンダー請求書明細のエクスポート エンティティ (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | 仕入先請求書行を財務と運用アプリから Dataverse に同期する新しいテーブル マップ。 |
 
-Project Operations の Dataverse ソリューションと Finance and Operations ソリューションのバージョンを更新する際には、常に最新バージョンのマッピングを環境で実行し、関連するすべてのテーブル マッピングを有効にする必要があります。 最新バージョンのマッピングが有効になっていない場合、一部の機能や性能が正しく動作しないことがあります。 マッピングのアクティブなバージョンは、**二重書き込み** ページの **バージョン** の列で確認できます。 **テーブル マッピングのバージョン** を選択し、最新のバージョンを選択した後で、選択したバージョンを保存することで、マッピングの新しいバージョンを有効にすることができます。 既成のテーブル マッピングをカスタマイズした場合は、変更を再適用します。 詳しくは、[アプリケーションのライフサイクル管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management) を参照してください。
+常に最新バージョンのマッピングを環境で実行し、Project Operations Dataverse ソリューションや Finance and Operations ソリューションのバージョンを更新する際に、関連するすべてのテーブル マッピングを有効にする必要があります。 最新バージョンのマッピングが有効になっていない場合、一部の機能や性能が正しく動作しないことがあります。 マッピングのアクティブなバージョンは、**二重書き込み** ページの **バージョン** の列で確認できます。 **テーブル マッピングのバージョン** を選択し、最新のバージョンを選択した後で、選択したバージョンを保存することで、マッピングの新しいバージョンを有効にすることができます。 既成のテーブル マッピングをカスタマイズした場合は、変更を再適用します。 詳しくは、[アプリケーションのライフサイクル管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management) を参照してください。
 
 マップの起動に問題がある場合は、「二重書き込みのトラブルシューティング」の [マッピング上にテーブルの列が表示されない問題](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) のセクションを参照してください。
 
@@ -79,7 +79,7 @@ Project Operations の Dataverse ソリューションと Finance and Operations
 | 時間と経費 | 2204377 | 時間入力中に **週のコピー** を選択すると、コピーされたタイムシートが自動的に表示されます。 |
 | 時間と経費 | 2209059 | **ステータス** フィールドを、Dynamics 365 Field Service 時間入力向けに編集できます。 |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance でのプロジェクト管理および会計
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Dynamics 365 Finance でのプロジェクト管理および会計の概要
 
 | **機能** | **照合番号** | **品質更新プログラム** |
 | --- | --- | --- |

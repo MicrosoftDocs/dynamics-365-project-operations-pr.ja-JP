@@ -4,14 +4,14 @@ description: このトピックでは、売上見積もりに対する期間タ�
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 487e3de7895ca0752e6c9033c7bb7007ba89301c01e6205b3bc8a7d750724bc9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83cf88bafbc7fc97fba664e278b232c24db53391
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998782"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580462"
 ---
 # <a name="period-types"></a>期間タイプ
 
@@ -22,7 +22,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 ## <a name="create-and-work-with-period-types"></a>期間タイプを作成して操作する
 期間タイプの作成と操作には、以下の手順を実行します。
 
-1. Dynamics 365 Finance 環境で **プロジェクト管理と会計** > **設定** > **見積もり** > **期間タイプ** を順に選択します。
+1. Dynamics 365 Finance 環境で、**プロジェクト管理および会計** > **設定** > **見積り** > **期間タイプ** に移動します。
 2. **新規** を選択して新しい期間タイプを作成します。 名前と説明を入力します。
 3. **頻度** フィールドで値を選択します。
 

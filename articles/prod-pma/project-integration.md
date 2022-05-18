@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988027"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684979"
 ---
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client の統合
 
 [!include [banner](../includes/banner.md)]
 
-プロジェクト スケジュールの計画と管理は複雑になる可能性があるため、プロジェクト マネージャーはこのタスクの管理に役立つツールを使用する必要があります。 Microsoft Project Client との統合により、プロジェクトの WBS (作業分解構造) を開いて管理するためのサポートが提供されます。 プロジェクト マネージャーは、変更内容を Dynamics 365 Finance プロジェクト WBS (作業分解構造) に公開できます。
+プロジェクト スケジュールの計画と管理は複雑になる可能性があるため、プロジェクト マネージャーはこのタスクの管理に役立つツールを使用する必要があります。 Microsoft Project Client との統合により、プロジェクトの WBS (作業分解構造) を開いて管理するためのサポートが提供されます。 プロジェクト マネージャーは、変更を Dynamics 365 Finance のプロジェクト作業分解構造に公開できます。
 
 > [!NOTE]
 > 7 月の更新 (バージョン 10.0.4) を使用している場合は、サポート情報 4054797 および 4055884 をインストールする必要があります。
@@ -40,7 +39,7 @@ Microsoft Project Client との統合を有効にするには、Microsoft Dynami
 •**開く** をクリックし、確認メッセージが表示されたら **実行** をクリックします。
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Microsoft Project Client で既存のドラフト WBS (作業分解構造) を開いて編集する
-Dynamics 365 Finance のプロジェクトで既に WBS (作業分解構造) が作成されている場合、WBS (作業分解構造) がドラフト状態の場合は Microsoft Project Client アプリケーションで WBS (作業分解構造) を開くことができます。 **プロジェクト** ページから開くには、**計画** タブの **Microsoft Projectで開く** のリンクをクリックします。このページは、**Microsoft Dynamics 365** タブの **開く** をクリックして Microsoft Project Client アプリケーションから開くこともできます。一覧で、**法人** および **プロジェクト** を選択します。
+Dynamics 365 Finance のプロジェクトで既に作業分解構造が作成されている場合、作業分解構造がドラフト ステータスの場合は、Microsoft Project Client アプリケーションで作業分解構造を開くことができます。 **プロジェクト** ページから開くには、**計画** タブの **Microsoft Projectで開く** のリンクをクリックします。このページは、**Microsoft Dynamics 365** タブの **開く** をクリックして Microsoft Project Client アプリケーションから開くこともできます。一覧で、**法人** および **プロジェクト** を選択します。
 
 > [!NOTE]
 > ブラウザーとして Internet Explorer を使用している場合、ファイルがダウンロードされた場所から手動で開くには **保存** をクリックする必要があります。 または、**保存して開く** をクリックして Microsoft Project Client でファイルを開きます。 保存時にファイル名を変更しないでください。
