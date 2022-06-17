@@ -1,23 +1,23 @@
 ---
 title: 経費管理パラメーターの構成
-description: このトピックでは、経費管理の一般的な動作を制御するパラメーターについて説明します。
+description: この記事では、経費管理の一般的な動作を制御するパラメーターについて説明します。
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: bbaabd34d8f4af5dbcaff507fbb9f8de79355aa4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6432e119f38071b028c013561bab99820778a11d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577150"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931474"
 ---
 # <a name="configure-expense-management-parameters"></a>経費管理パラメーターの構成
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-このトピックでは、経費管理の一般的な動作を制御するパラメーターについて説明します。
+この記事では、経費管理の一般的な動作を制御するパラメーターについて説明します。
 
 ## <a name="general"></a>全般
 

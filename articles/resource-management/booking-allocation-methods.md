@@ -1,6 +1,6 @@
 ---
 title: 予約割り当ての方法
-description: このトピックは、プロジェクト オペレーションで予約割り当て方法がどのように機能するかについて説明します。
+description: この記事では、Project Operations における予約割当方法の仕組みについて説明します。
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583038"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912752"
 ---
 # <a name="booking-allocation-methods"></a>予約割り当ての方法
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-**Team** タブでチーム メンバーをプロジェクトに直接追加するか、スケジュール ボードからプロジェクトまたは要件にリソースを予約するかにかかわらず、いくつかの異なる予約の割当方法を使用できます。 このトピックでは、それぞれの方法がどのように機能し、どの方法がリソースのオーバーブッキングにつながるかを説明します。
+**Team** タブでチーム メンバーをプロジェクトに直接追加するか、スケジュール ボードからプロジェクトまたは要件にリソースを予約するかにかかわらず、いくつかの異なる予約の割当方法を使用できます。 この記事では、それぞれの方法がどのように機能し、どの方法がリソースのオーバーブッキングにつながるかを説明します。
 
 ## <a name="booking-allocation-methods"></a>予約割り当ての方法
 

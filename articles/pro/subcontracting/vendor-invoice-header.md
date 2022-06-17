@@ -1,17 +1,17 @@
 ---
 title: ベンダーの請求書のヘッダーの詳細
-description: このトピックは、Microsoft Dynamics 365 Project Operations のベンダー請求書ヘッダーで提供される機能について説明しています。
+description: この記事では、Microsoft Dynamics 365 Project Operations のベンダー請求書ヘッダーで提供される機能について説明します。
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 17be106d5486358ff0bbf011af3da26a4c85a274
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 95f84f2d2a357abbd8d507705412a0434b44f658
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575586"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929864"
 ---
 # <a name="header-details-for-vendor-invoices"></a>ベンダーの請求書のヘッダーの詳細
 
@@ -19,7 +19,7 @@ ms.locfileid: "8575586"
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
-このトピックは、Microsoft Dynamics 365 Project Operations のベンダー請求書ヘッダーで提供される機能について説明しています。
+この記事では、Microsoft Dynamics 365 Project Operations のベンダー請求書ヘッダーで提供される機能について説明します。
 
 プロジェクト マネージャーは、プロジェクトを計画および実行するときに、下請け業者を雇用し、ベンダーから製品やサービスを購入する場合があります。 プロジェクトの実行中に、ベンダーとの下請けで調達されるサービス、材料、費用のカテゴリからコストが発生します。 ベンダーは、ベンダーの請求書を作成することにより、これらのコストをプロジェクトに請求します。
 

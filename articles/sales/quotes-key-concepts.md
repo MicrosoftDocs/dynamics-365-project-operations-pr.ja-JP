@@ -1,6 +1,6 @@
 ---
 title: 見積もり - 重要な概念
-description: このトピックでは、プロジェクト オペレーションで利用可能な見積もりと営業の見積もりについて説明します。
+description: この記事では、Project Operations で使用できるプロジェクトベースの見積もりと販売見積もりに関する情報を提供します。
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579921"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912522"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>プロジェクトベースの見積もり固有の概念
 
@@ -35,7 +35,7 @@ Dynamics 365 Project Operations には、プロジェクトと販売という 2 
 - **フィールドとコンセプト**: 販売見積にはプロジェクトの見積に含まれる一部のフィールドやコンセプトが含まれていません。 フィールドには **契約単位**、**取引先企業管理者**、**請求先担当者名** が含まれます。  
 - **タイプ**: 営業やプロジェクトの見積書は、オプションセット ベースのフィールドである **タイプ** で識別されます。 販売見積の場合、このフィールドの値は **品目ベース** です。 プロジェクト見積の場合、このフィールドの値は **作業ベース** です。
 
-このトピックでは、プロジェクト見積の詳細について説明します。
+この記事では、プロジェクト見積の詳細に注目します。
 
 プロジェクト オペレーションのプロジェクト見積には、複数の品目または見積依頼明細行を含めることができます。 実際、プロジェクト見積には、品目用の 2 つのグリッドがあります。 1 つのグリッドは、詳細な推定を可能にするプロジェクト ベースの明細行用です。 もう 1 つのグリッドは、単純な単価と数量ベースのアプローチを使用する製品ベースの明細行用です。
 

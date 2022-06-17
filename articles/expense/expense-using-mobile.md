@@ -1,6 +1,6 @@
 ---
 title: モバイル経費アプリ
-description: このトピックでは、経費管理モバイル ワークスペースに関する説明をします。
+description: この記事では、経費管理モバイル ワークスペースに関する情報を提供します。
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 14bd76df5f058d2af9f77990471a0a173fe8c15d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ba7ccae04fbb02252e3ceb01f123ce1e85375b7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588926"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930232"
 ---
 # <a name="mobile-expense-app"></a>モバイル経費アプリ
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-このトピックでは、**経費管理** モバイル ワークスペースに関する説明をします。 このワークスペースでは、領収書を取り込んでアップロードし、後で経費精算書に添付することができます。 ユーザーは、添付の領収書を使用して経費明細をすばやく作成し、経費報告書を作成して管理することができます。 さらに、承認者は **経費管理** モバイル ワークスペースを使用してチームに割り当てられている経費報告書を表示し、これら経費報告書の承認や否認することができます。
+この記事では、**経費管理** モバイル ワークスペースに関する情報を提供します。 このワークスペースでは、領収書を取り込んでアップロードし、後で経費精算書に添付することができます。 ユーザーは、添付の領収書を使用して経費明細をすばやく作成し、経費報告書を作成して管理することができます。 さらに、承認者は **経費管理** モバイル ワークスペースを使用してチームに割り当てられている経費報告書を表示し、これら経費報告書の承認や否認することができます。
 
 このモバイル ワークスペースは、Dynamics 365 Unified Operations Mobile アプリと共に使用することを目的としています。
 

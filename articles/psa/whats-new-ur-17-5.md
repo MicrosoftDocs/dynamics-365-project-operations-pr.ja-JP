@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation 更新プログラム リリース 17.5、ホットフィックス、V3 の新機能と変更点
-description: このトピックには、Project Service Automation 更新プログラム リリース 17.5、V3 で利用可能な機能と修正をリスト化しています。
+description: この記事では、Project Service Automation 更新プログラム リリース 17.5、V3 で利用可能な機能と修正を一覧表示します。
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/13/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 6d4dc77263b7ce8cb2bfa0a7e61d1b55a849b624
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f008d8da11b7fecb308a00350a78298b83991d87
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577334"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926460"
 ---
 # <a name="project-service-automation-update-release-175-v3"></a>Project Service Automation 更新プログラム リリース 17.5、V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8577334"
 
 Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。  このリリースは、Dynamics 365 9.x と互換性があります。 このリリースへと更新をするには、Dynamics 365 オンラインの管理センターにアクセスし、ソリューション ページにアクセスして更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](/power-platform/admin/install-remove-preferred-solution) を参照してください。
 
-このトピックには、更新プログラム リリース 17.5、V3 の新規追加または変更された機能と修正点をリスト化しています。 このバージョンのビルド番号は V3.10.7.32 であり、一般的には 2020 年 3 月 の自己プログラム更新の処理を通じて入手できます。
+この記事では、Project Service Automation V3 更新プログラム リリース 17.5 の機能と修正を一覧表示します。 このバージョンのビルド番号は V3.10.7.32 であり、一般的には 2020 年 3 月 の自己プログラム更新の処理を通じて入手できます。
 
 
 ## <a name="update-release-175"></a>更新プログラム 17.5

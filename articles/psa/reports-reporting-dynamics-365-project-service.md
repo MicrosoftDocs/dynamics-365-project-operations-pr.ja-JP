@@ -1,6 +1,6 @@
 ---
-title: レポート作成ホーム ページ
-description: このトピックでは、 Dynamics 365 Project Service Automation でのレポート作成に関する情報へのリンクを提供します。
+title: ホーム ページのレポート作成
+description: この記事では、 Dynamics 365 Project Service Automation でのレポート作成に関する情報へのリンクを提供します。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595964"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921676"
 ---
 # <a name="reporting-home-page"></a>ホーム ページのレポート作成
 
@@ -47,7 +47,7 @@ Microsoft Power BI と Dynamics 365 が組み合わさって、インサイト �
 
 
 ## <a name="additional-resources"></a>その他のリソース
-PSA でのレポート作成については、次のトピックを参照してください。
+PSA でのレポート作成については、次の記事を参照してください。
 
 - [Project Service のデータ モデルでの作業](reports-working-project-service-data-model.md)
 - [ダッシュボード](reports-dashboards.md)

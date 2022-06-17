@@ -1,17 +1,17 @@
 ---
 title: 予約可能リソースとして扱う外注の設定
-description: このトピックでは、システム内のユーザーと取引先企業が作成した外注のリソースを設定および維持して、Microsoft Dynamics 365 Project Operations の外注に関連付ける方法を説明しています。
+description: この記事では、システム内のユーザーと連絡先から作成された下請け業者のリソースを設定および保守して、それらを Microsoft Dynamics 365 Project Operations の外注先に関連付ける方法について説明します。
 author: rumant
 ms.date: 07/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6d2f250063afc24de99e308d8d7583d1822bcabb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f005a05fb874f9e32a0041db5fc8fa1228fc91f1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597252"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927524"
 ---
 # <a name="set-up-subcontractors-as-bookable-resources"></a>予約可能リソースとして扱う外注の設定
 

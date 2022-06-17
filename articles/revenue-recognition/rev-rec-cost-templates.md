@@ -1,24 +1,24 @@
 ---
 title: コスト テンプレートの設定
-description: このトピックでは、Project Operations でコスト テンプレートを作成して使用する方法を説明します。
+description: この記事では、Project Operations でコスト テンプレートを作成して使用する方法について説明します。
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ffb45d46cf1305fffd5933f4c10b169bf802046d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594216"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918410"
 ---
 # <a name="set-up-cost-templates"></a>コスト テンプレートの設定
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
 
-このトピックでは、Project Operations でコスト テンプレートを作成して使用する方法を説明します。 コスト テンプレートは以下を決定します。
+この記事では、Project Operations でコスト テンプレートを作成して使用する方法について説明します。 コスト テンプレートは以下を決定します。
 
 - プロジェクト完了計算の割合に含める、予測と実績のトランザクションに使用するプロジェクト カテゴリ。 次に、完了割合の値を使用して認識する売上を計算します。
 - 自動で計算する場合に完了割合を変更できるかどうか。

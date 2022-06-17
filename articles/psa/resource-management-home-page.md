@@ -1,6 +1,6 @@
 ---
 title: リソース管理ホーム ページ
-description: このトピックでは、リソースの管理方法について説明します。
+description: この記事では、リソースの管理方法について説明します。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578760"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913258"
 ---
 # <a name="resource-management-home-page"></a>リソース管理ホーム ページ
 
@@ -31,9 +31,9 @@ ms.locfileid: "8578760"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-リソースとは、サービス ベース組織の最も重要な資産です。 必要な時に正しいリソースを見つけ予約し、それらを活用し続ける能力は、組織が売り上げ目標と顧客満足の目標を達成するのに役立ちます。 次のトピックでは、Dynamics 365 Project Service Automation のリソース管理機能に重点を置いています。
+リソースとは、サービス ベース組織の最も重要な資産です。 必要な時に正しいリソースを見つけ予約し、それらを活用し続ける能力は、組織が売り上げ目標と顧客満足の目標を達成するのに役立ちます。 次の記事では、Dynamics 365 Project Service Automation のリソース管理機能に注目しています。
 
-- [リソースの管理](manage-resources.md)
+- [リソース管理](manage-resources.md)
 - [重要な概念](reports-key-concepts.md)
 - [リソース要求の履行](resource-management-fulfill-requests.md)
 - [リソースの提案](resource-management-propose-resources.md)

@@ -1,17 +1,17 @@
 ---
 title: 外注に関する重要な概念
-description: このトピックは、Microsoft Dynamics 365 Project Operations の外注に適用する重要な概念について説明します。
+description: この記事では、Microsoft Dynamics 365 Project Operations の下請けに適用されるいくつかの重要な概念について説明します。
 author: rumant
 ms.date: 08/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 159eeca3aa9ed0c490be5ce3a8f46c7d7206aebe
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0ac84d132a2d62528d97ed3776a78062a589a380
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578117"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927702"
 ---
 # <a name="key-concepts-in-subcontracting"></a>外注に関する重要な概念
 
@@ -19,7 +19,7 @@ ms.locfileid: "8578117"
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
-このトピックdえは、Microsoft Dynamics 365 Project Operations の外注を機能的に使用する前に把握しておくべき重要な概念を説明します。
+この記事では、Microsoft Dynamics 365 Project Operations で下請け機能を使用する前に知っておく必要のあるいくつかの重要な概念について説明しています。
 
 ## <a name="contracting-unit-on-the-subcontract"></a>外注の契約単位
 

@@ -1,18 +1,18 @@
 ---
 title: 価格ディメンションの概要
-description: このトピックは Dynamics 365 Project Operations の価格ディメンションに関する情報を提供します。
+description: この記事では、Dynamics 365 Project Operations における価格ディメンションに関する情報を提供します。
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 294dcff8e9717aaa3a0459daf87cb7d608c96106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579266"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918042"
 ---
 # <a name="pricing-dimensions-overview"></a>価格ディメンションの概要
 
@@ -34,7 +34,7 @@ Dynamics 365 Project Operations には、価格ディメンションの既定セ
 
 !["営業に適用可能" が強調表示された Project Service パラメーターのスクリーンショット。](media/PS-OOB-parameters.png)
 
-追加の属性を使用してリソースの価格やコストを設定する必要がある場合は、カスタマイズしたフィールド、エンティティおよびディメンションを作成できます。 詳細については、次のトピックを参照してください。 
+追加の属性を使用してリソースの価格やコストを設定する必要がある場合は、カスタマイズしたフィールド、エンティティおよびディメンションを作成できます。 詳細については、次の記事をご覧ください。 
   
   > [!NOTE]
   > この手順は一覧に表示された順序で完了する必要があります。

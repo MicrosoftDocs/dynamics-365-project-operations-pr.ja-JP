@@ -1,17 +1,17 @@
 ---
 title: プロジェクトの経費の財務見積もり
-description: このトピックでは、プロジェクトベースの経費の定義または見積もりについて説明します。
+description: この記事では、プロジェクト ベースの経費の定義や見積もりに関する情報を提供します。
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c14dc31d666d0e0d026cf9cddfa1e78dee40f717
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5a29244a65dd88d3ba0f8333a63627bb0c068273
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589478"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925697"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>プロジェクトの経費の財務見積もり
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_

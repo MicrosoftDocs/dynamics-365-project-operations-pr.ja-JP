@@ -1,18 +1,18 @@
 ---
 title: 保留状態のベンダー請求書を使用して非在庫材料または調達カテゴリを購入する
-description: このトピックは、保留中のベンダーの請求書を記録する方法について説明しています。
+description: この記事では、保留中のベンダーの請求書を記録する方法について説明します。
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612663"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921998"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>保留状態のベンダー請求書を使用して非在庫材料または調達カテゴリを購入する
 
@@ -23,7 +23,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 たとえば、Contoso Robotics US は機器の更新プロジェクトを実行しており、ソフトウェア ライセンスが必要です。 これらのライセンスは、サードパーティ ベンダーが調達します。  Dynamics 365 Finance を使用して、買掛金勘定の担当者は保留状態のベンダー請求書ドキュメントを記録し、ライセンス コストを機器更新プロジェクトに対して直接割り当てます。 
 
 > [!IMPORTANT]
-> このトピックで説明されている機能を使用する前に、必要となる構成を確認して適用してください。 詳細については、[非在庫材料と保留状態のベンダー請求書を有効にする](configure-materials-nonstocked.md) と [プロジェクトの発注書と保留状態のベンダー請求書で調達カテゴリを使用する](configure-procurement-categories.md) を参照してください
+> この記事で説明されている機能を使用する前に、必要な構成を確認して適用してください。 詳細については、[非在庫材料と保留状態のベンダー請求書を有効にする](configure-materials-nonstocked.md) と [プロジェクトの発注書と保留状態のベンダー請求書で調達カテゴリを使用する](configure-procurement-categories.md) を参照してください
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>プロジェクト関連の保留中のベンダーの請求書を転記する 
 

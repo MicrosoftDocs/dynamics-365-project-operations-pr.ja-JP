@@ -1,18 +1,18 @@
 ---
 title: 製品原価計算ベースの契約品目 (ライト)
-description: このトピックでは、以下について説明します
+description: この記事では、作成ついて説明します
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3def4c330dc9aadbf5ff806ef7682fbfd1072e4b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a63ad12c081d19efde02303bf626184f8586d4a2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599276"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922918"
 ---
 # <a name="cost-product-based-contract-lines---lite"></a>製品原価計算ベースの契約品目 (ライト)
 

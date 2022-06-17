@@ -1,6 +1,6 @@
 ---
 title: 価格ディメンションとしてカスタム フィールドを設定する
-description: このトピックではユーザー定義の価格ディメンションの設定方法について説明します。
+description: この記事では、カスタム フィールドを使って、価格ディメンションを設定する方法について説明します。
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599414"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917582"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>価格ディメンションとしてカスタム フィールドを設定する
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-開始する前に、このトピックはユーザーが次のトピックの手順を完了していることを前提としています: [ユーザー定義のフィールドとエンティティの作成](create-custom-fields-entities-pricing-dimensions.md) および[ユーザー定義のフィールドを追加して価格設定とトランザクション エンティティを設定する](add-custom-fields-price-setup-transactional-entities.md)。 次に、これらの手順を完了していない場合は、戻ってこれらを完了してから、このトピックに戻ってください。 
+開始する前に、この記事はユーザーが記事、[カスタム フィールドおよびエンティティを作成する](create-custom-fields-entities-pricing-dimensions.md) と [価格設定とトランザクション エンティティに対してユカスタム フィールドを追加する](add-custom-fields-price-setup-transactional-entities.md) の手順を完了していることを前提としています。 次に、これらの手順を完了していない場合は、戻ってこれらを完了してから、この記事に戻ってください。 
 
-このトピックではカスタム価格ディメンションのセットアップについて説明します。 **パラメーター**  ページ、**金額ベースの価格設定ディメンション**  タブでは、価格設定ディメンション エンティティのレコードが表示されます。 既定では、このタブのグリッドには 2 つの行があります :
+この記事ではカスタム価格ディメンションのセットアップについて説明します。 **パラメーター**  ページ、**金額ベースの価格設定ディメンション**  タブでは、価格設定ディメンション エンティティのレコードが表示されます。 既定では、このタブのグリッドには 2 つの行があります :
 
 - **msdyn_resourcecategory** (ロール)
 - **msdyn_OrganizationalUnit** (組織単位)

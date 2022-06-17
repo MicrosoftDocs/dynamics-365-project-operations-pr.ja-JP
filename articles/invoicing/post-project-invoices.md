@@ -1,17 +1,17 @@
 ---
 title: 請求書プロセスの概要
-description: このトピックでは、リソース/非在庫ベースのシナリオのため、Project Operations における請求書のプロセス概要を説明します。
+description: この記事では、Project Operations におけるリソース/非在庫ベースのシナリオの請求書発行のプロセス概要を説明します。
 author: sigitac
 ms.date: 01/29/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 0328d5321909bcc17754da4e19d7652b77a665d5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b285a88be14a5972e9a4604713d7d35a3a442b6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582716"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923102"
 ---
 # <a name="invoicing-process-overview"></a>請求書プロセスの概要
 

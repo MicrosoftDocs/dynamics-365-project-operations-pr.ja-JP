@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation の予約割り当て方法
-description: このトピックでは、予約の割り当てを登録する方法について説明します。
+description: この記事では、予約の割り当てを登録する方法について説明します。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f0f4f5c68698fbe88de968e65a65b316b10872d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dff11de0726004653233c6b90e194825c3850e0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590122"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929174"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Project Service Automation の予約割り当て方法
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-**Team** タブでチーム メンバーをプロジェクトに直接追加するか、スケジュール ボードからプロジェクトまたは要件にリソースを予約するかにかかわらず、いくつかの異なる予約の割当方法を使用できます。 このトピックでは、それぞれの方法がどのように機能し、どの方法がリソースのオーバーブッキングにつながるかを説明します。
+**Team** タブでチーム メンバーをプロジェクトに直接追加するか、スケジュール ボードからプロジェクトまたは要件にリソースを予約するかにかかわらず、いくつかの異なる予約の割当方法を使用できます。 この記事では、それぞれの方法がどのように機能し、どの方法がリソースのオーバーブッキングにつながるかを説明します。
 
 ## <a name="full-capacity"></a>全キャパシティ 
 全キャパシティでは、指定した開始日および終了日のリソースのすべてのキャパシティが予約されます。 たとえば、あるリソースのカレンダーで1日8時間、1週間に5日の稼働日が設定されている場合、開始日と終了日に5日の稼働日を設定すると、そのリソースの40時間が予約されます。 リソースの残りのキャパシティには関係なく予約ができます。 他のプロジェクトでその期間中にリソースが既に予約されている場合、40 時間が追加時間として予約されるため、重複予約につながる可能性があります。

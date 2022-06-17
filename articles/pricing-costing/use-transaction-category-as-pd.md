@@ -1,17 +1,17 @@
 ---
 title: 価格ディメンションとしてトランザクション カテゴリを使用する
-description: このトピックでは、トランザクション カテゴリー フィールドを価格ディメンションとして使用する方法を説明します。
+description: この記事では、価格設定ディメンションとしてのトランザクション カテゴリ フィールドの使用方法について説明します。
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591134"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911700"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>価格ディメンションとしてトランザクション カテゴリを使用する
 
@@ -19,10 +19,10 @@ ms.locfileid: "8591134"
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
 
-このトピックでは、**トランザクション カテゴリ** フィールドを価格ディメンションとして使用する方法を説明します。 
+この記事では、価格設定ディメンションとして **トランザクション カテゴリ** フィールドを使用する方法について説明します。 
 
 ## <a name="prerequisites"></a>前提条件
-このトピックの手順を完了する前に、新しい価格ディメンション ソリューションが組織に必要です。 まだ作成していない場合は [価格ディメンションとしてカスタム フィールドとエンティティを作成する](create-custom-fields-entities-pricing-dimensions.md) を参照してください。
+この記事の手順を完了する前に、組織向けの新しい価格設定ディメンション ソリューションが必要です。 まだ作成していない場合は [価格ディメンションとしてカスタム フィールドとエンティティを作成する](create-custom-fields-entities-pricing-dimensions.md) を参照してください。
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>フォームとビューにトランザクション カテゴリ フィールドを追加する
 価格ディメンション ソリューションで **トランザクション カテゴリ** フィールドを表示する際は、すべてのフォームとビューにフィールドをエンティティとして追加する必要があります。

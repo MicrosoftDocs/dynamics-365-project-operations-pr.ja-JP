@@ -1,17 +1,17 @@
 ---
 title: プロジェクト スケジューリング ログ
-description: このトピックは、プロジェクト スケジューリング ログを使用して、プロジェクト スケジューリング サービスおよびプロジェクト スケジューリング API に関連するエラーを追跡するのに役立つ情報とサンプルを提供します。
+description: この記事では、プロジェクト スケジューリング ログを使用して、プロジェクト スケジューリング サービスおよびプロジェクト スケジューリング API に関連するエラーを追跡するのに役立つ情報とサンプルを提供します。
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 1a58a588d3e2fb92f1b4a4ed0f6f69d0a63908db
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c57419642e90e4def01f2cd2474c9e82dc162b86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923701"
 ---
 # <a name="project-scheduling-logs"></a>プロジェクト スケジューリング ログ
 

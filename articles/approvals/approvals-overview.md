@@ -1,17 +1,17 @@
 ---
 title: 承認の概要
-description: このトピックでは、Project Operations における承認の操作について説明します。
+description: この記事では、Project Operations での承認の操作に関する情報を提供します。
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 735cd820011a4badb83dbf6540ffe9c49f960ca1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d5b5c93dc948992505054ef7b17579aafcdf8f8d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576184"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924712"
 ---
 # <a name="approvals-overview"></a>承認の概要
 

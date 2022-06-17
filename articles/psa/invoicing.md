@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation での 請求
-description: このトピックでは、請求に関する情報を提供します。
+description: この記事では、請求書発行に関する情報を提供しています。
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579312"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926828"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Project Service Automation での 請求
 
@@ -94,7 +94,7 @@ PSAで実行された自動化請求を設定するには、次の手順に従�
 請求書を作成するバッチ処理ジョブは反復ジョブです。 このバッチ処理を何度も実行した場合は、ジョブの複数のインスタンスが作成され、エラーが発生します。 したがって、バッチ処理は一度だけ実行し、実行が停止した場合のみ、再起動する必要があります。
 
 > [!NOTE]
-> Project Service Automation でのバッチ請求は、請求スケジュールによって構成されたプロジェクトの契約品目に対してのみ実行されます。 固定価格の請求方法の契約品目には、マイルストーンを構成する必要があります。 時間と材料の請求方法を持つプロジェクト契約品目には、日付ベースの請求スケジュールを設定する必要があります。 見積依頼明細行に基づくプロジェクトのコンテキストでの請求頻度の設定に関する情報は、トピック [見積もりと見積依頼明細行](basic-quote-lines.md#invoice-schedule) で提供されています。 これは、プロジェクトベースの契約品目でも同じです。      
+> Project Service Automation でのバッチ請求は、請求スケジュールによって構成されたプロジェクトの契約品目に対してのみ実行されます。 固定価格の請求方法の契約品目には、マイルストーンを構成する必要があります。 時間と材料の請求方法を持つプロジェクト契約品目には、日付ベースの請求スケジュールを設定する必要があります。 請求書発行頻度の設定については、見積明細行に基づくプロジェクトの文脈で、[見積もりと見積もり明細](basic-quote-lines.md#invoice-schedule)の記事に情報が記載されています。 これは、プロジェクトベースの契約品目でも同じです。      
  
 ### <a name="edit-a-draft-psa-invoice"></a>PSA 請求書の下書きを編集する
 

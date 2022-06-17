@@ -1,6 +1,6 @@
 ---
 title: 詳細な見積もり、価格設定、および請求
-description: このトピックでは、Project Service Automation の見積もり、請求、価格設定に関する情報を提供します。
+description: この記事では、Project Service Automation の見積もり、請求、価格設定に関する情報を提供します。
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54047f34d950fc79e510bfe0d6601e271c02a92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8106a18fefc34141fdc5d350c60e87ec4b2a4c1d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579358"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921814"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>詳細な見積もり、価格設定、および請求のガイド
 
@@ -32,7 +32,7 @@ ms.locfileid: "8579358"
 
 適切なリソースを必要ななときに検索し、プロジェクト リソースの確保して、リソースの使用率を維持する機能は、組織が収益目標と顧客満足度目標を達成するのに役立ちます。 
 
-本トピックに記載していたPDFのリンク先と内容が以下のように更新されています:
+この記事で以前に記載していた PDF のリンクは削除され、内容は次の記事に移動されました。
 
 - [見積もり、価格設定、および請求](../quote-bill-price.md)
 - [営業プロセス](../basic-sales-process.md)
@@ -50,7 +50,7 @@ ms.locfileid: "8579358"
 - [実績の記録](../advanced-actuals.md)
 
 > [!NOTE]
-> このトピックは、今後の文書の更新で削除される場合があります。 
+> この記事は、今後の文書の更新プログラムで削除されます。 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

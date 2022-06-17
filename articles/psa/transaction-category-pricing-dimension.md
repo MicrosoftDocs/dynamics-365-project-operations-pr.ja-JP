@@ -1,6 +1,6 @@
 ---
 title: 価格設定のディメンションとしてトランザクション カテゴリを使用する
-description: このトピックでは、価格設定ディメンションとしてのトランザクション カテゴリの使用方法について説明します。
+description: この記事では、価格設定ディメンションとしてのトランザクション カテゴリの使用方法について説明します。
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: ede5f95a3ba7e122e28875acad1ecc63ff095e63
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1a1c2dc17c2092e5364d90e7efc1f13aee80703e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593342"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915742"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>価格設定のディメンションとしてトランザクション カテゴリを使用する
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-このトピックでは、価格設定ディメンションとしてトランザクション カテゴリを使用する方法について説明します。 開始する前に、価格設定ディメンションのソリューションをまだ作成していなければ、新しく作成する必要があります。 既に価格設定のディメンションのソリューションがある場合、そのソリューションで変更を行うことができます。 組織用に新しい価格設定ディメンションのソリューションを作成済みでない場合は、[カスタム フィールドおよびエンティティを作成する](create-custom-fields-entities.md) の手順を完了します。
+この記事では、価格設定ディメンションとしてトランザクション カテゴリを使用する方法について説明します。 開始する前に、価格設定ディメンションのソリューションをまだ作成していなければ、新しく作成する必要があります。 既に価格設定のディメンションのソリューションがある場合、そのソリューションで変更を行うことができます。 自分の組織に新しい価格設定ディメンションのソリューションをまだ作成していない場合は、[カスタム フィールドとエンティティを作成する](create-custom-fields-entities.md) の手順を完了します。
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>フォームとビューにトランザクション カテゴリを追加します。
 トランザクション カテゴリが価格設定ディメンション ソリューションの UI に表示されるようにするには、その重要なエンティティのすべてに関するフォームとビューの説明を理解して、これらのエンティティのフォームとビューに対して次のフィールドを追加する必要があります。

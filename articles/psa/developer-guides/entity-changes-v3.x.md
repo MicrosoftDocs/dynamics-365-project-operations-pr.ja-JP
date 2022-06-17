@@ -1,6 +1,6 @@
 ---
 title: エンティティ、コントロール、およびユーザー インターフェイスの変更 (Project Service Automation 3.x)
-description: このトピックでは、Project Service Automation 3.x Microsoft Dynamics のソリューションの変更について説明します。
+description: この記事では、Project Service Automation 3.x Microsoft Dynamics のソリューションの変更について説明します。
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,19 +15,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da43e0d15e655977c0c1be7348192a0189a56a6c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f54d263666c4fb999464f98c0138fc008dbbbd2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597574"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926874"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>エンティティ、コントロール、およびユーザー インターフェイスの変更 (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-Project Service Automation (PSA) 3.x Microsoft Dynamics のリリースでは、エンティティ、コントロール、ビュー、ユーザー インターフェイスに多くの変更がされています。 このトピックでは、これらの重要な変更について説明します。
+Project Service Automation (PSA) 3.x Microsoft Dynamics のリリースでは、エンティティ、コントロール、ビュー、ユーザー インターフェイスに多くの変更がされています。 この記事では、これらの重要な変更について説明します。
 
 ## <a name="parent-child-relationships-for-sales-document-sales-document-line-sales-document-line-detail-entities"></a>営業ドキュメント、営業ドキュメントの明細、営業ドキュメント品目明細エンティティの親子関係
 バージョン3.0よりも前にリリースされた Dynamics 365 Project Service Automation (PSA) では、営業ドキュメント、営業ドキュメントの明細、営業ドキュメント品目明細エンティティーでは、関連エンティティーのGUIDの文字列表現を保持するストリング フィールドによって実装されていました。 これは、ソリューションのサーバ側とクライアント側で重要なカスタム コードを必要とするプラットフォームの制限によるものです。このソリューションは、これらの関係を一般的な Dynamics CRM エンティティの関係と同様に動作させ、文字列フィールドをルックアップフィールドのように動作させます。

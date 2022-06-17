@@ -1,21 +1,21 @@
 ---
-title: プレビューのサブスクリプションにサインアップする (ライト)
-description: このトピックでは、Project Operations ライト デプロイメントの購読および展開方法に関する情報を提供します - 見積もり請求の取引を行います。
+title: プレビュー サブスクリプションにサインアップする (ライト)
+description: この記事では、Project Operations lite の展開 (見積もり請求の取引) をインストールする方法に関する情報を提供します。
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588006"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921262"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>プレビュー サブスクリプションにサインアップする (ライト) 
 
-このトピックでは、試用版のオファーに登録し、Dynamics 365 Project Operations ライトのデプロイから、プロフォーマ請求書への対応を行う方法について説明します。
+この記事では、試用版に登録し、Dynamics 365 Project Operations の展開 (見積もり請求の取引) 方法について説明します。
 
 > [!NOTE]
 > このプロセスは、Project Operations の今後のリリースで変更されます。
@@ -50,7 +50,7 @@ ms.locfileid: "8588006"
 
 ## <a name="create-a-new-dataverse-environment"></a>Dataverse 環境を作成する
 
-1. トピック [Dataverse デプロイ モデル](lite-deployment.md) の指示に従って、新しい Project Operations Dataverse デプロイ環境をプロビジョニングします。 環境タイプを選択するときは、**試用 (サブスクリプション ベース)** を必ず使用してください。
+1. [Dataverse 展開モデル](lite-deployment.md) 記事に記載の内容に指示に従って、新しい Project Operations Dataverse の展開環境をプロビジョニングします。 環境タイプを選択するときは、**試用 (サブスクリプション ベース)** を必ず使用してください。
 
   ![新しい環境。](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ ms.locfileid: "8588006"
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>CDS コンフィグレーションをインストールし、デモ データを設定する
 
-トピックの手順 [デモの設定および構成データを適用する](lite-apply-demo-setup-config-data.md) に従い、CDS 構成をインストールし、デモ データを設定します。
+[デモのセットアップと構成データを適用する](lite-apply-demo-setup-config-data.md)に記載の記事の手順に従って、CDS 構成をインストールし、デモデータを設定します。
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Finance and Operations へ転記するために、プロジェクトの実績を Project Service Automation から プロジェクト統合仕訳帳に直接同期する
-description: このトピックでは、Microsoft Dynamics 365 Project Service Automation から Finance and Operations にプロジェクト実績を直接同期するために使用されるテンプレートと基になるタスクについて説明します。
+description: この記事では、Microsoft Dynamics 365 Project Service Automation から財務と運用にプロジェクト実績を直接同期するために使用されるテンプレートと基になるタスクについて説明します。
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683544"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929496"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Finance and Operations へ転記するために、プロジェクトの実績を Project Service Automation から プロジェクト統合仕訳帳に直接同期する
 
 [!include[banner](../includes/banner.md)]
 
-このトピックでは、Dynamics 365 Project Service Automation から Dynamics 365 Finance にプロジェクト実績を直接同期するために使用されるテンプレートと基になるタスクについて説明します。
+この記事では、Dynamics 365 Project Service Automation から Dynamics 365 Finance にプロジェクト実績を直接同期するために使用されるテンプレートと基になるタスクについて説明します。
 
 テンプレートは、Project Service Automation からのトランザクションを Finance のステージング テーブルに同期します。 同期が完了すると、ステージング テーブルから統合ジャーナルにデータをインポートする **必要** があります。
 

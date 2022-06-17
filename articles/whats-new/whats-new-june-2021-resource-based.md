@@ -1,24 +1,24 @@
 ---
 title: 2021 年 6 月の新機能 - リソース/非在庫のシナリオ向け Project Operations
-description: このトピックでは、2021 年 6 月にリリースされた Project Operations のリソース/非在庫のシナリオで利用できる品質更新についての情報を提供します。
+description: この記事は、リソース/非在庫ベースのシナリオの Project Operations の 2021 年 6 月リリースで利用可能な品質更新について説明します。
 author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5bc8475554c4348fa1e88b9090450bd3bfaa924e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600794"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910590"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 6 月の新機能 - リソース/非在庫のシナリオ向け Project Operations
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
+この記事は、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます。
 
 - Dynamics 365 Dataverse 環境バージョン 4.11.0.156 または 4.11.0.164 の Project Operations。
 - 財務と運用アプリの環境バージョン 10.0.19 でのプロジェクト管理および会計。

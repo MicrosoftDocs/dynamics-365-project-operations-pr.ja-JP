@@ -1,17 +1,17 @@
 ---
 title: 課金プロジェクトの会計の構成
-description: このトピックでは、請求可能なプロジェクトの会計オプションに関する情報を提供します。
+description: この記事では、請求可能なプロジェクトの会計オプションに関する情報を提供します。
 author: sigitac
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1159a31ba4f30f09734bf9c5a9e594b5c77a831e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5020c978f0667543aed2b373d262dcda9688b02c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596470"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916432"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>課金プロジェクトの会計の構成
 

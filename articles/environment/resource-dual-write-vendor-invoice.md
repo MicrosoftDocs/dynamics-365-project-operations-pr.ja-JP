@@ -1,18 +1,18 @@
 ---
 title: 仕入先請求書統合
-description: このトピックは、Project Operations におけるベンダー請求書の統合に関する情報を提供します。
+description: この記事では、Project Operations でのベンダー請求書統合について説明します。
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591181"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912062"
 ---
 # <a name="vendor-invoice-integration"></a>仕入先請求書統合
 
@@ -21,7 +21,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 Dynamics 365 Project Operations でのプロジェクト関連の調達は、**買掛金勘定** > **請求書** > **保留中のベンダーの請求書** にアクセスして保留中のベンダー請求書を使って記録することができます。 詳細については、[保留中のベンダーの請求書を使って非在庫の材料を購入する](../procurement/pending-vendor-invoices.md)を参照してください。
 
 > [!IMPORTANT]
-> このトピックで説明されている機能を使用する前に、必要となる構成を確認して適用してください。 詳細については、[在庫のない資材と保留中のベンダーの請求書を有効にします](../procurement/configure-materials-nonstocked.md)を参照してください。
+> この記事で説明されている機能を使用する前に、必要な構成を確認して適用してください。 詳細については、[在庫のない資材と保留中のベンダーの請求書を有効にします](../procurement/configure-materials-nonstocked.md)を参照してください。
 
 Project Operations では、プロジェクト関連のベンダーの請求書は、特別な転記ルールを使用して転記されます。
 

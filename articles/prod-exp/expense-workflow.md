@@ -1,6 +1,6 @@
 ---
 title: 経費管理のワークフロー
-description: このトピックでは、Microsoft Dynamics 365 Finance でワークフロー システムを使用する方法を説明し、経費管理で経費精算書の確認プロセスを設定します。
+description: この記事では、Microsoft Dynamics 365 Finance でワークフロー システムを使用する方法を説明し、経費管理で経費精算書の確認プロセスを設定します。
 author: ShylaThompson
 ms.date: 09/13/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3eb4d57194ce2dd7f80d75c2c765f1cfa48b0348
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 71efc89d9167ef1ee546c67c123efeb37125cc02
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684280"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929726"
 ---
 # <a name="expense-management-workflow"></a>経費管理のワークフロー
 

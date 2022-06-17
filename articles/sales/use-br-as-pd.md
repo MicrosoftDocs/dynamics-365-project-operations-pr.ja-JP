@@ -1,26 +1,26 @@
 ---
 title: 価格ディメンションとして予約可能リソースを使用する
-description: このトピックでは、価格設定ディメンションとして予約可能リソースを使用する方法を説明します。
+description: この記事では、価格設定ディメンションとしての予約可能リソースの使用方法について説明します。
 author: Rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: dcd01d80236f0218bc6fa3a1fe1389f8314f3c9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c467c45885bbd8931eccc75862f537c0f46433ef
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598633"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914822"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>価格ディメンションとして予約可能リソースを使用する
 
  _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_ 
 
-このトピックでは、価格設定ディメンションとして予約可能リソースを使用する方法を説明します。 予約可能な各リソースを特定の価格やコスト率を持つように価格戦略を設定した場合、価格ディメンションとして予約可能なリソースを使用します。
+この記事では、価格設定ディメンションとしての予約可能リソースの使用方法について説明します。 予約可能な各リソースを特定の価格やコスト率を持つように価格戦略を設定した場合、価格ディメンションとして予約可能なリソースを使用します。
 
 ## <a name="prerequisites"></a>前提条件
-このトピックの手順を完了する前に、新しい価格ディメンション ソリューションが組織に必要です。 まだ作成していない場合は [カスタム フィールドとエンティティを作成する](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md) を参照してください。
+この記事の手順を完了する前に、組織向けの新しい価格設定ディメンション ソリューションが必要です。 まだ作成していない場合は [カスタム フィールドとエンティティを作成する](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md) を参照してください。
 
 ## <a name="add-the-bookable-resource-field-to-forms-and-views"></a>フォームとビューに予約可能リソース フィールドを追加する
 価格ディメンション ソリューションで **予約可能リソース** フィールドを表示する際は、すべてのフォームとビューにフィールドをエンティティとして追加する必要があります。

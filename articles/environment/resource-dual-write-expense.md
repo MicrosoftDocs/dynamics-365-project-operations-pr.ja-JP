@@ -1,24 +1,24 @@
 ---
 title: 経費管理統合
-description: このトピックは、二重書き込みを使用した Project Operations での経費報告の統合に関する情報を提供します。
+description: この記事では、デュアル ライトを使った Project Operations での経費レポート統合について説明します。
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585798"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924620"
 ---
 # <a name="expense-management-integration"></a>経費管理統合
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-このトピックは、二重書き込みを使用した Project Operations [完全な経費の展開](../expense/expense-overview.md) での経費報告の統合に関する情報を提供します。
+この記事では、デュアル ライトを使った Project Operations [経費の完全展開](../expense/expense-overview.md) での経費レポート統合について説明します。
 
 ## <a name="expense-categories"></a>経費カテゴリ
 

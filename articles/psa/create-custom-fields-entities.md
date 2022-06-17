@@ -1,6 +1,6 @@
 ---
 title: カスタム フィールドとエンティティの作成
-description: このトピックでは、Power Apps のプラットフォームでオプション セットとエンティティを作成する方法を説明します。
+description: この記事では、Power Apps プラットフォームの独自のソリューションでオプション セットとエンティティを作成する方法を説明します。
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,19 +16,19 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d2fbe6a4061a93ac3186bbc8624bf5d16209cdf9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3b6f675d604f3b6a6f2465c413ceff3d16815e12
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574390"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926920"
 ---
 # <a name="create-custom-fields-and-entities"></a>カスタム フィールドとエンティティの作成 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Power Apps プラットフォームにてカスタム オプション セットまたはエンティティを作成するには以下の手順に従ってください。  
-このトピックで扱う手順は Project Service Automation (PSA) のWebインターフェイスを使用して実行する必要があります。
+この記事であつかう手順は Project Service Automation (PSA) のWebインターフェイスを使用して実行する必要があります。
 
 > [!IMPORTANT]
 > すべてのカスタム価格設定ディメンションの変更は、個別のソリューションで行うことを推奨します。 この重要なベスト プラクティスにより、将来的に必要に応じた変更を更新、あるいは削除することができる柔軟性が提供され、作業内容の再利用に役立てることができ、これら変更を別のインスタンスに容易に移植することができます。 必要な変更をすべて行った後、このソリューションを **管理ソリューション** としてエクスポートします。これを別のインスタンスにインポートして価格設定を再利用します。

@@ -1,6 +1,6 @@
 ---
 title: スケジュール ボードからプロジェクトの予約を作成する
-description: このトピックでは、スケジュールボードからプロジェクトの予約を作成する方法についての情報を提供します。
+description: この記事では、スケジュールボードからプロジェクトの予約を作成する方法についての情報を提供します。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 693f4c4be1371bae232f636a5e168e889e81b09c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f231f7a862420fc4f20b4eb86e4067cbf2ed3425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578024"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930922"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>スケジュール ボードからプロジェクトの予約を作成する
 

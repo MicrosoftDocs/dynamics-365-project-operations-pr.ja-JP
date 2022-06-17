@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation から Project Operations への機能変更
-description: このトピックでは、Project Service Automation から Dynamics 365 Project Operations への機能変更の概要について説明します。
+description: この記事では、Project Service Automation から Dynamics 365 Project Operations への機能変更の概要について説明します。
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7e41b381d6da267f58174305f33fc229c66cd7b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595412"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925356"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>Project Service Automation から Project Operations への機能変更
 
-Dynamics 365 Project Service Automation から Dynamics 365 Project Operations Lite へのアップグレードは、3 つのフェーズで行われます。 このトピックでは、アップグレードの完了時に期待できる主な変更について説明します。
+Dynamics 365 Project Service Automation から Dynamics 365 Project Operations Lite へのアップグレードは、3 つのフェーズで行われます。 この記事では、アップグレードの完了時に期待できる主な変更について説明します。
 
 | アップグレードの出荷 | フェーズ 1 <br>(2022 年 1 月) | フェーズ 2 <br>(2022 年 4 月のサイクル) | フェーズ 3  |
 |------------------|------------------------|---------------------------|---------------------------|

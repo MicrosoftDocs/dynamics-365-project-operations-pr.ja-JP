@@ -1,21 +1,21 @@
 ---
 title: プロジェクト契約の複数の顧客を管理する
-description: このトピックでは、プロジェクト契約で複数の顧客を管理する方法を説明します。
+description: この記事では、プロジェクト契約において複数の顧客を管理する方法について説明します。
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591318"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928346"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>プロジェクト契約の複数の顧客を管理する
 
-このトピックでは、プロジェクト契約で複数の顧客を管理する方法を説明します。 取引の資金調達に複数の顧客による契約上の合意が必要な場合、プロジェクト契約を使用できます。 **プロジェクト契約** ページの **概要** タブは、取引の主要顧客に関する情報を含みます。 取引に参加する他の顧客を **顧客** タブに追加できます。
+この記事では、プロジェクト契約において複数の顧客を管理する方法について説明します。 取引の資金調達に複数の顧客による契約上の合意が必要な場合、プロジェクト契約を使用できます。 **プロジェクト契約** ページの **概要** タブは、取引の主要顧客に関する情報を含みます。 取引に参加する他の顧客を **顧客** タブに追加できます。
 
 プロジェクト契約の **顧客** タブに存在するすべての契約顧客は、プロジェクト契約に対して作成したプロジェクトベースの新規契約品目の顧客として既定契約品目に設定されます。 プロジェクト ベースの既存の契約品目は、後で作成する新規契約顧客レコードを継承しません。
 

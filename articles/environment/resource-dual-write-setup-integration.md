@@ -1,24 +1,24 @@
 ---
 title: Project Operations のセットアップと構成データの統合
-description: このトピックでは、Project Operations 二重書き込みマッピングの設定および構成についての情報を提供します。
+description: この記事では、Project Operations デュアル ライト マップをセットアップして構成する方法について説明します。
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586902"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914546"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Project Operations のセットアップと構成データの統合
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-このトピックは、Project Operations の設定と構成エンティティの二重書き込み統合に関する情報を提供します。
+この記事では、法人のセットアップと構成向け Project Operations デュアル ライト統合について説明します。
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>プロジェクト契約、契約品目、プロジェクト
 

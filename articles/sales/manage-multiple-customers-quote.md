@@ -1,17 +1,17 @@
 ---
 title: プロジェクト見積もりの複数の顧客を管理する
-description: このトピックでは、プロジェクトに資金を提供する複数の顧客が関与する見積もりの作業について説明します。
+description: この記事では、プロジェクトに資金を提供する複数の顧客が関わる見積もり作業についてご紹介します。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 34fbe426020dbf329c02c510f6366f189f35afab
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585890"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928208"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>プロジェクト見積もりの複数の顧客を管理する
 

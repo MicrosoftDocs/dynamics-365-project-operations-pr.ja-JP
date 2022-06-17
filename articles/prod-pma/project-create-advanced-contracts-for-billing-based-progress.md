@@ -1,6 +1,6 @@
 ---
 title: 進捗状況に基づいた請求のための詳細な契約を作成する
-description: このトピックでは、完了した作業の割合に基づいて顧客の請求書を生成できるように、プロジェクト契約を作成する方法について説明します。
+description: この記事ではプロジェクト契約を作成して、完了した作業の割合に基づいて顧客に請求書を生成できるようにする方法について説明します。
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683169"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913672"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>進捗状況に基づいた請求のための詳細な契約を作成する
 [!include [banner](../includes/banner.md)]
 
-このトピックでは、完了した作業の割合に基づいて顧客の請求書を作成できるように、プロジェクト契約を作成する方法について説明します。 請求書の金額は、プロジェクトに設定した作業の予算カテゴリに対して自動的に計算されます。 請求書のタイミングは、顧客とプロジェクト契約を交渉するときに設定されます。
+この記事ではプロジェクト契約を作成して、完了した作業の割合に基づいて顧客に請求書を作成できるようにする方法について説明します。 請求書の金額は、プロジェクトに設定した作業の予算カテゴリに対して自動的に計算されます。 請求書のタイミングは、顧客とプロジェクト契約を交渉するときに設定されます。
 
-このトピックの手順を使用して、契約、関連プロジェクト、およびプロジェクトに設定した作業の予算カテゴリに対して請求額を計算する請求ルールを設定します。
+契約、関連付けられたプロジェクト、プロジェクトに対して設定される作業の予算カテゴリの請求書を計算するために使用される計算ルールを設定するには、次の手順に従います。
 
 契約とプロジェクトを作成したら、プロジェクトの詳細を設定できます。 たとえば、アクティビティを定義し、プロジェクトに従業者を割り当てることができます。
 

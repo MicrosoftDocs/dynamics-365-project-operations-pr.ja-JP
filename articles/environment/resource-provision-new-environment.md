@@ -1,18 +1,18 @@
 ---
 title: 新しい環境をプロビジョニングする
-description: このトピックは、新しい Project Operations 環境でプロビジョニングする方法について説明します。
+description: この記事では、新しい Project Operations 環境をプロビジョニングする方法について説明します。
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931612"
 ---
 # <a name="provision-a-new-environment"></a>新しい環境をプロビジョニングする
 
@@ -20,7 +20,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 
 
-このトピックでは、リソース/非在庫ベースのシナリオについて Dynamics 365 Project Operations の新しい環境をプロビジョニングする方法を説明します。
+この記事では、リソース/非在庫ベースのシナリオ向けに新しい Dynamics 365 Project Operations 環境をプロビジョニングする方法について説明します。
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>LCS プロジェクトで Project Operations の自動プロビジョニングを有効にします
 

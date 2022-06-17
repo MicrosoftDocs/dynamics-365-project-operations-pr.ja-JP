@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation 更新プログラム リリース 27.6 ホットフィックス、V3 の新機能と変更点
-description: このトピックには、Project Service Automation 更新プログラム 27.6 ホットフィックス、V3 で利用可能な機能と修正をリスト化しています。
+description: この記事では、Project Service Automation 更新プログラム リリース 27.6、修正プログラム、V3 で利用可能な機能と修正を一覧表示します。
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/17/2021
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3d1f955d2c76784157b869fd28d3ae9ccad09d9d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b4cb9871673315e97c40ffc57b6c0139d2cbe952
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587270"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918732"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-276-v3"></a>Project Service Automation 更新プログラム リリース 27.6、V3 の新機能と変更点
 
 Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](/power-platform/admin/install-remove-preferred-solution) を参照してください。
 
-このトピックには、Project Service Automation V3 更新プログラム 27.6 の新機能または変更された機能と修正をリスト化しています。 このバージョンのビルド番号は V3.10.45.120 であり、一般的には 2021 年 1 月の自己プログラム更新の処理を通じて入手できます。
+この記事では、Project Service Automation V3 更新プログラム リリース 27.6 の機能と修正を一覧表示します。 このバージョンのビルド番号は V3.10.45.120 であり、一般的には 2021 年 1 月の自己プログラム更新の処理を通じて入手できます。
 
 ## <a name="update-release-276"></a>更新プログラム 27.6
 

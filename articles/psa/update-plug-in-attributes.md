@@ -1,6 +1,6 @@
 ---
 title: プラグインの属性を更新して新しい価格ディメンションを含める
-description: このトピックでは、価格ディメンションのプラグイン属性の更新について説明します。
+description: この記事では、価格ディメンションのプラグイン属性の更新について説明します。
 author: Rumant
 ms.custom: ''
 ms.date: 11/19/2018
@@ -15,21 +15,21 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 0c9ac219dd19cf5dd14d54b199329de0c15fe2ae
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 459aefb510cc9a9ec55a86ca7e362db98ccabb70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580877"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913212"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>プラグインの属性を更新して新しい価格ディメンションを含める
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
-> Project Service Automation (PSA) の見積もりおよび契約機能を使用していない場合、このトピックはスキップできます。
+> Project Service Automation (PSA) の見積もりおよび契約機能を使用していない場合、この記事はスキップできます。
 
-このトピックでは、ユーザーが次のトピックの手順を完了していることを前提としています。[カスタム フィールドおよびエンティティを作成する](create-custom-fields-entities.md)、[価格設定とトランザクション エンティティにカスタム フィールドを追加する](field-references.md)、[カスタム フィールドを価格ディメンションとしてセットアップする](set-up-pricing-dimensions.md) 次に、これらの手順を完了していない場合は、戻ってこれらを完了してから、このトピックに戻ってください。
+この記事では、ユーザーが記事、[カスタム フィールドおよびエンティティを作成する](create-custom-fields-entities.md)、[価格設定とトランザクション エンティティにカスタム フィールドを追加する](field-references.md)、[カスタム フィールドを価格ディメンションとしてセットアップする](set-up-pricing-dimensions.md) の手順を完了していることを前提としています。 次に、これらの手順を完了していない場合は、戻ってこれらを完了してから、この記事に戻ってください。
 
 プロジェクト見積依頼明細用に見積依頼明細行の詳細を **見積依頼明細行** のページで作成するとき、システムがバックグラウンドで 2 つの見積もり明細行を作成します -- 1 つは見積もりコスト側用で、もう 1 つは営業側用の明細行です。 これは、プロジェクト契約品目の場合も同様です。
 

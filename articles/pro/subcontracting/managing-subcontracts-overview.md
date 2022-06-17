@@ -1,17 +1,17 @@
 ---
 title: Project Operations での外注管理
-description: このトピックでは、通常はプロジェクトベースの組織における、エンドツーエンドの外注管理プロセスの概要について説明しています。
+description: この記事では、プロジェクト型組織における一般的なエンドツーエンドの下請け管理プロセスの概要を説明します。
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593020"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911511"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Project Operations での外注管理
 
@@ -19,7 +19,7 @@ ms.locfileid: "8593020"
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
-このトピックでは、プロジェクトベースの組織における、エンドツーエンドの外注管理プロセスの概要について説明しています。 サービスの外注は通常、次の図に示すビジネス プロセス フローに従います。
+この記事では、プロジェクト型組織におけるエンドツーエンドの下請け管理プロセスの概要を説明します。 サービスの外注は通常、次の図に示すビジネス プロセス フローに従います。
 
 ![外注プロセス フロー](../media/SubcontractingProcessFlow.png)
 

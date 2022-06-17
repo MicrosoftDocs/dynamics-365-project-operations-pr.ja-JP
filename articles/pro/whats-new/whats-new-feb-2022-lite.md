@@ -1,24 +1,24 @@
 ---
 title: 2022 年 2 月の新機能 - Project Operations のライト展開
-description: このトピックは、Project Operations ライト展開の 2022 年 2 月リリースで利用可能な品質更新に関する情報を提供します。
+description: この記事では、Project Operations ライト展開の 2022 年 2 月リリースで利用可能な品質更新について説明します。
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: af66a5f61adf4f016f3fa547bbdfc75d06b2711b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1203faa2dd53a8fb82cff0857a1725426ebff19a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574574"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922826"
 ---
 # <a name="whats-new-february-2022---project-operations-lite-deployment"></a>2022 年 2 月の新機能 - Project Operations のライト展開
 
 _適用対象: ライト展開 - 見積もり請求の取引_
 
-このトピックは、Microsoft Dynamics 365 Project Operations の次のコンポーネントとバージョンに適用されます:
+この記事は、Microsoft Dynamics 365 Project Operations の次のコンポーネントとバージョンに適用されます。
 
 - Dataverse 環境のバージョン 4.28.0.120 の Project Operations
 

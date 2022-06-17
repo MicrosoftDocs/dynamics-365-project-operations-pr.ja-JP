@@ -1,6 +1,6 @@
 ---
 title: プロジェクトおよびプロジェクト契約の請求バックログをレビューする
-description: このトピックでは、時間、経費、製品バックログをレビューする方法と、「請求準備完了」としてマークする方法について説明します。
+description: この記事では、時間、経費、製品バックログをレビューする方法と、請求準備完了としてマークする方法について説明します。
 author: rumant
 ms.custom: ''
 ms.author: rumant
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 51a7ecfefcc20544f5be378a347e3568285cafb3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 833ace7fd6285191f4b023a029286cd36b5de8f4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600564"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928898"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>プロジェクトおよびプロジェクト契約の請求バックログをレビューする
 
@@ -28,7 +28,7 @@ ms.locfileid: "8600564"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-トランザクション準備ができ、請求書が作成され、処理されたとき、トランザクションは **請求準備完了** としてマークされます。 このトピックでは、作成できるトランザクションの種類について説明します。
+トランザクション準備ができ、請求書が作成され、処理されたとき、トランザクションは **請求準備完了** としてマークされます。 この記事では、作成できるトランザクションの種類について説明します。
 
 ## <a name="review-the-time-and-material-billing-backlog"></a>時間と材料の請求バックログのレビュー
 

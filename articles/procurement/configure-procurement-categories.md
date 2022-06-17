@@ -1,18 +1,18 @@
 ---
 title: プロジェクトの発注書と保留中のベンダーの請求書で調達カテゴリを使用する
-description: このトピックでは、プロジェクト発注書と保留中のベンダーの請求書で使用できる調達カテゴリを設定する方法について説明します。
+description: この記事では、プロジェクト発注書と保留中のベンダーの請求書で使用できる調達カテゴリを設定する方法について説明します。
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613290"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927426"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>プロジェクトの発注書と保留中のベンダーの請求書で調達カテゴリを使用する
 
@@ -47,7 +47,7 @@ Microsoft Dynamics 365 Project Operations の非在庫/リソース ベースの
 
 1. **調達とソーシング \> 調達カテゴリ** の順に移動します。
 1. **カテゴリ階層の編集** を選択します。
-1. 目的のカテゴリ階層ノードを選択してから、**プロジェクト カテゴリの割り当て** タブで、**時間**、経費**、**品目プロジェクト** のカテゴリー (**規定の時間** または **既定の経費** カテゴリー) から、ノードをプロジェクトカテゴリーに関連付けます。
+1. 目的のカテゴリ階層ノードを選択してから、**プロジェクト カテゴリの割り当て** タブで、**時間**、**経費**、**品目プロジェクト** のカテゴリー (**既定の時間** または **既定の経費** カテゴリー) から、ノードをプロジェクトカテゴリーに関連付けます。
 1. **保存** を選択します。
 1. ページを閉じます。
 

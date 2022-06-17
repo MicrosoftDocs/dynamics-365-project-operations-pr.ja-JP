@@ -1,6 +1,6 @@
 ---
 title: プロジェクトの進捗状況とコストの使用
-description: このトピックでは、プロジェクトの進行状況とコスト消費を追跡する方法について説明します。
+description: この記事では、プロジェクトの進行状況とコスト消費の追跡について説明します。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56b78aa70f23a9a723f008973678bb29c4bbce1d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: afcac5e6fbb7ed8a5a5f7f5876c6035b59eebcc2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921768"
 ---
 # <a name="project-progress-and-cost-consumption"></a>プロジェクトの進捗状況とコストの使用
 
@@ -30,7 +30,7 @@ ms.locfileid: "8575264"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-スケジュールに対して進行状況を追跡する必要性は業種によって異なります。 一部の業界では細かいレベルで追跡しますが、より高いレベルでの追跡をおこなう業界もあります。 このトピックでは、組織の要件を満たすためのスケジュール方法について説明します。
+スケジュールに対して進行状況を追跡する必要性は業種によって異なります。 一部の業界では細かいレベルで追跡しますが、より高いレベルでの追跡をおこなう業界もあります。 この記事では、組織の要件を満たすためのスケジュール方法について説明します。
 
 ## <a name="effort-tracking-view"></a>工数の追跡の表示
 

@@ -1,17 +1,17 @@
 ---
 title: 営業案件のヘッダー/概要
-description: このトピックでは、プロジェクトベースの取引とプロジェクトベースの営業案件明細行について説明します。
+description: この記事では、プロジェクト ベースの案件とプロジェクト ベースの営業案件の明細に関する情報を提供します。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 12173a832c4ed91b72bc398a97c770e551d5e0f5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 376d963cd45d3a71311118c799ac6764285add87
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600978"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928136"
 ---
 # <a name="header-details-for-project-based-opportunities"></a>プロジェクトベースの営業案件のヘッダーの詳細
 

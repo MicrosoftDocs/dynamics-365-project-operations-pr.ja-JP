@@ -1,6 +1,6 @@
 ---
 title: 価格とコストのディメンションのホーム ページ
-description: このトピックでは、価格ディメンションの概要を説明します。
+description: この記事では、価格ディメンションの概要を説明します。
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593618"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925448"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>価格とコストのディメンションのホーム ページ
 
@@ -47,7 +47,7 @@ PSAには、価格ディメンションの既定セットが付属していま�
 > [!IMPORTANT]
 > PSAのバージョン 3 よりも前に、価格ディメンションとしてロールと組織単位の標準フィールドを使用していた場合、注目すべき変更はありません。 通常どおり Project Service を引き続き使用できます。 
 
-追加の属性を使用してリソースの価格やコストを設定する必要がある場合は、カスタマイズしたフィールド、エンティティおよびディメンションを作成できます。 詳細については、以下のトピックを参照してください。ただし、次に示す順序で手順を実行する必要があることに注意してください:
+追加の属性を使用してリソースの価格やコストを設定する必要がある場合は、カスタマイズしたフィールド、エンティティおよびディメンションを作成できます。 詳細については、以下の記事を参照してください。ただし、次に示す順序で手順を実行する必要があることに注意してください:
 
 - [カスタム フィールドとエンティティの作成](create-custom-fields-entities.md)
 - [価格設定とトランザクション エンティティに対してユーザー定義フィールドを追加する](field-references.md)

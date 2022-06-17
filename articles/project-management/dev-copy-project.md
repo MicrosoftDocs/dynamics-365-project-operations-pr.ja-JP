@@ -1,17 +1,17 @@
 ---
 title: プロジェクトのコピーを使用してプロジェクト テンプレートを開発する
-description: このトピックは、プロジェクトのコピー カスタム アクションを使用してプロジェクト テンプレートを作成する方法について解説します。
+description: この記事では、Copy Project カスタムアクションを使用して、プロジェクトのテンプレートを作成する方法について説明します。
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 47c1023bbc4c21e3571bffbf3670bf0f7854f81d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590904"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923838"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>プロジェクトのコピーを使用してプロジェクト テンプレートを開発する
 

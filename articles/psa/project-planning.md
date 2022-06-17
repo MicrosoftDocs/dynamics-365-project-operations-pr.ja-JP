@@ -1,6 +1,6 @@
 ---
 title: プロジェクト計画のホーム ページ
-description: このトピックでは、プロジェクト計画について説明します。
+description: この記事では、プロジェクト計画について説明します。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588145"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919100"
 ---
 # <a name="project-planning-home-page"></a>プロジェクト計画のホーム ページ
 
@@ -43,7 +43,7 @@ PSA のプロジェクト管理ツールによって、プロジェクトを簡�
 - パイプラインに入っているプロジェクトのリソース要件を予測します。
 - 進行状況とコスト消費を追跡することでプロジェクトを正常に提供します。
 
-次のトピックでは、プロジェクト マネージャーが PSA でサポートされているツールを使用して、作業の見積もり、プロジェクト コストの見積もり、必要なリソースの予測ができる助けをする情報について説明します。
+次の記事では、プロジェクト マネージャーが PSA でサポートされているツールを使用して、作業の見積もり、プロジェクト コストの見積もり、必要なリソースの予測ができる助けをする情報について説明します。
 
 - [スケジュールの作成](project-creating.md)
 - [プロジェクト コストと売上の見積もり](project-estimating.md)

@@ -1,24 +1,24 @@
 ---
 title: 予約の編集
-description: このトピックは、予約を更新および変更する方法に関する情報を提供します。
+description: この記事では、予約の更新と変更の方法について説明します。
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 94ff047e868b29eb75acce43b6e6594533a33bf0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4834d42d3b5d285a5c1b386ddd4ede1e09cf0067
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594354"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915236"
 ---
 # <a name="edit-bookings"></a>予約の編集
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
 
-既存の予約を更新する必要があるプロジェクトで変更が発生した場合、変更方法は複数あります。 このトピックは、予約を更新および変更する方法を概説します。
+既存の予約を更新する必要があるプロジェクトで変更が発生した場合、変更方法は複数あります。 この記事では、予約の更新と変更の方法についての概要を提供します。
 
 ## <a name="resource-reconciliation"></a>リソースの調整
 

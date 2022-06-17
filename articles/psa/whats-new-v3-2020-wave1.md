@@ -1,6 +1,6 @@
 ---
 title: 2020年 リリース予定 第1群 Project Service Automation バージョン 3.x の最新情報または変更事項
-description: このトピックでは、Project Service Automation バージョン 3、2020年 リリース予定 第1群の新機能と変更点について説明します。
+description: この記事では、Project Service Automation バージョン 3 サイクル 1 2020 の新機能と変更点について説明します。
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 073b70b4ae02d943eb0794b51e888815ee16f438
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c762f2e7931046d32464cfa8486ef8405aa7d836
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577886"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928622"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>2020年 リリース予定 第1群 Project Service Automation バージョン 3 の最新情報または変更事項
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-トピックは、2020年 リリース予定 第1群 Project Service Automation（PSA）バージョン3.x の最新リリースに移行する際の、アップグレードに関する重要な考慮事項を説明します。
+この記事では、Project Service Automation (PSA) バージョン 3.x サイクル 1 2020 の最新リリースに移行する際の重要なアップグレードの考慮事項に焦点を当てています。
 
 ## <a name="time-entry"></a>時間エントリ
 時間エントリのエクスペリエンスが拡張されており、より多くの顧客のシナリオに時間エントリを拡張する機能が提供されています。 これには、入力タイプを追加する機能が含まれており、 **時間ソース** として表示されるフィールドのスキーマ名 **時間エントリ設定** に基づいて特定の動作が実行されるようになります。 この機能をサポートするために、時間、経費、ステータス、および承認 (TESA) と呼ばれる新しいソリューションが追加されました。

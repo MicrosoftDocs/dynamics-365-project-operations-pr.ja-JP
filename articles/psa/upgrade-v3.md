@@ -1,6 +1,6 @@
 ---
 title: アップグレードに関する考慮事項 - Microsoft Dynamics 365 Project Service Automation バージョン 2.x または 1.x からバージョン 3
-description: このトピックでは、Project Service Automation の バージョン 2.x または 1.x から バージョン 3 へアップグレードする際に必要な考慮事項について説明します。
+description: この記事では、Project Service Automation バージョン 2.x または 1.x から バージョン 3 へアップグレードする際に必要な考慮事項について説明します。
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f67b2fe39c9d0224207e7c655892318ec7e09b8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601760"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918916"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>PSA バージョン 2.x または 1.x からバージョン 3.x へのアップグレードに関する考慮事項
 
@@ -40,7 +40,7 @@ Project Service Automation の バージョン 2 およびバージョン 1 で�
 
 Project Service Automation のバージョン 3 では、予約可能なリソースをタスクに割り当てる際に基礎となるスキーマが変更されています。 行タスクは非推奨となり、**タスク エンティティ** のタスクと **リソースの割り当て** エンティティのチーム メンバーとの間で 1 : 1 で直接関連付けられます。 プロジェクト チーム メンバーに対する割り当てタスクは、現在、リソース割り当てエンティティに直接保存されるようになりました。  
 
-これらの変更は既存のプロジェクトのアップグレードの際に影響を与えます。既存のプロジェクトは、プロジェクト チームに、名前付き予約可能リソースおよび汎用リソースを含みます。 このトピックでは、バージョン 3 にアップグレードする場合、プロジェクトとして考慮する必要のある事柄について説明します。 
+これらの変更は既存のプロジェクトのアップグレードの際に影響を与えます。既存のプロジェクトは、プロジェクト チームに、名前付き予約可能リソースおよび汎用リソースを含みます。 この記事では、バージョン 3 にアップグレードする場合、プロジェクトとして考慮する必要のある事柄について説明します。 
 
 ### <a name="tasks-assigned-to-named-resources"></a>名前付きリソースに割り当てられたタスク
 基礎となるタスク エンティティ、バージョン 2 およびバージョン 1 のタスクを使用することによって、チーム メンバーは既定の定義済みロールではないロールを構築できました。 たとえば、既定でプログラム管理者のロールに割り当てられていた石田 美月を、開発者ロールを使用するタスクに割り当てることができました。 バージョン 3 では、チーム メンバーという名前のロールは常に規定であり、石田 美月が割り当てられているどのタスクでも、美月の既定ロールを使用します。

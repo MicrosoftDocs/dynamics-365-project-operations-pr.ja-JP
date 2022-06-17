@@ -1,24 +1,24 @@
 ---
 title: 2022 年 4 月の新機能 - Project Operations ライト展開
-description: このトピックでは、リソース/非在庫ベースのシナリオの Microsoft Dynamics 365 Project Operations ライト展開の 2022 年 4 月リリースで利用可能な品質更新に関する情報について説明します。
+description: この記事では、Microsoft Dynamics 365 Project Operations ライト展開の 2022 年 4 月リリースで利用可能な品質更新について説明します。
 author: sigitac
 ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f75d75e57d6a6396b0148f0449899735089b06a
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 6d6fc52d535244b339e43f88e85797a957d98b89
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613268"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927472"
 ---
 # <a name="whats-new-april-2022---project-operations-lite-deployment"></a>2022 年 4 月の新機能 - Project Operations ライト展開
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
-このトピックは、Microsoft Dynamics 365 Project Operations の次のコンポーネントとバージョンに適用されます:
+この記事は、Microsoft Dynamics 365 Project Operations の次のコンポーネントとバージョンに適用されます。
 
 - Dataverse 環境のバージョン 4.41.0.45 の Project Operations
 

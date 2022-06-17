@@ -1,6 +1,6 @@
 ---
 title: プロジェクト予算の予測モデルを作成する
-description: このトピックでは、残りの予算の予測モデルの作成方法について説明します。
+description: この記事では、残っている予算の予測モデルを作成する方法について説明します。
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683636"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916708"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>プロジェクト予算の予測モデルを作成する 
 
 [!include [banner](../includes/banner.md)]
 
-このトピックでは、残りの予算の予測モデルの作成方法について説明します。 予算管理の対象となるプロジェクトでは、元の予算と残りの予算の 2 種類の予算を使用します。 プロジェクト予算を作成する際には、**予測モデル** ページで作成した元の予算予測モデルと残りの予算予測モデルを指定する必要があります。 指定したモデルに基づくプロジェクト予算は、プロジェクト予算のコミット時に作成されます。
+この記事では、残っている予算の予測モデルを作成する方法について説明します。 予算管理の対象となるプロジェクトでは、元の予算と残りの予算の 2 種類の予算を使用します。 プロジェクト予算を作成する際には、**予測モデル** ページで作成した元の予算予測モデルと残りの予算予測モデルを指定する必要があります。 指定したモデルに基づくプロジェクト予算は、プロジェクト予算のコミット時に作成されます。
 
 > [!NOTE]
 > 予算管理で使用される予測モデルは、サブモデルを持つことも、サブモデルとして使用することもできません。

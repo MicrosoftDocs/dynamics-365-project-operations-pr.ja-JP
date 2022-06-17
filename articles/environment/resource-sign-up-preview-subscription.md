@@ -1,17 +1,17 @@
 ---
 title: リソース/在庫のないシナリオ向け Project Operations プレビュー サブスクリプションにサインアップします
-description: このトピックは、リソース/非在庫ベースのシナリオ向け Project Operations をサブスクライブして展開する方法について説明します。
+description: この記事では、リソース/非在庫ベースのシナリ向けに Project Operations を購読および展開する方法について説明します。
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575816"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920112"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>リソース/在庫のないシナリオ向け Project Operations プレビュー サブスクリプションにサインアップします
 
@@ -19,7 +19,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 
 
-このトピックでは、試用版のオファーに登録して、リソース/非ストックベースのシナリオ用に Project Operations 環境をデプロイする方法について説明します。
+この記事では、試用版の購読とリソース/非在庫ベースのシナリ向けに Project Operations 環境を展開する方法について説明します。
 
 ## <a name="prerequisites"></a>前提条件
 - プレビューを展開するユーザーは、Azure テナント グローバル 管理者権限を持っている必要があります。 最初のオファーの引き換え時にテナントを作成できます。 
@@ -60,19 +60,19 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ## <a name="start-a-new-project-in-lcs"></a>LCS で新しいプロジェクトを開始する
 
-トピック[LCS で新しいプロジェクトの開始](create-lcs-project.md) の説明に従って、新しい LCS プロジェクトを作成します
+記事、[LCS で新しいプロジェクトを開始する](create-lcs-project.md) の説明にある通り、新規 LCS プロジェクトを作成する
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>LCS プロジェクトに Azure サブスクリプションを追加する
 
-このタスクを完了するには、トピック[LCS プロジェクトに Azure サブスクリプションを追加する](resource-add-azure-subscription-lcs-project.md) の手順に従ってください。
+このタスクを完了するには、記事、[LCS プロジェクトに Azure サブスクリプションを追加する](resource-add-azure-subscription-lcs-project.md) の手順に従ってください。
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>リソース/非在庫のシナリオの Project Operations で Finance デモ環境を展開する
 
-トピック[新しい環境をプロビジョニングする](resource-provision-new-environment.md) のガイダンスに従い、展開を完了します。 プレビューの[デモ環境](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) の展開の種類を使用します。 
+記事、[新しい環境をプロビジョニングする](resource-provision-new-environment.md) のガイダンスに従って、展開を完了させます。 プレビューの[デモ環境](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) の展開の種類を使用します。 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>CDS 設定および構成データをインストールする
 
-トピック[Common Data Service で構成データを設定および適用](resource-apply-pro-setup-config-data.md) の説明に従って、CDS の設定および構成データをインストールします。
+記事、[Common Data Service で構成データを設定して適用する](resource-apply-pro-setup-config-data.md) の説明に従って、CDS のセットアップおよび構成データをインストールします。
 この手順は、Finance のデモ環境がデプロイされ、デモデータの準備ができてから行ってください。
 
 

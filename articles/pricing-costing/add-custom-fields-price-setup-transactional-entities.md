@@ -1,6 +1,6 @@
 ---
 title: 必要となるカスタム フィールドを価格設定とトランザクション エンティティに追加する
-description: このトピックは、エンティティとフォームおよびビューに必要なカスタムフィールド参照の追加方法に関する情報を提供します。
+description: この記事では、必須のカスタム フィールド参照をエンティティおよびフォームとビューに追加する方法について説明します。
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d7b5a3e7976f1ec4c01df2d9bf0aa620e747e9f4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a984dc9e04857e101fa012734fd822440899aced
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597390"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926046"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>必要となるカスタム フィールドを価格設定とトランザクション エンティティに追加する
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-このトピックの内容は、 [価格ディメンションとして使用するユーザー定義のフィールドとエンティティを作成する](create-custom-fields-entities-pricing-dimensions.md) のトピックに記載された内容を完了していることが前提となっています。 次に、これらの手順を完了していない場合は、戻ってこれらを完了してから、このトピックに戻ってください。 
+この記事の内容は、 [価格ディメンションとして使用するカスタム フィールドとエンティティの作成](create-custom-fields-entities-pricing-dimensions.md) のトピックに記載された内容を完了していることが前提となっています。 次に、これらの手順を完了していない場合は、戻ってこれらを完了してから、この記事に戻ってください。 
 
-このトピックでは、必要なユーザー定義フィールド参照をエンティティーおよびフォームやビューなどのユーザー インターフェース(UI) の要素に追加する手順を説明します。
+この記事では、必要なユーザー定義フィールド参照をエンティティーおよびフォームやビューなどのユーザー インターフェース(UI) の要素に追加する手順を説明します。
 
 ## <a name="add-custom-pricing-dimension-fields"></a>価格設定ディメンション ユーザー定義フィールドを追加する 
 ユーザー定義フィールドとエンティティを作成したら、次の手順では、参照フィールドを作成して、価格設定エンティティと取引エンティティにユーザー定義エンティティまたはオプションセットを認識させます。 価格設定ディメンション リストにオプション セット ディメンションまたはエンティティ ディメンション、あるいはその両方が含まれているかどうかを判断の上で、 **オプション セット ベースの ユーザー定義の価格設定ディメンション** または **エンティティ ベースの ユーザー定義の価格設定ディメンション** の手順、あるいはその両方の手順に従ってください。

@@ -1,23 +1,23 @@
 ---
 title: 売上の見積もりの管理
-description: このトピックでは、プロジェクトで売上見積もりを処理する方法を説明します。
+description: この記事では、プロジェクトの売上見積もりの使い方について説明します。
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f91a0eb6fa0d13ebe8dfb6e837dae0bbff3eb5e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 051535ce8dd4997a923b1511d242638361076979
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595872"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928484"
 ---
 # <a name="manage-revenue-estimates"></a>売上の見積もりの管理
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-売上見積もりの作成、計算、転記、取り消し、削除を行えます。 手動または定期的なプロセスを使用して実行できます。 このトピックでは、プロジェクトで売上見積もりを処理する方法を説明します。
+売上見積もりの作成、計算、転記、取り消し、削除を行えます。 手動または定期的なプロセスを使用して実行できます。 この記事では、プロジェクトの売上見積もりの使い方について説明します。
 
 ### <a name="manage-revenue-estimates-manually"></a>売上見積もりの手動管理
 

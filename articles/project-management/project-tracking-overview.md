@@ -1,23 +1,23 @@
 ---
 title: プロジェクトの工数の追跡
-description: このトピックでは、プロジェクトの工数と進行状況を追跡する方法について説明します。
+description: この記事では、プロジェクトの取り組みや作業の進捗状況を把握する方法について説明します。
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593802"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929266"
 ---
 # <a name="project-effort-tracking"></a>プロジェクトの工数の追跡
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-スケジュールに対して進行状況を追跡する必要性は業種によって異なります。 一部の業界では詳細なレベルで追跡しますが、より高いレベルでの追跡をおこなう業界もあります。 このトピックでは、組織の要件を満たすためのスケジュール方法について説明します。
+スケジュールに対して進行状況を追跡する必要性は業種によって異なります。 一部の業界では詳細なレベルで追跡しますが、より高いレベルでの追跡をおこなう業界もあります。 この記事では、組織の要件を満たすためのスケジュール方法について説明します。
 
 ## <a name="effort-tracking-view"></a>工数の追跡の表示
 

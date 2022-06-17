@@ -1,6 +1,6 @@
 ---
-title: 毎週の時間エントリをカスタマイズします。
-description: このトピックでは、組織のプラクティスをサポートするユーザー定義のビジネス ルールを実行する方法について説明します。
+title: 週単位の時間エントリをカスタマイズする
+description: この記事では、組織のプラクティスをサポートするユーザー定義のビジネス ルールを実行する方法について説明します。
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581060"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918962"
 ---
 # <a name="customize-weekly-time-entry"></a>週単位の時間エントリをカスタマイズする 
 
@@ -46,9 +46,9 @@ Microsoft Dynamics 365 Project Service Automation バージョン 3.3 では、M
 - 型
 - エントリの状態
 
-**ディメンション** セクションではインライン編集はできません。 このセクションは、カスタム フィールドを毎週の時間エントリ グリッドに追加できるように、ビューにより支えられています。 カスタム フィールドを追加する方法については、このトピックの後半の「拡張性」を参照してください。
+**ディメンション** セクションではインライン編集はできません。 このセクションは、カスタム フィールドを毎週の時間エントリ グリッドに追加できるように、ビューにより支えられています。 カスタム フィールドを追加する方法については、この記事の後半の "拡張性" を参照してください。
 
-### <a name="duration"></a>期間
+### <a name="duration"></a>長さ
 期間セクションには、列見出しとしてその週の曜日が示されます。 このセクションはインライン編集が有効です。 適切なディメンションのある時間エントリ行を作成後、それらのディメンションで使用したインライン、時間数をすばやく入力できます。
 
 ## <a name="create-a-new-time-entry"></a>新しい時間エントリを作成します

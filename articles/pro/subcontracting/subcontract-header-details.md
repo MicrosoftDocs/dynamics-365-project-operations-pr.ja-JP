@@ -1,17 +1,17 @@
 ---
 title: 外注のヘッダーの詳細
-description: このトピックは、Project Operations の外注ヘッダーで提供される機能について説明しています。
+description: この記事では、Project Operations の外注ヘッダーで提供される機能について説明します。
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fade0ff876486ad60ffd9ad618be7864c1b28185
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 85649d08228b16178eb8d6be9af5a6731def74bf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598172"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914178"
 ---
 # <a name="header-details-for-subcontracts"></a>外注のヘッダーの詳細
 
@@ -19,7 +19,7 @@ ms.locfileid: "8598172"
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
-このトピックは、Dynamics 365 Project Operations の外注ヘッダーで提供される機能について説明しています。
+この記事では、Dynamics 365 Project Operations の外注ヘッダーで提供される機能について説明します。
 
 プロジェクト マネージャーがプロジェクトを計画および実行するとき、下請け業者を採用し、ベンダーから製品やサービスを購入する場合があります。 プロジェクト マネージャーが製品やサービスを購入する必要がある場合、Project Operations で外注を作成できます。
 

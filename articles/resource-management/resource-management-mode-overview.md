@@ -1,17 +1,17 @@
 ---
 title: リソース管理モードの概要
-description: このトピックは、Dynamics 365 Project Operations のリソース管理機能に関する情報を提供します。
+description: この記事は Dynamics 365 Project Operations でのリソース管理機能についての情報を提供します。
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585062"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928438"
 ---
 # <a name="resource-management-modes-overview"></a>リソース管理モードの概要
 
@@ -38,7 +38,7 @@ Dynamics 365 Project Operations は、全体的な予約フローを実行する
 
 ![ハイブリッド モード。](./media/resource-management-hybrid.png)
 
-サポートされているセントラル モード プロセスに加えて、ハイブリッド モードでサポートされている他のすべての予約フローを管理するには、次のトピックを参照してください。
+サポートされているセントラル モード プロセスに加え、ハイブリッド モードでサポートされている他のすべての予約フローを管理するには、次の記事を参照してください。
 
 プロジェクトにリソースを直接予約する:
 - [名前付き予約可能リソースをプロジェクト チームに予約して、タスクを割り当てる](/dynamics365/project-service/assign-named-bookable-resource)

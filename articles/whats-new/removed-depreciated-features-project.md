@@ -1,24 +1,24 @@
 ---
 title: Dynamics 365 Project Operations の削除済み、または非推奨の機能
-description: このトピックでは、Dynamics 365 Project Operations から削除された、または削除される予定の機能について説明します。
+description: この記事では、Dynamics 365 Project Operations から削除された、または削除される予定の機能について説明します。
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601576"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921492"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Dynamics 365 Project Operations の削除済み、または非推奨の機能
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations、Lite 展開 - 見積もり請求の取引、在庫/製造ベースのシナリオ向け Project Operations_
 
-このトピックでは、Dynamics 365 Project Operations から削除された、または削除される予定の機能について説明します。
+この記事では、Dynamics 365 Project Operations から削除された、または削除される予定の機能について説明します。
 
 - *削除された* 機能は製品で使用できなくなりました。
 - *非推奨* の機能は現在開発中ではなく、将来のアップデートで削除される可能性があります。

@@ -1,17 +1,17 @@
 ---
 title: 会社間請求の概要
-description: このトピックでは、プロジェクトの会社間請求に関する情報と例を提供します。
+description: この記事では、プロジェクトの会社間請求に関する情報と例を示します。
 author: sigitac
 ms.date: 11/19/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fd17f6542558bae9d4b97d0a92aefae52571cfa8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586258"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913580"
 ---
 # <a name="intercompany-invoicing-overview"></a>会社間請求の概要
 

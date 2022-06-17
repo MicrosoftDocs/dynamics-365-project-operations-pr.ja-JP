@@ -1,24 +1,24 @@
 ---
 title: 新機能 2021 年 7 月 - Project Operations ライトのデプロイ
-description: このトピックでは、2021 年 7 月にリリースされた Project Operations ライトのデプロイで利用できる品質更新についての情報を提供します。
+description: この記事は、リソース/非在庫ベースのシナリオの Project Operations のライト展開の 2021 年 7 月リリースで利用可能な品質更新について説明します。
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 475ceea3a6c6db9fe63e3950eaca5d9074faa766
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7964f38c1bc7a8e0440e2e922ff153fd9bede131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583958"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913994"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>新機能 2021 年 7 月 - Project Operations ライトのデプロイ
 
 _適用対象: ライト展開 - 見積もり請求の取引_
 
-このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
+この記事は、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます。
 
   - Dataverse 環境バージョン 4.12.0.148 または 4.12.0.152 の Project Operations。
 

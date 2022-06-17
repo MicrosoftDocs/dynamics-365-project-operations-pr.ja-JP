@@ -1,17 +1,17 @@
 ---
 title: プロジェクトベースの営業案件品目
-description: このトピックでは、プロジェクトベースの営業案件品目での作業について説明します。
+description: この記事では、プロジェクトベースの営業案件品目での作業に関する情報を提供します。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: cceb175210f7b597d682e9e4e910c79280211293
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f4b8d80a7e3ec06c4089d7c5c32fdb41ac86fb76
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918272"
 ---
 # <a name="project-based-opportunity-lines"></a>プロジェクトベースの営業案件品目
 

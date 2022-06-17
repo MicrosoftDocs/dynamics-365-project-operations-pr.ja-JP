@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation バージョン 3 の新規事項または変更事項
-description: このトピックでは、Project Service Automation バージョン 3 の新機能と変更点について説明します。
+description: この記事では、Project Service Automation バージョン 3 の新機能と変更点について説明します。
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581658"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926598"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Project Service Automation バージョン 3 の新規事項または変更事項
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581658"
 
 
 
-このトピックは、Project Service Automation の バージョン 2 と バージョン 3、またはバージョン 1 と バージョン 3 におけるユーザー インターフェイス (UI)、機能、用語の変更点について説明します。
+この記事は、Project Service Automation バージョン 2 またはバージョン 1 とバージョン 3 のユーザー インターフェイス (UI)、機能、用語の変更点について説明します。
 
 ## <a name="project-scheduling"></a>プロジェクト スケジュール
 以前のバージョンでは WBS (作業分解構造) と呼ばれていたプロジェクト スケジュールは、スケジュールに名前変更され、**スケジュール** タブをクリックしてアクセスします。 
@@ -150,7 +150,7 @@ Project Service Automation のバージョン 3 では、チームの生成機�
 このセクションでは、Project Service Automation バージョン 3 における時間、経費、承認の変更について説明します。 Dynamics 365 Project Service Automation ソリューションの一部として、**時間エントリ** 機能が更新されて統一インターフェイス フレームワークが活用されるようになりました。 これにより、あらゆる画面のサイズまたはデバイスで最適表示できるレスポンシブ デザインを採用した一貫性のあるユーザー インターフェイス (UI) の提供が可能になります。 
 
 ### <a name="landing-page"></a>ランディング ページ
-バージョン 3 では、拡張できないカスタム時間エントリ エクスペリエンスが廃止されました。 代わりに、拡張可能でアクセス可能なネイティブ グリッド エクスペリエンスが提供されます。 左のサイトマップを使用して時間エントリ機能にアクセスできます。 この変更により、1 週間分の時間を一度に入力できなくなります。 代わりに、グリッドで各日の時間エントリを作成する必要があります。 いくつかの時間エントリを作成すると、ユーザーは、このトピックの後半で説明される **コピー** 機能を使用して時間エントリを一括作成できます。 
+バージョン 3 では、拡張できないカスタム時間エントリ エクスペリエンスが廃止されました。 代わりに、拡張可能でアクセス可能なネイティブ グリッド エクスペリエンスが提供されます。 左のサイトマップを使用して時間エントリ機能にアクセスできます。 この変更により、1 週間分の時間を一度に入力できなくなります。 代わりに、グリッドで各日の時間エントリを作成する必要があります。 いくつかの時間エントリを作成した後、ユーザーは、この記事の後半で説明する、**コピー** 機能を使って時間エントリを一括作成できます。 
 
 ![時間エントリ ランディング ページ。](media/time-entry-landing-page-07.png)
  

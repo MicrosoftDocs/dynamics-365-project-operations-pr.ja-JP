@@ -1,25 +1,25 @@
 ---
 title: デュアル書き込みに対応する Project Operations の Dataverse アプリを手動でデプロイする
-description: このトピックは、デュアル書き込みに対応する Project Operations の Dataverse アプリを手動でデプロイする方法について説明します。
+description: この記事では、Project Operations Dataverse を手動で展開し、デュアル ライトをサポートするようにする方法について説明します。
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591226"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912016"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>デュアル書き込みに対応する Project Operations の Dataverse アプリを手動でデプロイする
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-このトピックは、デュアル書き込みに対応する Microsoft Dataverse の Microsoft Dynamics 365 Project Operations を手動でデプロイする方法について説明します。 Project Operations は、環境の構成を検出し、前提条件が満たされていれば、デュアル書き込みの対応を追加します。
+この記事では、Microsoft Dataverse で Microsoft Dynamics 365 Project Operations を手動で展開し、デュアル ライトをサポートするようにする方法について説明します。 Project Operations は、環境の構成を検出し、前提条件が満たされていれば、デュアル書き込みの対応を追加します。
 
-Microsoft Dynamics Lifecycle Services (LCS) によるデプロイメントの際は、このトピックで説明する手順を使用することで、Microsoft Power Platform 統合 (旧名 Common Data Service 環境) のデプロイを省略できます。
+Microsoft Dynamics Lifecycle Services (LCS) を通した展開中に、この記事の手順に従っている場合は、Microsoft Power Platform統合 (以前の Common Data Service 環境) の展開はスキップできます。
 
 Dataverse に Project Operations を展開してデュアル書き込みに対応させるには、大きく分けて 4 つのステップがあります:
 

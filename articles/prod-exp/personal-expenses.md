@@ -1,6 +1,6 @@
 ---
 title: 経費報告書の個人的な経費
-description: このトピックでは、従業員の個人経費を Microsoft Dynamics 365 Finance で処理するための 2 つの方法を説明します。
+description: この記事では、従業員の個人経費を Microsoft Dynamics 365 Finance で処理するための 2 つの方法を説明します。
 author: saraschi2
 ms.date: 02/23/2018
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c3c382f822673baccee526569402f3ecb400491
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7e83e5b14d91f1d11e1d2caf97207cc8279cdb87
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685200"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925816"
 ---
 # <a name="personal-expenses-on-an-expense-report"></a>経費報告書の個人的な経費
 

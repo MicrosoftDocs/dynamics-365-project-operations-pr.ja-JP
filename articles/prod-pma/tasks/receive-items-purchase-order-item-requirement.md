@@ -1,6 +1,6 @@
 ---
 title: 品目要件から発注書の品目を受け取る
-description: このトピックでは、品目要件から発注書の品目を受け取る方法について説明します。
+description: この記事では、在庫品目要求から発注書の品目を受け取る方法について説明します。
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab08dda6e81609595f54f3dd71c0154c12807270
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 9bbe15fac325ad00bdd2f2fc6ddf3ae15df45271
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682533"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929542"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>品目要件から発注書の品目を受け取る
 
 [!include [banner](../../includes/banner.md)]
 
-このトピックでは、品目要件から発注書の品目を受け取る方法について説明します。
+この記事では、在庫品目要求から発注書の品目を受け取る方法について説明します。
 
 品目トランザクションの代わりに品目要件を使用することにより、品目が実際に使用される直前に配送を計画し、発注書を作成して、貿易合意フレームワークに品目を含め、生産計画に品目要件を含めることができます。 
 

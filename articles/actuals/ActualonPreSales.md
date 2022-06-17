@@ -1,6 +1,6 @@
 ---
 title: エンゲージメントのプリセールス段階における実績の影響
-description: このトピックでは、Microsoft Dynamics 365 Project Operations でエンゲージメントがプリセールス段階にあるときの、さまざまなイベントでの Actuals テーブルへの影響について説明します。
+description: この記事では、Microsoft Dynamics 365 Project Operations でエンゲージメントがプリセールス段階にあるときの、さまざまなイベントでの Actuals テーブルへの影響について説明します。
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ad62639b345d5519b103d4bde3fbb033b9a7a519
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d03d6ac2154806189d0d9d0b232bb317f51071ba
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577242"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922366"
 ---
 # <a name="actuals-impact-during-the-pre-sales-stage-of-an-engagement"></a>エンゲージメントのプリセールス段階における実績の影響
 

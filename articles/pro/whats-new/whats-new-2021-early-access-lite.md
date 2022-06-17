@@ -1,24 +1,24 @@
 ---
 title: 2021 年サイクル 2 早期アクセスの新機能 - Project Operations ライト展開
-description: このトピックでは、Project Operations ライト展開の 2021 サイクル 2 早期アクセス リリースで利用できる品質更新についての情報を提供します。
+description: この記事では、Project Operations のライト展開の 2021 サイクル 2 早期アクセスで利用可能な機能について説明します。
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723682"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924114"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>2021 年サイクル 2 早期アクセスの新機能 - Project Operations ライト展開
 
 _適用対象: ライト展開 - 見積もり請求の取引_
 
-このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
+この記事は、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます。
 
   - Dataverse 環境バージョン 4.23.0.4 での Project Operations
 

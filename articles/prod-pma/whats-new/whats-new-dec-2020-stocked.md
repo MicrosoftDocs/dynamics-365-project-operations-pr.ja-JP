@@ -1,24 +1,24 @@
 ---
 title: 2020 年 12 月の新機能 - 在庫/製造ベースのシナリオ向け Project Operations
-description: このトピックでは、在庫/製造ベースのシナリオ向け Project Operations の 2020 年 12 月リリースで利用可能な品質更新について説明します。
+description: この記事は、在庫 - 製造ベースのシナリオの Project Operations の 2020 年 12 月リリースで利用可能な品質更新について説明します。
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594952"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911372"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>在庫/製造ベースのシナリオ向け Project Operations、2020 年 12 月の最新情報または変更事項
 
 _適用対象: 在庫/製造ベースのシナリオ向け Project Operations_
 
-このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
+この記事は、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます。
 
   - Dynamics 365 Finance 環境バージョン 10.0.15 でのプロジェクト管理と会計
 

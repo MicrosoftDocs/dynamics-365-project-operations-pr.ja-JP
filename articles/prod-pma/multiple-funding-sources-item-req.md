@@ -1,23 +1,23 @@
 ---
 title: 複数の資金調達ソースを持つプロジェクト契約の在庫品目要求
-description: このトピックでは、複数の資金調達ソースで在庫品目要求を構成および使用する方法について説明します。
+description: この記事では、複数の資金調達ソースで在庫品目要求を構成および使用する方法について説明します。
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d4af03e02d3c2eb0d442e6213ff5b9cf583d54b3
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728113"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931198"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>複数の資金調達ソースを持つプロジェクト契約の在庫品目要求
 
 _**適用対象:** 在庫/製造ベースのシナリオ向け Project Operations_
 
-プロジェクト ベースの成果物に関する一部の契約上の合意では、複数の資金調達ソースが必要な場合があります。 このトピックでは、プロジェクトまたはプロジェクト契約に複数のソースが必要な場合に、目的の資金調達ソースを選択して構成する方法について説明します。
+プロジェクト ベースの成果物に関する一部の契約上の合意では、複数の資金調達ソースが必要な場合があります。 この記事では、プロジェクトまたはプロジェクト契約に複数のソースが必要な場合に、目的の資金調達ソースを選択して構成する方法について説明します。
 
 ## <a name="terminology"></a>用語
 

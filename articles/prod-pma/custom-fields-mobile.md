@@ -1,6 +1,6 @@
 ---
 title: iOS および Android 上の Microsoft Dynamics 365 Project Timesheet モバイル アプリのカスタム フィールドを実装する
-description: このトピックでは、拡張機能を使用してカスタム フィールドを実装するための一般的なパターンについて説明します。
+description: この記事では、拡張機能を使用してカスタム フィールドを実装するための共通のパターンを示します。
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 79ef62d6911b393248536e4cc73475f6c35a22e2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 03b79d58d1f91e07034b8c9efb408e6d7a9c29a8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682762"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913718"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>iOS および Android 上の Microsoft Dynamics 365 Project Timesheet モバイル アプリのカスタム フィールドを実装する
 
 [!include [banner](../includes/banner.md)]
 
-このトピックでは、拡張機能を使用してカスタム フィールドを実装するための一般的なパターンについて説明します。 次のトピックについて説明します。
+この記事では、拡張機能を使用してカスタム フィールドを実装するための共通のパターンを示します。 以下の記事が対象となります:
 
 - カスタム フィールド フレームワークがサポートするさまざまなデータ型
 - タイムシート エントリ上の読み取り専用または編集可能なフィールドを表示し、ユーザーが入力した値をデータベースに保存する方法
@@ -35,7 +35,7 @@ ms.locfileid: "8682762"
 
 ## <a name="audience"></a>対象者
 
-このトピックは、カスタム フィールドを Apple iOS および Google Android で利用可能な Microsoft Dynamics 365 Project Timesheet モバイルアプリケーションに統合する開発者を対象にしています。 X ++ 開発およびプロジェクト タイムシート機能に精通していることが前提です。
+この記事は、Apple iOS および Google Android で利用可能な Microsoft Dynamics 365 Project Timesheet モバイル アプリケーションにカスタムフィールドを統合する開発者を対象としています。 X ++ 開発およびプロジェクト タイムシート機能に精通していることが前提です。
 
 ## <a name="data-contract--tstimesheetcustomfield-x-class"></a>データ契約 – TSTimesheetCustomField X++ クラス
 
@@ -64,7 +64,7 @@ ms.locfileid: "8682762"
 
 - **stringOptions** プロパティが **TSTimesheetCustomField** オブジェクトで指定されている場合、それらのリスト要素が、ユーザーがオプション ボタン (ラジオ ボタン) を使用して選択できる唯一の値になります。
 
-    この場合、文字列フィールドは、ユーザー入力を目的とする列挙値として使用できます。 値を列挙型としてデータベースに保存するには、コマンド チェーンを使用してデータベースに保存する前に、手動で文字列値を列挙値にマップします (例については、このトピックの後半の「TSTimesheetEntryService クラスのコマンド チェーンを使用してアプリからデータベースにタイムシート エントリを保存する」のセクションを参照してください)。
+    この場合、文字列フィールドは、ユーザー入力を目的とする列挙値として使用できます。 データベースに値を列挙として保存するには、コマンド チェーンを使用してデータベースに保存する前に、手動で文字列値を列挙値にマップします (この記事で後述する「TSTimesheetEntryService クラスでコマンド チェーンを使用し、アプリからデータベースにタイムシート エントリを再保存する」のセクションの例を参照してください)。
 
 ### <a name="fieldextendedtype-tscustomfieldextendedtype"></a>fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -106,7 +106,7 @@ ms.locfileid: "8682762"
 
 ### <a name="stringoptions-list-of-strings"></a>stringOptions (文字列のリスト)
 
-このプロパティは、**fieldBaseType** が **文字列** に設定されている場合にのみ適用されます。 **stringOptions** が設定されている場合、オプション ボタン (ラジオ ボタン) を介して選択できる文字列値は、リスト内の文字列によって指定されます。 文字列が指定されていない場合、文字列フィールドに自由書式の入力が許可されます (例については、このトピックの後半の「TSTimesheetEntryService クラスのコマンド チェーンを使用してアプリからデータベースにタイムシート エントリを保存する」のセクションを参照してください)。
+このプロパティは、**fieldBaseType** が **文字列** に設定されている場合にのみ適用されます。 **stringOptions** が設定されている場合、オプション ボタン (ラジオ ボタン) を介して選択できる文字列値は、リスト内の文字列によって指定されます。 文字列が指定されなかった場合、文字列フィールドの自由書式のテキストが許可されます (この記事で後述する「TSTimesheetEntryService クラスでコマンド チェーンを使用し、アプリからデータベースにタイムシート エントリを再保存する」のセクションの例を参照してください)。
 
 ### <a name="stringlength-int"></a>stringLength (int)
 

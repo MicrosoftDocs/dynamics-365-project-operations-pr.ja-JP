@@ -1,17 +1,17 @@
 ---
 title: 予約できるリソースがプロジェクトで複数のロールを満たす場合に、プロジェクトの売上とコストを見積もる
-description: このトピックでは、プロジェクトで複数のロールを満たすリソースの価格とコストの見積もりを、価格ディメンションを使用してサポートする方法を説明します。
+description: この記事では、プロジェクトで複数の役割を果たすリソースの価格設定と原価計算の見積もりをサポートする価格設定ディメンションの使用方法について説明します。
 author: rumant
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2cc632d43bfcbdd23c1d06ff5203385bccf9926d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9bb59537aaa75d9003925bec37642a2fa7c9ca22
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589156"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923470"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>予約できるリソースがプロジェクトで複数のロールを満たす場合に、プロジェクトの売上とコストを見積もる 
 

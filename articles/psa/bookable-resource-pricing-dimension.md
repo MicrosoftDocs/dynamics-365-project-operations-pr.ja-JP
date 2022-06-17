@@ -1,6 +1,6 @@
 ---
 title: 価格設定ディメンションとして予約可能リソースを使用する
-description: このトピックでは、価格設定ディメンションとしての予約可能リソースの使用方法について説明します。
+description: この記事では、価格設定ディメンションとしての予約可能リソースの使用方法について説明します。
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7b07ac8659c9eccf3db41775acf5ca2043016a59
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: becb64bb137079422a765dd7cd61369297e1ffb1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576414"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916110"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>価格設定ディメンションとして予約可能リソースを使用する
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-このトピックでは、価格設定ディメンションとしての予約可能リソースの使用方法について説明します。 開始する前に、価格設定ディメンションのソリューションをまだ作成していなければ、新しく作成する必要があります。 既に価格設定のディメンションのソリューションがある場合、そのソリューションで変更を行うことができます。 組織用に新しい価格設定ディメンションのソリューションを作成済みでない場合は、[カスタム フィールドおよびエンティティを作成する](create-custom-fields-entities.md) の手順を完了します。
+この記事では、価格設定ディメンションとしての予約可能リソースの使用方法について説明します。 開始する前に、価格設定ディメンションのソリューションをまだ作成していなければ、新しく作成する必要があります。 既に価格設定のディメンションのソリューションがある場合、そのソリューションで変更を行うことができます。 自分の組織に新しい価格設定ディメンションのソリューションをまだ作成していない場合は、[カスタム フィールドとエンティティを作成する](create-custom-fields-entities.md) の手順を完了します。
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>フォームとビューに予約可能リソースを追加します。
 各フィールドがが価格設定ディメンション ソリューションの UI に表示されるようにするには、重要な Project Service のすべてのフォームとビューに関する説明を理解し、エンティティのフォームとビューに次のフィールドを追加する必要があります。

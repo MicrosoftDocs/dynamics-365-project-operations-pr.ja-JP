@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation 更新プログラム リリース 14、V3 の新機能と変更点
-description: このトピックでは、Project Service Automation バージョン 14、V3 の新機能と変更点について説明します。
+description: この記事では、Project Service Automation 更新プログラム リリース 14 V3 で新しい点について説明します。
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8504ac5a0ce7254baee9139e4407e712c758540d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e8e5132f970e3ec5742842175c118faf98a7b079
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594309"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926552"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Project Service Automation 更新プログラム リリース 14、V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8594309"
 
 Dynamics 365 Project Service Automation (PSA) アプリケーションの最新のアップデートをお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースへと更新をするには、Dynamics 365 のオンラインの管理センターにアクセスし、ソリューション ページにアクセスして更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](/power-platform/admin/install-remove-preferred-solution) を参照してください。
 
-このトピックには、PSA V3 更新プログラム 14 の新機能または変更された機能と修正をリスト化しています。 このバージョンのビルド番号は V3.10.4.21 であり、次のスケジュールで入手できます:
+この記事では、Project Service Automation PSA V3 更新プログラム リリース 14 の機能と修正を一覧表示します。 このバージョンのビルド番号は V3.10.4.21 であり、次のスケジュールで入手できます:
 
 - **一般的な入手（自己プログラム アップデート）：** 2020年1月
 - **自動更新：** 2020年2月

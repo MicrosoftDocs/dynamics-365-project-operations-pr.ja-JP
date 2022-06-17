@@ -1,18 +1,18 @@
 ---
 title: 非在庫材料と保留中の仕入先請求書を構成する
-description: このトピックでは、在庫のない資材と保留中のベンダーの請求書を有効にする方法を説明しています。
+description: この記事では、非在庫の材料と保留中の仕入先請求書を有効にする方法について説明します。
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1b14ab17a317e7082bc9c24709590745a5c48ea8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6473ef3510f0d3641a2d61b6a1b1f28980993277
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592974"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913764"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>非在庫材料と保留中の仕入先請求書を構成する
 
@@ -32,7 +32,7 @@ Dynamics 365 Finance:
 
 ## <a name="run-dual-write-maps-for-non-stocked-materials-and-vendor-invoice-integration"></a>在庫のない材料とベンダーの請求書統合に二重書き込みマッピングを実行する
 
-このセクションでは、在庫のない材料やベンダーの請求書に必要となる具体的なマッピングについて説明します。 [新しい環境をプロビジョニングする](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps)のトピックに記載されている前提条件のマッピングが環境上で動作していることを確認します。
+このセクションでは、在庫のない材料やベンダーの請求書に必要となる具体的なマッピングについて説明します。 [新しい環境をプロビジョニングする](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps)の記事に記載されている前提条件のマップが、お使いの環境で実行されていることを確認します。
 
 1. Lifecycle Services (LCS) にアクセスし、LCSプロジェクトに移動トして、**環境の詳細** ページにアクセスします。
 2. **Common Data Service環境情報** セクションで、**CDS for Apps へのリンク** を選択します。 リンクを選択すると、マッピングでエンティティのリストにリダイレクトされます。

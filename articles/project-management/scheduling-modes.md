@@ -1,17 +1,17 @@
 ---
 title: スケジュール モード
-description: このトピックでは、スケジュール モードについて説明します。
+description: この記事では、スケジュール モデルについて説明します。
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588420"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923654"
 ---
 # <a name="scheduling-modes"></a>スケジュール モード
 
@@ -38,7 +38,7 @@ Project Operations で使用できるスケジュール モードは 3 つあり
 | 固定工数タスク    | 期間が再計算されます。 | 単位が再計算されます。    | 期間が再計算されます。 |
 | 固定期間タスク  | 労力が再計算されます。   | 労力が再計算されます。    | 単位が再計算されます。   |
 
-特定のモードの影響の詳細については、[より正確なスケジュールのためにタスク タイプを変更します](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72)を参照してください。 トピックでは、**作業** の代わりに **工数** が使用されます。
+特定のモードの影響の詳細については、[より正確なスケジュールのためにタスク タイプを変更します](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72)を参照してください。 この記事では、用語 **仕事** は **努力** の代わりに使用されます。
 
 ## <a name="change-the-organizations-scheduling-mode"></a>組織のスケジュール モードを変更する
 

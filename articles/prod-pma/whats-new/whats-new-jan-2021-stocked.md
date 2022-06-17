@@ -1,24 +1,24 @@
 ---
 title: 在庫/製造ベースのシナリオ向け Project Operations、2021 年 1 月の最新情報または変更事項
-description: このトピックでは、在庫/製造ベースのシナリオ向け Project Operations の 2021 年 1 月リリースで利用可能な品質更新について説明します。
+description: この記事では、在庫 / 製造ベースのシナリオの Project Operations の 2021 年 1 月リリースで利用可能な品質更新について説明します。
 author: andchoi
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: c41fda3a3c756f8ad4c695b572eea9cad715f2e4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 84a49994267d0c070769090f9fce9c6a969c98be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592652"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923930"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>在庫/製造ベースのシナリオ向け Project Operations、2021 年 1 月の最新情報または変更事項
 
 _**適用対象:** 在庫/製造ベースのシナリオ向け Project Operations_
 
-このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
+この記事は、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます。
 
 - Dynamics 365 Finance 環境バージョン 10.0.16 でのプロジェクト管理と会計
 

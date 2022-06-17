@@ -1,23 +1,23 @@
 ---
 title: LCS プロジェクトに Azure サブスクリプションを追加する
-description: このトピックは、Azure サブスクリプションを LCS プロジェクトに接続する方法に関する情報を提供します。
+description: この記事では、Azure サブスクリプションを LCS プロジェクトに接続する方法について説明します。
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 64ee8cfa7394a08c3d588c0e8f4a73185d9496cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595918"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912154"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>LCS プロジェクトに Azure サブスクリプションを追加する
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-クラウド ホスト環境は、既存の Azure サブスクリプションを使用して展開する必要があります。 このトピックは、既存の Azure サブスクリプションを LCS プロジェクトに接続する方法を説明します。 
+クラウド ホスト環境は、既存の Azure サブスクリプションを使用して展開する必要があります。 この記事では、既存の Azure サブスクリプションを LCS プロジェクトに接続する方法について説明します。 
 
 ## <a name="grant-admin-consent"></a>管理者の同意を与える
 
@@ -59,7 +59,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 2. Azure サブスクリプション ID を入力してください。 [Azure portal](https://ms.portal.azure.com/)の、画面の左下にある **設定** で Azure サブスクリプション ID を見つけることができます。
 3. **Azure Resource Manager を使用するための構成** フィールドで、**はい** を選択します。
 4. Azure のサブスクリプション AAD テナント ドメインが、使用しているドメイン所有の Azure サブスクリプションと一致することを確認し、**次へ** を選択します。
-5. **Microsoft Azure セットアップ** 画面で、確認のために **次へ** を選択します。 この画面でエラーが発生した場合は、このトピックの[Dynamics Deployment Servicesに Azure サブスクリプションへのアクセスを提供する](#provide) セクションに戻り、すべての手順を完了していることを確認してください。
+5. **Microsoft Azure セットアップ** 画面で、確認のために **次へ** を選択します。 この画面でエラーが発生した場合は、この記事で、セクション [Dynamics Deployment Services に Azure サブスクリプションへのアクセスを提供する](#provide) に戻ってすべての手順を完了していることを確認してください。
 6. Azure の管理証明書をご利用のコンピューターのローカル フォルダーにダウンロードします。 Azure サブスクリプションの管理者に依頼し、サブスクリプションを選択して **設定** > **管理証明書** に移動し、Azure Management Portal に証明書をアップロードしてもらいます。 この証明書により、LCS はユーザーに代わって Azure と通信できるようになります。 ユーザーがサブスクリプションにアクセスできる場合は、この手順をスキップできます。
 7. **次へ** を選択します。
 8. 展開する Azure リージョンを選択し、このシステムを使用する予定の場所に近いデータ センターを選択します。

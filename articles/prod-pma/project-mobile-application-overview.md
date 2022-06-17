@@ -1,6 +1,6 @@
 ---
 title: プロジェクト モバイル アプリケーションの概要
-description: このトピックは、Microsoft Dynamics 365 Project Timesheet、プロジェクト時間エントリ、およびモバイル デバイスで使用可能なマイ タイムシート/タイムシートのためのプロジェクト時間に関連するアプリケーションについて一般的な情報を提供します。
+description: この記事では、モバイルデバイスで利用可能な Microsoft Dynamics 365 Project Timesheet、プロジェクトの時間入力、および自分のタイムシートのプロジェクト時間関連のアプリケーションに関する一般情報を提供します。
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 35ac2fa52f488d38be4b647ae8a3babe2b117f79
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685414"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922872"
 ---
 # <a name="project-mobile-applications-overview"></a>プロジェクト モバイル アプリケーションの概要
 

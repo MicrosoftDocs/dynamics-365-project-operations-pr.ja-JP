@@ -1,17 +1,17 @@
 ---
 title: 時間エントリを拡張する
-description: このトピックでは、開発者が時間エントリ コントロールを拡張する方法について説明します。
+description: この記事では、開発者が時間入力制御を拡張する方法について説明します。
 author: stsporen
 ms.date: 01/27/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7ed501af3fb2059ab3c3ab6f6c957fe518595d55
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582992"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914776"
 ---
 # <a name="extending-time-entries"></a>時間エントリを拡張する
 

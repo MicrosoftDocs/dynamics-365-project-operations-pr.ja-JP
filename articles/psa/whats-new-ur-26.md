@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation 更新プログラム リリース 26、V3 の新機能と変更点
-description: このトピックには、Project Service Automation 更新プログラム リリース 26、V3 で利用可能な機能と修正をリスト化しています。
+description: この記事では、Project Service Automation 更新プログラム リリース 26、V3 で利用可能な機能と修正を一覧表示します。
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cebfcd6425f11b74ce6331a093d8d3db3da356a0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 11f722c1f31c0e8aa08192cc955aabbe97018225
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577288"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928806"
 ---
 # <a name="project-service-automation-update-release-26-v3"></a>Project Service Automation 更新プログラム リリース 26、V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8577288"
 
 Dynamics 365 の Project Service Automation アプリケーションの最新の更新情報をお知らせします。 このリリースには、品質、パフォーマンス、操作性に関するいくつかの重要な改善が含まれています。 このリリースは、Dynamics 365 9.x と互換性があります。 このリリースに更新するには、Dynamics 365 オンライン ソリューション ページの管理センターにアクセスして、更新プログラムをインストールしてください。 詳細については [優先ソリューションのインストール、更新、または削除](/power-platform/admin/install-remove-preferred-solution) を参照してください。
 
-このトピックには、Project Service Automation 更新プログラム 26 (V3) の新機能または変更された機能と修正をリスト化しています。 このバージョンのビルド番号は V3.10.44.59 で、2020 年 12 月のセルフアップデートで一般提供されます。
+この記事では、Project Service Automation Update リリース 26、V3 の新しいまたは変更された機能と修正を一覧表示します。 このバージョンのビルド番号は V3.10.44.59 で、2020 年 12 月のセルフアップデートで一般提供されます。
 
 ## <a name="update-release-26"></a>更新プログラム 26
 

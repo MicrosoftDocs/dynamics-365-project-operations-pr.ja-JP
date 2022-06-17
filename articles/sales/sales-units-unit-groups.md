@@ -1,6 +1,6 @@
 ---
 title: 出荷単位および出荷単位一覧
-description: このトピックでは、Dynamics 365 Project Operations で出荷単位と出荷単位一覧を作成する方法について説明します。
+description: この記事では、Dynamics 365 Project Operations で出荷単位と出荷単位一覧を作成する方法について説明します。
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578438"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921446"
 ---
 # <a name="units-and-unit-groups"></a>出荷単位および出荷単位一覧
 
@@ -28,7 +28,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 出荷単位とは、製品やサービスを販売する際の数量や単位です。 たとえば、園芸用品を販売する場合、種をパケット、箱、およびパレットの単位で販売することがあります。 出荷単位一覧は、このようにさまざまな出荷単位のコレクションです。
 
-このトピックの手順を完了するには、システム管理者、または Sales Professional マネージャーの役割が割り当てられているか、同等の権限を持っていることを確認してください。
+この記事の手順を完了するには、システム管理者または営業担当マネージャーの役割が割り当てられているか、同等の権限を持っていることを確認してください。
 
 ## <a name="create-a-unit-group"></a>出荷単位一覧の作成
 

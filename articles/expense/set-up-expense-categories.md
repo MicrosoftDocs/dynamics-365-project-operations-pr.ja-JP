@@ -1,17 +1,17 @@
 ---
 title: 経費カテゴリの設定
-description: このトピックでは、経費報告書の経費カテゴリおよび共有カテゴリを設定する方法について説明します。
+description: この記事では、経費報告書の経費カテゴリと共有カテゴリを設定する方法について説明します。
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 925c0894616df587b8a749bc00ea52ed06672827
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 602a56cb26d2f97143ffedcdfa96ac751c7b252f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577012"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917770"
 ---
 # <a name="set-up-expense-categories"></a>経費カテゴリの設定
 

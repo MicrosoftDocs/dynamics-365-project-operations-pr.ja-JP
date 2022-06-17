@@ -1,6 +1,6 @@
 ---
 title: プロジェクト リソースのホームページ
-description: このトピックでは、プロジェクト リソースについて説明します。
+description: この記事では、プロジェクト リドースについて説明します。
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 605a6884cb342abf029644dbf8f2d75127df1786
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684878"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924022"
 ---
 # <a name="project-resourcing-home-page"></a>プロジェクト リソースのホームページ
 
 [!include [banner](../includes/banner.md)]
 
-このトピックでは、プロジェクト リソースについて説明します。
+この記事では、プロジェクト リドースについて説明します。
 
 プロジェクト計画ステージでのプロジェクト マネージャーとリソース マネージャーの課題の 1 つは、リソースの割り当てです。プロジェクトで作業するために適切なリソースを決定して予約する必要があります。 Dynamics 365 Finance では、プロジェクトのリソース機能を使用して、特定のエンゲージメントやエンゲージメントの一部のために予約可能な一時的なリソースとして扱われるロールを定義できます。 このタイプのリソース割り当てにより、プロジェクト マネージャーとリソース マネージャーが次のタスクを実行できます。
 
@@ -41,7 +41,7 @@ ms.locfileid: "8684878"
 
 プロジェクト計画が進行するとともに、計画されたリソースをスタッフ リソースに置き換えることができるようになります。 プロジェクト マネージャーは、プロジェクトのどのステージでも、リソースの予約に戻って更新することができます。
 
-次のトピックでは、リソース プロジェクトに取り組んでいるときに完了する必要のあるタスクに関する情報を提供します。
+次の記事では、リソース プロジェクトの作業時に完了する必要があるタスクについて説明します。
 
 - [プロジェクト リソースの設定](set-up-project-resources.md)
 - [リソース コンピテンシーの管理](manage-resource-competencies.md)

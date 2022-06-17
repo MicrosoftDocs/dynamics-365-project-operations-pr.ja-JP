@@ -1,24 +1,24 @@
 ---
 title: 2021 年 12 月のニュース - Project Operations lite の展開
-description: このトピックは、リソース/非在庫ベースのシナリオの Project Operations lite の導入の 2021 年 12 月リリースで利用可能な品質更新に関する情報を提供します。
+description: この記事は、リソース/非在庫ベースのシナリオの Project Operations のライト展開の 2021 年 12 月リリースで利用可能な品質更新について説明します。
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b1ff0a14bf6cb445913bcba11f83234826014857
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 301acc5be76fb0318d6298820b62ae5bb05efac3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585384"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914086"
 ---
 # <a name="whats-new-december-2021---project-operations-lite-deployment"></a>2021 年 12 月のニュース - Project Operations lite の展開
 
 _適用対象: ライト展開 - 見積もり請求の取引_
 
-このトピックは、Microsoft Dynamics 365 Project Operations の次のコンポーネントとバージョンに適用されます:
+この記事は、Microsoft Dynamics 365 Project Operations の次のコンポーネントとバージョンに適用されます。
 
 - Dataverse 環境のバージョン 4.27.0.195、4.27.0.242、4.27.0.244 の Project Operations
 

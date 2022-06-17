@@ -1,17 +1,17 @@
 ---
 title: 契約のアドホック前払いを作成する
-description: このトピックは、必要に応じて契約の前払いを作成するための情報を提供します。
+description: この記事では、必要に応じて契約の前払いを作成する方法について説明します。
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ee97710a9f0229cef3ff9dbfda6a2f108726df20
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3e450a17990c6fc783ddffdb05e1ab5b9429a3c1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594032"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922182"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>契約のアドホック前払いを作成する
 

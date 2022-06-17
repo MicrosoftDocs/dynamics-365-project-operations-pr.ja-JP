@@ -1,6 +1,6 @@
 ---
 title: スキルおよび実力モデル
-description: このトピックでは、スキルと実力モデルを使用する方法を説明します。
+description: この記事では、スキルと実力モデルを使用する方法について説明します。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d46382939e22c1ee1d9f5517798aabb3520ae3bd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 27a9668c3a0d6a2323fb4797a29f6c7d3d146c57
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925310"
 ---
 # <a name="skills-and-proficiency-models"></a>スキルおよび実力モデル
 

@@ -1,17 +1,17 @@
 ---
 title: スキルおよび認定資格
-description: このトピックでは、リソースへのスキルと認定資格の特性の追加について説明します。
+description: この記事では、スキルと認定の特性をリソースに追加する方法について説明します。
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 836784bf45ba45da35d685e9372b29bb843a7268
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 12871964fec536849c55888f0704725b439dd2af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594262"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918365"
 ---
 # <a name="skills-and-certifications"></a>スキルおよび認定資格
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_

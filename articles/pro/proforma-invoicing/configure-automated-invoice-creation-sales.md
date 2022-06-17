@@ -1,17 +1,17 @@
 ---
 title: 請求書自動作成の設定
-description: このトピックは、見積もり請求の自動作成の設定と構成に関する情報を提供します。
+description: この記事では、請求書の自動作成に関する設定と構成について説明します。
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 027cc711d53c7dd8512e6ef416b54e320357dd26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c5160b22bd0d8a738c31a5105d83bd15cf136fab
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584096"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911740"
 ---
 # <a name="set-up-automatic-invoice-creation"></a>請求書自動作成の設定 
  

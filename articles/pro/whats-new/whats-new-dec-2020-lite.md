@@ -1,24 +1,24 @@
 ---
 title: 2020 年 12 月の新機能 - Project Operations Lite 展開 - 見積もり請求の取引
-description: このトピックでは、Project Operations Lite 展開 - 見積もり請求の取引の 2020 年 12 月リリースで利用可能な品質更新について説明します。
+description: この記事は、リソース/非在庫ベースのシナリオの Project Operations のライト展開 - 見積もり請求の取引の 2020 年 12 月リリースで利用可能な品質更新について説明します。
 author: sigitac
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: aaaa8827eaee4df86616ab1399d8ed4a869aba77
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c23e13919540913755223634a24802ff3064f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585430"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924068"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>2020 年 12 月の新機能 - Project Operations Lite 展開 - 見積もり請求の取引
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
-このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
+この記事は、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます。
 
   - Dataverse 環境バージョン 4.5.0.134 での Project Operations 
 

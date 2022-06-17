@@ -1,6 +1,6 @@
 ---
 title: Pay-when-Paid (受給時支払) ベンダー支払いの設定と使用
-description: このトピックは、顧客の支払いに基づいて部分的にベンダーへの支払いをおこなえるように、受給時支払 (PWP) 条件を作成する方法について説明します。
+description: この記事では、受給時の支払 (PWP) 条件を作成して、顧客支払に基づいて一部の仕入先支払をリリースする方法について説明します。
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 71f7b1db58c0d6aacc4f47920e5ad39dbb35ec51
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 10e8e57695caece6c4b6ba4c2ddb52395dad1218
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683919"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920756"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Pay-when-Paid (受給時支払) ベンダー支払いの設定と使用
 

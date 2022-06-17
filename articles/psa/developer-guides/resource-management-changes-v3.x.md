@@ -1,6 +1,6 @@
 ---
 title: リソースの管理の変更 (Project Service Automation 3.x)
-description: このトピックでは、リソース管理領域について説明します。
+description: この記事では、リソース管理領域への変更について説明します。
 author: makk
 ms.custom:
 - dyn365-projectservice
@@ -15,18 +15,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: d19b8b453c544bb4c6fd11a8b9f750cb08e0c168
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cac11606811632bdc48f462eb3a09a163ba1620d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595504"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916018"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>リソースの管理の変更 (Project Service Automation 3.x)
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-このトピックのセクションでは、Dynamics 365 Project Service Automation バージョン 3.x のリソース管理領域に加える変更について説明します。
+この記事のこのセクションでは、Dynamics 365 Project Service Automation バージョン 3.x のリソース管理領域に加える変更について説明します。
 
 ## <a name="project-estimates"></a>プロジェクト見積もり
 

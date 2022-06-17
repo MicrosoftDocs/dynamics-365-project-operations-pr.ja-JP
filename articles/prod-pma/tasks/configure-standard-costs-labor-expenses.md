@@ -1,6 +1,6 @@
 ---
 title: 人件費と経費の標準原価を構成する
-description: このトピックでは、プロジェクトの人件費と経費の標準原価を設定する方法について説明します。
+description: この記事では、労働者の標準原価とプロジェクトの経費を設定する方法を説明します。
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd74da69986a73e933f8cfedce40158555c2ac60
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a51eee8d2eb960b6f24b6511dab7b7a27303dddb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685338"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919516"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>人件費と経費の標準原価を構成する
 
 [!include [banner](../../includes/banner.md)]
 
-このトピックでは、プロジェクトの人件費と経費の標準原価を設定する方法について説明します。 このタスクでは、USSI データセットを使用します。
+この記事では、労働者の標準原価とプロジェクトの経費を設定する方法を説明します。 このタスクでは、USSI データセットを使用します。
 
 1. ナビゲーション ウィンドウで、**モジュール > プロジェクト管理および会計 > 設定 > 価格 > 原価価格 (時間)** に移動します。
 2. **新規** をクリックします。

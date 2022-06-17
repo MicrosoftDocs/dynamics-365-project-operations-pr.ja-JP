@@ -1,23 +1,23 @@
 ---
 title: 法人ごとに Project Operations 統合を構成する
-description: このトピックでは、Project Operations で法人による統合の設定方法について説明します。
+description: この記事では、Project Operations で法人が構成データをセットアップして適用する方法について説明します。
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585844"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914684"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>法人ごとに Project Operations 統合を構成する 
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-このトピックは、法人ごとに Dynamics 365 Project Operations を構成するのに必要な手順を説明します。
+この記事では、法人ごとに Dynamics 365 Project Operations を構成するために必要な手順について説明します。
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Dynamics 365 Finance の機能キーを有効にする
 

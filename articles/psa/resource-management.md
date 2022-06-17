@@ -1,6 +1,6 @@
 ---
 title: プロジェクトのリソース ホームページ
-description: このトピックでは、Project Service Automation (PSA) for Dynamics 365 のリソース管理機能について説明します。
+description: この記事では、Project Service Automation (PSA) for Dynamics 365 のリソース管理機能について説明します。
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599828"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925264"
 ---
 # <a name="resourcing-projects-home-page"></a>プロジェクトのリソース ホームページ
 
@@ -46,7 +46,7 @@ ms.locfileid: "8599828"
 - スキルと能力リポジトリを維持します。
 
 
-PSA の汎用または名前の付いたリソースでプロジェクトにスタッフを配置できます。 チーム メンバーの追加や割り当て、メンバーの予約や割り当ての管理をおこなうためにさまざまなメソッドを使用できます。 追加の情報については、次のトピックを参照してください。
+PSA の汎用または名前の付いたリソースでプロジェクトにスタッフを配置できます。 チーム メンバーの追加や割り当て、メンバーの予約や割り当ての管理をおこなうためにさまざまなメソッドを使用できます。 追加情報については、次の記事を参照してください。
 
 - [名前付き予約可能リソースをプロジェクト チームに予約して、タスクを割り当てる](assign-named-bookable-resource.md)
 - [予約可能な汎用リソースをタスクに割り当て、リソース要件を生成する](assign-generic-bookable-resource.md)

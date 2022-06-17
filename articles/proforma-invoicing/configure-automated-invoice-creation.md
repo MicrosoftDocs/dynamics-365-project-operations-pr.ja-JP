@@ -1,17 +1,17 @@
 ---
 title: 請求書自動作成の構成
-description: このトピックでは、請求書を自動的に生成するシステムの設定方法について説明します。
+description: この記事では、システムを構成して請求書を自動生成する方法について説明します。
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 43b75ea823a62acaab708a1ef2fa2467904fdd00
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 273e00e7841c8a34e249e54a7d868034bc34a1f7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920618"
 ---
 # <a name="configure-automatic-invoice-creation"></a>請求書自動作成の構成
 

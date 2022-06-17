@@ -1,33 +1,33 @@
 ---
 title: 新しい価格ディメンションでプラグイン属性を更新する
-description: このトピックでは、価格ディメンションのプラグイン属性の更新方法を説明します。
+description: この記事では、価格ディメンションのプラグイン属性の更新方法について説明します。
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575034"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920020"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>新しい価格ディメンションでプラグイン属性を更新する
 
-このトピックでは、価格ディメンションのプラグイン属性の更新方法を説明します。
+この記事では、価格ディメンションのプラグイン属性の更新方法について説明します。
 
 > [!NOTE]
-> このトピックの対象は Dynamics 365 Project Operations の見積もりと契約の機能のみです。
+> この記事は、Dynamics 365 Project Operations の見積もりおよび契約機能にのみ適用されます。
 
 ## <a name="prerequisites"></a>前提条件
-このトピックの手順を完了する前に、以下のトピックの手順を完了する必要があります。
+この記事の手順を完了する前に、次の記事の手順を完了している必要があります。
 
   - [カスタム フィールドとエンティティの作成](create-custom-fields-entities-pricing-dimensions.md) 
   - [カスタム フィールドを価格設定およびトランザクション エンティティに追加する](add-custom-fields-price-setup-transactional-entities.md)
   - [価格ディメンションとしてカスタム フィールドを設定します](set-up-custom-fields-pricing-dimensions.md)。 
   
-次に、これらの手順を完了していない場合は、完了後にこのトピックに戻ります。
+次に、これらの手順を完了していない場合は、戻ってこれらを完了してから、この記事に戻ってください。
 
 ## <a name="register-a-plug-in"></a>プラグインの登録
 プロジェクト見積明細行の **見積依頼明細行** ページで見積依頼明細行詳細を作成すると、システムは見積明細行を 2 件作成します。 1 件は見積もりのコスト側で、もう 1 件は営業側です。 これは、プロジェクト契約品目の場合も同様です。

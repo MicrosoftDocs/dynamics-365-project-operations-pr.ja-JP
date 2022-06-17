@@ -1,23 +1,23 @@
 ---
 title: 完了までの原価の計算方法
-description: このトピックでは、プロジェクトの完了コストを計算する方法について情報を提供します。
+description: この記事では、プロジェクトの完成に必要なコストの計算方法について説明します。
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 244afa919e5fbc16be8f905acce2e2354c7da974
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 39c10673afd04ad7d4a94a01211c2f9d335a02c2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601668"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920296"
 ---
 # <a name="cost-to-complete-methods"></a>完了までの原価の計算方法
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-このトピックでは、プロジェクトの完了コストを計算する方法について情報を提供します。 プロジェクトの完了コストを計算する方法は複数あります。 
+この記事では、プロジェクトの完成に必要なコストの計算方法について説明します。 プロジェクトの完了コストを計算する方法は複数あります。 
 
 プロジェクトの見積もりを作成する場合、**見積もりの作成** ページの **完了までの原価の計算方法** フィールドで、完了までの原価の計算方法について次のいずれかを選択できます。
 

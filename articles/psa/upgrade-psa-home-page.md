@@ -1,6 +1,6 @@
 ---
 title: ホーム ページのアップグレード
-description: このトピックでは、Dynamics 365 Project Service Automation の新しい、変更された機能に関する重要な情報の見つけ方、および最新バージョンへのアップグレードの手順を説明します。
+description: この記事では、Dynamics 365 Project Service Automation の新しい、変更された機能に関する重要な情報の見つけ方、および最新バージョンへのアップグレードの手順について説明します。
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591395"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926644"
 ---
 # <a name="upgrade-home-page"></a>ホーム ページのアップグレード
 
@@ -48,14 +48,14 @@ ms.locfileid: "8591395"
 アップグレード プロセスを開始する前に、以下のタスクを完了することをお勧めします。
 
 - Dynamics 365 Field Service および Project Service Automation の両方が、指定したインスタンスにインストールされているかどうかを確認してください。 双方のソリューションがインストールされている場合は、定期的なインスタンスの使用を再開する前に両方ともアップグレードするプランを立ててください。
-- 次のトピックをよく確認してください。 バージョン間での変更に関して認知および解釈しておくと、アップグレード プロセスで役立ちます。 このトピックでは、PSA での大きな変更に関する情報とともに、3.x バージョンにアップグレードするプランを立てる場合のお勧めの方法を提供します。
+- 次の記事をよく確認してください。 バージョン間での変更に関して認知および解釈しておくと、アップグレード プロセスで役立ちます。 この記事では、PSA での大きな変更に関する情報とともに、3.x バージョンにアップグレードするプランを立てる場合の推奨事項について説明します。
 
     - [Project Service Automation バージョン 3 の最新情報または変更事項](whats-new-changed-v3.md)
     - [アップグレードの考慮事項 - Project Service Automation バージョン 2.x または 1.x から バージョン 3 へ](upgrade-v3.md)
 
 - サンドボックス インスタンスをアップグレードしてから実装の変更について評価し、実稼働インスタンスをアップグレードします。
 
-先ほど説明したトピックを確認し、PSA バージョン 3.x または UCI ベース バージョンへのアップグレードの準備が完了したら、管理センターのアップグレードを有効にするように Microsoft サポートに要求を送信します。 要求する際には、ユーザーのインスタンスについての詳細を提供します。
+先ほど説明した記事を確認し、PSA バージョン 3.x または UCI ベース バージョンへのアップグレードの準備が完了したら、管理センターのアップグレードを有効にするように Microsoft サポートに要求を送信します。 要求する際には、ユーザーのインスタンスについての詳細を提供します。
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>新しく作成したインスタンスの PSA (PSA バージョン 2.x) の古いバージョン
 

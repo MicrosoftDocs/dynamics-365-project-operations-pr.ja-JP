@@ -1,6 +1,6 @@
 ---
 title: Finance and Operations と Project Service Automation 間でプロジェクト経費カテゴリを同期する
-description: このトピックでは、Microsoft Dynamics 365 Finance と Dynamics 365 Project Service Automation 間でプロジェクト経費カテゴリを同期するために使用されるテンプレートと基になるタスクについて説明します。
+description: この記事では、Microsoft Dynamics 365 Finance と Dynamics 365 Project Service Automation 間でプロジェクト経費カテゴリを同期するために使用されるテンプレートと基になるタスクについて説明します。
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 630c4fa7a159aa46b46984736080cd007d519a6c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685476"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927242"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Finance and Operations と Project Service Automation 間でプロジェクト経費カテゴリを同期する
 
 [!include[banner](../includes/banner.md)]
 
-このトピックでは、Dynamics 365 Finance と Dynamics 365 Project Service Automation 間でプロジェクト経費カテゴリを同期するために使用されるテンプレートと基になるタスクについて説明します。
+この記事では、Dynamics 365 Finance と Dynamics 365 Project Service Automation 間でプロジェクト経費カテゴリを同期するために使用されるテンプレートと基になるタスクについて説明します。
 
 > [!NOTE]
 > - プロジェクト タスクの統合、経費トランザクション カテゴリ、時間の見積もり、経費の見積もり、および機能のロックはバージョン 8.0 で使用可能です。

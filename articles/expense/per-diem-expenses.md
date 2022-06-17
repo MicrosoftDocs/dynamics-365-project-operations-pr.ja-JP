@@ -1,6 +1,6 @@
 ---
 title: 日当経費
-description: このトピックでは、日当経費の処理方法について説明します。
+description: この記事では、日当経費の処理方法について説明します。
 author: suvaidya
 ms.date: 03/18/2022
 ms.topic: article
@@ -13,17 +13,17 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fe72f066a6819c3b43e3977d5e7afb01ba95338c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0d2f95b677720726049d7d010e9738ad8c513802
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596056"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923194"
 ---
 # <a name="per-diem-expenses"></a>日当経費
 
 > [!IMPORTANT] 
-> このトピックに記載されている機能は、プレビュー リリースの一部として対象ユーザーが使用可能です。
+> この記事に記載されている機能は、プレビュー リリースの一部として対象ユーザーが使用可能です。
 
 日当とは、従業員が出張中に負担する、宿泊 (ホテル)、食事、雑費に対して、企業が従業員に支払う、固定された所定の 1 日あたりの手当です。 企業は実際の旅費を支払う代わりに、この手当を従業員に支払います。 従業員は、重要なビジネス会議のためのチップ、ルーム サービス、ランドリー、またはドライクリーニン グサービスをカバーするために、**雑費/その他** の日当を使用できます。 日当のレートは、雇用者が宿泊費と食事代の合計を払い戻すか、食事代と雑費のみを払い戻すかによって異なります。
 

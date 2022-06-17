@@ -1,17 +1,17 @@
 ---
 title: プロジェクト見積依頼の複数の顧客を管理する (ライト)
-description: このトピックでは、プロジェクトに資金を提供する複数の顧客に関する見積もりの作業について説明します。 (Sales)
+description: この記事では、プロジェクトに資金を提供する複数の顧客が関わる見積もり作業について説明します。 (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 867d34f955ba53c74e9c31349b7f67d84ba10da4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 337619e8d8081cdebd73f9336fa9fa99885a0ab2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576782"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921078"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>プロジェクト見積依頼の複数の顧客を管理する (ライト)
 

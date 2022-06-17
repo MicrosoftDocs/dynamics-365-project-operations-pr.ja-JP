@@ -1,25 +1,25 @@
 ---
 title: タスク グリッドでの作業のトラブルシューティング
-description: このトピックでは、タスク グリッドで作業するときに必要なトラブルシューティング情報を提供します。
+description: この記事では、タスク グリッドで作業する際に必要なトラブルシューティング情報について説明します。
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596424"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911050"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>タスク グリッドでの作業のトラブルシューティング 
 
 
 _**適用対象:** リソース/非在庫ベースのシナリオの Project Operations、ライト展開 - 見積もり請求の取引、Project for the Web_
 
-Dynamics 365 Project Operations によって活用されるタスク グリッドは、Microsoft Dataverse 内でホストされている iFrame です。 この使用の結果として、認証と認証が正しく機能していることを確認するには、特定の要件を満たす必要があります。 このトピックは、グリッドをレンダリングしたり、作業分解図 (WBS) でタスクを管理したりする機能に影響を与える可能性のある一般的な問題の概要を示しています。
+Dynamics 365 Project Operations によって活用されるタスク グリッドは、Microsoft Dataverse 内でホストされている iFrame です。 この使用の結果として、認証と認証が正しく機能していることを確認するには、特定の要件を満たす必要があります。 この記事は、グリッドをレンダリングしたり、作業分解図 (WBS) でタスクを管理したりする機能に影響を与える可能性のある一般的な問題の概要を示しています。
 
 一般的な問題: 
 

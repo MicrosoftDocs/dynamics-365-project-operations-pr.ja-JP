@@ -1,17 +1,17 @@
 ---
 title: 過去に承認されたエントリの承認取り消し
-description: このトピックでは、プロジェクト マネージャーが、過去に承認された時間、費用、材料使用量の入力の承認を取り消す方法について説明します。
+description: この記事では、プロジェクト マネージャーが、過去に承認された時間、費用、材料使用量の入力の承認を取り消す方法について説明します。
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 03d4511e85e9fc8d596b269274c4a7e10016244c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 08c2248a5fcfc9b7569871a76bc09234ffd172c7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584786"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930462"
 ---
 # <a name="cancel-the-approval-of-previously-approved-entries"></a>過去に承認されたエントリの承認取り消し
 

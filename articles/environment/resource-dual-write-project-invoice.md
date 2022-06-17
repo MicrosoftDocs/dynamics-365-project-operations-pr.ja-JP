@@ -1,22 +1,22 @@
 ---
 title: プロジェクト請求書統合
-description: このトピックでは、顧客の請求書作成で使用する Project Operations 二重書き込みの統合についての情報を提供します。
+description: この記事では、顧客請求向けの Project Operations デュアル ライトについて説明します。
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581244"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912108"
 ---
 # <a name="project-invoice-integration"></a>プロジェクト請求書統合
 
-このトピックでは、顧客の請求書作成で使用する Project Operations 二重書き込みの統合についての情報を提供します。
+この記事では、顧客請求向けの Project Operations デュアル ライトについて説明します。
 
 Project Operations では、プロジェクト マネージャーがプロジェクトの請求書のバックログを管理し、Microsoft Dataverse の顧客への仮の請求書を作成します。 仮の請求書に基づいて、売掛金担当者やプロジェクト会計士が顧客向けの請求書を作成します。 二重書き込み統合により、プロフォーマ インボイスの詳細が財務と運用アプリに同期されます。 顧客向けの請求書が転記された後、システムは Dataverse の関連するプロジェクトの実績を会計の詳細に合わせて更新します。 次の図は、この統合の高レベルの概念的概要を示しています。
 

@@ -1,23 +1,23 @@
 ---
 title: プロジェクト契約の設定 - Lite
-description: このトピックでは、契約品目に影響を与えるフィールドと、すべての品目にわたって要約される契約に関する情報について説明します。
+description: この記事では、契約品目に影響を与えるフィールドと、すべての明細項目を横断して要約される契約に関する情報を提供します。
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586396"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917076"
 ---
 # <a name="header-details-for-project-contracts"></a>プロジェクト契約のヘッダーの詳細
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
-このトピックでは、すべての契約品目に影響を与える設定を含む、プロジェクト契約全体に適用されるフィールドについて説明します。 プロジェクト契約の KPI を推進するために、すべての品目にわたって要約された契約に関する情報も含まれています。
+この記事では、すべての契約品目に影響を与える設定を含む、プロジェクト契約全体に適用されるフィールドに関する情報を提供します。 プロジェクト契約の KPI を推進するために、すべての品目にわたって要約された契約に関する情報も含まれています。
 
 次の表には、Dynamics 365 Project Operations に固有のプロジェクト契約のフィールド、または Dynamics 365 Sales の受注からの動作にいくつかの重要な変更があるフィールドが表示されています。
 

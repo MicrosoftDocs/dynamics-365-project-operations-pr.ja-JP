@@ -1,17 +1,17 @@
 ---
 title: カスタム価格ディメンションのソリューションを作成する
-description: このトピックでは、カスタム価格ディメンションに対するソリューションの作成方法を説明します。
+description: この記事では、カスタム価格ディメンション用のソリューションを作成する方法について説明します。
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 82593d3d00b008c1922d70c508bc77624aeb46b3
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cd7fedaa7bece16e99131bcc0faff3ce547580e8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601116"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915144"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>カスタム価格ディメンションのソリューションを作成する
 

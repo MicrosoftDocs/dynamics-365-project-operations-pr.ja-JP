@@ -1,6 +1,6 @@
 ---
 title: プロジェクト タスクを Project Service Automation から Finance and Operations に直接同期する
-description: このトピックでは、Microsoft Dynamics 365 Project Service Automation から Dynamics 365 Finance にプロジェクト タスクを直接同期するために使用されるテンプレートと基になるタスクについて説明します。
+description: この記事では、Microsoft Dynamics 365 Project Service Automation から Dynamics 365 Finance にプロジェクト タスクを直接同期するために使用されるテンプレートと基になるタスクについて説明します。
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7b8ba77bbb08052952a8a557bb71300652dca3b2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683316"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931152"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>プロジェクト タスクを Project Service Automation から Finance and Operations に直接同期する
 
 [!include[banner](../includes/banner.md)]
 
-このトピックでは、Dynamics 365 Project Service Automation から Dynamics 365 Finance にプロジェクト タスクを直接同期するために使用されるテンプレートと基になるタスクについて説明します。
+この記事では、Dynamics 365 Project Service Automation から Dynamics 365 Finance にプロジェクト タスクを直接同期するために使用されるテンプレートと基になるタスクについて説明します。
 
 > [!NOTE]
 > - プロジェクト タスクの統合、経費トランザクション カテゴリ、時間の見積もり、経費の見積もり、および機能のロックはバージョン 8.0 で使用可能です。

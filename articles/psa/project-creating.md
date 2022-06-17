@@ -1,6 +1,6 @@
 ---
 title: プロジェクト スケジュール
-description: このトピックでは、スケジュールの作成方法に関する情報を提供します。
+description: この記事では、スケジュールの作成方法に関する情報を提供します。
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4b7b221c2b0c47ed02c59fb724cf65bc41697d82
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f0d052efda1b78161feed1c1e4cd70a31f3c4dea
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600610"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915880"
 ---
 # <a name="project-schedules"></a>プロジェクト スケジュール 
 

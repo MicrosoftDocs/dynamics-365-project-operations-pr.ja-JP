@@ -1,6 +1,6 @@
 ---
 title: Project Service Automation から Project Operations へのアップグレード
-description: このトピックでは、Microsoft Dynamics 365 Project Service Automation から Dynamics 365 Project Operations へのアップグレードのプロセスの概要について説明します。
+description: この記事では、Microsoft Dynamics 365 Project Service Automation から Dynamics 365 Project Operations へのアップグレードのプロセスの概要について説明します。
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626718"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912982"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Project Service Automation から Project Operations へのアップグレード
 
-今回は、Microsoft Dynamics 365 Project Service Automation から Dynamics 365 Project Operations へのアップグレードの 3 つのフェーズのうち、最初のフェーズを発表いたします。 このトピックでは、このエキサイティングな旅に出ようとしている顧客のみなさんに概要を説明します。 今後は、開発者向けの考慮事項や機能拡張の詳細などを紹介する予定です。 Project Operations へのアップグレードの準備に役立つガイダンスを提供するだけでなく、アップグレード後に何が期待できるかについても説明します。
+今回は、Microsoft Dynamics 365 Project Service Automation から Dynamics 365 Project Operations へのアップグレードの 3 つのフェーズのうち、最初のフェーズを発表いたします。 この記事では、このエキサイティングな旅に出ようとしている顧客のみなさんに概要を提供します。 今後の記事では、開発者向けの考慮事項や機能拡張の詳細などを紹介する予定です。 Project Operations へのアップグレードの準備に役立つガイダンスを提供するだけでなく、アップグレード後に何が期待できるかについても説明します。
 
 アップグレード配信プログラムは、3 つのフェーズに分かれます。
 
@@ -90,7 +90,7 @@ Project Service Automation のアクティブなライセンスをご利用の�
     > [!NOTE]
     > 環境のデータ量によっては、アップグレードに数時間かかる場合があります。 アップグレードを管理しているコアチームは、状況に応じて計画を立て、非業務時間中にアップグレードを実行する必要があります。 場合によっては、データ量が多い場合は、週末にアップグレードを実行する必要があります。 スケジュール設定に関する決定は、下位環境でのテスト結果に基づいて実施する必要があります。
 
-3. 必要に応じてカスタム ソリューションをアップグレードします。 この時点で、このトピックの[カスタマイズのテストとリファクタリング](#testing-and-refactoring-customizations) セクションでカスタマイズした内容を展開します。
+3. 必要に応じてカスタム ソリューションをアップグレードします。 この時点では、この記事の [カスタマイズのテストとリファクタリング](#testing-and-refactoring-customizations) セクションでカスタマイズした内容を展開します。
 4. **設定**\>**ソリューション** にアクセスし、**Project Operations の非推奨コンポーネント** ソリューションを選択してアンインストールします。
 
     このソリューションは、アップグレード時に存在する既存のデータ モデルとコンポーネントを保持する一時的なソリューションです。 このソリューションを削除することで、使用されなくなったフィールドやコンポーネントをすべて削除します。 そうすることで、インターフェースを簡素化し、統合や拡張を容易にすることができます。
@@ -126,7 +126,6 @@ Project Operations への継続的な投資の一環として、請求と価格�
 | Project Service Automation                             | Project Operations Lite の展開                        | サポート対象               |
 | Dynamics 365 Finance プロジェクト管理および会計 | Project Operations Lite の展開                        | 現在のサポートされていません |
 | ファイナンス プロジェクト マネジメントと会計              | リソース/非在庫のシナリオ向け Project Operations     | 現在のサポートされていません |
-| ファイナンス プロジェクト マネジメントと会計              | 在庫/製造指示のシナリオ向け Project Operations | 現在のサポートされていません |
 | Project Service Automation 3.x                         | リソース/非在庫のシナリオ向け Project Operations     | 現在のサポートされていません |
 | Project for the Web (専用環境)            | Project Operations Lite の展開                        | 現在のサポートされていません |
 

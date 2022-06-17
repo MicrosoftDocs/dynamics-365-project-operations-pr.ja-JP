@@ -1,17 +1,17 @@
 ---
 title: ドラフト プロジェクトの請求書提案の会計を修正する
-description: このトピックでは、請求書の提案の会計に関する情報を調整する方法について説明します。
+description: この記事では、ドラフト請求書提案の会計関連情報を調整する方法について説明します。
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: bf0a3d6b97880920b133cb3b30389adf0c83111c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 32f566a798d07b698693392f3aa1823f91fe5408
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575080"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921216"
 ---
 # <a name="correct-the-accounting-on-draft-project-invoice-proposals"></a>ドラフト プロジェクトの請求書提案の会計を修正する
 
@@ -19,7 +19,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 プロジェクト請求書の *運用詳細* は、プロジェクト マネージャーがプロフォーマ請求書で管理します。 これらの詳細には、請求を発行する必要のある時間、費用、資料、またはマイルストーン、料金、および前払金額と保持金額の適用に関する決定が含まれます。 オリジナルのプロフォーマ請求書を確認した後に、[修正プロフォーマ請求書](../proforma-invoicing/corrective-invoices.md)を作成、確認することで、運用内容を調整することができます。
 
-プロジェクトの請求書の *会計の詳細* は、顧客向けの請求書ドキュメントで管理されます。 これらの詳細には、請求書に適用される消費税の計算と財務分析コードが含まれます。 このトピックでは、プロジェクト請求書のドラフトでこれらの会計詳細を調整する方法について詳しく説明します。
+プロジェクトの請求書の *会計の詳細* は、顧客向けの請求書ドキュメントで管理されます。 これらの詳細には、請求書に適用される消費税の計算と財務分析コードが含まれます。 この記事では、プロジェクト請求書のドラフト案でこれらの会計内容を調整する方法について詳しく説明します。
 
 ## <a name="adjust-sales-tax"></a>消費税のの調整
 

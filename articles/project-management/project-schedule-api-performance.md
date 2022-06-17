@@ -1,28 +1,28 @@
 ---
 title: プロジェクト スケジュール API のパフォーマンス
-description: このトピックでは、プロジェクト スケジュール API のパフォーマンスにおけるベンチマークに関する情報と、最適に使用するためのベストプラクティスを紹介します。
+description: この記事では、プロジェクト スケジュール API のパフォーマンスにおけるベンチマークに関する情報と、最適に使用するためのベストプラクティスを紹介します。
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3c14d27c561a86cd359cbdcbb448ae764dd3d90e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1ee1bd8e4412ee1d10f445628c5dc87cc9fa91d3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593848"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911188"
 ---
 # <a name="project-schedule-api-performance"></a>プロジェクト スケジュール API のパフォーマンス
 
 _**適用対象:** リソース/非在庫ベースのシナリオの Project Operations、ライト展開 - 見積もり請求の取引、Project for the Web_
 
-このトピックでは、プロジェクト スケジュールのアプリケーション プログラミング インターフェース (API) のパフォーマンス ベンチマークに関する情報と、使用方法を最適化するためのベストプラクティスについて説明します。
+この記事では、プロジェクト スケジュールのアプリケーション プログラミング インターフェース (API) のパフォーマンス ベンチマークに関する情報と、使用方法を最適化するためのベストプラクティスについて説明します。
 
 ## <a name="project-scheduling-service"></a>プロジェクト スケジュール サービス
 プロジェクト スケジュール サービスは、Microsoft Azure で実行されるマルチテナント サービスです。 ユーザーがプロジェクトに取り組む際に、高速で流動的なエクスペリエンスを提供することで、インタラクションの向上が実現できるように設計されています。 この改善は、変更要求を受け付けて処理し、その結果をただちに返すことで実現しています。 このサービスは、非同期的に Dataverse に永続化し、ユーザーによるその他操作の実行を妨げることはありません。
 
-プロジェクト スケジュール API は、プロジェクト スケジュール サービスに依存しており、このトピックの後のセクションで詳細を説明するリクエストを実行します。
+プロジェクト スケジュール API は、プロジェクト スケジュール サービスに依存しており、この記事の後のセクションで詳細を説明するリクエストを実行します。
 
 プロジェクト スケジュール API は、次の WBS (作業分解構造) エンティティと連携するように設計されています:
 

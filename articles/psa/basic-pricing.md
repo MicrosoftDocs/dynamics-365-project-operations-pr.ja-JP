@@ -1,6 +1,6 @@
 ---
 title: プロジェクトの価格設定
-description: このトピックでは、Dynamics 365 Project Service Automation での価格設定の仕組みについて説明します。
+description: この記事では、Dynamics 365 Project Service Automation での価格設定の仕組みについて説明します。
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c9a5e1ef52eec99ee580258b5dd6db9823cdb4cb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb2a63246a21e5f1306b5ce7f2e2420a93af7ff3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576460"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926966"
 ---
 # <a name="project-pricing"></a>プロジェクトの価格設定 
 

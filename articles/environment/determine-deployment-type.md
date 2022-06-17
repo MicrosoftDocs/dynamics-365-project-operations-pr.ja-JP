@@ -1,17 +1,17 @@
 ---
 title: 展開の種類を決定する
-description: このトピックでは、会社のプロジェクト オペレーションの正しい展開の種類を決定するのに役立つ情報を提供します。
+description: この記事では、会社の Project Operations の正しい展開タイプを判断するための情報を提供します。
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 592c1bfdaf5ea6bdbf6c67bc5b82dd5cf979b367
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912200"
 ---
 # <a name="determine-your-deployment-type"></a>展開の種類を決定する
 

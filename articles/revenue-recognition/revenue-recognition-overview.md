@@ -1,23 +1,23 @@
 ---
 title: 収益認識の概要
-description: このトピックでは、Project Operations での売上認識について説明します。
+description: この記事では、Project Operations での売上認識について説明します。
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 22486693226256f765589b272e6df36aceaf9c1c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601438"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926276"
 ---
 # <a name="revenue-recognition-overview"></a>収益認識の概要
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-Dynamics 365 Project Operations で売上認識の原則は、プロジェクトやプロジェクトの一部に対して選択した請求方法によって異なります。 このトピックでは、Project Operations での売上認識について説明します。
+Dynamics 365 Project Operations で売上認識の原則は、プロジェクトやプロジェクトの一部に対して選択した請求方法によって異なります。 この記事では、Project Operations での売上認識について説明します。
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>時間と材料の請求方法で会計処理したトランザクション
 

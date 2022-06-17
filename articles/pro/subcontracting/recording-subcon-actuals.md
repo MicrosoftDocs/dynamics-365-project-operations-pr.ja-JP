@@ -1,17 +1,17 @@
 ---
 title: 外注コンポーネントの時間、経費、材料使用量を記録する
-description: このトピックでは、外注コンポーネントのプロジェクトで記録された時間、費用、材料の使用量が、Microsoft Dynamics 365 Project Operations でどのように追跡されるかを説明します。
+description: この記事では、下請けコンポーネントのプロジェクトで記録された時間、費用、材料の使用量が、Microsoft Dynamics 365 Project Operations でどのように追跡されるかについて説明します。
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599230"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927656"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>外注コンポーネントのプロジェクトにおける時間、経費、材料使用量の記録する
 
@@ -19,7 +19,7 @@ ms.locfileid: "8599230"
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
-このトピックでは、外注コンポーネントのプロジェクトで記録された時間、費用、材料の使用量が、Microsoft Dynamics 365 Project Operations でどのように追跡されるかを説明します。
+この記事では、下請けコンポーネントのプロジェクトで記録された時間、費用、材料の使用量が、Microsoft Dynamics 365 Project Operations でどのように追跡されるかについて説明します。
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>プロジェクトの外注業者の時間のコスト
 Project Operations では、契約労働者が従業員と同様の方法でプロジェクトの時間を記録することができます。 プロジェクトおよび/またはプロジェクト タスクの時間を入力する際、契約作業員は特定の外注および外注ラインを選択できます。

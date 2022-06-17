@@ -1,17 +1,17 @@
 ---
 title: プロジェクト チーム メンバー
-description: このトピックでは、プロジェクト チームのメンバー情報、属性、およびスケジュールを操作する方法に関する情報を提供します。
+description: この記事では、プロジェクト チームのメンバー情報、属性、スケジュールを操作する方法について説明します。
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 75b140a4ea17dbb3093f926367f439544c32d587
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3465688fb267f3ab785fcb0d252e8616ac1aa1c8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590812"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929312"
 ---
 # <a name="project-team-members"></a>プロジェクト チーム メンバー
 

@@ -1,23 +1,23 @@
 ---
 title: 2020 年 11 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
-description: このトピックでは、リソース/非在庫ベースのシナリオ向け Project Operations の 2020 年 11 月リリースで利用可能な品質更新について説明します。
+description: この記事は、リソース/非在庫ベースのシナリオの Project Operations の 2020 年 11 月リリースで利用可能な品質更新に関する情報を提供します。
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600380"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923424"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>2020 年 11 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
+この記事は、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます。
 
 - CDS 環境バージョン 4.4.0.70 での Project Operations
 - Dynamics 365 Finance 環境バージョン 10.0.14 でのプロジェクト管理と会計
