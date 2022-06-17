@@ -1,17 +1,17 @@
 ---
 title: Project Operations 二重書き込みマッピングのバージョン
-description: このトピックは、Dynamics 365 Project Operations に必要となる二重書き込みのマッピングのリストを提供します。
+description: この記事では、Dynamics 365 Project Operations に必要なデュアル ライト マップのリストを提供します。
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612760"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959450"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 二重書き込みマッピングのバージョン
 
@@ -54,7 +54,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | Project Operations 統合の時間見積のエンティティ (msdyn_resourceassignments) | 1.0.0.5 | プロビジョニングには必須ではありません。 ||
 | Project Operations 統合プロジェクト経費エクスポート エンティティ (msdyn_expensecategories) | 1.0.0.1 | プロビジョニングには必須ではありません。 ||
 | Project Operations 統合プロジェクト経費エクスポート エンティティ (msdyn_expenses) | 1.0.0.3 | プロビジョニングには必須ではありません。 ||
-| Project Operations 統合プロジェクト ベンダー請求書のエクスポート エンティティ (msdyn_projectvendorinvoices) | 1.0.0.0 | プロビジョニングには必須ではありません。 ||
+| Project Operations 統合プロジェクト ベンダー請求書のエクスポート エンティティ (msdyn_projectvendorinvoices) | 1.0.0.1 | プロビジョニングには必須ではありません。 |10.0.26 またはそれ以降|
 | Project Operations 統合プロジェクト ベンダー請求書明細のエクスポート エンティティ (msdyn_projectvendorinvoicelines) | 1.0.0.4 | プロビジョニングには必須ではありません。 | 10.0.26 またはそれ以降 |
 | すべての会社のプロジェクトのリソース ロール (bookableresourcecategories) | 1.0.0.1 | プロビジョニング時に Dynamics 365 Dataverse 環境に入力されるプロジェクト マネージャーとチーム メンバーのリソース ロールを同期するためには、テーブル マッピングの初期同期が必要です。 Dataverse は、初期の同期のための主要なソースです。 ||
 | プロジェクト タスク (msdyn_projecttasks) | 1.0.0.4 | プロビジョニングには必須ではありません。 ||

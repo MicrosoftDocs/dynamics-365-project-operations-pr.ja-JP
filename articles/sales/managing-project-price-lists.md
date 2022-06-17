@@ -1,6 +1,6 @@
 ---
 title: 見積もりのプロジェクト価格表を管理する
-description: このトピックでは、プロジェクトの価格表エンティティについての説明をします。
+description: この記事では、プロジェクト価格リストのエンティティに関する情報を提供します。
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d77f66d3311f3aa5ee720a05ea7da149d2a4362b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8439a03e6557ec531405048ec4149344e283242e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601024"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933160"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>見積もりのプロジェクト価格表を管理する
 

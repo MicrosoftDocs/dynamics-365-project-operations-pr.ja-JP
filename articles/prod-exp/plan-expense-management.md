@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d919a26000b127dd6fb2fd8a49d79e3087f1c403
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: 6c9424b8aaf867254bde085cffaa649c846920cc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8709982"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934004"
 ---
 # <a name="configure-expense-management"></a>経費管理の構成
 
-このトピックでは、経費管理を構成する前の計画プロセスで考慮すべき事項と行う必要がある決定について説明します。 経費管理では、支払い方法、出張申請書、経費報告書、ポリシーなどに関する情報を保存できます。
+この記事は、経費管理を構成する前に、計画プロセス中に決定する必要のある考慮事項について説明します。 経費管理では、支払い方法、出張申請書、経費報告書、ポリシーなどに関する情報を保存できます。
 
 経費管理の構成を計画するときに行う決定の多くは、組織の階層と財務構造に基づいているため、これらの領域の計画書を参照する必要があります。
 

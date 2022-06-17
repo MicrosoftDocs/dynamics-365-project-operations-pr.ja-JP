@@ -1,6 +1,6 @@
 ---
 title: 見積もりおよび見積依頼明細行
-description: このトピックでは、見積もりおよび見積依頼明細行について説明します。
+description: この記事では、見積もりおよび見積依頼明細行について説明します。
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599046"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933360"
 ---
 # <a name="quotes-and-quote-lines"></a>見積もりおよび見積依頼明細行
 
@@ -39,7 +39,7 @@ Dynamics 365 Project Service Automation には 2 つの種類の見積もりが�
 - 販売見積には一部のフィールドが含まれておらず、プロジェクト見積に含まれる概念にはフィールドがあります。 フィールドには **契約単位**、**取引先企業管理者**、**請求先担当者名** が含まれます。  
 - 販売見積とプロジェクト見積も **種類** という名前のオプションセットベースのフィールドによって識別されます。 販売見積の場合、このフィールドの値は **品目ベース** です。 プロジェクト見積の場合、このフィールドの値は **作業ベース** です。
 
-このトピックでは、プロジェクト見積の詳細について説明します。
+この記事では、プロジェクト見積の詳細について説明します。
 
 PSA のプロジェクト見積には、複数の品目または見積依頼明細行を含めることができます。 実際、プロジェクト見積には、品目用の 2 つのグリッドがあります。 1 つのグリッドは、詳細な推定を可能にするプロジェクト ベースの明細行用です。 もう 1 つのグリッドは、単純な単価と数量ベースのアプローチを使用する製品ベースの明細行用です。
 

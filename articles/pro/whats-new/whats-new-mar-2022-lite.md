@@ -1,24 +1,24 @@
 ---
 title: 2022 年 3 月の新機能 - Project Operations のライト展開
-description: このトピックは、Project Operations ライト展開の 2022 年 3 月リリースで利用可能な品質更新に関する情報を提供します。
+description: この記事は、Project Operations ライト展開の 2022 年 3 月リリースで利用可能な品質更新について説明します。
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583756"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934234"
 ---
 # <a name="whats-new-march-2022---project-operations-lite-deployment"></a>2022 年 3 月の新機能 - Project Operations のライト展開
 
 _適用対象: ライト展開 - 見積もり請求の取引_
 
-このトピックは、Microsoft Dynamics 365 Project Operations の次のコンポーネントとバージョンに適用されます:
+この記事は、Microsoft Dynamics 365 Project Operations の次のコンポーネントとバージョンに適用されます。
 
 - Dataverse 環境のバージョン 4.30.0.99 の Project Operations
 
@@ -51,9 +51,9 @@ _適用対象: ライト展開 - 見積もり請求の取引_
 
 ## <a name="removed-and-deprecated-features"></a>削除済みおよび非推奨の機能
 
-[Project Operations の削除済みまたは非推奨の機能](../../whats-new/removed-depreciated-features-project.md) のトピックでは、Dynamics 365 Project Operations の削除済みまたは非推奨の機能について説明します。
+[Project Operations の削除済みまたは非推奨の機能](../../whats-new/removed-depreciated-features-project.md) の記事では、Dynamics 365 Project Operations の削除済みまたは非推奨の機能について説明します。
 
 - 削除された機能は製品で使用できなくなりました。
 - 非推奨の機能は現在開発中ではなく、将来の更新で削除される可能性があります。
 
-機能が製品から削除される 12 ヶ月前に、非推奨の通知が [Project Operations の削除済みまたは非推奨の機能](../../whats-new/removed-depreciated-features-project.md) のトピックに表示されます。
+機能が製品から削除される 12 ヶ月前に、非推奨の通知が [Project Operations の削除済みまたは非推奨の機能](../../whats-new/removed-depreciated-features-project.md) の記事に表示されます。

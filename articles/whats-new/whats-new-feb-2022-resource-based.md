@@ -1,24 +1,24 @@
 ---
 title: 2022 年 2 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
-description: このトピックでは、リソース/非在庫ベースのシナリオの Project Operations の 2022 年 2 月リリースで利用可能な品質更新に関する情報について説明します。
+description: この記事では、リソース/非在庫ベースのシナリオの Project Operations の 2022 年 2 月リリースで利用可能な品質更新について説明します。
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600840"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932992"
 ---
 # <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022 年 2 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 
 *適用対象: リソース/非在庫ベースのシナリオ向け Project Operations*
 
-このトピックは、Microsoft Dynamics 365 Project Operations の次のコンポーネントとバージョンに適用されます:
+この記事は、Microsoft Dynamics 365 Project Operations の次のコンポーネントとバージョンに適用されます。
 
 - Dataverse 環境のバージョン 4.28.0.120 の Project Operations
 - Dynamics 365 Finance 環境バージョン 10.0.24 でのプロジェクト管理と会計
@@ -76,11 +76,11 @@ Project Operations の二重書き込みマップの現在の一覧とバージ�
 
 ## <a name="removed-and-deprecated-features"></a>削除済みおよび非推奨の機能
 
-[Project Operations の削除済みまたは非推奨の機能](removed-depreciated-features-project.md) のトピックでは、Dynamics 365 Project Operations の削除済みまたは非推奨の機能について説明します。
+[Project Operations の削除済みまたは非推奨の機能](removed-depreciated-features-project.md) の記事では、Dynamics 365 Project Operations の削除済みまたは非推奨の機能について説明します。
 
 - 削除された機能は製品で使用できなくなりました。
 - 非推奨の機能は現在開発中ではなく、将来の更新で削除される可能性があります。
 
-機能が製品から削除される 12 ヶ月前に、非推奨の通知が [Project Operations の削除済みまたは非推奨の機能](removed-depreciated-features-project.md) のトピックに表示されます。
+機能が製品から削除される 12 ヶ月前に、非推奨の通知が [Project Operations の削除済みまたは非推奨の機能](removed-depreciated-features-project.md) の記事に表示されます。
 
 コンパイル時にのみ影響する破壊的変更が、サンドボックス環境および運用環境と互換性のあるバイナリの場合、廃止時間は 12 か月以内になります。 通常、これらの変更は、コンパイラに対して行う必要がある機能更新です。

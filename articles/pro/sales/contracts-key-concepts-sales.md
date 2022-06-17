@@ -1,17 +1,17 @@
 ---
 title: プロジェクト契約 - 重要な概念 (ライト)
-description: このトピックでは、プロジェクト契約の主要な概念に関する情報を提供します。
+description: この記事では、プロジェクト契約の重要な概念について情報を提供します。
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 09252e449c11d6602dccba83f26413f380698814
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e92edadc49469ad5f541be8bce7b7a8043b981e2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932670"
 ---
 # <a name="concepts-unique-to-project-contracts"></a>プロジェクト契約固有の概念
 
@@ -19,7 +19,7 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 
 
-このトピックでは Dynamics 365 Project Operations でプロジェクト契約を使用する前に把握する必要がある重要な概念を説明します:
+この記事では、Dynamics 365 Project Operations でプロジェクト契約を使い始める前に知っておくべき重要な概念を提供します:
 
 ## <a name="contracting-unit"></a>契約単位
 

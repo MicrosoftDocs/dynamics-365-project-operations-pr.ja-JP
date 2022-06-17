@@ -1,17 +1,17 @@
 ---
 title: Project Operations の試用版にサインアップする
-description: このトピックは、Dynamics 365 Project Operations の試用版をデプロイする方法に関する情報を提供します。
+description: この記事では、Dynamics 365 Project Operations の試用版を展開する方法について説明します。
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584280"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959486"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Project Operations の試用版にサインアップする 
 
@@ -19,9 +19,9 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 
 
-このトピックは、プレビュー パートナー オファーにサブスクライブして Dynamics 365 Project Operations 環境を展開する方法を説明しています。
+この記事では、プレビュー パートナー オファーに登録し、 Dynamics 365 Project Operations 環境を展開する方法について説明します。
 
-新しい Project Operations 試用版では、最適な展開アプローチを推奨するアンケートに回答することで、サポートされている 3 つの展開シナリオのいずれかを自動的に展開できます。 このトピックでは、以下の方法について説明します。
+新しい Project Operations 試用版では、最適な展開アプローチを推奨するアンケートに回答することで、サポートされている 3 つの展開シナリオのいずれかを自動的に展開できます。 この記事では、次の方法について説明します:
 
 - 試用版オファーを引き換える。
 - プロビジョニングを開始する。
@@ -89,7 +89,8 @@ Dynamics 365 Project Operations の試用版を展開するには、次の前提
 4.  Microsoft Dataverse URL と財務と運用アプリの URL のそれぞれを選択して展開を検証します。
 
 ## <a name="configuring-dual-write"></a>二重書き込みの構成
-- デュアルライトのセキュリティ ロールを構成するには、[Dataverse で Project Operations のセキュリティ設定を更新する](resource-provision-new-environment.md)を参照してください。
+- デュアルライトのセキュリティ ロールを構成するには、[Dataverse で Project Operations のセキュリティ設定を更新する](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse)を参照してください。
+- デュアルライト構成にアクセスするには、財務と運用インスタンスに移動してから、**データ管理** > **デュアルライト** に移動します。。
 - デュアルライトのマッピングを構成するには、[Project Operations のデュアルライトのマッイングを実行する](resource-provision-new-environment.md#run-project-operations-dual-write-maps)を参照してください。
 
 ## <a name="assign-licenses"></a>ライセンスの割り当て

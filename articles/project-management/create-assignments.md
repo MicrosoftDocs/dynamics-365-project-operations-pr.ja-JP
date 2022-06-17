@@ -1,24 +1,24 @@
 ---
 title: リソース割り当ての作成
-description: このトピックでは、汎用および名前付きリソース割り当ての作成について説明します。
+description: この記事では、一般的なリソース割り当てと名前付きリソース割り当ての作成について説明します。
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576552"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933498"
 ---
 # <a name="create-resource-assignments"></a>リソース割り当ての作成
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
 
-リソース割り当ては、プロジェクト チーム メンバーをリーフ ノード タスクに直接関連付けることです。 このトピックでは、リソースを割り当てるさまざまな方法について説明します。
+リソース割り当ては、プロジェクト チーム メンバーをリーフ ノード タスクに直接関連付けることです。 この記事では、リソースを割り当てるさまざまな方法について説明します。
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>タスク割り当てを使用して汎用チーム メンバーを作成する
 

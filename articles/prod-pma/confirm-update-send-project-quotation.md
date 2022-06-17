@@ -1,6 +1,6 @@
 ---
 title: プロジェクトの見積りの確認、更新、送信
-description: このトピックでは、顧客に見積りを送信して確認し、フィードバックに基づいて修正し、見積りを再送信する処理について説明します。
+description: この記事では、顧客に見積書を送信して確認し、フィードバックに基づいて修正し、見積書を再送信する流れについて説明します。
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: ec8a000bea7d80827e2e63b03ed9229b1ecbe1c9
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 445362523b7e38e8543cbc89f9dacf4aca048f0c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932256"
 ---
 # <a name="confirm-update-and-send-a-project-quotation"></a>プロジェクトの見積りの確認、更新、送信
 

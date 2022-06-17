@@ -1,17 +1,17 @@
 ---
 title: プロジェクトベースの営業案件の管理
-description: このトピックでは、プロジェクトに関連する営業案件を処理する方法について説明します。
+description: この記事では、プロジェクトに関連する営業案件を処理する方法について説明します。
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f39940ac063a8c202f33797ed649518907563e31
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600426"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933222"
 ---
 # <a name="manage-project-based-opportunities"></a>プロジェクトベースの営業案件の管理
 
@@ -19,7 +19,7 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
 
 プロジェクトベースの企業は通常、複数の国や地域にまたがったサービスを提供しています。 プロジェクトの実行とサービス提供のコストは、サービス提供を管理する地域または部門によって異なります。 一方、これは、取引の利益に影響を与える可能性があります。 プロジェクトベースのサービスの提供には、通常、大量の人的資源の時間、相当な旅費、材料費、その他の費用が含まれます。
 
-Dynamics 365 Project Operations のプロジェクト ベースの機会は、Dynamics 365 Sales への拡張を念頭に置いて設計されています。 このトピックでは、プロジェクトベースの営業案件を管理するために、プロジェクトベースの企業が必要とする追加機能に含まれる、さまざまなフィールドとビジネス ロジックについて詳しく説明します。
+Dynamics 365 Project Operations のプロジェクト ベースの機会は、Dynamics 365 Sales への拡張を念頭に置いて設計されています。 この記事では、プロジェクト ベースの会社がプロジェクト ベースの営業案件を管理するために必要な追加機能に含まれるさまざまなフィールドおよびビジネス ロジックに関する詳細を提供します。
 
 ## <a name="view-all-project-based-opportunities"></a>プロジェクトベースの営業案件をすべて表示する
 

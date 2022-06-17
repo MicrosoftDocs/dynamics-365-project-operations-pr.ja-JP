@@ -1,18 +1,18 @@
 ---
 title: プロジェクトの見積もり請求
-description: このトピックは、Project Operations における見積もりプロジェクト請求書に関する情報を提供します。
+description: この記事では、Project Operations でのプロジェクト見積請求書について説明します。
 author: rumant
 ms.date: 04/06/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: f2ce672a412f7ad73b072854590cd423a3499fc1
-ms.sourcegitcommit: 650a84add65588defdd2ac2c4524806baab070e0
+ms.openlocfilehash: 8f028ec12aa3144a2c1bf13f6f8ce90c9de48519
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8628860"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934556"
 ---
 # <a name="proforma-project-invoices"></a>プロジェクトの見積もり請求
 

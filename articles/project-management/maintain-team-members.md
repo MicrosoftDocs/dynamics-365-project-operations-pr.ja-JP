@@ -1,17 +1,17 @@
 ---
 title: チーム メンバーの維持管理
-description: このトピックでは、プロジェクト チームに名前付きリソースを予約して、タスクに割り当てる方法を説明します。
+description: この記事では、プロジェクト チームに名前付きリソースを予約して、タスクに割り当てる方法を説明します。
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7c7b2f45c56289c46cfa8f79c0704a7085f6db3a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6ab1541cc79870fcab9dbce45073e6b5a7bb0133
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933452"
 ---
 # <a name="maintain-team-members"></a>チーム メンバーの維持管理
 

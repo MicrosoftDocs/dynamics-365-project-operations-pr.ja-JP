@@ -1,6 +1,6 @@
 ---
 title: 製品
-description: このトピックでは、提供する製品と価格についての情報を顧客に提供する製品カタログについて説明します。
+description: この記事では、組織が提供する製品と価格に関する情報を顧客に提供するために使用できる製品カタログに関する情報を提供します。
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5c57b2596e1d480ff59591618f073ceb8f70a289
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d45a705c48df84a8f5b3f60121fbcc25e225e6e5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574114"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933084"
 ---
 # <a name="products"></a>製品
 

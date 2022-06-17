@@ -1,17 +1,17 @@
 ---
-title: 前払い契約と着手金ベースの契約
-description: このトピックは、Project Operations で着手金ベースの契約モデルと前払についての情報を説明します。
+title: 前払いおよび着手金ベースの契約
+description: この記事では、Project Operations で着手金ベースの契約 モデルについて説明します。
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fcee7b818097c10f8f861c4de4898daacef60e4f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 201dd1651b12614930f6a2c294156b31deceab0b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574804"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932486"
 ---
 # <a name="advances-and-retainer-based-contracts"></a>前払いおよび着手金ベースの契約
 

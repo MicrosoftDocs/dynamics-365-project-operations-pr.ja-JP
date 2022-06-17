@@ -1,6 +1,6 @@
 ---
 title: 経費管理の概要
-description: このトピックは、経費管理に関する一般的な情報と追加のリソースへのリンクについて説明します。 経費管理を使用して、支払い方法情報の保存、クレジットカード取引のインポート、従業員がビジネスの経費を負担した金額を追跡できる統合ワークフローを作成できます。
+description: この記事は、経費管理に関する一般情報、および追加のリソースへのリンクを提供します。 経費管理を使用して、支払い方法情報の保存、クレジットカード取引のインポート、従業員がビジネスの経費を負担した金額を追跡できる統合ワークフローを作成できます。
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93a8581db26dfecb9f847740c979e096dc3e227d
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 778a068bc80b099037b895f7e0d4add4d454242f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684832"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934050"
 ---
 # <a name="expense-management-overview"></a>経費管理の概要
 

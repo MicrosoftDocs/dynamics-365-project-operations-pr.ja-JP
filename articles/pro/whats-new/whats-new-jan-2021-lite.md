@@ -1,25 +1,25 @@
 ---
 title: 2021 年 1 月の新機能 - Project Operations のライト展開
-description: このトピックでは、Project Operations のライト展開の 2021 年 1 月リリースで利用可能な品質更新について説明します。
+description: この記事は、リソース/非在庫ベースのシナリオの Project Operations のライト展開の 2021 年 1 月リリースで利用可能な品質更新について説明します。
 author: sigitac
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 17accd33a6126918e02e90b67636d95342efdd65
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 47932fb89cdd9481988d00f2f3be094b68110cbc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584004"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934280"
 ---
 # <a name="whats-new-january-2021---project-operations-lite-deployment"></a>2021 年 1 月の新機能 - Project Operations のライト展開
 
 
 _適用対象: ライト展開 - 見積もり請求の取引_
 
-このトピックは、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます:
+この記事は、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます。
 
   - Dataverse 環境バージョン 4.6.0.154 での Project Operations。
   
