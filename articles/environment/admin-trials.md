@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959486"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029306"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Project Operations の試用版にサインアップする 
 
@@ -90,7 +90,7 @@ Dynamics 365 Project Operations の試用版を展開するには、次の前提
 
 ## <a name="configuring-dual-write"></a>二重書き込みの構成
 - デュアルライトのセキュリティ ロールを構成するには、[Dataverse で Project Operations のセキュリティ設定を更新する](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse)を参照してください。
-- デュアルライト構成にアクセスするには、財務と運用インスタンスに移動してから、**データ管理** > **デュアルライト** に移動します。。
+- デュアルライト構成にアクセスするには、財務と運用インスタンスに移動してから、**データ管理** > **デュアルライト** に移動します。
 - デュアルライトのマッピングを構成するには、[Project Operations のデュアルライトのマッイングを実行する](resource-provision-new-environment.md#run-project-operations-dual-write-maps)を参照してください。
 
 ## <a name="assign-licenses"></a>ライセンスの割り当て
@@ -117,7 +117,7 @@ Dynamics 365 Project Operations の試用版を展開するには、次の前提
 
 ## <a name="frequently-asked-questions"></a>よく寄せられる質問
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>財務と運用アプリ環境に ALM や ELM が必要な場合はどうなりますか？
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>財務と運用アプリ環境に ALM や ELM が必要な場合はどうなりますか?
 
 - 完全な環境ライフサイクル管理機能を必要とするパートナーの場合、[パートナー サンドボックス ライセンス リクエスト](https://experience.dynamics.com/requestlicense)を参照して、新しいパートナー オファーを確認します。 
 - 内部使用権の詳細をお求めのパートナーの場合、[内部使用権クラウドおよびソフトウェアのメリット (microsoft.com)](https://partner.microsoft.com/membership/internal-use-software) を参照してください。

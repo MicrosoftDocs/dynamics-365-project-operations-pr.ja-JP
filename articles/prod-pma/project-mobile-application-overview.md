@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922872"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028892"
 ---
 # <a name="project-mobile-applications-overview"></a>プロジェクト モバイル アプリケーションの概要
 
@@ -33,11 +33,11 @@ Dynamics 365 プロジェクト タイムシート モバイル アプリを使�
 
 ## <a name="project-time-entry-workspace"></a>プロジェクト時間エントリ ワークスペース
 
-プロジェクト時間エントリ ワークスペースでは、ユーザーがプロジェクトに対して時間を入力および保存できます。 ただし、ユーザーがプロジェクト タイムシートを送信または承認することはできません。 時間エントリにのみ使用できます。 このモバイル ワークスペースは、Finance and Operations モバイル アプリケーションで共に使用するためのものです。
+プロジェクト時間エントリ ワークスペースでは、ユーザーがプロジェクトに対して時間を入力および保存できます。 ただし、ユーザーがプロジェクト タイムシートを送信または承認することはできません。 時間エントリにのみ使用できます。 このモバイル ワークスペースは、財務と運用モバイル アプリケーションで共に使用するためのものです。
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>マイ タイムシート/レビュー用のタイムシート
 
-マイ タイムシート (モバイル用に最適化) とレビュー用のタイムシート (モバイル用に最適化) は、従業員がモバイル デバイスでプロジェクト タイムシートを作成、送信、および承認できるソリューションを構成します。 作業者は、アプリケーションの URL を介して財務機能にアクセスできます。 このソリューションは、Finance and Operations モバイル アプリケーションを必要としません。
+マイ タイムシート (モバイル用に最適化) とレビュー用のタイムシート (モバイル用に最適化) は、従業員がモバイル デバイスでプロジェクト タイムシートを作成、送信、および承認できるソリューションを構成します。 作業者は、アプリケーションの URL を介して財務機能にアクセスできます。 このソリューションは、財務と運用モバイル アプリケーションを必要としません。
 
 ## <a name="for-more-information"></a>詳細情報
 

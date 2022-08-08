@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: df9a68c5a12e6aec140867eb1db3d88279c05795
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c04d0465f5f7dd43ba50d4c0d2937b45fed6df86
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933636"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028846"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Project Operations 2021 年 7 月リリースの新機能、変更点 (在庫/本番ベースのシナリオ向け)
 
@@ -64,7 +64,7 @@ _**適用対象:**  Project Operations (在庫/本番ベースのシナリオ向
 | 出張と経費                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | **経費ドキュメントの状態をリセットする** ツールで、ワークフローが見つからなかった場合、経費報告書のステータスを **下書き** にリセットするようにしました。 
 
 ### <a name="regulatory-updates"></a>規制の更新
-財務と運用アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、Lifecycle Services (LCS) にログインし、問題検索ツールを使用して、計画されている規制の更新を確認することも可能です。 問題検索では、国、機能の種類、リリースで検索できます。
+財務と運用アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates)を参照してください。 また、Lifecycle Services (LCS) にログインし、問題検索ツールを使用して、計画されている規制の更新を確認することも可能です。 問題検索では、国、機能の種類、リリースで検索できます。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

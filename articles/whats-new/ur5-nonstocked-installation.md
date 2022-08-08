@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aedfd815521054d58944496500aa03a27be9267b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912476"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030041"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Finance 環境で Project Operations を更新する
 
@@ -119,7 +119,7 @@ UR5 の更新の一部として、エンティティのセキュリティ権限�
 4. **テーブル マップ バージョン** ページで、3 つのエンティティのそれぞれに新しいバージョンのマップを適用します。
 5. **二重書き込み** ページで、実行を選択してマップを再起動します。
 6. マップのリストから、すべての前提条件を満たす **元帳 (msdyn_ledgers)** マップを選択し、**初期同期** チェック ボックスをオンにします。 
-7. **初期同期のマスター** フィールドで、**財務と運用アプリ** を選択して、**実行** を選択します。
+7. **初期同期のマスター** フィールドで、**財務と運用アプリ** を選択してから、**実行** を選択します。
  
  ![台帳マップの同期。](media/DW6.png)
  

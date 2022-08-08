@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 78f40ebe79c038799fbc59902442ad6c23fb94d4
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931612"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028524"
 ---
 # <a name="provision-a-new-environment"></a>新しい環境をプロビジョニングする
 
@@ -117,7 +117,7 @@ Project Operations には、**10.0.13 (10.0.569.20009)** 以上のアプリケ�
 
     ![ソリューションを適用する。](./media/13ApplySolutions.png)
 
-5. 両方のソリューション、**Dynamics 365 Finance and Operations の二重書き込みマップ** と **Dynamics 365 Project Operations 二重書き込みマップ** を選択して、次に **適用** を選択します。
+5. 両方のソリューション、**Dynamics 365 Finance 二重書き込みエンティティ マップ** と **Dynamics 365 Project Operations 二重書き込みエンティティ マップ** を選択して、次に **適用** を選択します。
 
     ![ソリューションの確認。](./media/14ConfirmSolutions.png)
 

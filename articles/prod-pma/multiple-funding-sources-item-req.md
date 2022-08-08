@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931198"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028479"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>複数の資金調達ソースを持つプロジェクト契約の在庫品目要求
 
@@ -33,7 +33,7 @@ Contoso は、Adatum US と Adatum Corporate の 2 社の顧客と機器更新�
 
 ### <a name="prerequisites"></a>前提条件
 
-- 複数の請求先/元 ID を持つ在庫品目要求を使用するには、Microsoft Dynamics 365 Finance and Operations **バージョン 10.0.27 以降** が必要です。
+- 複数の請求先/元 ID を持つ在庫品目要求を使用するには、Microsoft Dynamics 365 Finance **バージョン 10.0.27 以降** が必要です。
 - システム管理者は **機能管理** ワークスペースで、**Project Operations の在庫/製造ベースのシナリオに対して複数の資金調達ソースを持つ在庫品目要求を許可する** 機能を有効にする必要があります。
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>請求先/元 ID の既定のルールを設定する

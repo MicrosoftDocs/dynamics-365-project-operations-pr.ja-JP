@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5bc8475554c4348fa1e88b9090450bd3bfaa924e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: fd745107fa6d50882ebea302d3d2ae0de21b79ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910590"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028252"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>2021 年 6 月の新機能 - リソース/非在庫のシナリオ向け Project Operations
 
@@ -21,7 +21,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 この記事は、次の Dynamics 365 Project Operations コンポーネントとバージョンに適用されます。
 
 - Dynamics 365 Dataverse 環境バージョン 4.11.0.156 または 4.11.0.164 の Project Operations。
-- 財務と運用アプリの環境バージョン 10.0.19 でのプロジェクト管理および会計。
+- 財務と運用アプリの環境バージョン 10.0.19 でのプロジェクト管理および会計
 
 ## <a name="features-included-in-this-release"></a>このリリースが含む機能
 
@@ -38,7 +38,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 Project Operations の二重書き込みマッピングの最新のリストとバージョンについては、[Project Operations 二重書き込みマッピングのバージョン](../environment/resource-dual-write-maps.md)を参照してください。
 
-最新バージョンのマッピングを環境で実行し、Project Operations Dataverse ソリューションやF財務と運用アプリ ソリューションのバージョンを更新する際に、関連するすべてのテーブル マッピングを有効にする必要があります。 最新バージョンのマッピングが有効になっていない場合、一部の機能や性能が正しく動作しないことがあります。 マッピングのアクティブなバージョンは、**バージョン** 列の **二重書き込み** のページで確認できます。 **テーブル マッピングのバージョン** を選択し、最新のバージョンを選択してから、選択したバージョンを保存することで、新しいバージョンのマッピングを有効にすることができます。 既成のテーブル マッピングをカスタマイズした場合は、変更を再適用します。 詳しくは、[アプリケーションのライフサイクル管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management) を参照してください。
+最新バージョンのマッピングを環境で実行し、Project Operations Dataverse ソリューションや財務と運用アプリ ソリューションのバージョンを更新する際に、関連するすべてのテーブル マッピングを有効にする必要があります。 最新バージョンのマッピングが有効になっていない場合、一部の機能や性能が正しく動作しないことがあります。 マッピングのアクティブなバージョンは、**バージョン** 列の **二重書き込み** のページで確認できます。 **テーブル マッピングのバージョン** を選択し、最新のバージョンを選択してから、選択したバージョンを保存することで、新しいバージョンのマッピングを有効にすることができます。 既成のテーブル マッピングをカスタマイズした場合は、変更を再適用します。 詳しくは、[アプリケーションのライフサイクル管理](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management) を参照してください。
 
 マッピングの起動に問題がある場合は、二重書き込みのトラブルシューティング: [マッピングでのテーブル列が見つからない場合](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps)に記載の内容に従ってください。
 

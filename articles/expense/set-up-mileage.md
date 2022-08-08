@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930140"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064284"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>マイレージ レートの階層を使用したマイレージの設定
 
@@ -50,5 +50,15 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 この機能を有効にした後、マイレージ階層をリセットして、**数量** フィールドの値を正しく反映します。 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>会計年度機能によるマイレージ合計計算を有効にする
+
+**会計年度によるマイレージ合計計算** 機能により、経費管理パラメーターの設定において、暦年ではなく会計年度別にマイレージ合計計算を実行する新しい設定が有効になります。 この機能を有効するには、以下の手順を完了します。
+
+1. **ワークスペース** > **機能管理** に移動します。
+1. 一覧で、**会計年度別にマイレージ合計計算** を検索して選択してから、**今すぐ有効にする** を選択します。
+1. **経費管理** > **設定** > **全般** > **経費管理パラメーター** の順に移動します。
+1. **経費管理パラメーター** ページで、**マイレージ合計に会計年度を使用する** を検索して有効にします。
+
+**マイレージ合計に会計年度を使用する** を有効にした後、マイレージ合計は会計年度別に計算されます。
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

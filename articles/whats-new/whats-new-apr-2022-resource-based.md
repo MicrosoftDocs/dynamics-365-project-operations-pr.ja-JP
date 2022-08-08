@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912384"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110890"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022 年 4 月の新機能 - リソース/非在庫ベースのシナリオ向け Project Operations
 
@@ -25,7 +25,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ## <a name="features-included-in-this-release"></a>このリリースが含む機能
 
-プロジェクトの発注書と保留中の仕入先請求書で調達カテゴリを使用することができます。 詳細については、[プロジェクトの発注書と保留中の仕入先請求書で調達カテゴリを使用する](configure-procurement-categories.md) を参照してください。
+プロジェクトの発注書と保留中の仕入先請求書で調達カテゴリを使用することができます。 詳細については、[プロジェクトの発注書と保留中の仕入先請求書で調達カテゴリを使用する](../procurement/configure-procurement-categories.md) を参照してください。
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations の二重書き込みのマッピングの更新
 

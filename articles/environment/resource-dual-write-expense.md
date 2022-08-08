@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924620"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029215"
 ---
 # <a name="expense-management-integration"></a>経費管理統合
 
@@ -24,7 +24,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 完全な経費展開では、経費カテゴリは財務と運用アプリで作成および維持されます。 経費のカテゴリーを新たに作成するには、以下の手順で行います :
 
-1. Microsoft Dataverse で、**トランザクション** のカテゴリを作成します。 二重書き込み統合により、このトランザクション カテゴリが財務と運用アプリに同期されます。 詳細については、[プロジェクト カテゴリの構成](/dynamics365/project-operations/project-accounting/configure-project-categories) と [Project Operations の設定と構成データの統合](resource-dual-write-setup-integration.md)を参照してください。 この統合の結果として、システムは財務と運用アプリで 4 つの共有カテゴリレコードを作成します。
+1. Microsoft Dataverse で、**トランザクション** のカテゴリを作成します。 二重書き込み統合により、このトランザクション カテゴリが財務と運用アプリに同期されます。 詳細については、[プロジェクト カテゴリの構成](/dynamics365/project-operations/project-accounting/configure-project-categories) と [Project Operations の設定と構成データの統合](resource-dual-write-setup-integration.md)を参照してください。 この統合の結果として、システムは財務と運用アプリで 4 つの共有カテゴリ レコードを作成します。
 2. Finance で、**経費管理** > **設定** > **共有カテゴリ** に移動し、トランザクション クラスが **費用** となっている共有カテゴリを選択します。 **経費で使用可能** パラメータを **True** に設定し、使用する経費のタイプを定義します。
 3. この共有カテゴリ レコードを使用して、次に移動して新しい経費のカテゴリを作成します : **経費管理** > **設定** > **経費管理** に移動して **新規** を選択します。 レコードが保存されると、二重書き込みはテーブル マッピングを使用します。**Project Operations の統合 プロジェクト経費のカテゴリーのエクスポート エンティティ (msdyn\_expensecategories)** で Dataverse にこのレコードを同期します。
 

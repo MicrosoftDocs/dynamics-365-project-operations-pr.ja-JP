@@ -1,5 +1,5 @@
 ---
-title: Finance and Operations へ転記するために、プロジェクトの実績を Project Service Automation から プロジェクト統合仕訳帳に直接同期する
+title: 財務と運用に転記するために、Project Service Automation からプロジェクト統合仕訳帳にプロジェクトの実績を直接同期する
 description: この記事では、Microsoft Dynamics 365 Project Service Automation から財務と運用にプロジェクト実績を直接同期するために使用されるテンプレートと基になるタスクについて説明します。
 author: Yowelle
 ms.date: 07/20/2018
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 34a0a0f7277777895077d221cd95e8d962d2a902
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929496"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028984"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Finance and Operations へ転記するために、プロジェクトの実績を Project Service Automation から プロジェクト統合仕訳帳に直接同期する
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>財務と運用に転記するために、Project Service Automation からプロジェクト統合仕訳帳にプロジェクトの実績を直接同期する
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,7 +41,7 @@ Project Service Automation から Finance への統合ソリューションは�
 
 次の図は、Project Service Automation と Finance 間でデータを同期する方法を示します。
 
-[![Project Service Automation のデータ フローを Finance and Operations と統合。](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Project Service Automation のデータ フローを財務と運用と統合する。](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Project Service Automation からのプロジェクトの実績
 

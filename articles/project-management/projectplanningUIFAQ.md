@@ -2,24 +2,24 @@
 title: タスク グリッドでの作業のトラブルシューティング
 description: この記事では、タスク グリッドで作業する際に必要なトラブルシューティング情報について説明します。
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911050"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188237"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>タスク グリッドでの作業のトラブルシューティング 
 
 
 _**適用対象:** リソース/非在庫ベースのシナリオの Project Operations、ライト展開 - 見積もり請求の取引、Project for the Web_
 
-Dynamics 365 Project Operations によって活用されるタスク グリッドは、Microsoft Dataverse 内でホストされている iFrame です。 この使用の結果として、認証と認証が正しく機能していることを確認するには、特定の要件を満たす必要があります。 この記事は、グリッドをレンダリングしたり、作業分解図 (WBS) でタスクを管理したりする機能に影響を与える可能性のある一般的な問題の概要を示しています。
+Dynamics 365 Project Operations によって使用されるタスク グリッドは、Microsoft Dataverse 内でホストされている iFrame です。 この使用の結果として、認証と、認証が正しく機能していることを確認するには、特定の要件を満たす必要があります。 この記事は、グリッドをレンダリングしたり、作業分解図 (WBS) でタスクを管理したりする機能に影響を与える可能性のある一般的な問題の概要を示しています。
 
 一般的な問題: 
 
@@ -72,11 +72,14 @@ Project Operations では、プロジェクト パラメーターが PEX エン�
 4. **プロジェクト パラメーター** ページからフィールドを削除します。
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>軽減策 3: project.microsoft.com にサインインする
-Microsoft Edge ブラウザーで新しいタブを開き、project.microsoft.com に移動し、Project Operations へのアクセスに使用しているユーザー ロールを使用してサインインします。
+
+ブラウザーで新しいタブを開き、project.microsoft.com に移動し、Project Operations へのアクセスに使用しているユーザー ロールでサインインします。 ブラウザで Microsoft 製品にサインインしているユーザーは 1 人だけであることが重要です。 "login.microsoftonline.com により接続が拒否されました" というエラー メッセージは、次の図に示すように、複数のユーザーがサインインしている場合に頻繁に発生します。
+
+![2 人のユーザーがサインインしていることを示すアカウント サインイン ページを選択します。](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>問題: プロジェクトが読み込まれず、UI がスピナーで動かなくなる
 
-認証の目的で、タスクグリッドをロードするためにポップアップを有効にする必要があります。 ポップアップが有効になっていない場合、画面は読み込みスピナーでスタックします。 次の図は、アドレスバーにブロックされたポップアップ ラベルが付いたURLを示しています。これにより、スピナーがページを読み込もうとしてスタックします。 
+認証の目的で、タスクグリッドをロードするためにポップアップを有効にする必要があります。 ポップアップが有効になっていない場合、画面は読み込みスピナーでスタックします。 次の図は、アドレス バーにブロックされたポップアップ ラベルが付いた URL を示しています。これにより、スピナーがページを読み込もうとしてスタックします。 
 
    ![スピナーとポップアップ ブロックが動かなくなった。](media/popupsblocked.png)
 

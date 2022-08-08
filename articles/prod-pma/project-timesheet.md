@@ -2,7 +2,7 @@
 title: プロジェクト タイムシート モバイル アプリケーション
 description: この記事では、Microsoft Dynamics 365 Project Timesheet モバイル アプリケーションに関する情報を提供します。 プロジェクト タイムシート モバイル アプリを使用すると、ユーザーはモバイル デバイスでプロジェクトのタイムシートを送信および承認できます。
 author: abruer
-ms.date: 04/08/2019
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 6f4be64f595371334e4065b60ca1a81232b333f7
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 730ed36841d07df60e8a8f343126209f0edcc593
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923976"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110981"
 ---
 # <a name="project-timesheet-mobile-application"></a>プロジェクト タイムシート モバイル アプリケーション
 
@@ -28,7 +28,7 @@ ms.locfileid: "8923976"
 
 ## <a name="overview"></a>概要
 
-Microsoft Dynamics 365 Project Timesheet モバイル アプリを使用すると、ユーザーはモバイル デバイス (iPhone または Android) でプロジェクトのタイムシートを送信および承認できます。 このモバイル アプリは、Dynamics 365 Finance のプロジェクト管理と会計領域に存在するタイムシート機能を表示し、ユーザーの生産性と効率を改善するだけでなく、プロジェクト タイムシートの適切なタイミングでの入力および承認を有効にします。
+Microsoft Dynamics 365 Project Timesheet モバイル アプリにより、ユーザーはモバイル デバイス (iPhone または Android) でプロジェクトのタイムシートを送信および承認できます。 このモバイル アプリでは、Dynamics 365 Finance のプロジェクト管理および会計領域に存在するタイムシート機能を表示します。 これは、ユーザーの生産性と効率を向上させ、プロジェクト タイムシートのタイムリーな入力と承認ができるようにもします。
 
 ## <a name="download-and-install-the-mobile-app"></a>モバイル アプリのダウンロードとインストール
 
@@ -38,6 +38,19 @@ Microsoft Dynamics 365 Project Timesheet モバイル アプリを使用する�
 
 Finance では、プロジェクト タイムシート モバイル アプリを有効にする必要があります。 機能を有効にするには、**プロジェクト管理および会計パラメーター \> タイムシート** に移動して、**Microsoft Dynamics 365 Project Timesheet を有効にする** パラメーターを選択します。
 
+### <a name="resolve-sign-in-issues"></a>サインインの問題の解決
+
+**問題:** Project Timesheet モバイル アプリへのサインイン中に、ユーザーは "そのテナントでアプリケーション '2bc50526-cdc3-4e36-a970-c284c34cbd6e' にアクセスできません" という内容のエラー メッセージを受け取ります。
+
+**問題:** Project Timesheet モバイル アプリへのサインイン中に、ユーザーは次の例のいずれかに似たエラーを受け取ります:
+
+- "AADSTS50020: ID プロバイダー https://sts.windows.net/ [アプリ ID]' からのユーザーアカウント '[ユーザー名]' がテナント '[テナント ID]' に存在しないため、そのテナントのアプリケーション '[アプリ ID]' にアクセスできません。"
+- "選択されたユーザー アカウントがテナント '[テナント ID]' に存在しないため、そのテナントのアプリケーション '[アプリ ID]' にアクセスできません。"
+
+**説明:** これらの問題は、2022 年 5 月に Azure Active Directory (Azure AD) に加えられた、外部ユーザーに関する変更に起因するものです。 この変更は財務と運用アプリに対して行われたものではないので、すべてのバージョンのプラットフォームまたはアプリケーションの顧客に影響を与える可能性があります。
+
+**修正:** すべての外部ユーザーは、 Azure AD を通してテナントに招待される必要があります。 詳細については、[Azure Active Directory B2B コラボレーションを使用してユーザーを招待する](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration)を参照してください。
+
 ## <a name="sign-in-to-the-app"></a>アプリにサインインする
 
 1.  モバイル デバイスからアプリを起動します。
@@ -46,7 +59,7 @@ Finance では、プロジェクト タイムシート モバイル アプリを
 
 3.  初めてサインインするときに、ユーザー名とパスワードを入力するように求められます。 資格情報を入力します。
 
-4.  既定の会社にサインインします。
+4. 既定の会社にサインインします。
 
 ## <a name="submit-a-project-timesheet"></a>プロジェクト タイムシートを送信する
 
@@ -69,7 +82,7 @@ Finance では、プロジェクト タイムシート モバイル アプリを
 
 タイムシートのプロジェクトに関連付けられている顧客を選択します。 Android の最初のリリースでは、最初にプロジェクトを選択する必要があるため、顧客による入力はサポートされていません。 最初にプロジェクトを選択した場合、**顧客** フィールドは自動的に入力されます。
 
-**プロジェクト** フィールドで、時間を入力するプロジェクトを選択します。 **顧客** フィールドは自動的に入力されます。
+**プロジェクト** フィールドで、時間を入力しているプロジェクトを選択します。 **顧客** フィールドは自動的に入力されます。
 
 顧客とプロジェクトの検索では、顧客とプロジェクトの両方を検索できます。
 

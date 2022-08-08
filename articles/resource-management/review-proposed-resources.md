@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924850"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183980"
 ---
 # <a name="review-proposed-resources"></a>提案されたリソースの確認
 
@@ -40,8 +40,8 @@ _**適用対象 :** リソース/非在庫ベースのシナリオに使用す�
     次のようなステータスの更新が発生します。
 
     - **スケジュール アシスタント** ページでステータス インジケーターが更新され、予約が「本予約」ではなく「提案」と表示されます。
-    - リソース要求で、ステータスが **レビューが必要** に変更されます。
-    - プロジェクトの **チーム** タブで、汎用的なチーム メンバーの **要求のステータス** の値が **レビューが必要** に変更されます。
+    - リソース要求で、要求のレビュー担当者はステータスを **要レビュー** と変更する必要があります。
+    - プロジェクトの **チーム** タブで、汎用的なチーム メンバーの **要求のステータス** の値が自動的に **要レビュー** に変更されます。
 
 プロジェクト マネージャーは、提案を承認または拒否することができます。
 

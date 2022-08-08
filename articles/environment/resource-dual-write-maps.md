@@ -2,16 +2,16 @@
 title: Project Operations 二重書き込みマッピングのバージョン
 description: この記事では、Dynamics 365 Project Operations に必要なデュアル ライト マップのリストを提供します。
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959450"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112435"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 二重書き込みマッピングのバージョン
 
@@ -46,7 +46,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | プロジェクトの契約ヘッダー (受注) | 1.0.0.1 | プロビジョニングには必須ではありません。 ||
 | プロジェクト 契約品目 (salesorderdetails) | 1.0.0.0 | プロビジョニングには必須ではありません。 ||
 | プロジェクトの資金源 (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | プロビジョニングには必須ではありません。 ||
-| Project Operations の統合テーブルによる材料の見積もり (msdyn\_estimatelines) | 1.0.0.0 | プロビジョニングには必須ではありません。 ||
+| プロジェクト統合テーブルによる材料の見積もり (msdyn\_estimatelines) | 1.0.0.0 | プロビジョニングには必須ではありません。 ||
 | プロジェクトの仮発行請求書 V2 (invoices) | 1.0.0.3 | プロビジョニングには必須ではありません。 ||
 | Project Operations 統合実績 (msdyn_actuals) | 1.0.0.14 | プロビジョニングには必須ではありません。 ||
 | Project Operations 統合契約品目マイルストーン (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | プロビジョニングには必須ではありません。 ||

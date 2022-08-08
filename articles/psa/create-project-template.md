@@ -4,7 +4,7 @@ description: Project Service でのプロジェクト テンプレートの作�
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599000"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177431"
 ---
 # <a name="create-a-project-template-project-service"></a>プロジェクト テンプレート (Project Service) の作成
 
@@ -40,9 +40,16 @@ ms.locfileid: "8599000"
 - **プロジェクト見積もり**: テンプレートのプロジェクト見積もりは、プロジェクトの場合と同じように動作します。ただし、既定のコストと販売価格の価格表は常に [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] パラメーターで定義されている既定のコストと販売価格表です。 残りの機能はプロジェクトの場合と同じです。  
   
 - **プロジェクト チームの構成**: プロジェクト テンプレートのプロジェクト チームを構成する場合、テンプレートに名前付きリソースは予約できません。 作業分解構造 に **プロジェクト チームの生成** を使用することにより、汎用リソースのセットを生成できます。 汎用リソースに必要なスキルと能力も指定できます。 プロジェクト テンプレートでは汎用リソースの代わりに予約可能リソースを使用することはできません。  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>既存のプロジェクトから新しいテンプレートの作成する
+次のように、プロジェクトからテンプレートを作成できます:
+
+- **WBS (作業分解構造)**: プロジェクトから派生したテンプレートの作業分解構造は、すべてのタスクと依存関係をコピーします。 作成された割り当ては、プロジェクト テンプレートの作成時にプロジェクト チームに追加される汎用チーム メンバーに基づきます。
+- **プロジェクト見積もり**: 既存のプロジェクトからプロジェクト テンプレートを作成すると、ソース プロジェクトからの見積もりがプロジェクト テンプレートにコピーされます。
+- **プロジェクト チームメ ンバー**: 既存のプロジェクトからテンプレートを作成すると、すべての名前付きチーム メンバーが組織の汎用リソースに置き換えられます。 すべての役職名と役割が維持されます。
+
 ## <a name="create-a-project-from-a-template"></a>テンプレートからのプロジェクトの作成  
- 次のように、テンプレートからプロジェクトを作成できます。  
+ 次のように、テンプレートからプロジェクトを作成できます:  
   
 -   見積もりからプロジェクトを作成した場合は、プロジェクトの簡易作成フォームでプロジェクト テンプレートを選択できます。  
   

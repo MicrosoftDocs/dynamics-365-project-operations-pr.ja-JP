@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0fbaed028db11d8fb1551d304a40543faf35b0d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921492"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028335"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Dynamics 365 Project Operations の削除済み、または非推奨の機能
 
@@ -26,7 +26,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 この一覧は、これらの削除と非推奨を検討する際の参考にすることを目的としています。
 
 > [!NOTE]
-> 財務と運用アプリ内のオブジェクトに関する詳細情報については、[**技術参照レポート**](/dynamics/s-e/global/axtechrefrep_61) を参照してください。 これら異なるバージョンのレポートを比較し、財務と運用アプリの各バージョンで変更または削除されたオブジェクトについて確認することができます。
+> 財務と運用アプリ内のオブジェクトに関する詳細情報については、[**技術参照レポート**](/dynamics/s-e/global/axtechrefrep_61)を参照してください。 これら異なるバージョンのレポートを比較し、財務と運用アプリの各バージョンで変更または削除されたオブジェクトについて確認することができます。
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-march-2022-release"></a>Project Operations 2022 年 3 月リリースで削除、非推奨となる機能
 

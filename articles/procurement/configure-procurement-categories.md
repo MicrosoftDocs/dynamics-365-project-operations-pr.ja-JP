@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f71c6bfcd183613471a4cc10e16a5a54571fac31
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927426"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028616"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>プロジェクトの発注書と保留中のベンダーの請求書で調達カテゴリを使用する
 
@@ -25,7 +25,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 Microsoft Dynamics 365 Project Operations の非在庫/リソース ベースのシナリオで、プロジェクト発注で調達カテゴリを使用するには、以下のバージョンが必要です:
 
 - Project Operations Dataverse ソリューション バージョン 4.41.0.45 以降
-- Finance and Operations 環境バージョン 10.0.26 以降
+- 財務と運用環境バージョン 10.0.26 以降
 
 ## <a name="run-dual-write-maps-for-procurement-category-support"></a>調達カテゴリ対応のデュアル ライト マップの実行
 

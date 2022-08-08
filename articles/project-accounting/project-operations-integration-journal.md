@@ -2,22 +2,22 @@
 title: Project Operations の統合仕訳帳
 description: この記事では、Project Operations での統合帳票の操作に関する情報を提供します。
 author: sigitac
-ms.date: 10/27/2020
+ms.date: 06/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
+ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923884"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9106281"
 ---
 # <a name="integration-journal-in-project-operations"></a>Project Operations の統合仕訳帳
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-時間と費用のエントリは、プロジェクトに対して完了した作業の運用ビューを表す **実際** のトランザクションを作成します。 Dynamics 365 Project Operations は、取引を確認し、必要に応じて会計上の属性を調整するツールを経理担当者に提供します。 確認と調整が完了すると、取引はプロジェクトの補助元帳および総勘定元帳に転記されます。 経理担当者は、**Project Operations 統合** 仕訳帳(**Dynamics 365 Finance** > **プロジェクト管理および会計** > **仕訳帳** > **Project Operations の統合** 仕訳帳を使用してこれらの活動を実行できます。
+時間、経費、手数料、材料のエントリは、プロジェクトに対して完了した作業の運用ビューを表す **実際** のトランザクションを作成します。 Dynamics 365 Project Operations は、取引を確認し、必要に応じて会計上の属性を調整するツールを経理担当者に提供します。 確認と調整が完了すると、取引はプロジェクトの補助元帳および総勘定元帳に転記されます。 経理担当者は、**Project Operations 統合** 仕訳帳(**Dynamics 365 Finance** > **プロジェクト管理および会計** > **仕訳帳** > **Project Operations の統合** 仕訳帳を使用してこれらの活動を実行できます。
 
 ![統合仕訳帳フロー。](./media/IntegrationJournal.png)
 
@@ -50,9 +50,21 @@ Project Operations の統合仕訳帳明細行で更新できるのは、次の�
 - **請求消費税グループ** と **請求品目消費税グループ**
 - **財務分析コード** (**金額の配分** アクションの使用)
 
-統合仕訳帳明細行は削除できますが、**ステージングからインポート** 定期プロセスを再実行すると、未転記の明細行は、仕訳帳に再挿入されます。
+統合仕訳帳明細行は削除できます。 ただし、**ステージングからインポート** 定期プロセスを再実行すると、未転記の明細行は、仕訳帳に再挿入されます。
+
+### <a name="post-the-project-operations-integration-journal"></a>Project Operations の統合仕訳帳を転記する
 
 統合仕訳帳を転記すると、プロジェクト補助元帳と総勘定元帳のトランザクションが作成されます。 これらは、ダウンストリームの顧客への請求、収益認識、および財務報告で使用されます。
 
+選択した Project Operations 統合仕訳帳は、Project Operations 統合仕訳帳ページの **転記** を使用して転記できます。 すべての仕訳帳は、**定期処理** > **Project Operations 統合** > **Project Operations 統合仕訳帳の転記** でプロセスを実行することで自動的に転記できます。
+
+転記は、対話的に実行することも、またはバッチで実行することもできます。 100 行を超えるすべての仕訳帳は、自動的にバッチで転記されることに注意してください。 行数の多い仕訳帳をまとめて転記する際のパフォーマンスを向上させるには、**機能管理** ワークスペースの **複数のバッチ タスクを使用した Project Operations 統合仕訳帳の転記** 機能を有効にします。 
+
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>転記エラーのあるすべての明細行を新しいジャーナルに転送する
+
+> [!NOTE]
+> この機能を使用するには、**機能管理** ワークスペースの **転記エラーのあるすべての明細行を新しい Project Operations 統合仕訳帳に転送する** 機能を有効にします。
+
+Project Operations 統合仕訳帳への転記中に、システムは仕訳帳のすべての行を検証します。 エラーのないすべての明細行が転記され、転記エラーのあるすべての明細行に対して新しい仕訳が作成されます。 転記エラー明細行がある仕訳を確認するには、**プロジェクト管理と会計** > **仕訳帳** > **Project Operations 統合仕訳帳** に移動し、**当初の仕訳帳** フィールドを使用して仕訳帳をフィルタリングします。
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

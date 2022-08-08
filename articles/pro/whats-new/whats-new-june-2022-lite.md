@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2d773603abef7ab45d4d1c298e5553e57893294d
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 8313288ecf7ff1350cd82c62d3d0c291d8a3ded4
+ms.sourcegitcommit: 7772d72a7c96a44ffb23369f8ffb436813449239
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959441"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "9031199"
 ---
 # <a name="whats-new-june-2022---project-operations-lite-deployment"></a>新機能 2022 年 6 月 - Project Operations ライト展開
 
@@ -20,7 +20,7 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 この記事は、Microsoft Dynamics 365 Project Operations の次のコンポーネントとバージョンに適用されます。
 
-- Dataverse 環境のバージョン 4.43.0.77 の Project Operations
+- Dataverse 環境バージョン 4.43.0.77、または 4.43.0.119 の Project Operations
 
 ## <a name="quality-updates"></a>品質更新プログラム
 

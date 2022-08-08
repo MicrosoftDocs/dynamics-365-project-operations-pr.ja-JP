@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: fffa9d70574c8c91b63ceb5055af64a49c9d398b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 727f2c782370b61fce65385fe29fbfa6f2387087
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911326"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028754"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>2021 年 3 月の最新情報または変更事項 - 在庫/製造ベースのシナリオ向け Project Operations
 
@@ -121,7 +121,7 @@ _**適用対象:** 在庫/製造ベースのシナリオ向け Project Operation
 | プロジェクト管理および会計 | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | レガシーの WBS (作業分解構造) クラス メソッドである **ProjWBSUpdateController:: updateOutlineNumbersAndPublishInPreOrder** が非推奨となりました。                                                                                                   |
 
 ### <a name="regulatory-updates"></a>規制の更新
-財務と運用アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
+財務と運用アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates)を参照してください。 また、LCS にサインインし、問題検索ツールを使用して、予定されている規制の更新を表示することもできます。 問題検索では、国、機能の種類、リリースで検索できます。
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

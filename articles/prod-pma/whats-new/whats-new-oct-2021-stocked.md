@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: ba88268e74269c774b41396a8b6574e5bab477b9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aa36199c9e7b0a70307c5e9fb163d82554f6be16
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933682"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029949"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>2021 年 10 月の新機能と変更点 - 在庫/製造ベースのシナリオ向け Project Operations
 
@@ -80,6 +80,6 @@ _**適用対象:**  Project Operations (在庫/本番ベースのシナリオ向
 
 ### <a name="regulatory-updates"></a>規制の更新
 
-財務と運用アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates) を参照してください。 また、Microsoft Dynamics Lifecycle Services (LCS) にサインインし、課題検索ツールを使用して、予定されている規制の更新を確認することもできます。 問題検索では、国や地域、機能の種類、リリースなどで検索することができます。
+財務と運用アプリの規制の更新については、[規制の更新](/dynamics365/finance/localizations/regulatory-updates)を参照してください。 また、Microsoft Dynamics Lifecycle Services (LCS) にサインインし、課題検索ツールを使用して、予定されている規制の更新を確認することもできます。 問題検索では、国や地域、機能の種類、リリースなどで検索することができます。
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
