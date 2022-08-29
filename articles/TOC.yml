@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: 新機能
       items:
-        - name: 2022 年 7 月 - リソース/非在庫ベースのシナリオ向け Project Operations
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: 2022 年 8 月 - リソース/非在庫ベースのシナリオ向け Project Operations
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: アーカイブ
           items:
+            - name: 2022 年 7 月 - リソース/非在庫ベースのシナリオ向け Project Operations
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: 2022 年 6 月 - リソース/非在庫ベースのシナリオ向け Project Operations
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: 2022 年 5 月 - リソース/非在庫ベースのシナリオ向け Project Operations
@@ -384,6 +386,42 @@
           items:
             - name: リソース稼働率の概要
               href: resource-management/resource-utilization-overview.md
+    - name: 外注管理
+      items:
+        - name: Project Operations での外注管理
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: 外注に関する重要な概念
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: ベンダーとプロジェクト価格表の管理
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: 予約可能リソースとして扱う外注
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: 外注のヘッダーの詳細
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: 時間の外注品目
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: 経費カテゴリの外注品目
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: 製品の外注品目
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: 外注品目リソース
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: 外注品目マイルストーン
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: 外注プロジェクト チーム メンバー
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: プロジェクト チーム メンバーの外注オプション
+          href: pro/subcontracting/subcon-options.md
+        - name: 外注リソース割り当てのコスト見積もり
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: スケジュール ボードを構成して請負社員と外注キャパシティを表示する
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: 請負社員と外注キャパシティをプロジェクトに割り当てる
+          href: pro/subcontracting/staffing-cw.md
+        - name: 外注コンポーネントの時間、経費、材料使用量を記録する
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: 外注の状態遷移
+          href: pro/subcontracting/subcon-states.md
     - name: 時間
       items:
         - name: 時間の概要
@@ -580,6 +618,8 @@
       items:
         - name: カットオーバー中に完全に請求済みの請求マイルストーンを移行する
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: プロジェクトの状態を同期して、クローズされたプロジェクトへのエントリを防止する
+          href: advanced-configuration/sync-project-status.md
     - name: アップグレード
       items:
         - name: 最新の承認に関するアップグレードの考慮事項
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: 新機能
       items:
-        - name: 2022 年 7 月の新機能 - ライト展開
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: 2022 年 8 月の新機能 - ライト展開
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: アーカイブ
           items:
+            - name: 2022 年 7 月の新機能 - ライト展開
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: 2022 年 6 月の新機能 - ライト展開
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: 2021 年サイクル 2 の早期アクセスの新機能 - ライト展開
