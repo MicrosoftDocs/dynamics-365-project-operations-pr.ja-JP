@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912982"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230257"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Project Service Automation から Project Operations へのアップグレード
 
@@ -67,7 +67,7 @@ Project Service Automation のアクティブなライセンスをご利用の�
 
 ## <a name="testing-and-refactoring-customizations"></a>カスタマイズのテストとリファクタリング
 
-まず始めに、すべてのカスタマイズをクリーンな Project Operations (lite) 環境にインポートし、インポートが成功し、ビジネスオペレーションが期待通りに動作することを確認します。
+まず始めに、すべてのカスタマイズをクリーンな Project Operations (Lite) 環境にインポートし、インポートが正常に行われ、ビジネス オペレーションが期待通りに動作することを確認します。
 
 ここでは、その注意点をご紹介します:
 

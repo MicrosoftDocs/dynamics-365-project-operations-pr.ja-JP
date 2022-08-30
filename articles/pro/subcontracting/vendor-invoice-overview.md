@@ -6,16 +6,14 @@ ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 38f0760697522b7a5e561cec7d38dfd5c3eaf9fc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b57ec8cdb6097e6f2207056667aadfb43ee8acfc
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911464"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261940"
 ---
 # <a name="vendor-invoicing---concept-and-creation"></a>ベンダーの請求 - コンセプトと作成
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 

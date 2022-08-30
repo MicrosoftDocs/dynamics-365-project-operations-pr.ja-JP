@@ -6,12 +6,12 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ada06186121d41edddaa06f747b3e1687c303928
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929220"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230321"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>プロジェクト スケジュール API を使用して、スケジュール エンティティで操作を実行する
 
@@ -45,9 +45,9 @@ OperationSet は、スケジュールに影響を与える複数の要求をト�
 - **msdyn_CreateProjectV1**: この API を使用してプロジェクトを作成できます。 プロジェクトと規定のプロジェクト バケットがすぐに作成されます。
 - **msdyn_CreateTeamMemberV1**: この API を使用して、プロジェクト チーム メンバーを作成できます。 チーム メンバーのレコードはすぐに作成されます。
 - **msdyn_CreateOperationSetV1**: この API を使用して、トランザクション内で実行する必要のあるいくつかの要求をスケジュールできます。
-- **msdyn_PSSCreateV1**: この API を使用してエンティティを作成できます。 エンティティは、作成操作をサポートするプロジェクト スケジュール エンティティのいずれかとなります。
-- **msdyn_PSSUpdateV1**: この API を使用してエンティティを更新できます。 エンティティは、更新操作をサポートするプロジェクト スケジュール エンティティのいずれかとなります。
-- **msdyn_PSSDeleteV1**: この API を使用してエンティティを削除できます。 エンティティには、削除操作をサポートするプロジェクト スケジュール エンティティのいずれかを指定できます。
+- **msdyn_PssCreateV1**: この API を使用してエンティティを作成できます。 エンティティは、作成操作をサポートするプロジェクト スケジュール エンティティのいずれかとなります。
+- **msdyn_PssUpdateV1**: この API を使用してエンティティを更新できます。 エンティティは、更新操作をサポートするプロジェクト スケジュール エンティティのいずれかとなります。
+- **msdyn_PssDeleteV1**: この API を使用してエンティティを削除できます。 エンティティには、削除操作をサポートするプロジェクト スケジュール エンティティのいずれかを指定できます。
 - **msdyn_ExecuteOperationSetV1**: この API は、指定された操作セット内のすべての操作を実行するために使用されます。
 
 ## <a name="using-project-schedule-apis-with-operationset"></a>OperationSet でプロジェクト スケジュール API を使用する

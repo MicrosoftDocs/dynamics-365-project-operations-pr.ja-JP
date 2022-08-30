@@ -1,17 +1,17 @@
 ---
-title: Common Data Service で構成データの設定と適用
+title: Microsoft Dataverse で構成データの設定と適用
 description: この記事では、Project Operations で構成データをセットアップして適用する方法について説明します。
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928024"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230243"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Common Data Service で構成データの設定と適用 
 
@@ -21,10 +21,10 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ## <a name="prerequisites"></a>前提条件
 
-Common Data Service (CDS) でデータの構成を開始する前に、次の前提条件を満たす必要があります:
+Microsoft Dataverse でデータの構成を開始する前に、次の前提条件を満たす必要があります:
 
-1.  Project Operations のために CDS 環境と Dynamics 365 Finance 環境をプロビジョニングします。
-2.  Dynamics 365 Finance の法人情報は CDS 環境で共有されます。 つまり、CDS の **会社** エンティティには、次の会社レコードがあります:
+1.  Project Operations のために Dataverse 環境と Dynamics 365 Finance 環境をプロビジョニングします。
+2.  Dynamics 365 Finance の法人情報は Dataverse 環境で共有されます。 つまり、Dataverse の **会社** エンティティには、次の会社レコードがあります:
   - THPM
   - USPM
   - GBPM
