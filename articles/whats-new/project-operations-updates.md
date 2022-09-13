@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a08bffa2e353f2ed1b9f3b0c27e2ed1e30731012
-ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295884"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9409941"
 ---
 # <a name="project-operations-updates"></a>Project Operations の更新プログラム
 
@@ -36,7 +36,7 @@ Dynamics 365 Project Operations は 2 つのコンポーネントで構成され
 
 | Dataverse 環境での Project Operations | 財務と運用アプリの環境でのプロジェクト管理および会計 | 
 | --- | --- |
-| 4.45.0.53 | 10.0.28 |
+| 4.45.0.53 | 10.0.29 |
 
 Project Operations のリソース/非在庫シナリオでは、デュアル書き込みオーケストレーション バージョン 2.3.1.15 以降を使用することをお勧めします。
 
@@ -47,24 +47,24 @@ Dataverse 環境における Project Operations の更新は毎月入手でき�
 | ステーション | リージョン | 現在のバージョン番号 | ライト展開の自動更新 | リソース/非在庫展開の自動更新 | 次のバージョン番号 | 次のバージョンを一般提供 |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | ステーション 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 最初のリリース         |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 8 月 26 日       |
+|   &nbsp;  | 最初のリリース         |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 9 月 9 日      |
 | ステーション 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 南アフリカ         |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 9 月 2 日       |
-|   &nbsp;  | カナダ                |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 9 月 2 日       |
-|   &nbsp;  | インド                 |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 9 月 2 日       |
-|   &nbsp;  | フランス                |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 9 月 2 日       |
-|   &nbsp;  | 南アフリカ          |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 9 月 2 日       |
-|   &nbsp;  | スイス           |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 9 月 2 日       |
+|   &nbsp;  | 南アフリカ         |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 9 月 9 日       |
+|   &nbsp;  | カナダ                |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 9 月 9 日       |
+|   &nbsp;  | インド                 |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 9 月 9 日       |
+|   &nbsp;  | フランス                |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 9 月 9 日       |
+|   &nbsp;  | 南アフリカ          |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 9 月 9 日       |
+|   &nbsp;  | スイス           |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 9 月 9 日       |
 | ステーション 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 日本                 |  4.44.0.22      | Complete      | Complete       | 4.45.0.53                 | 2022 年 8 月 19 日       |
-|   &nbsp;  | アジア太平洋          |  4.44.0.22      | Complete      | Complete       | 4.45.0.53                 | 2022 年 8 月 19 日       |
-|   &nbsp;  | 英国         |  4.44.0.22      | Complete      | Complete       | 4.45.0.53                 | 2022 年 8 月 19 日       |
-|   &nbsp;  | オセアニア               |  4.44.0.22      | Complete      | Complete       | 4.45.0.53                 | 2022 年 8 月 19 日       |
-|   &nbsp;  | アラブ首長国連邦  |  4.44.0.22      | Complete      | Complete       | 4.45.0.53                 | 2022 年 8 月 19 日       |
+|   &nbsp;  | 日本                 |  4.45.0.53      | Complete      | Complete       | TBD                 | 2022 年 9 月 9 日       |
+|   &nbsp;  | アジア太平洋          |  4.45.0.53      | Complete      | Complete       | TBD                 | 2022 年 9 月 9 日       |
+|   &nbsp;  | 英国         |  4.45.0.53      | Complete      | Complete       | TBD                 | 2022 年 9 月 9 日       |
+|   &nbsp;  | オセアニア               |  4.45.0.53      | Complete      | Complete       | TBD                 | 2022 年 9 月 9 日       |
+|   &nbsp;  | アラブ首長国連邦  |  4.45.0.53      | Complete      | Complete       | TBD                 | 2022 年 9 月 9 日       |
 | ステーション 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 欧州                |  4.44.0.22      | Complete           | Complete            | 4.45.0.53           | 2022 年 8 月 26 日       |
+|   &nbsp;  | 欧州                |  4.45.0.53      | Complete           | Complete            | TBD           | 2022 年 9 月 16 日       |
 | ステーション 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 北アメリカ         |  4.44.0.22      | Complete           | Complete            | 4.45.0.53           | 2022 年 9 月 2 日       |
+|   &nbsp;  | 北アメリカ         |  4.45.0.53      | Complete           | Complete            | TBD           | 2022 年 9 月 16 日       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>財務と運用アプリの環境におけるプロジェクト管理および会計のリリース スケジュール
 

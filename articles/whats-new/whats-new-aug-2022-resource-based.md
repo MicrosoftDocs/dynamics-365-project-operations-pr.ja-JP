@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348013"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403862"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022 年 8 月の新機能 - リソース/非在庫のシナリオ向け Project Operations
 
@@ -38,6 +38,11 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | 機能 | 照合番号 | 品質更新プログラム |
 | --- | --- | --- |
 | 営業案件管理 | 2762089 | 組織で自動保存が無効になっている場合、失われたものとして契約を閉じる際のエラー処理。|
+|プロジェクトの計画と追跡 | 2767841 | テレメトリの更新 プロジェクト エンティティ シナリオの作成または更新。|
+|請求と価格 | 2771072 | 見積もりを獲得する際の null 参照の例外処理。|
+|請求と価格 | 2844181 |関連付け ID の取得に失敗したため、請求書の作成がブロックされました。|
+|請求と価格 | 2852836 | CE で作成および承認された会社間経費の会社間実績がありません。|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Finance でのプロジェクト管理および会計の概要
 
