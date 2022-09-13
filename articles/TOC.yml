@@ -166,13 +166,15 @@
                   href: sales/import-estimate-quote-line.md
                 - name: プロジェクトベースの見積依頼明細行の請求スケジュール
                   href: sales/invoice-schedule-quote-line.md
-            - name: プロジェクトの見積もりのコピー
+            - name: プロジェクト見積もりのコピー
               href: sales/lose-quote.md
+            - name: プロジェクト見積もりを変更してアクティブ化する
+              href: sales/activation-and-revision.md
             - name: プロジェクト見積もりのクローズ
               href: sales/win-quote.md
         - name: プロジェクト契約の管理
           items:
-            - name: プロジェクト契約の概要の管理
+            - name: プロジェクト契約管理の概要
               href: pro/sales/manage-contracts-sales.md
             - name: プロジェクトベースの契約固有の概念
               href: sales/contracts-key-concepts.md
@@ -198,11 +200,13 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: プロジェクトベースの契約品目の請求スケジュールを作成する
                   href: sales/invoice-schedules-contract-line.md
+            - name: プロジェクトベースの契約のコピー
+              href: sales/copy-project-based-contracts-sales.md
             - name: プロジェクト契約の確認
               href: pro/sales/confirm-contract-sales.md
             - name: 前払金と着手金
               items:
-                - name: 前払いおよび着手金ベースの契約
+                - name: 前払金および着手金ベースの契約
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: 着手金スケジュールの設定
                   href: pro/sales/set-up-schedule-retainers-sales.md
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: プロジェクトの営業価格表を上書きする
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: 見積もりと実績の原価価格を解決する
+            - name: 見積もりと実績の原価価格を決定する
               href: pricing-costing/cost-price-resolution.md
-            - name: 見積もりと実績の販売価格を解決する
+            - name: 見積もりと実績の販売価格を決定する
               href: pricing-costing/sales-price-resolution.md
             - name: 価格表のコピー
               href: pricing-costing/copy-price-lists.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: プロジェクトベースの見積もりのコピー
               href: sales/lose-quote.md
+            - name: プロジェクト見積もりを変更してアクティブ化する
+              href: sales/activation-and-revision.md
             - name: プロジェクトベースの見積もりのクローズ
               href: pro/sales/win-quote-sales.md
         - name: プロジェクトベースの契約の管理
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: プロジェクトの営業価格表を上書きする
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: プロジェクトの見積もりと実績の原価価格を解決する
+            - name: プロジェクトの見積もりと実績の原価価格を決定する
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: プロジェクトの見積もりと実績の販売価格を解決する
+            - name: プロジェクトの見積もりと実績の販売価格を決定する
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: 価格表のコピー
               href: pricing-costing/copy-price-lists.md
