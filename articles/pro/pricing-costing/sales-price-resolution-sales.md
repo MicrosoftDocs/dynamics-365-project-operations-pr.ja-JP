@@ -6,18 +6,18 @@ ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410124"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475190"
 ---
 # <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>プロジェクトの見積もりと実績の販売価格を決定する
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
-Microsoft Dynamics 365 Project Operations の見積りおよび実績の販売価格を決定するため、システムは最初に受信見積もりまたは実績コンテキストの日付と通貨を使用して、販売価格リストを決定します。 実績コンテキストの場合、システムは **取引日** フィールドを使用して、適用可能な価格表を決定します。 販売価格リストが決定された後、システムは販売または請求レートを決定します。
+Microsoft Dynamics 365 Project Operations の見積りおよび実績の販売価格を決定するため、システムは最初に受信見積もりまたは実績コンテキストの日付と通貨を使用して、販売価格リストを決定します。 実績コンテキストの場合、システムは **取引日** フィールドを使用して、適用可能な価格表を決定します。 受信した見積もりまたは実績の **取引日** の値は、価格表上の **有効開始 (タイムゾーンに依存しない)** および **有効終了 (タイムゾーンに依存しない)** 値と比較されます。 販売価格リストが決定された後、システムは販売または請求レートを決定します。
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>時間に向けた実際の明細行と見積もり明細行での販売率の決定
 

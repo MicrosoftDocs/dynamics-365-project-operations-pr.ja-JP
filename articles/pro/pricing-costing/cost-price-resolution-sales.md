@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410155"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475237"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>プロジェクトの見積もりと実績のコスト単価を決定する
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
-見積もりと実績コンテキストで原価価格とコスト単価を決定するには、関連するプロジェクトの **日付**、**通貨**、**契約単位** フィールドの情報を使用します。
+Microsoft  Dynamics 365 Project Operations の見積と実績の原価率を決定するために、システムは最初に受信した見積または実績のコンテキストにある日付と通貨を使用して、原価価格表を決定します。 実績コンテキストの場合、システムは **取引日** フィールドを使用して、適用可能な価格表を決定します。 受信した見積もりまたは実績の **取引日** の値は、価格表上の **有効開始 (タイムゾーンに依存しない)** および **有効終了 (タイムゾーンに依存しない)** 値と比較されます。 原価価格表が決定した後、システムが原価率を決定します。 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>時間の見積もりと実績コンテキストで、コスト単価を決定する
 

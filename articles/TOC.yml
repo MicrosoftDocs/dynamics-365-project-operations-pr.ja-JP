@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: プロジェクトの営業価格表を上書きする
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: 価格表の特定の価格に対して、日付適用価格変更を設定する
+              href: pricing-costing/dateffective_price_overrides.md
             - name: 見積もりと実績の原価価格を決定する
               href: pricing-costing/cost-price-resolution.md
             - name: 見積もりと実績の販売価格を決定する
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: プロジェクトの発注書を使用してプロジェクトの商品とサービスを注文する
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Dataverse における外注のベンダー請求書
+          items:
+            - name: ベンダー請求書の作成
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: 承認された実績が記載されているベンダー請求書の検証
+              href: pro/subcontracting/VI-Verification.md
+            - name: プロジェクトのベンダー請求書の確認
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: ベンダーのリテンション期間
           items:
             - name: ベンダーのリテンション期間の概要
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: プロジェクトの営業価格表を上書きする
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: 価格表の特定の価格に対して、日付適用価格変更を設定する
+              href: pricing-costing/dateffective_price_overrides.md
             - name: プロジェクトの見積もりと実績の原価価格を決定する
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: プロジェクトの見積もりと実績の販売価格を決定する

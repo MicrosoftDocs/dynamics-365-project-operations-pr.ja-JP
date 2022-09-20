@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230257"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446041"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Project Service Automation から Project Operations へのアップグレード
 
@@ -29,7 +29,7 @@ ms.locfileid: "9230257"
 
 アップグレード配信プログラムは、3 つのフェーズに分かれます。
 
-| アップグレードの出荷 | フェーズ 1 (2022 年 1 月) | フェーズ 2 (2022 年 4 月のリリースサイクル) | フェーズ 3  |
+| アップグレードの出荷 | フェーズ 1 (2022 年 1 月) | フェーズ 2 (2022 年 11 月) | フェーズ 3 (2023 年 4 月のリリースサイクル)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | プロジェクトの WBS (Work Breakdown Structure、作業分解構造) に依存しません | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Project Operations の現在サポートされている制限内の WBS | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ ms.locfileid: "9230257"
 
 アップグレードプロセスの一環として、サイトマップにアップグレード ログを追加し、管理者がより簡単に不具合を診断できるようになっています。 新しいインターフェースに加えて、アップグレード後のデータの整合性を確保する新しい検証ルールが追加されます。 アップグレードの際に、以下の検証が追加されます。
 
-| 検証 | フェーズ 1 (2022 年 1 月) | フェーズ 2 (2022 年 4 月のリリースサイクル) | フェーズ 3  |
+| 検証 | フェーズ 1 (2022 年 1 月) | フェーズ 2 (2022 年 11 月) | フェーズ 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | WBS は、一般的なデータの整合性違反に対して検証されます (同じ親タスクに関連付けられているが、親プロジェクトが異なるリソースの割り当てなど)。 | | :heavy_check_mark: | :heavy_check_mark: |
 | WBS は、[Project for the Web の既知の制限](/project-for-the-web/project-for-the-web-limits-and-boundaries)に対して検証されます。 | | :heavy_check_mark: | :heavy_check_mark: |
