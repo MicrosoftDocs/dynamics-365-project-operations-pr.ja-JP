@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: 以前承認されたエントリの取り消し
           href: approvals/recall-cancel.md
+        - name: セキュリティと承認
+          href: approvals/approvals-security.md
         - name: 開発者用メモ
           items:
             - name: 承認のための開発者用メモ
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: ベンダーのリテンション期間を設定する
               href: procurement/set-up-vendor-retention.md
+            - name: 受給時支払
+              href: procurement/Pay-when-paid.md
     - name: 請求
       items:
         - name: 請求処理の概要
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: 以前承認されたエントリの取り消し
           href: approvals/recall-cancel.md
+        - name: セキュリティと承認
+          href: approvals/approvals-security.md
         - name: 開発者用メモ
           items:
             - name: 承認のための開発者用メモ
