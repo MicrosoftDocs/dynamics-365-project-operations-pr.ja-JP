@@ -2,20 +2,20 @@
 title: 製品の外注品目
 description: この記事では、製品の外注行を記録し、さまざまなフィールドを使用してベンダーからの製品購入を記録する方法について説明します。
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262124"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522848"
 ---
 # <a name="subcontract-lines-for-products"></a>製品の外注品目
 
-_**適用対象:** ライト展開 - 見積もり請求の取引_
+_**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
 Dynamics 365 Project Operations の外注には、製品の外注品目を作成できます。 これらの行で、プロジェクト マネージャーはベンダーから製品を購入し、プロジェクト タスクで使用できるようにすることができます。
 

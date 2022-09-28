@@ -2,20 +2,20 @@
 title: 外注プロジェクト チーム メンバー
 description: この記事では、Microsoft Dynamics 365 Project Operations でプロジェクト チームのメンバーを外注する方法について説明します。
 author: rumant
-ms.date: 12/03/2021
+ms.date: 9/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 14abd82cbbd256770105d4272f686590737e2648
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: a2f17d6f270029e3a517e99c7bb518cdb19b8d23
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261376"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522801"
 ---
 # <a name="subcontracting-project-team-members"></a>外注プロジェクト チーム メンバー
 
-_**適用対象:** ライト展開 - 見積もり請求の取引_
+_**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
 Microsoft Dynamics 365 Project Operations では、無人または有人のプロジェクトチームメンバーの外注を選択できます。
 

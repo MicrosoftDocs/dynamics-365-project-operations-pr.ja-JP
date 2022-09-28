@@ -2,20 +2,20 @@
 title: プロジェクト チーム メンバーの外注オプション
 description: この記事では、Microsoft Dynamics 365 Project Operations のプロジェクト チーム メンバーの下請けオプションについて説明します。
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5e0955d58365a4ecbe1c053882736f196758816e
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 046b5d38ef7e433d02e3eac2e858a3333e941c45
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261612"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522284"
 ---
 # <a name="subcontracting-options-for-project-team-members"></a>プロジェクト チーム メンバーの外注オプション
 
-_**適用対象:** ライト展開 - 見積もり請求の取引_
+_**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
 Microsoft Dynamics 365 Project Operations では、1人以上のプロジェクトチームメンバーが利用できる外注オプションを評価できます。 利用可能な外注オプションでは、以下のことが可能です:
 

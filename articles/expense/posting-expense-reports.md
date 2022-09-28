@@ -1,8 +1,8 @@
 ---
 title: 経費精算書の転記
 description: この記事では、経費精算書の転記方法について説明します。
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934510"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524875"
 ---
 # <a name="post-expense-reports"></a>経費精算書の転記
 
@@ -30,5 +30,15 @@ ms.locfileid: "8934510"
 
 同時にリストですべての経費清算書を転記することもできます。 すべての経費清算書を選択し、**転記** を選択します。
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>現金支払方法機能のベンダー通貨で経費負債を転記する機能を有効にする
+
+**現金支払方法機能のベンダー通貨で経費負債を転記する機能** を使用すると、経費レポートを現金支払方法の仕入先通貨で転記できます。
+
+現在、現金経費を提出すると、経費レポートは会計通貨で転記されます。 取引通貨、会計通貨、仕入先通貨間の金額換算のため、経費の取引日と実際の支払日の為替レートが異なる場合、仕入先に誤った金額が支払われます。
+
+この機能により、経費レポートが転記されるときに、仕入先残高が仕入先通貨で記録されるようになります。
+
+1. **ワークスペース** \> **機能管理** の順に移動します。
+2. リストで、**現金支払方法の仕入先通貨で経費負債を転記する機能** を検索して選択し、**今すぐ有効にする** を選択します。
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

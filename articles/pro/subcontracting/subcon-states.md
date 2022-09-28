@@ -2,20 +2,20 @@
 title: 外注の状態遷移
 description: この記事では、下請けとして Microsoft Dynamics 365 Project Operations の下請けにおける、状態遷移について説明します。
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 02553099a6728c19c219659dff431ff9a5cf10fc
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 2804fc30f8dade42dc1093e5fc0f01fa1db22ca3
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261208"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522892"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>外注の状態遷移 
 
-_**適用対象:** ライト展開 - 見積もり請求の取引_
+_**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
 この記事では、Microsoft Dynamics 365 Project Operations の下請けの状態遷移について説明します。 それぞれの状態は、下書き、確認済み、クローズ、キャンセルのいずれかで表されます。 次の図は、状態の遷移を表しています。
 

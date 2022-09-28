@@ -2,20 +2,20 @@
 title: 外注のヘッダーの詳細
 description: この記事では、Project Operations の外注ヘッダーで提供される機能について説明します。
 author: rumant
-ms.date: 09/14/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce16b7a968bc7e6904411ae9e021a5ca1839d02e
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 00b7c08235654d4bed0bcb4053d2044a3d092b54
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261423"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522566"
 ---
 # <a name="header-details-for-subcontracts"></a>外注のヘッダーの詳細
 
-_**適用対象:** ライト展開 - 見積もり請求の取引_
+_**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
 この記事では、Dynamics 365 Project Operations の外注ヘッダーで提供される機能について説明します。
 

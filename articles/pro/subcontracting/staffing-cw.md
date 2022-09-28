@@ -2,20 +2,20 @@
 title: 請負社員と外注キャパシティをプロジェクトに割り当てる
 description: この記事では、Microsoft Dynamics 365 Project Operations で契約社員や下請けのキャパシティを使用してプロジェクトの要件をスタッフにする方法について説明します。
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 30e16efeed93ab4568eac57fb3ed46067a08524d
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261260"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522441"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>請負社員と外注キャパシティをプロジェクトに割り当てる
 
-_**適用対象:** ライト展開 - 見積もり請求の取引_
+_**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
 一般的なプロジェクト チームのメンバーは、社員や契約社員で構成されます。 契約労働者をプロジェクトに配置する場合、外注ラインに割り当てられた特定の契約労働者に配置オプションを制限できます。 
 

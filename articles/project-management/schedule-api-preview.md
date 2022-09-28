@@ -6,284 +6,146 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 159d395efff98f2af780e5ed1e5ab3d6483cba89
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230321"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541130"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>プロジェクト スケジュール API を使用して、スケジュール エンティティで操作を実行する
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
 
-
-## <a name="scheduling-entities"></a>スケジューリング エンティティ
+**スケジューリング エンティティ**
 
 プロジェクト スケジュール API では、**スケジュール エンティティ** を使用した作成、更新、削除操作を実行する機能を提供します。 これらのエンティティは、Project for the Web のスケジューリング エンジンを介して管理されます。 **スケジューリング エンティティ** を使用した操作の作成、更新、および削除は、過去の Dynamics 365 Project Operations リリースに限定されていました。
 
 次の表に、プロジェクト スケジュール エンティティの全リストを示します。
 
-| エンティティ名  | エンティティの論理名 |
-| --- | --- |
-| Project | msdyn_project |
-| プロジェクト タスク  | msdyn_projecttask  |
-| プロジェクト タスクの依存関係  | msdyn_projecttaskdependency  |
-| リソース割り当て | msdyn_resourceassignment |
-| プロジェクト バケット  | msdyn_projectbucket |
-| プロジェクト チーム メンバー | msdyn_projectteam |
+| **エンティティ名**         | **エンティティの論理名**     |
+|-------------------------|-----------------------------|
+| Project                 | msdyn_project               |
+| プロジェクト タスク            | msdyn_projecttask           |
+| プロジェクト タスクの依存関係 | msdyn_projecttaskdependency |
+| リソース割り当て     | msdyn_resourceassignment    |
+| プロジェクト バケット          | msdyn_projectbucket         |
+| プロジェクト チーム メンバー     | msdyn_projectteam           |
+| プロジェクト チェックリスト      | msdyn_projectchecklist      |
+| プロジェクト ラベル           | msdyn_projectlabel          |
+| プロジェクト タスクとラベルの関連付け   | +msdyn_projecttasktolabel    |
+| プロジェクト スプリント          | msdyn_projectsprint         |
 
-## <a name="operationset"></a>OperationSet
+**OperationSet**
 
 OperationSet は、スケジュールに影響を与える複数の要求をトランザクション内で処理する必要がある場合に使用できる作業単位パターンです。
 
-## <a name="project-schedule-apis"></a>プロジェクト スケジュール API
+**プロジェクト スケジュール API**
 
 以下は、現在のプロジェクト スケジュール API のリストです。
 
-- **msdyn_CreateProjectV1**: この API を使用してプロジェクトを作成できます。 プロジェクトと規定のプロジェクト バケットがすぐに作成されます。
-- **msdyn_CreateTeamMemberV1**: この API を使用して、プロジェクト チーム メンバーを作成できます。 チーム メンバーのレコードはすぐに作成されます。
-- **msdyn_CreateOperationSetV1**: この API を使用して、トランザクション内で実行する必要のあるいくつかの要求をスケジュールできます。
-- **msdyn_PssCreateV1**: この API を使用してエンティティを作成できます。 エンティティは、作成操作をサポートするプロジェクト スケジュール エンティティのいずれかとなります。
-- **msdyn_PssUpdateV1**: この API を使用してエンティティを更新できます。 エンティティは、更新操作をサポートするプロジェクト スケジュール エンティティのいずれかとなります。
-- **msdyn_PssDeleteV1**: この API を使用してエンティティを削除できます。 エンティティには、削除操作をサポートするプロジェクト スケジュール エンティティのいずれかを指定できます。
-- **msdyn_ExecuteOperationSetV1**: この API は、指定された操作セット内のすべての操作を実行するために使用されます。
+| **API**                                 | 説明設定                                                                                                                       |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **msdyn_CreateProjectV1**               | この API は、プロジェクトを作成するために使用されます。 プロジェクトと規定のプロジェクト バケットがすぐに作成されます。                         |
+| **msdyn_CreateTeamMemberV1**            | この API はプロジェクト チーム メンバーを作成するために使用されます。 チーム メンバーのレコードはすぐに作成されます。                                  |
+| **msdyn_CreateOperationSetV1**          | この API を使用して、トランザクション内で実行する必要のあるいくつかの要求をスケジュールできます。                                        |
+| **msdyn_PssCreateV1**                   | この API は、エンティティを作成するために使用されます。 エンティティは、作成操作をサポートするプロジェクト スケジュール エンティティのいずれかとなります。 |
+| **msdyn_PssUpdateV1**                   | この API は、エンティティを更新するために使用されます。 エンティティは、更新の操作をサポートするいずれかのプロジェクト スケジューリング エンティティの場合がある  |
+| **msdyn_PssDeleteV1**                   | この API は、エンティティを削除するために使用されます。 エンティティには、削除操作をサポートするプロジェクト スケジュール エンティティのいずれかを指定できます。 |
+| **msdyn_ExecuteOperationSetV1**         | この API を使用して、指定された操作セット内ですべての操作を実行します。                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | この API は、リソース割り当ての計画された作業輪郭を更新するために使用されます。                                                        |
 
-## <a name="using-project-schedule-apis-with-operationset"></a>OperationSet でプロジェクト スケジュール API を使用する
+
+
+**OperationSet でプロジェクト スケジュール API を使用する**
 
 **CreateProjectV1** と **CreateTeamMemberV1** 両方があるレコードは直ちに作成されるため、これらの API は **OperationSet** で直接使用できません。 ただし、API を使用して必要なレコードを作成し、**OperationSet** を作成し、これらの事前に作成されたレコードを **OperationSet** で使用できます。
 
-## <a name="supported-operations"></a>サポートされている操作
+**サポートされている操作**
 
-| スケジューリング エンティティ | 作成​​ | 更新する | Delete | 重要な考慮事項 |
-| --- | --- | --- | --- | --- |
-プロジェクト タスク | 有効 | 有効 | 有効 | **Progress**、**EffortCompleted**、および **EffortRemaining** のフィールドは、Project for the Web で編集できますが、Project Operations では編集できません。  |
-| プロジェクト タスクの依存関係 | 有効 |  | 有効 | プロジェクト タスクの依存関係レコードは更新されません。 代わりに、古いレコードを削除して、新しいレコードを作成できます。 |
-| リソース割り当て | 有効 | 有効 | | 次のフィールドを使用した操作はサポートされていません: **BookableResourceID**、**Effort**、**EffortCompleted**、**EffortRemaining**、および **PlannedWork**。 リソース割り当てレコードは更新されません。 代わりに、古いレコードを削除して、新しいレコードを作成できます。 |
-| プロジェクト バケット | 有効 | 有効 | 有効 | 規定のバケットは、**CreateProjectV1** APIを使用して作成されます。 プロジェクト バケットの作成と削除のサポートは、アップデート リリース 16 で追加されました。 |
-| プロジェクト チーム メンバー | 有効 | 有効 | 有効 | 作成操作には、**CreateTeamMemberV1** API を使用します。 |
-| Project | 有効 | 有効 |  | 次のフィールドを使用した操作はサポートされていません: **StateCode**、**BulkGenerationStatus**、**GlobalRevisionToken**、 **CalendarID**、**Effort**、**EffortCompleted**、**EffortRemaining**、**Progress**、**Finish**、**TaskEarliestStart**、および **Duration**。 |
+| **スケジューリング エンティティ**   | **作成** | **更新プログラム** | **Delete** | **重要な考慮事項**                                                                                                                                                                                                                                                                                                                            |
+|-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| プロジェクト タスク            | 有効        | 有効        | 有効        | **Progress**、**EffortCompleted**、および **EffortRemaining** のフィールドは、Project for the Web で編集できますが、Project Operations では編集できません。                                                                                                                                                                                             |
+| プロジェクト タスクの依存関係 | イエス        | 番号         | イエス        | プロジェクト タスクの依存関係レコードは更新されません。 代わりに、古いレコードを削除して、新しいレコードを作成できます。                                                                                                                                                                                                                                 |
+| リソース割り当て     | イエス        | イエス\*      | イエス        | 次のフィールドを使用した操作はサポートされていません: **BookableResourceID**、**Effort**、**EffortCompleted**、**EffortRemaining**、および **PlannedWork**。 リソース割り当てレコードは更新されません。 代わりに、古いレコードを削除して、新しいレコードを作成できます。 リソース割り当て配分型を更新するために、別の API が提供されています。 |
+| プロジェクト バケット          | イエス        | イエス        | イエス        | 規定のバケットは、**CreateProjectV1** APIを使用して作成されます。 プロジェクト バケットの作成と削除のサポートは、アップデート リリース 16 で追加されました。                                                                                                                                                                                                   |
+| プロジェクト チーム メンバー     | 有効        | 有効        | 有効        | 作成操作には、**CreateTeamMemberV1** API を使用します。                                                                                                                                                                                                                                                                                           |
+| Project                 | 有効        | 有効        |            | 次のフィールドを使用した操作はサポートされていません: **StateCode**、**BulkGenerationStatus**、**GlobalRevisionToken**、 **CalendarID**、**Effort**、**EffortCompleted**、**EffortRemaining**、**Progress**、**Finish**、**TaskEarliestStart**、および **Duration**。                                                                                       |
+| プロジェクト チェックリスト      | イエス        | イエス        | イエス        |                                                                                                                                                                                                                                                                                                                                                         |
+| プロジェクト ラベル           | 番号         | イエス        | 番号         | ラベル名は変更できます。 この機能は、Project for the Web でのみ利用可能                                                                                                                                                                                                                                                                      |
+| プロジェクト タスクとラベルの関連付け   | イエス        | 番号         | イエス        | この機能は、Project for the Web でのみ利用可能                                                                                                                                                                                                                                                                                                  |
+| プロジェクト スプリント          | イエス        | イエス        | イエス        | **開始** フィールドは、**終了** フィールドより前の日付である必要があります。 同じプロジェクトのスプリントが重複することはできません。 この機能は、Project for the Web でのみ利用可能                                                                                                                                                                    |
 
-これらの API は、カスタムフィールドを含むエンティティ オブジェクトを使用して呼び出すことができます。
+
+
 
 ID プロパティは省略可能です。 提供されている場合、システムはそれを使用しようとし、使用できない場合は例外をスローします。 提供されていない場合は、システムが生成します。
 
-## <a name="restricted-fields"></a>制限のあるフィールド
+**制限事項と既知の問題**
 
-以下のテーブルは、**作成** と **編集** が制限されるフィールドを定義しています。
-
-### <a name="project-task"></a>プロジェクト タスク
-
-| 論理名                           | 作成可能     | 編集可能         |
-|----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | 番号             | 番号               |
-| msdyn_actualcost_base                  | 番号             | 番号               |
-| msdyn_actualend                        | 番号             | 番号               |
-| msdyn_actualsales                      | 番号             | 番号               |
-| msdyn_actualsales_base                 | 番号             | 番号               |
-| msdyn_actualstart                      | 番号             | 番号               |
-| msdyn_costatcompleteestimate           | 番号             | 番号               |
-| msdyn_costatcompleteestimate_base      | 番号             | 番号               |
-| msdyn_costconsumptionpercentage        | 番号             | 番号               |
-| msdyn_effortcompleted                  | 不可 (プロジェクトでは可)             | 不可 (プロジェクトでは可)               |
-| msdyn_effortremaining                  | 不可 (プロジェクトでは可)              | 不可 (プロジェクトでは可)                |
-| msdyn_effortestimateatcomplete         | 番号             | 番号               |
-| msdyn_iscritical                       | 番号             | 番号               |
-| msdyn_iscriticalname                   | 番号             | 番号               |
-| msdyn_ismanual                         | 番号             | 番号               |
-| msdyn_ismanualname                     | 番号             | 番号               |
-| msdyn_ismilestone                      | 番号             | 番号               |
-| msdyn_ismilestonename                  | 番号             | 番号               |
-| msdyn_LinkStatus                       | 番号             | 番号               |
-| msdyn_linkstatusname                   | 番号             | 番号               |
-| msdyn_msprojectclientid                | 番号             | 番号               |
-| msdyn_plannedcost                      | 番号             | 番号               |
-| msdyn_plannedcost_base                 | 番号             | 番号               |
-| msdyn_plannedsales                     | 番号             | 番号               |
-| msdyn_plannedsales_base                | 番号             | 番号               |
-| msdyn_pluginprocessingdata             | 番号             | 番号               |
-| msdyn_progress                         | 不可 (プロジェクトでは可)             | 不可 (プロジェクトでは可) |
-| msdyn_remainingcost                    | 番号             | 番号               |
-| msdyn_remainingcost_base               | 番号             | 番号               |
-| msdyn_remainingsales                   | 番号             | 番号               |
-| msdyn_remainingsales_base              | 番号             | 番号               |
-| msdyn_requestedhours                   | 番号             | 番号               |
-| msdyn_resourcecategory                 | 番号             | 番号               |
-| msdyn_resourcecategoryname             | 番号             | 番号               |
-| msdyn_resourceorganizationalunitid     | 番号             | 番号               |
-| msdyn_resourceorganizationalunitidname | 番号             | 番号               |
-| msdyn_salesconsumptionpercentage       | 番号             | 番号               |
-| msdyn_salesestimateatcomplete          | 番号             | 番号               |
-| msdyn_salesestimateatcomplete_base     | 番号             | 番号               |
-| msdyn_salesvariance                    | 番号             | 番号               |
-| msdyn_salesvariance_base               | 番号             | 番号               |
-| msdyn_scheduleddurationminutes         | 番号             | 番号               |
-| msdyn_scheduledend                     | 番号             | 番号               |
-| msdyn_scheduledstart                   | 番号             | 番号               |
-| msdyn_schedulevariance                 | 番号             | 番号               |
-| msdyn_skipupdateestimateline           | 番号             | 番号               |
-| msdyn_skipupdateestimatelinename       | 番号             | 番号               |
-| msdyn_summary                          | 番号             | 番号               |
-| msdyn_varianceofcost                   | 番号             | 番号               |
-| msdyn_varianceofcost_base              | 番号             | 番号               |
-
-### <a name="project-task-dependency"></a>プロジェクト タスクの依存関係
-
-| 論理名                  | 作成可能     | 編集可能     |
-|-------------------------------|----------------|--------------|
-| msdyn_linktype                | 番号             | 番号           |
-| msdyn_linktypename            | 番号             | 番号           |
-| msdyn_predecessortask         | 有効            | 番号           |
-| msdyn_predecessortaskname     | 有効            | 番号           |
-| msdyn_project                 | 有効            | 番号           |
-| msdyn_projectname             | 有効            | 番号           |
-| msdyn_projecttaskdependencyid | 有効            | 番号           |
-| msdyn_successortask           | 有効            | 番号           |
-| msdyn_successortaskname       | 有効            | 番号           |
-
-### <a name="resource-assignment"></a>リソース割り当て
-
-| 論理名                 | 作成可能     | 編集可能     |
-|------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | 有効            | 番号           |
-| msdyn_bookableresourceidname | 有効            | 番号           |
-| msdyn_bookingstatusid        | 番号             | 番号           |
-| msdyn_bookingstatusidname    | 番号             | 番号           |
-| msdyn_committype             | 番号             | 番号           |
-| msdyn_committypename         | 番号             | 番号           |
-| msdyn_effort                 | 番号             | 番号           |
-| msdyn_effortcompleted        | 番号             | 番号           |
-| msdyn_effortremaining        | 番号             | 番号           |
-| msdyn_finish                 | 番号             | 番号           |
-| msdyn_plannedcost            | 番号             | 番号           |
-| msdyn_plannedcost_base       | 番号             | 番号           |
-| msdyn_plannedcostcontour     | 番号             | 番号           |
-| msdyn_plannedsales           | 番号             | 番号           |
-| msdyn_plannedsales_base      | 番号             | 番号           |
-| msdyn_plannedsalescontour    | 番号             | 番号           |
-| msdyn_plannedwork            | 番号             | 番号           |
-| msdyn_projectid              | 有効            | 番号           |
-| msdyn_projectidname          | 番号             | 番号           |
-| msdyn_projectteamid          | 番号             | 番号           |
-| msdyn_projectteamidname      | 番号             | 番号           |
-| msdyn_start                  | 番号             | 番号           |
-| msdyn_taskid                 | 番号             | 番号           |
-| msdyn_taskidname             | 番号             | 番号           |
-| msdyn_userresourceid         | 番号             | 番号           |
-
-### <a name="project-team-member"></a>プロジェクト チーム メンバー
-
-| 論理名                                     | 作成可能     | 編集可能     |
-|--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | 番号             | 番号           |
-| msdyn_creategenericteammemberwithrequirementname | 番号             | 番号           |
-| msdyn_deletestatus                               | 番号             | 番号           |
-| msdyn_deletestatusname                           | 番号             | 番号           |
-| msdyn_effort                                     | 番号             | 番号           |
-| msdyn_effortcompleted                            | 番号             | 番号           |
-| msdyn_effortremaining                            | 番号             | 番号           |
-| msdyn_finish                                     | 番号             | 番号           |
-| msdyn_hardbookedhours                            | 番号             | 番号           |
-| msdyn_hours                                      | 番号             | 番号           |
-| msdyn_markedfordeletiontimer                     | 番号             | 番号           |
-| msdyn_markedfordeletiontimestamp                 | 番号             | 番号           |
-| msdyn_msprojectclientid                          | 番号             | 番号           |
-| msdyn_percentage                                 | 番号             | 番号           |
-| msdyn_requiredhours                              | 番号             | 番号           |
-| msdyn_softbookedhours                            | 番号             | 番号           |
-| msdyn_start                                      | 番号             | 番号           |
-
-### <a name="project"></a>Project
-
-| 論理名                           | 作成可能     | 編集可能     |
-|----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | 番号             | 番号           |
-| msdyn_actualexpensecost_base           | 番号             | 番号           |
-| msdyn_actuallaborcost                  | 番号             | 番号           |
-| msdyn_actuallaborcost_base             | 番号             | 番号           |
-| msdyn_actualsales                      | 番号             | 番号           |
-| msdyn_actualsales_base                 | 番号             | 番号           |
-| msdyn_contractlineproject              | 有効            | 番号           |
-| msdyn_contractorganizationalunitid     | 有効            | 番号           |
-| msdyn_contractorganizationalunitidname | 有効            | 番号           |
-| msdyn_costconsumption                  | 番号             | 番号           |
-| msdyn_costestimateatcomplete           | 番号             | 番号           |
-| msdyn_costestimateatcomplete_base      | 番号             | 番号           |
-| msdyn_costvariance                     | 番号             | 番号           |
-| msdyn_costvariance_base                | 番号             | 番号           |
-| msdyn_duration                         | 番号             | 番号           |
-| msdyn_effort                           | 番号             | 番号           |
-| msdyn_effortcompleted                  | 番号             | 番号           |
-| msdyn_effortestimateatcompleteeac      | 番号             | 番号           |
-| msdyn_effortremaining                  | 番号             | 番号           |
-| msdyn_finish                           | 有効            | 有効          |
-| msdyn_globalrevisiontoken              | 番号             | 番号           |
-| msdyn_islinkedtomsprojectclient        | 番号             | 番号           |
-| msdyn_islinkedtomsprojectclientname    | 番号             | 番号           |
-| msdyn_linkeddocumenturl                | 番号             | 番号           |
-| msdyn_msprojectdocument                | 番号             | 番号           |
-| msdyn_msprojectdocumentname            | 番号             | 番号           |
-| msdyn_plannedexpensecost               | 番号             | 番号           |
-| msdyn_plannedexpensecost_base          | 番号             | 番号           |
-| msdyn_plannedlaborcost                 | 番号             | 番号           |
-| msdyn_plannedlaborcost_base            | 番号             | 番号           |
-| msdyn_plannedsales                     | 番号             | 番号           |
-| msdyn_plannedsales_base                | 番号             | 番号           |
-| msdyn_progress                         | 番号             | 番号           |
-| msdyn_remainingcost                    | 番号             | 番号           |
-| msdyn_remainingcost_base               | 番号             | 番号           |
-| msdyn_remainingsales                   | 番号             | 番号           |
-| msdyn_remainingsales_base              | 番号             | 番号           |
-| msdyn_replaylogheader                  | 番号             | 番号           |
-| msdyn_salesconsumption                 | 番号             | 番号           |
-| msdyn_salesestimateatcompleteeac       | 番号             | 番号           |
-| msdyn_salesestimateatcompleteeac_base  | 番号             | 番号           |
-| msdyn_salesvariance                    | 番号             | 番号           |
-| msdyn_salesvariance_base               | 番号             | 番号           |
-| msdyn_scheduleperformance              | 番号             | 番号           |
-| msdyn_scheduleperformancename          | 番号             | 番号           |
-| msdyn_schedulevariance                 | 番号             | 番号           |
-| msdyn_taskearlieststart                | 番号             | 番号           |
-| msdyn_teamsize                         | 番号             | 番号           |
-| msdyn_teamsize_date                    | 番号             | 番号           |
-| msdyn_teamsize_state                   | 番号             | 番号           |
-| msdyn_totalactualcost                  | 番号             | 番号           |
-| msdyn_totalactualcost_base             | 番号             | 番号           |
-| msdyn_totalplannedcost                 | 番号             | 番号           |
-| msdyn_totalplannedcost_base            | 番号             | 番号           |
-
-### <a name="project-bucket"></a>プロジェクト バケット
-
-| 論理名          | 作成可能      | 編集可能     |
-|-----------------------|-----------------|--------------|
-| msdyn_displayorder    | 有効             | 番号           |
-| msdyn_name            | 有効             | 有効          |
-| msdyn_project         | 有効             | 番号           |
-| msdyn_projectbucketid | 有効             | 番号           |
-
-## <a name="limitations-and-known-issues"></a>制限事項と既知の問題
 以下は、制限事項と既知の問題のリストです。
 
-- プロジェクト スケジュール API は、**Microsoft Project のライセンスを持つユーザー** のみが使用できます。 次のユーザーは使用できません:
+-   プロジェクト スケジュール API は、**Microsoft Project のライセンスを持つユーザー** のみが使用できます。 次のユーザーは使用できません:
+    -   アプリケーション ユーザー
+    -   システム ユーザー
+    -   統合ユーザー
+    -   必要なライセンスを持っていない他のユーザー
+-   各 **OperationSet** に割り当てられるのは最大 100 件の操作までです。
+-   各ユーザーが持つことができるのは、最大 10 件のオープン **OperationSet** です。
+-   Project Operations は現在、プロジェクトで最大 500 件の合計タスクをサポートしています。
+-   リソース割り当て配分型の各更新オペレーションは、1 つのオペレーションとしてカウントされます。
+-   更新された配分型の各リストには、最大 100 のタイム スライスを含めることができます。
+-   **OperationSet** 障害ステータスと障害ログは現在利用できません。
+-   プロジェクトごとに最大 400 のスプリントがあります。
+-   [プロジェクトとタスクの制限と境界](/project-for-the-web/project-for-the-web-limits-and-boundaries)。
+-   ラベルは現在、Project for the Web でのみ利用可能です。
 
-    - アプリケーション ユーザー
-    - システム ユーザー
-    - 統合ユーザー
-    - 必要なライセンスを持っていない他のユーザー
+**エラー処理**
 
-- 各 **OperationSet** に割り当てられるのは最大 100 件の操作までです。
-- 各ユーザーが持つことができるのは、最大 10 件のオープン **OperationSet** です。
-- Project Operations は現在、プロジェクトで最大 500 件の合計タスクをサポートしています。
-- **OperationSet** 障害ステータスと障害ログは現在利用できません。
-- [プロジェクトとタスクの制限と境界](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   操作セットから生成されたエラーを確認するには、**設定** \> **スケジュールの統合** \> **操作セット** にアクセスしてください。
+-   プロジェクト スケジュール サービスから生成されたエラーを確認するには、**設定**\>**スケジュールの統合**\>**PSS エラーログ** にアクセスしてください。
 
-## <a name="error-handling"></a>エラー処理
+**リソース割り当て配分型の編集**
 
-- 操作セットから生成されたエラーを確認するには、**設定** \> **スケジュールの統合** \> **操作セット** にアクセスしてください。
-- プロジェクト スケジュール サービスから生成されたエラーを確認するには、**設定**\>**スケジュールの統合**\>**PSS エラーログ** にアクセスしてください。
+エンティティを更新する他のすべてのプロジェクト スケジューリング API とは異なり、リソース割り当て配分型 API は、1 つのエンティティ、msydn_resourceassignment の 1 つのフィールド msdyn_plannedwork の更新のみを担当します。
 
-## <a name="sample-scenario"></a>シナリオ例
+指定されたスケジュール モードは次のとおりです。
+
+-   **固定単位**
+-   プロジェクト カレンダーは9時から5時で、月曜日、火曜日、木曜日、金曜日 (水曜日は休み)
+-   リソース カレンダーは月曜から金曜の 9 時から 1 時まで (PST)
+
+この課題は 1 週間、1 日 4 時間です。 これは、リソース カレンダーが 9時から 1 時まで (PST) (1 日 4 時間) であるためです。
+
+| &nbsp;     | Task | Start Date | 終了日付  | 品質 | 2022/6/13 | 2022/6/14 | 2022/6/15 | 2022/6/16 | 2022/6/17 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1 ワーカー |  T1  | 2022/6/13  | 2022/6/17 | 20       | 4         | 4         | 4         | 4         | 4         |
+
+たとえば、ワーカーが今週 1 日 3 時間だけ働くようにし、1 時間は他のタスクに使用できるようにする場合です。
+
+#### <a name="updatedcontours-sample-payload"></a>UpdatedContours のサンプル ペイロード
+
+```json
+[{
+
+"minutes":900.0,
+
+"start":"2022-06-13T00:00:00-07:00",
+
+"end":"2022-06-18T00:00:00-07:00"
+
+}]
+```
+
+これは、Update Contour Schedule API が実行された後の割り当てです。
+
+| &nbsp;     | Task | Start Date | 終了日付  | 品質 | 2022/6/13 | 2022/6/14 | 2022/6/15 | 2022/6/16 | 2022/6/17 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| 9-1 ワーカー | T1   | 2022/6/13  | 2022/6/17 | 15       | 3         | 3         | 3         | 3         | 3         |
+
+
+**シナリオ例**
 
 このシナリオでは、プロジェクト、チームメンバー、4 つのタスク、および 2 つのリソース割り当てを作成します。 次に、1 つのタスクを更新し、プロジェクトを更新し、1 つのタスクを削除し、1 つのリソース割り当てを削除して、タスクの依存関係を作成します。
 
@@ -333,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-## <a name="additional-samples"></a>追加の例
+** 追加の例
 
 ```csharp
 #region Call actions --- Sample code ----

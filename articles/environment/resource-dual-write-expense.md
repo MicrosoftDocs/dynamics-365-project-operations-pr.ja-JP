@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: da37adcf63a10b9f245283d377e70fd08b3aa9c5
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029215"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9527997"
 ---
 # <a name="expense-management-integration"></a>経費管理統合
 
@@ -34,7 +34,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 
 ## <a name="expense-reports"></a>経費報告書
 
-経費報告書は、財務と運用アプリで作成および承認されます。 詳細については、[Dynamics 365 Project Operationsで経費報告書を作成して処理する](/learn/modules/create-process-expense-reports/)を参照してください。 経費報告書はプロジェクト マネージャーによって承認された後、総勘定元帳に転記されます。 Project Operations では、プロジェクト関連の経費報告書の明細は、特別な転記ルールを使用して転記されます。
+経費報告書は、財務と運用アプリで作成および承認されます。 詳細については、[Dynamics 365 Project Operationsで経費報告書を作成して処理する](/training/modules/create-process-expense-reports/)を参照してください。 経費報告書はプロジェクト マネージャーによって承認された後、総勘定元帳に転記されます。 Project Operations では、プロジェクト関連の経費報告書の明細は、特別な転記ルールを使用して転記されます。
 
   - プロジェクト関連のコスト (回収不能な税金を含む) は、総勘定元帳のプロジェクトの原価勘定にすぐには転記されるのではなく、費用統合勘定に転記されます。 この勘定は、**プロジェクト管理と会計** > **設定** > **プロジェクト管理と会計パラメーター**、**Dynamics 365 Customer engagement の Project Operations** タブで構成されます。
   - 二重書き込みは Dataverse に同期され、これは **Project Operations 統合 プロジェクト 経費エクスポート エンティティ (msdyn\_expenses)** テーブル マッピングを使用して行われます。

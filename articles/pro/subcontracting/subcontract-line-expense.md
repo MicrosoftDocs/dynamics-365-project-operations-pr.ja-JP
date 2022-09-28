@@ -2,20 +2,20 @@
 title: 経費カテゴリの外注品目
 description: この記事では、外注ラインを費用として記録し、フィールドを使用して仕入先からの時間の購入を記録する方法について説明します。
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7166642abc2187a53f7019639df6f0d7124f4765
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: ba1241ce40b7c5b488e278e8f1b8e9f352f45dc8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261846"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522613"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>経費カテゴリの外注品目
 
-_**適用対象:** ライト展開 - 見積もり請求の取引_
+_**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
 Dynamics 365 Project Operations の外注には、経費カテゴリの明細行を作成できます。 経費カテゴリの外注品目では、プロジェクト マネージャーが、プロジェクトに請求できるベンダーからサービスまたは製品のカテゴリを購入できます。
 

@@ -2,20 +2,20 @@
 title: 外注リソース割り当てのコスト見積もり
 description: この記事は、Microsoft Dynamics 365 Project Operations がどのように下請けリソース割り当てのコスト見積もりを計算する方法について説明します。
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a4d0707f8373b5083272eacb7dc1318e82a23ac
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9fded1baa63d2defc134994c858dfc6c09f75082
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262065"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522660"
 ---
 # <a name="cost-estimation-of-subcontracted-resource-assignments"></a>外注リソース割り当てのコスト見積もり
 
-_**適用対象:** ライト展開 - 見積もり請求の取引_
+_**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
 外注プロジェクト チームのメンバーのタスク割り当ては、関連するチームメンバーのレコードにある外注に添付された **購入** 価格表を使用してコストが計算されます。 これは、従業員リソースの割り当てが、プロジェクトの契約単位に添付されている **コスト** 価格表を使ってコスト計算される方法とは異なります。 
 

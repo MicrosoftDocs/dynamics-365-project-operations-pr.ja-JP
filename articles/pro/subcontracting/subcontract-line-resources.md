@@ -2,20 +2,20 @@
 title: 外注品目リソース
 description: この記事では、特定の外注行に対してベンダーが提供する専用リソースを指定する方法について説明します。
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d440201fde26e835b407db0b8ee1de8d663311a0
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 04e3e5ee70c50068304a8a6c8f7e93df48ed7e85
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261470"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522378"
 ---
 # <a name="subcontract-line-resources"></a>外注品目リソース
 
-_**適用対象:** ライト展開 - 見積もり請求の取引_
+_**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
 Dynamics 365 Project Operations では、ベンダーは、時間に対して外注品目で購入するリソース キャパシティを供給するために使用されるリソースを指定できます。
 
