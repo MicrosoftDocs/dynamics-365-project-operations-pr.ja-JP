@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 14fd22c7c863d650baebf1c7c2c96521d0bd207c
-ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.openlocfilehash: 359fcc2d31d4d90339870b93560685d77cb03fc8
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295837"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621947"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Project Service 3.x のリリース スケジュールの更新
 
@@ -37,7 +37,7 @@ ms.locfileid: "9295837"
 
 | Solution  | 最新バージョン |
 |-------|----|
-| Project Service Automation    | 3.10.76.168 |
+| Project Service Automation    | 3.10.78.8 |
 | Project Service Automation デスクトップ アドイン                | 3.60          |
 
 Project Service の更新については、[Dynamics 365 リリース計画](/dynamics365/release-plans/) を参照してください。 
@@ -45,30 +45,30 @@ Project Service の更新については、[Dynamics 365 リリース計画](/dy
 | ステーション  | リージョン | 現在のバージョン | 次のバージョン |  スケジュール日
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>ステーション 1</strong> | |  |  | |
-| | <i>最初のリリース</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022 年 8 月 26 日
+| | <i>最初のリリース</i> | [3.10.78.8](whats-new-ur-47.md)| TBD | 2022 年 10 月 7 日
 |<strong>ステーション 2</strong> | |  |  | |
-| | <i>南アメリカ</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022 年 9 月 2 日
-| | <i>カナダ</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022 年 9 月 2 日
-| | <i>インド</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022 年 9 月 2 日
-| | <i>フランス</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022 年 9 月 2 日
-| | <i>南アフリカ</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022 年 9 月 2 日
-| | <i>ドイツ</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022 年 9 月 2 日
-| | <i>スイス</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022 年 9 月 2 日
-| | <i>韓国</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022 年 9 月 2 日
-| | <i>ノルウェイ</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022 年 9 月 2 日
+| | <i>南アメリカ</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 年 10 月 14 日
+| | <i>カナダ</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 年 10 月 14 日
+| | <i>インド</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 年 10 月 14 日
+| | <i>フランス</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 年 10 月 14 日
+| | <i>南アフリカ</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 年 10 月 14 日
+| | <i>ドイツ</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 年 10 月 14 日
+| | <i>スイス</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 年 10 月 14 日
+| | <i>韓国</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 年 10 月 14 日
+| | <i>ノルウェイ</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 年 10 月 14 日
 |<strong>ステーション 3</strong> | |  |  | |
-| | <i>日本</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022 年 9 月 9 日
-| | <i>アジア太平洋</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022 年 9 月 9 日
-| | <i>英国</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022 年 9 月 9 日
-| | <i>オセアニア</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022 年 9 月 9 日
-| | <i>アラブ首長国連邦</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022 年 9 月 9 日
+| | <i>日本</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 年 10 月 21 日
+| | <i>アジア太平洋</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 年 10 月 21 日
+| | <i>英国</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 年 10 月 21 日
+| | <i>オセアニア</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 年 10 月 21 日
+| | <i>アラブ首長国連邦</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 年 10 月 21 日
 |<strong>ステーション 4</strong> | |  |  | |
-| | <i>欧州</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022 年 9 月 16 日
+| | <i>欧州</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 年 10 月 21 日
 |<strong>ステーション 5</strong> | |  |  | |
-| | <i>北アメリカ</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022 年 9 月 23 日
+| | <i>北アメリカ</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 年 11 月 4 日
 |<strong>ステーション 6</strong> | |  |  | |
-| | <i>政府コミュニティ クラウド</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022 年 9 月 21 日
-| | <i>専用スケール グループ</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 2022 年 9 月 30 日
+| | <i>政府コミュニティ クラウド</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 年 11 月 02 日
+| | <i>専用スケール グループ</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 2022 年 11 月 11 日
 
 
 

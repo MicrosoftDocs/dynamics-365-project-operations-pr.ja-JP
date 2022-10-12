@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: 新機能
       items:
-        - name: 2022 年 8 月 - リソース/非在庫ベースのシナリオ向け Project Operations
-          href: whats-new/whats-new-aug-2022-resource-based.md
+        - name: 2022 年 9 月 - リソース/非在庫ベースのシナリオ向け Project Operations
+          href: whats-new/whats-new-sept-2022-resource-based.md
         - name: アーカイブ
           items:
+            - name: 2022 年 8 月 - リソース/非在庫ベースのシナリオ向け Project Operations
+              href: whats-new/whats-new-aug-2022-resource-based.md
             - name: 2022 年 7 月 - リソース/非在庫ベースのシナリオ向け Project Operations
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: 2022 年 6 月 - リソース/非在庫ベースのシナリオ向け Project Operations
@@ -658,20 +660,22 @@
       items:
         - name: ライト展開の概要
           href: pro/project-operations-overview-lite.md
-        - name: プレビュー サブスクリプションにサインアップする (ライト)
+        - name: プレビュー サブスクリプションにサインアップする - ライト
           href: environment/lite-preview-subscription-sign-up.md
-        - name: Project Operations の展開 (ライト)
+        - name: Project Operations の展開 - ライト
           href: environment/lite-deployment.md
-        - name: デモの設定と構成データを適用する (ライト)
+        - name: デモの設定と構成データを適用する - ライト
           href: environment/lite-apply-demo-setup-config-data.md
         - name: セキュリティ モデル
           href: environment/security-model.md
     - name: 新機能
       items:
-        - name: 2022 年 8 月の新機能 - ライト展開
-          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: 2022 年 9 月の新機能 - ライト展開
+          href: pro/whats-new/whats-new-sept-2022-lite.md
         - name: アーカイブ
           items:
+            - name: 2022 年 8 月の新機能 - ライト展開
+              href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: 2022 年 7 月の新機能 - ライト展開
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: 2022 年 6 月の新機能 - ライト展開
@@ -1180,10 +1184,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: 新機能
       items:
-        - name: 2022 年 7 月の新機能 - 在庫/製造ベースのシナリオ向け Project Operations
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: 2022 年 9 月の新機能 - 在庫/製造ベースのシナリオ向け Project Operations
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
         - name: アーカイブ
           items:
+            - name: 2022 年 7 月の新機能 - 在庫/製造ベースのシナリオ向け Project Operations
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: 2022 年 6 月の新機能 - 在庫/製造ベースのシナリオ向け Project Operations
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: 2021 年 10 月の新機能 - 在庫/製造ベースのシナリオ向け Project Operations
@@ -1436,6 +1442,10 @@
       items:
         - name: Project Service 3.x 更新プログラムのリリース スケジュール
           href: psa/version-history-ps.md
+        - name: 更新プログラム リリース 47、V3 の最新情報または変更事項
+          href: psa/whats-new-ur-47.md
+        - name: 更新プログラム リリース 45、V3 の最新情報または変更事項
+          href: psa/whats-new-ur-45.md
         - name: 更新プログラム リリース 44、V3 の最新情報または変更事項
           href: psa/whats-new-ur-44.md
         - name: 更新プログラム リリース 43、V3 の最新情報または変更事項

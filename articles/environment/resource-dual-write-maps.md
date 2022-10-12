@@ -6,12 +6,12 @@ ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
-ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
+ms.openlocfilehash: b86b9ecdc63989189c76dd8380024aa44c7641a5
+ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112435"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621087"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Project Operations 二重書き込みマッピングのバージョン
 
@@ -48,14 +48,14 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | プロジェクトの資金源 (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | プロビジョニングには必須ではありません。 ||
 | プロジェクト統合テーブルによる材料の見積もり (msdyn\_estimatelines) | 1.0.0.0 | プロビジョニングには必須ではありません。 ||
 | プロジェクトの仮発行請求書 V2 (invoices) | 1.0.0.3 | プロビジョニングには必須ではありません。 ||
-| Project Operations 統合実績 (msdyn_actuals) | 1.0.0.14 | プロビジョニングには必須ではありません。 ||
+| Project Operations 統合実績 (msdyn_actuals) | 1.0.0.15 | プロビジョニングには必須ではありません。 |10.0.29 またはそれ以降|
 | Project Operations 統合契約品目マイルストーン (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | プロビジョニングには必須ではありません。 ||
 | Project Operations 統合の経費見積のエンティティ (msdyn_estimatelines) | 1.0.0.2 | プロビジョニングには必須ではありません。 ||
 | Project Operations 統合の時間見積のエンティティ (msdyn_resourceassignments) | 1.0.0.5 | プロビジョニングには必須ではありません。 ||
 | Project Operations 統合プロジェクト経費エクスポート エンティティ (msdyn_expensecategories) | 1.0.0.1 | プロビジョニングには必須ではありません。 ||
 | Project Operations 統合プロジェクト経費エクスポート エンティティ (msdyn_expenses) | 1.0.0.3 | プロビジョニングには必須ではありません。 ||
-| Project Operations 統合プロジェクト ベンダー請求書のエクスポート エンティティ (msdyn_projectvendorinvoices) | 1.0.0.1 | プロビジョニングには必須ではありません。 |10.0.26 またはそれ以降|
-| Project Operations 統合プロジェクト ベンダー請求書明細のエクスポート エンティティ (msdyn_projectvendorinvoicelines) | 1.0.0.4 | プロビジョニングには必須ではありません。 | 10.0.26 またはそれ以降 |
+| Project Operations 統合プロジェクト ベンダー請求書のエクスポート エンティティ (msdyn_projectvendorinvoices) | 1.0.0.2 | プロビジョニングには必須ではありません。 |10.0.29 またはそれ以降|
+| Project Operations 統合プロジェクト ベンダー請求書明細のエクスポート エンティティ (msdyn_projectvendorinvoicelines) | 1.0.0.5 | プロビジョニングには必須ではありません。 | 10.0.29 またはそれ以降 |
 | すべての会社のプロジェクトのリソース ロール (bookableresourcecategories) | 1.0.0.1 | プロビジョニング時に Dynamics 365 Dataverse 環境に入力されるプロジェクト マネージャーとチーム メンバーのリソース ロールを同期するためには、テーブル マッピングの初期同期が必要です。 Dataverse は、初期の同期のための主要なソースです。 ||
 | プロジェクト タスク (msdyn_projecttasks) | 1.0.0.4 | プロビジョニングには必須ではありません。 ||
 | プロジェクト トランザクション カテゴリ (msdyn_transactioncategories) | 1.0.0.0 | プロビジョニングには必須ではありません。 ||

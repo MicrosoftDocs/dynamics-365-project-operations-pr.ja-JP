@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: eb658f8b0150d5d70e9ed090ff0e25e33eedd5a3
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9409941"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9622021"
 ---
 # <a name="project-operations-updates"></a>Project Operations の更新プログラム
 
@@ -47,24 +47,24 @@ Dataverse 環境における Project Operations の更新は毎月入手でき�
 | ステーション | リージョン | 現在のバージョン番号 | ライト展開の自動更新 | リソース/非在庫展開の自動更新 | 次のバージョン番号 | 次のバージョンを一般提供 |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | ステーション 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 最初のリリース         |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 9 月 9 日      |
+|   &nbsp;  | 最初のリリース         |  4.46.0.60      | Complete           | Complete            | TBD                 | 2022 年 10 月 7 日      |
 | ステーション 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 南アフリカ         |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 9 月 9 日       |
-|   &nbsp;  | カナダ                |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 9 月 9 日       |
-|   &nbsp;  | インド                 |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 9 月 9 日       |
-|   &nbsp;  | フランス                |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 9 月 9 日       |
-|   &nbsp;  | 南アフリカ          |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 9 月 9 日       |
-|   &nbsp;  | スイス           |  4.45.0.53      | Complete           | Complete            | TBD                 | 2022 年 9 月 9 日       |
+|   &nbsp;  | 南アフリカ         |  4.46.0.60      | Complete           | Complete            | TBD                 | 2022 年 10 月 14 日       |
+|   &nbsp;  | カナダ                |  4.46.0.60      | Complete           | Complete            | TBD                 | 2022 年 10 月 14 日       |
+|   &nbsp;  | インド                 |  4.46.0.60      | Complete           | Complete            | TBD                 | 2022 年 10 月 14 日       |
+|   &nbsp;  | フランス                |  4.46.0.60      | Complete           | Complete            | TBD                 | 2022 年 10 月 14 日       |
+|   &nbsp;  | 南アフリカ          |  4.46.0.60      | Complete           | Complete            | TBD                 | 2022 年 10 月 14 日       |
+|   &nbsp;  | スイス           |  4.46.0.60      | Complete           | Complete            | TBD                 | 2022 年 10 月 14 日       |
 | ステーション 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 日本                 |  4.45.0.53      | Complete      | Complete       | TBD                 | 2022 年 9 月 9 日       |
-|   &nbsp;  | アジア太平洋          |  4.45.0.53      | Complete      | Complete       | TBD                 | 2022 年 9 月 9 日       |
-|   &nbsp;  | 英国         |  4.45.0.53      | Complete      | Complete       | TBD                 | 2022 年 9 月 9 日       |
-|   &nbsp;  | オセアニア               |  4.45.0.53      | Complete      | Complete       | TBD                 | 2022 年 9 月 9 日       |
-|   &nbsp;  | アラブ首長国連邦  |  4.45.0.53      | Complete      | Complete       | TBD                 | 2022 年 9 月 9 日       |
+|   &nbsp;  | 日本                 |  4.46.0.60      | Complete      | Complete       | TBD                 | 2022 年 10 月 21 日       |
+|   &nbsp;  | アジア太平洋          |  4.46.0.60      | Complete      | Complete       | TBD                 | 2022 年 10 月 21 日       |
+|   &nbsp;  | 英国         |  4.46.0.60      | Complete      | Complete       | TBD                 | 2022 年 10 月 21 日       |
+|   &nbsp;  | オセアニア               |  4.46.0.60      | Complete      | Complete       | TBD                 | 2022 年 10 月 21 日       |
+|   &nbsp;  | アラブ首長国連邦  |  4.46.0.60      | Complete      | Complete       | TBD                 | 2022 年 10 月 21 日       |
 | ステーション 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 欧州                |  4.45.0.53      | Complete           | Complete            | TBD           | 2022 年 9 月 16 日       |
+|   &nbsp;  | 欧州                |  4.46.0.60      | Complete           | Complete            | TBD           | 2022 年 10 月 28 日       |
 | ステーション 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | 北アメリカ         |  4.45.0.53      | Complete           | Complete            | TBD           | 2022 年 9 月 16 日       |
+|   &nbsp;  | 北アメリカ         |  4.46.0.60      | Complete           | Complete            | TBD           | 2022 年 11 月 04 日       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>財務と運用アプリの環境におけるプロジェクト管理および会計のリリース スケジュール
 
