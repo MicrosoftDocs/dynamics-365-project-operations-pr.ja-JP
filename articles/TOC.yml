@@ -1534,6 +1534,14 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: Project Service Automation V3 の最新情報または変更事項
           href: psa/whats-new-changed-v3.md
+    - name: Project Service Automation のアップグレード (アプリ バージョン Project Operations ライト 4.x)
+      items:
+        - name: Project Service Automation から Project Operations へのアップグレード
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: Project Service Automation から Project Operations への機能変更
+          href: psa/psa-project-operations-changes.md
+        - name: Project Service Automation から Project Operations へのプロジェクト スケジューリング変換プロセス
+          href: psa/PSA-Upgrade-Project-Conversion.md
     - name: 実装の計画 (アプリ バージョン 3.x)
       items:
         - name: サンプル データのインストール
