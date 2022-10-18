@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 2cce7ae25f05258e8bf0bab9430324bc9b30e329
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: a02ac7a69489bc7974eb0e63c11fa5de74795b78
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621253"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634858"
 ---
 # <a name="whats-new-september-2022---project-operations-lite-deployment"></a>2022 年 9 月のニュース - Project Operations のライト展開
 
@@ -30,6 +30,7 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 | 請求と価格 | **タイムゾーンにとらわれない価格のデフォルト設定**<br>Project Operations では、すべてのプロジェクト実績にタイムゾーンに依存しない日付の概念が導入されました。 新しい分野、**取引日**、仕訳明細行と実績で使用できるようになり、トランザクションが発生した日付を格納するために使用されますが、その日付は協定世界時に変換されません。 この日付は、価格の不履行や請求書の作成などのダウンストリーム プロセスに使用されます。 | <p>[プロジェクト ベースの見積もりと実績のコスト単価を決定する](/dynamics365/project-operations/pro/pricing-costing/cost-price-resolution-sales)</p><p>[プロジェクト ベースの見積もりと実績の販売価格を決定する](/dynamics365/project-operations/pro/pricing-costing/sales-price-resolution-sales)</p> |
 | 請求と価格 | **Project Operations での有効日価格のオーバーライド**<br>日付有効価格の上書きは、価格リスト内の特定の価格を上書きしたり変更したりする方法です。 | [日付適用価格変更](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
 | 時間と経費 | **グローバル承認者**<br>この機能により、プロジェクト内のプロジェクトまたはチーム メンバーのステータスに関係なく、独立系ソフトウェア ベンダー (ISV) および一元化された承認が可能になります。 | [セキュリティと承認](/dynamics365/project-operations/approvals/approvals-security) |
+|プロジェクトの計画と追跡|**プロジェクト スケジュール API を使用して、スケジュール エンティティで操作を実行する** </br> </br>リソース割り当て配分型の編集 API を使用すると、開発者は、サポートされている日付範囲全体でタスク担当者の作業量をプログラムで指定して、より詳細な時間段階の作業計画を立てることができます。|[プロジェクト スケジュール API を使用して、スケジュール エンティティで操作を実行する](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="quality-updates"></a>品質更新プログラム
 

@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932072"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655194"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>WBS (作業分解構造) の作成
 
@@ -112,6 +112,18 @@ ms.locfileid: "8932072"
 Project Operations のスケジュールを使用して、タスク間に先行オペレーション関係を作成することができます。 **前のタスク** フィールドでは、タスクが依存するタスクを示す 1 つ以上の値を使用します。 タスクに先行オペレーション値が割り当てられている場合、そのタスクは、すべての先行オペレーション タスクが完了した後でのみ開始できます。 依存関係のため、タスクの計画された開始日は、先行オペレーション タスクが完了した日にリセットされます。
 
 タスク モードは、先行オペレーション/依存タスクの開始日と終了日に対して行われた更新には影響しません。
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>期間、リソース カレンダー、およびプロジェクト カレンダーがタスクに与える影響について理解する
+タスクの期間は、タスクの開始日の開始時刻と終了日の終了時刻の間の作業時間数として定義されます。   Project for the Web では、期間の測定単位が次のように定義されています。
+
+| **持続時間のメジャー** | **数量**|
+|----------------------------------------------------|----------------------|
+| 1 日あたりの時間 | 8 |
+| 1 週間あたりの時間数 |  40 |
+| 1 ヶ月あたりの日数 |  20 |
+
+割り当てられていないタスクは、プロジェクトのカレンダーを使用してスケジュールされます。 ただし、最初のリソース割り当て時に、リソースのカレンダーを尊重するようにタスクのスケジュールが更新されます。 割り当てのあるタスクに対するその後の変更は、プロジェクトの[スケジューリング モード](scheduling-modes.md)によって管理されます。 カレンダーがタスクに与える影響の詳細については、[Project for the Web のリソース カレンダー](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686)および[タスクの開始時間とプロジェクト!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)を参照してください。
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>ユーザー補助およびキーボード ショートカット
 

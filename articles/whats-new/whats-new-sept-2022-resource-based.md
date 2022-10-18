@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: ef8b4dd98d64dac1e2420f8e6a104258f126f112
-ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
+ms.openlocfilehash: 04b5f2f8223cdc80028860dd880dde314be244eb
+ms.sourcegitcommit: b3a70bc4f2850cff5c2b7114cff7bd61ec298143
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "9621248"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9634811"
 ---
 # <a name="whats-new-september-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>2022 年 9 月 のニュース - リソース/非在庫ベースのシナリオ向け Project Operations
 
@@ -35,6 +35,7 @@ _**適用対象:** リソース/非在庫ベースのシナリオ向け Project 
 | 経費管理 | **仕入先通貨で経費負債を転記する機能**<br>この機能は、現金支払方法機能のベンダー通貨で転記される経費報告書を有効にします。 | [仕入先通貨で経費負債を転記する機能](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 | プロジェクト調達 | **受給時支払のベンダー支払い**<br>この機能により、支払時に支払う (PWP) 機能を Project Operations の非在庫環境で使用できるようになります。 これにより、顧客から支払いを受け取るまで、保留条件に基づいてベンダーの支払いをブロック/保留できます。 | [受給時支払のベンダー支払い](/dynamics365/project-operations/procurement/pay-when-paid) |
 | プロジェクト調達 | **プロジェクト購買要求**<br>この機能により、ユーザーは、Dynamics 365 Customer Engagement 統合の Project Operations が有効になっている法人で、プロジェクト関連の発注書を作成できます。 プロジェクト発注書を使用して、調達部門のペルソナによるプロジェクトに対する非在庫資材調達を記録できます。 プロジェクトの発注書は Dataverse と同期されません。 ただし、仮想エンティティを使用して、プロジェクトの発注書明細行をプロジェクトマネージャー情報向けに Dataverse で表示できます。 プロジェクト関連の仕入先請求コストは、Dataverse でプロジェクト実績エンティティと統合されています。 プロジェクト コストは、Project Operations 統合仕訳帳を使用して、プロジェクトのサブ仕訳帳に記録されます。 | |
+|プロジェクトの計画と追跡|**プロジェクト スケジュール API を使用して、スケジュール エンティティで操作を実行する** </br> </br>リソース割り当て配分型の編集 API を使用すると、開発者は、サポートされている日付範囲全体でタスク担当者の作業量をプログラムで指定して、より詳細な時間段階の作業計画を立てることができます。|[プロジェクト スケジュール API を使用して、スケジュール エンティティで操作を実行する](/dynamics365/project-operations/project-management/schedule-api-preview)|
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Project Operations の二重書き込みのマッピングの更新
 
