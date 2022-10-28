@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: プロジェクト ステージ ビジネス プロセス フローをカスタマイズする方法を教えてください。
               href: psa/FAQ-customize-bpf.md
-            - name: WBS (作業分解構造) に関する考慮事項のアップグレード
-              href: psa/upgrade-considerations-tasks.md
         - name: ホワイト ペーパー
           href: psa/white-papers.md
         - name: 管理者ガイド
