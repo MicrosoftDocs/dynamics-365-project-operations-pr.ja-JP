@@ -6,12 +6,12 @@ ms.date: 08/29/2022
 ms.topic: security
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bc33f63f66bdcf1470e5d9386cfc3661774436fd
-ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
+ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9525364"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709403"
 ---
 # <a name="security-and-approvals"></a>セキュリティと承認
 
@@ -33,6 +33,6 @@ Microsoft Dynamics 365 Project Operations は、2 つのセキュリティ ロ�
 > [!NOTE]
 > プロジェクト承認者管理機能を使用する前に、[承認セット](approval-sets.md) 機能を有効にする必要があります。
 
-**プロジェクト承認者管理** セキュリティ ロールを使用すると、ユーザーはポリシーをバイパスし、すべてのプロジェクトでエントリを承認できます。 この役割を割り当てると、チーム メンバーシップと承認者としてのマークが必要な検証ロジックがバイパスされます。 **プロジェクト** のような関連する関連エンティティへのアクセス権が必要です。 そのアクセス権は、**プロジェクト管理者** ロールを持つ人に割り当てることができます。
+**プロジェクト承認者管理** セキュリティ ロールを使用すると、ユーザーはポリシーをバイパスし、すべてのプロジェクトでエントリを承認できます。 この役割を割り当てると、チーム メンバーシップと承認者としてのマークが必要な検証ロジックがバイパスされます。 自分に割り当てられたセキュリティ ロールによって、**プロジェクト** などの関連するテーブルにアクセスできる必要があります。
 
 SYSTEM ユーザー コンテキストは、プロジェクト承認者管理セキュリティ ロールと同じ方法で検証をバイパスします。
