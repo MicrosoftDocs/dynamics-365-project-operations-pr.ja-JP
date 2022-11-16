@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709450"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736672"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Project Service Automation から Project Operations へのアップグレード
 
@@ -97,7 +97,7 @@ Project Service Automation のアクティブなライセンスをご利用の�
     環境のデータ量によっては、アップグレードに数時間かかる場合があります。 アップグレードを管理しているコアチームは、状況に応じて計画を立て、非業務時間中にアップグレードを実行する必要があります。 場合によっては、データ量が多い場合は、週末にアップグレードを実行する必要があります。 スケジュール設定に関する決定は、下位環境でのテスト結果に基づいて実施する必要があります。
 
 3. 必要に応じてカスタム ソリューションをアップグレードします。 この時点では、この記事の [カスタマイズのテストとリファクタリング](#testing-and-refactoring-customizations) セクションでカスタマイズした内容を展開します。
-4. **設定**\>**ソリューション** にアクセスし、**Project Operations の非推奨コンポーネント** ソリューションを選択してアンインストールします。
+4. **make.powerapps.com** に移動し、ポータルの右上にあるドロップ ダウンから環境を選択し、左側のメニューから **ソリューション** を選択し、**Project Operations 非推奨のコンポーネント** ソリューションと **アンインストール** を選択します。
 
     このソリューションは、アップグレード時に存在する既存のデータ モデルとコンポーネントを保持する一時的なソリューションです。 このソリューションを削除することで、使用されなくなったフィールドやコンポーネントをすべて削除します。 そうすることで、インターフェースを簡素化し、統合や拡張を容易にすることができます。
     
