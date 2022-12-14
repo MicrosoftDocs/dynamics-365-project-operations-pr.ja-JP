@@ -1,23 +1,23 @@
 ---
-title: プロジェクトとタスクをプロジェクトベースの見積依頼明細行にマップする
-description: この記事では、プロジェクトとタスクをマッピングして、プロジェクトベースのタスク ラインを作成する方法について説明します。
+title: プロジェクトとタスクをプロジェクトの見積依頼明細行にマップする
+description: この記事では、プロジェクトとタスクをマッピングして、プロジェクトの見積も明細行を作成する方法について説明します。
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917168"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824281"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>プロジェクトとタスクをプロジェクトベースの見積依頼明細行にマップする
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>プロジェクトとタスクをプロジェクトの見積依頼明細行にマップする
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 
-プロジェクトベースの見積明細行では、見積依頼明細行にすでに関連付けられているプロジェクトの特定のタスクをマップできます。
+プロジェクトの見積明細行では、見積依頼明細行にすでに関連付けられているプロジェクトの特定のタスクをマップできます。
 
 タスクを見積依頼明細行にマップする場合、見積依頼明細行で定義した次の項目は、それらのタスクにのみ適用されます。
 

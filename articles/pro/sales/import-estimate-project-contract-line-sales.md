@@ -1,21 +1,21 @@
 ---
-title: 見積もりをプロジェクトベースの契約品目にインポートする (ライト)
+title: プロジェクトからプロジェクト契約品目への見積もりのインポート
 description: この記事では、プロジェクトから契約品目に財務見積もりをインポートする方法について説明します。
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 73ae0ccbb5372c9dfbc28ac154094c89add0913d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924206"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824680"
 ---
-# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>見積もりをプロジェクトベースの契約品目にインポートする (ライト)
+# <a name="import-estimates-from-a-project-to-a-project-contract-line"></a>プロジェクトからプロジェクト契約品目への見積もりのインポート
 
-_**適用対象:** ライト展開 - 見積もり請求の取引_
+_**適用対象:** ライト展開 - リソース/非在庫シナリオに使用する Project Operations、プロフォーマ インボイスへの対応_ _
 
 Dynamics 365 Project Operations では、プロジェクトの見積もりをプロジェクトベースの契約品目にインポートできます。
 

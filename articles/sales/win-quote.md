@@ -1,23 +1,23 @@
 ---
-title: 見積もりのクローズ
+title: プロジェクトベースの見積もりのクローズ
 description: この記事では、Project Operations での見積のクローズについて説明します。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 45bdfe5fb9eddb8f96ed1bc017596c8fe436245e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b35417d4258a1e837fdf7a61bbcc303ec04a900
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931888"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824223"
 ---
-# <a name="close-a-quote"></a>見積もりをクローズする
+# <a name="close-project-based-quotes"></a>プロジェクトベースの見積もりのクローズ
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-プロジェクトの見積もりは、受注または失注としてクローズすることができます。 Microsoft Dynamics 365 Project Operations では、見積もりについて [アクティブ化および改訂] 機能がサポートされていないため、見積もりの下書きをクローズすることができます。
+プロジェクトの見積もりは、**受注** または **失注** としてクローズすることができます。 
 
 ## <a name="close-a-quote-as-won"></a>受注として見積もりをクローズする
 

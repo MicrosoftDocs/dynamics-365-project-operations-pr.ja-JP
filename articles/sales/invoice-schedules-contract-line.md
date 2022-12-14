@@ -1,19 +1,19 @@
 ---
-title: プロジェクトベースの契約品目で請求スケジュールを作成する
+title: プロジェクトベースの契約品目の請求スケジュールを作成する
 description: この記事では、請求書のスケジュールとマイルストーンを契約品目に作成する方法について説明します。
 author: rumant
 ms.date: 10/17/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 490a61b67f54bdad95ecfce905191c381dddc85b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: afc6357b7b221b91674035ae3181ef84eed8d586
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8915006"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825103"
 ---
-# <a name="create-an-invoice-schedule-on-a-project-based-contract-line"></a>プロジェクトベースの契約品目で請求スケジュールを作成する 
+# <a name="create-invoice-schedules-on-a-project-based-contract-line"></a>プロジェクトベースの契約品目の請求スケジュールを作成する
 
 _**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
