@@ -1,19 +1,19 @@
 ---
-title: プロジェクト契約の複数の顧客を管理する
-description: この記事では、プロジェクト契約において複数の顧客を管理する方法について説明します。
+title: プロジェクトベースの契約の複数の顧客を管理する
+description: この記事では、プロジェクト ベースの契約において複数の顧客を管理する方法について説明します。
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1aae178830d7b671c33295ca6d2910ee4be2f8dd
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928346"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825384"
 ---
-# <a name="manage-multiple-customers-on-project-contracts"></a>プロジェクト契約の複数の顧客を管理する
+# <a name="manage-multiple-customers-on-project-based-contracts"></a>プロジェクトベースの契約の複数の顧客を管理する
 
 この記事では、プロジェクト契約において複数の顧客を管理する方法について説明します。 取引の資金調達に複数の顧客による契約上の合意が必要な場合、プロジェクト契約を使用できます。 **プロジェクト契約** ページの **概要** タブは、取引の主要顧客に関する情報を含みます。 取引に参加する他の顧客を **顧客** タブに追加できます。
 

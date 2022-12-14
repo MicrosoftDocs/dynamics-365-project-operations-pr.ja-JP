@@ -1,5 +1,5 @@
 ---
-title: 見積もりのクローズ - Lite
+title: プロジェクト見積もりのクローズ
 description: この記事では、Project Operations での見積のクローズについて説明します。
 author: rumant
 ms.date: 10/01/2020
@@ -7,14 +7,14 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e3a199843f379dc53d63372f91e8be2e1bcbf4e9
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 4335fa5467640af840c0f68a648c9b8a6864d834
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916938"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826181"
 ---
-# <a name="close-a-quote---lite"></a>見積もりのクローズ - Lite
+# <a name="close-project-quotes"></a>プロジェクト見積もりのクローズ
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 
@@ -30,7 +30,7 @@ _**適用対象:** ライト展開 - 見積もり請求の取引_
 
 下書きの見積もりに添付されたままのプロジェクトの時間の実績がある場合、時間または経費のコストのみが記録されます。 見積もりが受注としてクローズされた後、アプリケーションは、古いコスト実績を元に戻し、新しいコスト実績を再作成することにより、コストをリファクタリングします。 アプリケーションは、関連するプロジェクト契約品目の請求方法に基づいて、これらのコスト実績を処理します。 原価実績が時間と材料の契約品目を参照している場合、見積もりがクローズされてプロジェクト契約が作成されると、対応する未請求の販売実績が作成されます。 原価実績が固定価格契約品目を参照している場合、アプリケーションは、プロジェクト契約顧客の分割請求ルールに基づく原価実績の再処理を停止します。
 
-## <a name="closing-a-quote-as-lost"></a>失注として見積もりをクローズする:
+## <a name="closing-a-quote-as-lost"></a>失注として見積もりをクローズする
 
 プロジェクト見積もりを [失注] として閉じると、ステータスが [クローズ済み] に設定され、ステータス理由も [失注] になります。 見積もりを閉じると、プロジェクトの見積もりは読み取り専用になります。 クローズ済みの見積もりは再度オープンできないため、見積もりをクローズする前に、確認ダイアログで変更を確認します。
 

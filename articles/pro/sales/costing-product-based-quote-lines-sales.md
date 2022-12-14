@@ -1,21 +1,21 @@
 ---
 title: 製品原価計算ベースの見積依頼明細行
 description: この記事では、製品ベースの見積ラインに原価を適用する方法について説明します。
-author: ruhercul
+author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: ruhercul
-ms.openlocfilehash: 23eb3d29081769347d62098534a9863fd28fa90c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.author: rumant
+ms.openlocfilehash: a8b3569ff217f6fc62606dae4292be14f9d3358c
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932578"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825617"
 ---
 # <a name="costing-product-based-quote-lines"></a>製品原価計算ベースの見積依頼明細行
 
-_**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
+_**適用対象:** ライト展開 - 見積もり請求の取引_
 
 
 Dynamics 365 Project Operations の製品ベースの見積もり行にも **原価** フィールドがあります。 このフィールドは、見積依頼明細行で製品の原価価格を追跡し、下位の利益性の計算をするために使用されます。

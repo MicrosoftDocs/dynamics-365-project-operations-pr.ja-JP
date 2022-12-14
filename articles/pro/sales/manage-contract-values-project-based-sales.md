@@ -1,19 +1,19 @@
 ---
-title: プロジェクトベースの契約品目の概要
-description: この記事では、プロジェクトベースの契約品目での作業に関する情報を提供します。
+title: プロジェクト契約品目の概要
+description: この記事では、Project Operations でのプロジェクト契約品目の操作に関する情報を提供します。
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d32edac6537a4b0f51e9d2f72cb4a7342606d2c5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f5a529233692a39b0674417cd4ea225e40243086
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931428"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824632"
 ---
-# <a name="project-based-contract-lines-overview"></a>プロジェクトベースの契約品目の概要
+# <a name="project-contract-lines-overview"></a>プロジェクト契約品目の概要
 
 _**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
 

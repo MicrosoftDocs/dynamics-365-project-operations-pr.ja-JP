@@ -1,23 +1,23 @@
 ---
-title: プロジェクト見積もりの複数の顧客を管理する
+title: プロジェクトベースの見積もりの複数の顧客を管理する
 description: この記事では、プロジェクトに資金を提供する複数の顧客が関わる見積もり作業についてご紹介します。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928208"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825154"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>プロジェクト見積もりの複数の顧客を管理する
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>プロジェクトベースの見積もりの複数の顧客を管理する
 
-_**適用対象 :** リソース/非在庫ベースのシナリオに使用するプロジェクト オペレーション、見積請求に対応する小規模のデプロイ_
+_**適用対象:** リソース/非在庫ベースのシナリオ向け Project Operations_
 
-プロジェクトの見積もりは、取引に資金を提供する複数の顧客を含む提案のシナリオをサポートします。 見積もりの **概要** タブには、取引の主要な顧客を識別する **見込み顧客** フィールドがあります。 プロジェクト見積もりの **顧客** タブで、取引の他の顧客を設定できます。
+プロジェクト ベースの見積もりは、取引に資金を提供する複数の顧客を含む提案のシナリオをサポートします。 見積もりの **概要** タブには、取引の主要な顧客を識別する **見込み顧客** フィールドがあります。 プロジェクト見積もりの **顧客** タブで、取引の他の顧客を設定できます。
 
 プロジェクト見積もりの **顧客** タブのすべての見積もり顧客は、プロジェクト見積もりのために作成された **新しい** プロジェクトベースの見積依頼明細行で見積依頼明細行の顧客として既定設定されます。 既存のプロジェクトベースの見積依頼明細行は、その後に作成された新しい見積もり顧客レコードを継承しません。
 

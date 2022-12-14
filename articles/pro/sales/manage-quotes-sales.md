@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911648"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826087"
 ---
 # <a name="manage-project-quotes"></a>プロジェクト見積もりの管理
 
@@ -23,7 +23,7 @@ Dynamics 365 Project Operations では、プロジェクト見積が、プロジ
   - 各上位レベルのコンポーネントまたは見積明細行の作業を識別して見積もる見積明細行の詳細。 作業のスケジュールまたは日付見積、および財務的な側面は、その見積明細行に関連づけられています。
   - 契約モデルと課金可能コンポーネントは、見積明細行ごとに設定されます。 この設定をすることで、各見積品目の収益、費用、利益のスプレッドと見積書全体の見積もりを行うことができます。
 
-## <a name="view-all-project-based-quotes"></a>プロジェクトベースの見積をすべて表示する
+## <a name="view-all-project-quotes"></a>プロジェクトの見積をすべて表示する
 
 すべてのプロジェクトの **見積もり** の一覧は、見積つもり一覧のページから確認できます。 
 

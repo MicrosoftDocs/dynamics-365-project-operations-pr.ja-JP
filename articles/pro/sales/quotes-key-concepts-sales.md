@@ -1,17 +1,17 @@
 ---
-title: 見積もり - 重要な概念 - Lite
+title: プロジェクト見積もり固有の概念
 description: この記事では、Project Operations でのプロジェクト見積に関する情報を提供します。
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916984"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825899"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>プロジェクト見積もり固有の概念
 
@@ -82,9 +82,13 @@ Project Operations は、次の 4 種類のトランザクション クラスを
 
 Project Operations の見積もりは、Dynamics 365 Sales の見積もりに基づいて構築されています。 ただし、機能にはいくつかの重要な相違点があることに注意する必要があります。
 
-- **変更** および **ライセンス認証** アクションはサポートされていません。
+
 - Project Operations の見積もりには、2つの異なるタイプの品目があります。 1 つはプロジェクト用で、もう一方は製品用です。
 - Project Operations の見積もりには、独自のフォームと UI 要素、業務ルール、プラグインのビジネス ロジック、および販売見積もりとは異なるクライアント側のスクリプトがあります。
+- 営業見積もりでは、1 つの営業見積もりに複数の注文を添付することができます。 Project Operations では、プロジェクトの見積もりに添付できるプロジェクト契約は 1 つだけです。
+- 営業見積もりを獲得した場合、関連する営業案件はオープン状態のままにすることができます。 プロジェクト見積が成立すると、関連する営業案件はクローズします。
+- 営業見積もりには、プロジェクト見積もりに含まれるいくつかのフィールドやコンセプトが含まれません。 フィールドには **契約単位**、**取引先企業管理者**、**請求先担当者名** が含まれます。  
+- **タイプ**: 営業やプロジェクトの見積書は、オプションセット ベースのフィールドである **タイプ** で識別されます。 販売見積の場合、このフィールドの値は **品目ベース** です。 プロジェクト見積の場合、このフィールドの値は **作業ベース** です。
 
 これらの理由から、販売見積もりと Project Operations 見積もりを同じ意味で使用することはお勧めしません。
 

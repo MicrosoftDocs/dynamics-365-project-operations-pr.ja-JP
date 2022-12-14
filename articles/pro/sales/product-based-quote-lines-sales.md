@@ -1,19 +1,19 @@
 ---
-title: 製品ベースの見積依頼明細行の概要 - Lite
+title: 製品ベースの見積依頼明細行の概要
 description: この記事では、製品ベースの契約品目での作業に関する情報を提供します。
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: db0700e789202a8fdd0ef3b49959421ac54fb9ad
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a260c0f51cc2d958281dbc6f0f711347cab85a9a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914316"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826228"
 ---
-# <a name="product-based-quote-lines-overview---lite"></a>製品ベースの見積依頼明細行の概要 - Lite
+# <a name="product-based-quote-lines-overview"></a>製品ベースの見積依頼明細行の概要
 
 _**適用対象:** ライト展開 - 見積もり請求の取引_
 

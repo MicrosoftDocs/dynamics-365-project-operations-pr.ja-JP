@@ -1,19 +1,19 @@
 ---
-title: 見積依頼明細行の請求可能コンポーネントを構成する
+title: プロジェクト見積依頼明細行の請求可能コンポーネントを構成する
 description: この記事では、プロジェクト ベースの見積明細に課金対象および非課金対象のコンポーネントを設定する方法について説明します。
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d4829055f429546c7911a05a765bc28ae085afa1
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1e454278a1c5c24ac346c537c778b25448d9ea03
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930048"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825523"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>見積依頼明細行の請求可能コンポーネントを構成する 
+# <a name="configure-chargeable-components-on-project-quote-lines"></a>プロジェクト見積依頼明細行の請求可能コンポーネントを構成する
 
 _**適用対象:** ライト展開 - 見積請求、リソース/非在庫ベースのシナリオ向けの Project Operations_
 

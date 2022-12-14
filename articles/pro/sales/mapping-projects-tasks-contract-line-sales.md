@@ -1,23 +1,23 @@
 ---
-title: プロジェクトとタスクをプロジェクトベースの契約品目にマップする - Lite
+title: プロジェクト契約品目へのプロジェクトとタスクのマップ
 description: この記事では、プロジェクトとタスクを契約品目に追加/削除する方法について説明します。
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c8075e3161acd904969f964e5ab32dfe04edc4b6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 45118bb5a36203a3121a5f7ada0992d2c2491a4a
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932532"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825064"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>プロジェクトとタスクをプロジェクトベースの契約品目にマップする 
+# <a name="map-projects-and-tasks-to-a-project-contract-line"></a>プロジェクト契約品目へのプロジェクトとタスクのマップ 
 
 _**適用対象:** ライト展開 - 見積請求、リソース/非在庫ベースのシナリオ向けの Project Operations_
 
-プロジェクトベースの契約品目では、プロジェクト内の特定のタスクを契約品目にマップできます。
+プロジェクト契約品目では、プロジェクト内の特定のタスクを契約品目にマップできます。
 
 特定のタスクを契約品目にマップする場合、契約品目で定義された請求方法、課金オプション、上限、および顧客は、それらの特定のタスクにのみ適用されます。
 
@@ -25,7 +25,7 @@ _**適用対象:** ライト展開 - 見積請求、リソース/非在庫ベー
 
 プロジェクトの作業分解図 (WBS) の他のすべてのフェーズは、時間および材料ベースの契約品目に関連付けることができます。
 
-## <a name="associate-tasks-to-project-based-contract-lines"></a>プロジェクトベースの契約品目にタスクを関連付ける
+## <a name="associate-tasks-to-project-contract-lines"></a>プロジェクト契約品目にタスクを関連付ける
 
 タスクは、**契約品目** ページの **請求可能タスク** タブ、または **プロジェクト** ページの **タスクの請求** タブから契約品目に関連付けることができます。
 
