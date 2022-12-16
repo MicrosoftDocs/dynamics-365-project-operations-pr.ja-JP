@@ -846,7 +846,7 @@
               items:
                 - name: 前払金および着手金ベースの契約
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: 着手金のスケジュール設定着手金のスケジュール設定
+                - name: 着手金スケジュールの設定
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: プロジェクト契約のアドホック前払いを作成する
                   href: pro/sales/create-ad-hoc-advance-sales.md
